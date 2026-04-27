@@ -36,6 +36,15 @@ NUMBER_ICON_SOURCES = {
     "damage_or_heal": Path(r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Svg number icons\shapes\2764.svg"),
 }
 
+NUMBER_ICON_ANCHORS = {
+    "2762": (5.95, 13.225),
+    "2763": (7.275, 6.7),
+    "2764": (7.15, 12.475),
+    "2765": (7.3, 11.55),
+    "2766": (8.975, 11.65),
+    "2767": (7.3, 12.4),
+}
+
 TOP_ICON_IDS = (
     "2777",
     "2779",
@@ -79,7 +88,12 @@ def number_overrides(ability: dict) -> dict[str, dict]:
     value_kind = ability.get("value_kind") or ""
     icon_source = NUMBER_ICON_SOURCES.get(value_kind)
     if icon_source:
-        overrides["damage_type_icon"] = {"source": str(icon_source)}
+        anchor_x, anchor_y = NUMBER_ICON_ANCHORS.get(icon_source.stem, (0, 0))
+        overrides["damage_type_icon"] = {
+            "source": str(icon_source),
+            "anchorX": anchor_x,
+            "anchorY": anchor_y,
+        }
 
     return overrides
 
