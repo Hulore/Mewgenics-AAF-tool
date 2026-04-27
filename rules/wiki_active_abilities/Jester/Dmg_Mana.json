@@ -35,6 +35,12 @@
         "mana": "1",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\jester_abilities.gon"
       }
     },
     {
@@ -68,6 +74,12 @@
         "mana": "1",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\jester_abilities.gon"
       }
     }
   ]

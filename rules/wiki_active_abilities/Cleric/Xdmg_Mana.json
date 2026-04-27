@@ -35,6 +35,12 @@
         "mana": "5",
         "hit_count": 2,
         "hit_value": "?"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     }
   ]

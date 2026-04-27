@@ -35,6 +35,12 @@
         "mana": "8",
         "hit_count": 1,
         "hit_value": "?"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
       }
     },
     {
@@ -68,6 +74,12 @@
         "mana": "12",
         "hit_count": 1,
         "hit_value": "5"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
       }
     },
     {
@@ -101,6 +113,12 @@
         "mana": "9",
         "hit_count": 2,
         "hit_value": "3"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
       }
     },
     {
@@ -134,6 +152,12 @@
         "mana": "9",
         "hit_count": 2,
         "hit_value": "5"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
       }
     }
   ]

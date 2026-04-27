@@ -35,6 +35,12 @@
         "mana": "4",
         "hit_count": 1,
         "hit_value": "2"
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
       }
     },
     {
@@ -68,6 +74,12 @@
         "mana": "3",
         "hit_count": 1,
         "hit_value": "2"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\special_enemy_abilities.gon"
       }
     },
     {
@@ -101,6 +113,12 @@
         "mana": "10",
         "hit_count": 1,
         "hit_value": "10"
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
       }
     },
     {
@@ -134,6 +152,12 @@
         "mana": "3",
         "hit_count": 1,
         "hit_value": "2"
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
       }
     },
     {
@@ -167,6 +191,12 @@
         "mana": "3",
         "hit_count": 1,
         "hit_value": "2"
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
       }
     },
     {
@@ -200,6 +230,12 @@
         "mana": "4",
         "hit_count": 1,
         "hit_value": "2"
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
       }
     },
     {
@@ -233,6 +269,12 @@
         "mana": "5",
         "hit_count": 1,
         "hit_value": "2"
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
       }
     },
     {
@@ -266,6 +308,12 @@
         "mana": "3",
         "hit_count": 1,
         "hit_value": "2"
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
       }
     }
   ]

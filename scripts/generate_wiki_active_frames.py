@@ -93,11 +93,13 @@ def load_top_icon_rules(path: Path) -> dict[str, dict]:
 def ability_top_icon(ability: dict, top_icon_rules: dict[str, dict], top_icon_shapes_dir: Path) -> dict:
     overrides = {f"top_active_icon_{svg_id}": {"visible": False} for svg_id in TOP_ICON_IDS}
 
-    manifest = ability.get("manifest") or {}
-    ability_id = manifest.get("ability_id") or ""
-    icon_data = top_icon_rules.get(ability_id)
-    if not icon_data and ability_id.endswith("2"):
-        icon_data = top_icon_rules.get(ability_id[:-1])
+    icon_data = ability.get("top_icon") or {}
+    if not icon_data:
+        manifest = ability.get("manifest") or {}
+        ability_id = manifest.get("ability_id") or ""
+        icon_data = top_icon_rules.get(ability_id)
+        if not icon_data and ability_id.endswith("2"):
+            icon_data = top_icon_rules.get(ability_id[:-1])
     if not icon_data:
         return overrides
 

@@ -35,6 +35,12 @@
         "mana": "7",
         "hit_count": 3,
         "hit_value": "3"
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
       }
     },
     {
@@ -68,6 +74,12 @@
         "mana": "6",
         "hit_count": 3,
         "hit_value": "4"
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
       }
     },
     {
@@ -101,6 +113,12 @@
         "mana": "8",
         "hit_count": 3,
         "hit_value": "2"
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
       }
     }
   ]

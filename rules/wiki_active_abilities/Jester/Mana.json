@@ -35,6 +35,12 @@
         "mana": "All",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\jester_abilities.gon"
       }
     },
     {
@@ -68,6 +74,12 @@
         "mana": "10",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\jester_abilities.gon"
       }
     },
     {
@@ -101,6 +113,12 @@
         "mana": "5",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "unknown",
+        "top_icon_svg_id": "2797",
+        "top_icon_svg": "2797.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\jester_abilities.gon"
       }
     }
   ]

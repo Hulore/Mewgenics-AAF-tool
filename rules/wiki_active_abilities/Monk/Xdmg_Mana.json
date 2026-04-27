@@ -35,6 +35,12 @@
         "mana": "15",
         "hit_count": 1,
         "hit_value": "10"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\monk_abilities.gon"
       }
     },
     {
@@ -68,6 +74,12 @@
         "mana": "5",
         "hit_count": 3,
         "hit_value": "2"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\monk_abilities.gon"
       }
     },
     {
@@ -101,6 +113,12 @@
         "mana": "5",
         "hit_count": 2,
         "hit_value": "4"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\monk_abilities.gon"
       }
     },
     {
@@ -134,6 +152,12 @@
         "mana": "5",
         "hit_count": 2,
         "hit_value": "7"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\monk_abilities.gon"
       }
     }
   ]

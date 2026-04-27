@@ -35,6 +35,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -68,6 +74,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -101,6 +113,12 @@
         "mana": "10",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -134,6 +152,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -167,6 +191,12 @@
         "mana": "3",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -200,6 +230,12 @@
         "mana": "2",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -233,6 +269,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -266,6 +308,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -299,6 +347,12 @@
         "mana": "8",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -332,6 +386,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -365,6 +425,12 @@
         "mana": "3",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -398,6 +464,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -431,6 +503,12 @@
         "mana": "3",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -464,6 +542,12 @@
         "mana": "10",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -497,6 +581,12 @@
         "mana": "10",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -530,6 +620,12 @@
         "mana": "5",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -563,6 +659,12 @@
         "mana": "3",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -596,6 +698,12 @@
         "mana": "8",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -629,6 +737,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -662,6 +776,12 @@
         "mana": "8",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -695,6 +815,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -728,6 +854,12 @@
         "mana": "5",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -761,6 +893,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -794,6 +932,12 @@
         "mana": "3",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -827,6 +971,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -860,6 +1010,12 @@
         "mana": "10",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -893,6 +1049,12 @@
         "mana": "5",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -926,6 +1088,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -959,6 +1127,12 @@
         "mana": "8",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -992,6 +1166,12 @@
         "mana": "5",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -1025,6 +1205,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -1058,6 +1244,12 @@
         "mana": "8",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -1091,6 +1283,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -1124,6 +1322,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -1157,6 +1361,12 @@
         "mana": "2",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -1190,6 +1400,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -1223,6 +1439,12 @@
         "mana": "2",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -1256,6 +1478,12 @@
         "mana": "7",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     },
     {
@@ -1289,6 +1517,12 @@
         "mana": "5",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
       }
     }
   ]

@@ -35,6 +35,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -68,6 +74,12 @@
         "mana": "3",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -101,6 +113,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -134,6 +152,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -167,6 +191,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -200,6 +230,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -233,6 +269,12 @@
         "mana": "7",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -266,6 +308,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -299,6 +347,12 @@
         "mana": "All",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -332,6 +386,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -365,6 +425,12 @@
         "mana": "4",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\armor_abilities.gon"
       }
     },
     {
@@ -398,6 +464,12 @@
         "mana": "3",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\armor_abilities.gon"
       }
     },
     {
@@ -431,6 +503,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -464,6 +542,12 @@
         "mana": "6",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -497,6 +581,12 @@
         "mana": "9",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -530,6 +620,12 @@
         "mana": "9",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -563,6 +659,12 @@
         "mana": "1",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -596,6 +698,12 @@
         "mana": "1",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -629,6 +737,12 @@
         "mana": "3",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     },
     {
@@ -662,6 +776,12 @@
         "mana": "3",
         "hit_count": null,
         "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
       }
     }
   ]
