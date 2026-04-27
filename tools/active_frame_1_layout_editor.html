@@ -318,7 +318,8 @@
                   "boxHeight": 59,
                   "fitMode": "contain",
                   "sourceWidth": 62.15,
-                  "sourceHeight": 52.35
+                  "sourceHeight": 52.35,
+                  "fitAnchor": "bottom_left"
             },
             {
                   "id": "base_white",
@@ -816,6 +817,7 @@
             box.style.height = `${layer.boxHeight * stageScale}px`;
             box.style.transform = `translate(${-(layer.boxWidth / 2) * stageScale}px, ${-(layer.boxHeight / 2) * stageScale}px)`;
             img.style.objectFit = layer.fitMode === "contain" ? "contain" : "fill";
+            img.style.objectPosition = layer.fitAnchor === "bottom_left" ? "left bottom" : "center center";
             box.append(img);
             el.append(box);
           } else {

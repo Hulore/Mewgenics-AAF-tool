@@ -40,7 +40,8 @@
       "boxHeight": 59,
       "fitMode": "contain",
       "sourceWidth": 62.15,
-      "sourceHeight": 52.35
+      "sourceHeight": 52.35,
+      "fitAnchor": "bottom_left"
     },
     {
       "id": "base_white",

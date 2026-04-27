@@ -190,6 +190,13 @@ def box_fit_transform(layer: dict, rules_dir: Path, main_svg: Path) -> str:
 
     source_anchor_x = source_min_x + source_width / 2
     source_anchor_y = source_min_y + source_height / 2
+    if layer.get("fitAnchor") == "bottom_left":
+        return (
+            f"translate(0 {box_height}) "
+            f"scale({fit_x} {fit_y}) "
+            f"translate({-source_min_x} {-(source_min_y + source_height)})"
+        )
+
     return (
         f"translate({box_width / 2} {box_height / 2}) "
         f"scale({fit_x} {fit_y}) "
