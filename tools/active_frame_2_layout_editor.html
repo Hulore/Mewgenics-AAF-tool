@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Active Frame 2 Layout Editor</title>
+  <style>
+    @font-face {
+      font-family: "MewgenicsMain";
+      src: url("../../SVG Important/MainFont/fonts/6_Edmundm_EdmundMcMillen_INTLv4 Regular.ttf") format("truetype");
+    }
+
+    @font-face {
+      font-family: "MewgenicsNumber";
+      src: url("../../SVG Important/Number Fonts/fonts/1_TikaFont_TikaFont Adjusted Regular.ttf") format("truetype");
+    }
+
+    :root {
+      color-scheme: dark;
+      font-family: Arial, sans-serif;
+      background: #202124;
+      color: #eeeeee;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: minmax(560px, 1fr) 380px;
+    }
+
+    main {
+      padding: 18px;
+      display: grid;
+      gap: 12px;
+      align-content: start;
+    }
+
+    aside {
+      border-left: 1px solid #3d3f45;
+      padding: 16px;
+      background: #292b31;
+      overflow: auto;
+      max-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    #stage {
+      position: relative;
+      width: 480px;
+      height: 600px;
+      background:
+        linear-gradient(45deg, #303238 25%, transparent 25%),
+        linear-gradient(-45deg, #303238 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #303238 75%),
+        linear-gradient(-45deg, transparent 75%, #303238 75%);
+      background-size: 20px 20px;
+      background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+      border: 1px solid #555861;
+      overflow: hidden;
+    }
+
+    .layer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform-origin: 0 0;
+      cursor: move;
+      user-select: none;
+    }
+
+    .layer img {
+      display: block;
+      pointer-events: none;
+      transform-origin: 0 0;
+    }
+
+    .text-layer {
+      color: #000000;
+      font-family: "MewgenicsMain", Arial, sans-serif;
+      font-weight: 400;
+      line-height: 1;
+      white-space: nowrap;
+      pointer-events: none;
+      transform-origin: 0 0;
+    }
+
+    .selected {
+      outline: 1px dashed #65d6ff;
+      outline-offset: 2px;
+    }
+
+    .toolbar {
+      display: grid;
+      gap: 10px;
+    }
+
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .layer-list {
+      display: grid;
+      gap: 6px;
+      padding: 8px;
+      border: 1px solid #444850;
+      background: #202228;
+    }
+
+    .layer-row {
+      display: grid;
+      grid-template-columns: 22px minmax(0, 1fr) 28px 28px;
+      gap: 8px;
+      align-items: center;
+      padding: 4px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .layer-row:hover,
+    .layer-row.active {
+      background: #343842;
+    }
+
+    .mini {
+      width: 26px;
+      height: 24px;
+      padding: 0;
+      font-size: 11px;
+    }
+
+    button,
+    select,
+    input,
+    textarea {
+      box-sizing: border-box;
+      border: 1px solid #555861;
+      background: #1d1f24;
+      color: #f2f2f2;
+      border-radius: 4px;
+      padding: 8px;
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+      background: #343842;
+    }
+
+    button:hover {
+      background: #414754;
+    }
+
+    label {
+      display: grid;
+      gap: 5px;
+      color: #d6d7dc;
+      font-size: 13px;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 230px;
+      resize: vertical;
+      font-family: Consolas, monospace;
+      font-size: 12px;
+    }
+
+    .hint,
+    .label {
+      color: #aeb2bd;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="label">Active Frame 2 only</div>
+    <div id="stage"></div>
+    <div class="hint">Preview recolors only <code>#111111</code> to <code>#8a3746</code>. Export keeps original SVG paths and only saves layout values.</div>
+  </main>
+
+  <aside>
+    <div class="toolbar">
+      <label>
+        Layer
+        <select id="layerSelect"></select>
+      </label>
+      <div>
+        <div class="label">Layer visibility/order</div>
+        <div id="layerList" class="layer-list"></div>
+      </div>
+      <div class="grid3">
+        <label>X <input id="x" type="number" step="0.25"></label>
+        <label>Y <input id="y" type="number" step="0.25"></label>
+        <label>Rotate <input id="rotation" type="number" step="0.25"></label>
+      </div>
+      <div class="grid3">
+        <label>Scale X <input id="scaleX" type="number" step="0.01"></label>
+        <label>Scale Y <input id="scaleY" type="number" step="0.01"></label>
+        <label>Visible <input id="visible" type="checkbox"></label>
+      </div>
+      <div class="grid3">
+        <button id="exportBtn" type="button">Export JSON</button>
+        <button id="importBtn" type="button">Import JSON</button>
+        <button id="undoBtn" type="button" disabled>Undo</button>
+      </div>
+      <textarea id="jsonBox" spellcheck="false"></textarea>
+    </div>
+  </aside>
+
+  <script>
+    const stageScale = 4;
+    const previewRecolor = { "#111111": "#8a3746" };
+    const sampleMainSource = "../output/butcher_active_split/damage_or_heal_and_mana/source_svgs/Burp_Burp.svg";
+    const stage = document.querySelector("#stage");
+    const layerSelect = document.querySelector("#layerSelect");
+    const layerList = document.querySelector("#layerList");
+    const jsonBox = document.querySelector("#jsonBox");
+    const undoBtn = document.querySelector("#undoBtn");
+    const fields = {
+      x: document.querySelector("#x"),
+      y: document.querySelector("#y"),
+      scaleX: document.querySelector("#scaleX"),
+      scaleY: document.querySelector("#scaleY"),
+      rotation: document.querySelector("#rotation"),
+      visible: document.querySelector("#visible")
+    };
+
+    let selectedId = "base_white";
+    let drag = null;
+    const undoStack = [];
+    const objectUrls = new Map();
+    let renderRun = 0;
+    let rules = {
+      canvas: { width: 120, height: 150, viewBox: "0 -20 120 150" },
+      frame_variant: "active_frame_2",
+      preview_recolor: previewRecolor,
+      layers: [
+        { id: "white_picture_background", label: "2856 white picture background", source: "../../SVG Important/shapes/2856.svg", x: 25.75, y: 30, scaleX: 0.64, scaleY: 0.64, rotation: 0, visible: true },
+        { id: "main_picture", label: "Main picture sample", source: "$main", x: 26.25, y: 38, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
+        { id: "base_white", label: "2760 base white", source: "../../SVG Important/shapes/Atcive Frame 1/2760.svg", x: 16, y: 10, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
+        { id: "class_body", label: "2820 class body", source: "../../SVG Important/shapes/Atcive Frame 2/2820.svg", x: 12.25, y: 13.75, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
+        { id: "damage_type_icon", label: "2762 damage type icon sample", source: "../../SVG Important/Svg number icons/shapes/2762.svg", x: 20.5, y: 98, scaleX: 1, scaleY: 0.98, rotation: 0, visible: true },
+        { id: "black_outline", label: "2823 black outline", source: "../../SVG Important/shapes/Atcive Frame 2/2823.svg", x: 14, y: 8, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
+        { id: "bottom_slots", label: "2817 bottom slots", source: "../../SVG Important/shapes/Atcive Frame 1/2817.svg", x: 8.25, y: 36.5, scaleX: 0.999, scaleY: 1, rotation: 0, visible: true },
+        { id: "damage_number_text", label: "Damage number sample", type: "text", text: "5", fontFamily: "MewgenicsNumber", fontSize: 12, fill: "#000000", x: 38, y: 104.5, scaleX: 1.3, scaleY: 1.3, rotation: 0, visible: true },
+        { id: "mana_type_icon", label: "2769 mana icon", source: "../../SVG Important/Svg number icons/shapes/2769.svg", x: 57.75, y: 112.5, scaleX: 1, scaleY: 1, rotation: 320, visible: true },
+        { id: "top_active_icon", label: "2777 top active icon sample", source: "../../SVG Important/Svg Up Active Icons/shapes/2777.svg", x: 34.25, y: -6.5, scaleX: 1.1, scaleY: 1.1, rotation: 333, visible: true },
+        { id: "mana_number_text", label: "Mana number sample", type: "text", text: "2", fontFamily: "MewgenicsNumber", fontSize: 12, fill: "#ffffff", x: 79, y: 104.75, scaleX: 1.3, scaleY: 1.3, rotation: 0, visible: true }
+      ]
+    };
+
+    function cloneRules() {
+      return JSON.parse(JSON.stringify(rules));
+    }
+
+    function updateUndoButton() {
+      undoBtn.disabled = undoStack.length === 0;
+    }
+
+    function pushUndo() {
+      undoStack.push({ rules: cloneRules(), selectedId });
+      if (undoStack.length > 80) undoStack.shift();
+      updateUndoButton();
+    }
+
+    function undoLast() {
+      const snapshot = undoStack.pop();
+      if (!snapshot) return;
+      rules = snapshot.rules;
+      selectedId = snapshot.selectedId;
+      jsonBox.value = JSON.stringify(rules, null, 2);
+      updateUndoButton();
+      render();
+    }
+
+    function layerById(id) {
+      return rules.layers.find(layer => layer.id === id);
+    }
+
+    function canvasViewBox() {
+      const fallback = `0 0 ${rules.canvas?.width || 120} ${rules.canvas?.height || 150}`;
+      const parts = String(rules.canvas?.viewBox || fallback).trim().split(/\s+/).map(Number);
+      if (parts.length !== 4 || parts.some(Number.isNaN)) {
+        return { minX: 0, minY: 0, width: rules.canvas?.width || 120, height: rules.canvas?.height || 150 };
+      }
+      return { minX: parts[0], minY: parts[1], width: parts[2], height: parts[3] };
+    }
+
+    function syncStageSize() {
+      const viewBox = canvasViewBox();
+      stage.style.width = `${viewBox.width * stageScale}px`;
+      stage.style.height = `${viewBox.height * stageScale}px`;
+    }
+
+    function recolorSvgText(text) {
+      let result = text;
+      for (const [from, to] of Object.entries(previewRecolor)) {
+        const escaped = from.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        result = result.replace(new RegExp(escaped, "gi"), to);
+      }
+      result = result.replace(/rgb\(\s*17\s*,\s*17\s*,\s*17\s*\)/gi, previewRecolor["#111111"]);
+      return result;
+    }
+
+    async function previewSource(source) {
+      if (objectUrls.has(source)) return objectUrls.get(source);
+      const previewPath = source === "$main" ? sampleMainSource : source;
+      try {
+        const response = await fetch(previewPath, { cache: "no-store" });
+        if (!response.ok) return previewPath;
+        const rawText = await response.text();
+        const text = source === "$main" ? rawText : recolorSvgText(rawText);
+        const url = URL.createObjectURL(new Blob([text], { type: "image/svg+xml" }));
+        objectUrls.set(source, url);
+        return url;
+      } catch (_error) {
+        return previewPath;
+      }
+    }
+
+    function moveLayer(id, delta) {
+      const index = rules.layers.findIndex(layer => layer.id === id);
+      const next = index + delta;
+      if (index < 0 || next < 0 || next >= rules.layers.length) return;
+      pushUndo();
+      const item = rules.layers.splice(index, 1)[0];
+      rules.layers.splice(next, 0, item);
+      selectedId = id;
+      render();
+    }
+
+    async function render() {
+      const currentRender = ++renderRun;
+      syncStageSize();
+      const stageFragment = document.createDocumentFragment();
+      const selectFragment = document.createDocumentFragment();
+      const listFragment = document.createDocumentFragment();
+
+      for (const [index, layer] of rules.layers.entries()) {
+        const option = document.createElement("option");
+        option.value = layer.id;
+        option.textContent = layer.label || layer.id;
+        selectFragment.append(option);
+
+        const row = document.createElement("label");
+        row.className = "layer-row";
+        if (layer.id === selectedId) row.classList.add("active");
+        const check = document.createElement("input");
+        check.type = "checkbox";
+        check.checked = layer.visible !== false;
+        check.addEventListener("change", event => {
+          event.stopPropagation();
+          pushUndo();
+          layer.visible = check.checked;
+          selectedId = layer.id;
+          render();
+        });
+        const text = document.createElement("span");
+        text.textContent = layer.label || layer.id;
+        const up = document.createElement("button");
+        up.type = "button";
+        up.className = "mini";
+        up.textContent = "Up";
+        up.disabled = index === rules.layers.length - 1;
+        up.addEventListener("click", event => {
+          event.stopPropagation();
+          moveLayer(layer.id, 1);
+        });
+        const down = document.createElement("button");
+        down.type = "button";
+        down.className = "mini";
+        down.textContent = "Dn";
+        down.disabled = index === 0;
+        down.addEventListener("click", event => {
+          event.stopPropagation();
+          moveLayer(layer.id, -1);
+        });
+        row.addEventListener("click", event => {
+          if (event.target !== check && event.target !== up && event.target !== down) {
+            selectedId = layer.id;
+            render();
+          }
+        });
+        row.append(check, text, up, down);
+        listFragment.append(row);
+
+        const el = document.createElement("div");
+        el.className = "layer";
+        if (layer.id === selectedId) el.classList.add("selected");
+        el.dataset.id = layer.id;
+        el.style.display = layer.visible === false ? "none" : "block";
+        el.style.zIndex = String(index + 1);
+        el.style.transform = layerTransform(layer);
+
+        if (layer.type === "text") {
+          const textEl = document.createElement("div");
+          textEl.className = "text-layer";
+          textEl.textContent = layer.text || "0";
+          textEl.style.color = layer.fill || "#000000";
+          textEl.style.fontFamily = `"${layer.fontFamily || "MewgenicsMain"}", Arial, sans-serif`;
+          textEl.style.fontSize = `${(layer.fontSize || 12) * stageScale}px`;
+          el.append(textEl);
+        } else {
+          const img = document.createElement("img");
+          img.src = await previewSource(layer.source);
+          if (currentRender !== renderRun) return;
+          img.draggable = false;
+          img.style.transform = `scale(${stageScale})`;
+          el.append(img);
+        }
+        stageFragment.append(el);
+      }
+
+      if (currentRender !== renderRun) return;
+      stage.replaceChildren(stageFragment);
+      layerSelect.replaceChildren(selectFragment);
+      layerList.replaceChildren(listFragment);
+      layerSelect.value = selectedId;
+      syncControls();
+    }
+
+    function syncControls() {
+      const layer = layerById(selectedId);
+      if (!layer) return;
+      fields.x.value = layer.x || 0;
+      fields.y.value = layer.y || 0;
+      fields.scaleX.value = layer.scaleX ?? 1;
+      fields.scaleY.value = layer.scaleY ?? 1;
+      fields.rotation.value = layer.rotation || 0;
+      fields.visible.checked = layer.visible !== false;
+    }
+
+    function layerTransform(layer) {
+      const viewBox = canvasViewBox();
+      return `translate(${(layer.x - viewBox.minX) * stageScale}px, ${(layer.y - viewBox.minY) * stageScale}px) rotate(${layer.rotation || 0}deg) scale(${layer.scaleX ?? 1}, ${layer.scaleY ?? 1})`;
+    }
+
+    function applyLayerTransform(layer) {
+      const el = stage.querySelector(`.layer[data-id="${layer.id}"]`);
+      if (el) el.style.transform = layerTransform(layer);
+    }
+
+    function updateSelected() {
+      const layer = layerById(selectedId);
+      if (!layer) return;
+      pushUndo();
+      layer.x = Number(fields.x.value);
+      layer.y = Number(fields.y.value);
+      layer.scaleX = Number(fields.scaleX.value);
+      layer.scaleY = Number(fields.scaleY.value);
+      layer.rotation = Number(fields.rotation.value);
+      layer.visible = fields.visible.checked;
+      render();
+    }
+
+    layerSelect.addEventListener("change", () => {
+      selectedId = layerSelect.value;
+      render();
+    });
+
+    Object.values(fields).forEach(input => input.addEventListener("input", updateSelected));
+
+    stage.addEventListener("pointerdown", event => {
+      const layer = layerById(selectedId);
+      if (!layer || layer.visible === false) return;
+      pushUndo();
+      drag = {
+        pointerId: event.pointerId,
+        startX: event.clientX,
+        startY: event.clientY,
+        layerId: layer.id,
+        layerX: layer.x || 0,
+        layerY: layer.y || 0
+      };
+      stage.setPointerCapture(event.pointerId);
+    });
+
+    stage.addEventListener("pointermove", event => {
+      if (!drag || event.pointerId !== drag.pointerId) return;
+      const layer = layerById(drag.layerId);
+      if (!layer) return;
+      layer.x = Math.round((drag.layerX + (event.clientX - drag.startX) / stageScale) * 4) / 4;
+      layer.y = Math.round((drag.layerY + (event.clientY - drag.startY) / stageScale) * 4) / 4;
+      fields.x.value = layer.x;
+      fields.y.value = layer.y;
+      applyLayerTransform(layer);
+    });
+
+    stage.addEventListener("pointerup", () => {
+      drag = null;
+    });
+
+    document.querySelector("#exportBtn").addEventListener("click", () => {
+      jsonBox.value = JSON.stringify(rules, null, 2);
+      jsonBox.select();
+    });
+
+    document.querySelector("#importBtn").addEventListener("click", () => {
+      pushUndo();
+      rules = JSON.parse(jsonBox.value);
+      selectedId = rules.layers[0]?.id || "";
+      render();
+    });
+
+    undoBtn.addEventListener("click", undoLast);
+
+    jsonBox.value = JSON.stringify(rules, null, 2);
+    updateUndoButton();
+    render();
+  </script>
+</body>
+</html>
+
