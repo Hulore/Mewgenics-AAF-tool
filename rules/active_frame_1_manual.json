@@ -24,25 +24,6 @@
       "anchorY": 50.5
     },
     {
-      "id": "main_picture",
-      "label": "Main picture sample",
-      "source": "$main",
-      "x": 57.325,
-      "y": 64.175,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0,
-      "visible": true,
-      "anchor": "center",
-      "anchorX": 31.075,
-      "anchorY": 26.175,
-      "boxWidth": 62.15,
-      "boxHeight": 52.35,
-      "fitMode": "contain",
-      "sourceWidth": 62.15,
-      "sourceHeight": 52.35
-    },
-    {
       "id": "base_white",
       "label": "2760 base white",
       "source": "../../SVG Important/shapes/Atcive Frame 1/2760.svg",
@@ -113,6 +94,25 @@
       "anchorY": 20.15
     },
     {
+      "id": "main_picture",
+      "label": "Main picture sample",
+      "source": "$main",
+      "x": 58,
+      "y": 62.5,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true,
+      "anchor": "center",
+      "anchorX": 32,
+      "anchorY": 29.5,
+      "boxWidth": 64,
+      "boxHeight": 59,
+      "fitMode": "contain",
+      "sourceWidth": 62.15,
+      "sourceHeight": 52.35
+    },
+    {
       "id": "damage_number_text",
       "label": "Damage number sample",
       "type": "text",
@@ -130,7 +130,7 @@
       "boxHeight": 13,
       "minFontSize": 4,
       "anchor": "center",
-      "anchorX": 9.0,
+      "anchorX": 9,
       "anchorY": 6.5
     },
     {
@@ -179,7 +179,7 @@
       "boxHeight": 13,
       "minFontSize": 4,
       "anchor": "center",
-      "anchorX": 9.0,
+      "anchorX": 9,
       "anchorY": 6.5
     }
   ]
