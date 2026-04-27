@@ -38,7 +38,7 @@
       "anchorY": 26.175,
       "boxWidth": 62.15,
       "boxHeight": 52.35,
-      "fitMode": "stretch",
+      "fitMode": "contain",
       "sourceWidth": 62.15,
       "sourceHeight": 52.35
     },

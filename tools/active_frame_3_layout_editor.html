@@ -684,7 +684,7 @@
       } else if (layer.id === "main_picture" || layer.fitMode) {
         layer.boxWidth = Number(fields.boxWidth.value || layer.boxWidth || 62.15);
         layer.boxHeight = Number(fields.boxHeight.value || layer.boxHeight || 52.35);
-        layer.fitMode = layer.fitMode || "stretch";
+        layer.fitMode = layer.fitMode || "contain";
         layer.anchor = "center";
       }
       render();
