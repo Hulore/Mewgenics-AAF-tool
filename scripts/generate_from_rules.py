@@ -217,14 +217,14 @@ def build_from_rules(
         style.text = style_text
 
     for layer in rules["layers"]:
+        layer = deepcopy(layer)
+        if layer_overrides and layer["id"] in layer_overrides:
+            layer.update(layer_overrides[layer["id"]])
+
         if not layer.get("visible", True):
             continue
         if layer["id"] in class_data.get("hide_layers", []):
             continue
-
-        layer = deepcopy(layer)
-        if layer_overrides and layer["id"] in layer_overrides:
-            layer.update(layer_overrides[layer["id"]])
 
         transform_parts = [f"translate({layer.get('x', 0)} {layer.get('y', 0)})"]
         matrix = layer.get("matrix")

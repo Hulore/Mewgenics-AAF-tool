@@ -35,6 +35,21 @@ NUMBER_ICON_SOURCES = {
     "damage_or_heal": Path(r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Svg number icons\shapes\2764.svg"),
 }
 
+TOP_ICON_IDS = (
+    "2777",
+    "2779",
+    "2781",
+    "2783",
+    "2785",
+    "2787",
+    "2789",
+    "2791",
+    "2793",
+    "2795",
+    "2797",
+    "2799",
+)
+
 
 def safe_name(value: str) -> str:
     value = re.sub(r"[^\w\- ]+", "", value, flags=re.UNICODE).strip()
@@ -76,24 +91,26 @@ def load_top_icon_rules(path: Path) -> dict[str, dict]:
 
 
 def ability_top_icon(ability: dict, top_icon_rules: dict[str, dict], top_icon_shapes_dir: Path) -> dict:
+    overrides = {f"top_active_icon_{svg_id}": {"visible": False} for svg_id in TOP_ICON_IDS}
+
     manifest = ability.get("manifest") or {}
     ability_id = manifest.get("ability_id") or ""
     icon_data = top_icon_rules.get(ability_id)
     if not icon_data and ability_id.endswith("2"):
         icon_data = top_icon_rules.get(ability_id[:-1])
     if not icon_data:
-        return {}
+        return overrides
 
     svg_id = icon_data.get("top_icon_svg_id")
     if not svg_id:
-        return {}
+        return overrides
 
-    return {
-        "top_active_icon": {
-            "source": str(top_icon_shapes_dir / f"{svg_id}.svg"),
-            "rotation": 0,
-        }
+    selected_id = f"top_active_icon_{svg_id}"
+    overrides[selected_id] = {
+        "visible": True,
+        "source": str(top_icon_shapes_dir / f"{svg_id}.svg"),
     }
+    return overrides
 
 
 def layer_overrides(ability: dict, top_icon_rules: dict[str, dict], top_icon_shapes_dir: Path) -> dict[str, dict]:
