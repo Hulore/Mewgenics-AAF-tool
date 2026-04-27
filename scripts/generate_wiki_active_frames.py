@@ -24,6 +24,11 @@ DEFAULT_FRAME_RULES = {
     "Mana": Path("rules") / "active_frame_3_manual.json",
 }
 
+DEFAULT_TOP_ICON_RULES = Path("rules") / "active_type_icons.json"
+DEFAULT_TOP_ICON_SHAPES_DIR = Path(
+    r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Svg Up Active Icons\shapes"
+)
+
 NUMBER_ICON_SOURCES = {
     "damage": Path(r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Svg number icons\shapes\2762.svg"),
     "heal": Path(r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Svg number icons\shapes\2763.svg"),
@@ -63,14 +68,51 @@ def number_overrides(ability: dict) -> dict[str, dict]:
     return overrides
 
 
+def load_top_icon_rules(path: Path) -> dict[str, dict]:
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return data.get("abilities", {})
+
+
+def ability_top_icon(ability: dict, top_icon_rules: dict[str, dict], top_icon_shapes_dir: Path) -> dict:
+    manifest = ability.get("manifest") or {}
+    ability_id = manifest.get("ability_id") or ""
+    icon_data = top_icon_rules.get(ability_id)
+    if not icon_data and ability_id.endswith("2"):
+        icon_data = top_icon_rules.get(ability_id[:-1])
+    if not icon_data:
+        return {}
+
+    svg_id = icon_data.get("top_icon_svg_id")
+    if not svg_id:
+        return {}
+
+    return {
+        "top_active_icon": {
+            "source": str(top_icon_shapes_dir / f"{svg_id}.svg"),
+            "rotation": 0,
+        }
+    }
+
+
+def layer_overrides(ability: dict, top_icon_rules: dict[str, dict], top_icon_shapes_dir: Path) -> dict[str, dict]:
+    overrides = number_overrides(ability)
+    overrides.update(ability_top_icon(ability, top_icon_rules, top_icon_shapes_dir))
+    return overrides
+
+
 def generate(
     *,
     rules_dir: Path,
     shapes_dir: Path,
     output_dir: Path,
     frame_rules: dict[str, Path],
+    top_icon_rules_path: Path,
+    top_icon_shapes_dir: Path,
 ) -> tuple[int, list[str], dict[str, int]]:
     loaded_rules = load_frame_rules(frame_rules)
+    top_icon_rules = load_top_icon_rules(top_icon_rules_path)
     generated = 0
     errors: list[str] = []
     rows: list[dict[str, str]] = []
@@ -110,7 +152,7 @@ def generate(
                     main_svg.resolve(),
                     class_name,
                     output_svg.resolve(),
-                    number_overrides(ability),
+                    layer_overrides(ability, top_icon_rules, top_icon_shapes_dir),
                 )
             except Exception as exc:
                 errors.append(f"{ability_id} [{frame_type}/{variant}]: {exc}")
@@ -129,6 +171,8 @@ def generate(
                     "value_kind": ability.get("value_kind") or "",
                     "value": str((ability.get("numbers") or {}).get("value") or ""),
                     "mana": str((ability.get("numbers") or {}).get("mana") or ""),
+                    "top_icon_type": (top_icon_rules.get(ability_id) or {}).get("type_icon", ""),
+                    "top_icon_svg_id": (top_icon_rules.get(ability_id) or {}).get("top_icon_svg_id", ""),
                     "output_svg": str(output_svg),
                 }
             )
@@ -146,6 +190,8 @@ def generate(
             "value_kind",
             "value",
             "mana",
+            "top_icon_type",
+            "top_icon_svg_id",
             "output_svg",
         ]
         writer = csv.DictWriter(file, fieldnames=fieldnames)
@@ -165,6 +211,8 @@ def main() -> None:
     parser.add_argument("--dmg-mana-rules", type=Path, default=DEFAULT_FRAME_RULES["Dmg_Mana"])
     parser.add_argument("--xdmg-mana-rules", type=Path, default=DEFAULT_FRAME_RULES["Xdmg_Mana"])
     parser.add_argument("--mana-rules", type=Path, default=DEFAULT_FRAME_RULES["Mana"])
+    parser.add_argument("--top-icon-rules", type=Path, default=DEFAULT_TOP_ICON_RULES)
+    parser.add_argument("--top-icon-shapes-dir", type=Path, default=DEFAULT_TOP_ICON_SHAPES_DIR)
     args = parser.parse_args()
 
     generated, errors, counts = generate(
@@ -176,6 +224,8 @@ def main() -> None:
             "Xdmg_Mana": args.xdmg_mana_rules,
             "Mana": args.mana_rules,
         },
+        top_icon_rules_path=args.top_icon_rules.resolve(),
+        top_icon_shapes_dir=args.top_icon_shapes_dir.resolve(),
     )
 
     print(f"generated={generated} errors={len(errors)}")

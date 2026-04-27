@@ -107,9 +107,9 @@ def font_face_style(font_families: set[str]) -> str:
 
 
 def layer_anchor(layer: dict, rules_dir: Path, main_svg: Path) -> tuple[float, float]:
+    if "anchorX" in layer and "anchorY" in layer:
+        return float(layer["anchorX"]), float(layer["anchorY"])
     if layer.get("type") == "text":
-        if "anchorX" in layer and "anchorY" in layer:
-            return float(layer["anchorX"]), float(layer["anchorY"])
         return float(layer.get("boxWidth", 0) or 0) / 2, float(layer.get("boxHeight", 0) or 0) / 2
     source = resolve_source(layer["source"], rules_dir, main_svg)
     min_x, min_y, width, height = svg_viewport(source)
