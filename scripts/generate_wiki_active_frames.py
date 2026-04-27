@@ -25,6 +25,7 @@ DEFAULT_FRAME_RULES = {
 }
 
 DEFAULT_TOP_ICON_RULES = Path("rules") / "active_type_icons.json"
+DEFAULT_CLASS_COLORS = Path("rules") / "wiki_active_abilities" / "classes.txt"
 DEFAULT_TOP_ICON_SHAPES_DIR = Path(
     r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Svg Up Active Icons\shapes"
 )
@@ -57,11 +58,11 @@ def safe_name(value: str) -> str:
     return value or "active"
 
 
-def load_frame_rules(frame_rules: dict[str, Path]) -> dict[str, tuple[dict, Path]]:
+def load_frame_rules(frame_rules: dict[str, Path], class_colors_path: Path | None) -> dict[str, tuple[dict, Path]]:
     loaded: dict[str, tuple[dict, Path]] = {}
     for frame_type, rules_path in frame_rules.items():
         resolved = rules_path.resolve()
-        loaded[frame_type] = (prepare_frame_rules(resolved), resolved.parent)
+        loaded[frame_type] = (prepare_frame_rules(resolved, class_colors_path), resolved.parent)
     return loaded
 
 
@@ -129,8 +130,9 @@ def generate(
     frame_rules: dict[str, Path],
     top_icon_rules_path: Path,
     top_icon_shapes_dir: Path,
+    class_colors_path: Path | None,
 ) -> tuple[int, list[str], dict[str, int]]:
-    loaded_rules = load_frame_rules(frame_rules)
+    loaded_rules = load_frame_rules(frame_rules, class_colors_path)
     top_icon_rules = load_top_icon_rules(top_icon_rules_path)
     generated = 0
     errors: list[str] = []
@@ -232,6 +234,7 @@ def main() -> None:
     parser.add_argument("--mana-rules", type=Path, default=DEFAULT_FRAME_RULES["Mana"])
     parser.add_argument("--top-icon-rules", type=Path, default=DEFAULT_TOP_ICON_RULES)
     parser.add_argument("--top-icon-shapes-dir", type=Path, default=DEFAULT_TOP_ICON_SHAPES_DIR)
+    parser.add_argument("--class-colors", type=Path, default=DEFAULT_CLASS_COLORS)
     args = parser.parse_args()
 
     generated, errors, counts = generate(
@@ -245,6 +248,7 @@ def main() -> None:
         },
         top_icon_rules_path=args.top_icon_rules.resolve(),
         top_icon_shapes_dir=args.top_icon_shapes_dir.resolve(),
+        class_colors_path=args.class_colors.resolve(),
     )
 
     print(f"generated={generated} errors={len(errors)}")

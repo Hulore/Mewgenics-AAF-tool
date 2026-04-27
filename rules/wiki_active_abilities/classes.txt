@@ -1,14 +1,14 @@
-Butcher
-Cleric
-Collarless
-Druid
-Fighter
-Hunter
+Butcher 8a3746
+Cleric cbcbcb
+Collarless 76716d
+Druid 49352c
+Fighter 8e5c5c
+Hunter 354b31
 Jester
-Mage
-Monk
-Necromancer
-Psychic
-Tank
-Thief
-Tinkerer
+Mage 60607b
+Monk 606060
+Necromancer 1c1d1e
+Psychic 504361
+Tank 6b5c3a
+Thief cdca91
+Tinkerer 91bcb1

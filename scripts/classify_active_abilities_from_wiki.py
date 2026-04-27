@@ -178,6 +178,27 @@ def read_manifest(manifest_path: Path) -> dict[str, dict[str, str]]:
     return rows
 
 
+def load_class_colors(path: Path) -> dict[str, str]:
+    if path.suffix.lower() == ".json":
+        return json.loads(path.read_text(encoding="utf-8"))
+
+    colors: dict[str, str] = {}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        parts = line.split()
+        if len(parts) < 2:
+            continue
+        name, color = parts[0].strip().lower(), parts[1].strip()
+        if not color.startswith("#"):
+            color = f"#{color}"
+        colors[name] = color
+        if name == "collarless":
+            colors["colorless"] = color
+    return colors
+
+
 def prepare_frame_rules(rules_path: Path, class_colors_path: Path | None = None) -> dict:
     rules = json.loads(rules_path.read_text(encoding="utf-8"))
     class_colors = {
@@ -197,7 +218,7 @@ def prepare_frame_rules(rules_path: Path, class_colors_path: Path | None = None)
         "tinkerer": "#b5eadc",
     }
     if class_colors_path and class_colors_path.exists():
-        class_colors.update(json.loads(class_colors_path.read_text(encoding="utf-8")))
+        class_colors.update(load_class_colors(class_colors_path))
 
     rules["classes"] = {name: {"color": color} for name, color in class_colors.items()}
     for layer in rules.get("layers", []):
