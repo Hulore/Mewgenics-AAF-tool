@@ -75,13 +75,24 @@
     }
 
     .text-layer {
+      display: grid;
+      place-items: center;
+      box-sizing: border-box;
+      border: 1px dashed rgba(101, 214, 255, 0.8);
       color: #000000;
       font-family: "MewgenicsMain", Arial, sans-serif;
       font-weight: 400;
       line-height: 1;
-      white-space: nowrap;
+      overflow: hidden;
       pointer-events: none;
+      text-align: center;
       transform-origin: 0 0;
+      white-space: nowrap;
+    }
+
+    .text-value {
+      display: block;
+      line-height: 1;
     }
 
     .selected {
@@ -209,6 +220,10 @@
         <label>Scale Y <input id="scaleY" type="number" step="0.01"></label>
         <label>Visible <input id="visible" type="checkbox"></label>
       </div>
+      <div class="grid2">
+        <label>Box W <input id="boxWidth" type="number" step="0.25"></label>
+        <label>Box H <input id="boxHeight" type="number" step="0.25"></label>
+      </div>
       <div class="grid3">
         <button id="exportBtn" type="button">Export JSON</button>
         <button id="importBtn" type="button">Import JSON</button>
@@ -233,7 +248,9 @@
       scaleX: document.querySelector("#scaleX"),
       scaleY: document.querySelector("#scaleY"),
       rotation: document.querySelector("#rotation"),
-      visible: document.querySelector("#visible")
+      visible: document.querySelector("#visible"),
+      boxWidth: document.querySelector("#boxWidth"),
+      boxHeight: document.querySelector("#boxHeight")
     };
 
     let selectedId = "base_white";
@@ -242,23 +259,153 @@
     const objectUrls = new Map();
     let renderRun = 0;
     let rules = {
-      canvas: { width: 120, height: 150, viewBox: "0 -20 120 150" },
-      frame_variant: "active_frame_3",
-      preview_recolor: previewRecolor,
-      layers: [
-        { id: "white_picture_background", label: "2856 white picture background", source: "../../SVG Important/shapes/2856.svg", x: 25.75, y: 30, scaleX: 0.64, scaleY: 0.64, rotation: 0, visible: true },
-        { id: "main_picture", label: "Main picture sample", source: "$main", x: 26.25, y: 38, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
-        { id: "base_white", label: "2824 base white", source: "../../SVG Important/shapes/Active frame 3/2824.svg", x: 16, y: 10, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
-        { id: "class_body", label: "2825 class body", source: "../../SVG Important/shapes/Active frame 3/2825.svg", x: 12.25, y: 13.75, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
-        { id: "damage_type_icon", label: "2762 damage type icon sample", source: "../../SVG Important/Svg number icons/shapes/2762.svg", x: 20.5, y: 98, scaleX: 1, scaleY: 0.98, rotation: 0, visible: true },
-        { id: "black_outline", label: "2828 black outline", source: "../../SVG Important/shapes/Active frame 3/2828.svg", x: 14, y: 8, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
-        { id: "bottom_slots", label: "2817 bottom slots", source: "../../SVG Important/shapes/Atcive Frame 1/2817.svg", x: 8.25, y: 36.5, scaleX: 0.999, scaleY: 1, rotation: 0, visible: true },
-        { id: "damage_number_text", label: "Damage number sample", type: "text", text: "5", fontFamily: "MewgenicsNumber", fontSize: 12, fill: "#000000", x: 38, y: 104.5, scaleX: 1.3, scaleY: 1.3, rotation: 0, visible: true },
-        { id: "mana_type_icon", label: "2769 mana icon", source: "../../SVG Important/Svg number icons/shapes/2769.svg", x: 57.75, y: 112.5, scaleX: 1, scaleY: 1, rotation: 320, visible: true },
-        { id: "top_active_icon", label: "2777 top active icon sample", source: "../../SVG Important/Svg Up Active Icons/shapes/2777.svg", x: 34.25, y: -6.5, scaleX: 1.1, scaleY: 1.1, rotation: 333, visible: true },
-        { id: "mana_number_text", label: "Mana number sample", type: "text", text: "2", fontFamily: "MewgenicsNumber", fontSize: 12, fill: "#ffffff", x: 79, y: 104.75, scaleX: 1.3, scaleY: 1.3, rotation: 0, visible: true }
+      "canvas": {
+            "width": 120,
+            "height": 150,
+            "viewBox": "0 -20 120 150"
+      },
+      "frame_variant": "active_frame_3",
+      "preview_recolor": {
+            "#111111": "#8a3746"
+      },
+      "layers": [
+            {
+                  "id": "white_picture_background",
+                  "label": "2856 white picture background",
+                  "source": "../../SVG Important/shapes/2856.svg",
+                  "x": 25.75,
+                  "y": 30,
+                  "scaleX": 0.64,
+                  "scaleY": 0.64,
+                  "rotation": 0,
+                  "visible": true
+            },
+            {
+                  "id": "main_picture",
+                  "label": "Main picture sample",
+                  "source": "$main",
+                  "x": 26.25,
+                  "y": 38,
+                  "scaleX": 1,
+                  "scaleY": 1,
+                  "rotation": 0,
+                  "visible": true
+            },
+            {
+                  "id": "base_white",
+                  "label": "2824 base white",
+                  "source": "../../SVG Important/shapes/Active frame 3/2824.svg",
+                  "x": 16,
+                  "y": 10,
+                  "scaleX": 1,
+                  "scaleY": 1,
+                  "rotation": 0,
+                  "visible": true
+            },
+            {
+                  "id": "class_body",
+                  "label": "2825 class body",
+                  "source": "../../SVG Important/shapes/Active frame 3/2825.svg",
+                  "x": 12.25,
+                  "y": 13.75,
+                  "scaleX": 1,
+                  "scaleY": 1,
+                  "rotation": 0,
+                  "visible": true
+            },
+            {
+                  "id": "damage_type_icon",
+                  "label": "2762 damage type icon sample",
+                  "source": "../../SVG Important/Svg number icons/shapes/2762.svg",
+                  "x": 20.5,
+                  "y": 98,
+                  "scaleX": 1,
+                  "scaleY": 0.98,
+                  "rotation": 0,
+                  "visible": false
+            },
+            {
+                  "id": "black_outline",
+                  "label": "2828 black outline",
+                  "source": "../../SVG Important/shapes/Active frame 3/2828.svg",
+                  "x": 14,
+                  "y": 8,
+                  "scaleX": 1,
+                  "scaleY": 1,
+                  "rotation": 0,
+                  "visible": true
+            },
+            {
+                  "id": "bottom_slots",
+                  "label": "2817 bottom slots",
+                  "source": "../../SVG Important/shapes/Atcive Frame 1/2817.svg",
+                  "x": 8.25,
+                  "y": 36.5,
+                  "scaleX": 0.999,
+                  "scaleY": 1,
+                  "rotation": 0,
+                  "visible": true
+            },
+            {
+                  "id": "damage_number_text",
+                  "label": "Damage number sample",
+                  "type": "text",
+                  "text": "5",
+                  "fontFamily": "MewgenicsNumber",
+                  "fontSize": 12,
+                  "fill": "#000000",
+                  "x": 34.25,
+                  "y": 102.25,
+                  "scaleX": 1.3,
+                  "scaleY": 1.3,
+                  "rotation": 0,
+                  "visible": false,
+                  "boxWidth": 18,
+                  "boxHeight": 13,
+                  "minFontSize": 4
+            },
+            {
+                  "id": "mana_type_icon",
+                  "label": "2769 mana icon",
+                  "source": "../../SVG Important/Svg number icons/shapes/2769.svg",
+                  "x": 37.5,
+                  "y": 104.25,
+                  "scaleX": 1,
+                  "scaleY": 1,
+                  "rotation": 1,
+                  "visible": true
+            },
+            {
+                  "id": "top_active_icon",
+                  "label": "2777 top active icon sample",
+                  "source": "../../SVG Important/Svg Up Active Icons/shapes/2777.svg",
+                  "x": 34.25,
+                  "y": -6.5,
+                  "scaleX": 1.1,
+                  "scaleY": 1.1,
+                  "rotation": 333,
+                  "visible": true
+            },
+            {
+                  "id": "mana_number_text",
+                  "label": "Mana number sample",
+                  "type": "text",
+                  "text": "2",
+                  "fontFamily": "MewgenicsNumber",
+                  "fontSize": 12,
+                  "fill": "#ffffff",
+                  "x": 54.0,
+                  "y": 101.25,
+                  "scaleX": 1.3,
+                  "scaleY": 1.3,
+                  "rotation": 0,
+                  "visible": true,
+                  "boxWidth": 22,
+                  "boxHeight": 13,
+                  "minFontSize": 4
+            }
       ]
-    };
+};
 
     function cloneRules() {
       return JSON.parse(JSON.stringify(rules));
@@ -301,6 +448,22 @@
       const viewBox = canvasViewBox();
       stage.style.width = `${viewBox.width * stageScale}px`;
       stage.style.height = `${viewBox.height * stageScale}px`;
+    }
+
+    function estimatedTextWidth(text, fontSize) {
+      return String(text || "").length * fontSize * 0.62;
+    }
+
+    function fitBoxFont(layer) {
+      const boxWidth = layer.boxWidth || 18;
+      const boxHeight = layer.boxHeight || 13;
+      const minFontSize = layer.minFontSize || 4;
+      let fontSize = layer.fontSize || 12;
+      while (fontSize > minFontSize) {
+        if (estimatedTextWidth(layer.text || "0", fontSize) <= boxWidth && fontSize <= boxHeight) return fontSize;
+        fontSize -= 0.25;
+      }
+      return minFontSize;
     }
 
     function recolorSvgText(text) {
@@ -406,10 +569,15 @@
         if (layer.type === "text") {
           const textEl = document.createElement("div");
           textEl.className = "text-layer";
-          textEl.textContent = layer.text || "0";
+          textEl.style.width = `${(layer.boxWidth || 18) * stageScale}px`;
+          textEl.style.height = `${(layer.boxHeight || 13) * stageScale}px`;
           textEl.style.color = layer.fill || "#000000";
           textEl.style.fontFamily = `"${layer.fontFamily || "MewgenicsMain"}", Arial, sans-serif`;
-          textEl.style.fontSize = `${(layer.fontSize || 12) * stageScale}px`;
+          const textValue = document.createElement("span");
+          textValue.className = "text-value";
+          textValue.textContent = layer.text || "0";
+          textValue.style.fontSize = `${fitBoxFont(layer) * stageScale}px`;
+          textEl.append(textValue);
           el.append(textEl);
         } else {
           const img = document.createElement("img");
@@ -439,6 +607,10 @@
       fields.scaleY.value = layer.scaleY ?? 1;
       fields.rotation.value = layer.rotation || 0;
       fields.visible.checked = layer.visible !== false;
+      fields.boxWidth.value = layer.boxWidth || "";
+      fields.boxHeight.value = layer.boxHeight || "";
+      fields.boxWidth.disabled = layer.type !== "text";
+      fields.boxHeight.disabled = layer.type !== "text";
     }
 
     function layerTransform(layer) {
@@ -461,6 +633,10 @@
       layer.scaleY = Number(fields.scaleY.value);
       layer.rotation = Number(fields.rotation.value);
       layer.visible = fields.visible.checked;
+      if (layer.type === "text") {
+        layer.boxWidth = Number(fields.boxWidth.value || 18);
+        layer.boxHeight = Number(fields.boxHeight.value || 13);
+      }
       render();
     }
 

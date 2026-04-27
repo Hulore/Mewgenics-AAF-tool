@@ -7,6 +7,11 @@ from copy import deepcopy
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
+try:
+    from PIL import ImageFont
+except ImportError:  # pragma: no cover - local tool fallback
+    ImageFont = None
+
 
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
@@ -16,6 +21,32 @@ DEFAULT_FONT_PATHS = {
         r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Number Fonts\fonts\1_TikaFont_TikaFont Adjusted Regular.ttf"
     ),
 }
+
+
+def text_width(text: str, font_size: float, font_family: str) -> float:
+    font_path = DEFAULT_FONT_PATHS.get(font_family)
+    if ImageFont and font_path and font_path.exists():
+        font = ImageFont.truetype(str(font_path), int(round(font_size)))
+        return float(font.getlength(text))
+    return len(text) * font_size * 0.6
+
+
+def fitted_font_size(layer: dict) -> float:
+    text = str(layer.get("text", ""))
+    font_family = layer.get("fontFamily", "")
+    font_size = float(layer.get("fontSize", 12))
+    box_width = float(layer.get("boxWidth", 0) or 0)
+    box_height = float(layer.get("boxHeight", 0) or 0)
+    min_font_size = float(layer.get("minFontSize", 4))
+    if not text or box_width <= 0 or box_height <= 0:
+        return font_size
+
+    fitted = font_size
+    while fitted > min_font_size:
+        if text_width(text, fitted, font_family) <= box_width and fitted <= box_height:
+            return round(fitted, 2)
+        fitted -= 0.25
+    return min_font_size
 
 
 def read_svg_children(path: Path, recolor: dict[str, str]) -> list[ET.Element]:
@@ -143,10 +174,20 @@ def build_from_rules(
         )
 
         if layer.get("type") == "text":
-            text_node = ET.SubElement(
-                group,
-                f"{{{SVG_NS}}}text",
-                {
+            box_width = layer.get("boxWidth")
+            box_height = layer.get("boxHeight")
+            if box_width and box_height:
+                text_attrs = {
+                    "x": str(float(box_width) / 2),
+                    "y": str(float(box_height) / 2),
+                    "fill": layer.get("fill", "#000000"),
+                    "font-family": layer.get("fontFamily", "sans-serif"),
+                    "font-size": str(fitted_font_size(layer)),
+                    "text-anchor": "middle",
+                    "dominant-baseline": "central",
+                }
+            else:
+                text_attrs = {
                     "x": "0",
                     "y": "0",
                     "fill": layer.get("fill", "#000000"),
@@ -154,7 +195,11 @@ def build_from_rules(
                     "font-size": str(layer.get("fontSize", 12)),
                     "text-anchor": layer.get("textAnchor", "start"),
                     "dominant-baseline": "hanging",
-                },
+                }
+            text_node = ET.SubElement(
+                group,
+                f"{{{SVG_NS}}}text",
+                text_attrs,
             )
             text_node.text = str(layer.get("text", ""))
             continue
