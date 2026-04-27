@@ -1,0 +1,14 @@
+Butcher
+Cleric
+Collarless
+Druid
+Fighter
+Hunter
+Jester
+Mage
+Monk
+Necromancer
+Psychic
+Tank
+Thief
+Tinkerer
