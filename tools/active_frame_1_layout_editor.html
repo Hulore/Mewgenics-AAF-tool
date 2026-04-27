@@ -367,10 +367,8 @@
     Object.values(fields).forEach(input => input.addEventListener("input", updateSelected));
 
     stage.addEventListener("pointerdown", event => {
-      const el = event.target.closest(".layer");
-      if (!el) return;
-      selectedId = el.dataset.id;
       const layer = layerById(selectedId);
+      if (!layer || layer.visible === false) return;
       drag = {
         pointerId: event.pointerId,
         startX: event.clientX,
@@ -378,8 +376,7 @@
         layerX: layer.x || 0,
         layerY: layer.y || 0
       };
-      el.setPointerCapture(event.pointerId);
-      render();
+      stage.setPointerCapture(event.pointerId);
     });
 
     stage.addEventListener("pointermove", event => {
