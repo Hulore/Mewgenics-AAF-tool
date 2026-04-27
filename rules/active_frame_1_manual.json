@@ -54,6 +54,17 @@
       "visible": true
     },
     {
+      "id": "damage_type_icon",
+      "label": "2762 damage type icon sample",
+      "source": "../../SVG Important/Svg number icons/shapes/2762.svg",
+      "x": 20.5,
+      "y": 98,
+      "scaleX": 1,
+      "scaleY": 0.98,
+      "rotation": 0,
+      "visible": true
+    },
+    {
       "id": "black_outline",
       "label": "2776 black outline",
       "source": "../../SVG Important/shapes/Atcive Frame 1/2776.svg",
@@ -76,28 +87,17 @@
       "visible": true
     },
     {
-      "id": "damage_type_icon",
-      "label": "2762 damage type icon sample",
-      "source": "../../SVG Important/Svg number icons/shapes/2762.svg",
-      "x": 17,
-      "y": 112,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0,
-      "visible": true
-    },
-    {
       "id": "damage_number_text",
       "label": "Damage number sample",
       "type": "text",
       "text": "5",
-      "fontFamily": "MewgenicsMain",
+      "fontFamily": "MewgenicsNumber",
       "fontSize": 12,
       "fill": "#000000",
-      "x": 31,
-      "y": 115,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 37.75,
+      "y": 96.5,
+      "scaleX": 2,
+      "scaleY": 2,
       "rotation": 0,
       "visible": true
     },
@@ -105,11 +105,11 @@
       "id": "mana_type_icon",
       "label": "2769 mana icon",
       "source": "../../SVG Important/Svg number icons/shapes/2769.svg",
-      "x": 61,
-      "y": 117,
+      "x": 57.75,
+      "y": 112.5,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
+      "rotation": 320,
       "visible": true
     },
     {
@@ -117,13 +117,13 @@
       "label": "Mana number sample",
       "type": "text",
       "text": "2",
-      "fontFamily": "MewgenicsMain",
+      "fontFamily": "MewgenicsNumber",
       "fontSize": 12,
-      "fill": "#000000",
-      "x": 76,
-      "y": 115,
-      "scaleX": 1,
-      "scaleY": 1,
+      "fill": "#ffffff",
+      "x": 77.5,
+      "y": 96.5,
+      "scaleX": 2,
+      "scaleY": 2,
       "rotation": 0,
       "visible": true
     }

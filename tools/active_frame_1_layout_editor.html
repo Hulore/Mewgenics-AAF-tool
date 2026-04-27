@@ -9,6 +9,11 @@
       src: url("../../SVG Important/MainFont/fonts/6_Edmundm_EdmundMcMillen_INTLv4 Regular.ttf") format("truetype");
     }
 
+    @font-face {
+      font-family: "MewgenicsNumber";
+      src: url("../../SVG Important/Number Fonts/fonts/1_TikaFont_TikaFont Adjusted Regular.ttf") format("truetype");
+    }
+
     :root {
       color-scheme: dark;
       font-family: Arial, sans-serif;
@@ -245,12 +250,12 @@
         { id: "main_picture", label: "Main picture sample", source: "$main", x: 26.25, y: 38, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
         { id: "base_white", label: "2760 base white", source: "../../SVG Important/shapes/Atcive Frame 1/2760.svg", x: 16, y: 10, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
         { id: "class_body", label: "2763 class body", source: "../../SVG Important/shapes/Atcive Frame 1/2763.svg", x: 12.25, y: 13.75, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
+        { id: "damage_type_icon", label: "2762 damage type icon sample", source: "../../SVG Important/Svg number icons/shapes/2762.svg", x: 20.5, y: 98, scaleX: 1, scaleY: 0.98, rotation: 0, visible: true },
         { id: "black_outline", label: "2776 black outline", source: "../../SVG Important/shapes/Atcive Frame 1/2776.svg", x: 14, y: 8, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
         { id: "bottom_slots", label: "2817 bottom slots", source: "../../SVG Important/shapes/Atcive Frame 1/2817.svg", x: 8.25, y: 36.5, scaleX: 0.999, scaleY: 1, rotation: 0, visible: true },
-        { id: "damage_type_icon", label: "2762 damage type icon sample", source: "../../SVG Important/Svg number icons/shapes/2762.svg", x: 17, y: 112, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
-        { id: "damage_number_text", label: "Damage number sample", type: "text", text: "5", fontFamily: "MewgenicsMain", fontSize: 12, fill: "#000000", x: 31, y: 115, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
-        { id: "mana_type_icon", label: "2769 mana icon", source: "../../SVG Important/Svg number icons/shapes/2769.svg", x: 61, y: 117, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
-        { id: "mana_number_text", label: "Mana number sample", type: "text", text: "2", fontFamily: "MewgenicsMain", fontSize: 12, fill: "#000000", x: 76, y: 115, scaleX: 1, scaleY: 1, rotation: 0, visible: true }
+        { id: "damage_number_text", label: "Damage number sample", type: "text", text: "5", fontFamily: "MewgenicsNumber", fontSize: 12, fill: "#000000", x: 37.75, y: 96.5, scaleX: 2, scaleY: 2, rotation: 0, visible: true },
+        { id: "mana_type_icon", label: "2769 mana icon", source: "../../SVG Important/Svg number icons/shapes/2769.svg", x: 57.75, y: 112.5, scaleX: 1, scaleY: 1, rotation: 320, visible: true },
+        { id: "mana_number_text", label: "Mana number sample", type: "text", text: "2", fontFamily: "MewgenicsNumber", fontSize: 12, fill: "#ffffff", x: 77.5, y: 96.5, scaleX: 2, scaleY: 2, rotation: 0, visible: true }
       ]
     };
 
@@ -420,7 +425,7 @@
     }
 
     function layerTransform(layer) {
-      return `translate(${layer.x * stageScale}px, ${layer.y * stageScale}px) rotate(${layer.rotation || 0}deg) scale(${layer.scaleX || 1}, ${layer.scaleY || 1})`;
+      return `translate(${layer.x * stageScale}px, ${layer.y * stageScale}px) rotate(${layer.rotation || 0}deg) scale(${layer.scaleX ?? 1}, ${layer.scaleY ?? 1})`;
     }
 
     function applyLayerTransform(layer) {
