@@ -32,6 +32,17 @@
       "visible": true
     },
     {
+      "id": "white_picture_background",
+      "label": "2856 white picture background",
+      "source": "../../SVG Important/shapes/2856.svg",
+      "x": 22,
+      "y": 22,
+      "scaleX": 0.64,
+      "scaleY": 0.64,
+      "rotation": 0,
+      "visible": true
+    },
+    {
       "id": "main_picture",
       "label": "Main picture sample",
       "source": "$main",
