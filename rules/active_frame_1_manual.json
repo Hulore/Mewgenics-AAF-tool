@@ -21,6 +21,17 @@
       "visible": true
     },
     {
+      "id": "main_picture",
+      "label": "Main picture sample",
+      "source": "$main",
+      "x": 26.25,
+      "y": 38,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    },
+    {
       "id": "base_white",
       "label": "2760 base white",
       "source": "../../SVG Important/shapes/Atcive Frame 1/2760.svg",
@@ -37,17 +48,6 @@
       "source": "../../SVG Important/shapes/Atcive Frame 1/2763.svg",
       "x": 12.25,
       "y": 13.75,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0,
-      "visible": true
-    },
-    {
-      "id": "main_picture",
-      "label": "Main picture sample",
-      "source": "$main",
-      "x": 26.25,
-      "y": 38,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
