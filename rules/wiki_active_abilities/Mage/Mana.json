@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Teleport to a random tile.Upgraded: Teleport to a random tile. Deal damage to units adjacent to the tile you teleport to.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHAOSTELEPORT_NAME",
+        "ru_name": "Хаос-телепорт",
+        "ru_description": "Телепортируйтесь на случайную клетку.",
+        "ru_upgraded_description": "Телепортируйтесь на случайную клетку. Нанесите урон всем вокруг точки появления.",
+        "en_name": "Chaos Teleport",
+        "en_description": "Teleport to a random tile.",
+        "en_upgraded_description": "Teleport to a random tile. Deal damage to units adjacent to the tile you teleport to."
+      },
       "manifest": {
         "ability_id": "ChaosTeleport",
         "display_name": "Chaos Teleport",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Inflict Slow on a unit.Upgraded: Inflict Slow on units in an area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHILL_NAME",
+        "ru_name": "Озноб",
+        "ru_description": "Наложите Замедление на юнита.",
+        "ru_upgraded_description": "Наложите Замедление на юнитов в области.",
+        "en_name": "Chill",
+        "en_description": "Inflict Slow on a unit.",
+        "en_upgraded_description": "Inflict Slow on units in an area."
+      },
       "manifest": {
         "ability_id": "Slow",
         "display_name": "Chill",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Injure yourself, then gain +3 Magic Damage.Upgraded: Injure yourself, then gain +3 Magic Damage and emit a Sparkle.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CORRUPT_NAME",
+        "ru_name": "Жертвенная мощь",
+        "ru_description": "Нанеси себе травму (навсегда), затем получите +3 Маг Урона  (до конца боя).",
+        "ru_upgraded_description": "Нанеси себе травму (навсегда), затем получите +3 Маг Урона и испустите Искру.  (до конца боя)",
+        "en_name": "Corrupt",
+        "en_description": "Injure yourself, then gain +3 Magic Damage.",
+        "en_upgraded_description": "Injure yourself, then gain +3 Magic Damage and emit a Sparkle."
+      },
       "manifest": {
         "ability_id": "Corrupt",
         "display_name": "Corrupt",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Injure yourself, then restore 15 mana. (Castable once per battle.) Upgraded: Injure yourself, then restore all your mana. (Castable once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DEALWITHTHEDEVIL_NAME",
+        "ru_name": "Сделка с Дьяволом",
+        "ru_description": "Нанеси себе травму (навсегда), затем восстановите 15 маны.\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Нанеси себе травму (навсегда), затем восстановите всю ману.\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Deal with the Devil",
+        "en_description": "Injure yourself, then restore 15 mana.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Injure yourself, then restore all your mana.\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "DealWithTheDevil",
         "display_name": "Deal with the Devil",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Lose Damage equal to half of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn. (This can't be cast if your basic attack's damage is 1 or less.) Upgraded: Lose Damage equal to 1/3rd of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn. (This can't be cast if your basic attack's damage is 1 or less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DIVIDE_NAME",
+        "ru_name": "Разделение",
+        "ru_description": "Потеряйте Урон, равный половине урона вашей базовой атаки. До конца битвы атакуйте лишний раз за ход.\n[s:.7](Нельзя, если урон атаки 1 или меньше.)[/s]",
+        "ru_upgraded_description": "Потеряйте Урон, равный 1/3 урона вашей базовой атаки. До конца битвы атакуйте лишний раз за ход.\n[s:.7](Нельзя, если урон атаки 1 или меньше.)[/s]",
+        "en_name": "Divide",
+        "en_description": "Lose Damage equal to half of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn.\n[s:.7](This can't be cast if your basic attack's damage is 1 or less.)[/s]",
+        "en_upgraded_description": "Lose Damage equal to 1/3rd of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn.\n[s:.7](This can't be cast if your basic attack's damage is 1 or less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Divide",
         "display_name": "Divide",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Shoot a blast of ice in a line that freezes the first unit it hits.Upgraded: Shoot a blast of ice in a line that freezes every unit it hits.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FROSTBLAST_NAME",
+        "ru_name": "Ледяной взрыв",
+        "ru_description": "Выстрел льдом по линии, замораживающий первого попавшегося.",
+        "ru_upgraded_description": "Выстрел льдом по линии, замораживающий всех на пути.",
+        "en_name": "Frost Blast",
+        "en_description": "Shoot a blast of ice in a line that freezes the first unit it hits.",
+        "en_upgraded_description": "Shoot a blast of ice in a line that freezes every unit it hits."
+      },
       "manifest": {
         "ability_id": "FreezeRay",
         "display_name": "Frost Blast",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Knock back each unit adjacent to a chosen tile 1 space.Upgraded: Knock back each unit adjacent to a chosen tile 3 spaces, at infinite range.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GUST_NAME",
+        "ru_name": "Порыв",
+        "ru_description": "Отбросьте всех вокруг выбранной клетки на 1.",
+        "ru_upgraded_description": "Отбросьте всех вокруг выбранной клетки на 3, бесконечная дальность.",
+        "en_name": "Gust",
+        "en_description": "Knock back each unit adjacent to a chosen tile 1 space.",
+        "en_upgraded_description": "Knock back each unit adjacent to a chosen tile 3 spaces, at infinite range."
+      },
       "manifest": {
         "ability_id": "Gust",
         "display_name": "Gust",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Give 2 mana to a unit.Upgraded: Give 4 mana to a unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_INSPIRE_NAME",
+        "ru_name": "Вдохновение",
+        "ru_description": "Дайте 2 маны юниту.",
+        "ru_upgraded_description": "Дайте 4 маны юниту.",
+        "en_name": "Inspire",
+        "en_description": "Give 2 mana to a unit.",
+        "en_upgraded_description": "Give 4 mana to a unit."
+      },
       "manifest": {
         "ability_id": "Inspire",
         "display_name": "Inspire",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Your basic attack gains +1 range and area until the end of the turn.Upgraded: Your basic attack gains +2 range and +1 area until the end of the turn. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MAGNIFY_NAME",
+        "ru_name": "Увеличение",
+        "ru_description": "Ваша базовая атака получает +1 дальность и область до конца хода.",
+        "ru_upgraded_description": "Ваша базовая атака получает +2 дальность и +1 область до конца хода.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Magnify",
+        "en_description": "Your basic attack gains +1 range and area until the end of the turn.",
+        "en_upgraded_description": "Your basic attack gains +2 range and +1 area until the end of the turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Magnify",
         "display_name": "Magnify",
@@ -226,6 +307,15 @@
       "variant": "upgraded",
       "description": "Your basic attack gains +1 range and area until the end of the turn.Upgraded: Your basic attack gains +2 range and +1 area until the end of the turn. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MAGNIFY_NAME",
+        "ru_name": "Увеличение",
+        "ru_description": "Ваша базовая атака получает +1 дальность и область до конца хода.",
+        "ru_upgraded_description": "Ваша базовая атака получает +2 дальность и +1 область до конца хода.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Magnify",
+        "en_description": "Your basic attack gains +1 range and area until the end of the turn.",
+        "en_upgraded_description": "Your basic attack gains +2 range and +1 area until the end of the turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Magnify",
         "display_name": "Magnify",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Give all of your mana to a unit in range 3.Upgraded: Give all of your mana plus 2 to a unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MANAMELD_NAME",
+        "ru_name": "Слияние маны",
+        "ru_description": "Отдайте всю свою ману юниту в радиусе 3.",
+        "ru_upgraded_description": "Отдайте всю свою ману плюс 2 юниту.",
+        "en_name": "Mana Meld",
+        "en_description": "Give all of your mana to a unit in range 3.",
+        "en_upgraded_description": "Give all of your mana plus 2 to a unit."
+      },
       "manifest": {
         "ability_id": "ManaMeld",
         "display_name": "Mana Meld",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "The next spell you cast is cast twice.Upgraded: The next spell you or another unit casts is cast twice.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REPLICATE_NAME",
+        "ru_name": "Репликация",
+        "ru_description": "Ваше следующее заклинание сработает дважды.",
+        "ru_upgraded_description": "Следующее заклинание (ваше или чужое) сработает дважды.",
+        "en_name": "Replicate",
+        "en_description": "The next spell you cast is cast twice.",
+        "en_upgraded_description": "The next spell you or another unit casts is cast twice."
+      },
       "manifest": {
         "ability_id": "Replicate",
         "display_name": "Replicate",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Inflict Burn 1 and +1 Speed to a unit in range.Upgraded: Inflict Burn 1 and +1 Speed to any unit. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SMOLDER_NAME",
+        "ru_name": "Тление",
+        "ru_description": "Наложите Горение 1 и +1 [img:spd] на юнита.",
+        "ru_upgraded_description": "Наложите Горение 1 и +1 [img:spd] на любого юнита.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Smolder",
+        "en_description": "Inflict Burn 1 and +1 [img:spd] to a unit in range.",
+        "en_upgraded_description": "Inflict Burn 1 and +1 [img:spd] to any unit.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Smolder",
         "display_name": "Smolder",
@@ -322,6 +439,15 @@
       "variant": "upgraded",
       "description": "Inflict Burn 1 and +1 Speed to a unit in range.Upgraded: Inflict Burn 1 and +1 Speed to any unit. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SMOLDER_NAME",
+        "ru_name": "Тление",
+        "ru_description": "Наложите Горение 1 и +1 [img:spd] на юнита.",
+        "ru_upgraded_description": "Наложите Горение 1 и +1 [img:spd] на любого юнита.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Smolder",
+        "en_description": "Inflict Burn 1 and +1 [img:spd] to a unit in range.",
+        "en_upgraded_description": "Inflict Burn 1 and +1 [img:spd] to any unit.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Smolder",
         "display_name": "Smolder",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Switch positions with any unit.Upgraded: Switch positions with any unit. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SWITCH_NAME",
+        "ru_name": "Замена",
+        "ru_description": "Поменяйтесь местами с любым юнитом.",
+        "ru_upgraded_description": "Поменяйтесь местами с любым юнитом.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Switch",
+        "en_description": "Switch positions with any unit.",
+        "en_upgraded_description": "Switch positions with any unit.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MageSwap",
         "display_name": "Switch",
@@ -370,6 +505,15 @@
       "variant": "upgraded",
       "description": "Switch positions with any unit.Upgraded: Switch positions with any unit. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SWITCH_NAME",
+        "ru_name": "Замена",
+        "ru_description": "Поменяйтесь местами с любым юнитом.",
+        "ru_upgraded_description": "Поменяйтесь местами с любым юнитом.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Switch",
+        "en_description": "Switch positions with any unit.",
+        "en_upgraded_description": "Switch positions with any unit.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MageSwap",
         "display_name": "Switch",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Reduce the cost of another unit's spells by 1 until the end of their turn.Upgraded: Reduce the cost of a unit's spells by 1 until the end of their turn. This can target yourself.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TEACH_NAME",
+        "ru_name": "Обучение",
+        "ru_description": "Снизьте цену заклинаний другого юнита на 1 до конца его хода.",
+        "ru_upgraded_description": "Снизьте цену заклинаний юнита на 1 до конца его хода. Можно на себя.",
+        "en_name": "Teach",
+        "en_description": "Reduce the cost of another unit's spells by 1 until the end of their turn.",
+        "en_upgraded_description": "Reduce the cost of a unit's spells by 1 until the end of their turn. This can target yourself."
+      },
       "manifest": {
         "ability_id": "Teach",
         "display_name": "Teach",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Teleport to any tile.Upgraded: Teleport to any tile. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TELEPORTMAGE_NAME",
+        "ru_name": "Телепорт",
+        "ru_description": "Телепортируйтесь на любую клетку.",
+        "ru_upgraded_description": "Телепортируйтесь на любую клетку.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Teleport",
+        "en_description": "Teleport to any tile.",
+        "en_upgraded_description": "Teleport to any tile.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MageTeleport",
         "display_name": "Teleport",
@@ -442,6 +604,15 @@
       "variant": "upgraded",
       "description": "Teleport to any tile.Upgraded: Teleport to any tile. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TELEPORTMAGE_NAME",
+        "ru_name": "Телепорт",
+        "ru_description": "Телепортируйтесь на любую клетку.",
+        "ru_upgraded_description": "Телепортируйтесь на любую клетку.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Teleport",
+        "en_description": "Teleport to any tile.",
+        "en_upgraded_description": "Teleport to any tile.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MageTeleport",
         "display_name": "Teleport",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Teleport diagonally any distance.Upgraded: Teleport diagonally any distance. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WARP_NAME",
+        "ru_name": "Искривление",
+        "ru_description": "Телепортируйтесь по диагонали на любое расстояние.",
+        "ru_upgraded_description": "Телепортируйтесь по диагонали на любое расстояние.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Warp",
+        "en_description": "Teleport diagonally any distance.",
+        "en_upgraded_description": "Teleport diagonally any distance.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Warp",
         "display_name": "Warp",
@@ -490,6 +670,15 @@
       "variant": "upgraded",
       "description": "Teleport diagonally any distance.Upgraded: Teleport diagonally any distance. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WARP_NAME",
+        "ru_name": "Искривление",
+        "ru_description": "Телепортируйтесь по диагонали на любое расстояние.",
+        "ru_upgraded_description": "Телепортируйтесь по диагонали на любое расстояние.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Warp",
+        "en_description": "Teleport diagonally any distance.",
+        "en_upgraded_description": "Teleport diagonally any distance.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Warp",
         "display_name": "Warp",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Create a whirlpool that spins units and inflicts Confusion on them.Upgraded: Create a larger whirlpool that spins units and inflicts Confusion on them.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WATERSPHERE_NAME",
+        "ru_name": "Водоворот",
+        "ru_description": "Создайте водоворот, который крутит юнитов и накладывает Замешательство.",
+        "ru_upgraded_description": "Создайте большой водоворот, который крутит юнитов и накладывает Замешательство.",
+        "en_name": "Whirlpool",
+        "en_description": "Create a whirlpool that spins units and inflicts Confusion on them.",
+        "en_upgraded_description": "Create a larger whirlpool that spins units and inflicts Confusion on them."
+      },
       "manifest": {
         "ability_id": "WaterSphere",
         "display_name": "Whirlpool",

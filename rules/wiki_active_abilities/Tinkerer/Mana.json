@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Craft a Tinkerer armor piece into one of your empty armor slots.Upgraded: Craft a Tinkerer armor piece into one of your or an adjacent unit's empty armor slots.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ARMORUP_NAME",
+        "ru_name": "Броня вверх!",
+        "ru_description": "Создайте броню Изобретателя в пустой слот.",
+        "ru_upgraded_description": "Создайте броню Изобретателя в свой (или соседа) пустой слот.",
+        "en_name": "Armor Up",
+        "en_description": "Craft a Tinkerer armor piece into one of your empty armor slots.",
+        "en_upgraded_description": "Craft a Tinkerer armor piece into one of your or an adjacent unit's empty armor slots."
+      },
       "manifest": {
         "ability_id": "ArmorUp",
         "display_name": "Armor Up",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Take an extra turn after this one. You are AI controlled on that turn.Upgraded: You or another unit takes an extra turn after this one. That unit is AI controlled on that turn. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_AUTOPILOT_NAME",
+        "ru_name": "Автопилот",
+        "ru_description": "Вы делаете доп. ход. В этот ход вами управляет ИИ.",
+        "ru_upgraded_description": "Вы или другой юнит делаете доп. ход под управлением ИИ.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Autopilot",
+        "en_description": "Take an extra turn after this one. You are AI controlled on that turn.",
+        "en_upgraded_description": "You or another unit takes an extra turn after this one. That unit is AI controlled on that turn.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "AutoPilot",
         "display_name": "Autopilot",
@@ -58,6 +76,15 @@
       "variant": "upgraded",
       "description": "Take an extra turn after this one. You are AI controlled on that turn.Upgraded: You or another unit takes an extra turn after this one. That unit is AI controlled on that turn. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_AUTOPILOT_NAME",
+        "ru_name": "Автопилот",
+        "ru_description": "Вы делаете доп. ход. В этот ход вами управляет ИИ.",
+        "ru_upgraded_description": "Вы или другой юнит делаете доп. ход под управлением ИИ.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Autopilot",
+        "en_description": "Take an extra turn after this one. You are AI controlled on that turn.",
+        "en_upgraded_description": "You or another unit takes an extra turn after this one. That unit is AI controlled on that turn.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "AutoPilot",
         "display_name": "Autopilot",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Spawn a Bombchu bot.Upgraded: Spawn a Bombchu bot in range 4. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BOMBCHU_NAME",
+        "ru_name": "Бомбчу",
+        "ru_description": "Призовите бота-Бомбчу.",
+        "ru_upgraded_description": "Призовите бота-Бомбчу в радиусе 4.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Bombchu",
+        "en_description": "Spawn a Bombchu bot.",
+        "en_upgraded_description": "Spawn a Bombchu bot in range 4.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Bombchu",
         "display_name": "Bombchu",
@@ -106,6 +142,15 @@
       "variant": "upgraded",
       "description": "Spawn a Bombchu bot.Upgraded: Spawn a Bombchu bot in range 4. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BOMBCHU_NAME",
+        "ru_name": "Бомбчу",
+        "ru_description": "Призовите бота-Бомбчу.",
+        "ru_upgraded_description": "Призовите бота-Бомбчу в радиусе 4.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Bombchu",
+        "en_description": "Spawn a Bombchu bot.",
+        "en_upgraded_description": "Spawn a Bombchu bot in range 4.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Bombchu",
         "display_name": "Bombchu",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Spawn a mini-nuke that makes a HUGE explosion when it dies.Upgraded: Spawn a mini-nuke in range 4 that makes a HUGE explosion when it dies.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BUILDNUKE_NAME",
+        "ru_name": "Ядерный заряд",
+        "ru_description": "Создайте мини-ядерку, которая при смерти делает ОГРОМНЫЙ взрыв.",
+        "ru_upgraded_description": "Создайте мини-ядерку в радиусе 4, делающую ОГРОМНЫЙ взрыв.",
+        "en_name": "Build Nuke",
+        "en_description": "Spawn a mini-nuke that makes a HUGE explosion when it dies.",
+        "en_upgraded_description": "Spawn a mini-nuke in range 4 that makes a HUGE explosion when it dies."
+      },
       "manifest": {
         "ability_id": "BuildNuke",
         "display_name": "Build Nuke",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Summon a turret.Upgraded: Summon a rocket turret.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BUILDTURRET_NAME",
+        "ru_name": "Турель",
+        "ru_description": "Постройте турель.",
+        "ru_upgraded_description": "Постройте ракетную турель.",
+        "en_name": "Build Turret",
+        "en_description": "Summon a turret.",
+        "en_upgraded_description": "Summon a rocket turret."
+      },
       "manifest": {
         "ability_id": "BuildTurret",
         "display_name": "Build Turret",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Spawn a Catbot and give it your current weapon. (You will not get the weapon back) Upgraded: Spawn a Catbot and give it your current weapon. Gain +1 Tech and refresh your basic action. (You will not get the weapon back)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CATBOT_NAME",
+        "ru_name": "Кот-бот",
+        "ru_description": "Призовите Кота-бота и отдайте ему свое оружие.\n[s:.7](Вы не получите оружие назад)[/s]",
+        "ru_upgraded_description": "Призовите Кота-бота и отдайте оружие. +1 Технология и обновление базового действия.\n[s:.7](Вы не получите оружие назад)[/s]",
+        "en_name": "Catbot",
+        "en_description": "Spawn a Catbot and give it your current weapon.\n[s:.7](You will not get the weapon back)[/s]",
+        "en_upgraded_description": "Spawn a Catbot and give it your current weapon. Gain +1 Tech and refresh your basic action.\n[s:.7](You will not get the weapon back)[/s]"
+      },
       "manifest": {
         "ability_id": "Catbot",
         "display_name": "Catbot",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Craft and equip a random temporary weapon.Upgraded: Craft and equip a random temporary weapon for yourself or an ally in range 3 (if they have an empty weapon slot).",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CRAFT_NAME",
+        "ru_name": "Ремесло",
+        "ru_description": "Изготовьте и экипируйте случайное временное оружие.",
+        "ru_upgraded_description": "Изготовьте и экипируйте случайное временное оружие для себя или союзника в радиусе 3 (если есть место для оружия).",
+        "en_name": "Craft",
+        "en_description": "Craft and equip a random temporary weapon.",
+        "en_upgraded_description": "Craft and equip a random temporary weapon for yourself or an ally in range 3 (if they have an empty weapon slot)."
+      },
       "manifest": {
         "ability_id": "Craft",
         "display_name": "Craft",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Dig to an open tile in a straight line.Upgraded: Dig to a tile in a straight line. If you dig into a unit, explode dealing 5 damage in an area (including to yourself).",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DRILLDOWN_NAME",
+        "ru_name": "Бурение",
+        "ru_description": "Прокопайте путь к свободной клетке по прямой.",
+        "ru_upgraded_description": "Прокопайте путь. Если вкопаетесь в юнита — взрыв (5 урона в области, вам тоже).",
+        "en_name": "Drill Down",
+        "en_description": "Dig to an open tile in a straight line.",
+        "en_upgraded_description": "Dig to a tile in a straight line. If you dig into a unit, explode dealing 5 damage in an area (including to yourself)."
+      },
       "manifest": {
         "ability_id": "DrillDown",
         "display_name": "Drill Down",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Explode and fly to a random tile at least four tiles away. This explosion damages you.Upgraded: Explode and fly to a random tile at least four tiles away. This explosion damages you. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_EJECTBUTTON_NAME",
+        "ru_name": "Кнопка катапульты",
+        "ru_description": "Взорвитесь и улетите на случайную клетку.",
+        "ru_upgraded_description": "Взорвитесь и улетите на случайную клетку.\n(Минимум 4 клетки от изначальной позиции)\n(Вы тоже получите урон от взыва)\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Eject Button",
+        "en_description": "Explode and fly to a random tile at least four tiles away. This explosion damages you.",
+        "en_upgraded_description": "Explode and fly to a random tile at least four tiles away. This explosion damages you.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "EjectButton",
         "display_name": "Eject Button",
@@ -274,6 +373,15 @@
       "variant": "upgraded",
       "description": "Explode and fly to a random tile at least four tiles away. This explosion damages you.Upgraded: Explode and fly to a random tile at least four tiles away. This explosion damages you. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_EJECTBUTTON_NAME",
+        "ru_name": "Кнопка катапульты",
+        "ru_description": "Взорвитесь и улетите на случайную клетку.",
+        "ru_upgraded_description": "Взорвитесь и улетите на случайную клетку.\n(Минимум 4 клетки от изначальной позиции)\n(Вы тоже получите урон от взыва)\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Eject Button",
+        "en_description": "Explode and fly to a random tile at least four tiles away. This explosion damages you.",
+        "en_upgraded_description": "Explode and fly to a random tile at least four tiles away. This explosion damages you.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "EjectButton",
         "display_name": "Eject Button",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana.Upgraded: Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ELECTRICNAIL_NAME",
+        "ru_name": "Электро-гвоздь",
+        "ru_description": "Создайте гвоздь, он бьет электричеством соседние клетки, когда любое существо тратит ману.",
+        "ru_upgraded_description": "Создайте гвоздь, он бьет электричеством соседние клетки, когда любое существо тратит ману.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Electric Nail",
+        "en_description": "Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana.",
+        "en_upgraded_description": "Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ElectricNail",
         "display_name": "Electric Nail",
@@ -322,6 +439,15 @@
       "variant": "upgraded",
       "description": "Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana.Upgraded: Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ELECTRICNAIL_NAME",
+        "ru_name": "Электро-гвоздь",
+        "ru_description": "Создайте гвоздь, он бьет электричеством соседние клетки, когда любое существо тратит ману.",
+        "ru_upgraded_description": "Создайте гвоздь, он бьет электричеством соседние клетки, когда любое существо тратит ману.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Electric Nail",
+        "en_description": "Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana.",
+        "en_upgraded_description": "Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ElectricNail",
         "display_name": "Electric Nail",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Give your weapon +3 electric damage.Upgraded: Give your weapon +3 electric damage. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ELECTROLYZE_NAME",
+        "ru_name": "Электролиз",
+        "ru_description": "Дайте оружию +3 электр. урона.",
+        "ru_upgraded_description": "Дайте оружию +3 электр. урона.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Electrolyze",
+        "en_description": "Give your weapon +3 electric damage.",
+        "en_upgraded_description": "Give your weapon +3 electric damage.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Electrolyze",
         "display_name": "Electrolyze",
@@ -370,6 +505,15 @@
       "variant": "upgraded",
       "description": "Give your weapon +3 electric damage.Upgraded: Give your weapon +3 electric damage. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ELECTROLYZE_NAME",
+        "ru_name": "Электролиз",
+        "ru_description": "Дайте оружию +3 электр. урона.",
+        "ru_upgraded_description": "Дайте оружию +3 электр. урона.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Electrolyze",
+        "en_description": "Give your weapon +3 electric damage.",
+        "en_upgraded_description": "Give your weapon +3 electric damage.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Electrolyze",
         "display_name": "Electrolyze",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Gain +3 Tech and Madness 1. (This spell can only be cast once per battle.) Upgraded: Gain +3 Tech. (This spell can only be cast once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_EUREKA_NAME",
+        "ru_name": "Эврика!",
+        "ru_description": "+3 Технологии и Безумие 1.\n[s:.7](Только раз за бой.)[/s]",
+        "ru_upgraded_description": "+3 Технологии.\n[s:.7](Только раз за бой.)[/s]",
+        "en_name": "Eureka!",
+        "en_description": "Gain +3 Tech and Madness 1.\r\n[s:.7](This spell can only be cast once per battle.)[/s]",
+        "en_upgraded_description": "Gain +3 Tech.\r\n[s:.7](This spell can only be cast once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "Eureka",
         "display_name": "Eureka!",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces.Upgraded: Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_EXPERIMENTALTELEPORTER_NAME",
+        "ru_name": "Экспериментальный телепорт",
+        "ru_description": "Телепорт на любую клетку. 15% шанс надеть броню Мухи (ломает старую броню).",
+        "ru_upgraded_description": "Телепорт на любую клетку. 15% шанс надеть броню Мухи (ломает старую броню).\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Experimental Teleporter",
+        "en_description": "Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces.",
+        "en_upgraded_description": "Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ExperimentalTeleporter",
         "display_name": "Experimental Teleporter",
@@ -442,6 +604,15 @@
       "variant": "upgraded",
       "description": "Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces.Upgraded: Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_EXPERIMENTALTELEPORTER_NAME",
+        "ru_name": "Экспериментальный телепорт",
+        "ru_description": "Телепорт на любую клетку. 15% шанс надеть броню Мухи (ломает старую броню).",
+        "ru_upgraded_description": "Телепорт на любую клетку. 15% шанс надеть броню Мухи (ломает старую броню).\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Experimental Teleporter",
+        "en_description": "Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces.",
+        "en_upgraded_description": "Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ExperimentalTeleporter",
         "display_name": "Experimental Teleporter",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon.Upgraded: Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FABRICATE_NAME",
+        "ru_name": "Фабрикация",
+        "ru_description": "Дайте союзнику в радиусе 3 копию вашего оружия (если у него нет).",
+        "ru_upgraded_description": "Дайте союзнику в радиусе 3 копию вашего оружия (если у него нет).\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Fabricate",
+        "en_description": "Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon.",
+        "en_upgraded_description": "Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Fabricate",
         "display_name": "Fabricate",
@@ -490,6 +670,15 @@
       "variant": "upgraded",
       "description": "Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon.Upgraded: Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FABRICATE_NAME",
+        "ru_name": "Фабрикация",
+        "ru_description": "Дайте союзнику в радиусе 3 копию вашего оружия (если у него нет).",
+        "ru_upgraded_description": "Дайте союзнику в радиусе 3 копию вашего оружия (если у него нет).\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Fabricate",
+        "en_description": "Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon.",
+        "en_upgraded_description": "Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Fabricate",
         "display_name": "Fabricate",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Refresh your weapon and trinket actions (unless they gain you mana).Upgraded: Refresh your weapon and trinket actions (unless they gain you mana). Repair 1 use to all of your equipment.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FASTHANDS_NAME",
+        "ru_name": "Ловкость рук",
+        "ru_description": "Обновите оружие и брелок (если они не дают ману).",
+        "ru_upgraded_description": "Обновите оружие и брелок (если они не дают ману). Восстановите 1 прочность всего своего снаряжения.",
+        "en_name": "Fast Hands",
+        "en_description": "Refresh your weapon and trinket actions (unless they gain you mana).",
+        "en_upgraded_description": "Refresh your weapon and trinket actions (unless they gain you mana). Repair 1 use to all of your equipment."
+      },
       "manifest": {
         "ability_id": "FastHands",
         "display_name": "Fast Hands",
@@ -538,6 +736,15 @@
       "variant": "normal",
       "description": "Throw 3 small 1-damage explosives at random tiles in an area.Upgraded: Throw small 1-damage explosives at all tiles in an area.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FIRECRACKERS_NAME",
+        "ru_name": "Петарда",
+        "ru_description": "Бросьте 3 малых бомбочки (1 урон) случайно в области.",
+        "ru_upgraded_description": "Бросьте малые бомбочки (1 урон) на ВСЕ клетки в области.",
+        "en_name": "Firecracker",
+        "en_description": "Throw 3 small 1-damage explosives at random tiles in an area.",
+        "en_upgraded_description": "Throw small 1-damage explosives at all tiles in an area."
+      },
       "manifest": {
         "ability_id": "Firecrackers",
         "display_name": "Firecracker",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Gain +7 and Burn 3.Upgraded: Give +7 and Burn 3 to yourself or an adjacent unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FRESHOFFTHEFORGE_NAME",
+        "ru_name": "С пылу с жару",
+        "ru_description": "Получите +7 [img:shield] и Горение 3.",
+        "ru_upgraded_description": "Дайте +7 [img:shield] и Горение 3 себе или соседу.",
+        "en_name": "Fresh off the Forge",
+        "en_description": "Gain +7 [img:shield] and Burn 3.",
+        "en_upgraded_description": "Give +7 [img:shield] and Burn 3 to yourself or an adjacent unit. "
+      },
       "manifest": {
         "ability_id": "FreshOffTheForge",
         "display_name": "Fresh off the Forge",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Gain +1 to a random stat.Upgraded: You or an adjacent unit gain +1 to 2 random stats.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_IMPROVE_NAME",
+        "ru_name": "Улучшение",
+        "ru_description": "Получите +1 к случайной характеристике.",
+        "ru_upgraded_description": "Вы или сосед получаете +1 к 2 случайным характеристикам.",
+        "en_name": "Improve",
+        "en_description": "Gain +1 to a random stat.",
+        "en_upgraded_description": "You or an adjacent unit gain +1 to 2 random stats."
+      },
       "manifest": {
         "ability_id": "Improve",
         "display_name": "Improve",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Gain +6 . Castable only if you have no .Upgraded: Gain +6 . This spell's mana cost is equal to your current .",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_INSTANTBARRIER_NAME",
+        "ru_name": "Мгновенный барьер",
+        "ru_description": "Получите +6 [img:shield].\nТолько если у вас нет [img:shield].",
+        "ru_upgraded_description": "Получите +6 [img:shield].\nЦена маны равна текущему [img:shield].",
+        "en_name": "Instant Barrier",
+        "en_description": "Gain +6 [img:shield].\r\nCastable only if you have no [img:shield].",
+        "en_upgraded_description": "Gain +6 [img:shield].\r\nThis spell's mana cost is equal to your current [img:shield]."
+      },
       "manifest": {
         "ability_id": "InstantBarrier",
         "display_name": "Instant Barrier",
@@ -634,6 +868,15 @@
       "variant": "upgraded",
       "description": "Gain +6 . Castable only if you have no .Upgraded: Gain +6 . This spell's mana cost is equal to your current .",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_INSTANTBARRIER_NAME",
+        "ru_name": "Мгновенный барьер",
+        "ru_description": "Получите +6 [img:shield].\nТолько если у вас нет [img:shield].",
+        "ru_upgraded_description": "Получите +6 [img:shield].\nЦена маны равна текущему [img:shield].",
+        "en_name": "Instant Barrier",
+        "en_description": "Gain +6 [img:shield].\r\nCastable only if you have no [img:shield].",
+        "en_upgraded_description": "Gain +6 [img:shield].\r\nThis spell's mana cost is equal to your current [img:shield]."
+      },
       "manifest": {
         "ability_id": "InstantBarrier",
         "display_name": "Instant Barrier",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "Summon a mech suit that can be piloted. (Castable once per battle.) Upgraded: Summon a mech suit that can be piloted. (Costs 0 mana. Castable once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MECHSUIT_NAME",
+        "ru_name": "Меха-костюм",
+        "ru_description": "Призовите пилотируемый меха-костюм.\n[s:.7](Раз за бой.)[/s]",
+        "ru_upgraded_description": "Призовите пилотируемый меха-костюм.\n[s:.7](Бесплатно. Раз за бой.)[/s]",
+        "en_name": "Mech Suit",
+        "en_description": "Summon a mech suit that can be piloted.\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Summon a mech suit that can be piloted.\n[s:.7](Costs 0 mana. Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "MechSuit",
         "display_name": "Mech Suit",
@@ -682,6 +934,15 @@
       "variant": "upgraded",
       "description": "Summon a mech suit that can be piloted. (Castable once per battle.) Upgraded: Summon a mech suit that can be piloted. (Costs 0 mana. Castable once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MECHSUIT_NAME",
+        "ru_name": "Меха-костюм",
+        "ru_description": "Призовите пилотируемый меха-костюм.\n[s:.7](Раз за бой.)[/s]",
+        "ru_upgraded_description": "Призовите пилотируемый меха-костюм.\n[s:.7](Бесплатно. Раз за бой.)[/s]",
+        "en_name": "Mech Suit",
+        "en_description": "Summon a mech suit that can be piloted.\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Summon a mech suit that can be piloted.\n[s:.7](Costs 0 mana. Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "MechSuit",
         "display_name": "Mech Suit",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Spawn a nurse bot that heals allies.Upgraded: Spawn a nurse bot that heals allies. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_NURSEBOT_NAME",
+        "ru_name": "Медсестра-бот",
+        "ru_description": "Призовите медсестру-бота, лечащую союзников.",
+        "ru_upgraded_description": "Призовите медсестру-бота, лечащую союзников.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Nurse Bot",
+        "en_description": "Spawn a nurse bot that heals allies.",
+        "en_upgraded_description": "Spawn a nurse bot that heals allies.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "NurseBot",
         "display_name": "Nurse Bot",
@@ -730,6 +1000,15 @@
       "variant": "upgraded",
       "description": "Spawn a nurse bot that heals allies.Upgraded: Spawn a nurse bot that heals allies. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_NURSEBOT_NAME",
+        "ru_name": "Медсестра-бот",
+        "ru_description": "Призовите медсестру-бота, лечащую союзников.",
+        "ru_upgraded_description": "Призовите медсестру-бота, лечащую союзников.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Nurse Bot",
+        "en_description": "Spawn a nurse bot that heals allies.",
+        "en_upgraded_description": "Spawn a nurse bot that heals allies.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "NurseBot",
         "display_name": "Nurse Bot",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "Spawn a Rubber Fist Bot.Upgraded: Spawn a Rubber Fist Bot within a large range.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PUNCHBOT_NAME",
+        "ru_name": "Панч-бот",
+        "ru_description": "Призовите Бота-Резиновый Кулак.",
+        "ru_upgraded_description": "Призовите Бота-Резиновый Кулак (большая дальность).",
+        "en_name": "Punchbot",
+        "en_description": "Spawn a Rubber Fist Bot.",
+        "en_upgraded_description": "Spawn a Rubber Fist Bot within a large range."
+      },
       "manifest": {
         "ability_id": "PunchBot",
         "display_name": "Punchbot",
@@ -778,6 +1066,15 @@
       "variant": "normal",
       "description": "Destroy your weapon to gain +1 Tech and refresh your basic action.Upgraded: Destroy your weapon to gain +1 Tech and refresh your basic action. This spell costs 1 mana if you haven't used your weapon this turn.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_RECYCLE_NAME",
+        "ru_name": "Переработка",
+        "ru_description": "Уничтожьте оружие: +1 Технология и обновление базового действия.",
+        "ru_upgraded_description": "Уничтожьте оружие: +1 Технология и обновление базового действия. Стоит 1 ману, если вы не использовали оружие.",
+        "en_name": "Recycle",
+        "en_description": "Destroy your weapon to gain +1 Tech and refresh your basic action.",
+        "en_upgraded_description": "Destroy your weapon to gain +1 Tech and refresh your basic action. This spell costs 1 mana if you haven't used your weapon this turn."
+      },
       "manifest": {
         "ability_id": "Recycle",
         "display_name": "Recycle",
@@ -802,6 +1099,15 @@
       "variant": "upgraded",
       "description": "Destroy your weapon to gain +1 Tech and refresh your basic action.Upgraded: Destroy your weapon to gain +1 Tech and refresh your basic action. This spell costs 1 mana if you haven't used your weapon this turn.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_RECYCLE_NAME",
+        "ru_name": "Переработка",
+        "ru_description": "Уничтожьте оружие: +1 Технология и обновление базового действия.",
+        "ru_upgraded_description": "Уничтожьте оружие: +1 Технология и обновление базового действия. Стоит 1 ману, если вы не использовали оружие.",
+        "en_name": "Recycle",
+        "en_description": "Destroy your weapon to gain +1 Tech and refresh your basic action.",
+        "en_upgraded_description": "Destroy your weapon to gain +1 Tech and refresh your basic action. This spell costs 1 mana if you haven't used your weapon this turn."
+      },
       "manifest": {
         "ability_id": "Recycle",
         "display_name": "Recycle",
@@ -826,6 +1132,15 @@
       "variant": "normal",
       "description": "Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech.Upgraded: Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech, +1 , and +1 to a random stat.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REFINEMATERIALS_NAME",
+        "ru_name": "Переработка сырья",
+        "ru_description": "Соберите лут в радиусе 3. Вместо эффекта: +1 Технология.",
+        "ru_upgraded_description": "Соберите лут в радиусе 3. Вместо эффекта: +1 Технология, +1 [img:shield] и +1 стат.",
+        "en_name": "Refine Materials",
+        "en_description": "Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech.",
+        "en_upgraded_description": "Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech, +1 [img:shield], and +1 to a random stat."
+      },
       "manifest": {
         "ability_id": "RefineMaterials",
         "display_name": "Refine Materials",
@@ -850,6 +1165,15 @@
       "variant": "normal",
       "description": "Explode a familiar, dealing 5 damage with knockback in an area.Upgraded: Explode a familiar, dealing 5 damage with knockback in an area. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REMOTEDETONATOR_NAME",
+        "ru_name": "Дистанционный детонатор",
+        "ru_description": "Взорвите фамильяра: 5 урона с отбрасыванием в области.",
+        "ru_upgraded_description": "Взорвите фамильяра: 5 урона с отбрасыванием в области.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Remote Detonator",
+        "en_description": "Explode a familiar, dealing 5 damage with knockback in an area.",
+        "en_upgraded_description": "Explode a familiar, dealing 5 damage with knockback in an area.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "RemoteDetonator",
         "display_name": "Remote Detonator",
@@ -874,6 +1198,15 @@
       "variant": "upgraded",
       "description": "Explode a familiar, dealing 5 damage with knockback in an area.Upgraded: Explode a familiar, dealing 5 damage with knockback in an area. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REMOTEDETONATOR_NAME",
+        "ru_name": "Дистанционный детонатор",
+        "ru_description": "Взорвите фамильяра: 5 урона с отбрасыванием в области.",
+        "ru_upgraded_description": "Взорвите фамильяра: 5 урона с отбрасыванием в области.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Remote Detonator",
+        "en_description": "Explode a familiar, dealing 5 damage with knockback in an area.",
+        "en_upgraded_description": "Explode a familiar, dealing 5 damage with knockback in an area.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "RemoteDetonator",
         "display_name": "Remote Detonator",
@@ -898,6 +1231,15 @@
       "variant": "normal",
       "description": "Repair 1 use to all of your or an adjacent unit's equipment.Upgraded: Repair all uses to all of your or an adjacent unit's equipment.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REPAIR_NAME",
+        "ru_name": "Починка",
+        "ru_description": "Восстановите 1 прочность всему своему оборудованию (или соседа).",
+        "ru_upgraded_description": "Восстановите ВСЮ прочность всему своему оборудованию (или соседа).",
+        "en_name": "Repair",
+        "en_description": "Repair 1 use to all of your or an adjacent unit's equipment.",
+        "en_upgraded_description": "Repair all uses to all of your or an adjacent unit's equipment."
+      },
       "manifest": {
         "ability_id": "Repair",
         "display_name": "Repair",
@@ -922,6 +1264,15 @@
       "variant": "normal",
       "description": "Lose all , then gain equal to your equipment's starting .Upgraded: Lose all , then give equal to your equipment's starting to yourself or another ally.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REPAIRARMOR_NAME",
+        "ru_name": "Ремонт брони",
+        "ru_description": "Сбросьте [img:shield], затем получите [img:shield], равный стартовому щиту вашей экипировки.",
+        "ru_upgraded_description": "Сбросьте [img:shield], затем дайте себе или союзнику [img:shield], равный стартовому.",
+        "en_name": "Repair Armor",
+        "en_description": "Lose all [img:shield], then gain [img:shield] equal to your equipment's starting [img:shield].",
+        "en_upgraded_description": "Lose all [img:shield], then give [img:shield] equal to your equipment's starting [img:shield] to yourself or another ally. "
+      },
       "manifest": {
         "ability_id": "RepairArmor",
         "display_name": "Repair Armor",
@@ -946,6 +1297,15 @@
       "variant": "normal",
       "description": "Conjure a random spell of your class as a bonus ability.Upgraded: Conjure a random upgraded spell of your class as a bonus ability.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REPROGRAM_NAME",
+        "ru_name": "Перепрограммирование",
+        "ru_description": "Получите случайное заклинание класса как бонусную способность.",
+        "ru_upgraded_description": "Получите случайное УЛУЧШЕННОЕ заклинание класса как бонусную способность.",
+        "en_name": "Reprogram",
+        "en_description": "Conjure a random spell of your class as a bonus ability.",
+        "en_upgraded_description": "Conjure a random upgraded spell of your class as a bonus ability."
+      },
       "manifest": {
         "ability_id": "Reprogram",
         "display_name": "Reprogram",
@@ -970,6 +1330,15 @@
       "variant": "normal",
       "description": "Gain +1 Tech.Upgraded: Gain +1 Tech. Bonus Passive: Crafting subtracts 1 Tech instead of all of it.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_RESEARCH_NAME",
+        "ru_name": "Исследование",
+        "ru_description": "Получите +1 Технологии.",
+        "ru_upgraded_description": "Получите +1 Технологии.\nПассивно: Крафт тратит 1 Технологию вместо всех.",
+        "en_name": "Research",
+        "en_description": "Gain +1 Tech.",
+        "en_upgraded_description": "Gain +1 Tech.\nBonus Passive: Crafting subtracts 1 Tech instead of all of it."
+      },
       "manifest": {
         "ability_id": "Research",
         "display_name": "Research",
@@ -994,6 +1363,15 @@
       "variant": "normal",
       "description": "Spawn a vacuum bot that collects pickups and shares their effects with you.Upgraded: Spawn a vacuum bot that collects pickups and shares their effects with your whole team.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ROBOVAC_NAME",
+        "ru_name": "Робо-пылесос",
+        "ru_description": "Призовите робота-пылесоса. Он собирает лут и делится эффектами с вами.",
+        "ru_upgraded_description": "Призовите робота-пылесоса. Он собирает лут и делится эффектами со всей командой.",
+        "en_name": "Robo-Vac",
+        "en_description": "Spawn a vacuum bot that collects pickups and shares their effects with you.",
+        "en_upgraded_description": "Spawn a vacuum bot that collects pickups and shares their effects with your whole team."
+      },
       "manifest": {
         "ability_id": "RoboVac",
         "display_name": "Robo-Vac",
@@ -1018,6 +1396,15 @@
       "variant": "normal",
       "description": "Lose 1 . Spawn a junk pile.Upgraded: Lose 1 . Spawn a junk pile in range 2.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHEDSCRAP_NAME",
+        "ru_name": "Сброс лома",
+        "ru_description": "Потеряйте 1 [img:shield]. Создайте кучу мусора.",
+        "ru_upgraded_description": "Потеряйте 1 [img:shield]. Создайте кучу мусора в радиусе 2.",
+        "en_name": "Shed Scrap",
+        "en_description": "Lose 1 [img:shield]. Spawn a junk pile.",
+        "en_upgraded_description": "Lose 1 [img:shield]. Spawn a junk pile in range 2."
+      },
       "manifest": {
         "ability_id": "ShedScrap",
         "display_name": "Shed Scrap",
@@ -1042,6 +1429,15 @@
       "variant": "normal",
       "description": "Fly to a random tile in a large area. If you land on a unit, explode dealing 5 damage in an area (including to yourself).Upgraded: Fly to any tile. If you land on a unit, explode dealing 5 damage in an area (including to yourself).",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHODDYJETPACK_NAME",
+        "ru_name": "Хлипкий джетпак",
+        "ru_description": "Летите на случайную клетку. Если влетите в юнита — взрыв (5 урона в области, вам тоже).",
+        "ru_upgraded_description": "Летите на любую клетку. Если влетите в юнита — взрыв (5 урона в области, вам тоже).",
+        "en_name": "Shoddy Jetpack",
+        "en_description": "Fly to a random tile in a large area. If you land on a unit, explode dealing 5 damage in an area (including to yourself).",
+        "en_upgraded_description": "Fly to any tile. If you land on a unit, explode dealing 5 damage in an area (including to yourself)."
+      },
       "manifest": {
         "ability_id": "ShoddyJetpack",
         "display_name": "Shoddy Jetpack",
@@ -1066,6 +1462,15 @@
       "variant": "normal",
       "description": "Smash your weapon onto an adjacent unit, destroying it and dealing double its damage.Upgraded: Smash your weapon onto an adjacent unit, destroying it and dealing double its damage. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SMASHTINKERER_NAME",
+        "ru_name": "Удар об землю",
+        "ru_description": "Разбейте свое оружие об соседа, уничтожая оружие и нанося двойной урон.",
+        "ru_upgraded_description": "Разбейте свое оружие об соседа, уничтожая оружие и нанося двойной урон.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Smash",
+        "en_description": "Smash your weapon onto an adjacent unit, destroying it and dealing double its damage.",
+        "en_upgraded_description": "Smash your weapon onto an adjacent unit, destroying it and dealing double its damage.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Smash",
         "display_name": "Smash",
@@ -1090,6 +1495,15 @@
       "variant": "upgraded",
       "description": "Smash your weapon onto an adjacent unit, destroying it and dealing double its damage.Upgraded: Smash your weapon onto an adjacent unit, destroying it and dealing double its damage. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SMASHTINKERER_NAME",
+        "ru_name": "Удар об землю",
+        "ru_description": "Разбейте свое оружие об соседа, уничтожая оружие и нанося двойной урон.",
+        "ru_upgraded_description": "Разбейте свое оружие об соседа, уничтожая оружие и нанося двойной урон.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Smash",
+        "en_description": "Smash your weapon onto an adjacent unit, destroying it and dealing double its damage.",
+        "en_upgraded_description": "Smash your weapon onto an adjacent unit, destroying it and dealing double its damage.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Smash",
         "display_name": "Smash",
@@ -1114,6 +1528,15 @@
       "variant": "normal",
       "description": "Destroy your weapon and gain one of the following: +2 , +4 Charge, +1 Thorns, or 1 coin.Upgraded: Destroy your weapon and gain one of the following: +4 , +8 Charge, +2 Thorns, or 2 coins.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPAREPARTS_NAME",
+        "ru_name": "Запчасти",
+        "ru_description": "Уничтожьте оружие и получите: +2 [img:shield], +4 Заряда, +1 Шипы ИЛИ 1 монету.",
+        "ru_upgraded_description": "Уничтожьте оружие и получите: +4 [img:shield], +8 Зарядов, +2 Шипы ИЛИ 2 монеты.",
+        "en_name": "Spare Parts",
+        "en_description": "Destroy your weapon and gain one of the following: +2 [img:shield], +4 Charge, +1 Thorns, or 1 coin.",
+        "en_upgraded_description": "Destroy your weapon and gain one of the following: +4 [img:shield], +8 Charge, +2 Thorns, or 2 coins."
+      },
       "manifest": {
         "ability_id": "SpareParts",
         "display_name": "Spare Parts",
@@ -1138,6 +1561,15 @@
       "variant": "normal",
       "description": "Spawn a decoy that explodes when it dies.Upgraded: Spawn a decoy that explodes when it dies. When an enemy targets you, swap places with the decoy.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPAWNDECOY_NAME",
+        "ru_name": "Приманка",
+        "ru_description": "Создайте приманку, взрывающуюся при смерти.",
+        "ru_upgraded_description": "Создайте приманку. Когда враг целится в вас, вы меняетесь местами с приманкой.",
+        "en_name": "Spawn Decoy",
+        "en_description": "Spawn a decoy that explodes when it dies.",
+        "en_upgraded_description": "Spawn a decoy that explodes when it dies. When an enemy targets you, swap places with the decoy."
+      },
       "manifest": {
         "ability_id": "SpawnDecoy",
         "display_name": "Spawn Decoy",
@@ -1162,6 +1594,15 @@
       "variant": "normal",
       "description": "Jump up to 2 tiles away.Upgraded: Jump up to 5 tiles away.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPRINGSHOES_NAME",
+        "ru_name": "Пружинные ботинки",
+        "ru_description": "Прыжок до 2 клеток.",
+        "ru_upgraded_description": "Прыжок до 5 клеток.",
+        "en_name": "Spring Shoes",
+        "en_description": "Jump up to 2 tiles away.",
+        "en_upgraded_description": "Jump up to 5 tiles away."
+      },
       "manifest": {
         "ability_id": "SpringShoes",
         "display_name": "Spring Shoes",
@@ -1186,6 +1627,15 @@
       "variant": "normal",
       "description": "Spawn a tesla coil that shoots lightning bolts at random units with a small chance to inflict Stun.Upgraded: Spawn a tesla coil in range 7 that shoots lightning bolts at random units with a small chance to inflict Stun.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TESLACOIL_NAME",
+        "ru_name": "Катушка Теслы",
+        "ru_description": "Призовите катушку, стреляющую молниями случайно (шанс Оглушения).",
+        "ru_upgraded_description": "Призовите катушку (радиус 7), стреляющую молниями случайно (шанс Оглушения).",
+        "en_name": "Tesla Coil",
+        "en_description": "Spawn a tesla coil that shoots lightning bolts at random units with a small chance to inflict Stun.",
+        "en_upgraded_description": "Spawn a tesla coil in range 7 that shoots lightning bolts at random units with a small chance to inflict Stun."
+      },
       "manifest": {
         "ability_id": "TeslaCoil",
         "display_name": "Tesla Coil",
@@ -1210,6 +1660,15 @@
       "variant": "normal",
       "description": "Gain +6 and +1 temporary Brace. This spell has a 75% chance to be disabled on each turn.Upgraded: Get +6 and +1 temporary Brace. This spell has a 66% chance to be disabled on each turn. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_UNRELIABLESHIELD_NAME",
+        "ru_name": "Ненадежный генератор щита",
+        "ru_description": "+6 [img:shield] и +1 Стойкость. Шанс 75%, что он отключится каждый ход.",
+        "ru_upgraded_description": "+6 [img:shield] и +1 Стойкость. Шанс 66%, что он отключится каждый ход.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Unreliable Shield Generator",
+        "en_description": "Gain +6 [img:shield] and +1 temporary Brace. This spell has a 75% chance to be disabled on each turn.",
+        "en_upgraded_description": "Get +6 [img:shield] and +1 temporary Brace. This spell has a 66% chance to be disabled on each turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "UnreliableShield",
         "display_name": "Unreliable Shield Generator",
@@ -1234,6 +1693,15 @@
       "variant": "upgraded",
       "description": "Gain +6 and +1 temporary Brace. This spell has a 75% chance to be disabled on each turn.Upgraded: Get +6 and +1 temporary Brace. This spell has a 66% chance to be disabled on each turn. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_UNRELIABLESHIELD_NAME",
+        "ru_name": "Ненадежный генератор щита",
+        "ru_description": "+6 [img:shield] и +1 Стойкость. Шанс 75%, что он отключится каждый ход.",
+        "ru_upgraded_description": "+6 [img:shield] и +1 Стойкость. Шанс 66%, что он отключится каждый ход.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Unreliable Shield Generator",
+        "en_description": "Gain +6 [img:shield] and +1 temporary Brace. This spell has a 75% chance to be disabled on each turn.",
+        "en_upgraded_description": "Get +6 [img:shield] and +1 temporary Brace. This spell has a 66% chance to be disabled on each turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "UnreliableShield",
         "display_name": "Unreliable Shield Generator",
@@ -1258,6 +1726,15 @@
       "variant": "normal",
       "description": "Fully heal a familiar and give it All Stats Up.Upgraded: Fully heal a familiar and give it All Stats Up and +1 .",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_UPGRADE_NAME",
+        "ru_name": "Апгрейд",
+        "ru_description": "Полностью почините фамильяра и дайте ему Повышение Всех Хар-к.",
+        "ru_upgraded_description": "Полностью почините фамильяра, дайте Повышение Всех Хар-к и +1 [img:divineshield].",
+        "en_name": "Upgrade",
+        "en_description": "Fully heal a familiar and give it All Stats Up.",
+        "en_upgraded_description": "Fully heal a familiar and give it All Stats Up and +1 [img:divineshield]."
+      },
       "manifest": {
         "ability_id": "Upgrade",
         "display_name": "Upgrade",

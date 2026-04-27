@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage and leaves a rock.Upgraded: Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage, bruises and leaves a boulder.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ASTEROID_NAME",
+        "ru_name": "Астероид",
+        "ru_description": "Обрушьте астероид на видимую клетку. Урон и создание камня.",
+        "ru_upgraded_description": "Обрушьте астероид на видимую клетку. Урон, Ушиб и создание валуна.",
+        "en_name": "Asteroid",
+        "en_description": "Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage and leaves a rock.",
+        "en_upgraded_description": "Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage, bruises and leaves a boulder."
+      },
       "manifest": {
         "ability_id": "Asteroid",
         "display_name": "Asteroid",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage and leaves a rock.Upgraded: Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage, bruises and leaves a boulder.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ASTEROID_NAME",
+        "ru_name": "Астероид",
+        "ru_description": "Обрушьте астероид на видимую клетку. Урон и создание камня.",
+        "ru_upgraded_description": "Обрушьте астероид на видимую клетку. Урон, Ушиб и создание валуна.",
+        "en_name": "Asteroid",
+        "en_description": "Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage and leaves a rock.",
+        "en_upgraded_description": "Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage, bruises and leaves a boulder."
+      },
       "manifest": {
         "ability_id": "Asteroid",
         "display_name": "Asteroid",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle.Upgraded: Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CUMULATIVEBLAST_NAME",
+        "ru_name": "Накопительный взрыв",
+        "ru_description": "Урон видимому юниту. Урон этого заклинания растет на 1 до конца битвы.",
+        "ru_upgraded_description": "Урон видимому юниту. Урон этого заклинания растет на 1 до конца битвы.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Cumulative Blast",
+        "en_description": "Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle.",
+        "en_upgraded_description": "Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CumulativeBlast",
         "display_name": "Cumulative Blast",
@@ -82,6 +109,15 @@
       "variant": "upgraded",
       "description": "Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle.Upgraded: Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CUMULATIVEBLAST_NAME",
+        "ru_name": "Накопительный взрыв",
+        "ru_description": "Урон видимому юниту. Урон этого заклинания растет на 1 до конца битвы.",
+        "ru_upgraded_description": "Урон видимому юниту. Урон этого заклинания растет на 1 до конца битвы.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Cumulative Blast",
+        "en_description": "Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle.",
+        "en_upgraded_description": "Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CumulativeBlast",
         "display_name": "Cumulative Blast",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Teleport to the last tile you targeted with an ability if it's empty.Upgraded: Teleport to the last tile you targeted with an ability. Displace and damage any units on that tile.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ECHO_NAME",
+        "ru_name": "Эхо",
+        "ru_description": "Телепорт на последнюю клетку, на которую вы использовали способность. (Если Клетка Свободна).",
+        "ru_upgraded_description": "Телепорт на последнюю клетку, на которую вы использовали способность. Сместите и нанесите Урон юниту на этой клетке.",
+        "en_name": "Echo",
+        "en_description": "Teleport to the last tile you targeted with an ability if it's empty.",
+        "en_upgraded_description": "Teleport to the last tile you targeted with an ability. Displace and damage any units on that tile."
+      },
       "manifest": {
         "ability_id": "Echo",
         "display_name": "Echo",
@@ -130,6 +175,15 @@
       "variant": "upgraded",
       "description": "Teleport to the last tile you targeted with an ability if it's empty.Upgraded: Teleport to the last tile you targeted with an ability. Displace and damage any units on that tile.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ECHO_NAME",
+        "ru_name": "Эхо",
+        "ru_description": "Телепорт на последнюю клетку, на которую вы использовали способность. (Если Клетка Свободна).",
+        "ru_upgraded_description": "Телепорт на последнюю клетку, на которую вы использовали способность. Сместите и нанесите Урон юниту на этой клетке.",
+        "en_name": "Echo",
+        "en_description": "Teleport to the last tile you targeted with an ability if it's empty.",
+        "en_upgraded_description": "Teleport to the last tile you targeted with an ability. Displace and damage any units on that tile."
+      },
       "manifest": {
         "ability_id": "Echo",
         "display_name": "Echo",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Deal damage with Knockback 4 and Chain Knockback in a cone.Upgraded: Deal damage with Knockback 4, Chain Knockback and inflict Bruise 1 in a cone.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_GRAVITYWAVE_NAME",
+        "ru_name": "Грави-волна",
+        "ru_description": "Урон, Отбрасывание 4 и Цепное отбрасывание в конусе.",
+        "ru_upgraded_description": "Урон, Отбрасывание 4, Цепное отбрасывание и Ушиб 1 в конусе.",
+        "en_name": "Gravity Wave",
+        "en_description": "Deal damage with Knockback 4 and Chain Knockback in a cone.",
+        "en_upgraded_description": "Deal damage with Knockback 4, Chain Knockback and inflict Bruise 1 in a cone."
+      },
       "manifest": {
         "ability_id": "ForceCone",
         "display_name": "Gravity Wave",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Inflict Slow 1 on a unit within your line of sight. If you cast this from full mana, instead inflict Immobilize 1 and deal 6 damage.Upgraded: Inflict Slow 1 on each unit in an area around a tile within your line of sight. If you cast this from full mana, instead inflict Immobilize 1 and deal 6 damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_INCREASEGRAVITY_NAME",
+        "ru_name": "Усиление гравитации",
+        "ru_description": "Замедление 1 видимому юниту. При полной мане: вместо этого Обездвиживание 1 и 6 урона.",
+        "ru_upgraded_description": "Замедление 1 в видимой области. При полной мане: Обездвиживание 1 и 6 урона.",
+        "en_name": "Increase Gravity",
+        "en_description": "Inflict Slow 1 on a unit within your line of sight. If you cast this from full mana, instead inflict Immobilize 1 and deal 6 damage.",
+        "en_upgraded_description": "Inflict Slow 1 on each unit in an area around a tile within your line of sight. If you cast this from full mana, instead inflict Immobilize 1 and deal 6 damage."
+      },
       "manifest": {
         "ability_id": "IncreaseGravity",
         "display_name": "Increase Gravity",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Teleport in a straight line into a unit within your line of sight. Deal damage and displace it.Upgraded: Teleport into a unit within your line of sight. Deal damage and displace it.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MANIFEST_NAME",
+        "ru_name": "Манифестация",
+        "ru_description": "Телепортируйтесь по прямой ПРЯМО В видимого юнита. Урон и смещение.",
+        "ru_upgraded_description": "Телепортируйтесь ПРЯМО В видимого юнита. Урон и смещение.",
+        "en_name": "Manifest",
+        "en_description": "Teleport in a straight line into a unit within your line of sight. Deal damage and displace it.",
+        "en_upgraded_description": "Teleport into a unit within your line of sight. Deal damage and displace it."
+      },
       "manifest": {
         "ability_id": "Manifest",
         "display_name": "Manifest",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Damage and throw each unit near you to random tiles.Upgraded: Damage and throw each unit in a target area to random tiles.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MEGAGRAV_NAME",
+        "ru_name": "Мега-гравитация",
+        "ru_description": "Нанесите урон и швырните всех юнитов рядом с вами на случайные клетки.",
+        "ru_upgraded_description": "Нанесите урон и швырните всех юнитов в области на случайные клетки.",
+        "en_name": "Mega Grav",
+        "en_description": "Damage and throw each unit near you to random tiles.",
+        "en_upgraded_description": "Damage and throw each unit in a target area to random tiles."
+      },
       "manifest": {
         "ability_id": "MegaGrav",
         "display_name": "Mega Grav",
@@ -250,6 +340,15 @@
       "variant": "upgraded",
       "description": "Damage and throw each unit near you to random tiles.Upgraded: Damage and throw each unit in a target area to random tiles.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MEGAGRAV_NAME",
+        "ru_name": "Мега-гравитация",
+        "ru_description": "Нанесите урон и швырните всех юнитов рядом с вами на случайные клетки.",
+        "ru_upgraded_description": "Нанесите урон и швырните всех юнитов в области на случайные клетки.",
+        "en_name": "Mega Grav",
+        "en_description": "Damage and throw each unit near you to random tiles.",
+        "en_upgraded_description": "Damage and throw each unit in a target area to random tiles."
+      },
       "manifest": {
         "ability_id": "MegaGrav",
         "display_name": "Mega Grav",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "Deal 1 damage to any unit within your line of sight. RELOAD: Spend manaUpgraded: Deal 1 damage to any unit within your line of sight. RELOAD: Spend mana Bonus Passive: +2 Intelligence.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PING_NAME",
+        "ru_name": "Пинг",
+        "ru_description": "Нанесите 1 урон любому видимому юниту.\nПЕРЕЗАРЯДКА: Потратьте ману",
+        "ru_upgraded_description": "Нанесите 1 урон любому видимому юниту.\nПЕРЕЗАРЯДКА: Потратьте ману\nПассивно: +2 [img:int].",
+        "en_name": "Ping",
+        "en_description": "Deal 1 damage to any unit within your line of sight.\r\nRELOAD: Spend mana",
+        "en_upgraded_description": "Deal 1 damage to any unit within your line of sight.\nRELOAD: Spend mana\nBonus Passive: +2 [img:int]."
+      },
       "manifest": {
         "ability_id": "Ping",
         "display_name": "Ping",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Deal damage to and inflict Bruise on a unit within your line of sight.Upgraded: Deal damage to and inflict Bruise on a unit within your line of sight. This damage counts as physical damage and scales with Strength.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PSYCHICCHOKE_NAME",
+        "ru_name": "Психическое удушение",
+        "ru_description": "Урон и Ушиб видимому юниту.",
+        "ru_upgraded_description": "Урон и Ушиб видимому юниту. Считается физическим уроном и зависит от [img:str].",
+        "en_name": "Psychic Choke",
+        "en_description": "Deal damage to and inflict Bruise on a unit within your line of sight.",
+        "en_upgraded_description": "Deal damage to and inflict Bruise on a unit within your line of sight. This damage counts as physical damage and scales with [img:str]."
+      },
       "manifest": {
         "ability_id": "PsychicChoke",
         "display_name": "Psychic Choke",
@@ -322,6 +439,15 @@
       "variant": "upgraded",
       "description": "Deal damage to and inflict Bruise on a unit within your line of sight.Upgraded: Deal damage to and inflict Bruise on a unit within your line of sight. This damage counts as physical damage and scales with Strength.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PSYCHICCHOKE_NAME",
+        "ru_name": "Психическое удушение",
+        "ru_description": "Урон и Ушиб видимому юниту.",
+        "ru_upgraded_description": "Урон и Ушиб видимому юниту. Считается физическим уроном и зависит от [img:str].",
+        "en_name": "Psychic Choke",
+        "en_description": "Deal damage to and inflict Bruise on a unit within your line of sight.",
+        "en_upgraded_description": "Deal damage to and inflict Bruise on a unit within your line of sight. This damage counts as physical damage and scales with [img:str]."
+      },
       "manifest": {
         "ability_id": "PsychicChoke",
         "display_name": "Psychic Choke",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Deal damage to and inflict Blind on every unit within your line of sight.Upgraded: Deal damage to and inflict Blind on every unit within your line of sight, excluding your allies.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SUPERNOVA_NAME",
+        "ru_name": "Сверхновая",
+        "ru_description": "Урон и Слепота всем юнитам в поле зрения.",
+        "ru_upgraded_description": "Урон и Слепота всем юнитам в поле зрения, кроме союзников.",
+        "en_name": "Supernova",
+        "en_description": "Deal damage to and inflict Blind on every unit within your line of sight.",
+        "en_upgraded_description": "Deal damage to and inflict Blind on every unit within your line of sight, excluding your allies."
+      },
       "manifest": {
         "ability_id": "Supernova",
         "display_name": "Supernova",

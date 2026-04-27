@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "A burst of air that knocks back units diagonally from the target.Upgraded: A large burst of air that knocks back units diagonally from the target.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_AIRBURST_NAME",
+        "ru_name": "Воздушный взрыв",
+        "ru_description": "Взрыв воздуха, отбрасывающий юнитов по диагонали от цели.",
+        "ru_upgraded_description": "Большой взрыв воздуха, отбрасывающий юнитов по диагонали от цели.",
+        "en_name": "Air Burst",
+        "en_description": "A burst of air that knocks back units diagonally from the target.",
+        "en_upgraded_description": "A large burst of air that knocks back units diagonally from the target."
+      },
       "manifest": {
         "ability_id": "AirBurst",
         "display_name": "Air Burst",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "A burst of air that knocks back units diagonally from the target.Upgraded: A large burst of air that knocks back units diagonally from the target.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_AIRBURST_NAME",
+        "ru_name": "Воздушный взрыв",
+        "ru_description": "Взрыв воздуха, отбрасывающий юнитов по диагонали от цели.",
+        "ru_upgraded_description": "Большой взрыв воздуха, отбрасывающий юнитов по диагонали от цели.",
+        "en_name": "Air Burst",
+        "en_description": "A burst of air that knocks back units diagonally from the target.",
+        "en_upgraded_description": "A large burst of air that knocks back units diagonally from the target."
+      },
       "manifest": {
         "ability_id": "AirBurst",
         "display_name": "Air Burst",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.Upgraded: A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COMBOPULL_NAME",
+        "ru_name": "Комбо-тяга",
+        "ru_description": "Дальняя атака, притягивающая цель. При попадании: смена стойки на ближнюю и обновление базовой атаки.",
+        "ru_upgraded_description": "Дальняя атака, притягивающая цель. При попадании: смена стойки на ближнюю и обновление базовой атаки.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Combo Pull",
+        "en_description": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.",
+        "en_upgraded_description": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ComboPull",
         "display_name": "Combo Pull",
@@ -82,6 +109,15 @@
       "variant": "upgraded",
       "description": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.Upgraded: A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COMBOPULL_NAME",
+        "ru_name": "Комбо-тяга",
+        "ru_description": "Дальняя атака, притягивающая цель. При попадании: смена стойки на ближнюю и обновление базовой атаки.",
+        "ru_upgraded_description": "Дальняя атака, притягивающая цель. При попадании: смена стойки на ближнюю и обновление базовой атаки.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Combo Pull",
+        "en_description": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.",
+        "en_upgraded_description": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ComboPull",
         "display_name": "Combo Pull",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack.Upgraded: A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COMBOTHROW_NAME",
+        "ru_name": "Комбо-бросок",
+        "ru_description": "Бьет вблизи с Отбрасыванием 3. При попадании: смена стойки на дальнюю и обновление базовой атаки.",
+        "ru_upgraded_description": "Бьет вблизи с Отбрасыванием 3. При попадании: смена стойки на дальнюю и обновление базовой атаки.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Combo Throw",
+        "en_description": "A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack.",
+        "en_upgraded_description": "A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ComboThrow",
         "display_name": "Combo Throw",
@@ -130,6 +175,15 @@
       "variant": "upgraded",
       "description": "A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack.Upgraded: A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COMBOTHROW_NAME",
+        "ru_name": "Комбо-бросок",
+        "ru_description": "Бьет вблизи с Отбрасыванием 3. При попадании: смена стойки на дальнюю и обновление базовой атаки.",
+        "ru_upgraded_description": "Бьет вблизи с Отбрасыванием 3. При попадании: смена стойки на дальнюю и обновление базовой атаки.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Combo Throw",
+        "en_description": "A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack.",
+        "en_upgraded_description": "A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ComboThrow",
         "display_name": "Combo Throw",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "A magic damage melee attack with knockback 3 that inflicts Confusion.Upgraded: A strong magic damage melee attack with knockback 10 that inflicts Confusion.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DRAGONPUNCH_NAME",
+        "ru_name": "Удар Дракона",
+        "ru_description": "Магическая ближняя атака с Отбрасыванием 3, накладывающая Замешательство.",
+        "ru_upgraded_description": "Сильная магическая ближняя атака с Отбрасыванием 10, накладывающая Замешательство.",
+        "en_name": "Dragon Punch",
+        "en_description": "A magic damage melee attack with knockback 3 that inflicts Confusion.",
+        "en_upgraded_description": "A strong magic damage melee attack with knockback 10 that inflicts Confusion."
+      },
       "manifest": {
         "ability_id": "DragonPunch",
         "display_name": "Dragon Punch",
@@ -178,6 +241,15 @@
       "variant": "upgraded",
       "description": "A magic damage melee attack with knockback 3 that inflicts Confusion.Upgraded: A strong magic damage melee attack with knockback 10 that inflicts Confusion.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DRAGONPUNCH_NAME",
+        "ru_name": "Удар Дракона",
+        "ru_description": "Магическая ближняя атака с Отбрасыванием 3, накладывающая Замешательство.",
+        "ru_upgraded_description": "Сильная магическая ближняя атака с Отбрасыванием 10, накладывающая Замешательство.",
+        "en_name": "Dragon Punch",
+        "en_description": "A magic damage melee attack with knockback 3 that inflicts Confusion.",
+        "en_upgraded_description": "A strong magic damage melee attack with knockback 10 that inflicts Confusion."
+      },
       "manifest": {
         "ability_id": "DragonPunch",
         "display_name": "Dragon Punch",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn. (Castable once per turn.) Upgraded: Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn. (This spell costs 0 mana. Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FINISHER_NAME",
+        "ru_name": "Финишер",
+        "ru_description": "Рывок на 3 клетки и атака. Наносит 2 урона за каждое действие, совершенное вами в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Рывок на 3 клетки и атака. Наносит 2 урона за каждое действие, совершенное вами в этот ход.\n[s:.7](Стоит 0 маны. Можно использовать раз за ход.)[/s]",
+        "en_name": "Finisher",
+        "en_description": "Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn.\n[s:.7](This spell costs 0 mana. Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "Finisher",
         "display_name": "Finisher",
@@ -226,6 +307,15 @@
       "variant": "upgraded",
       "description": "Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn. (Castable once per turn.) Upgraded: Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn. (This spell costs 0 mana. Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FINISHER_NAME",
+        "ru_name": "Финишер",
+        "ru_description": "Рывок на 3 клетки и атака. Наносит 2 урона за каждое действие, совершенное вами в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Рывок на 3 клетки и атака. Наносит 2 урона за каждое действие, совершенное вами в этот ход.\n[s:.7](Стоит 0 маны. Можно использовать раз за ход.)[/s]",
+        "en_name": "Finisher",
+        "en_description": "Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn.\n[s:.7](This spell costs 0 mana. Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "Finisher",
         "display_name": "Finisher",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 each time you use it on the same turn.Upgraded: A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 and mana cost decreased by 1 each time you use it on the same turn.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FLYINGFIST_NAME",
+        "ru_name": "Летающий кулак",
+        "ru_description": "Ближняя атака с отбрасыванием, бьющая через 2 клетки. Дальность растет на 1 при повторном использовании за ход.",
+        "ru_upgraded_description": "Ближняя атака с отбрасыванием. Дальность растет на 1, а цена падает на 1 при повторе за ход.",
+        "en_name": "Flying Fist",
+        "en_description": "A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 each time you use it on the same turn.",
+        "en_upgraded_description": "A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 and mana cost decreased by 1 each time you use it on the same turn."
+      },
       "manifest": {
         "ability_id": "FlyingFist",
         "display_name": "Flying Fist",
@@ -274,6 +373,15 @@
       "variant": "upgraded",
       "description": "A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 each time you use it on the same turn.Upgraded: A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 and mana cost decreased by 1 each time you use it on the same turn.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FLYINGFIST_NAME",
+        "ru_name": "Летающий кулак",
+        "ru_description": "Ближняя атака с отбрасыванием, бьющая через 2 клетки. Дальность растет на 1 при повторном использовании за ход.",
+        "ru_upgraded_description": "Ближняя атака с отбрасыванием. Дальность растет на 1, а цена падает на 1 при повторе за ход.",
+        "en_name": "Flying Fist",
+        "en_description": "A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 each time you use it on the same turn.",
+        "en_upgraded_description": "A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 and mana cost decreased by 1 each time you use it on the same turn."
+      },
       "manifest": {
         "ability_id": "FlyingFist",
         "display_name": "Flying Fist",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Shoot an energy blast in a straight line.Upgraded: Shoot a high damage energy blast in a straight line.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HADOKEN_NAME",
+        "ru_name": "Хадукен",
+        "ru_description": "Выстрелите сгустком энергии по прямой.",
+        "ru_upgraded_description": "Выстрелите мощным сгустком энергии по прямой.",
+        "en_name": "Hadouken",
+        "en_description": "Shoot an energy blast in a straight line.",
+        "en_upgraded_description": "Shoot a high damage energy blast in a straight line."
+      },
       "manifest": {
         "ability_id": "Hadouken",
         "display_name": "Hadouken",
@@ -322,6 +439,15 @@
       "variant": "upgraded",
       "description": "Shoot an energy blast in a straight line.Upgraded: Shoot a high damage energy blast in a straight line.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HADOKEN_NAME",
+        "ru_name": "Хадукен",
+        "ru_description": "Выстрелите сгустком энергии по прямой.",
+        "ru_upgraded_description": "Выстрелите мощным сгустком энергии по прямой.",
+        "en_name": "Hadouken",
+        "en_description": "Shoot an energy blast in a straight line.",
+        "en_upgraded_description": "Shoot a high damage energy blast in a straight line."
+      },
       "manifest": {
         "ability_id": "Hadouken",
         "display_name": "Hadouken",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Throw a random adjacent unit two tiles away, dealing damage to it.Upgraded: Throw a random adjacent unit two tiles away, dealing damage to it. This deals double damage if it's thrown onto another unit.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HIPTOSS_NAME",
+        "ru_name": "Бросок через бедро",
+        "ru_description": "Бросьте случайного соседа на 2 клетки, нанося урон.",
+        "ru_upgraded_description": "Бросьте случайного соседа на 2 клетки, нанося урон. Двойной урон, если бросили на другого юнита.",
+        "en_name": "Hip Toss",
+        "en_description": "Throw a random adjacent unit two tiles away, dealing damage to it.",
+        "en_upgraded_description": "Throw a random adjacent unit two tiles away, dealing damage to it. This deals double damage if it's thrown onto another unit."
+      },
       "manifest": {
         "ability_id": "HipToss",
         "display_name": "Hip Toss",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Fire a magic blast at a unit within 5 tiles. Requires line of sight. (Castable once per battle. If all your armor slots are empty, castable once per turn.) Upgraded: Fire a magic blast at a unit anywhere within your line of sight. (Castable once per battle. If all your armor slots are empty, castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_KAMEHAMEHA_NAME",
+        "ru_name": "Камехамеха",
+        "ru_description": "Выстрелите магическим лучом в юнита в радиусе 5. Нужна линия видимости.\n[s:.7](Раз за битву. Если брони нет — раз за ход.)[/s]",
+        "ru_upgraded_description": "Выстрелите магическим лучом в юнита где угодно на линии видимости.\n[s:.7](Раз за битву. Если брони нет — раз за ход.)[/s]",
+        "en_name": "Kamehameha",
+        "en_description": "Fire a magic blast at a unit within 5 tiles. Requires line of sight.\n[s:.7](Castable once per battle. If all your armor slots are empty, castable once per turn.)[/s]",
+        "en_upgraded_description": "Fire a magic blast at a unit anywhere within your line of sight.\n[s:.7](Castable once per battle. If all your armor slots are empty, castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "Kamehameha",
         "display_name": "Kamehameha",
@@ -394,6 +538,15 @@
       "variant": "upgraded",
       "description": "Fire a magic blast at a unit within 5 tiles. Requires line of sight. (Castable once per battle. If all your armor slots are empty, castable once per turn.) Upgraded: Fire a magic blast at a unit anywhere within your line of sight. (Castable once per battle. If all your armor slots are empty, castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_KAMEHAMEHA_NAME",
+        "ru_name": "Камехамеха",
+        "ru_description": "Выстрелите магическим лучом в юнита в радиусе 5. Нужна линия видимости.\n[s:.7](Раз за битву. Если брони нет — раз за ход.)[/s]",
+        "ru_upgraded_description": "Выстрелите магическим лучом в юнита где угодно на линии видимости.\n[s:.7](Раз за битву. Если брони нет — раз за ход.)[/s]",
+        "en_name": "Kamehameha",
+        "en_description": "Fire a magic blast at a unit within 5 tiles. Requires line of sight.\n[s:.7](Castable once per battle. If all your armor slots are empty, castable once per turn.)[/s]",
+        "en_upgraded_description": "Fire a magic blast at a unit anywhere within your line of sight.\n[s:.7](Castable once per battle. If all your armor slots are empty, castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "Kamehameha",
         "display_name": "Kamehameha",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Deal 1 damage and knockback adjacent units. Gain +1 .Upgraded: Deal 2 damage and knockback adjacent units 2 tiles. Gain +2 .",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_KIBURST_NAME",
+        "ru_name": "Взрыв Ки",
+        "ru_description": "Нанесите 1 урон и отбросьте соседей. Получите +1 [img:shield].",
+        "ru_upgraded_description": "Нанесите 2 урона и отбросьте соседей на 2 клетки. Получите +2 [img:shield].",
+        "en_name": "Ki Burst",
+        "en_description": "Deal 1 damage and knockback adjacent units. Gain +1 [img:shield].",
+        "en_upgraded_description": "Deal 2 damage and knockback adjacent units 2 tiles. Gain +2 [img:shield]."
+      },
       "manifest": {
         "ability_id": "KiBurst",
         "display_name": "Ki Burst",
@@ -442,6 +604,15 @@
       "variant": "upgraded",
       "description": "Deal 1 damage and knockback adjacent units. Gain +1 .Upgraded: Deal 2 damage and knockback adjacent units 2 tiles. Gain +2 .",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_KIBURST_NAME",
+        "ru_name": "Взрыв Ки",
+        "ru_description": "Нанесите 1 урон и отбросьте соседей. Получите +1 [img:shield].",
+        "ru_upgraded_description": "Нанесите 2 урона и отбросьте соседей на 2 клетки. Получите +2 [img:shield].",
+        "en_name": "Ki Burst",
+        "en_description": "Deal 1 damage and knockback adjacent units. Gain +1 [img:shield].",
+        "en_upgraded_description": "Deal 2 damage and knockback adjacent units 2 tiles. Gain +2 [img:shield]."
+      },
       "manifest": {
         "ability_id": "KiBurst",
         "display_name": "Ki Burst",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Sleep 8.Upgraded: Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Drowsy 8. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_MEDITATE_NAME",
+        "ru_name": "Медитация",
+        "ru_description": "Исцелите себя на 8, получите +8 Щита, Повышение Всех Хар-к 2 и Сон 8.",
+        "ru_upgraded_description": "Исцелите себя на 8, получите +8 Щита, Повышение Всех Хар-к 2 и Сон 8.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Meditate",
+        "en_description": "Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Sleep 8.",
+        "en_upgraded_description": "Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Drowsy 8.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Meditate",
         "display_name": "Meditate",
@@ -490,6 +670,15 @@
       "variant": "upgraded",
       "description": "Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Sleep 8.Upgraded: Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Drowsy 8. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_MEDITATE_NAME",
+        "ru_name": "Медитация",
+        "ru_description": "Исцелите себя на 8, получите +8 Щита, Повышение Всех Хар-к 2 и Сон 8.",
+        "ru_upgraded_description": "Исцелите себя на 8, получите +8 Щита, Повышение Всех Хар-к 2 и Сон 8.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Meditate",
+        "en_description": "Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Sleep 8.",
+        "en_upgraded_description": "Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Drowsy 8.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Meditate",
         "display_name": "Meditate",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "A one-hit kill punch. Gain All Stats Down on use. This deals 25 damage to bosses instead of killing them. (Castable once per battle.) Upgraded: A one-hit kill punch. It causes a cone of wind that deals 5 damage. Gain All Stats Down on use. This deals 25 damage to bosses instead of killing them. (Castable once per battle.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ONEPUNCH_NAME",
+        "ru_name": "Один Удар",
+        "ru_description": "Удар, убивающий сразу. При использовании получите Снижение Всех Характеристик.\nБоссам наносит 25 урона вместо убийства.\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Удар, убивающий сразу. Вызывает конус ветра на 5 урона. Получите Снижение Всех Характеристик.\nБоссам наносит 25 урона вместо убийства.\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "One Punch",
+        "en_description": "A one-hit kill punch. Gain All Stats Down on use.\nThis deals 25 damage to bosses instead of killing them.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "A one-hit kill punch. It causes a cone of wind that deals 5 damage. Gain All Stats Down on use.\nThis deals 25 damage to bosses instead of killing them.\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "OnePunch",
         "display_name": "One Punch",
@@ -538,6 +736,15 @@
       "variant": "normal",
       "description": "Gain +1 for each empty armor slot you have, then switch stances.Upgraded: Gain +1 and heal 1 HP for each empty armor slot you have, then switch stances.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_PERFECTFORM_NAME",
+        "ru_name": "Идеальная форма",
+        "ru_description": "Получите +1 [img:shield] за каждый пустой слот брони, затем смените стойку.",
+        "ru_upgraded_description": "Получите +1 [img:shield] и исцелите 1 ОЗ за каждый пустой слот брони, затем смените стойку.",
+        "en_name": "Perfect Form",
+        "en_description": "Gain +1 [img:shield] for each empty armor slot you have, then switch stances.",
+        "en_upgraded_description": "Gain +1 [img:shield] and heal 1 HP for each empty armor slot you have, then switch stances."
+      },
       "manifest": {
         "ability_id": "PerfectForm",
         "display_name": "Perfect Form",
@@ -562,6 +769,15 @@
       "variant": "upgraded",
       "description": "Gain +1 for each empty armor slot you have, then switch stances.Upgraded: Gain +1 and heal 1 HP for each empty armor slot you have, then switch stances.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_PERFECTFORM_NAME",
+        "ru_name": "Идеальная форма",
+        "ru_description": "Получите +1 [img:shield] за каждый пустой слот брони, затем смените стойку.",
+        "ru_upgraded_description": "Получите +1 [img:shield] и исцелите 1 ОЗ за каждый пустой слот брони, затем смените стойку.",
+        "en_name": "Perfect Form",
+        "en_description": "Gain +1 [img:shield] for each empty armor slot you have, then switch stances.",
+        "en_upgraded_description": "Gain +1 [img:shield] and heal 1 HP for each empty armor slot you have, then switch stances."
+      },
       "manifest": {
         "ability_id": "PerfectForm",
         "display_name": "Perfect Form",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Jump to a tile. Bounce off any unit you land on, damaging that unit.Upgraded: Jump to a tile. Bounce off any unit you land on, damaging and Bruising that unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_POGO_NAME",
+        "ru_name": "Пого",
+        "ru_description": "Прыгните на клетку. Отскочите от любого юнита под вами, нанеся ему урон.",
+        "ru_upgraded_description": "Прыгните на клетку. Отскочите от любого юнита под вами, нанеся урон и Ушиб.",
+        "en_name": "Pogo",
+        "en_description": "Jump to a tile. Bounce off any unit you land on, damaging that unit.",
+        "en_upgraded_description": "Jump to a tile. Bounce off any unit you land on, damaging and Bruising that unit."
+      },
       "manifest": {
         "ability_id": "Pogo",
         "display_name": "Pogo",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Dash forward one tile and attack.Upgraded: Dash forward one tile and attack, twice!",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PROPELL_NAME",
+        "ru_name": "Толчок",
+        "ru_description": "Рывок на 1 клетку вперед и атака.",
+        "ru_upgraded_description": "Рывок на 1 клетку вперед и атака (дважды!).",
+        "en_name": "Propel",
+        "en_description": "Dash forward one tile and attack.",
+        "en_upgraded_description": "Dash forward one tile and attack, twice!"
+      },
       "manifest": {
         "ability_id": "Propell",
         "display_name": "Propel",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "A melee attack that does 3 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does.Upgraded: A melee attack that does 4 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PUMMEL_NAME",
+        "ru_name": "Избиение",
+        "ru_description": "Бьет вблизи: наносит на 3 урона больше с каждым применением за ход. Накладывает те же эффекты, что и базовая атака.",
+        "ru_upgraded_description": "Бьет вблизи: наносит на 4 урона больше с каждым применением за ход. Накладывает те же эффекты, что и базовая атака.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Pummel",
+        "en_description": "A melee attack that does 3 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does.",
+        "en_upgraded_description": "A melee attack that does 4 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Pummel",
         "display_name": "Pummel",
@@ -658,6 +901,15 @@
       "variant": "upgraded",
       "description": "A melee attack that does 3 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does.Upgraded: A melee attack that does 4 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PUMMEL_NAME",
+        "ru_name": "Избиение",
+        "ru_description": "Бьет вблизи: наносит на 3 урона больше с каждым применением за ход. Накладывает те же эффекты, что и базовая атака.",
+        "ru_upgraded_description": "Бьет вблизи: наносит на 4 урона больше с каждым применением за ход. Накладывает те же эффекты, что и базовая атака.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Pummel",
+        "en_description": "A melee attack that does 3 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does.",
+        "en_upgraded_description": "A melee attack that does 4 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Pummel",
         "display_name": "Pummel",
@@ -682,6 +934,15 @@
       "variant": "normal",
       "description": "A melee attack with a high critical hit chance. RELOAD: Take damage.Upgraded: A melee attack with a 100% critical hit chance. RELOAD: Take damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SLAPBACK_NAME",
+        "ru_name": "Ответная пощечина",
+        "ru_description": "Атака ближнего боя с высоким шансом крита.\nПЕРЕЗАРЯДКА: Получите урон.",
+        "ru_upgraded_description": "Атака ближнего боя с 100% шансом крита.\nПЕРЕЗАРЯДКА: Получите урон.",
+        "en_name": "Slapback",
+        "en_description": "A melee attack with a high critical hit chance.\r\nRELOAD: Take damage.",
+        "en_upgraded_description": "A melee attack with a 100% critical hit chance.\r\nRELOAD: Take damage."
+      },
       "manifest": {
         "ability_id": "Slapback",
         "display_name": "Slapback",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Throw the Spirit Bomb, then this ability becomes Charge Spirit Bomb. (Cannot be thrown with 0 charges.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THROWSPIRITBOMB_NAME",
+        "ru_name": "Бросок Бомбы Духа",
+        "ru_description": "Бросьте Бомбу, затем способность меняется на \"Заряд Бомбы Духа\".\n[s:.7](Нельзя бросить с 0 зарядов.)[/s]",
+        "ru_upgraded_description": "",
+        "en_name": "Throw Spirit Bomb",
+        "en_description": "Throw the Spirit Bomb, then this ability becomes Charge Spirit Bomb.\r\n[s:.7](Cannot be thrown with 0 charges.)[/s]",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "ThrowSpiritBomb",
         "display_name": "Throw Spirit Bomb",
@@ -730,6 +1000,15 @@
       "variant": "normal",
       "description": "Dash forward X spaces, gain +X , deal X damage, and deal X knockback. X is equal to the number of empty armor slots you have plus one.Upgraded: Dash forward X spaces, gain +X , deal X damage, and deal X knockback. X is equal to twice the number of empty armor slots you have.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_UNIMPEDEDLUNGE_NAME",
+        "ru_name": "Беспрепятственный выпад",
+        "ru_description": "Рывок на X клеток: дайте +X [img:shield], нанесите X урона и X Отбрасывания.\nX = число пустых слотов брони плюс один.",
+        "ru_upgraded_description": "Рывок на X клеток: дайте +X [img:shield], нанесите X урона и X Отбрасывания.\nX = двойное число пустых слотов брони.",
+        "en_name": "Unimpeded Lunge",
+        "en_description": "Dash forward X spaces, gain +X [img:shield], deal X damage, and deal X knockback.\r\nX is equal to the number of empty armor slots you have plus one.",
+        "en_upgraded_description": "Dash forward X spaces, gain +X [img:shield], deal X damage, and deal X knockback.\r\nX is equal to twice the number of empty armor slots you have."
+      },
       "manifest": {
         "ability_id": "UnimpededLunge",
         "display_name": "Unimpeded Lunge",
@@ -754,6 +1033,15 @@
       "variant": "upgraded",
       "description": "Dash forward X spaces, gain +X , deal X damage, and deal X knockback. X is equal to the number of empty armor slots you have plus one.Upgraded: Dash forward X spaces, gain +X , deal X damage, and deal X knockback. X is equal to twice the number of empty armor slots you have.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_UNIMPEDEDLUNGE_NAME",
+        "ru_name": "Беспрепятственный выпад",
+        "ru_description": "Рывок на X клеток: дайте +X [img:shield], нанесите X урона и X Отбрасывания.\nX = число пустых слотов брони плюс один.",
+        "ru_upgraded_description": "Рывок на X клеток: дайте +X [img:shield], нанесите X урона и X Отбрасывания.\nX = двойное число пустых слотов брони.",
+        "en_name": "Unimpeded Lunge",
+        "en_description": "Dash forward X spaces, gain +X [img:shield], deal X damage, and deal X knockback.\r\nX is equal to the number of empty armor slots you have plus one.",
+        "en_upgraded_description": "Dash forward X spaces, gain +X [img:shield], deal X damage, and deal X knockback.\r\nX is equal to twice the number of empty armor slots you have."
+      },
       "manifest": {
         "ability_id": "UnimpededLunge",
         "display_name": "Unimpeded Lunge",

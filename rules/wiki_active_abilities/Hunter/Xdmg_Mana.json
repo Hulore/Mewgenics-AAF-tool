@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Shoot 5 weak shots, each one has a 50% chance to miss.Upgraded: Shoot 5 weak shots, each one has a 50% chance to miss and 50% chance to crit!",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ARROWFLURRY_NAME",
+        "ru_name": "Шквал стрел",
+        "ru_description": "5 слабых выстрелов. У каждого 50% шанс промаха.",
+        "ru_upgraded_description": "5 слабых выстрелов. У каждого 50% шанс промаха и 50% шанс КРИТА!",
+        "en_name": "Arrow Flurry",
+        "en_description": "Shoot 5 weak shots, each one has a 50% chance to miss.",
+        "en_upgraded_description": "Shoot 5 weak shots, each one has a 50% chance to miss and 50% chance to crit!"
+      },
       "manifest": {
         "ability_id": "ArrowFlurry",
         "display_name": "Arrow Flurry",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "Shoot 5 weak shots, each one has a 50% chance to miss.Upgraded: Shoot 5 weak shots, each one has a 50% chance to miss and 50% chance to crit!",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ARROWFLURRY_NAME",
+        "ru_name": "Шквал стрел",
+        "ru_description": "5 слабых выстрелов. У каждого 50% шанс промаха.",
+        "ru_upgraded_description": "5 слабых выстрелов. У каждого 50% шанс промаха и 50% шанс КРИТА!",
+        "en_name": "Arrow Flurry",
+        "en_description": "Shoot 5 weak shots, each one has a 50% chance to miss.",
+        "en_upgraded_description": "Shoot 5 weak shots, each one has a 50% chance to miss and 50% chance to crit!"
+      },
       "manifest": {
         "ability_id": "ArrowFlurry",
         "display_name": "Arrow Flurry",
@@ -58,6 +76,15 @@
       "variant": "upgraded",
       "description": "Shoot a random unit within range.Upgraded: Shoot a random unit within range, twice!",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHAOSSHOT_NAME",
+        "ru_name": "Хаос-выстрел",
+        "ru_description": "Выстрелите в случайного юнита в радиусе.",
+        "ru_upgraded_description": "Выстрелите в случайного юнита в радиусе, дважды!",
+        "en_name": "Chaos Shot",
+        "en_description": "Shoot a random unit within range.",
+        "en_upgraded_description": "Shoot a random unit within range, twice!"
+      },
       "manifest": {
         "ability_id": "ChaosShot",
         "display_name": "Chaos Shot",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Shoot twice.Upgraded: Shoot thrice.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TWINSHOT_NAME",
+        "ru_name": "Двойной выстрел",
+        "ru_description": "Выстрелите дважды.",
+        "ru_upgraded_description": "Выстрелите трижды.",
+        "en_name": "Twin Shot",
+        "en_description": "Shoot twice.",
+        "en_upgraded_description": "Shoot thrice."
+      },
       "manifest": {
         "ability_id": "TwinShot",
         "display_name": "Twin Shot",
@@ -106,6 +142,15 @@
       "variant": "upgraded",
       "description": "Shoot twice.Upgraded: Shoot thrice.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TWINSHOT_NAME",
+        "ru_name": "Двойной выстрел",
+        "ru_description": "Выстрелите дважды.",
+        "ru_upgraded_description": "Выстрелите трижды.",
+        "en_name": "Twin Shot",
+        "en_description": "Shoot twice.",
+        "en_upgraded_description": "Shoot thrice."
+      },
       "manifest": {
         "ability_id": "TwinShot",
         "display_name": "Twin Shot",

@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Fart on a unit, inflicting Poison 3 and propelling yourself 3 tiles.Upgraded: Fart on a unit, inflicting Poison 3 and propelling yourself ten tiles. Units in your path get trampled over.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BADGAS_NAME",
+        "ru_name": "Газы",
+        "ru_description": "Пукни на юнита, сделав рывок на 3 клетки вперед. Ему Яд 3",
+        "ru_upgraded_description": "Пукни на юнита, сделав рывок на 10 клетки вперед.\nРастопчите всех на пути. Ему Яд 3",
+        "en_name": "Bad Gas",
+        "en_description": "Fart on a unit, inflicting Poison 3 and propelling yourself 3 tiles.",
+        "en_upgraded_description": "Fart on a unit, inflicting Poison 3 and propelling yourself ten tiles. Units in your path get trampled over."
+      },
       "manifest": {
         "ability_id": "BadGas",
         "display_name": "Bad Gas",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "Fart on a unit, inflicting Poison 3 and propelling yourself 3 tiles.Upgraded: Fart on a unit, inflicting Poison 3 and propelling yourself ten tiles. Units in your path get trampled over.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BADGAS_NAME",
+        "ru_name": "Газы",
+        "ru_description": "Пукни на юнита, сделав рывок на 3 клетки вперед. Ему Яд 3",
+        "ru_upgraded_description": "Пукни на юнита, сделав рывок на 10 клетки вперед.\nРастопчите всех на пути. Ему Яд 3",
+        "en_name": "Bad Gas",
+        "en_description": "Fart on a unit, inflicting Poison 3 and propelling yourself 3 tiles.",
+        "en_upgraded_description": "Fart on a unit, inflicting Poison 3 and propelling yourself ten tiles. Units in your path get trampled over."
+      },
       "manifest": {
         "ability_id": "BadGas",
         "display_name": "Bad Gas",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Roll the bowling ball cat. If it hits something, deal 10 damage in a large cone with knockback.Upgraded: Roll the bowling ball cat. If it hits something, deal 15 damage and inflict Bruise in a large cone with knockback.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BOWL_NAME",
+        "ru_name": "Шар",
+        "ru_description": "Катите кота-шар. При ударе: 10 урона в большом конусе с отбрасыванием.",
+        "ru_upgraded_description": "Катите кота-шар. При ударе: 15 урона и Ушиб в большом конусе с отбрасыванием.",
+        "en_name": "Bowl",
+        "en_description": "Roll the bowling ball cat. If it hits something, deal 10 damage in a large cone with knockback.",
+        "en_upgraded_description": "Roll the bowling ball cat. If it hits something, deal 15 damage and inflict Bruise in a large cone with knockback."
+      },
       "manifest": {
         "ability_id": "Bowl",
         "display_name": "Bowl",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Inflict Rot on a unit and it moves away from you.Upgraded: Inflict Rot 2 and Poison 2 on a unit and it moves away from you.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BURP_NAME",
+        "ru_name": "Отрыжка",
+        "ru_description": "Наложите Гниль на юнита, и он убегает от вас.",
+        "ru_upgraded_description": "Наложите Гниль 2 и Яд 2 на юнита, и он убегает от вас.",
+        "en_name": "Burp",
+        "en_description": "Inflict Rot on a unit and it moves away from you.",
+        "en_upgraded_description": "Inflict Rot 2 and Poison 2 on a unit and it moves away from you."
+      },
       "manifest": {
         "ability_id": "Burp",
         "display_name": "Burp",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Kill every unit with 3 or less health. They become meat.Upgraded: Kill every unit with 3 or less health. They become meat. Gain 5 health for each unit killed.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_BUTCHER_NAME",
+        "ru_name": "Разделка",
+        "ru_description": "Убейте всех юнитов с 3 или менее Здоровья. Они станут мясом.",
+        "ru_upgraded_description": "Убейте всех юнитов с 3 или менее Здоровья. Они станут мясом. +5 ОЗ вам за каждого.",
+        "en_name": "Butcher",
+        "en_description": "Kill every unit with 3 or less health. They become meat.",
+        "en_upgraded_description": "Kill every unit with 3 or less health. They become meat. Gain 5 health for each unit killed."
+      },
       "manifest": {
         "ability_id": "Butcher",
         "display_name": "Butcher",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Collect all pickups, then become drowsy.Upgraded: Collect all pickups, then become drowsy. Gain double the effects of these pickups.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CONSUME_NAME",
+        "ru_name": "Пожирание",
+        "ru_description": "Соберите все предметы, затем впадите в Сон.",
+        "ru_upgraded_description": "Соберите все предметы, затем впадите в Сон. Получите двойной эффект от предметов.",
+        "en_name": "Consume",
+        "en_description": "Collect all pickups, then become drowsy.",
+        "en_upgraded_description": "Collect all pickups, then become drowsy. Gain double the effects of these pickups."
+      },
       "manifest": {
         "ability_id": "Consume",
         "display_name": "Consume",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Collect an adjacent pickup. Instead of that pickup's normal effects, add Poison 1 to your weapon for the rest of the battle.Upgraded: Collect a pickup in range 5. Instead of that pickup's normal effects, add Poison 1 to your weapon for the rest of the battle.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CONTAMINATE_NAME",
+        "ru_name": "Заражение",
+        "ru_description": "Подберите соседний лут. Вместо эффекта дайте оружию Яд 1 до конца битвы.",
+        "ru_upgraded_description": "Подберите лут в радиусе 5. Вместо эффекта дайте оружию Яд 1 до конца битвы.",
+        "en_name": "Contaminate",
+        "en_description": "Collect an adjacent pickup. Instead of that pickup's normal effects, add Poison 1 to your weapon for the rest of the battle.",
+        "en_upgraded_description": "Collect a pickup in range 5. Instead of that pickup's normal effects, add Poison 1 to your weapon for the rest of the battle."
+      },
       "manifest": {
         "ability_id": "Contaminate",
         "display_name": "Contaminate",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Take 2 damage. Summon a Rot Fly.Upgraded: Take 2 damage. Summon a Rot Fly.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COUGH_NAME",
+        "ru_name": "Кашель",
+        "ru_description": "Получите 2 урона.\nПризовите Гнилостную Муху.",
+        "ru_upgraded_description": "Получите 2 урона.\nПризовите [img:champion] Гнилостную Муху.",
+        "en_name": "Cough",
+        "en_description": "Take 2 damage.\nSummon a Rot Fly.",
+        "en_upgraded_description": "Take 2 damage.\nSummon a [img:champion] Rot Fly."
+      },
       "manifest": {
         "ability_id": "Cough",
         "display_name": "Cough",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have.Upgraded: Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_DEATHWIND_NAME",
+        "ru_name": "Ветер Смерти",
+        "ru_description": "Выдохните ветер, накладывающий Яд 4 в конусе. Конус тем шире, чем меньше у вас здоровья.",
+        "ru_upgraded_description": "Выдохните ветер, накладывающий Яд 4 в конусе. Конус тем шире, чем меньше у вас здоровья.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Death Wind",
+        "en_description": "Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have.",
+        "en_upgraded_description": "Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DeathWind",
         "display_name": "Death Wind",
@@ -226,6 +307,15 @@
       "variant": "upgraded",
       "description": "Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have.Upgraded: Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_DEATHWIND_NAME",
+        "ru_name": "Ветер Смерти",
+        "ru_description": "Выдохните ветер, накладывающий Яд 4 в конусе. Конус тем шире, чем меньше у вас здоровья.",
+        "ru_upgraded_description": "Выдохните ветер, накладывающий Яд 4 в конусе. Конус тем шире, чем меньше у вас здоровья.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Death Wind",
+        "en_description": "Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have.",
+        "en_upgraded_description": "Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DeathWind",
         "display_name": "Death Wind",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Inflict Attraction on all enemies within range 4.Upgraded: Jump to a tile, then inflict Attraction on all enemies within range 4.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DELICIOUSSCENT_NAME",
+        "ru_name": "Вкусный запах",
+        "ru_description": "Наложите Привлечение на всех врагов в радиусе 4.",
+        "ru_upgraded_description": "Прыгните на клетку, затем наложите Привлечение на всех врагов в радиусе 4.",
+        "en_name": "Delicious Scent",
+        "en_description": "Inflict Attraction on all enemies within range 4.",
+        "en_upgraded_description": "Jump to a tile, then inflict Attraction on all enemies within range 4."
+      },
       "manifest": {
         "ability_id": "DeliciousScent",
         "display_name": "Delicious Scent",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "Inflict Poison 2 and Burn 2 on a unit in melee range.Upgraded: Inflict Poison 2 and Burn 2 in a small cone.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FIREFART_NAME",
+        "ru_name": "Огненный пердеж",
+        "ru_description": "Наложите Яд 2 и Горение 2 на юнита вблизи.",
+        "ru_upgraded_description": "Наложите Яд 2 и Горение 2 в малом конусе.",
+        "en_name": "Fire Fart",
+        "en_description": "Inflict Poison 2 and Burn 2 on a unit in melee range.",
+        "en_upgraded_description": "Inflict Poison 2 and Burn 2 in a small cone."
+      },
       "manifest": {
         "ability_id": "FireFart",
         "display_name": "Fire Fart",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Lob a hook at an object and pull yourself to it. Trample over tiles in your path.Upgraded: Lob a hook at an object and pull yourself to it. Trample over tiles in your path. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GRAPNEL_NAME",
+        "ru_name": "Кошка",
+        "ru_description": "Зацепитесь крюком за объект и подтянитесь к нему. Растопчите клетки на пути.",
+        "ru_upgraded_description": "Зацепитесь крюком за объект и подтянитесь к нему. Растопчите клетки на пути.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Grapnel",
+        "en_description": "Lob a hook at an object and pull yourself to it. Trample over tiles in your path.",
+        "en_upgraded_description": "Lob a hook at an object and pull yourself to it. Trample over tiles in your path.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Grapnel",
         "display_name": "Grapnel",
@@ -322,6 +439,15 @@
       "variant": "upgraded",
       "description": "Lob a hook at an object and pull yourself to it. Trample over tiles in your path.Upgraded: Lob a hook at an object and pull yourself to it. Trample over tiles in your path. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GRAPNEL_NAME",
+        "ru_name": "Кошка",
+        "ru_description": "Зацепитесь крюком за объект и подтянитесь к нему. Растопчите клетки на пути.",
+        "ru_upgraded_description": "Зацепитесь крюком за объект и подтянитесь к нему. Растопчите клетки на пути.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Grapnel",
+        "en_description": "Lob a hook at an object and pull yourself to it. Trample over tiles in your path.",
+        "en_upgraded_description": "Lob a hook at an object and pull yourself to it. Trample over tiles in your path.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Grapnel",
         "display_name": "Grapnel",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Light a fire under a food pickup on any tile.Upgraded: Light a fire under any tile.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GRILL_NAME",
+        "ru_name": "Гриль",
+        "ru_description": "Разведите огонь под едой на любой клетке.",
+        "ru_upgraded_description": "Разведите огонь под любой клеткой.",
+        "en_name": "Grill",
+        "en_description": "Light a fire under a food pickup on any tile.",
+        "en_upgraded_description": "Light a fire under any tile."
+      },
       "manifest": {
         "ability_id": "Grill",
         "display_name": "Grill",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Inflict Bleed 10 on an adjacent unit. You can't use your weapon for the rest of the battle. (Castable once per battle.) Upgraded: Inflict Bleed 10, Immobilize 2, and Bruise 2 on an adjacent unit. You can't use your weapon for the rest of the battle. (Castable once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LODGEHOOK_NAME",
+        "ru_name": "Засадить крюк",
+        "ru_description": "Наложите Кровотечение 10 на соседа. Вы не сможете использовать оружие до конца битвы.\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Наложите Кровотечение 10, Обездвиживание 2 и Ушиб 2 на соседа. Вы без оружия до конца битвы.\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Lodge Hook",
+        "en_description": "Inflict Bleed 10 on an adjacent unit. You can't use your weapon for the rest of the battle.\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Inflict Bleed 10, Immobilize 2, and Bruise 2 on an adjacent unit. You can't use your weapon for the rest of the battle.\r\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "LodgeHook",
         "display_name": "Lodge Hook",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Steal an allied cat's next turn for yourself.Upgraded: Steal an allied cat's next turn for yourself. (This spell costs 1 mana.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MYTURN_NAME",
+        "ru_name": "Моя очередь!",
+        "ru_description": "Украдите следующий ход союзного кота себе.",
+        "ru_upgraded_description": "Украдите следующий ход союзного кота себе.\n[s:.7](Это заклинание стоит 1 ману.)[/s]",
+        "en_name": "My Turn!",
+        "en_description": "Steal an allied cat's next turn for yourself.",
+        "en_upgraded_description": "Steal an allied cat's next turn for yourself.\r\n[s:.7](This spell costs 1 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "MyTurn",
         "display_name": "My Turn!",
@@ -418,6 +571,15 @@
       "variant": "upgraded",
       "description": "Steal an allied cat's next turn for yourself.Upgraded: Steal an allied cat's next turn for yourself. (This spell costs 1 mana.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MYTURN_NAME",
+        "ru_name": "Моя очередь!",
+        "ru_description": "Украдите следующий ход союзного кота себе.",
+        "ru_upgraded_description": "Украдите следующий ход союзного кота себе.\n[s:.7](Это заклинание стоит 1 ману.)[/s]",
+        "en_name": "My Turn!",
+        "en_description": "Steal an allied cat's next turn for yourself.",
+        "en_upgraded_description": "Steal an allied cat's next turn for yourself.\r\n[s:.7](This spell costs 1 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "MyTurn",
         "display_name": "My Turn!",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Take 2 damage and spawn a food pickup.Upgraded: Take 2 damage and spawn a big food pickup.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REGURGE_NAME",
+        "ru_name": "Срыг",
+        "ru_description": "Получите 2 урона и создайте еду.",
+        "ru_upgraded_description": "Получите 2 урона и создайте большую еду.",
+        "en_name": "Regurge",
+        "en_description": "Take 2 damage and spawn a food pickup.",
+        "en_upgraded_description": "Take 2 damage and spawn a big food pickup."
+      },
       "manifest": {
         "ability_id": "Regurge",
         "display_name": "Regurge",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Refresh your weapon ability.Upgraded: Refresh your weapon and movement action.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REHOOK_NAME",
+        "ru_name": "Перецепка",
+        "ru_description": "Обновите способность оружия.",
+        "ru_upgraded_description": "Обновите способность оружия и движение.",
+        "en_name": "Rehook",
+        "en_description": "Refresh your weapon ability.",
+        "en_upgraded_description": "Refresh your weapon and movement action."
+      },
       "manifest": {
         "ability_id": "Rehook",
         "display_name": "Rehook",
@@ -490,6 +670,15 @@
       "variant": "normal",
       "description": "Your weapon gains +1 damage for the rest of the battle.Upgraded: Your weapon gains +1 damage for the rest of the battle and you gain +1 Damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHARPEN_NAME",
+        "ru_name": "Заточка",
+        "ru_description": "Ваше оружие получает +1 урон до конца битвы.",
+        "ru_upgraded_description": "Ваше оружие получает +1 урон до конца битвы, и вы получаете +1 Урон.",
+        "en_name": "Sharpen",
+        "en_description": "Your weapon gains +1 damage for the rest of the battle.",
+        "en_upgraded_description": "Your weapon gains +1 damage for the rest of the battle and you gain +1 Damage."
+      },
       "manifest": {
         "ability_id": "Sharpen",
         "display_name": "Sharpen",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit.Upgraded: Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SMELLBLOOD_NAME",
+        "ru_name": "Запах крови",
+        "ru_description": "До след. хода, если кто-то в зоне атаки получает физ. урон (не от вас), вы атакуете его.",
+        "ru_upgraded_description": "До след. хода, если кто-то в зоне атаки получает физ. урон (не от вас), вы атакуете его.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Smell Blood",
+        "en_description": "Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit.",
+        "en_upgraded_description": "Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SmellBlood",
         "display_name": "Smell Blood",
@@ -538,6 +736,15 @@
       "variant": "upgraded",
       "description": "Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit.Upgraded: Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SMELLBLOOD_NAME",
+        "ru_name": "Запах крови",
+        "ru_description": "До след. хода, если кто-то в зоне атаки получает физ. урон (не от вас), вы атакуете его.",
+        "ru_upgraded_description": "До след. хода, если кто-то в зоне атаки получает физ. урон (не от вас), вы атакуете его.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Smell Blood",
+        "en_description": "Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit.",
+        "en_upgraded_description": "Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SmellBlood",
         "display_name": "Smell Blood",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Turn all food pickups into Rot Flies.Upgraded: Turn all food pickups into Rot Flies. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPOIL_NAME",
+        "ru_name": "Порча",
+        "ru_description": "Превратите всю еду (лут) в Гнилостных Мух.",
+        "ru_upgraded_description": "Превратите всю еду в Гнилостных Мух.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Spoil",
+        "en_description": "Turn all food pickups into Rot Flies.",
+        "en_upgraded_description": "Turn all food pickups into Rot Flies.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Spoil",
         "display_name": "Spoil",
@@ -586,6 +802,15 @@
       "variant": "upgraded",
       "description": "Turn all food pickups into Rot Flies.Upgraded: Turn all food pickups into Rot Flies. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPOIL_NAME",
+        "ru_name": "Порча",
+        "ru_description": "Превратите всю еду (лут) в Гнилостных Мух.",
+        "ru_upgraded_description": "Превратите всю еду в Гнилостных Мух.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Spoil",
+        "en_description": "Turn all food pickups into Rot Flies.",
+        "en_upgraded_description": "Turn all food pickups into Rot Flies.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Spoil",
         "display_name": "Spoil",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Collect a pickup within two tiles of you.Upgraded: Collect all pickups within two tiles of you.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUCC_NAME",
+        "ru_name": "ВСОС",
+        "ru_description": "Соберите предмет в радиусе двух клеток от вас.",
+        "ru_upgraded_description": "Соберите ВСЕ предметы в радиусе двух клеток от вас.",
+        "en_name": "SUCC",
+        "en_description": "Collect a pickup within two tiles of you.",
+        "en_upgraded_description": "Collect all pickups within two tiles of you."
+      },
       "manifest": {
         "ability_id": "Succ",
         "display_name": "SUCC",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Eat a unit and take damage equal to that unit's remaining HP. You can't swallow bosses or large units.Upgraded: Eat a unit within range 2 and take damage equal to half of that unit's remaining HP. You can't swallow bosses or large units.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SWALLOW_NAME",
+        "ru_name": "Проглатывание",
+        "ru_description": "Съешьте юнита и получите урон, равный его оставшимся ОЗ. Нельзя есть боссов и крупных юнитов.",
+        "ru_upgraded_description": "Съешьте юнита в радиусе 2 и получите урон (50% от его ОЗ). Нельзя есть боссов и крупных.",
+        "en_name": "Swallow",
+        "en_description": "Eat a unit and take damage equal to that unit's remaining HP. You can't swallow bosses or large units.  ",
+        "en_upgraded_description": "Eat a unit within range 2 and take damage equal to half of that unit's remaining HP. You can't swallow bosses or large units."
+      },
       "manifest": {
         "ability_id": "Swallow",
         "display_name": "Swallow",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "Jump to any open tile and fall asleep. While asleep, inflict Rot 1 and Poison 1 on units that contact you.Upgraded: Jump to any open tile and fall asleep. While asleep, inflict Rot 2 and Poison 2 on units that contact you.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TAINTEDOFFERING_NAME",
+        "ru_name": "Гнилой дар",
+        "ru_description": "Прыгните на любую свободную клетку и усните. Во сне накладывайте Гниль 1 и Яд 1 при контакте.",
+        "ru_upgraded_description": "Прыгните на свободную клетку и усните. Во сне накладывайте Гниль 2 и Яд 2 при контакте.",
+        "en_name": "Tainted Offering",
+        "en_description": "Jump to any open tile and fall asleep. While asleep, inflict Rot 1 and Poison 1 on units that contact you.",
+        "en_upgraded_description": "Jump to any open tile and fall asleep. While asleep, inflict Rot 2 and Poison 2 on units that contact you."
+      },
       "manifest": {
         "ability_id": "TaintedOffering",
         "display_name": "Tainted Offering",
@@ -682,6 +934,15 @@
       "variant": "normal",
       "description": "Trample one tile toward the nearest food pickup.Upgraded: Trample two tiles toward the nearest food pickup.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TRACK_NAME",
+        "ru_name": "Выслеживание",
+        "ru_description": "Растопчите одну клетку в сторону ближайшей еды.",
+        "ru_upgraded_description": "Растопчите две клетки в сторону ближайшей еды.",
+        "en_name": "Track",
+        "en_description": "Trample one tile toward the nearest food pickup.",
+        "en_upgraded_description": "Trample two tiles toward the nearest food pickup."
+      },
       "manifest": {
         "ability_id": "Track",
         "display_name": "Track",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Move four tiles. Costs less mana the lower your HP is.Upgraded: Trample over four tiles. Costs less mana the lower your HP is.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TRUDGE_NAME",
+        "ru_name": "Тащиться",
+        "ru_description": "Пройдите 4 клетки. Стоит тем дешевле, чем меньше у вас ОЗ.",
+        "ru_upgraded_description": "Растопчите 4 клетки. Стоит тем дешевле, чем меньше у вас ОЗ.",
+        "en_name": "Trudge",
+        "en_description": "Move four tiles. Costs less mana the lower your HP is.",
+        "en_upgraded_description": "Trample over four tiles. Costs less mana the lower your HP is."
+      },
       "manifest": {
         "ability_id": "Trudge",
         "display_name": "Trudge",
@@ -730,6 +1000,15 @@
       "variant": "normal",
       "description": "Vomit up the last consumable you ate this battle and equip it. (Castable once per battle.) Upgraded: Vomit up the last consumable you ate this battle and equip it. (Castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_VURP_NAME",
+        "ru_name": "Срыгивание",
+        "ru_description": "Сблевните последний съеденный расходник и экипируйте его.\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Сблевните последний съеденный расходник и экипируйте его.\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Vurp",
+        "en_description": "Vomit up the last consumable you ate this battle and equip it.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Vomit up the last consumable you ate this battle and equip it.\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "Vurp",
         "display_name": "Vurp",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "You and adjacent units fall asleepUpgraded: You and adjacent units fall asleep. You gain all stats up and heal 4.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_TRYPTOPHAN_NAME",
+        "ru_name": "Зевок",
+        "ru_description": "Вы и соседи засыпаете.",
+        "ru_upgraded_description": "Вы и соседи засыпаете. Вы получаете Повышение Всех Хар-к и лечитесь на 4.",
+        "en_name": "Yawn",
+        "en_description": "You and adjacent units fall asleep",
+        "en_upgraded_description": "You and adjacent units fall asleep. You gain all stats up and heal 4."
+      },
       "manifest": {
         "ability_id": "Tryptophan",
         "display_name": "Yawn",

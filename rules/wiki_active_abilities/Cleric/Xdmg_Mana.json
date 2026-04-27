@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Heal an adjacent unit 2 to 6 times.Upgraded: Heal an adjacent unit 2 to 6 times. Each heal gives +1 to a random stat.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_BAPTISM_NAME",
+        "ru_name": "Яростное лечение",
+        "ru_description": "Исцелите соседнего юнита от 2 до 6 раз.",
+        "ru_upgraded_description": "Исцелите соседнего юнита от 2 до 6 раз. Каждый хил дает +1 к случ. характеристике.",
+        "en_name": "Fury Heal",
+        "en_description": "Heal an adjacent unit 2 to 6 times.",
+        "en_upgraded_description": "Heal an adjacent unit 2 to 6 times. Each heal gives +1 to a random stat."
+      },
       "manifest": {
         "ability_id": "Baptism",
         "display_name": "Fury Heal",

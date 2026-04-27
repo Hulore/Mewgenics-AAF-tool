@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Spend all of your mana, then deal that much electric damage to an adjacent unit.Upgraded: Spend all of your mana, then deal that much electric damage to an adjacent unit with a 10% Stun chance for each point of mana spent.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DISCHARGE_NAME",
+        "ru_name": "Разряд",
+        "ru_description": "Потратьте всю ману, нанесите столько же электр. урона соседу.",
+        "ru_upgraded_description": "Потратьте всю ману, нанесите столько же электр. урона соседу. 10% шанс Оглушения за очко маны.",
+        "en_name": "Discharge",
+        "en_description": "Spend all of your mana, then deal that much electric damage to an adjacent unit.",
+        "en_upgraded_description": "Spend all of your mana, then deal that much electric damage to an adjacent unit with a 10% Stun chance for each point of mana spent."
+      },
       "manifest": {
         "ability_id": "Discharge",
         "display_name": "Discharge",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Deal 1 damage to a unit for each unique divisor in its current HP value.Upgraded: Deal 1 damage to a unit for each unique divisor in its current HP value. If its HP was a prime number, gain 5 mana.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MATH_NAME",
+        "ru_name": "Математика!",
+        "ru_description": "Нанесите 1 урон за каждый уникальный делитель текущего ОЗ цели.",
+        "ru_upgraded_description": "Нанесите 1 урон за каждый уникальный делитель ОЗ. Если ОЗ — простое число, вам +5 маны.",
+        "en_name": "Math!",
+        "en_description": "Deal 1 damage to a unit for each unique divisor in its current HP value.",
+        "en_upgraded_description": "Deal 1 damage to a unit for each unique divisor in its current HP value. If its HP was a prime number, gain 5 mana."
+      },
       "manifest": {
         "ability_id": "Math",
         "display_name": "Math!",
@@ -58,6 +76,15 @@
       "variant": "upgraded",
       "description": "Deal 1 damage to a unit for each unique divisor in its current HP value.Upgraded: Deal 1 damage to a unit for each unique divisor in its current HP value. If its HP was a prime number, gain 5 mana.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MATH_NAME",
+        "ru_name": "Математика!",
+        "ru_description": "Нанесите 1 урон за каждый уникальный делитель текущего ОЗ цели.",
+        "ru_upgraded_description": "Нанесите 1 урон за каждый уникальный делитель ОЗ. Если ОЗ — простое число, вам +5 маны.",
+        "en_name": "Math!",
+        "en_description": "Deal 1 damage to a unit for each unique divisor in its current HP value.",
+        "en_upgraded_description": "Deal 1 damage to a unit for each unique divisor in its current HP value. If its HP was a prime number, gain 5 mana."
+      },
       "manifest": {
         "ability_id": "Math",
         "display_name": "Math!",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Jump to any open tile. Explode when you land. (This explosion also damages you.)Upgraded: Jump to any open tile. Explode when you land. (This explosion also damages you.) (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ROCKETRIDE_NAME",
+        "ru_name": "Полет на ракете",
+        "ru_description": "Прыгните на любую свободную клетку. При приземлении произойдёт взрыв. (Вы тоже получите урон от взрыва)",
+        "ru_upgraded_description": "Прыгните на любую свободную клетку. При приземлении произойдёт взрыв. (Вы тоже получите урон от взрыва)\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Rocket Ride",
+        "en_description": "Jump to any open tile. Explode when you land. (This explosion also damages you.)",
+        "en_upgraded_description": "Jump to any open tile. Explode when you land. (This explosion also damages you.)\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "RocketRide",
         "display_name": "Rocket Ride",
@@ -106,6 +142,15 @@
       "variant": "upgraded",
       "description": "Jump to any open tile. Explode when you land. (This explosion also damages you.)Upgraded: Jump to any open tile. Explode when you land. (This explosion also damages you.) (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ROCKETRIDE_NAME",
+        "ru_name": "Полет на ракете",
+        "ru_description": "Прыгните на любую свободную клетку. При приземлении произойдёт взрыв. (Вы тоже получите урон от взрыва)",
+        "ru_upgraded_description": "Прыгните на любую свободную клетку. При приземлении произойдёт взрыв. (Вы тоже получите урон от взрыва)\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Rocket Ride",
+        "en_description": "Jump to any open tile. Explode when you land. (This explosion also damages you.)",
+        "en_upgraded_description": "Jump to any open tile. Explode when you land. (This explosion also damages you.)\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "RocketRide",
         "display_name": "Rocket Ride",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Dash forward in a straight line then explode dealing damage in an area (including to yourself).Upgraded: Dash forward in a straight line then explode dealing damage in an larger area (including to yourself).",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ROCKETSKATES_NAME",
+        "ru_name": "Ракетные коньки",
+        "ru_description": "Рывок по прямой, затем взрыв (урон в области, вам тоже).",
+        "ru_upgraded_description": "Рывок по прямой, затем взрыв (урон в большей области, вам тоже).",
+        "en_name": "Rocket Skates",
+        "en_description": "Dash forward in a straight line then explode dealing damage in an area (including to yourself).",
+        "en_upgraded_description": "Dash forward in a straight line then explode dealing damage in an larger area (including to yourself)."
+      },
       "manifest": {
         "ability_id": "RocketSkates",
         "display_name": "Rocket Skates",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Deal 1 electric damage to yourself or an adjacent unit. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned.Upgraded: Deal 1 electric damage to yourself or a unit in range 5. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHOCKTHERAPY_NAME",
+        "ru_name": "Шоковая терапия",
+        "ru_description": "1 электр. урон себе или соседу. Снимает дебаффы, дает бафф стата, 25% шанс Оглушения.",
+        "ru_upgraded_description": "1 электр. урон себе или юниту (радиус 5). Снимает дебаффы, дает бафф стата, 25% шанс Оглушения.",
+        "en_name": "Shock Therapy",
+        "en_description": "Deal 1 electric damage to yourself or an adjacent unit. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned.",
+        "en_upgraded_description": "Deal 1 electric damage to yourself or a unit in range 5. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned."
+      },
       "manifest": {
         "ability_id": "ShockTherapy",
         "display_name": "Shock Therapy",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Deal damage to all units. The closer a unit is to you the more damage it takes.Upgraded: Deal damage to all units. The closer a unit is to you the more damage it takes. (Deals more damage to closer units and less damage to further units.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHOCKWAVE_NAME",
+        "ru_name": "Ударная волна",
+        "ru_description": "Урон всем юнитам. Чем ближе юнит к вам, тем больнее.",
+        "ru_upgraded_description": "Урон всем юнитам. Чем ближе юнит к вам, тем больнее.\n[s:.7](Больше урона вблизи, меньше вдали.)[/s]",
+        "en_name": "Shockwave",
+        "en_description": "Deal damage to all units. The closer a unit is to you the more damage it takes.",
+        "en_upgraded_description": "Deal damage to all units. The closer a unit is to you the more damage it takes.\n[s:.7](Deals more damage to closer units and less damage to further units.)[/s]"
+      },
       "manifest": {
         "ability_id": "Shockwave",
         "display_name": "Shockwave",
@@ -202,6 +274,15 @@
       "variant": "upgraded",
       "description": "Deal damage to all units. The closer a unit is to you the more damage it takes.Upgraded: Deal damage to all units. The closer a unit is to you the more damage it takes. (Deals more damage to closer units and less damage to further units.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHOCKWAVE_NAME",
+        "ru_name": "Ударная волна",
+        "ru_description": "Урон всем юнитам. Чем ближе юнит к вам, тем больнее.",
+        "ru_upgraded_description": "Урон всем юнитам. Чем ближе юнит к вам, тем больнее.\n[s:.7](Больше урона вблизи, меньше вдали.)[/s]",
+        "en_name": "Shockwave",
+        "en_description": "Deal damage to all units. The closer a unit is to you the more damage it takes.",
+        "en_upgraded_description": "Deal damage to all units. The closer a unit is to you the more damage it takes.\n[s:.7](Deals more damage to closer units and less damage to further units.)[/s]"
+      },
       "manifest": {
         "ability_id": "Shockwave",
         "display_name": "Shockwave",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Deal 1 electric damage with a random amount of knockback (up to 3) to all adjacent units.Upgraded: Deal 2 electric damage with a random amount of knockback (up to 10) to all adjacent units.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHORTCIRCUIT_NAME",
+        "ru_name": "Короткое замыкание",
+        "ru_description": "1 электр. урона и случайное отбрасывание (до 3) всем соседям.",
+        "ru_upgraded_description": "2 электр. урона и случайное отбрасывание (до 10) всем соседям.",
+        "en_name": "Short Circuit",
+        "en_description": "Deal 1 electric damage with a random amount of knockback (up to 3) to all adjacent units.",
+        "en_upgraded_description": "Deal 2 electric damage with a random amount of knockback (up to 10) to all adjacent units."
+      },
       "manifest": {
         "ability_id": "ShortCircuit",
         "display_name": "Short Circuit",
@@ -250,6 +340,15 @@
       "variant": "upgraded",
       "description": "Deal 1 electric damage with a random amount of knockback (up to 3) to all adjacent units.Upgraded: Deal 2 electric damage with a random amount of knockback (up to 10) to all adjacent units.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHORTCIRCUIT_NAME",
+        "ru_name": "Короткое замыкание",
+        "ru_description": "1 электр. урона и случайное отбрасывание (до 3) всем соседям.",
+        "ru_upgraded_description": "2 электр. урона и случайное отбрасывание (до 10) всем соседям.",
+        "en_name": "Short Circuit",
+        "en_description": "Deal 1 electric damage with a random amount of knockback (up to 3) to all adjacent units.",
+        "en_upgraded_description": "Deal 2 electric damage with a random amount of knockback (up to 10) to all adjacent units."
+      },
       "manifest": {
         "ability_id": "ShortCircuit",
         "display_name": "Short Circuit",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "Shoot electric bolts at up to 3 random enemies or robots.Upgraded: Shoot electric bolts at up to 5 random enemies or robots.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPARKS_NAME",
+        "ru_name": "Искры",
+        "ru_description": "Выстрелите током в 3 случайных врагов или роботов.",
+        "ru_upgraded_description": "Выстрелите током в 5 случайных врагов или роботов.",
+        "en_name": "Sparks",
+        "en_description": "Shoot electric bolts at up to 3 random enemies or robots.",
+        "en_upgraded_description": "Shoot electric bolts at up to 5 random enemies or robots."
+      },
       "manifest": {
         "ability_id": "Sparks",
         "display_name": "Sparks",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns. (This spell's mana cost can't be modified.) Upgraded: Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns. This spell absorbs the mana you spend casting other spells. (This spell's mana cost can't be modified.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPLITTHEATOM_NAME",
+        "ru_name": "Расщепление атома",
+        "ru_description": "50 урона и Горение 10 ВСЕМ врагам. Ману можно платить частями несколько ходов.\n[s:.7](Цена маны фиксирована.)[/s]",
+        "ru_upgraded_description": "50 урона и Горение 10 ВСЕМ врагам. Платите частями.\nПоглощает ману, потраченную на другие заклинания.\n[s:.7](Цена маны фиксирована.)[/s]",
+        "en_name": "Split the Atom",
+        "en_description": "Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns.\n[s:.7](This spell's mana cost can't be modified.)[/s]",
+        "en_upgraded_description": "Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns.\nThis spell absorbs the mana you spend casting other spells.\n[s:.7](This spell's mana cost can't be modified.)[/s]"
+      },
       "manifest": {
         "ability_id": "BatteryNuke",
         "display_name": "Split the Atom",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Shoot an explosive homing missile at a random enemy. This spell has a 75% chance to be disabled on each turn.Upgraded: Shoot an explosive homing missile at a random enemy. This spell has a 66% chance to be disabled on each turn. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_UNRELIABLEMISSILE_NAME",
+        "ru_name": "Ненадежная ракетница",
+        "ru_description": "Самонаводящаяся ракета в случайного врага. Шанс 75% отказа каждый ход.",
+        "ru_upgraded_description": "Самонаводящаяся ракета в случайного врага. Шанс 66% отказа каждый ход.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Unreliable Missile Launcher",
+        "en_description": "Shoot an explosive homing missile at a random enemy. This spell has a 75% chance to be disabled on each turn.",
+        "en_upgraded_description": "Shoot an explosive homing missile at a random enemy. This spell has a 66% chance to be disabled on each turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "UnreliableMissile",
         "display_name": "Unreliable Missile Launcher",
@@ -346,6 +472,15 @@
       "variant": "upgraded",
       "description": "Shoot an explosive homing missile at a random enemy. This spell has a 75% chance to be disabled on each turn.Upgraded: Shoot an explosive homing missile at a random enemy. This spell has a 66% chance to be disabled on each turn. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_UNRELIABLEMISSILE_NAME",
+        "ru_name": "Ненадежная ракетница",
+        "ru_description": "Самонаводящаяся ракета в случайного врага. Шанс 75% отказа каждый ход.",
+        "ru_upgraded_description": "Самонаводящаяся ракета в случайного врага. Шанс 66% отказа каждый ход.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Unreliable Missile Launcher",
+        "en_description": "Shoot an explosive homing missile at a random enemy. This spell has a 75% chance to be disabled on each turn.",
+        "en_upgraded_description": "Shoot an explosive homing missile at a random enemy. This spell has a 66% chance to be disabled on each turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "UnreliableMissile",
         "display_name": "Unreliable Missile Launcher",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them.Upgraded: Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them with a 50% chance to inflict Stun.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_VOLTTACKLE_NAME",
+        "ru_name": "Вольт-удар",
+        "ru_description": "Телепорт к любому проводнику тока. Смещает и бьет током того, на кого прыгнули.",
+        "ru_upgraded_description": "Телепорт к проводнику. Смещает и бьет током (50% шанс Оглушения) того, на кого прыгнули.",
+        "en_name": "Volt Tackle",
+        "en_description": "Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them.",
+        "en_upgraded_description": "Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them with a 50% chance to inflict Stun."
+      },
       "manifest": {
         "ability_id": "VoltTackle",
         "display_name": "Volt Tackle",

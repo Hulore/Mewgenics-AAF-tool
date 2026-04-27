@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "A ranged attack that deals damage equal to half your Constitution, rounded up.Upgraded: A ranged attack that deals damage equal to half your Constitution, rounded up. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BARFBALL_NAME",
+        "ru_name": "Рвотный шар",
+        "ru_description": "Дальняя атака, наносящая урон, равный половине вашей [img:con], округленной вверх.",
+        "ru_upgraded_description": "Дальняя атака, наносящая урон, равный половине вашей [img:con], округленной вверх.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Barf Ball",
+        "en_description": "A ranged attack that deals damage equal to half your [img:con], rounded up.",
+        "en_upgraded_description": "A ranged attack that deals damage equal to half your [img:con], rounded up.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "BarfBall",
         "display_name": "Barf Ball",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "A ranged attack that deals damage equal to half your Constitution, rounded up.Upgraded: A ranged attack that deals damage equal to half your Constitution, rounded up. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BARFBALL_NAME",
+        "ru_name": "Рвотный шар",
+        "ru_description": "Дальняя атака, наносящая урон, равный половине вашей [img:con], округленной вверх.",
+        "ru_upgraded_description": "Дальняя атака, наносящая урон, равный половине вашей [img:con], округленной вверх.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Barf Ball",
+        "en_description": "A ranged attack that deals damage equal to half your [img:con], rounded up.",
+        "en_upgraded_description": "A ranged attack that deals damage equal to half your [img:con], rounded up.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "BarfBall",
         "display_name": "Barf Ball",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Fire the machine guns!",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MECHSUITBARRAGE_NAME",
+        "ru_name": "Шквал",
+        "ru_description": "Огонь из пулеметов!",
+        "ru_upgraded_description": "",
+        "en_name": "Barrage",
+        "en_description": "Fire the machine guns!",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "MechSuitBarrage",
         "display_name": "Barrage",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Heal another unit by 1 HP at infinite range.Upgraded: Heal another unit by 2 HP at infinite range.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_BLOWKISS_NAME",
+        "ru_name": "Воздушный поцелуй",
+        "ru_description": "Исцелите другого юнита на 1 ОЗ на бесконечном расстоянии.",
+        "ru_upgraded_description": "Исцелите другого юнита на 2 ОЗ на бесконечном расстоянии.",
+        "en_name": "Blow Kiss",
+        "en_description": "Heal another unit by 1 HP at infinite range.",
+        "en_upgraded_description": "Heal another unit by 2 HP at infinite range."
+      },
       "manifest": {
         "ability_id": "BlowKiss",
         "display_name": "Blow Kiss",
@@ -106,6 +142,15 @@
       "variant": "upgraded",
       "description": "Heal another unit by 1 HP at infinite range.Upgraded: Heal another unit by 2 HP at infinite range.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_BLOWKISS_NAME",
+        "ru_name": "Воздушный поцелуй",
+        "ru_description": "Исцелите другого юнита на 1 ОЗ на бесконечном расстоянии.",
+        "ru_upgraded_description": "Исцелите другого юнита на 2 ОЗ на бесконечном расстоянии.",
+        "en_name": "Blow Kiss",
+        "en_description": "Heal another unit by 1 HP at infinite range.",
+        "en_upgraded_description": "Heal another unit by 2 HP at infinite range."
+      },
       "manifest": {
         "ability_id": "BlowKiss",
         "display_name": "Blow Kiss",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "A spell that deals 0 damage. Increase this spell's damage by 2 at the end of each turn. (Castable once per battle.) Upgraded: A spell that deals 0 damage. Increase this spell's damage by 3 at the end of each turn. (Castable once per battle.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BURGEONINGBLAST_NAME",
+        "ru_name": "Растущий взрыв",
+        "ru_description": "Заклинание, наносящее {v0} урона. Увеличивает урон этого заклинания на 2 в конце каждого хода.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "ru_upgraded_description": "Заклинание, наносящее {v0} урона. Увеличивает урон этого заклинания на 3 в конце каждого хода.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "en_name": "Burgeoning Blast",
+        "en_description": "A spell that deals {v0} damage. Increase this spell's damage by 2 at the end of each turn.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "A spell that deals {v0} damage. Increase this spell's damage by 3 at the end of each turn.\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "BurgeoningBlast",
         "display_name": "Burgeoning Blast",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Fire a magical blast. (Castable once per battle.) Upgraded: Fire a magical blast. (This spell costs 0 mana. Castable once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BURST_NAME",
+        "ru_name": "Вспышка",
+        "ru_description": "Выстрелите магическим зарядом.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "ru_upgraded_description": "Выстрелите магическим зарядом.\n[s:.7](Это заклинание стоит 0 маны. Можно использовать раз за битву.)[/s]",
+        "en_name": "Burst",
+        "en_description": "Fire a magical blast.\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Fire a magical blast.\r\n[s:.7](This spell costs 0 mana. Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "Burst",
         "display_name": "Burst",
@@ -178,6 +241,15 @@
       "variant": "upgraded",
       "description": "Fire a magical blast. (Castable once per battle.) Upgraded: Fire a magical blast. (This spell costs 0 mana. Castable once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BURST_NAME",
+        "ru_name": "Вспышка",
+        "ru_description": "Выстрелите магическим зарядом.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "ru_upgraded_description": "Выстрелите магическим зарядом.\n[s:.7](Это заклинание стоит 0 маны. Можно использовать раз за битву.)[/s]",
+        "en_name": "Burst",
+        "en_description": "Fire a magical blast.\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Fire a magical blast.\r\n[s:.7](This spell costs 0 mana. Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "Burst",
         "display_name": "Burst",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Deal 1 ice damage and inflict Slow 1 at infinite range.Upgraded: Deal 1 ice damage and inflict Slow 1 at infinite range. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COLDSHOULDER_NAME",
+        "ru_name": "Холодный прием",
+        "ru_description": "Нанесите 1 урон льдом и наложите Замедление 1 на бесконечном расстоянии.",
+        "ru_upgraded_description": "Нанесите 1 урон льдом и наложите Замедление 1 на бесконечном расстоянии.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Cold Shoulder",
+        "en_description": "Deal 1 ice damage and inflict Slow 1 at infinite range.",
+        "en_upgraded_description": "Deal 1 ice damage and inflict Slow 1 at infinite range.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ColdShoulder",
         "display_name": "Cold Shoulder",
@@ -226,6 +307,15 @@
       "variant": "upgraded",
       "description": "Deal 1 ice damage and inflict Slow 1 at infinite range.Upgraded: Deal 1 ice damage and inflict Slow 1 at infinite range. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COLDSHOULDER_NAME",
+        "ru_name": "Холодный прием",
+        "ru_description": "Нанесите 1 урон льдом и наложите Замедление 1 на бесконечном расстоянии.",
+        "ru_upgraded_description": "Нанесите 1 урон льдом и наложите Замедление 1 на бесконечном расстоянии.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Cold Shoulder",
+        "en_description": "Deal 1 ice damage and inflict Slow 1 at infinite range.",
+        "en_upgraded_description": "Deal 1 ice damage and inflict Slow 1 at infinite range.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ColdShoulder",
         "display_name": "Cold Shoulder",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Revive an adjacent body to 1 HP.Upgraded: Revive an adjacent body to 5 HP. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CPR_NAME",
+        "ru_name": "СЛР",
+        "ru_description": "Воскресите соседнее тело с 1 ОЗ.",
+        "ru_upgraded_description": "Воскресите соседнее тело с 5 ОЗ.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "CPR",
+        "en_description": "Revive an adjacent body to 1 HP.",
+        "en_upgraded_description": "Revive an adjacent body to 5 HP.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CPR",
         "display_name": "CPR",
@@ -274,6 +373,15 @@
       "variant": "upgraded",
       "description": "Revive an adjacent body to 1 HP.Upgraded: Revive an adjacent body to 5 HP. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CPR_NAME",
+        "ru_name": "СЛР",
+        "ru_description": "Воскресите соседнее тело с 1 ОЗ.",
+        "ru_upgraded_description": "Воскресите соседнее тело с 5 ОЗ.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "CPR",
+        "en_description": "Revive an adjacent body to 1 HP.",
+        "en_upgraded_description": "Revive an adjacent body to 5 HP.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CPR",
         "display_name": "CPR",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Throw a nail that ignores shield.Upgraded: Throw a stronger nail that ignores shield. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DART_NAME",
+        "ru_name": "Дротик",
+        "ru_description": "Бросьте гвоздь, игнорирующий щит.",
+        "ru_upgraded_description": "Бросьте усиленный гвоздь, игнорирующий щит.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Dart",
+        "en_description": "Throw a nail that ignores shield.",
+        "en_upgraded_description": "Throw a stronger nail that ignores shield.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Dart",
         "display_name": "Dart",
@@ -322,6 +439,15 @@
       "variant": "upgraded",
       "description": "Throw a nail that ignores shield.Upgraded: Throw a stronger nail that ignores shield. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DART_NAME",
+        "ru_name": "Дротик",
+        "ru_description": "Бросьте гвоздь, игнорирующий щит.",
+        "ru_upgraded_description": "Бросьте усиленный гвоздь, игнорирующий щит.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Dart",
+        "en_description": "Throw a nail that ignores shield.",
+        "en_upgraded_description": "Throw a stronger nail that ignores shield.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Dart",
         "display_name": "Dart",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "A melee attack that deals damage equal to half your Dexterity, rounded up.Upgraded: A melee attack that deals damage equal to half your Dexterity, rounded up. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DEXTEROUSHIT_NAME",
+        "ru_name": "Ловкий удар",
+        "ru_description": "Атака ближнего боя, наносящая урон, равный половине вашей [img:dex], округленной вверх.",
+        "ru_upgraded_description": "Атака ближнего боя, наносящая урон, равный половине вашей [img:dex], округленной вверх.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Dexterous Hit",
+        "en_description": "A melee attack that deals damage equal to half your [img:dex], rounded up.",
+        "en_upgraded_description": "A melee attack that deals damage equal to half your [img:dex], rounded up.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DexterousHit",
         "display_name": "Dexterous Hit",
@@ -370,6 +505,15 @@
       "variant": "upgraded",
       "description": "A melee attack that deals damage equal to half your Dexterity, rounded up.Upgraded: A melee attack that deals damage equal to half your Dexterity, rounded up. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DEXTEROUSHIT_NAME",
+        "ru_name": "Ловкий удар",
+        "ru_description": "Атака ближнего боя, наносящая урон, равный половине вашей [img:dex], округленной вверх.",
+        "ru_upgraded_description": "Атака ближнего боя, наносящая урон, равный половине вашей [img:dex], округленной вверх.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Dexterous Hit",
+        "en_description": "A melee attack that deals damage equal to half your [img:dex], rounded up.",
+        "en_upgraded_description": "A melee attack that deals damage equal to half your [img:dex], rounded up.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DexterousHit",
         "display_name": "Dexterous Hit",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Launch yourself out of the mech. Deal damage to units you land on and yourself.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MECHSUITEJECT_NAME",
+        "ru_name": "Катапультирование!",
+        "ru_description": "Выстрелите собой из меха. Урон вам и тому, на кого упадете.",
+        "ru_upgraded_description": "",
+        "en_name": "Eject!",
+        "en_description": "Launch yourself out of the mech. Deal damage to units you land on and yourself.",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "MechSuitEject",
         "display_name": "Eject!",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Damage, Inflict Poison 4 and Knock Up nearby units. There will be permanent consequences for casting this spell… (Castable once per turn.) Upgraded: Damage, Inflict Poison 6 and Knock Up nearby units in a larger area. There will be permanent consequences for casting this spell… (Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORRBIDDENFART_NAME",
+        "ru_name": "Запретный Пердеж",
+        "ru_description": "Наносит урон, Яд 4 и Подбрасывает в воздух ближайших юнитов.\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Наносит урон, Яд 6 и Подбрасывает в воздух ближайших юнитов, в большей области.\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Forbidden Fart",
+        "en_description": "Damage, Inflict Poison 4 and Knock Up nearby units.\nThere will be permanent consequences for casting this spell…\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Damage, Inflict Poison 6 and Knock Up nearby units in a larger area.\nThere will be permanent consequences for casting this spell…\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "ForbiddenFart",
         "display_name": "Forbidden Fart",
@@ -442,6 +604,15 @@
       "variant": "upgraded",
       "description": "Damage, Inflict Poison 4 and Knock Up nearby units. There will be permanent consequences for casting this spell… (Castable once per turn.) Upgraded: Damage, Inflict Poison 6 and Knock Up nearby units in a larger area. There will be permanent consequences for casting this spell… (Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORRBIDDENFART_NAME",
+        "ru_name": "Запретный Пердеж",
+        "ru_description": "Наносит урон, Яд 4 и Подбрасывает в воздух ближайших юнитов.\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Наносит урон, Яд 6 и Подбрасывает в воздух ближайших юнитов, в большей области.\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Forbidden Fart",
+        "en_description": "Damage, Inflict Poison 4 and Knock Up nearby units.\nThere will be permanent consequences for casting this spell…\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Damage, Inflict Poison 6 and Knock Up nearby units in a larger area.\nThere will be permanent consequences for casting this spell…\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "ForbiddenFart",
         "display_name": "Forbidden Fart",
@@ -466,6 +637,15 @@
       "variant": "upgraded",
       "description": "Remove all of the debuffs on yourself or an adjacent unit.Upgraded: Remove all of the debuffs and heal a little HP to yourself or an adjacent unit.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_GROOM_NAME",
+        "ru_name": "Вылизывание",
+        "ru_description": "Снимите все ослабления с себя или соседнего юнита.",
+        "ru_upgraded_description": "Снимите все ослабления и восстановите немного ОЗ себе или соседнему юниту.",
+        "en_name": "Groom",
+        "en_description": "Remove all of the debuffs on yourself or an adjacent unit.",
+        "en_upgraded_description": "Remove all of the debuffs and heal a little HP to yourself or an adjacent unit."
+      },
       "manifest": {
         "ability_id": "Groom",
         "display_name": "Groom",
@@ -490,6 +670,15 @@
       "variant": "normal",
       "description": "A lightning bolt that heals and has a chance to Stun.Upgraded: A lightning bolt that heals allies and has a chance to Stun enemies.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_HEALINGBOLT_NAME",
+        "ru_name": "Целительный разряд",
+        "ru_description": "Молния, которая лечит и имеет шанс Оглушить.",
+        "ru_upgraded_description": "Молния, которая лечит союзников и имеет шанс Оглушить врагов.",
+        "en_name": "Healing Bolt",
+        "en_description": "A lightning bolt that heals and has a chance to Stun.",
+        "en_upgraded_description": "A lightning bolt that heals allies and has a chance to Stun enemies."
+      },
       "manifest": {
         "ability_id": "HealBolt",
         "display_name": "Healing Bolt",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "A ranged attack that turns anything it kills into meat.Upgraded: A stronger ranged attack that turns anything it kills into meat.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HUNT_NAME",
+        "ru_name": "Охота",
+        "ru_description": "Дальняя атака, превращающая убитого в мясо.",
+        "ru_upgraded_description": "Усиленная дальняя атака, превращающая убитого в мясо.",
+        "en_name": "Hunt",
+        "en_description": "A ranged attack that turns anything it kills into meat.",
+        "en_upgraded_description": "A stronger ranged attack that turns anything it kills into meat."
+      },
       "manifest": {
         "ability_id": "Hunt",
         "display_name": "Hunt",
@@ -538,6 +736,15 @@
       "variant": "upgraded",
       "description": "A ranged attack that turns anything it kills into meat.Upgraded: A stronger ranged attack that turns anything it kills into meat.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HUNT_NAME",
+        "ru_name": "Охота",
+        "ru_description": "Дальняя атака, превращающая убитого в мясо.",
+        "ru_upgraded_description": "Усиленная дальняя атака, превращающая убитого в мясо.",
+        "en_name": "Hunt",
+        "en_description": "A ranged attack that turns anything it kills into meat.",
+        "en_upgraded_description": "A stronger ranged attack that turns anything it kills into meat."
+      },
       "manifest": {
         "ability_id": "Hunt",
         "display_name": "Hunt",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Deal 1 damage to yourself. 50% chance to spawn a friendly flea.Upgraded: Deal 1 damage to yourself. Spawn a friendly flea.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ITCH_NAME",
+        "ru_name": "Зуд",
+        "ru_description": "Нанесите 1 урон себе. 50% шанс призвать дружественную блоху.",
+        "ru_upgraded_description": "Нанесите 1 урон себе. Призовите дружественную блоху.",
+        "en_name": "Itch",
+        "en_description": "Deal 1 damage to yourself. 50% chance to spawn a friendly flea.",
+        "en_upgraded_description": "Deal 1 damage to yourself. Spawn a friendly flea."
+      },
       "manifest": {
         "ability_id": "Itch",
         "display_name": "Itch",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Heal an adjacent unit by 2 HP.Upgraded: Heal an adjacent unit by 2 HP. Healed enemies gain Confusion 3.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_LICK_NAME",
+        "ru_name": "Лизь",
+        "ru_description": "Исцелите соседнего юнита на 2 ОЗ.",
+        "ru_upgraded_description": "Исцелите соседнего юнита на 2 ОЗ. Исцеленные враги получают Замешательство 3.",
+        "en_name": "Lick",
+        "en_description": "Heal an adjacent unit by 2 HP.",
+        "en_upgraded_description": "Heal an adjacent unit by 2 HP. Healed enemies gain Confusion 3."
+      },
       "manifest": {
         "ability_id": "LickHeal",
         "display_name": "Lick",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Pull a unit towards you.Upgraded: Pull a unit towards you. Deal 1 damage and inflict 1 Bleed on them.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MINIHOOK_NAME",
+        "ru_name": "Мини-крюк",
+        "ru_description": "Притяните юнита к себе.",
+        "ru_upgraded_description": "Притяните юнита к себе. Нанесите 1 урон и наложите 1 Кровотечение.",
+        "en_name": "Minihook",
+        "en_description": "Pull a unit towards you.",
+        "en_upgraded_description": "Pull a unit towards you. Deal 1 damage and inflict 1 Bleed on them."
+      },
       "manifest": {
         "ability_id": "MiniHook",
         "display_name": "Minihook",
@@ -634,6 +868,15 @@
       "variant": "upgraded",
       "description": "Pull a unit towards you.Upgraded: Pull a unit towards you. Deal 1 damage and inflict 1 Bleed on them.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MINIHOOK_NAME",
+        "ru_name": "Мини-крюк",
+        "ru_description": "Притяните юнита к себе.",
+        "ru_upgraded_description": "Притяните юнита к себе. Нанесите 1 урон и наложите 1 Кровотечение.",
+        "en_name": "Minihook",
+        "en_description": "Pull a unit towards you.",
+        "en_upgraded_description": "Pull a unit towards you. Deal 1 damage and inflict 1 Bleed on them."
+      },
       "manifest": {
         "ability_id": "MiniHook",
         "display_name": "Minihook",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "A lobbed attack that deals 1 damage. If this kills an enemy, this spell becomes a random Hunter spell permanently.Upgraded: Transform this spell into a random upgraded Hunter spell permanently.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHEHUNTER_NAME",
+        "ru_name": "Путь Охотника",
+        "ru_description": "Навесная атака, наносящая 1 урон. Если она убивает врага, это заклинание становится случайным заклинанием Охотника навсегда.",
+        "ru_upgraded_description": "Превратите это заклинание в случайное улучшенное заклинание Охотника навсегда.",
+        "en_name": "Path of the Hunter",
+        "en_description": "A lobbed attack that deals 1 damage. If this kills an enemy, this spell becomes a random Hunter spell permanently.",
+        "en_upgraded_description": "Transform this spell into a random upgraded Hunter spell permanently."
+      },
       "manifest": {
         "ability_id": "PathOfTheHunter",
         "display_name": "Path of the Hunter",
@@ -682,6 +934,15 @@
       "variant": "upgraded",
       "description": "A lobbed attack that deals 1 damage. If this kills an enemy, this spell becomes a random Hunter spell permanently.Upgraded: Transform this spell into a random upgraded Hunter spell permanently.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHEHUNTER_NAME",
+        "ru_name": "Путь Охотника",
+        "ru_description": "Навесная атака, наносящая 1 урон. Если она убивает врага, это заклинание становится случайным заклинанием Охотника навсегда.",
+        "ru_upgraded_description": "Превратите это заклинание в случайное улучшенное заклинание Охотника навсегда.",
+        "en_name": "Path of the Hunter",
+        "en_description": "A lobbed attack that deals 1 damage. If this kills an enemy, this spell becomes a random Hunter spell permanently.",
+        "en_upgraded_description": "Transform this spell into a random upgraded Hunter spell permanently."
+      },
       "manifest": {
         "ability_id": "PathOfTheHunter",
         "display_name": "Path of the Hunter",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "A straight shot attack that deals 1 damage. If this makes a critical hit, this spell becomes a random Thief spell permanently.Upgraded: Transform this spell into a random upgraded Thief spell permanently.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHETHIEF_NAME",
+        "ru_name": "Путь Вора",
+        "ru_description": "Прямой выстрел, наносящий 1 урон. Если выпадает крит, это заклинание становится случайным заклинанием Вора навсегда.",
+        "ru_upgraded_description": "Превратите это заклинание в случайное улучшенное заклинание Вора навсегда.",
+        "en_name": "Path of the Thief",
+        "en_description": "A straight shot attack that deals 1 damage. If this makes a critical hit, this spell becomes a random Thief spell permanently.",
+        "en_upgraded_description": "Transform this spell into a random upgraded Thief spell permanently."
+      },
       "manifest": {
         "ability_id": "PathOfTheThief",
         "display_name": "Path of the Thief",
@@ -730,6 +1000,15 @@
       "variant": "upgraded",
       "description": "A straight shot attack that deals 1 damage. If this makes a critical hit, this spell becomes a random Thief spell permanently.Upgraded: Transform this spell into a random upgraded Thief spell permanently.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHETHIEF_NAME",
+        "ru_name": "Путь Вора",
+        "ru_description": "Прямой выстрел, наносящий 1 урон. Если выпадает крит, это заклинание становится случайным заклинанием Вора навсегда.",
+        "ru_upgraded_description": "Превратите это заклинание в случайное улучшенное заклинание Вора навсегда.",
+        "en_name": "Path of the Thief",
+        "en_description": "A straight shot attack that deals 1 damage. If this makes a critical hit, this spell becomes a random Thief spell permanently.",
+        "en_upgraded_description": "Transform this spell into a random upgraded Thief spell permanently."
+      },
       "manifest": {
         "ability_id": "PathOfTheThief",
         "display_name": "Path of the Thief",
@@ -754,6 +1033,15 @@
       "variant": "upgraded",
       "description": "Remove 1 stack of a random debuff from yourself and all adjacent units.Upgraded: Remove 1 stack of a random debuff from and heal 1 HP to yourself and all adjacent units.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_PURR_NAME",
+        "ru_name": "Мурчание",
+        "ru_description": "Снимите 1 стак случайного ослабления с себя и всех соседних юнитов.",
+        "ru_upgraded_description": "Снимите 1 стак случайного ослабления и восстановите 1 ОЗ себе и всем соседним юнитам.",
+        "en_name": "Purr",
+        "en_description": "Remove 1 stack of a random debuff from yourself and all adjacent units.",
+        "en_upgraded_description": "Remove 1 stack of a random debuff from and heal 1 HP to yourself and all adjacent units."
+      },
       "manifest": {
         "ability_id": "Purr",
         "display_name": "Purr",
@@ -778,6 +1066,15 @@
       "variant": "normal",
       "description": "Deal 1 damage to a random unit. If you kill that unit, take an extra turn.Upgraded: Deal 2 damage to a random unit. If you kill that unit, take an extra turn. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_RATROULETTE_NAME",
+        "ru_name": "Крысиная рулетка",
+        "ru_description": "Нанесите 1 урон случайному юниту. Если вы убьете его, получите дополнительный ход.",
+        "ru_upgraded_description": "Нанесите 2 урона случайному юниту. Если вы убьете его, получите дополнительный ход.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Rat Roulette",
+        "en_description": "Deal 1 damage to a random unit. If you kill that unit, take an extra turn.",
+        "en_upgraded_description": "Deal 2 damage to a random unit. If you kill that unit, take an extra turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "LotteryShottery",
         "display_name": "Rat Roulette",
@@ -802,6 +1099,15 @@
       "variant": "upgraded",
       "description": "Deal 1 damage to a random unit. If you kill that unit, take an extra turn.Upgraded: Deal 2 damage to a random unit. If you kill that unit, take an extra turn. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_RATROULETTE_NAME",
+        "ru_name": "Крысиная рулетка",
+        "ru_description": "Нанесите 1 урон случайному юниту. Если вы убьете его, получите дополнительный ход.",
+        "ru_upgraded_description": "Нанесите 2 урона случайному юниту. Если вы убьете его, получите дополнительный ход.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Rat Roulette",
+        "en_description": "Deal 1 damage to a random unit. If you kill that unit, take an extra turn.",
+        "en_upgraded_description": "Deal 2 damage to a random unit. If you kill that unit, take an extra turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "LotteryShottery",
         "display_name": "Rat Roulette",
@@ -826,6 +1132,15 @@
       "variant": "normal",
       "description": "Heal some HP, then fall asleep.Upgraded: Heal a lot of HP, then fall asleep.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_REST_NAME",
+        "ru_name": "Отдых",
+        "ru_description": "Восстановите немного ОЗ, затем засните.",
+        "ru_upgraded_description": "Восстановите много ОЗ, затем засните.",
+        "en_name": "Rest",
+        "en_description": "Heal some HP, then fall asleep.",
+        "en_upgraded_description": "Heal a lot of HP, then fall asleep."
+      },
       "manifest": {
         "ability_id": "Rest",
         "display_name": "Rest",
@@ -850,6 +1165,15 @@
       "variant": "upgraded",
       "description": "Heal some HP, then fall asleep.Upgraded: Heal a lot of HP, then fall asleep.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_REST_NAME",
+        "ru_name": "Отдых",
+        "ru_description": "Восстановите немного ОЗ, затем засните.",
+        "ru_upgraded_description": "Восстановите много ОЗ, затем засните.",
+        "en_name": "Rest",
+        "en_description": "Heal some HP, then fall asleep.",
+        "en_upgraded_description": "Heal a lot of HP, then fall asleep."
+      },
       "manifest": {
         "ability_id": "Rest",
         "display_name": "Rest",
@@ -874,6 +1198,15 @@
       "variant": "normal",
       "description": "Heal yourself HP equal to half your Strength, rounded up.Upgraded: Heal yourself HP equal to half your Strength, rounded up. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SHRUGITOFF_NAME",
+        "ru_name": "Не обращай внимания",
+        "ru_description": "Исцелите себя на количество ОЗ, равное половине вашей [img:str], округленной вверх.",
+        "ru_upgraded_description": "Исцелите себя на количество ОЗ, равное половине вашей [img:str], округленной вверх.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Shrug It Off",
+        "en_description": "Heal yourself HP equal to half your [img:str], rounded up.",
+        "en_upgraded_description": "Heal yourself HP equal to half your [img:str], rounded up.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ScuffItOff",
         "display_name": "Shrug It Off",
@@ -898,6 +1231,15 @@
       "variant": "upgraded",
       "description": "Heal yourself HP equal to half your Strength, rounded up.Upgraded: Heal yourself HP equal to half your Strength, rounded up. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SHRUGITOFF_NAME",
+        "ru_name": "Не обращай внимания",
+        "ru_description": "Исцелите себя на количество ОЗ, равное половине вашей [img:str], округленной вверх.",
+        "ru_upgraded_description": "Исцелите себя на количество ОЗ, равное половине вашей [img:str], округленной вверх.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Shrug It Off",
+        "en_description": "Heal yourself HP equal to half your [img:str], rounded up.",
+        "en_upgraded_description": "Heal yourself HP equal to half your [img:str], rounded up.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ScuffItOff",
         "display_name": "Shrug It Off",
@@ -922,6 +1264,15 @@
       "variant": "normal",
       "description": "A weak melee attack.Upgraded: A weak melee attack with a chance to repeat.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SMACK_NAME",
+        "ru_name": "Шлепок",
+        "ru_description": "Слабая атака ближнего боя.",
+        "ru_upgraded_description": "Слабая атака ближнего боя с шансом повтора.",
+        "en_name": "Smack",
+        "en_description": "A weak melee attack.",
+        "en_upgraded_description": "A weak melee attack with a chance to repeat."
+      },
       "manifest": {
         "ability_id": "Smack",
         "display_name": "Smack",
@@ -946,6 +1297,15 @@
       "variant": "normal",
       "description": "Heal yourself or another unit within four tiles 1 HP.Upgraded: Heal yourself or another unit 1 HP. 50% chance to also give +1 Constitution.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SNACK_NAME",
+        "ru_name": "Вкусняшка",
+        "ru_description": "Исцелите себя или другого юнита в радиусе четырех клеток на 1 ОЗ.",
+        "ru_upgraded_description": "Исцелите себя или другого юнита на 1 ОЗ. 50% шанс также дать +1 [img:con].",
+        "en_name": "Snacks",
+        "en_description": "Heal yourself or another unit within four tiles 1 HP.",
+        "en_upgraded_description": "Heal yourself or another unit 1 HP. 50% chance to also give +1 [img:con]."
+      },
       "manifest": {
         "ability_id": "Snacks",
         "display_name": "Snacks",
@@ -970,6 +1330,15 @@
       "variant": "normal",
       "description": "Heal yourself 1.Upgraded: Heal yourself 1 and gain +1 to a random stat.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SOOTHINGGLOW_NAME",
+        "ru_name": "Успокаивающее сияние",
+        "ru_description": "Исцелите себя на 1.",
+        "ru_upgraded_description": "Исцелите себя на 1 и получите +1 к случайной характеристике.",
+        "en_name": "Soothing Glow",
+        "en_description": "Heal yourself 1.",
+        "en_upgraded_description": "Heal yourself 1 and gain +1 to a random stat."
+      },
       "manifest": {
         "ability_id": "SoothingGlow",
         "display_name": "Soothing Glow",
@@ -994,6 +1363,15 @@
       "variant": "normal",
       "description": "Deal 1 damage to a unit within five tiles. If this kills it, gain 5 mana.Upgraded: Deal 1 damage to any unit. If this kills it, gain 5 mana.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SOULREAP_NAME",
+        "ru_name": "Жатва душ",
+        "ru_description": "Нанесите 1 урон юниту в радиусе пяти клеток. Если это убьет его, получите 5 маны.",
+        "ru_upgraded_description": "Нанесите 1 урон любому юниту. Если это убьет его, получите 5 маны.",
+        "en_name": "Soul Reap",
+        "en_description": "Deal 1 damage to a unit within five tiles. If this kills it, gain 5 mana.",
+        "en_upgraded_description": "Deal 1 damage to any unit. If this kills it, gain 5 mana."
+      },
       "manifest": {
         "ability_id": "SoulReap",
         "display_name": "Soul Reap",
@@ -1018,6 +1396,15 @@
       "variant": "normal",
       "description": "Spit attack with infinite range that deals 1 damage.Upgraded: Spit attack with infinite range that deals 2 damage in an area.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPIT_NAME",
+        "ru_name": "Плевок",
+        "ru_description": "Плевок с бесконечной дальностью, наносящий 1 урон.",
+        "ru_upgraded_description": "Плевок с бесконечной дальностью, наносящий 2 урона по области.",
+        "en_name": "Spit",
+        "en_description": "Spit attack with infinite range that deals 1 damage.",
+        "en_upgraded_description": "Spit attack with infinite range that deals 2 damage in an area."
+      },
       "manifest": {
         "ability_id": "Spit",
         "display_name": "Spit",
@@ -1042,6 +1429,15 @@
       "variant": "upgraded",
       "description": "Spit attack with infinite range that deals 1 damage.Upgraded: Spit attack with infinite range that deals 2 damage in an area.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPIT_NAME",
+        "ru_name": "Плевок",
+        "ru_description": "Плевок с бесконечной дальностью, наносящий 1 урон.",
+        "ru_upgraded_description": "Плевок с бесконечной дальностью, наносящий 2 урона по области.",
+        "en_name": "Spit",
+        "en_description": "Spit attack with infinite range that deals 1 damage.",
+        "en_upgraded_description": "Spit attack with infinite range that deals 2 damage in an area."
+      },
       "manifest": {
         "ability_id": "Spit",
         "display_name": "Spit",
@@ -1066,6 +1462,15 @@
       "variant": "normal",
       "description": "Deal damage to any unit. This has a 25% chance to inflict Fear. Castable while downed.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPOOK_NAME",
+        "ru_name": "Испуг",
+        "ru_description": "Урон любому юниту. 25% шанс наложить Страх.\n[s:.7]Можно использовать, пока вы вырублены.[/s]",
+        "ru_upgraded_description": "",
+        "en_name": "Spook",
+        "en_description": "Deal damage to any unit. This has a 25% chance to inflict Fear.\n[s:.7]Castable while downed.[/s]",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "Spook",
         "display_name": "Spook",
@@ -1090,6 +1495,15 @@
       "variant": "normal",
       "description": "Trample over 1 tile.Upgraded: Trample over 3 tiles.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STEAMROLLER_NAME",
+        "ru_name": "Паровой каток",
+        "ru_description": "Растопчите врага, проходя через 1 клетку.",
+        "ru_upgraded_description": "Растопчите врагов, проходя через 3 клетки.",
+        "en_name": "Steam Roller",
+        "en_description": "Trample over 1 tile.",
+        "en_upgraded_description": "Trample over 3 tiles."
+      },
       "manifest": {
         "ability_id": "PushMove",
         "display_name": "Steam Roller",
@@ -1114,6 +1528,15 @@
       "variant": "normal",
       "description": "Chuck a rock at a unit, inflicting Stun on that unit. (Castable once per battle.) Upgraded: Chuck a rock at a unit, inflicting Stun on that unit. (This spell costs 0 mana. Castable once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUPPRESS_NAME",
+        "ru_name": "Оглушение",
+        "ru_description": "Швырните камень в юнита, накладывая Оглушение.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "ru_upgraded_description": "Швырните камень в юнита, накладывая Оглушение.\n[s:.7](Это заклинание стоит 0 маны. Можно использовать раз за битву.)[/s]",
+        "en_name": "Stun",
+        "en_description": "Chuck a rock at a unit, inflicting Stun on that unit.\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Chuck a rock at a unit, inflicting Stun on that unit.\r\n[s:.7](This spell costs 0 mana. Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "Suppress",
         "display_name": "Stun",
@@ -1138,6 +1561,15 @@
       "variant": "upgraded",
       "description": "Chuck a rock at a unit, inflicting Stun on that unit. (Castable once per battle.) Upgraded: Chuck a rock at a unit, inflicting Stun on that unit. (This spell costs 0 mana. Castable once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUPPRESS_NAME",
+        "ru_name": "Оглушение",
+        "ru_description": "Швырните камень в юнита, накладывая Оглушение.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "ru_upgraded_description": "Швырните камень в юнита, накладывая Оглушение.\n[s:.7](Это заклинание стоит 0 маны. Можно использовать раз за битву.)[/s]",
+        "en_name": "Stun",
+        "en_description": "Chuck a rock at a unit, inflicting Stun on that unit.\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Chuck a rock at a unit, inflicting Stun on that unit.\r\n[s:.7](This spell costs 0 mana. Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "Suppress",
         "display_name": "Stun",
@@ -1162,6 +1594,15 @@
       "variant": "normal",
       "description": "Throw your weapon at a unit. The weapon breaks. (Castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FIGHTERTHROW_NAME",
+        "ru_name": "Бросок оружия",
+        "ru_description": "Бросьте свое оружие в юнита. Оружие ломается.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "",
+        "en_name": "Throw Weapon",
+        "en_description": "Throw your weapon at a unit. The weapon breaks.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "FighterBonusThrow",
         "display_name": "Throw Weapon",
@@ -1186,6 +1627,15 @@
       "variant": "normal",
       "description": "Dash forward and light fires in your path.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MECHDASH_NAME",
+        "ru_name": "Двигатели",
+        "ru_description": "Рывок вперед, поджигающий путь.",
+        "ru_upgraded_description": "",
+        "en_name": "Thrusters",
+        "en_description": "Dash forward and light fires in your path.",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "MechSuitDash",
         "display_name": "Thrusters",
@@ -1210,6 +1660,15 @@
       "variant": "normal",
       "description": "Explode the nuke and mass damage everything.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "",
+        "ru_name": "",
+        "ru_description": "",
+        "ru_upgraded_description": "",
+        "en_name": "",
+        "en_description": "",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "",
         "display_name": "",
@@ -1234,6 +1693,15 @@
       "variant": "normal",
       "description": "Spend 5 coins, heal 10 HP. (Castable once per turn.) Upgraded: Spend 5 coins, heal 15 HP. (Castable once per turn.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_VETVISIT_NAME",
+        "ru_name": "К ветеринару",
+        "ru_description": "Потратьте 5 монет, восстановите 10 ОЗ.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Потратьте 5 монет, восстановите 15 ОЗ.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Vet Visit",
+        "en_description": "Spend 5 coins, heal 10 HP.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Spend 5 coins, heal 15 HP.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "VetVisit",
         "display_name": "Vet Visit",
@@ -1258,6 +1726,15 @@
       "variant": "upgraded",
       "description": "Spend 5 coins, heal 10 HP. (Castable once per turn.) Upgraded: Spend 5 coins, heal 15 HP. (Castable once per turn.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_VETVISIT_NAME",
+        "ru_name": "К ветеринару",
+        "ru_description": "Потратьте 5 монет, восстановите 10 ОЗ.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Потратьте 5 монет, восстановите 15 ОЗ.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Vet Visit",
+        "en_description": "Spend 5 coins, heal 10 HP.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Spend 5 coins, heal 15 HP.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "VetVisit",
         "display_name": "Vet Visit",
@@ -1282,6 +1759,15 @@
       "variant": "normal",
       "description": "Shoot a wet hairball that deals damage in an area.Upgraded: Shoot a wet hairball that deals more damage in an area.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_WETHAIRBALL_NAME",
+        "ru_name": "Мокрый Комок Шерсти",
+        "ru_description": "Выплюньте мокрый комок, наносящий урон по области.",
+        "ru_upgraded_description": "Выплюньте мокрый комок, наносящий больше урона по области.",
+        "en_name": "Wet Hairball",
+        "en_description": "Shoot a wet hairball that deals damage in an area.",
+        "en_upgraded_description": "Shoot a wet hairball that deals more damage in an area."
+      },
       "manifest": {
         "ability_id": "WetHairball",
         "display_name": "Wet Hairball",
@@ -1306,6 +1792,15 @@
       "variant": "upgraded",
       "description": "Shoot a wet hairball that deals damage in an area.Upgraded: Shoot a wet hairball that deals more damage in an area.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_WETHAIRBALL_NAME",
+        "ru_name": "Мокрый Комок Шерсти",
+        "ru_description": "Выплюньте мокрый комок, наносящий урон по области.",
+        "ru_upgraded_description": "Выплюньте мокрый комок, наносящий больше урона по области.",
+        "en_name": "Wet Hairball",
+        "en_description": "Shoot a wet hairball that deals damage in an area.",
+        "en_upgraded_description": "Shoot a wet hairball that deals more damage in an area."
+      },
       "manifest": {
         "ability_id": "WetHairball",
         "display_name": "Wet Hairball",
@@ -1330,6 +1825,15 @@
       "variant": "normal",
       "description": "Deal 1 electric damage at infinite range.Upgraded: Deal 1 electric damage with a 25% chance to Stun at infinite range.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ZAP_NAME",
+        "ru_name": "Разряд",
+        "ru_description": "Нанесите 1 урон электричеством на бесконечном расстоянии.",
+        "ru_upgraded_description": "Нанесите 1 урон электричеством с 25% шансом Оглушить на бесконечном расстоянии.",
+        "en_name": "Zap",
+        "en_description": "Deal 1 electric damage at infinite range.",
+        "en_upgraded_description": "Deal 1 electric damage with a 25% chance to Stun at infinite range."
+      },
       "manifest": {
         "ability_id": "Zap",
         "display_name": "Zap",

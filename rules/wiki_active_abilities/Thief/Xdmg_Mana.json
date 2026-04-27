@@ -10,6 +10,15 @@
       "variant": "upgraded",
       "description": "Throw a nail that knocks coins out of units it hits and ignores shield.Upgraded: Throw 2 nails that knock coins out of units they hit and ignore shield.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CUTPURSE_NAME",
+        "ru_name": "Карманник",
+        "ru_description": "Бросьте гвоздь, выбивающий монеты и игнорирующий щит.",
+        "ru_upgraded_description": "Бросьте 2 гвоздя, выбивающих монеты и игнорирующих щит.",
+        "en_name": "Cut Purse",
+        "en_description": "Throw a nail that knocks coins out of units it hits and ignores shield.",
+        "en_upgraded_description": "Throw 2 nails that knock coins out of units they hit and ignore shield."
+      },
       "manifest": {
         "ability_id": "CutPurse",
         "display_name": "Cut Purse",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "A melee attack that inflicts -1 Damage and Bleed.Upgraded: A 2-hit melee attack that inflicts -1 Damage and Bleed.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DECLAW_NAME",
+        "ru_name": "Удаление когтей",
+        "ru_description": "Ближняя атака: -1 Урон и Кровотечение.",
+        "ru_upgraded_description": "Ближняя атака (2 удара): -1 Урон и Кровотечение.",
+        "en_name": "Declaw",
+        "en_description": "A melee attack that inflicts -1 Damage and Bleed.",
+        "en_upgraded_description": "A 2-hit melee attack that inflicts -1 Damage and Bleed."
+      },
       "manifest": {
         "ability_id": "Dclaude_Declaw",
         "display_name": "Declaw",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Throw 10 1-damage nails that ignore shield.Upgraded: Throw 10 1-damage nails that ignore shield. Throw extra nails equal to your Dexterity.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_NAILFLURRY_NAME",
+        "ru_name": "Вихрь гвоздей",
+        "ru_description": "Бросьте 10 гвоздей по 1 урону (игнор щита).",
+        "ru_upgraded_description": "Бросьте 10 гвоздей. Бросьте доп. гвозди в кол-ве вашей [img:dex].",
+        "en_name": "Nail Flurry",
+        "en_description": "Throw 10 1-damage nails that ignore shield.",
+        "en_upgraded_description": "Throw 10 1-damage nails that ignore shield. Throw extra nails equal to your [img:dex]."
+      },
       "manifest": {
         "ability_id": "NailFlurry",
         "display_name": "Nail Flurry",
@@ -82,6 +109,15 @@
       "variant": "upgraded",
       "description": "Throw a nail that inflicts Poison and ignores shield.Upgraded: Throw 2 nails that inflict Poison and ignore shield.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_POISONNAIL_NAME",
+        "ru_name": "Ядовитый гвоздь",
+        "ru_description": "Бросьте гвоздь: Яд, игнор щита.",
+        "ru_upgraded_description": "Бросьте 2 гвоздя: Яд, игнор щита.",
+        "en_name": "Poison Nail",
+        "en_description": "Throw a nail that inflicts Poison and ignores shield.",
+        "en_upgraded_description": "Throw 2 nails that inflict Poison and ignore shield."
+      },
       "manifest": {
         "ability_id": "PoisonNail",
         "display_name": "Poison Nail",
@@ -106,6 +142,15 @@
       "variant": "upgraded",
       "description": "Throw a nail that inflicts Bleed and ignores shield.Upgraded: Throw 2 nails that inflict Bleed and ignore shield.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHARPNAIL_NAME",
+        "ru_name": "Острый гвоздь",
+        "ru_description": "Бросьте гвоздь: Кровотечение, игнор щита.",
+        "ru_upgraded_description": "Бросьте 2 гвоздя: Кровотечение, игнор щита.",
+        "en_name": "Sharp Nail",
+        "en_description": "Throw a nail that inflicts Bleed and ignores shield.",
+        "en_upgraded_description": "Throw 2 nails that inflict Bleed and ignore shield."
+      },
       "manifest": {
         "ability_id": "SharpNail",
         "display_name": "Sharp Nail",
@@ -130,6 +175,15 @@
       "variant": "upgraded",
       "description": "Throw 3 nails straight and diagonally in front of you. These nails have the effects of your basic attack and ignore shield.Upgraded: Throw 3 nails straight and diagonally in front of you 2 times. These nails have the effects of your basic attack and ignore shield.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TRIPLENAILS_NAME",
+        "ru_name": "Тройные гвозди",
+        "ru_description": "Бросьте 3 гвоздя (прямо и по диагонали). Эффекты базовой атаки + игнор щита.",
+        "ru_upgraded_description": "Бросьте 3 гвоздя ДВА РАЗА. Эффекты базовой атаки + игнор щита.",
+        "en_name": "Triple Nails",
+        "en_description": "Throw 3 nails straight and diagonally in front of you. These nails have the effects of your basic attack and ignore shield.",
+        "en_upgraded_description": "Throw 3 nails straight and diagonally in front of you 2 times. These nails have the effects of your basic attack and ignore shield."
+      },
       "manifest": {
         "ability_id": "TripleNails",
         "display_name": "Triple Nails",
@@ -154,6 +208,15 @@
       "variant": "upgraded",
       "description": "Throw a nail that inflicts Poison 1 and ignores shield at each enemy in your line of sight.Upgraded: Throw 2 nails that inflict Poison 1 and ignore shield at each enemy in your line of sight.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_VENOMBARRAGE_NAME",
+        "ru_name": "Ядовитый шквал",
+        "ru_description": "Бросьте гвоздь (Яд 1, игнор щита) в КАЖДОГО видимого врага.",
+        "ru_upgraded_description": "Бросьте 2 гвоздя (Яд 1, игнор щита) в КАЖДОГО видимого врага.",
+        "en_name": "Venom Barrage",
+        "en_description": "Throw a nail that inflicts Poison 1 and ignores shield at each enemy in your line of sight. ",
+        "en_upgraded_description": "Throw 2 nails that inflict Poison 1 and ignore shield at each enemy in your line of sight. "
+      },
       "manifest": {
         "ability_id": "VenomBarrage",
         "display_name": "Venom Barrage",
@@ -178,6 +241,15 @@
       "variant": "upgraded",
       "description": "Throw a nail that inflicts Weakness and ignores shield.Upgraded: Throw 2 nails that inflict Weakness and ignore shield.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WEAKENINGNAIL_NAME",
+        "ru_name": "Ослабляющий гвоздь",
+        "ru_description": "Бросьте гвоздь: Слабость, игнор щита.",
+        "ru_upgraded_description": "Бросьте 2 гвоздя: Слабость, игнор щита.",
+        "en_name": "Weakening Nail",
+        "en_description": "Throw a nail that inflicts Weakness and ignores shield.",
+        "en_upgraded_description": "Throw 2 nails that inflict Weakness and ignore shield."
+      },
       "manifest": {
         "ability_id": "WeakeningNail",
         "display_name": "Weakening Nail",

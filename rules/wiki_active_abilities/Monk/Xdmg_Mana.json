@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo.Upgraded: A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo. Each hit has a 10% chance to inflict Bruise. The final hit deals extra damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_100HANDSLAP_NAME",
+        "ru_name": "Пощечина Ста Рук",
+        "ru_description": "Ближняя атака из десяти ударов с Отбрасыванием 10 в конце.",
+        "ru_upgraded_description": "Ближняя атака из десяти ударов. Каждый удар имеет 10% шанс Ушиба. Последний удар наносит доп. урон.",
+        "en_name": "Hundred Hand Slap",
+        "en_description": "A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo.",
+        "en_upgraded_description": "A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo. Each hit has a 10% chance to inflict Bruise. The final hit deals extra damage."
+      },
       "manifest": {
         "ability_id": "HundredHandSlap",
         "display_name": "Hundred Hand Slap",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "Dash forward one tile and attack.Upgraded: Dash forward one tile and attack, twice!",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PROPELL_NAME",
+        "ru_name": "Толчок",
+        "ru_description": "Рывок на 1 клетку вперед и атака.",
+        "ru_upgraded_description": "Рывок на 1 клетку вперед и атака (дважды!).",
+        "en_name": "Propel",
+        "en_description": "Dash forward one tile and attack.",
+        "en_upgraded_description": "Dash forward one tile and attack, twice!"
+      },
       "manifest": {
         "ability_id": "Propell",
         "display_name": "Propel",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "A weak melee attack that hits an extra time for each empty armor slot you have.Upgraded: A weak melee attack that hits two extra times for each empty armor slot you have.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_UNBRIDLEDHITS_NAME",
+        "ru_name": "Неудержимые удары",
+        "ru_description": "Слабая ближняя атака, которая бьет дополнительный раз за каждый пустой слот брони.",
+        "ru_upgraded_description": "Слабая ближняя атака, которая бьет ДВА дополнительных раза за каждый пустой слот брони.",
+        "en_name": "Unbridled Hits",
+        "en_description": "A weak melee attack that hits an extra time for each empty armor slot you have.",
+        "en_upgraded_description": "A weak melee attack that hits two extra times for each empty armor slot you have."
+      },
       "manifest": {
         "ability_id": "UnbridledHits",
         "display_name": "Unbridled Hits",
@@ -82,6 +109,15 @@
       "variant": "upgraded",
       "description": "A weak melee attack that hits an extra time for each empty armor slot you have.Upgraded: A weak melee attack that hits two extra times for each empty armor slot you have.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_UNBRIDLEDHITS_NAME",
+        "ru_name": "Неудержимые удары",
+        "ru_description": "Слабая ближняя атака, которая бьет дополнительный раз за каждый пустой слот брони.",
+        "ru_upgraded_description": "Слабая ближняя атака, которая бьет ДВА дополнительных раза за каждый пустой слот брони.",
+        "en_name": "Unbridled Hits",
+        "en_description": "A weak melee attack that hits an extra time for each empty armor slot you have.",
+        "en_upgraded_description": "A weak melee attack that hits two extra times for each empty armor slot you have."
+      },
       "manifest": {
         "ability_id": "UnbridledHits",
         "display_name": "Unbridled Hits",

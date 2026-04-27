@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import re
 import sys
@@ -67,6 +68,53 @@ def parse_attributes(attributes: str) -> dict:
     return data
 
 
+def read_translations(path: Path | None) -> dict[str, dict[str, str]]:
+    if not path or not path.exists():
+        return {}
+
+    translations: dict[str, dict[str, str]] = {}
+    with path.open(encoding="utf-8-sig", newline="") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            key = row.get("+", "")
+            if not key:
+                continue
+            translations[key] = {
+                "en": row.get("en", ""),
+                "ru": row.get("ru", ""),
+            }
+    return translations
+
+
+def translation_block(manifest_row: dict[str, str] | None, translations: dict[str, dict[str, str]]) -> dict:
+    text_key = manifest_row.get("text_key", "") if manifest_row else ""
+    if not text_key.endswith("_NAME"):
+        return {
+            "text_key": text_key,
+            "ru_name": "",
+            "ru_description": "",
+            "ru_upgraded_description": "",
+            "en_name": "",
+            "en_description": "",
+            "en_upgraded_description": "",
+        }
+
+    base_key = text_key[:-5]
+    name_row = translations.get(f"{base_key}_NAME", {})
+    desc_row = translations.get(f"{base_key}_DESC", {})
+    desc2_row = translations.get(f"{base_key}2_DESC", {})
+
+    return {
+        "text_key": text_key,
+        "ru_name": name_row.get("ru", ""),
+        "ru_description": desc_row.get("ru", ""),
+        "ru_upgraded_description": desc2_row.get("ru", ""),
+        "en_name": name_row.get("en", ""),
+        "en_description": desc_row.get("en", ""),
+        "en_upgraded_description": desc2_row.get("en", ""),
+    }
+
+
 def build_rule_entry(wiki_ability, manifest_row: dict[str, str] | None) -> dict:
     normal_attrs, upgraded_attrs = split_normal_upgraded(wiki_ability.attributes)
     kind = value_kind(wiki_ability.description)
@@ -93,9 +141,10 @@ def build_rule_entry(wiki_ability, manifest_row: dict[str, str] | None) -> dict:
     }
 
 
-def build_rules(wiki_url: str, manifest_path: Path, output_dir: Path) -> dict:
+def build_rules(wiki_url: str, manifest_path: Path, output_dir: Path, translations_path: Path | None) -> dict:
     wiki_abilities = parse_wiki_abilities(fetch_wiki_html(wiki_url))
     manifest = read_manifest(manifest_path)
+    translations = read_translations(translations_path)
 
     grouped: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
     index = {
@@ -119,6 +168,7 @@ def build_rules(wiki_url: str, manifest_path: Path, output_dir: Path) -> dict:
                     "variant": variant_name,
                     "description": entry["description"],
                     "value_kind": entry["value_kind"],
+                    "translation": translation_block(manifest_row, translations),
                     "manifest": entry["manifest"],
                     "numbers": variant_data,
                 }
@@ -166,9 +216,10 @@ def main() -> None:
     parser.add_argument("--wiki-url", default=WIKI_URL)
     parser.add_argument("--manifest", type=Path, default=Path("output") / "active_manifest.csv")
     parser.add_argument("--output-dir", type=Path, default=Path("rules") / "wiki_active_abilities")
+    parser.add_argument("--translations", type=Path, default=Path(r"H:\YouTube\Download\combined.csv"))
     args = parser.parse_args()
 
-    index = build_rules(args.wiki_url, args.manifest.resolve(), args.output_dir.resolve())
+    index = build_rules(args.wiki_url, args.manifest.resolve(), args.output_dir.resolve(), args.translations.resolve())
     print(f"output={args.output_dir.resolve()}")
     print(f"classes={len(index['classes'])}")
     print(f"lookup_entries={len(index['ability_lookup'])}")

@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Throw a spider egg that spawns 3 spiderlings on impact.Upgraded: Throw a stronger spider egg that spawns 3 spiderlings on impact.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BALLOFSPIDERS_NAME",
+        "ru_name": "Клубок пауков",
+        "ru_description": "Бросьте яйцо паука, рождающее 3 паучков при ударе.",
+        "ru_upgraded_description": "Бросьте усиленное яйцо паука, рождающее 3 паучков при ударе.",
+        "en_name": "Ball of Spiders",
+        "en_description": "Throw a spider egg that spawns 3 spiderlings on impact.",
+        "en_upgraded_description": "Throw a stronger spider egg that spawns 3 spiderlings on impact."
+      },
       "manifest": {
         "ability_id": "BallOfSpiders",
         "display_name": "Ball of Spiders",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "Throw a spider egg that spawns 3 spiderlings on impact.Upgraded: Throw a stronger spider egg that spawns 3 spiderlings on impact.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BALLOFSPIDERS_NAME",
+        "ru_name": "Клубок пауков",
+        "ru_description": "Бросьте яйцо паука, рождающее 3 паучков при ударе.",
+        "ru_upgraded_description": "Бросьте усиленное яйцо паука, рождающее 3 паучков при ударе.",
+        "en_name": "Ball of Spiders",
+        "en_description": "Throw a spider egg that spawns 3 spiderlings on impact.",
+        "en_upgraded_description": "Throw a stronger spider egg that spawns 3 spiderlings on impact."
+      },
       "manifest": {
         "ability_id": "BallOfSpiders",
         "display_name": "Ball of Spiders",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Toss a bomb that explodes and knocks units away.Upgraded: Toss a large bomb that explodes and knocks units away.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BOMBSHOT_NAME",
+        "ru_name": "Бум выстрел",
+        "ru_description": "Бросьте бомбу",
+        "ru_upgraded_description": "Бросьте большую бомбу",
+        "en_name": "Bomb Shot",
+        "en_description": "Toss a bomb that explodes and knocks units away.",
+        "en_upgraded_description": "Toss a large bomb that explodes and knocks units away."
+      },
       "manifest": {
         "ability_id": "BombShot",
         "display_name": "Bomb Shot",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Fire a shot that spawns brambles in an area.Upgraded: Fire a shot that spawns brambles in a large area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BRAMBLESHOT_NAME",
+        "ru_name": "Тернистый выстрел",
+        "ru_description": "Выстрел, создающий терновник в области.",
+        "ru_upgraded_description": "Выстрел, создающий терновник в большой области.",
+        "en_name": "Bramble Shot",
+        "en_description": "Fire a shot that spawns brambles in an area.",
+        "en_upgraded_description": "Fire a shot that spawns brambles in a large area."
+      },
       "manifest": {
         "ability_id": "BrambleShot",
         "display_name": "Bramble Shot",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Shoot a random unit within range.Upgraded: Shoot a random unit within range, twice!",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHAOSSHOT_NAME",
+        "ru_name": "Хаос-выстрел",
+        "ru_description": "Выстрелите в случайного юнита в радиусе.",
+        "ru_upgraded_description": "Выстрелите в случайного юнита в радиусе, дважды!",
+        "en_name": "Chaos Shot",
+        "en_description": "Shoot a random unit within range.",
+        "en_upgraded_description": "Shoot a random unit within range, twice!"
+      },
       "manifest": {
         "ability_id": "ChaosShot",
         "display_name": "Chaos Shot",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Spawn a trap that deals damage and inflicts Charm 1.Upgraded: Spawn a trap that deals damage and inflicts Charm 1. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHARMTRAP_NAME",
+        "ru_name": "Ловушка очарования",
+        "ru_description": "Поставьте ловушку: урон и Очарование 1.",
+        "ru_upgraded_description": "Поставьте ловушку: урон и Очарование 1.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Charm Trap",
+        "en_description": "Spawn a trap that deals damage and inflicts Charm 1.",
+        "en_upgraded_description": "Spawn a trap that deals damage and inflicts Charm 1.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CharmTrap",
         "display_name": "Charm Trap",
@@ -154,6 +208,15 @@
       "variant": "upgraded",
       "description": "Spawn a trap that deals damage and inflicts Charm 1.Upgraded: Spawn a trap that deals damage and inflicts Charm 1. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHARMTRAP_NAME",
+        "ru_name": "Ловушка очарования",
+        "ru_description": "Поставьте ловушку: урон и Очарование 1.",
+        "ru_upgraded_description": "Поставьте ловушку: урон и Очарование 1.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Charm Trap",
+        "en_description": "Spawn a trap that deals damage and inflicts Charm 1.",
+        "en_upgraded_description": "Spawn a trap that deals damage and inflicts Charm 1.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CharmTrap",
         "display_name": "Charm Trap",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Shoot four projectiles in an X shape.Upgraded: Shoot four penetrating projectiles in an X shape.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CROSSSHOT_NAME",
+        "ru_name": "Перекрестный выстрел",
+        "ru_description": "4 снаряда Х-образно.",
+        "ru_upgraded_description": "4 пробивающих снаряда Х-образно.",
+        "en_name": "Cross Shot",
+        "en_description": "Shoot four projectiles in an X shape.",
+        "en_upgraded_description": "Shoot four penetrating projectiles in an X shape."
+      },
       "manifest": {
         "ability_id": "CrossShot",
         "display_name": "Cross Shot",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "A shot that damages and inflicts Charm.Upgraded: A shot that damages and inflicts Charm 2. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CUPIDSARROW_NAME",
+        "ru_name": "Стрела Купидона",
+        "ru_description": "Выстрел, наносящий урон и накладывающий Очарование.",
+        "ru_upgraded_description": "Выстрел, наносящий урон и накладывающий Очарование 2.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Cupid's Arrow",
+        "en_description": "A shot that damages and inflicts Charm.",
+        "en_upgraded_description": "A shot that damages and inflicts Charm 2.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CupidsArrow",
         "display_name": "Cupid's Arrow",
@@ -226,6 +307,15 @@
       "variant": "upgraded",
       "description": "A shot that damages and inflicts Charm.Upgraded: A shot that damages and inflicts Charm 2. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CUPIDSARROW_NAME",
+        "ru_name": "Стрела Купидона",
+        "ru_description": "Выстрел, наносящий урон и накладывающий Очарование.",
+        "ru_upgraded_description": "Выстрел, наносящий урон и накладывающий Очарование 2.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Cupid's Arrow",
+        "en_description": "A shot that damages and inflicts Charm.",
+        "en_upgraded_description": "A shot that damages and inflicts Charm 2.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CupidsArrow",
         "display_name": "Cupid's Arrow",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Shoot a pebble. All enemies within 3 tiles move toward it.Upgraded: Shoot a pebble. All enemies within 3 tiles move toward it and gain Confusion.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DIVERSION_NAME",
+        "ru_name": "Отвлекающий маневр",
+        "ru_description": "Бросьте камешек. Все враги в радиусе 3 идут к нему.",
+        "ru_upgraded_description": "Бросьте камешек. Все враги в радиусе 3 идут к нему и получают Замешательство.",
+        "en_name": "Diversion",
+        "en_description": "Shoot a pebble. All enemies within 3 tiles move toward it.",
+        "en_upgraded_description": "Shoot a pebble. All enemies within 3 tiles move toward it and gain Confusion."
+      },
       "manifest": {
         "ability_id": "Diversion",
         "display_name": "Diversion",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "Spawn a spider egg trap that inflicts Infested 4.Upgraded: Spawn a spider egg trap that deals damage and inflicts Infested 4.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_EGGSACTRAP_NAME",
+        "ru_name": "Ловушка-кладка",
+        "ru_description": "Создайте ловушку-яйцо (Заражение 4).",
+        "ru_upgraded_description": "Создайте ловушку-яйцо (урон и Заражение 4).",
+        "en_name": "Egg Sac Trap",
+        "en_description": "Spawn a spider egg trap that inflicts Infested 4.",
+        "en_upgraded_description": "Spawn a spider egg trap that deals damage and inflicts Infested 4."
+      },
       "manifest": {
         "ability_id": "SpiderInjector",
         "display_name": "Egg Sac Trap",
@@ -298,6 +406,15 @@
       "variant": "upgraded",
       "description": "Spawn a spider egg trap that inflicts Infested 4.Upgraded: Spawn a spider egg trap that deals damage and inflicts Infested 4.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_EGGSACTRAP_NAME",
+        "ru_name": "Ловушка-кладка",
+        "ru_description": "Создайте ловушку-яйцо (Заражение 4).",
+        "ru_upgraded_description": "Создайте ловушку-яйцо (урон и Заражение 4).",
+        "en_name": "Egg Sac Trap",
+        "en_description": "Spawn a spider egg trap that inflicts Infested 4.",
+        "en_upgraded_description": "Spawn a spider egg trap that deals damage and inflicts Infested 4."
+      },
       "manifest": {
         "ability_id": "SpiderInjector",
         "display_name": "Egg Sac Trap",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Shoot a projectile that inflicts Burn 2 and lights fires.Upgraded: Shoot a projectile with infinite range that inflicts Burn 4 and lights fires.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FIRESHOT_NAME",
+        "ru_name": "Огненный выстрел",
+        "ru_description": "Выстрел: Горение 2 и создание огня.",
+        "ru_upgraded_description": "Выстрел (беск. дальность): Горение 4 и создание огня.",
+        "en_name": "Fire Shot",
+        "en_description": "Shoot a projectile that inflicts Burn 2 and lights fires.",
+        "en_upgraded_description": "Shoot a projectile with infinite range that inflicts Burn 4 and lights fires."
+      },
       "manifest": {
         "ability_id": "FireShot",
         "display_name": "Fire Shot",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Shoot a flea at a unit.Upgraded: Shoot a flea at a unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FLEASHOT_NAME",
+        "ru_name": "Блошиный выстрел",
+        "ru_description": "Выстрелите блохой в юнита.",
+        "ru_upgraded_description": "Выстрелите [img:champion] блохой в юнита.",
+        "en_name": "Flea Shot",
+        "en_description": "Shoot a flea at a unit.",
+        "en_upgraded_description": "Shoot a [img:champion] flea at a unit."
+      },
       "manifest": {
         "ability_id": "FleaShot",
         "display_name": "Flea Shot",
@@ -370,6 +505,15 @@
       "variant": "upgraded",
       "description": "Shoot a flea at a unit.Upgraded: Shoot a flea at a unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FLEASHOT_NAME",
+        "ru_name": "Блошиный выстрел",
+        "ru_description": "Выстрелите блохой в юнита.",
+        "ru_upgraded_description": "Выстрелите [img:champion] блохой в юнита.",
+        "en_name": "Flea Shot",
+        "en_description": "Shoot a flea at a unit.",
+        "en_upgraded_description": "Shoot a [img:champion] flea at a unit."
+      },
       "manifest": {
         "ability_id": "FleaShot",
         "display_name": "Flea Shot",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Aim at a unit. On your next turn, shoot a projectile that always crits and ignores shield at that unit.Upgraded: Shoot a projectile that always crits and ignores shield.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FOCUSSHOT_NAME",
+        "ru_name": "Фокус-выстрел",
+        "ru_description": "Прицельтесь. В след. ходу: выстрел со 100% критом и игнором щита.",
+        "ru_upgraded_description": "Выстрелите со 100% критом и игнором щита (сразу).",
+        "en_name": "Focus Shot",
+        "en_description": "Aim at a unit. On your next turn, shoot a projectile that always crits and ignores shield at that unit.",
+        "en_upgraded_description": "Shoot a projectile that always crits and ignores shield."
+      },
       "manifest": {
         "ability_id": "FocusShot",
         "display_name": "Focus Shot",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "An attack that hits all units in a perpendicular line.Upgraded: An attack that hits and Immobilizes all units in a perpendicular line.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HAILOFNAILS_NAME",
+        "ru_name": "Град гвоздей",
+        "ru_description": "Атака по всем юнитам на перпендикулярной линии.",
+        "ru_upgraded_description": "Атака и Обездвиживание всех юнитов на перпендикулярной линии.",
+        "en_name": "Hail of Nails",
+        "en_description": "An attack that hits all units in a perpendicular line.",
+        "en_upgraded_description": "An attack that hits and Immobilizes all units in a perpendicular line."
+      },
       "manifest": {
         "ability_id": "HailOfNails",
         "display_name": "Hail of Nails",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Shoot a high damage shot with a 70% chance to miss.Upgraded: Shoot a high damage shot with a 70% chance to miss and a 50% chance to crit. (This spell has increased range.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HEAVYSHOT_NAME",
+        "ru_name": "Тяжелый выстрел",
+        "ru_description": "Мощный выстрел с 70% шансом промаха.",
+        "ru_upgraded_description": "Мощный выстрел с 70% шансом промаха и 50% шансом крита.\n[s:.7](У этого заклинания повышенная дальность.)[/s]",
+        "en_name": "Heavy Shot",
+        "en_description": "Shoot a high damage shot with a 70% chance to miss.",
+        "en_upgraded_description": "Shoot a high damage shot with a 70% chance to miss and a 50% chance to crit.\n[s:.7](This spell has increased range.)[/s]"
+      },
       "manifest": {
         "ability_id": "HeavyShot",
         "display_name": "Heavy Shot",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Toss a spider egg that deals low damage and inflicts Infested.Upgraded: Toss a spider egg that deals low damage and inflicts Infested 2.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_INFEST_NAME",
+        "ru_name": "Инвазия",
+        "ru_description": "Бросьте яйцо паука: малый урон и Заражение.",
+        "ru_upgraded_description": "Бросьте яйцо паука: малый урон и Заражение 2.",
+        "en_name": "Infest",
+        "en_description": "Toss a spider egg that deals low damage and inflicts Infested.",
+        "en_upgraded_description": "Toss a spider egg that deals low damage and inflicts Infested 2."
+      },
       "manifest": {
         "ability_id": "Infest",
         "display_name": "Infest",
@@ -490,6 +670,15 @@
       "variant": "normal",
       "description": "Deal 1 damage to a unit. If this kills it, refresh your basic attack.Upgraded: Deal 1 damage to a unit. If this kills it, refresh your basic attack. This ignores shield and can't miss. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_LASTHIT_NAME",
+        "ru_name": "Ластхит",
+        "ru_description": "Нанесите 1 урон. При убийстве: обновите базовую атаку.",
+        "ru_upgraded_description": "Нанесите 1 урон. При убийстве: обновите базовую атаку. Игнорирует щит, не мажет.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Last Hit",
+        "en_description": "Deal 1 damage to a unit. If this kills it, refresh your basic attack.",
+        "en_upgraded_description": "Deal 1 damage to a unit. If this kills it, refresh your basic attack. This ignores shield and can't miss.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "LastHit",
         "display_name": "Last Hit",
@@ -514,6 +703,15 @@
       "variant": "upgraded",
       "description": "Deal 1 damage to a unit. If this kills it, refresh your basic attack.Upgraded: Deal 1 damage to a unit. If this kills it, refresh your basic attack. This ignores shield and can't miss. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_LASTHIT_NAME",
+        "ru_name": "Ластхит",
+        "ru_description": "Нанесите 1 урон. При убийстве: обновите базовую атаку.",
+        "ru_upgraded_description": "Нанесите 1 урон. При убийстве: обновите базовую атаку. Игнорирует щит, не мажет.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Last Hit",
+        "en_description": "Deal 1 damage to a unit. If this kills it, refresh your basic attack.",
+        "en_upgraded_description": "Deal 1 damage to a unit. If this kills it, refresh your basic attack. This ignores shield and can't miss.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "LastHit",
         "display_name": "Last Hit",
@@ -538,6 +736,15 @@
       "variant": "normal",
       "description": "An attack that hits all units in a straight line.Upgraded: A stronger attack that hits all units in a straight line.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_LINESHOT_NAME",
+        "ru_name": "Линейный выстрел",
+        "ru_description": "Атака по всем юнитам на линии.",
+        "ru_upgraded_description": "Усиленная атака по всем юнитам на линии.",
+        "en_name": "Line Shot",
+        "en_description": "An attack that hits all units in a straight line.",
+        "en_upgraded_description": "A stronger attack that hits all units in a straight line."
+      },
       "manifest": {
         "ability_id": "LineShot",
         "display_name": "Line Shot",
@@ -562,6 +769,15 @@
       "variant": "upgraded",
       "description": "An attack that hits all units in a straight line.Upgraded: A stronger attack that hits all units in a straight line.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_LINESHOT_NAME",
+        "ru_name": "Линейный выстрел",
+        "ru_description": "Атака по всем юнитам на линии.",
+        "ru_upgraded_description": "Усиленная атака по всем юнитам на линии.",
+        "en_name": "Line Shot",
+        "en_description": "An attack that hits all units in a straight line.",
+        "en_upgraded_description": "A stronger attack that hits all units in a straight line."
+      },
       "manifest": {
         "ability_id": "LineShot",
         "display_name": "Line Shot",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Shoot a needle that deals damage, gives Thorns, and ignores shield.Upgraded: Shoot a needle that deals damage, gives Thorns, and ignores shield. This deals extra damage to enemies and gives extra Thorns to allies.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_NEEDLESHOT_NAME",
+        "ru_name": "Игольный выстрел",
+        "ru_description": "Выстрел иглой: урон, дает Шипы, игнорирует щит.",
+        "ru_upgraded_description": "Выстрел иглой: урон, дает Шипы, игнорирует щит. Врагам больнее, союзникам больше Шипов.",
+        "en_name": "Needle Shot",
+        "en_description": "Shoot a needle that deals damage, gives Thorns, and ignores shield.",
+        "en_upgraded_description": "Shoot a needle that deals damage, gives Thorns, and ignores shield. This deals extra damage to enemies and gives extra Thorns to allies."
+      },
       "manifest": {
         "ability_id": "NeedleShot",
         "display_name": "Needle Shot",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "You and adjacent units each heal 5 HP.Upgraded: You and adjacent units each heal 5 HP and gain +1 Damage.",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_PICNIC_NAME",
+        "ru_name": "Пикник",
+        "ru_description": "Вы и соседи лечите по 5 ОЗ.",
+        "ru_upgraded_description": "Вы и соседи лечите по 5 ОЗ и получаете +1 Урон.",
+        "en_name": "Picnic",
+        "en_description": "You and adjacent units each heal 5 HP.",
+        "en_upgraded_description": "You and adjacent units each heal 5 HP and gain +1 Damage."
+      },
       "manifest": {
         "ability_id": "Picnic",
         "display_name": "Picnic",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Fire a bunch of shots randomly in an area.Upgraded: Fire a bunch of shots randomly in a large area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SCATTERSHOT_NAME",
+        "ru_name": "Выстрел врассыпную",
+        "ru_description": "Куча выстрелов случайно по области.",
+        "ru_upgraded_description": "Куча выстрелов случайно по большой области.",
+        "en_name": "Scatter Shot",
+        "en_description": "Fire a bunch of shots randomly in an area.",
+        "en_upgraded_description": "Fire a bunch of shots randomly in a large area."
+      },
       "manifest": {
         "ability_id": "ScatterShot",
         "display_name": "Scatter Shot",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "Shoot a projectile that spawns glass.Upgraded: Shoot a projectile that spawns glass in an area and inflicts Bleed 2.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHARDS_NAME",
+        "ru_name": "Осколки",
+        "ru_description": "Выстрел, создающий стекло.",
+        "ru_upgraded_description": "Выстрел, создающий стекло в области и накладывающий Кровотечение 2.",
+        "en_name": "Shards",
+        "en_description": "Shoot a projectile that spawns glass.",
+        "en_upgraded_description": "Shoot a projectile that spawns glass in an area and inflicts Bleed 2."
+      },
       "manifest": {
         "ability_id": "Shards",
         "display_name": "Shards",
@@ -682,6 +934,15 @@
       "variant": "upgraded",
       "description": "Shoot a projectile that spawns glass.Upgraded: Shoot a projectile that spawns glass in an area and inflicts Bleed 2.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHARDS_NAME",
+        "ru_name": "Осколки",
+        "ru_description": "Выстрел, создающий стекло.",
+        "ru_upgraded_description": "Выстрел, создающий стекло в области и накладывающий Кровотечение 2.",
+        "en_name": "Shards",
+        "en_description": "Shoot a projectile that spawns glass.",
+        "en_upgraded_description": "Shoot a projectile that spawns glass in an area and inflicts Bleed 2."
+      },
       "manifest": {
         "ability_id": "Shards",
         "display_name": "Shards",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 Constitution and heal 2 HP.Upgraded: Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 Constitution and heal 2 HP. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SLOPTHEPIGS_NAME",
+        "ru_name": "Помои свиньям",
+        "ru_description": "Фамильяры в зоне: Повышение Всех Хар-к и +4 ОЗ. Остальные: +1 [img:con] и +2 ОЗ.",
+        "ru_upgraded_description": "Фамильяры в зоне: Повышение Всех Хар-к и +4 ОЗ. Остальные: +1 [img:con] и +2 ОЗ.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Slop the Pigs",
+        "en_description": "Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 [img:con] and heal 2 HP.",
+        "en_upgraded_description": "Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 [img:con] and heal 2 HP.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SlopThePigs",
         "display_name": "Slop the Pigs",
@@ -730,6 +1000,15 @@
       "variant": "upgraded",
       "description": "Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 Constitution and heal 2 HP.Upgraded: Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 Constitution and heal 2 HP. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SLOPTHEPIGS_NAME",
+        "ru_name": "Помои свиньям",
+        "ru_description": "Фамильяры в зоне: Повышение Всех Хар-к и +4 ОЗ. Остальные: +1 [img:con] и +2 ОЗ.",
+        "ru_upgraded_description": "Фамильяры в зоне: Повышение Всех Хар-к и +4 ОЗ. Остальные: +1 [img:con] и +2 ОЗ.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Slop the Pigs",
+        "en_description": "Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 [img:con] and heal 2 HP.",
+        "en_upgraded_description": "Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 [img:con] and heal 2 HP.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SlopThePigs",
         "display_name": "Slop the Pigs",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "Fire a shot exactly 6 tiles away that ignores shield and can't miss.Upgraded: Fire a stronger shot exactly 6 tiles away that ignores shield, can't miss, and has a 50% chance to crit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SNIPE_NAME",
+        "ru_name": "Снайпер",
+        "ru_description": "Выстрел ровно на 6 клеток. Игнорирует щит и не мажет.",
+        "ru_upgraded_description": "Сильный выстрел ровно на 6 клеток. Игнорирует щит, не мажет, 50% шанс крита.",
+        "en_name": "Snipe",
+        "en_description": "Fire a shot exactly 6 tiles away that ignores shield and can't miss.",
+        "en_upgraded_description": "Fire a stronger shot exactly 6 tiles away that ignores shield, can't miss, and has a 50% chance to crit."
+      },
       "manifest": {
         "ability_id": "Snipe",
         "display_name": "Snipe",
@@ -778,6 +1066,15 @@
       "variant": "upgraded",
       "description": "Fire a shot exactly 6 tiles away that ignores shield and can't miss.Upgraded: Fire a stronger shot exactly 6 tiles away that ignores shield, can't miss, and has a 50% chance to crit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SNIPE_NAME",
+        "ru_name": "Снайпер",
+        "ru_description": "Выстрел ровно на 6 клеток. Игнорирует щит и не мажет.",
+        "ru_upgraded_description": "Сильный выстрел ровно на 6 клеток. Игнорирует щит, не мажет, 50% шанс крита.",
+        "en_name": "Snipe",
+        "en_description": "Fire a shot exactly 6 tiles away that ignores shield and can't miss.",
+        "en_upgraded_description": "Fire a stronger shot exactly 6 tiles away that ignores shield, can't miss, and has a 50% chance to crit."
+      },
       "manifest": {
         "ability_id": "Snipe",
         "display_name": "Snipe",
@@ -802,6 +1099,15 @@
       "variant": "normal",
       "description": "A ranged shot that heals and inflicts Charmed 1.Upgraded: A ranged shot that heals and inflicts Charmed 2. Against allies this cleanses debuffs and inflicts Charmed 1 instead.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SOOTHINGSHOT_NAME",
+        "ru_name": "Успокаивающий выстрел",
+        "ru_description": "Выстрел, который лечит и накладывает Очарование 1.",
+        "ru_upgraded_description": "Выстрел, который лечит и накладывает Очарование 2.\nС союзников снимает дебаффы и Очаровывает.",
+        "en_name": "Soothing Shot",
+        "en_description": "A ranged shot that heals and inflicts Charmed 1.",
+        "en_upgraded_description": "A ranged shot that heals and inflicts Charmed 2.\nAgainst allies this cleanses debuffs and inflicts Charmed 1 instead."
+      },
       "manifest": {
         "ability_id": "SoothingShot",
         "display_name": "Soothing Shot",
@@ -826,6 +1132,15 @@
       "variant": "normal",
       "description": "Set a trap that deals 8 damage.Upgraded: Set a trap that deals 13 damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPIKETRAP_NAME",
+        "ru_name": "Шипастая ловушка",
+        "ru_description": "Поставьте ловушку на 8 урона.",
+        "ru_upgraded_description": "Поставьте ловушку на 13 урона.",
+        "en_name": "Spike Trap",
+        "en_description": "Set a trap that deals 8 damage.",
+        "en_upgraded_description": "Set a trap that deals 13 damage."
+      },
       "manifest": {
         "ability_id": "SpikeTrap",
         "display_name": "Spike Trap",
@@ -850,6 +1165,15 @@
       "variant": "upgraded",
       "description": "Set a trap that deals 8 damage.Upgraded: Set a trap that deals 13 damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPIKETRAP_NAME",
+        "ru_name": "Шипастая ловушка",
+        "ru_description": "Поставьте ловушку на 8 урона.",
+        "ru_upgraded_description": "Поставьте ловушку на 13 урона.",
+        "en_name": "Spike Trap",
+        "en_description": "Set a trap that deals 8 damage.",
+        "en_upgraded_description": "Set a trap that deals 13 damage."
+      },
       "manifest": {
         "ability_id": "SpikeTrap",
         "display_name": "Spike Trap",
@@ -874,6 +1198,15 @@
       "variant": "normal",
       "description": "A melee attack that spawns a baited bear trap if it kills a unit or destroys a body.Upgraded: A lobbed attack that spawns a baited bear trap if it kills a unit or destroys a body.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_VIVISECT_NAME",
+        "ru_name": "Вивисекция",
+        "ru_description": "Ближняя атака. При убийстве (или уничтожении тела) создает капкан с приманкой.",
+        "ru_upgraded_description": "Навесная атака. При убийстве (или уничтожении тела) создает капкан с приманкой.",
+        "en_name": "Vivisect",
+        "en_description": "A melee attack that spawns a baited bear trap if it kills a unit or destroys a body.",
+        "en_upgraded_description": "A lobbed attack that spawns a baited bear trap if it kills a unit or destroys a body."
+      },
       "manifest": {
         "ability_id": "Vivisect",
         "display_name": "Vivisect",

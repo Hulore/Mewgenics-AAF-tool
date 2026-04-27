@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Gain +1 . This spell costs 0 mana the first time you cast it each turn.Upgraded: Gain +1 . This spell costs 0 mana the first time you cast it each turn, and after each time you spend mana on another spell.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ANNEAL_NAME",
+        "ru_name": "Закалка",
+        "ru_description": "Получите +1 [img:shield]. Первое применение за ход стоит 0 маны.",
+        "ru_upgraded_description": "Получите +1 [img:shield]. Стоит 0 маны первый раз за ход И каждый раз после траты маны на другое заклинание.",
+        "en_name": "Anneal",
+        "en_description": "Gain +1 [img:shield]. This spell costs 0 mana the first time you cast it each turn.",
+        "en_upgraded_description": "Gain +1 [img:shield]. This spell costs 0 mana the first time you cast it each turn, and after each time you spend mana on another spell."
+      },
       "manifest": {
         "ability_id": "Anneal",
         "display_name": "Anneal",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Your basic attack inflicts Bruise until the end of the turn. (Castable once per turn.) Upgraded: Your basic attack inflicts Bruise until the end of the turn.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BRUISE_NAME",
+        "ru_name": "Ушиб",
+        "ru_description": "Ваша базовая атака накладывает Ушиб до конца хода.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Ваша базовая атака накладывает Ушиб до конца хода.",
+        "en_name": "Bruise",
+        "en_description": "Your basic attack inflicts Bruise until the end of the turn.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Your basic attack inflicts Bruise until the end of the turn."
+      },
       "manifest": {
         "ability_id": "Bruise",
         "display_name": "Bruise",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Roll up to 4 tiles diagonally.Upgraded: Roll up to 4 tiles diagonally or in a straight line.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CARTWHEEL_NAME",
+        "ru_name": "Колесо",
+        "ru_description": "Перекатитесь до 4 клеток по диагонали.",
+        "ru_upgraded_description": "Перекатитесь до 4 клеток по диагонали или по прямой.",
+        "en_name": "Cartwheel",
+        "en_description": "Roll up to 4 tiles diagonally.",
+        "en_upgraded_description": "Roll up to 4 tiles diagonally or in a straight line."
+      },
       "manifest": {
         "ability_id": "Cartwheel",
         "display_name": "Cartwheel",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Until end of turn, your basic attack emits +1 Sparkle.Upgraded: Until end of turn, your basic attack emits +1 Sparkle. Refresh your basic attack.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHARGEFISTS_NAME",
+        "ru_name": "Заряд кулаков",
+        "ru_description": "До конца хода ваша базовая атака испускает +1 Искру.",
+        "ru_upgraded_description": "До конца хода ваша базовая атака испускает +1 Искру.\nОбновите базовую атаку.",
+        "en_name": "Charge Fists",
+        "en_description": "Until end of turn, your basic attack emits +1 Sparkle.",
+        "en_upgraded_description": "Until end of turn, your basic attack emits +1 Sparkle.\nRefresh your basic attack."
+      },
       "manifest": {
         "ability_id": "ChargeFists",
         "display_name": "Charge Fists",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Begin charging a spirit bomb. This ability becomes Throw Spirit Bomb. Allies gain the bonus ability Donate Energy until you throw it.Upgraded: Begin charging a spirit bomb. This ability becomes Throw Spirit Bomb. Allies gain the bonus ability Donate Energy+ until you throw it.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHARGESPIRITBOMB_NAME",
+        "ru_name": "Заряд Бомбы Духа",
+        "ru_description": "Начните заряжать бомбу. Способность меняется на \"Бросок Бомбы Духа\".\nСоюзники получают способность \"Пожертвовать Энергию\".",
+        "ru_upgraded_description": "Начните заряжать бомбу. Способность меняется на \"Бросок Бомбы Духа\".\nСоюзники получают способность \"Пожертвовать Энергию+\".",
+        "en_name": "Charge Spirit Bomb",
+        "en_description": "Begin charging a spirit bomb. This ability becomes Throw Spirit Bomb.\r\nAllies gain the bonus ability Donate Energy until you throw it.",
+        "en_upgraded_description": "Begin charging a spirit bomb. This ability becomes Throw Spirit Bomb.\r\nAllies gain the bonus ability Donate Energy+ until you throw it."
+      },
       "manifest": {
         "ability_id": "SpiritBomb",
         "display_name": "Charge Spirit Bomb",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Become downed. You don't get injured. At the end of the next round, you're revived with 1 HP, 15 , and All Stats Up.Upgraded: Become downed. You don't get injured. At the end of the next round, you're revived with 50% HP, 20 , 2 , and All Stats Up 2.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DEEPDIVE_NAME",
+        "ru_name": "Глубокое погружение",
+        "ru_description": "Вырубитесь. Вы не травмируетесь. В конце след. раунда воскресните с 1 ОЗ, 15 [img:shield] и Повышением Всех Характеристик.",
+        "ru_upgraded_description": "Вырубитесь. Не травмируетесь. Воскресните с 50% ОЗ, 20 [img:shield], 2 [img:divineshield] и Повышением Всех Характеристик 2.",
+        "en_name": "Deep Dive",
+        "en_description": "Become downed. You don't get injured. At the end of the next round, you're revived with 1 HP, 15 [img:shield], and All Stats Up.",
+        "en_upgraded_description": "Become downed. You don't get injured. At the end of the next round, you're revived with 50% HP, 20 [img:shield], 2 [img:divineshield], and All Stats Up 2."
+      },
       "manifest": {
         "ability_id": "DeepDive",
         "display_name": "Deep Dive",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Give +1 damage to the Spirit Bomb!Upgraded: Give +2 damage to the Spirit Bomb!",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DONATEENERGY_NAME",
+        "ru_name": "Пожертвовать Энергию",
+        "ru_description": "Дайте +1 урона Бомбе Духа!",
+        "ru_upgraded_description": "Дайте +2 урона Бомбе Духа!",
+        "en_name": "Donate Energy",
+        "en_description": "Give +1 damage to the Spirit Bomb!",
+        "en_upgraded_description": "Give +2 damage to the Spirit Bomb!"
+      },
       "manifest": {
         "ability_id": "DonateEnergy",
         "display_name": "Donate Energy",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Summon a 1 HP illusion of yourself within three tiles that mimics your basic attack, but in the opposite direction of you. It dies at the end of your turn.Upgraded: Summon a 1 HP illusion of yourself on any tile that mimics your basic attack, but in the opposite direction of you. It dies at the end of your turn.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DOUBLEDRAGON_NAME",
+        "ru_name": "Двойной Дракон",
+        "ru_description": "Призовите иллюзию (1 ОЗ) рядом, которая повторяет вашу базовую атаку, но в противоположную сторону. Умирает в конце хода.",
+        "ru_upgraded_description": "Призовите иллюзию (1 ОЗ) где угодно, которая повторяет вашу базовую атаку в противоположную сторону.",
+        "en_name": "Double Dragon",
+        "en_description": "Summon a 1 HP illusion of yourself within three tiles that mimics your basic attack, but in the opposite direction of you. It dies at the end of your turn.",
+        "en_upgraded_description": "Summon a 1 HP illusion of yourself on any tile that mimics your basic attack, but in the opposite direction of you. It dies at the end of your turn."
+      },
       "manifest": {
         "ability_id": "DoubleDragon",
         "display_name": "Double Dragon",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "You can't cast spells for the rest of the battle. For the rest of the battle, whenever you kill an enemy, take an extra turn.Upgraded: You can't cast spells for the rest of the battle. For the rest of the battle, whenever you kill an enemy, take an extra turn. Get an extra turn when you cast this.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_EMPTYMIND_NAME",
+        "ru_name": "Пустой Разум",
+        "ru_description": "Вы не можете колдовать до конца битвы.\nЗато теперь после каждого убийства врага вы получаете доп. ход.",
+        "ru_upgraded_description": "Вы не можете колдовать до конца битвы.\nЗато теперь после каждого убийства врага вы получаете доп. ход.\nДает доп. ход сразу при применении.",
+        "en_name": "Empty Mind",
+        "en_description": "You can't cast spells for the rest of the battle.\nFor the rest of the battle, whenever you kill an enemy, take an extra turn.",
+        "en_upgraded_description": "You can't cast spells for the rest of the battle.\nFor the rest of the battle, whenever you kill an enemy, take an extra turn.\nGet an extra turn when you cast this."
+      },
       "manifest": {
         "ability_id": "EmptyMind",
         "display_name": "Empty Mind",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Teleport next to a random enemy, then switch to melee stance and automatically attack it.Upgraded: Teleport next to a random enemy, then switch to melee stance and automatically attack it. This has a chance to repeat multiple times.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FISTOFFATE_NAME",
+        "ru_name": "Кулак Судьбы",
+        "ru_description": "Телепорт к случайному врагу, смена стойки на Ближнюю и авто-атака.",
+        "ru_upgraded_description": "Телепорт к случайному врагу, смена стойки на Ближнюю и авто-атака. Может повториться несколько раз.",
+        "en_name": "Fist of Fate",
+        "en_description": "Teleport next to a random enemy, then switch to melee stance and automatically attack it.",
+        "en_upgraded_description": "Teleport next to a random enemy, then switch to melee stance and automatically attack it. This has a chance to repeat multiple times."
+      },
       "manifest": {
         "ability_id": "FistOfFate",
         "display_name": "Fist of Fate",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead.Upgraded: A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DOOMPUNCH_NAME",
+        "ru_name": "Техника Разрыва Сердца Пяти Пальцев",
+        "ru_description": "Бьет вблизи: юнит умрет в конце своего следующего хода. Боссы вместо смерти засыпают.",
+        "ru_upgraded_description": "Бьет вблизи: юнит умрет в конце своего следующего хода. Боссы вместо смерти засыпают.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Five Point Palm Exploding Heart Technique",
+        "en_description": "A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead.",
+        "en_upgraded_description": "A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DoomPunch",
         "display_name": "Five Point Palm Exploding Heart Technique",
@@ -274,6 +373,15 @@
       "variant": "upgraded",
       "description": "A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead.Upgraded: A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DOOMPUNCH_NAME",
+        "ru_name": "Техника Разрыва Сердца Пяти Пальцев",
+        "ru_description": "Бьет вблизи: юнит умрет в конце своего следующего хода. Боссы вместо смерти засыпают.",
+        "ru_upgraded_description": "Бьет вблизи: юнит умрет в конце своего следующего хода. Боссы вместо смерти засыпают.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Five Point Palm Exploding Heart Technique",
+        "en_description": "A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead.",
+        "en_upgraded_description": "A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DoomPunch",
         "display_name": "Five Point Palm Exploding Heart Technique",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Jump to a tile, then gain +2 for each enemy adjacent to the tile you land on.Upgraded: Jump to any tile, then gain +2 for each enemy adjacent to the tile you land on.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HOPNBLOCK_NAME",
+        "ru_name": "Прыг-блок",
+        "ru_description": "Прыгните, затем получите +2 [img:shield] за каждого врага рядом с местом посадки.",
+        "ru_upgraded_description": "Прыгните куда угодно, затем получите +2 [img:shield] за каждого врага рядом с местом посадки.",
+        "en_name": "Hop n' Block",
+        "en_description": "Jump to a tile, then gain +2 [img:shield] for each enemy adjacent to the tile you land on.",
+        "en_upgraded_description": "Jump to any tile, then gain +2 [img:shield] for each enemy adjacent to the tile you land on."
+      },
       "manifest": {
         "ability_id": "HopAndBlock",
         "display_name": "Hop n' Block",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Gain +1 temporary Kinetic Spikes.Upgraded: Gain +2 temporary Kinetic Spikes.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_KINETICCHARGE_NAME",
+        "ru_name": "Кинетический заряд",
+        "ru_description": "Получите +1 временные Кинетические Шипы.",
+        "ru_upgraded_description": "Получите +2 временные Кинетические Шипы.",
+        "en_name": "Kinetic Charge",
+        "en_description": "Gain +1 temporary Kinetic Spikes.",
+        "en_upgraded_description": "Gain +2 temporary Kinetic Spikes."
+      },
       "manifest": {
         "ability_id": "KineticCharge",
         "display_name": "Kinetic Charge",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Gain +1 Intelligence and +1 . If you have 7 or more Shield, this spell costs 1 mana less.Upgraded: Gain +1 Intelligence and +2 . If you have 7 or more , this spell costs 1 mana less.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_NIRVANA_NAME",
+        "ru_name": "Нирвана",
+        "ru_description": "Получите +1 [img:int] и +1 [img:shield].\nЕсли у вас 7+ [img:shield], стоит на 1 ману дешевле.",
+        "ru_upgraded_description": "Получите +1 [img:int] и +2 [img:shield].\nЕсли у вас 7+ [img:shield], стоит на 1 ману дешевле.",
+        "en_name": "Nirvana",
+        "en_description": "Gain +1 [img:int] and +1 [img:shield].\nIf you have 7 or more [img:shield], this spell costs 1 mana less.",
+        "en_upgraded_description": "Gain +1 [img:int] and +2 [img:shield].\nIf you have 7 or more [img:shield], this spell costs 1 mana less."
+      },
       "manifest": {
         "ability_id": "Nirvana",
         "display_name": "Nirvana",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Inflict Marked and Magic Weakness 1 on a unit.Upgraded: Inflict Marked 3 and Magic Weakness 3 on a unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_OCULARPATDOWN_NAME",
+        "ru_name": "Визуальный осмотр",
+        "ru_description": "Наложите Метку и Магическую Слабость 1 на юнита.",
+        "ru_upgraded_description": "Наложите Метку 3 и Магическую Слабость 3 на юнита.",
+        "en_name": "Ocular Pat Down",
+        "en_description": "Inflict Marked and Magic Weakness 1 on a unit.",
+        "en_upgraded_description": "Inflict Marked 3 and Magic Weakness 3 on a unit."
+      },
       "manifest": {
         "ability_id": "DetectWeakness",
         "display_name": "Ocular Pat Down",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Gain +20 Movement Range until the end of the turn.Upgraded: Gain +20 Movement Range until the end of the turn and refresh your movement action.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ONEWITHTHEWIND_NAME",
+        "ru_name": "Единство с ветром",
+        "ru_description": "Получите +20 к Дальности Перемещения до конца хода.",
+        "ru_upgraded_description": "Получите +20 к Дальности Перемещения и обновите действие движения.",
+        "en_name": "One With the Wind",
+        "en_description": "Gain +20 Movement Range until the end of the turn.",
+        "en_upgraded_description": "Gain +20 Movement Range until the end of the turn and refresh your movement action."
+      },
       "manifest": {
         "ability_id": "OneWithTheWind",
         "display_name": "One With the Wind",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Gain +2 temporary Brace and +2 temporary Thorns until your next turn.Upgraded: Gain +2 temporary Brace and +2 temporary Thorns until your next turn. Also reflect the next projectile you're hit by.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PORCUPINE_NAME",
+        "ru_name": "Дикобраз",
+        "ru_description": "Получите +2 временной Стойкости и +2 временных Шипов до следующего хода.",
+        "ru_upgraded_description": "Получите +2 временной Стойкости и +2 временных Шипов. Также отражает следующий снаряд.",
+        "en_name": "Porcupine",
+        "en_description": "Gain +2 temporary Brace and +2 temporary Thorns until your next turn.",
+        "en_upgraded_description": "Gain +2 temporary Brace and +2 temporary Thorns until your next turn. Also reflect the next projectile you're hit by."
+      },
       "manifest": {
         "ability_id": "Porcupine",
         "display_name": "Porcupine",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Teleport exactly two tiles away, then switch stances.Upgraded: Teleport two to four tiles away, then switch stances.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_POSITION_NAME",
+        "ru_name": "Позиция",
+        "ru_description": "Телепортируйтесь ровно на две клетки, затем смените стойку.",
+        "ru_upgraded_description": "Телепортируйтесь на 2-4 клетки, затем смените стойку.",
+        "en_name": "Position",
+        "en_description": "Teleport exactly two tiles away, then switch stances.",
+        "en_upgraded_description": "Teleport two to four tiles away, then switch stances."
+      },
       "manifest": {
         "ability_id": "Position",
         "display_name": "Position",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have.Upgraded: Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_QUICKATTACK_NAME",
+        "ru_name": "Быстрая атака",
+        "ru_description": "Телепорт, затем базовая атака по врагу. Дальность увеличена на 2 за каждый пустой слот брони.",
+        "ru_upgraded_description": "Телепорт, затем базовая атака по врагу. Дальность увеличена на 2 за каждый пустой слот брони.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Quick Attack",
+        "en_description": "Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have.",
+        "en_upgraded_description": "Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "QuickAttack",
         "display_name": "Quick Attack",
@@ -490,6 +670,15 @@
       "variant": "upgraded",
       "description": "Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have.Upgraded: Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_QUICKATTACK_NAME",
+        "ru_name": "Быстрая атака",
+        "ru_description": "Телепорт, затем базовая атака по врагу. Дальность увеличена на 2 за каждый пустой слот брони.",
+        "ru_upgraded_description": "Телепорт, затем базовая атака по врагу. Дальность увеличена на 2 за каждый пустой слот брони.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Quick Attack",
+        "en_description": "Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have.",
+        "en_upgraded_description": "Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "QuickAttack",
         "display_name": "Quick Attack",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Run in a straight line up to 4 tiles, through objects. Wind blows over tiles you run through.Upgraded: Run diagonally or in a straight line any distance, through objects. Wind blows over tiles you run through.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REALLYFASTRUN_NAME",
+        "ru_name": "Очень быстрый бег",
+        "ru_description": "Бегите по прямой до 4 клеток, сквозь объекты. Ветер сносит все на вашем пути.",
+        "ru_upgraded_description": "Бегите по диагонали или прямой на любое расстояние сквозь объекты. Ветер сносит все.",
+        "en_name": "Really Fast Run",
+        "en_description": "Run in a straight line up to 4 tiles, through objects. Wind blows over tiles you run through.",
+        "en_upgraded_description": "Run diagonally or in a straight line any distance, through objects. Wind blows over tiles you run through."
+      },
       "manifest": {
         "ability_id": "ReallyFastRun",
         "display_name": "Really Fast Run",
@@ -538,6 +736,15 @@
       "variant": "normal",
       "description": "Emit 10 Sparkles.Upgraded: Emit 10 Sparkles. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_RELEASEENERGY_NAME",
+        "ru_name": "Выброс энергии",
+        "ru_description": "Выпустите 10 Искр.",
+        "ru_upgraded_description": "Выпустите 10 Искр.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Release Energy",
+        "en_description": "Emit 10 Sparkles.",
+        "en_upgraded_description": "Emit 10 Sparkles.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ReleaseEnergy",
         "display_name": "Release Energy",
@@ -562,6 +769,15 @@
       "variant": "upgraded",
       "description": "Emit 10 Sparkles.Upgraded: Emit 10 Sparkles. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_RELEASEENERGY_NAME",
+        "ru_name": "Выброс энергии",
+        "ru_description": "Выпустите 10 Искр.",
+        "ru_upgraded_description": "Выпустите 10 Искр.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Release Energy",
+        "en_description": "Emit 10 Sparkles.",
+        "en_upgraded_description": "Emit 10 Sparkles.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ReleaseEnergy",
         "display_name": "Release Energy",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Gain +8 and knock back adjacent units two tiles. This spell costs 3 mana less for each action you've taken this turn. (Castable once per turn.) Upgraded: Gain +8 and knock back adjacent units two tiles. This spell costs 3 mana less and grants 1 extra for each action you've taken this turn. (Castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REVERBERATE_NAME",
+        "ru_name": "Реверберация",
+        "ru_description": "Получите +8 [img:shield] и отбросьте соседей на 2 клетки. Стоит на 3 маны меньше за каждое действие в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Получите +8 [img:shield] и отбросьте соседей. Стоит на 3 маны меньше и дает +1 [img:shield] за каждое действие в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Reverberate",
+        "en_description": "Gain +8 [img:shield] and knock back adjacent units two tiles. This spell costs 3 mana less for each action you've taken this turn.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Gain +8 [img:shield] and knock back adjacent units two tiles. This spell costs 3 mana less and grants 1 extra [img:shield] for each action you've taken this turn.\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "Reverberate",
         "display_name": "Reverberate",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Move one tile and gain +1 .Upgraded: Move one tile and gain +1 . This spell costs 0 mana the first time you cast it each turn.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SIDESTEP_NAME",
+        "ru_name": "Шаг в сторону",
+        "ru_description": "Сдвиньтесь на клетку и получите +1 [img:shield].",
+        "ru_upgraded_description": "Сдвиньтесь на клетку и получите +1 [img:shield].\nСтоит 0 маны при первом использовании за ход.",
+        "en_name": "Sidestep",
+        "en_description": "Move one tile and gain +1 [img:shield].",
+        "en_upgraded_description": "Move one tile and gain +1 [img:shield].\r\nThis spell costs 0 mana the first time you cast it each turn."
+      },
       "manifest": {
         "ability_id": "SideStep",
         "display_name": "Sidestep",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Gain Strength and Dexterity equal to your until the end of your turn.Upgraded: Convert your to Strength and Dexterity for the rest of the battle.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STONEFISTS_NAME",
+        "ru_name": "Каменные кулаки",
+        "ru_description": "Получите [img:str] и [img:dex], равные вашему [img:shield], до конца хода.",
+        "ru_upgraded_description": "Превратите ваш [img:shield] в [img:str] и [img:dex] до конца битвы.",
+        "en_name": "Stone Fists",
+        "en_description": "Gain [img:str] and [img:dex] equal to your [img:shield] until the end of your turn.",
+        "en_upgraded_description": "Convert your [img:shield] to [img:str] and [img:dex] for the rest of the battle."
+      },
       "manifest": {
         "ability_id": "StoneFists",
         "display_name": "Stone Fists",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "Summon a half-sized copy of yourself with half your stats. It's AI-controlled and can't use spells.Upgraded: Summon a half-sized copy of yourself with half your stats. It's AI-controlled and CAN use spells.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONAPPRENTICE_NAME",
+        "ru_name": "Призыв Ученика",
+        "ru_description": "Призовите уменьшенную копию себя с половиной статов. Управляется ИИ, не может колдовать.",
+        "ru_upgraded_description": "Призовите копию себя с половиной статов. Управляется ИИ и МОЖЕТ колдовать.",
+        "en_name": "Summon Apprentice",
+        "en_description": "Summon a half-sized copy of yourself with half your stats. It's AI-controlled and can't use spells.",
+        "en_upgraded_description": "Summon a half-sized copy of yourself with half your stats. It's AI-controlled and CAN use spells."
+      },
       "manifest": {
         "ability_id": "Apprentice",
         "display_name": "Summon Apprentice",
@@ -682,6 +934,15 @@
       "variant": "normal",
       "description": "Cleanse your debuffs and gain +1 .Upgraded: Cleanse your debuffs and gain +1 . At the end of each round, automatically cast this spell for free.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TRANSCEND_NAME",
+        "ru_name": "Трансцендентность",
+        "ru_description": "Снимите дебаффы и получите +1 [img:shield].",
+        "ru_upgraded_description": "Снимите дебаффы и получите +1 [img:shield]. В конце раунда применяется автоматически бесплатно.",
+        "en_name": "Transcend",
+        "en_description": "Cleanse your debuffs and gain +1 [img:shield].",
+        "en_upgraded_description": "Cleanse your debuffs and gain +1 [img:shield]. At the end of each round, automatically cast this spell for free."
+      },
       "manifest": {
         "ability_id": "Transcend",
         "display_name": "Transcend",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Gain +1 Dexterity, and +1 Speed. This spell costs 2 mana less for each empty armor slot you have.Upgraded: Gain +1 Dexterity, +1 Speed and +1 Strength. This spell costs 2 mana less for each empty armor slot you have.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WARMUPSTRETCH_NAME",
+        "ru_name": "Разминка",
+        "ru_description": "Получите +1 [img:dex] и +1 [img:spd]. Стоит на 2 маны дешевле за каждый пустой слот брони.",
+        "ru_upgraded_description": "Получите +1 [img:dex], +1 [img:spd] и +1 [img:str]. Стоит на 2 маны дешевле за каждый пустой слот брони.",
+        "en_name": "Warm Up Stretch",
+        "en_description": "Gain +1 [img:dex], and +1 [img:spd]. This spell costs 2 mana less for each empty armor slot you have.",
+        "en_upgraded_description": "Gain +1 [img:dex], +1 [img:spd] and +1 [img:str]. This spell costs 2 mana less for each empty armor slot you have."
+      },
       "manifest": {
         "ability_id": "WarmupStretch",
         "display_name": "Warm Up Stretch",
@@ -730,6 +1000,15 @@
       "variant": "normal",
       "description": "For the rest of the battle, you can move an extra time each turn.Upgraded: For the rest of the battle, you can move an extra time each turn. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WAYOFTHEHARE_NAME",
+        "ru_name": "Путь Зайца",
+        "ru_description": "До конца битвы вы можете двигаться лишний раз за ход.",
+        "ru_upgraded_description": "До конца битвы вы можете двигаться лишний раз за ход.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Way of the Hare",
+        "en_description": "For the rest of the battle, you can move an extra time each turn.",
+        "en_upgraded_description": "For the rest of the battle, you can move an extra time each turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TrainLegs",
         "display_name": "Way of the Hare",
@@ -754,6 +1033,15 @@
       "variant": "upgraded",
       "description": "For the rest of the battle, you can move an extra time each turn.Upgraded: For the rest of the battle, you can move an extra time each turn. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WAYOFTHEHARE_NAME",
+        "ru_name": "Путь Зайца",
+        "ru_description": "До конца битвы вы можете двигаться лишний раз за ход.",
+        "ru_upgraded_description": "До конца битвы вы можете двигаться лишний раз за ход.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Way of the Hare",
+        "en_description": "For the rest of the battle, you can move an extra time each turn.",
+        "en_upgraded_description": "For the rest of the battle, you can move an extra time each turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TrainLegs",
         "display_name": "Way of the Hare",
@@ -778,6 +1066,15 @@
       "variant": "normal",
       "description": "For the rest of the battle, you can attack an extra time each turn.Upgraded: For the rest of the battle, you can attack an extra time each turn. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_WAYOFTHEMANTIS_NAME",
+        "ru_name": "Путь Богомола",
+        "ru_description": "До конца битвы вы можете атаковать лишний раз за ход.",
+        "ru_upgraded_description": "До конца битвы вы можете атаковать лишний раз за ход.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Way of the Mantis",
+        "en_description": "For the rest of the battle, you can attack an extra time each turn.",
+        "en_upgraded_description": "For the rest of the battle, you can attack an extra time each turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TrainArms",
         "display_name": "Way of the Mantis",
@@ -802,6 +1099,15 @@
       "variant": "upgraded",
       "description": "For the rest of the battle, you can attack an extra time each turn.Upgraded: For the rest of the battle, you can attack an extra time each turn. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_WAYOFTHEMANTIS_NAME",
+        "ru_name": "Путь Богомола",
+        "ru_description": "До конца битвы вы можете атаковать лишний раз за ход.",
+        "ru_upgraded_description": "До конца битвы вы можете атаковать лишний раз за ход.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Way of the Mantis",
+        "en_description": "For the rest of the battle, you can attack an extra time each turn.",
+        "en_upgraded_description": "For the rest of the battle, you can attack an extra time each turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TrainArms",
         "display_name": "Way of the Mantis",
@@ -826,6 +1132,15 @@
       "variant": "normal",
       "description": "For the rest of the battle, the first spell you cast each turn is cast twice.Upgraded: For the rest of the battle, the first spell you cast each turn is cast twice. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WAYOFTHEOWL_NAME",
+        "ru_name": "Путь Совы",
+        "ru_description": "До конца битвы первое ваше заклинание каждый ход срабатывает дважды.",
+        "ru_upgraded_description": "До конца битвы первое ваше заклинание каждый ход срабатывает дважды.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Way of the Owl",
+        "en_description": "For the rest of the battle, the first spell you cast each turn is cast twice.",
+        "en_upgraded_description": "For the rest of the battle, the first spell you cast each turn is cast twice.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TrainMind",
         "display_name": "Way of the Owl",
@@ -850,6 +1165,15 @@
       "variant": "upgraded",
       "description": "For the rest of the battle, the first spell you cast each turn is cast twice.Upgraded: For the rest of the battle, the first spell you cast each turn is cast twice. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WAYOFTHEOWL_NAME",
+        "ru_name": "Путь Совы",
+        "ru_description": "До конца битвы первое ваше заклинание каждый ход срабатывает дважды.",
+        "ru_upgraded_description": "До конца битвы первое ваше заклинание каждый ход срабатывает дважды.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Way of the Owl",
+        "en_description": "For the rest of the battle, the first spell you cast each turn is cast twice.",
+        "en_upgraded_description": "For the rest of the battle, the first spell you cast each turn is cast twice.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TrainMind",
         "display_name": "Way of the Owl",
@@ -874,6 +1198,15 @@
       "variant": "normal",
       "description": "Gain +1 Brace.Upgraded: Gain +1 Brace. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WAYOFTHETURTLE_NAME",
+        "ru_name": "Путь Черепахи",
+        "ru_description": "Получите +1 Стойкость.",
+        "ru_upgraded_description": "Получите +1 Стойкость.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Way of the Turtle",
+        "en_description": "Gain +1 Brace.",
+        "en_upgraded_description": "Gain +1 Brace.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TrainBody",
         "display_name": "Way of the Turtle",
@@ -898,6 +1231,15 @@
       "variant": "upgraded",
       "description": "Gain +1 Brace.Upgraded: Gain +1 Brace. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WAYOFTHETURTLE_NAME",
+        "ru_name": "Путь Черепахи",
+        "ru_description": "Получите +1 Стойкость.",
+        "ru_upgraded_description": "Получите +1 Стойкость.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Way of the Turtle",
+        "en_description": "Gain +1 Brace.",
+        "en_upgraded_description": "Gain +1 Brace.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TrainBody",
         "display_name": "Way of the Turtle",

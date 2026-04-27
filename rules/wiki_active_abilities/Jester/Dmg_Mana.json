@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Displace a target unit to a random location.Upgraded: Displace a target unit to a random location. If it's an enemy, deal 1 damage to it.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BUMP_NAME",
+        "ru_name": "Бамп",
+        "ru_description": "Швырните цель в случайное место.",
+        "ru_upgraded_description": "Швырните цель в случайное место. Если это враг — 1 урон.",
+        "en_name": "Bump",
+        "en_description": "Displace a target unit to a random location.",
+        "en_upgraded_description": "Displace a target unit to a random location. If its an enemy, deal 1 damage to it."
+      },
       "manifest": {
         "ability_id": "Bump",
         "display_name": "Bump",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "Displace a target unit to a random location.Upgraded: Displace a target unit to a random location. If it's an enemy, deal 1 damage to it.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BUMP_NAME",
+        "ru_name": "Бамп",
+        "ru_description": "Швырните цель в случайное место.",
+        "ru_upgraded_description": "Швырните цель в случайное место. Если это враг — 1 урон.",
+        "en_name": "Bump",
+        "en_description": "Displace a target unit to a random location.",
+        "en_upgraded_description": "Displace a target unit to a random location. If its an enemy, deal 1 damage to it."
+      },
       "manifest": {
         "ability_id": "Bump",
         "display_name": "Bump",

@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "A weak melee attack that has a chance to hit multiple times.Upgraded: A melee attack that has a chance to hit multiple times.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FURYSWIPES_NAME",
+        "ru_name": "Яростные царапки",
+        "ru_description": "Слабая ближняя атака, которая может бить несколько раз.",
+        "ru_upgraded_description": "Ближняя атака, которая может бить несколько раз.",
+        "en_name": "Fury Swipes",
+        "en_description": "A weak melee attack that has a chance to hit multiple times.",
+        "en_upgraded_description": "A melee attack that has a chance to hit multiple times."
+      },
       "manifest": {
         "ability_id": "FurySwipes",
         "display_name": "Fury Swipes",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "A weak melee attack that has a chance to hit multiple times.Upgraded: A melee attack that has a chance to hit multiple times.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FURYSWIPES_NAME",
+        "ru_name": "Яростные царапки",
+        "ru_description": "Слабая ближняя атака, которая может бить несколько раз.",
+        "ru_upgraded_description": "Ближняя атака, которая может бить несколько раз.",
+        "en_name": "Fury Swipes",
+        "en_description": "A weak melee attack that has a chance to hit multiple times.",
+        "en_upgraded_description": "A melee attack that has a chance to hit multiple times."
+      },
       "manifest": {
         "ability_id": "FurySwipes",
         "display_name": "Fury Swipes",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "A melee attack that hits twice. Each punch inflicts Bruise 1.Upgraded: A melee attack that hits thrice! Each punch inflicts Bruise 1.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ONETWOPUNCH_NAME",
+        "ru_name": "Раз-Два Удар",
+        "ru_description": "Ближняя атака, наносящая 2 удара. Каждый удар накладывает 1 Ушиб.",
+        "ru_upgraded_description": "Ближняя атака, наносящая 3 удара! Каждый удар накладывает 1 Ушиб.",
+        "en_name": "One-Two Punch",
+        "en_description": "A melee attack that hits twice. Each punch inflicts Bruise 1.",
+        "en_upgraded_description": "A melee attack that hits thrice! Each punch inflicts Bruise 1."
+      },
       "manifest": {
         "ability_id": "OneTwoPunch",
         "display_name": "One-Two Punch",
@@ -82,6 +109,15 @@
       "variant": "upgraded",
       "description": "A melee attack that hits twice. Each punch inflicts Bruise 1.Upgraded: A melee attack that hits thrice! Each punch inflicts Bruise 1.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ONETWOPUNCH_NAME",
+        "ru_name": "Раз-Два Удар",
+        "ru_description": "Ближняя атака, наносящая 2 удара. Каждый удар накладывает 1 Ушиб.",
+        "ru_upgraded_description": "Ближняя атака, наносящая 3 удара! Каждый удар накладывает 1 Ушиб.",
+        "en_name": "One-Two Punch",
+        "en_description": "A melee attack that hits twice. Each punch inflicts Bruise 1.",
+        "en_upgraded_description": "A melee attack that hits thrice! Each punch inflicts Bruise 1."
+      },
       "manifest": {
         "ability_id": "OneTwoPunch",
         "display_name": "One-Two Punch",
@@ -106,6 +142,15 @@
       "variant": "upgraded",
       "description": "Knock back a unit 4 tiles, then dash forward and attack it.Upgraded: Knock back a unit 10 tiles, then dash forward and attack it.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_RAM_NAME",
+        "ru_name": "Таран",
+        "ru_description": "Отбросьте юнита на 4 клетки, затем сделайте рывок и атакуйте его.",
+        "ru_upgraded_description": "Отбросьте юнита на 10 клеток, затем сделайте рывок и атакуйте его.",
+        "en_name": "Ram",
+        "en_description": "Knock back a unit 4 tiles, then dash forward and attack it.",
+        "en_upgraded_description": "Knock back a unit 10 tiles, then dash forward and attack it."
+      },
       "manifest": {
         "ability_id": "Ram",
         "display_name": "Ram",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Attack everything around you 3 times.Upgraded: Attack everything around you in a wide area 3 times.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPIN_NAME",
+        "ru_name": "Вращение",
+        "ru_description": "Атакуйте всё вокруг 3 раза.",
+        "ru_upgraded_description": "Атакуйте всё вокруг в широкой области 3 раза.",
+        "en_name": "Spin",
+        "en_description": "Attack everything around you 3 times.",
+        "en_upgraded_description": "Attack everything around you in a wide area 3 times."
+      },
       "manifest": {
         "ability_id": "Spin",
         "display_name": "Spin",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "You and each allied cat do a spin attack at the same time.Upgraded: You and each allied cat do a spin attack at the same time. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SYNCHROSPIN_NAME",
+        "ru_name": "Синхронное вращение",
+        "ru_description": "Вы и каждый союзный кот делаете Атаку-Вращение.",
+        "ru_upgraded_description": "Вы и каждый союзный кот делаете Атаку-Вращение.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Synchro Spin",
+        "en_description": "You and each allied cat do a spin attack at the same time.",
+        "en_upgraded_description": "You and each allied cat do a spin attack at the same time.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TeamSpin",
         "display_name": "Synchro Spin",
@@ -178,6 +241,15 @@
       "variant": "upgraded",
       "description": "You and each allied cat do a spin attack at the same time.Upgraded: You and each allied cat do a spin attack at the same time. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SYNCHROSPIN_NAME",
+        "ru_name": "Синхронное вращение",
+        "ru_description": "Вы и каждый союзный кот делаете Атаку-Вращение.",
+        "ru_upgraded_description": "Вы и каждый союзный кот делаете Атаку-Вращение.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Synchro Spin",
+        "en_description": "You and each allied cat do a spin attack at the same time.",
+        "en_upgraded_description": "You and each allied cat do a spin attack at the same time.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TeamSpin",
         "display_name": "Synchro Spin",

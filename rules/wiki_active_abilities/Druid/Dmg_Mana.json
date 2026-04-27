@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "A wind gust that deals 1 damage and 1 Knockback in a line.Upgraded: A wind gust that deals 2 damage and 2 Knockback in a line.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_AEROBLAST_NAME",
+        "ru_name": "Аэровзрыв",
+        "ru_description": "Порыв ветра: 1 урон и 1 Отбрасывание по линии.",
+        "ru_upgraded_description": "Порыв ветра: 2 урона и 2 Отбрасывание по линии.",
+        "en_name": "Aeroblast",
+        "en_description": "A wind gust that deals 1 damage and 1 Knockback in a line.",
+        "en_upgraded_description": "A wind gust that deals 2 damage and 2 Knockback in a line."
+      },
       "manifest": {
         "ability_id": "CrowFlap",
         "display_name": "Aeroblast",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "A wind gust that deals 1 damage and 1 Knockback in a line.Upgraded: A wind gust that deals 2 damage and 2 Knockback in a line.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_AEROBLAST_NAME",
+        "ru_name": "Аэровзрыв",
+        "ru_description": "Порыв ветра: 1 урон и 1 Отбрасывание по линии.",
+        "ru_upgraded_description": "Порыв ветра: 2 урона и 2 Отбрасывание по линии.",
+        "en_name": "Aeroblast",
+        "en_description": "A wind gust that deals 1 damage and 1 Knockback in a line.",
+        "en_upgraded_description": "A wind gust that deals 2 damage and 2 Knockback in a line."
+      },
       "manifest": {
         "ability_id": "CrowFlap",
         "display_name": "Aeroblast",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Explode a familiar causing damage to all adjacent units and spawning brambles.Upgraded: Explode a familiar causing damage to all units in range 2 and spawning brambles.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BRAMBLEBURST_NAME",
+        "ru_name": "Взрыв терновника",
+        "ru_description": "Взорвите фамильяра: урон соседям и создание терновника.",
+        "ru_upgraded_description": "Взорвите фамильяра: урон в радиусе 2 и создание терновника.",
+        "en_name": "Bramble Burst",
+        "en_description": "Explode a familiar causing damage to all adjacent units and spawning brambles.",
+        "en_upgraded_description": "Explode a familiar causing damage to all units in range 2 and spawning brambles."
+      },
       "manifest": {
         "ability_id": "BrambleBurst",
         "display_name": "Bramble Burst",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Create a tall grass tile, then all enemies on grass element tiles take 1 damage.Upgraded: Create a tall grass tile, then all enemies on grass element tiles take 1 damage and gain Poison 1.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CONTROLPLANTS_NAME",
+        "ru_name": "Контроль растений",
+        "ru_description": "Создайте клетку с высокой травой, затем все враги, находящиеся на клетках с высокой травой, получают 1 урон.",
+        "ru_upgraded_description": "Создайте клетку с высокой травой, затем все враги, находящиеся на клетках с высокой травой, получают 1 урон и получают эффект «Яд 1».",
+        "en_name": "Control Plants",
+        "en_description": "Create a tall grass tile, then all enemies on grass element tiles take 1 damage.",
+        "en_upgraded_description": "Create a tall grass tile, then all enemies on grass element tiles take 1 damage and gain Poison 1."
+      },
       "manifest": {
         "ability_id": "ControlPlants",
         "display_name": "Control Plants",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Create a water tile, then all allies on water element tiles heal 2 HP.Upgraded: Create a water tile, then all allies on water element tiles heal 2 HP and have their debuffs cleansed.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CONTROLWATER_NAME",
+        "ru_name": "Контроль воды",
+        "ru_description": "Создайте воду, затем все союзники на воде лечатся на 2 ОЗ.",
+        "ru_upgraded_description": "Создайте воду, затем все союзники на воде лечатся на 2 ОЗ и очищаются от дебаффов.",
+        "en_name": "Control Water",
+        "en_description": "Create a water tile, then all allies on water element tiles heal 2 HP.",
+        "en_upgraded_description": "Create a water tile, then all allies on water element tiles heal 2 HP and have their debuffs cleansed."
+      },
       "manifest": {
         "ability_id": "ControlWater",
         "display_name": "Control Water",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "A melee attack. (This spell costs 0 mana. Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FERALMELEE_NAME",
+        "ru_name": "Дикая атака",
+        "ru_description": "Ближняя атака.\n[s:.7](Стоит 0 маны. Раз за ход.)[/s]",
+        "ru_upgraded_description": "",
+        "en_name": "Feral Attack",
+        "en_description": "A melee attack.\r\n[s:.7](This spell costs 0 mana. Castable once per turn.)[/s]",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "FeralMelee",
         "display_name": "Feral Attack",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Summon a random animal that falls from the sky onto a random enemy, dealing damage.Upgraded: Summon a random animal that falls from the sky onto a random enemy, dealing more damage. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FROMTHETREES_NAME",
+        "ru_name": "С деревьев!",
+        "ru_description": "Призовите случайного зверя, падающего с неба на случайного врага (с уроном).",
+        "ru_upgraded_description": "Призовите зверя с неба на врага (с большим уроном).\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "From the Trees!",
+        "en_description": "Summon a random animal that falls from the sky onto a random enemy, dealing damage.",
+        "en_upgraded_description": "Summon a random animal that falls from the sky onto a random enemy, dealing more damage.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "FromTheTrees",
         "display_name": "From the Trees!",
@@ -178,6 +241,15 @@
       "variant": "upgraded",
       "description": "Summon a random animal that falls from the sky onto a random enemy, dealing damage.Upgraded: Summon a random animal that falls from the sky onto a random enemy, dealing more damage. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FROMTHETREES_NAME",
+        "ru_name": "С деревьев!",
+        "ru_description": "Призовите случайного зверя, падающего с неба на случайного врага (с уроном).",
+        "ru_upgraded_description": "Призовите зверя с неба на врага (с большим уроном).\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "From the Trees!",
+        "en_description": "Summon a random animal that falls from the sky onto a random enemy, dealing damage.",
+        "en_upgraded_description": "Summon a random animal that falls from the sky onto a random enemy, dealing more damage.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "FromTheTrees",
         "display_name": "From the Trees!",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Give a unit All Stats Up. You get All Stats Down.Upgraded: Give a unit All Stats Up, Charge 2, and heal them 2. You get All Stats Down.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_GRANTLIFE_NAME",
+        "ru_name": "Дар жизни",
+        "ru_description": "Дайте юниту Повышение Всех Хар-к. Вы получаете Снижение Всех Хар-к.",
+        "ru_upgraded_description": "Дайте юниту Повышение Всех Хар-к, Заряд 2 и лечение 2. Вы получаете Снижение.",
+        "en_name": "Grant Life",
+        "en_description": "Give a unit All Stats Up. You get All Stats Down.",
+        "en_upgraded_description": "Give a unit All Stats Up, Charge 2, and heal them 2. You get All Stats Down."
+      },
       "manifest": {
         "ability_id": "GrantLife",
         "display_name": "Grant Life",
@@ -226,6 +307,15 @@
       "variant": "upgraded",
       "description": "Give a unit All Stats Up. You get All Stats Down.Upgraded: Give a unit All Stats Up, Charge 2, and heal them 2. You get All Stats Down.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_GRANTLIFE_NAME",
+        "ru_name": "Дар жизни",
+        "ru_description": "Дайте юниту Повышение Всех Хар-к. Вы получаете Снижение Всех Хар-к.",
+        "ru_upgraded_description": "Дайте юниту Повышение Всех Хар-к, Заряд 2 и лечение 2. Вы получаете Снижение.",
+        "en_name": "Grant Life",
+        "en_description": "Give a unit All Stats Up. You get All Stats Down.",
+        "en_upgraded_description": "Give a unit All Stats Up, Charge 2, and heal them 2. You get All Stats Down."
+      },
       "manifest": {
         "ability_id": "GrantLife",
         "display_name": "Grant Life",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Heal all allies and give them +1 Temporary Damage.Upgraded: Heal all allies and give them +2 Temporary Damage.",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_INSPIRATIONALSONG_NAME",
+        "ru_name": "Вдохновляющая песнь",
+        "ru_description": "Исцелите всех союзников и дайте им +1 Временный Урон.",
+        "ru_upgraded_description": "Исцелите всех союзников и дайте им +2 Временный Урон.",
+        "en_name": "Inspirational Song",
+        "en_description": "Heal all allies and give them +1 Temporary Damage.",
+        "en_upgraded_description": "Heal all allies and give them +2 Temporary Damage."
+      },
       "manifest": {
         "ability_id": "InspirationalSong",
         "display_name": "Inspirational Song",
@@ -274,6 +373,15 @@
       "variant": "upgraded",
       "description": "Heal all allies and give them +1 Temporary Damage.Upgraded: Heal all allies and give them +2 Temporary Damage.",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_INSPIRATIONALSONG_NAME",
+        "ru_name": "Вдохновляющая песнь",
+        "ru_description": "Исцелите всех союзников и дайте им +1 Временный Урон.",
+        "ru_upgraded_description": "Исцелите всех союзников и дайте им +2 Временный Урон.",
+        "en_name": "Inspirational Song",
+        "en_description": "Heal all allies and give them +1 Temporary Damage.",
+        "en_upgraded_description": "Heal all allies and give them +2 Temporary Damage."
+      },
       "manifest": {
         "ability_id": "InspirationalSong",
         "display_name": "Inspirational Song",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Jump on a unit, damaging and displacing it.Upgraded: Jump on a unit, damaging, displacing and inflicting Bleed 1 to it.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WOLFPOUNCE_NAME",
+        "ru_name": "Наброс",
+        "ru_description": "Прыгните на юнита, нанося урон и смещая его.",
+        "ru_upgraded_description": "Прыгните на юнита, нанося урон, смещая и накладывая Кровотечение 1.",
+        "en_name": "Pounce",
+        "en_description": "Jump on a unit, damaging and displacing it.",
+        "en_upgraded_description": "Jump on a unit, damaging, displacing and inflicting Bleed 1 to it."
+      },
       "manifest": {
         "ability_id": "Pounce",
         "display_name": "Pounce",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Explode.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SELFDESTRUCTFAMILIAR_NAME",
+        "ru_name": "Самоуничтожение",
+        "ru_description": "Взорваться.",
+        "ru_upgraded_description": "",
+        "en_name": "Self-destruct",
+        "en_description": "Explode.",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "FamiliarSelfDestruct",
         "display_name": "Self-destruct",
@@ -346,6 +472,15 @@
       "variant": "upgraded",
       "description": "Explode.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SELFDESTRUCTFAMILIAR_NAME",
+        "ru_name": "Самоуничтожение",
+        "ru_description": "Взорваться.",
+        "ru_upgraded_description": "",
+        "en_name": "Self-destruct",
+        "en_description": "Explode.",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "FamiliarSelfDestruct",
         "display_name": "Self-destruct",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Heal 2 HP and gain Charge 2.Upgraded: You and allies within 3 tiles gain 2 HP and 2 Charge.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SYNTHESIZE_NAME",
+        "ru_name": "Синтез",
+        "ru_description": "Исцелите 2 ОЗ и получите Заряд 2.",
+        "ru_upgraded_description": "Вы и союзники в радиусе 3 получаете 2 ОЗ и 2 Заряда.",
+        "en_name": "Synthesize",
+        "en_description": "Heal 2 HP and gain Charge 2.",
+        "en_upgraded_description": "You and allies within 3 tiles gain 2 HP and 2 Charge."
+      },
       "manifest": {
         "ability_id": "Synthesize",
         "display_name": "Synthesize",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its second turn.Upgraded: Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its first turn.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THROWEGGDRUID_NAME",
+        "ru_name": "Бросок яйца",
+        "ru_description": "Бросьте яйцо. Если попадет в пустую клетку, оно вылупится в случайного зверя в начале своего 2 хода.",
+        "ru_upgraded_description": "Бросьте яйцо. Если попадет в пустую клетку, оно вылупится в случайного зверя в начале своего 1 хода.",
+        "en_name": "Throw Egg",
+        "en_description": "Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its second turn.",
+        "en_upgraded_description": "Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its first turn."
+      },
       "manifest": {
         "ability_id": "ThrowEgg",
         "display_name": "Throw Egg",

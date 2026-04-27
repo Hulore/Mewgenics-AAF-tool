@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Spend all your mana. Give a unit within your line of sight a random stat up for every 3 mana spent (rounded up). Give enemies random stat downs instead.Upgraded: Spend all your mana. Give a unit within your line of sight a random stat up for every 2 mana spent (rounded up). Give enemies random stat downs instead.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ALTERDNA_NAME",
+        "ru_name": "Изменение ДНК",
+        "ru_description": "Потратьте всю ману. Дайте видимому юниту случайный бафф хар-к за каждые 3 потр. маны. Врагам дает дебаффы.",
+        "ru_upgraded_description": "Потратьте всю ману. Дайте видимому юниту случайный бафф хар-к за каждые 2 потр. маны. Врагам дает дебаффы.",
+        "en_name": "Alter DNA",
+        "en_description": "Spend all your mana. Give a unit within your line of sight a random stat up for every 3 mana spent (rounded up). Give enemies random stat downs instead.",
+        "en_upgraded_description": "Spend all your mana. Give a unit within your line of sight a random stat up for every 2 mana spent (rounded up). Give enemies random stat downs instead."
+      },
       "manifest": {
         "ability_id": "AlterDNA",
         "display_name": "Alter DNA",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Upgrade one of your spells at random for the rest of the battle.Upgraded: Target yourself or a unit within your line of sight and upgrade one of their spells at random for the rest of the battle.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ANCESTRALRECALL_NAME",
+        "ru_name": "Зов предков",
+        "ru_description": "Улучшите одно из своих заклинаний случайным образом до конца битвы.",
+        "ru_upgraded_description": "Улучшите случайное заклинание себе или видимому юниту до конца битвы.",
+        "en_name": "Ancestral Recall",
+        "en_description": "Upgrade one of your spells at random for the rest of the battle.",
+        "en_upgraded_description": "Target yourself or a unit within your line of sight and upgrade one of their spells at random for the rest of the battle."
+      },
       "manifest": {
         "ability_id": "AncestralRecall",
         "display_name": "Ancestral Recall",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Vaporize everything on a tile within your line of sight. Against a boss, this deals 10 damage and inflicts Stun instead.Upgraded: Vaporize everything on a tile within your line of sight. Against a boss, this deals 25 damage and inflicts Stun instead.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BECOMEENTROPY_NAME",
+        "ru_name": "Стать Энтропией",
+        "ru_description": "Испарите всё на выбранной видимой клетке. Боссам наносит урон и Оглушение.",
+        "ru_upgraded_description": "Испарите всё на выбранной видимой клетке. Боссам наносит массивный урон и Оглушение.",
+        "en_name": "Become Entropy",
+        "en_description": "Vaporize everything on a tile within your line of sight. Against a boss, this deals 10 damage and inflicts Stun instead.",
+        "en_upgraded_description": "Vaporize everything on a tile within your line of sight. Against a boss, this deals 25 damage and inflicts Stun instead."
+      },
       "manifest": {
         "ability_id": "BecomeEntropy",
         "display_name": "Become Entropy",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Inflict Blind 2 on each unit near you in your line of sight.Upgraded: Inflict Blind 2 on each enemy within five tiles of you in your line of sight.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLINDINGFLASH_NAME",
+        "ru_name": "Ослепляющая вспышка",
+        "ru_description": "Наложите Слепоту 2 на каждого видимого юнита рядом.",
+        "ru_upgraded_description": "Наложите Слепоту 2 на каждого видимого врага в радиусе 5.",
+        "en_name": "Blinding Flash",
+        "en_description": "Inflict Blind 2 on each unit near you in your line of sight.",
+        "en_upgraded_description": "Inflict Blind 2 on each enemy within five tiles of you in your line of sight."
+      },
       "manifest": {
         "ability_id": "BlindingFlash",
         "display_name": "Blinding Flash",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Swap positions with a random unit.Upgraded: Swap positions with a random unit. If that unit was an enemy, you inflict Confusion on it.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHAOSSWAP_NAME",
+        "ru_name": "Хаос-обмен",
+        "ru_description": "Поменяйтесь местами со случайным юнитом.",
+        "ru_upgraded_description": "Поменяйтесь местами со случайным юнитом. Если это враг — Замешательство.",
+        "en_name": "Chaos Swap",
+        "en_description": "Swap positions with a random unit.",
+        "en_upgraded_description": "Swap positions with a random unit. If that unit was an enemy, you inflict Confusion on it."
+      },
       "manifest": {
         "ability_id": "ChaosSwap",
         "display_name": "Chaos Swap",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Take an extra turn. You're stunned and don't regenerate mana on that turn. (This spell can't be cast on extra turns.) Upgraded: Take an extra turn. You have a 75% chance to be stunned and don't regenerate mana on that turn. (This spell can't be cast on extra turns.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_EXTRATURNQ_NAME",
+        "ru_name": "Доп. ход?",
+        "ru_description": "Сделайте доп. ход. В этот ход вы оглушены и не регените ману.\n[s:.7](Нельзя применять в доп. ходы.)[/s]",
+        "ru_upgraded_description": "Сделайте доп. ход. 75% шанс оглушения и отсутствия регена маны.\n[s:.7](Нельзя применять в доп. ходы.)[/s]",
+        "en_name": "Extra Turn?",
+        "en_description": "Take an extra turn. You're stunned and don't regenerate mana on that turn.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]",
+        "en_upgraded_description": "Take an extra turn. You have a 75% chance to be stunned and don't regenerate mana on that turn.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]"
+      },
       "manifest": {
         "ability_id": "ExtraTurnQuestion",
         "display_name": "Extra Turn?",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Every ally that hasn't taken their turn yet takes their turn right after yours. You go first next round.Upgraded: Every ally that hasn't taken their turn yet takes their turn right after yours. Those units get +4 temporary Speed. You go first next round.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FASTFORWARD_NAME",
+        "ru_name": "Перемотка вперед",
+        "ru_description": "Все союзники, кто еще не ходил, ходят сразу после вас. Вы ходите первым в след. раунде.",
+        "ru_upgraded_description": "Все союзники, кто еще не ходил, ходят сразу после вас. Они получают +4 врем. [img:spd].",
+        "en_name": "Fast Forward",
+        "en_description": "Every ally that hasn't taken their turn yet takes their turn right after yours. You go first next round.",
+        "en_upgraded_description": "Every ally that hasn't taken their turn yet takes their turn right after yours. Those units get +4 temporary [img:spd]. You go first next round."
+      },
       "manifest": {
         "ability_id": "FastForward",
         "display_name": "Fast Forward",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Teleport to any tile. At the end of your turn, teleport back to your original tile and deal 10 damage to any unit you teleport into.Upgraded: Teleport to any tile. At the end of your turn, teleport back to your original tile and deal 10 damage to any unit you teleport into. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FLASHFORWARD_NAME",
+        "ru_name": "Флэшфорвард",
+        "ru_description": "Телепорт на любую клетку. В конце хода вы вернетесь на исходную и нанесете 10 урона, если в кого-то влетите.",
+        "ru_upgraded_description": "Телепорт на любую клетку. В конце хода вы вернетесь на исходную и нанесете 10 урона, если в кого-то влетите.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Flash Forward",
+        "en_description": "Teleport to any tile. At the end of your turn, teleport back to your original tile and deal 10 damage to any unit you teleport into.",
+        "en_upgraded_description": "Teleport to any tile. At the end of your turn, teleport back to your original tile and deal 10 damage to any unit you teleport into.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "FlashForward",
         "display_name": "Flash Forward",
@@ -202,6 +274,15 @@
       "variant": "upgraded",
       "description": "Teleport to any tile. At the end of your turn, teleport back to your original tile and deal 10 damage to any unit you teleport into.Upgraded: Teleport to any tile. At the end of your turn, teleport back to your original tile and deal 10 damage to any unit you teleport into. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FLASHFORWARD_NAME",
+        "ru_name": "Флэшфорвард",
+        "ru_description": "Телепорт на любую клетку. В конце хода вы вернетесь на исходную и нанесете 10 урона, если в кого-то влетите.",
+        "ru_upgraded_description": "Телепорт на любую клетку. В конце хода вы вернетесь на исходную и нанесете 10 урона, если в кого-то влетите.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Flash Forward",
+        "en_description": "Teleport to any tile. At the end of your turn, teleport back to your original tile and deal 10 damage to any unit you teleport into.",
+        "en_upgraded_description": "Teleport to any tile. At the end of your turn, teleport back to your original tile and deal 10 damage to any unit you teleport into.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "FlashForward",
         "display_name": "Flash Forward",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Teleport two tiles away. Displace any units you teleport into.Upgraded: Teleport two tiles away. Displace any units you teleport into and inflict them with Confusion 2 and Blind 2.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FLICKER_NAME",
+        "ru_name": "Мерцание",
+        "ru_description": "Телепорт на 2 клетки. Смещает юнитов, в которых вы влетели.",
+        "ru_upgraded_description": "Телепорт на 2 клетки. Смещает юнитов и накладывает Замешательство 2 и Слепоту 2.",
+        "en_name": "Flicker",
+        "en_description": "Teleport two tiles away. Displace any units you teleport into.",
+        "en_upgraded_description": "Teleport two tiles away. Displace any units you teleport into and inflict them with Confusion 2 and Blind 2."
+      },
       "manifest": {
         "ability_id": "Flicker",
         "display_name": "Flicker",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Turn a unit within your line of sight 180 degrees. Inflict Confusion 1 on that unit.Upgraded: Turn a unit within your line of sight 180 degrees. Inflict Confusion 2 and Magic Weakness 1 on that unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FLIP_NAME",
+        "ru_name": "Разворот",
+        "ru_description": "Разверните видимого юнита на 180 градусов. Замешательство 1.",
+        "ru_upgraded_description": "Разверните видимого юнита на 180 градусов. Замешательство 2 и Маг. Слабость 1.",
+        "en_name": "Flip",
+        "en_description": "Turn a unit within your line of sight 180 degrees. Inflict Confusion 1 on that unit.",
+        "en_upgraded_description": "Turn a unit within your line of sight 180 degrees. Inflict Confusion 2 and Magic Weakness 1 on that unit."
+      },
       "manifest": {
         "ability_id": "Flip",
         "display_name": "Flip",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "A unit within your line of sight backflips out of the way the next time they're targeted by an enemy.Upgraded: A unit within your line of sight backflips out of the way the next time they're targeted by an enemy. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FUTURESIGHT_NAME",
+        "ru_name": "Взгляд в будущее",
+        "ru_description": "Видимый юнит сделает Сальто Назад и увернется при следующей атаке на него.",
+        "ru_upgraded_description": "Видимый юнит сделает Сальто Назад и увернется при следующей атаке на него.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Future Sight",
+        "en_description": "A unit within your line of sight backflips out of the way the next time they're targeted by an enemy.",
+        "en_upgraded_description": "A unit within your line of sight backflips out of the way the next time they're targeted by an enemy.\n [s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "FutureSight",
         "display_name": "Future Sight",
@@ -298,6 +406,15 @@
       "variant": "upgraded",
       "description": "A unit within your line of sight backflips out of the way the next time they're targeted by an enemy.Upgraded: A unit within your line of sight backflips out of the way the next time they're targeted by an enemy. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FUTURESIGHT_NAME",
+        "ru_name": "Взгляд в будущее",
+        "ru_description": "Видимый юнит сделает Сальто Назад и увернется при следующей атаке на него.",
+        "ru_upgraded_description": "Видимый юнит сделает Сальто Назад и увернется при следующей атаке на него.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Future Sight",
+        "en_description": "A unit within your line of sight backflips out of the way the next time they're targeted by an enemy.",
+        "en_upgraded_description": "A unit within your line of sight backflips out of the way the next time they're targeted by an enemy.\n [s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "FutureSight",
         "display_name": "Future Sight",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Inflict Madness on a unit in your line of sight.Upgraded: Inflict Madness and Confusion on a unit in your line of sight.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GLARE_NAME",
+        "ru_name": "Пси-взгляд",
+        "ru_description": "Наложите Безумие на видимого юнита.",
+        "ru_upgraded_description": "Наложите Безумие и Замешательство на видимого юнита.",
+        "en_name": "Glare",
+        "en_description": "Inflict Madness on a unit in your line of sight.",
+        "en_upgraded_description": "Inflict Madness and Confusion on a unit in your line of sight."
+      },
       "manifest": {
         "ability_id": "Glare",
         "display_name": "Glare",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Deal 10 Knockback to adjacent units. If you cast this from full mana, the units take 10 damage on collision.Upgraded: Deal 10 Knockback to adjacent units. If you cast this from full mana, the units take 10 damage on collision and get stunned.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_GRAVITYBLAST_NAME",
+        "ru_name": "Грави-взрыв",
+        "ru_description": "10 Отбрасывания соседям. При полной мане: они получают 10 урона при столкновении.",
+        "ru_upgraded_description": "10 Отбрасывания соседям. При полной мане: 10 урона при столкновении и Оглушение.",
+        "en_name": "Gravity Blast",
+        "en_description": "Deal 10 Knockback to adjacent units. If you cast this from full mana, the units take 10 damage on collision.",
+        "en_upgraded_description": "Deal 10 Knockback to adjacent units. If you cast this from full mana, the units take 10 damage on collision and get stunned."
+      },
       "manifest": {
         "ability_id": "ForceBlast",
         "display_name": "Gravity Blast",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Pull units toward a tile within range 5.Upgraded: Pull units in a larger area toward a tile at infinite range.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MAGNETPULL_NAME",
+        "ru_name": "Грави-тяга",
+        "ru_description": "Притяните юнитов к клетке в радиусе 5.",
+        "ru_upgraded_description": "Притяните юнитов в большой области к клетке (бесконечная дальность).",
+        "en_name": "Gravity Pull",
+        "en_description": "Pull units toward a tile within range 5.",
+        "en_upgraded_description": "Pull units in a larger area toward a tile at infinite range."
+      },
       "manifest": {
         "ability_id": "MagnetPull",
         "display_name": "Gravity Pull",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Gain +1 Intelligence and -1 Charisma.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GROWHEAD_NAME",
+        "ru_name": "Рост головы",
+        "ru_description": "Получите +1 [img:int] и -1 [img:cha].",
+        "ru_upgraded_description": "",
+        "en_name": "Grow Head",
+        "en_description": "Gain +1 [img:int] and -1 [img:cha].",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "GrowHead",
         "display_name": "Grow Head",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Spawn a friendly illusion of a random unit that fades away after one turn.Upgraded: Spawn a friendly illusion of a random unit that fades away after one turn. The illusion gets +4 Speed and +2 Damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HALLUCINATE_NAME",
+        "ru_name": "Галлюцинация",
+        "ru_description": "Призовите дружественную иллюзию случайного юнита. Исчезнет через ход.",
+        "ru_upgraded_description": "Призовите дружественную иллюзию случайного юнита. Она имеет +4 [img:spd] и +2 Урон.",
+        "en_name": "Hallucinate",
+        "en_description": "Spawn a friendly illusion of a random unit that fades away after one turn.",
+        "en_upgraded_description": "Spawn a friendly illusion of a random unit that fades away after one turn. The illusion gets +4 [img:spd] and +2 Damage."
+      },
       "manifest": {
         "ability_id": "Hallucinate",
         "display_name": "Hallucinate",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Swap positions with a unit in your line of sight.Upgraded: Swap positions with a unit in your line of sight. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_INVERSION_NAME",
+        "ru_name": "Инверсия",
+        "ru_description": "Поменяйтесь местами с видимым юнитом.",
+        "ru_upgraded_description": "Поменяйтесь местами с видимым юнитом.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Inversion",
+        "en_description": "Swap positions with a unit in your line of sight.",
+        "en_upgraded_description": "Swap positions with a unit in your line of sight.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Inversion",
         "display_name": "Inversion",
@@ -466,6 +637,15 @@
       "variant": "upgraded",
       "description": "Swap positions with a unit in your line of sight.Upgraded: Swap positions with a unit in your line of sight. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_INVERSION_NAME",
+        "ru_name": "Инверсия",
+        "ru_description": "Поменяйтесь местами с видимым юнитом.",
+        "ru_upgraded_description": "Поменяйтесь местами с видимым юнитом.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Inversion",
+        "en_description": "Swap positions with a unit in your line of sight.",
+        "en_upgraded_description": "Swap positions with a unit in your line of sight.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Inversion",
         "display_name": "Inversion",
@@ -490,6 +670,15 @@
       "variant": "normal",
       "description": "Every unit within your line of sight turns away from you.Upgraded: Every unit within your line of sight turns away from you and is inflicted with Blind 1.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LOOKAWAY_NAME",
+        "ru_name": "Отвернись",
+        "ru_description": "Все видимые юниты отворачиваются от вас.",
+        "ru_upgraded_description": "Все видимые юниты отворачиваются от вас и слепнут (Слепота 1).",
+        "en_name": "Look Away",
+        "en_description": "Every unit within your line of sight turns away from you.",
+        "en_upgraded_description": "Every unit within your line of sight turns away from you and is inflicted with Blind 1."
+      },
       "manifest": {
         "ability_id": "YouSeeNothing",
         "display_name": "Look Away",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Every enemy in your line of sight takes an extra turn. They are charmed on that turn.Upgraded: Every enemy in your line of sight takes an extra turn. They are charmed on that turn. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MASSHYSTERIA_NAME",
+        "ru_name": "Массовая истерия",
+        "ru_description": "Каждый видимый враг делает дополнительный ход. В этот ход они Очарованы.",
+        "ru_upgraded_description": "Каждый видимый враг делает дополнительный ход. В этот ход они Очарованы.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Mass Hysteria",
+        "en_description": "Every enemy in your line of sight takes an extra turn. They are charmed on that turn.",
+        "en_upgraded_description": "Every enemy in your line of sight takes an extra turn. They are charmed on that turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MassHysteria",
         "display_name": "Mass Hysteria",
@@ -538,6 +736,15 @@
       "variant": "upgraded",
       "description": "Every enemy in your line of sight takes an extra turn. They are charmed on that turn.Upgraded: Every enemy in your line of sight takes an extra turn. They are charmed on that turn. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MASSHYSTERIA_NAME",
+        "ru_name": "Массовая истерия",
+        "ru_description": "Каждый видимый враг делает дополнительный ход. В этот ход они Очарованы.",
+        "ru_upgraded_description": "Каждый видимый враг делает дополнительный ход. В этот ход они Очарованы.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Mass Hysteria",
+        "en_description": "Every enemy in your line of sight takes an extra turn. They are charmed on that turn.",
+        "en_upgraded_description": "Every enemy in your line of sight takes an extra turn. They are charmed on that turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MassHysteria",
         "display_name": "Mass Hysteria",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Inflict Mana Leech 2 and Weakness 2 on all units within 3 tiles of you.Upgraded: Inflict Mana Leech 2 and Weakness 2 on all units within 5 tiles of you.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MASSMANALEECH_NAME",
+        "ru_name": "Массовое Высасывание Маны",
+        "ru_description": "Наложите эффект Высасывание Маны 2 и Слабость 2 на всех в радиусе 3.",
+        "ru_upgraded_description": "Наложите эффект Высасывание Маны 2 и Слабость 2 на всех в радиусе 5.",
+        "en_name": "Mass Mana Leech",
+        "en_description": "Inflict Mana Leech 2 and Weakness 2 on all units within 3 tiles of you.",
+        "en_upgraded_description": "Inflict Mana Leech 2 and Weakness 2 on all units within 5 tiles of you."
+      },
       "manifest": {
         "ability_id": "MassManaLeech",
         "display_name": "Mass Mana Leech",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Target an allied cat within your line of sight. Cast one of their spells at random for free (or use their basic attack if theres no good spells).Upgraded: Target an allied cat within your line of sight. Cast one of their spells at random for free (or use their basic attack if theres no good spells). (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MIMIC_NAME",
+        "ru_name": "Мимик",
+        "ru_description": "Выберите видимого союзного кота. Применяет его случайное заклинание бесплатно (или атаку).",
+        "ru_upgraded_description": "Выберите видимого союзного кота. Применяет его случайное заклинание бесплатно.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Mimic",
+        "en_description": "Target an allied cat within your line of sight. Cast one of their spells at random for free (or use their basic attack if theres no good spells).",
+        "en_upgraded_description": "Target an allied cat within your line of sight. Cast one of their spells at random for free (or use their basic attack if theres no good spells).\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Mimic",
         "display_name": "Mimic",
@@ -610,6 +835,15 @@
       "variant": "upgraded",
       "description": "Target an allied cat within your line of sight. Cast one of their spells at random for free (or use their basic attack if theres no good spells).Upgraded: Target an allied cat within your line of sight. Cast one of their spells at random for free (or use their basic attack if theres no good spells). (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MIMIC_NAME",
+        "ru_name": "Мимик",
+        "ru_description": "Выберите видимого союзного кота. Применяет его случайное заклинание бесплатно (или атаку).",
+        "ru_upgraded_description": "Выберите видимого союзного кота. Применяет его случайное заклинание бесплатно.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Mimic",
+        "en_description": "Target an allied cat within your line of sight. Cast one of their spells at random for free (or use their basic attack if theres no good spells).",
+        "en_upgraded_description": "Target an allied cat within your line of sight. Cast one of their spells at random for free (or use their basic attack if theres no good spells).\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Mimic",
         "display_name": "Mimic",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Charm an enemy within your line of sight for the rest of the battle.Upgraded: Charm an enemy within your line of sight for the rest of the battle. That unit immediately takes an extra turn.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MINDCONTROL_NAME",
+        "ru_name": "Контроль разума",
+        "ru_description": "Очаруйте видимого врага до конца битвы.",
+        "ru_upgraded_description": "Очаруйте видимого врага до конца битвы. Он сразу ходит дополнительный раз.",
+        "en_name": "Mind Control",
+        "en_description": "Charm an enemy within your line of sight for the rest of the battle.",
+        "en_upgraded_description": "Charm an enemy within your line of sight for the rest of the battle. That unit immediately takes an extra turn."
+      },
       "manifest": {
         "ability_id": "MindControl",
         "display_name": "Mind Control",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "Give another unit an extra turn after this one. This spell can't be cast during extra turns.Upgraded: Give another unit +10 mana and an extra turn after this one. This spell can't be cast during extra turns.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MINDMELD_NAME",
+        "ru_name": "Слияние разумов",
+        "ru_description": "Дайте другому юниту дополнительный ход после этого.\nНельзя применять во время доп. ходов.",
+        "ru_upgraded_description": "Дайте другому юниту +10 маны и дополнительный ход после этого.\nНельзя применять во время доп. ходов.",
+        "en_name": "Mind Meld",
+        "en_description": "Give another unit an extra turn after this one.\nThis spell can't be cast during extra turns.",
+        "en_upgraded_description": "Give another unit +10 mana and an extra turn after this one.\nThis spell can't be cast during extra turns."
+      },
       "manifest": {
         "ability_id": "MindMeld",
         "display_name": "Mind Meld",
@@ -682,6 +934,15 @@
       "variant": "normal",
       "description": "Push away each unit near you. This inflicts Madness and has a small chance to inflict Stun.Upgraded: Push away each unit near a target area. This inflicts Madness and has a small chance to inflict Stun.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MINDBLAST_NAME",
+        "ru_name": "Взрыв разума",
+        "ru_description": "Оттолкните всех рядом. Накладывает Безумие, малый шанс Оглушения.",
+        "ru_upgraded_description": "Оттолкните всех в целевой зоне. Накладывает Безумие, малый шанс Оглушения.",
+        "en_name": "Mindblast",
+        "en_description": "Push away each unit near you. This inflicts Madness and has a small chance to inflict Stun.",
+        "en_upgraded_description": "Push away each unit near a target area. This inflicts Madness and has a small chance to inflict Stun."
+      },
       "manifest": {
         "ability_id": "MindBlast",
         "display_name": "Mindblast",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Inflict Magic Weakness 2 on all units in your line of sight.Upgraded: Inflict Magic Weakness 2 and Confusion 1 on all non-allied units in your line of sight.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MINDCRACK_NAME",
+        "ru_name": "Раскол разума",
+        "ru_description": "Наложите Магическую Слабость 2 на всех видимых юнитов.",
+        "ru_upgraded_description": "Наложите Магическую Слабость 2 и Замешательство 1 на всех видимых НЕ-союзников.",
+        "en_name": "Mindcrack",
+        "en_description": "Inflict Magic Weakness 2 on all units in your line of sight.",
+        "en_upgraded_description": "Inflict Magic Weakness 2 and Confusion 1 on all non-allied units in your line of sight."
+      },
       "manifest": {
         "ability_id": "MindCrack",
         "display_name": "Mindcrack",
@@ -730,6 +1000,15 @@
       "variant": "normal",
       "description": "Force a unit within your line of sight to move and attack one of its enemies.Upgraded: Give a unit within your line of sight All Stats Up and force it to move and attack one of its enemies.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ORDER_NAME",
+        "ru_name": "Приказ",
+        "ru_description": "Заставьте видимого юнита двигаться и атаковать одного из своих врагов.",
+        "ru_upgraded_description": "Дайте видимому юниту Повышение Всех Хар-к и заставьте двигаться и атаковать врага.",
+        "en_name": "Order",
+        "en_description": "Force a unit within your line of sight to move and attack one of its enemies.",
+        "en_upgraded_description": "Give a unit within your line of sight All Stats Up and force it to move and attack one of its enemies."
+      },
       "manifest": {
         "ability_id": "Order",
         "display_name": "Order",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "Give a unit within your line of sight an extra turn immediately, then end your turn. Castable only if you haven't taken any actions this turn. (This can't be cast on extra turns.) Upgraded: Give a unit within your line of sight an extra turn immediately, then end your turn. Castable only if you haven't taken any actions this turn other than your movement action. (This can't be cast on extra turns.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PASS_NAME",
+        "ru_name": "Пас",
+        "ru_description": "Отдайте ход видимому юниту (он ходит сразу), завершите свой.\nМожно, только если вы еще ничего не делали.\n[s:.7](Нельзя в доп. ходы.)[/s]",
+        "ru_upgraded_description": "Отдайте ход видимому юниту, завершите свой.\nМожно, если вы только двигались.\n[s:.7](Нельзя в доп. ходы.)[/s]",
+        "en_name": "Pass",
+        "en_description": "Give a unit within your line of sight an extra turn immediately, then end your turn. \nCastable only if you haven't taken any actions this turn.\n[s:.7](This can't be cast on extra turns.)[/s]",
+        "en_upgraded_description": "Give a unit within your line of sight an extra turn immediately, then end your turn.\nCastable only if you haven't taken any actions this turn other than your movement action.\n[s:.7](This can't be cast on extra turns.)[/s]"
+      },
       "manifest": {
         "ability_id": "Pass",
         "display_name": "Pass",
@@ -778,6 +1066,15 @@
       "variant": "normal",
       "description": "Teleport exactly three tiles away.Upgraded: Teleport exactly three tiles away. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PSYFLUTTER_NAME",
+        "ru_name": "Пси-порхание",
+        "ru_description": "Телепортируйтесь ровно на 3 клетки.",
+        "ru_upgraded_description": "Телепортируйтесь ровно на 3 клетки.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Psyflutter",
+        "en_description": "Teleport exactly three tiles away.",
+        "en_upgraded_description": "Teleport exactly three tiles away.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "PsyFlutter",
         "display_name": "Psyflutter",
@@ -802,6 +1099,15 @@
       "variant": "upgraded",
       "description": "Teleport exactly three tiles away.Upgraded: Teleport exactly three tiles away. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PSYFLUTTER_NAME",
+        "ru_name": "Пси-порхание",
+        "ru_description": "Телепортируйтесь ровно на 3 клетки.",
+        "ru_upgraded_description": "Телепортируйтесь ровно на 3 клетки.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Psyflutter",
+        "en_description": "Teleport exactly three tiles away.",
+        "en_upgraded_description": "Teleport exactly three tiles away.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "PsyFlutter",
         "display_name": "Psyflutter",
@@ -826,6 +1132,15 @@
       "variant": "normal",
       "description": "Force an enemy within your line of sight to attack in the direction it's facing.Upgraded: Force a unit within your line of sight to attack in the direction it's facing.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PUPPET_NAME",
+        "ru_name": "Марионетка",
+        "ru_description": "Заставьте видимого врага атаковать туда, куда он смотрит.",
+        "ru_upgraded_description": "Заставьте видимого юнита атаковать туда, куда он смотрит.",
+        "en_name": "Puppet",
+        "en_description": "Force an enemy within your line of sight to attack in the direction it's facing.",
+        "en_upgraded_description": "Force a unit within your line of sight to attack in the direction it's facing."
+      },
       "manifest": {
         "ability_id": "Puppet",
         "display_name": "Puppet",
@@ -850,6 +1165,15 @@
       "variant": "normal",
       "description": "Randomize the positions of all units. Enemies get Confused.Upgraded: Randomize the positions of all units. Enemies get Confused. Non-boss enemies have a 10% chance to be erased from existence.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REALITYSCRAMBLE_NAME",
+        "ru_name": "Путаница реальности",
+        "ru_description": "Перемешайте позиции всех юнитов. Враги получают Замешательство.",
+        "ru_upgraded_description": "Перемешайте позиции всех юнитов. Враги получают Замешательство. Шанс 10% стереть обычного врага из реальности.",
+        "en_name": "Reality Scramble",
+        "en_description": "Randomize the positions of all units. Enemies get Confused.",
+        "en_upgraded_description": "Randomize the positions of all units. Enemies get Confused. Non-boss enemies have a 10% chance to be erased from existence."
+      },
       "manifest": {
         "ability_id": "RealityScramble",
         "display_name": "Reality Scramble",
@@ -874,6 +1198,15 @@
       "variant": "normal",
       "description": "Revive all bodies, fully heal all units, and clear all status effects. (This spell can be cast only once per battle.) Upgraded: Revive all bodies, fully heal all units, and clear all status effects. Castable while you're downed. It costs 0 mana if you're downed. (This spell can be cast only once per battle.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "{itemname}",
+        "ru_name": "",
+        "ru_description": "",
+        "ru_upgraded_description": "",
+        "en_name": "",
+        "en_description": "",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "tk_Reset",
         "display_name": "",
@@ -898,6 +1231,15 @@
       "variant": "normal",
       "description": "Create floating glass shards on a tile within your line of sight.Upgraded: Create floating glass shards in an area within your line of sight.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SKYSHATTER_NAME",
+        "ru_name": "Раскол неба",
+        "ru_description": "Создайте парящие осколки стекла на видимой клетке.",
+        "ru_upgraded_description": "Создайте парящие осколки стекла в видимой области.",
+        "en_name": "Shatter the Sky",
+        "en_description": "Create floating glass shards on a tile within your line of sight.",
+        "en_upgraded_description": "Create floating glass shards in an area within your line of sight."
+      },
       "manifest": {
         "ability_id": "SkyShatter",
         "display_name": "Shatter the Sky",
@@ -922,6 +1264,15 @@
       "variant": "normal",
       "description": "Dash up to three tiles in a straight line or diagonally. Leave floating glass shards on tiles you pass through.Upgraded: Dash up to five tiles in a straight line or diagonally. Leave floating glass shards on tiles you pass through.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SLIPSTEAM_NAME",
+        "ru_name": "Воздушный поток",
+        "ru_description": "Рывок до 3 клеток. Оставляет парящее стекло на пройденных клетках.",
+        "ru_upgraded_description": "Рывок до 5 клеток. Оставляет парящее стекло на пройденных клетках.",
+        "en_name": "Slipstream",
+        "en_description": "Dash up to three tiles in a straight line or diagonally. Leave floating glass shards on tiles you pass through.",
+        "en_upgraded_description": "Dash up to five tiles in a straight line or diagonally. Leave floating glass shards on tiles you pass through."
+      },
       "manifest": {
         "ability_id": "Slipstream",
         "display_name": "Slipstream",
@@ -946,6 +1297,15 @@
       "variant": "normal",
       "description": "Collect any pickup within your line of sight.Upgraded: Collect any pickup within your line of sight. Gain +1 Luck.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SNATCH_NAME",
+        "ru_name": "Хваталка",
+        "ru_description": "Соберите любой лут в пределах видимости.",
+        "ru_upgraded_description": "Соберите любой лут в пределах видимости.\nПолучите +1 [img:lck].",
+        "en_name": "Snatch",
+        "en_description": "Collect any pickup within your line of sight.",
+        "en_upgraded_description": "Collect any pickup within your line of sight.\r\nGain +1 [img:lck]."
+      },
       "manifest": {
         "ability_id": "Snatch",
         "display_name": "Snatch",
@@ -970,6 +1330,15 @@
       "variant": "normal",
       "description": "Inflict Freeze on a unit within your line of sight.Upgraded: Inflict Freeze 1, Blind 2, and Confusion 2 on a unit within your line of sight.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STASIS_NAME",
+        "ru_name": "Стазис",
+        "ru_description": "Заморозьте видимого юнита.",
+        "ru_upgraded_description": "Заморозка 1, Слепота 2 и Замешательство 2 на видимого юнита.",
+        "en_name": "Stasis",
+        "en_description": "Inflict Freeze on a unit within your line of sight.",
+        "en_upgraded_description": "Inflict Freeze 1, Blind 2, and Confusion 2 on a unit within your line of sight."
+      },
       "manifest": {
         "ability_id": "Stasis",
         "display_name": "Stasis",
@@ -994,6 +1363,15 @@
       "variant": "normal",
       "description": "Cause an enemy within your line of sight to attack another enemy if it can.Upgraded: Cause enemies in a target area within your line of sight to each attack another enemy if they can.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SUGGESTION_NAME",
+        "ru_name": "Внушение",
+        "ru_description": "Заставьте видимого врага атаковать другого врага, если он может.",
+        "ru_upgraded_description": "Заставьте видимых врагов в области атаковать других врагов, если они могут.",
+        "en_name": "Suggestion",
+        "en_description": "Cause an enemy within your line of sight to attack another enemy if it can.",
+        "en_upgraded_description": "Cause enemies in a target area within your line of sight to each attack another enemy if they can."
+      },
       "manifest": {
         "ability_id": "Suggestion",
         "display_name": "Suggestion",
@@ -1018,6 +1396,15 @@
       "variant": "normal",
       "description": "Push a unit within your line of sight away from you 10 tiles.Upgraded: Push a unit within your line of sight away from you 10 tiles with Chain Knockback.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TELEKINESIS_NAME",
+        "ru_name": "Телекинез",
+        "ru_description": "Толкните видимого юнита от себя на 10 клеток.",
+        "ru_upgraded_description": "Толкните видимого юнита от себя на 10 клеток с Цепным Отбрасыванием.",
+        "en_name": "Telekinesis",
+        "en_description": "Push a unit within your line of sight away from you 10 tiles.",
+        "en_upgraded_description": "Push a unit within your line of sight away from you 10 tiles with Chain Knockback."
+      },
       "manifest": {
         "ability_id": "Telekinesis",
         "display_name": "Telekinesis",
@@ -1042,6 +1429,15 @@
       "variant": "normal",
       "description": "Give a unit within your line of sight +3 temporary Bleed Thorns until the end of its turn.Upgraded: Give a unit within your line of sight +3 temporary Bleed Thorns until the end of its turn. If its was an ally, the bleed thorns last for the rest of the battle.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TEMPORALSHARDS_NAME",
+        "ru_name": "Осколки ремени",
+        "ru_description": "Дайте юниту в пределах вашей видимости +3 Кровоточащие Шипы временно до конца его хода.",
+        "ru_upgraded_description": "Дайте юниту в пределах вашей видимости +3 Кровоточащие Шипы временно до конца его хода. Если это союзник, Кровоточащие Шипы действуют до конца боя.",
+        "en_name": "Temporal Shards",
+        "en_description": "Give a unit within your line of sight +3 temporary Bleed Thorns until the end of its turn.",
+        "en_upgraded_description": "Give a unit within your line of sight +3 temporary Bleed Thorns until the end of its turn. If its was an ally, the bleed thorns last for the rest of the battle."
+      },
       "manifest": {
         "ability_id": "TemporalShards",
         "display_name": "Temporal Shards",
@@ -1066,6 +1462,15 @@
       "variant": "normal",
       "description": "Restore all of your mana and fall asleep. (Castable once per turn.) Upgraded: Restore all of your mana and fall asleep. (Castable once per turn. This spell costs 0 mana.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THINKDEEP_NAME",
+        "ru_name": "Глубокая мысль",
+        "ru_description": "Восстановите всю ману и усните.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Восстановите всю ману и усните.\n[s:.7](Раз за ход. Бесплатно.)[/s]",
+        "en_name": "Think Deep",
+        "en_description": "Restore all of your mana and fall asleep.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Restore all of your mana and fall asleep.\r\n[s:.7](Castable once per turn. This spell costs 0 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "ThinkDeep",
         "display_name": "Think Deep",
@@ -1090,6 +1495,15 @@
       "variant": "upgraded",
       "description": "Restore all of your mana and fall asleep. (Castable once per turn.) Upgraded: Restore all of your mana and fall asleep. (Castable once per turn. This spell costs 0 mana.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THINKDEEP_NAME",
+        "ru_name": "Глубокая мысль",
+        "ru_description": "Восстановите всю ману и усните.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Восстановите всю ману и усните.\n[s:.7](Раз за ход. Бесплатно.)[/s]",
+        "en_name": "Think Deep",
+        "en_description": "Restore all of your mana and fall asleep.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Restore all of your mana and fall asleep.\r\n[s:.7](Castable once per turn. This spell costs 0 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "ThinkDeep",
         "display_name": "Think Deep",
@@ -1114,6 +1528,15 @@
       "variant": "normal",
       "description": "Teleport all enemies within an area as close to the center of that area as possible.Upgraded: Teleport all enemies within a large area as close to the center of that area as possible and inflict Confusion on those units.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_VACUUM_NAME",
+        "ru_name": "Вакуум",
+        "ru_description": "Телепортируйте всех врагов в области как можно ближе к её центру.",
+        "ru_upgraded_description": "Телепортируйте всех врагов в большой области к центру и наложите Замешательство.",
+        "en_name": "Vacuum",
+        "en_description": "Teleport all enemies within an area as close to the center of that area as possible.",
+        "en_upgraded_description": "Teleport all enemies within a large area as close to the center of that area as possible and inflict Confusion on those units."
+      },
       "manifest": {
         "ability_id": "Vaccuum",
         "display_name": "Vacuum",
@@ -1138,6 +1561,15 @@
       "variant": "normal",
       "description": "Pull any unit within your line of sight to a tile adjacent to you.Upgraded: Pull any unit within your line of sight to a tile adjacent to you. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WITHDRAW_NAME",
+        "ru_name": "Отзыв",
+        "ru_description": "Притяните любого видимого юнита на клетку рядом с собой.",
+        "ru_upgraded_description": "Притяните любого видимого юнита на клетку рядом с собой.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Withdraw",
+        "en_description": "Pull any unit within your line of sight to a tile adjacent to you.",
+        "en_upgraded_description": "Pull any unit within your line of sight to a tile adjacent to you.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Withdraw",
         "display_name": "Withdraw",
@@ -1162,6 +1594,15 @@
       "variant": "upgraded",
       "description": "Pull any unit within your line of sight to a tile adjacent to you.Upgraded: Pull any unit within your line of sight to a tile adjacent to you. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WITHDRAW_NAME",
+        "ru_name": "Отзыв",
+        "ru_description": "Притяните любого видимого юнита на клетку рядом с собой.",
+        "ru_upgraded_description": "Притяните любого видимого юнита на клетку рядом с собой.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Withdraw",
+        "en_description": "Pull any unit within your line of sight to a tile adjacent to you.",
+        "en_upgraded_description": "Pull any unit within your line of sight to a tile adjacent to you.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Withdraw",
         "display_name": "Withdraw",

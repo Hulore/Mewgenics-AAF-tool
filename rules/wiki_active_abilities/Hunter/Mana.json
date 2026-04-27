@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Gain +1 Bonus Attack at the start of your next turn.Upgraded: You or another unit gains +1 Bonus Attack at the start of their next turn.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ARROWSMITH_NAME",
+        "ru_name": "Стрелодел",
+        "ru_description": "Получите +1 Бонусную Атаку в начале след. хода.",
+        "ru_upgraded_description": "Вы или другой юнит получаете +1 Бонусную Атаку в начале след. хода.",
+        "en_name": "Arrowsmith",
+        "en_description": "Gain +1 Bonus Attack at the start of your next turn.",
+        "en_upgraded_description": "You or another unit gains +1 Bonus Attack at the start of their next turn."
+      },
       "manifest": {
         "ability_id": "ArrowSmith",
         "display_name": "Arrowsmith",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Set a bait trap that attracts enemies.Upgraded: Set a bait trap that attracts enemies and inflicts Poison and Slow when eaten.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BAITTRAP_NAME",
+        "ru_name": "Ловушка-приманка",
+        "ru_description": "Поставьте приманку, привлекающую врагов.",
+        "ru_upgraded_description": "Поставьте приманку. При поедании: Яд и Замедление.",
+        "en_name": "Bait Trap",
+        "en_description": "Set a bait trap that attracts enemies.",
+        "en_upgraded_description": "Set a bait trap that attracts enemies and inflicts Poison and Slow when eaten."
+      },
       "manifest": {
         "ability_id": "SpawnBaitTrap",
         "display_name": "Bait Trap",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Set a trap within 5 tiles that damages and immobilizes units that walk over it.Upgraded: Set a trap on any tile that damages and immobilizes units that walk over it.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BEARTRAP_NAME",
+        "ru_name": "Медвежий капкан",
+        "ru_description": "Поставьте капкан (радиус 5). Урон и Обездвиживание наступившим.",
+        "ru_upgraded_description": "Поставьте капкан где угодно. Урон и Обездвиживание наступившим.",
+        "en_name": "Bear Trap",
+        "en_description": "Set a trap within 5 tiles that damages and immobilizes units that walk over it.",
+        "en_upgraded_description": "Set a trap on any tile that damages and immobilizes units that walk over it."
+      },
       "manifest": {
         "ability_id": "BearTrap",
         "display_name": "Bear Trap",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Shoot a projectile that bounces everything adjacent to it back 3 tiles.Upgraded: Shoot a projectile that bounces everything adjacent to it back 3 tiles. They take 5 damage if they collide with something.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BOUNCESHOT_NAME",
+        "ru_name": "Прыгучий выстрел",
+        "ru_description": "Выстрел, отбрасывающий всех соседей снаряда на 3 клетки назад.",
+        "ru_upgraded_description": "Выстрел, отбрасывающий всех соседей снаряда. 5 урона при столкновении.",
+        "en_name": "Bounce Shot",
+        "en_description": "Shoot a projectile that bounces everything adjacent to it back 3 tiles.",
+        "en_upgraded_description": "Shoot a projectile that bounces everything adjacent to it back 3 tiles. They take 5 damage if they collide with something."
+      },
       "manifest": {
         "ability_id": "BounceShot",
         "display_name": "Bounce Shot",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Spawn a charmed Tom Tom.Upgraded: Spawn a charmed Tom Tom on any tile.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CALLOFTHEWILD_NAME",
+        "ru_name": "Зов природы",
+        "ru_description": "Призовите очарованного Том-Тома.",
+        "ru_upgraded_description": "Призовите очарованного Том-Тома на любую клетку.",
+        "en_name": "Call of the Wild",
+        "en_description": "Spawn a charmed Tom Tom.",
+        "en_upgraded_description": "Spawn a charmed Tom Tom on any tile."
+      },
       "manifest": {
         "ability_id": "SpawnTomTomFriend",
         "display_name": "Call of the Wild",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Destroy a body. Equip a piece of Cat Hide armor to an empty armor slot.Upgraded: Destroy a body. Create a big food pickup and equip a piece of Cat Hide armor to an empty armor slot.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_COLLECTPELT_NAME",
+        "ru_name": "Снятие шкуры",
+        "ru_description": "Уничтожьте тело. Экипируйте Предмет из Кошачьей Шкуры в 1 из 3 пустых слотов брони.",
+        "ru_upgraded_description": "Уничтожьте тело. Создайте большую еду и экипируйте Кошачью Шкуру.",
+        "en_name": "Collect Pelt",
+        "en_description": "Destroy a body. Equip a piece of Cat Hide armor to an empty armor slot.",
+        "en_upgraded_description": "Destroy a body. Create a big food pickup and equip a piece of Cat Hide armor to an empty armor slot."
+      },
       "manifest": {
         "ability_id": "CollectPelt",
         "display_name": "Collect Pelt",
@@ -154,6 +208,15 @@
       "variant": "upgraded",
       "description": "Destroy a body. Equip a piece of Cat Hide armor to an empty armor slot.Upgraded: Destroy a body. Create a big food pickup and equip a piece of Cat Hide armor to an empty armor slot.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_COLLECTPELT_NAME",
+        "ru_name": "Снятие шкуры",
+        "ru_description": "Уничтожьте тело. Экипируйте Предмет из Кошачьей Шкуры в 1 из 3 пустых слотов брони.",
+        "ru_upgraded_description": "Уничтожьте тело. Создайте большую еду и экипируйте Кошачью Шкуру.",
+        "en_name": "Collect Pelt",
+        "en_description": "Destroy a body. Equip a piece of Cat Hide armor to an empty armor slot.",
+        "en_upgraded_description": "Destroy a body. Create a big food pickup and equip a piece of Cat Hide armor to an empty armor slot."
+      },
       "manifest": {
         "ability_id": "CollectPelt",
         "display_name": "Collect Pelt",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Collect an adjacent pickup and gain +1 Bonus Attack instead of its normal effects.Upgraded: Collect all pickups within two tiles of you. Gain +1 Bonus Attack for each pickup instead of their normal effects. (This spell costs 1 mana.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CRAFTARROW_NAME",
+        "ru_name": "Крафт стрелы",
+        "ru_description": "Подберите соседний лут и получите +1 Бонусную Атаку вместо эффекта.",
+        "ru_upgraded_description": "Подберите весь лут в радиусе 2. +1 Бонусная Атака за каждый предмет.\n[s:.7](Цена: 1 мана.)[/s]",
+        "en_name": "Craft Arrow",
+        "en_description": "Collect an adjacent pickup and gain +1 Bonus Attack instead of its normal effects.",
+        "en_upgraded_description": "Collect all pickups within two tiles of you. Gain +1 Bonus Attack for each pickup instead of their normal effects.\n[s:.7](This spell costs 1 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "CraftArrow",
         "display_name": "Craft Arrow",
@@ -202,6 +274,15 @@
       "variant": "upgraded",
       "description": "Collect an adjacent pickup and gain +1 Bonus Attack instead of its normal effects.Upgraded: Collect all pickups within two tiles of you. Gain +1 Bonus Attack for each pickup instead of their normal effects. (This spell costs 1 mana.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CRAFTARROW_NAME",
+        "ru_name": "Крафт стрелы",
+        "ru_description": "Подберите соседний лут и получите +1 Бонусную Атаку вместо эффекта.",
+        "ru_upgraded_description": "Подберите весь лут в радиусе 2. +1 Бонусная Атака за каждый предмет.\n[s:.7](Цена: 1 мана.)[/s]",
+        "en_name": "Craft Arrow",
+        "en_description": "Collect an adjacent pickup and gain +1 Bonus Attack instead of its normal effects.",
+        "en_upgraded_description": "Collect all pickups within two tiles of you. Gain +1 Bonus Attack for each pickup instead of their normal effects.\n[s:.7](This spell costs 1 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "CraftArrow",
         "display_name": "Craft Arrow",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Give a unit +3 range and reach until the end of their next turn.Upgraded: Give a unit +20 range and reach until the end of their next turn.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_EXTEND_NAME",
+        "ru_name": "Растяжение",
+        "ru_description": "Дайте юниту +3 к Дальности и Радиусе действия до конца его следующего хода.",
+        "ru_upgraded_description": "Дайте юниту +20 Дальности и Радиусе действия до конца его следующего хода.",
+        "en_name": "Extend",
+        "en_description": "Give a unit +3 range and reach until the end of their next turn.",
+        "en_upgraded_description": "Give a unit +20 range and reach until the end of their next turn."
+      },
       "manifest": {
         "ability_id": "Extend",
         "display_name": "Extend",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Spawn bear traps on each adjacent tile.Upgraded: Spawn bear traps on each tile exactly 2 tiles away.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HEDGEIN_NAME",
+        "ru_name": "Ограждение",
+        "ru_description": "Создайте капканы на всех соседних клетках.",
+        "ru_upgraded_description": "Создайте капканы на всех клетках в радиусе 2 (кольцом).",
+        "en_name": "Hedge In",
+        "en_description": "Spawn bear traps on each adjacent tile.",
+        "en_upgraded_description": "Spawn bear traps on each tile exactly 2 tiles away."
+      },
       "manifest": {
         "ability_id": "Bunker",
         "display_name": "Hedge In",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "Inflict Marked on a unit.Upgraded: Inflict Marked on a unit and all other units of the same type.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MARKED_NAME",
+        "ru_name": "Метка",
+        "ru_description": "Наложите Метку на юнита.",
+        "ru_upgraded_description": "Наложите Метку на юнита и всех других того же типа.",
+        "en_name": "Marked",
+        "en_description": "Inflict Marked on a unit.",
+        "en_upgraded_description": "Inflict Marked on a unit and all other units of the same type."
+      },
       "manifest": {
         "ability_id": "Marked",
         "display_name": "Marked",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Inflict Marked 5 on a unit. RELOAD: Kill an enemy.Upgraded: Inflict Marked 5 on a unit. RELOAD: Kill an enemy. This spell starts reloaded.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PERSISTENTHUNT_NAME",
+        "ru_name": "Упорная охота",
+        "ru_description": "Наложите Метку 5 на юнита.\nПЕРЕЗАРЯДКА: Убейте врага.",
+        "ru_upgraded_description": "Наложите Метку 5 на юнита.\nПЕРЕЗАРЯДКА: Убейте врага.\n(Начинается заряженным).",
+        "en_name": "Persistent Hunt",
+        "en_description": "Inflict Marked 5 on a unit. \nRELOAD: Kill an enemy.",
+        "en_upgraded_description": "Inflict Marked 5 on a unit.\nRELOAD: Kill an enemy.\nThis spell starts reloaded."
+      },
       "manifest": {
         "ability_id": "PersistentHunt",
         "display_name": "Persistent Hunt",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Inflict Charm on a unit. If it's an enemy, it takes an extra turn immediately.Upgraded: Inflict Charm on a unit. It takes an extra turn immediately.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PHEROMONES_NAME",
+        "ru_name": "Феромоны",
+        "ru_description": "Очаруйте юнита. Если это враг, он сразу делает дополнительный ход.",
+        "ru_upgraded_description": "Очаруйте юнита. Он сразу делает дополнительный ход.",
+        "en_name": "Pheromones",
+        "en_description": "Inflict Charm on a unit. If it's an enemy, it takes an extra turn immediately.",
+        "en_upgraded_description": "Inflict Charm on a unit. It takes an extra turn immediately."
+      },
       "manifest": {
         "ability_id": "Pheromones",
         "display_name": "Pheromones",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Give yourself or an adjacent unit +1 Poison Lace.Upgraded: Give yourself or any other unit +1 Poison Lace.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_POISONLACE_NAME",
+        "ru_name": "Ядовитое покрытие",
+        "ru_description": "Дайте себе или соседу +1 Ядовитое Покрытие.",
+        "ru_upgraded_description": "Дайте себе или любому юниту +1 Ядовитое Покрытие.",
+        "en_name": "Poison Lace",
+        "en_description": "Give yourself or an adjacent unit +1 Poison Lace.",
+        "en_upgraded_description": "Give yourself or any other unit +1 Poison Lace."
+      },
       "manifest": {
         "ability_id": "PoisonLace",
         "display_name": "Poison Lace",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice. (Castable once per turn.) Upgraded: Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice. (Castable once per turn. This spell costs 0 mana.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SCOUTME_NAME",
+        "ru_name": "Наводка",
+        "ru_description": "До след. хода союзные коты получают способность выстрелить в выбранную вами клетку.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "До след. хода союзные коты получают способность выстрелить в выбранную вами клетку.\n[s:.7](Раз за ход. Бесплатно.)[/s]",
+        "en_name": "Scout Me",
+        "en_description": "Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice.\n[s:.7](Castable once per turn. This spell costs 0 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "ScoutMe",
         "display_name": "Scout Me",
@@ -394,6 +538,15 @@
       "variant": "upgraded",
       "description": "Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice. (Castable once per turn.) Upgraded: Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice. (Castable once per turn. This spell costs 0 mana.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SCOUTME_NAME",
+        "ru_name": "Наводка",
+        "ru_description": "До след. хода союзные коты получают способность выстрелить в выбранную вами клетку.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "До след. хода союзные коты получают способность выстрелить в выбранную вами клетку.\n[s:.7](Раз за ход. Бесплатно.)[/s]",
+        "en_name": "Scout Me",
+        "en_description": "Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice.\n[s:.7](Castable once per turn. This spell costs 0 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "ScoutMe",
         "display_name": "Scout Me",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "The next time an enemy ends movement in your basic attack range, attack it.Upgraded: Until your next turn, whenever an enemy ends movement in your basic attack range, attack it.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SENTRYMODE_NAME",
+        "ru_name": "Режим часового",
+        "ru_description": "Когда враг закончит движение в радиусе вашей атаки, атакуйте его (один раз).",
+        "ru_upgraded_description": "До вашего след. хода: всегда атакуйте врагов, заканчивающих движение в радиусе атаки.",
+        "en_name": "Sentry Mode",
+        "en_description": "The next time an enemy ends movement in your basic attack range, attack it.",
+        "en_upgraded_description": "Until your next turn, whenever an enemy ends movement in your basic attack range, attack it."
+      },
       "manifest": {
         "ability_id": "SentryMode",
         "display_name": "Sentry Mode",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Instructs your friend to shoot an adjacent tile! (Castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHOOTHERE_NAME",
+        "ru_name": "Стреляй сюда!",
+        "ru_description": "Приказывает другу выстрелить в соседнюю клетку!\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "",
+        "en_name": "Shoot Here!",
+        "en_description": "Instructs your friend to shoot an adjacent tile!\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "ShootHere",
         "display_name": "Shoot Here!",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Spawn a maggot familiar.Upgraded: Spawn a maggot familiar.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPAWNMAGGOTFRIEND_NAME",
+        "ru_name": "Призыв Друга-Опарыша",
+        "ru_description": "Призовите опарыша-фамильяра.",
+        "ru_upgraded_description": "Призовите [img:champion] опарыша-фамильяра.",
+        "en_name": "Spawn Maggot Friend",
+        "en_description": "Spawn a maggot familiar.",
+        "en_upgraded_description": "Spawn a [img:champion] maggot familiar."
+      },
       "manifest": {
         "ability_id": "SpawnMaggotFriend",
         "display_name": "Spawn Maggot Friend",
@@ -490,6 +670,15 @@
       "variant": "normal",
       "description": "Spawn a pooter familiar.Upgraded: Spawn 2 pooter familiars.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPAWNPOOTERFRIEND_NAME",
+        "ru_name": "Призыв Друга-Пердуна",
+        "ru_description": "Призовите пердуна-фамильяра.",
+        "ru_upgraded_description": "Призовите 2 пердунов-фамильяров.",
+        "en_name": "Spawn Pooter Friend",
+        "en_description": "Spawn a pooter familiar.",
+        "en_upgraded_description": "Spawn 2 pooter familiars."
+      },
       "manifest": {
         "ability_id": "SpawnPooterFriend",
         "display_name": "Spawn Pooter Friend",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "End your turn. On your next turn, your ranged abilities deal double damage. (Castable only if you haven't taken any other actions this turn.) Upgraded: End your turn. On your next turn, your ranged abilities deal double damage. (Costs 0 mana. Castable only if you haven't taken any other actions this turn other than your movement action.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_STAKEOUT_NAME",
+        "ru_name": "Засада",
+        "ru_description": "Завершите ход. В следующем ходу ваши дальние атаки наносят двойной урон.\n[s:.7](Можно, только если вы ничего не делали в этот ход.)[/s]",
+        "ru_upgraded_description": "Завершите ход. В следующем ходу ваши дальние атаки наносят двойной урон.\n[s:.7](Бесплатно. Можно, если вы только двигались в этот ход.)[/s]",
+        "en_name": "Stake Out",
+        "en_description": "End your turn. On your next turn, your ranged abilities deal double damage.\n[s:.7](Castable only if you haven't taken any other actions this turn.)[/s]",
+        "en_upgraded_description": "End your turn. On your next turn, your ranged abilities deal double damage.\n[s:.7](Costs 0 mana. Castable only if you haven't taken any other actions this turn other than your movement action.)[/s]"
+      },
       "manifest": {
         "ability_id": "StakeOut",
         "display_name": "Stake Out",
@@ -538,6 +736,15 @@
       "variant": "upgraded",
       "description": "End your turn. On your next turn, your ranged abilities deal double damage. (Castable only if you haven't taken any other actions this turn.) Upgraded: End your turn. On your next turn, your ranged abilities deal double damage. (Costs 0 mana. Castable only if you haven't taken any other actions this turn other than your movement action.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_STAKEOUT_NAME",
+        "ru_name": "Засада",
+        "ru_description": "Завершите ход. В следующем ходу ваши дальние атаки наносят двойной урон.\n[s:.7](Можно, только если вы ничего не делали в этот ход.)[/s]",
+        "ru_upgraded_description": "Завершите ход. В следующем ходу ваши дальние атаки наносят двойной урон.\n[s:.7](Бесплатно. Можно, если вы только двигались в этот ход.)[/s]",
+        "en_name": "Stake Out",
+        "en_description": "End your turn. On your next turn, your ranged abilities deal double damage.\n[s:.7](Castable only if you haven't taken any other actions this turn.)[/s]",
+        "en_upgraded_description": "End your turn. On your next turn, your ranged abilities deal double damage.\n[s:.7](Costs 0 mana. Castable only if you haven't taken any other actions this turn other than your movement action.)[/s]"
+      },
       "manifest": {
         "ability_id": "StakeOut",
         "display_name": "Stake Out",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Spawn brambles on any tile.Upgraded: Spawn brambles in an area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONBRAMBLES_NAME",
+        "ru_name": "Призыв терновника",
+        "ru_description": "Создайте терновник на любой клетке.",
+        "ru_upgraded_description": "Создайте терновник в области.",
+        "en_name": "Summon Brambles",
+        "en_description": "Spawn brambles on any tile.",
+        "en_upgraded_description": "Spawn brambles in an area."
+      },
       "manifest": {
         "ability_id": "SummonBrambles",
         "display_name": "Summon Brambles",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Teleport up to 5 tiles away. Set a bear trap on the tile you teleported from.Upgraded: Teleport up to 5 tiles away. Set a baited bear trap on the tile you teleported from.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TACTICALRETREAT_NAME",
+        "ru_name": "Тактическое отступление",
+        "ru_description": "Телепорт до 5 клеток. Ставит капкан там, откуда вы исчезли.",
+        "ru_upgraded_description": "Телепорт до 5 клеток. Ставит капкан с приманкой там, откуда вы исчезли.",
+        "en_name": "Tactical Retreat",
+        "en_description": "Teleport up to 5 tiles away. Set a bear trap on the tile you teleported from.",
+        "en_upgraded_description": "Teleport up to 5 tiles away. Set a baited bear trap on the tile you teleported from."
+      },
       "manifest": {
         "ability_id": "TacticalRetreat",
         "display_name": "Tactical Retreat",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Teleport to any grass or water tile.Upgraded: Teleport to any grass or water tile. Gain Stealth.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TERRAINWALK_NAME",
+        "ru_name": "Прогулка по местности",
+        "ru_description": "Телепортируйтесь на любую траву или воду.",
+        "ru_upgraded_description": "Телепортируйтесь на любую траву или воду. Получите Скрытность.",
+        "en_name": "Terrain Walk",
+        "en_description": "Teleport to any grass or water tile.",
+        "en_upgraded_description": "Teleport to any grass or water tile. Gain Stealth."
+      },
       "manifest": {
         "ability_id": "TerrainWalk",
         "display_name": "Terrain Walk",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Set a trap that webs non-bug units that walk through it.Upgraded: Set a web trap on any tile that webs non-bug units that walk through it.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WEBTRAP_NAME",
+        "ru_name": "Паутинная ловушка",
+        "ru_description": "Поставьте ловушку, которая пленит не-жуков.",
+        "ru_upgraded_description": "Поставьте паутину где угодно. Пленит не-жуков.",
+        "en_name": "Web Trap",
+        "en_description": "Set a trap that webs non-bug units that walk through it.",
+        "en_upgraded_description": "Set a web trap on any tile that webs non-bug units that walk through it."
+      },
       "manifest": {
         "ability_id": "WebTrap",
         "display_name": "Web Trap",

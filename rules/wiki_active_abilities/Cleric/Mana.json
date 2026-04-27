@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Give +2 Diminishing Health Regeneration and +1 to a random stat to an adjacent unit.Upgraded: Give +2 Diminishing Health Regeneration and +1 to 2 random stats to any unit.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_ANOINT_NAME",
+        "ru_name": "Помазание",
+        "ru_description": "Дайте соседнему юниту +2 Угасающей Регенерации и +1 к случайной хар-ке.",
+        "ru_upgraded_description": "Дайте любому юниту +2 Угасающей Регенерации и +1 к 2 случайным хар-кам.",
+        "en_name": "Anoint",
+        "en_description": "Give +2 Diminishing Health Regeneration and +1 to a random stat to an adjacent unit.",
+        "en_upgraded_description": "Give +2 Diminishing Health Regeneration and +1 to 2 random stats to any unit."
+      },
       "manifest": {
         "ability_id": "Anoint",
         "display_name": "Anoint",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Inflict Blind 1 on each unit in an area.Upgraded: Inflict Blind 2 on each unit in a larger area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLINDINGLIGHT_NAME",
+        "ru_name": "Ослепительный свет",
+        "ru_description": "Наложите Слепоту 1 на всех в области.",
+        "ru_upgraded_description": "Наложите Слепоту 2 на всех в большей области.",
+        "en_name": "Blinding Lights",
+        "en_description": "Inflict Blind 1 on each unit in an area.",
+        "en_upgraded_description": "Inflict Blind 2 on each unit in a larger area."
+      },
       "manifest": {
         "ability_id": "BlindingLight",
         "display_name": "Blinding Lights",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Revive a body to 100% HP and give it All Stats Up, then you fall asleep.Upgraded: Revive a body to 100% HP and give it All Stats Up.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BORNAGAIN_NAME",
+        "ru_name": "Рожденный заново",
+        "ru_description": "Воскресите тело с 100% ОЗ, дайте ему Повышение Всех Характеристик, затем вы засыпаете.",
+        "ru_upgraded_description": "Воскресите тело с 100% ОЗ и дайте ему Повышение Всех Характеристик.",
+        "en_name": "Born Again",
+        "en_description": "Revive a body to 100% HP and give it All Stats Up, then you fall asleep.",
+        "en_upgraded_description": "Revive a body to 100% HP and give it All Stats Up."
+      },
       "manifest": {
         "ability_id": "BornAgain",
         "display_name": "Born Again",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Jump to an open tile next to an ally.Upgraded: Jump to an open tile next to an ally. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BUDDYUP_NAME",
+        "ru_name": "Напарники",
+        "ru_description": "Прыгните на свободную клетку рядом с союзником.",
+        "ru_upgraded_description": "Прыгните на свободную клетку рядом с союзником.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Buddy Up",
+        "en_description": "Jump to an open tile next to an ally.",
+        "en_upgraded_description": "Jump to an open tile next to an ally.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "BuddyUp",
         "display_name": "Buddy Up",
@@ -106,6 +142,15 @@
       "variant": "upgraded",
       "description": "Jump to an open tile next to an ally.Upgraded: Jump to an open tile next to an ally. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BUDDYUP_NAME",
+        "ru_name": "Напарники",
+        "ru_description": "Прыгните на свободную клетку рядом с союзником.",
+        "ru_upgraded_description": "Прыгните на свободную клетку рядом с союзником.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Buddy Up",
+        "en_description": "Jump to an open tile next to an ally.",
+        "en_upgraded_description": "Jump to an open tile next to an ally.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "BuddyUp",
         "display_name": "Buddy Up",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Make an ally move toward you.Upgraded: Make an ally move toward you. Infinite range.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CALLOVER_NAME",
+        "ru_name": "Подозвать",
+        "ru_description": "Заставьте союзника идти к вам.",
+        "ru_upgraded_description": "Заставьте союзника идти к вам. Бесконечная дальность.",
+        "en_name": "Call Over",
+        "en_description": "Make an ally move toward you.",
+        "en_upgraded_description": "Make an ally move toward you. Infinite range."
+      },
       "manifest": {
         "ability_id": "CallOver",
         "display_name": "Call Over",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Give a unit +1 Damage. That unit becomes the Alpha. If there is an Alpha, this spell must target it and it gives +1 bonus attack.Upgraded: Give a unit +1 Damage and +1 Magic Damage. That unit becomes the Alpha. If there is an Alpha, this spell must target it and it gives +1 bonus attack. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHOSENWARRIOR_NAME",
+        "ru_name": "Избранный воин",
+        "ru_description": "Дайте юниту +1 Урон. Он становится Альфой.\nЕсли Альфа уже есть, заклинание бьет в него и дает +1 бонусную атаку.",
+        "ru_upgraded_description": "Дайте юниту +1 Урон и +1 Маг. Урон. Он становится Альфой.\nЕсли Альфа уже есть, заклинание бьет в него и дает +1 бонусную атаку.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Chosen Warrior",
+        "en_description": "Give a unit +1 Damage. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives +1 bonus attack.",
+        "en_upgraded_description": "Give a unit +1 Damage and +1 Magic Damage. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives +1 bonus attack.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ChosenWarrior",
         "display_name": "Chosen Warrior",
@@ -178,6 +241,15 @@
       "variant": "upgraded",
       "description": "Give a unit +1 Damage. That unit becomes the Alpha. If there is an Alpha, this spell must target it and it gives +1 bonus attack.Upgraded: Give a unit +1 Damage and +1 Magic Damage. That unit becomes the Alpha. If there is an Alpha, this spell must target it and it gives +1 bonus attack. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHOSENWARRIOR_NAME",
+        "ru_name": "Избранный воин",
+        "ru_description": "Дайте юниту +1 Урон. Он становится Альфой.\nЕсли Альфа уже есть, заклинание бьет в него и дает +1 бонусную атаку.",
+        "ru_upgraded_description": "Дайте юниту +1 Урон и +1 Маг. Урон. Он становится Альфой.\nЕсли Альфа уже есть, заклинание бьет в него и дает +1 бонусную атаку.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Chosen Warrior",
+        "en_description": "Give a unit +1 Damage. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives +1 bonus attack.",
+        "en_upgraded_description": "Give a unit +1 Damage and +1 Magic Damage. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives +1 bonus attack.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ChosenWarrior",
         "display_name": "Chosen Warrior",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Give +1 to each unit within 2 tiles of you.Upgraded: Give +1 and +1 Health Regeneration to each unit within 2 tiles of you. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CIRCLEOFPROTECTION_NAME",
+        "ru_name": "Круг защиты",
+        "ru_description": "Дайте +1 [img:divineshield] каждому юниту в 2 клетках от вас.",
+        "ru_upgraded_description": "Дайте +1 [img:divineshield] и +1 Регенерацию Здоровья каждому юниту в 2 клетках от вас.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Circle of Protection",
+        "en_description": "Give +1 [img:divineshield] to each unit within 2 tiles of you.",
+        "en_upgraded_description": "Give +1 [img:divineshield] and +1 Health Regeneration to each unit within 2 tiles of you.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CircleOfProtection",
         "display_name": "Circle of Protection",
@@ -226,6 +307,15 @@
       "variant": "upgraded",
       "description": "Give +1 to each unit within 2 tiles of you.Upgraded: Give +1 and +1 Health Regeneration to each unit within 2 tiles of you. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CIRCLEOFPROTECTION_NAME",
+        "ru_name": "Круг защиты",
+        "ru_description": "Дайте +1 [img:divineshield] каждому юниту в 2 клетках от вас.",
+        "ru_upgraded_description": "Дайте +1 [img:divineshield] и +1 Регенерацию Здоровья каждому юниту в 2 клетках от вас.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Circle of Protection",
+        "en_description": "Give +1 [img:divineshield] to each unit within 2 tiles of you.",
+        "en_upgraded_description": "Give +1 [img:divineshield] and +1 Health Regeneration to each unit within 2 tiles of you.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CircleOfProtection",
         "display_name": "Circle of Protection",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Remove all debuffs from units in an area.Upgraded: Remove all debuffs from units in an area. Those units get +1 for each debuff removed.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CLEANSE_NAME",
+        "ru_name": "Очищение",
+        "ru_description": "Снимите все дебаффы с юнитов в области.",
+        "ru_upgraded_description": "Снимите все дебаффы с юнитов в области. Эти юниты получают +1 [img:divineshield] за каждый снятый дебафф.",
+        "en_name": "Cleanse",
+        "en_description": "Remove all debuffs from units in an area.",
+        "en_upgraded_description": "Remove all debuffs from units in an area. Those units get +1 [img:divineshield] for each debuff removed."
+      },
       "manifest": {
         "ability_id": "Cleanse",
         "display_name": "Cleanse",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "Inflict Charm 2 on an adjacent unit.Upgraded: Inflict Charm 2 on an adjacent unit. Non-boss enemies with less than 25% health join your party.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CONVERT_NAME",
+        "ru_name": "Обращение",
+        "ru_description": "Наложите Очарование 2 на соседнего юнита.",
+        "ru_upgraded_description": "Наложите Очарование 2 на соседнего юнита. Обычные враги (не боссы) с <25% ОЗ переходят на вашу сторону.",
+        "en_name": "Convert",
+        "en_description": "Inflict Charm 2 on an adjacent unit.",
+        "en_upgraded_description": "Inflict Charm 2 on an adjacent unit. Non-boss enemies with less than 25% health join your party."
+      },
       "manifest": {
         "ability_id": "Convert",
         "display_name": "Convert",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "You and your allies move toward the nearest enemy.Upgraded: You and your allies move toward the nearest enemy and gain +1 Strength.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CRUSADE_NAME",
+        "ru_name": "Крестовый поход",
+        "ru_description": "Вы и ваши союзники движетесь к ближайшему врагу.",
+        "ru_upgraded_description": "Вы и ваши союзники движетесь к ближайшему врагу и получаете +1 [img:str].",
+        "en_name": "Crusade",
+        "en_description": "You and your allies move toward the nearest enemy.",
+        "en_upgraded_description": "You and your allies move toward the nearest enemy and gain +1 [img:str]."
+      },
       "manifest": {
         "ability_id": "Crusade",
         "display_name": "Crusade",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Gain All Stats Up. This spell costs 1 mana less for each HP you healed other units this turn. (Castable once per turn.) Upgraded: Gain All Stats Up and +1 . This spell costs 1 mana less for each HP you healed other units this turn. (Castable once per turn.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_DIVINEGIFT_NAME",
+        "ru_name": "Божий дар",
+        "ru_description": "Получите Повышение Всех Характеристик. Стоит на 1 ману меньше за каждое ОЗ, которое вы восстановили другим в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Получите Повышение Всех Характеристик и +1 [img:divineshield]. Стоит на 1 ману меньше за каждое ОЗ, которое вы восстановили другим в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Divine Gift",
+        "en_description": "Gain All Stats Up. This spell costs 1 mana less for each HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Gain All Stats Up and +1 [img:divineshield]. This spell costs 1 mana less for each HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "DivineGift",
         "display_name": "Divine Gift",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Give a unit +1 and +1 Kinetic Spikes. That unit becomes the Alpha. If there is an Alpha, this spell costs less and must target it.Upgraded: Give a unit anywhere +1 and +2 Kinetic Spikes. That unit becomes the Alpha. If there is an Alpha, this spell costs less and must target it.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DIVINEPROTECTION_NAME",
+        "ru_name": "Божественная защита",
+        "ru_description": "Дайте юниту +1 [img:divineshield] и +1 Кинетические Шипы. Он становится Альфой.\nЕсли Альфа уже есть, заклинание стоит дешевле и бьет только в него.",
+        "ru_upgraded_description": "Дайте любому юниту +1 [img:divineshield] и +2 Кинетические Шипы. Он становится Альфой.\nЕсли Альфа уже есть, заклинание стоит дешевле и бьет только в него.",
+        "en_name": "Divine Protection",
+        "en_description": "Give a unit +1 [img:divineshield] and +1 Kinetic Spikes. That unit becomes the Alpha.\r\nIf there is an Alpha, this spell costs less and must target it.",
+        "en_upgraded_description": "Give a unit anywhere +1 [img:divineshield] and +2 Kinetic Spikes. That unit becomes the Alpha.\nIf there is an Alpha, this spell costs less and must target it."
+      },
       "manifest": {
         "ability_id": "DivineProtection",
         "display_name": "Divine Protection",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Run next to the ally with the most missing health. Trample all in the way.Upgraded: Run next to the ally with the most missing health. Trample all in the way. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_EMERGENCY_NAME",
+        "ru_name": "Экстренный случай",
+        "ru_description": "Бегите к союзнику с наименьшим здоровьем. Растопчите всех на пути.",
+        "ru_upgraded_description": "Бегите к союзнику с наименьшим здоровьем. Растопчите всех на пути.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Emergency",
+        "en_description": "Run next to the ally with the most missing health. Trample all in the way.",
+        "en_upgraded_description": "Run next to the ally with the most missing health. Trample all in the way.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Emergency",
         "display_name": "Emergency",
@@ -394,6 +538,15 @@
       "variant": "upgraded",
       "description": "Run next to the ally with the most missing health. Trample all in the way.Upgraded: Run next to the ally with the most missing health. Trample all in the way. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_EMERGENCY_NAME",
+        "ru_name": "Экстренный случай",
+        "ru_description": "Бегите к союзнику с наименьшим здоровьем. Растопчите всех на пути.",
+        "ru_upgraded_description": "Бегите к союзнику с наименьшим здоровьем. Растопчите всех на пути.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Emergency",
+        "en_description": "Run next to the ally with the most missing health. Trample all in the way.",
+        "en_upgraded_description": "Run next to the ally with the most missing health. Trample all in the way.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Emergency",
         "display_name": "Emergency",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Another unit's next spell is free.Upgraded: Another unit's next spell is free. Infinite range. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ENLIGHTEN_NAME",
+        "ru_name": "Просветление",
+        "ru_description": "Следующее заклинание другого юнита будет бесплатным.",
+        "ru_upgraded_description": "Следующее заклинание другого юнита будет бесплатным. Бесконечная дальность.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Enlighten",
+        "en_description": "Another unit's next spell is free.",
+        "en_upgraded_description": "Another unit's next spell is free. Infinite range.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Enlighten",
         "display_name": "Enlighten",
@@ -442,6 +604,15 @@
       "variant": "upgraded",
       "description": "Another unit's next spell is free.Upgraded: Another unit's next spell is free. Infinite range. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ENLIGHTEN_NAME",
+        "ru_name": "Просветление",
+        "ru_description": "Следующее заклинание другого юнита будет бесплатным.",
+        "ru_upgraded_description": "Следующее заклинание другого юнита будет бесплатным. Бесконечная дальность.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Enlighten",
+        "en_description": "Another unit's next spell is free.",
+        "en_upgraded_description": "Another unit's next spell is free. Infinite range.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Enlighten",
         "display_name": "Enlighten",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Make a unit The Alpha. Bonus Passive: The Alpha has +50% dodge chance.Upgraded: Make a unit anywhere The Alpha. (This spell costs less.) Bonus Passive: The Alpha has +50% dodge chance.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GUARDIANANGEL_NAME",
+        "ru_name": "Ангел-хранитель",
+        "ru_description": "Сделайте юнита Альфой.\nПассивно: У Альфы +50% шанс уклонения.",
+        "ru_upgraded_description": "Сделайте любого юнита Альфой.\n[s:.7](Это заклинание стоит дешевле.)[/s]\nПассивно: У Альфы +50% шанс уклонения.",
+        "en_name": "Guardian Angel",
+        "en_description": "Make a unit The Alpha.\nBonus Passive: The Alpha has +50% dodge chance.",
+        "en_upgraded_description": "Make a unit anywhere The Alpha.\n[s:.7](This spell costs less.)[/s]\nBonus Passive: The Alpha has +50% dodge chance."
+      },
       "manifest": {
         "ability_id": "GuardianAngel",
         "display_name": "Guardian Angel",
@@ -490,6 +670,15 @@
       "variant": "upgraded",
       "description": "Make a unit The Alpha. Bonus Passive: The Alpha has +50% dodge chance.Upgraded: Make a unit anywhere The Alpha. (This spell costs less.) Bonus Passive: The Alpha has +50% dodge chance.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GUARDIANANGEL_NAME",
+        "ru_name": "Ангел-хранитель",
+        "ru_description": "Сделайте юнита Альфой.\nПассивно: У Альфы +50% шанс уклонения.",
+        "ru_upgraded_description": "Сделайте любого юнита Альфой.\n[s:.7](Это заклинание стоит дешевле.)[/s]\nПассивно: У Альфы +50% шанс уклонения.",
+        "en_name": "Guardian Angel",
+        "en_description": "Make a unit The Alpha.\nBonus Passive: The Alpha has +50% dodge chance.",
+        "en_upgraded_description": "Make a unit anywhere The Alpha.\n[s:.7](This spell costs less.)[/s]\nBonus Passive: The Alpha has +50% dodge chance."
+      },
       "manifest": {
         "ability_id": "GuardianAngel",
         "display_name": "Guardian Angel",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Spawn a blessing pickup on an empty tile in range.Upgraded: Spawn a blessing pickup on any empty tile.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HALLOWEDGROUND_NAME",
+        "ru_name": "Святая земля",
+        "ru_description": "Создайте благословение на пустой клетке в радиусе досягаемости.\n(Лут. Поглащающий 1 удар)",
+        "ru_upgraded_description": "Создайте благословение на любой пустой клетке.\n(Лут. Поглащающий 1 удар)",
+        "en_name": "Hallowed Ground",
+        "en_description": "Spawn a blessing pickup on an empty tile in range.",
+        "en_upgraded_description": "Spawn a blessing pickup on any empty tile."
+      },
       "manifest": {
         "ability_id": "HallowedGround",
         "display_name": "Hallowed Ground",
@@ -538,6 +736,15 @@
       "variant": "upgraded",
       "description": "Spawn a blessing pickup on an empty tile in range.Upgraded: Spawn a blessing pickup on any empty tile.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HALLOWEDGROUND_NAME",
+        "ru_name": "Святая земля",
+        "ru_description": "Создайте благословение на пустой клетке в радиусе досягаемости.\n(Лут. Поглащающий 1 удар)",
+        "ru_upgraded_description": "Создайте благословение на любой пустой клетке.\n(Лут. Поглащающий 1 удар)",
+        "en_name": "Hallowed Ground",
+        "en_description": "Spawn a blessing pickup on an empty tile in range.",
+        "en_upgraded_description": "Spawn a blessing pickup on any empty tile."
+      },
       "manifest": {
         "ability_id": "HallowedGround",
         "display_name": "Hallowed Ground",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Give a unit +10 Speed until the end of its next turn.Upgraded: Give units in an area +10 Speed until the end of their next turns.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HASTE_NAME",
+        "ru_name": "Ускорение",
+        "ru_description": "Дайте юниту +10 [img:spd] до конца его следующего хода.",
+        "ru_upgraded_description": "Дайте юнитам в области +10 [img:spd] до конца их следующих ходов.",
+        "en_name": "Haste",
+        "en_description": "Give a unit +10 [img:spd] until the end of its next turn.",
+        "en_upgraded_description": "Give units in an area +10 [img:spd] until the end of their next turns."
+      },
       "manifest": {
         "ability_id": "Haste",
         "display_name": "Haste",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "You or an adjacent unit gains +1 Health Regeneration.Upgraded: You or an adjacent unit gains +2 Health Regeneration.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_HEALINGSALVE_NAME",
+        "ru_name": "Лечебная мазь",
+        "ru_description": "Вы или сосед получаете +1 Регенерацию Здоровья.",
+        "ru_upgraded_description": "Вы или сосед получаете +2 Регенерацию Здоровья.",
+        "en_name": "Healing Salve",
+        "en_description": "You or an adjacent unit gains +1 Health Regeneration.",
+        "en_upgraded_description": "You or an adjacent unit gains +2 Health Regeneration."
+      },
       "manifest": {
         "ability_id": "HealingSalve",
         "display_name": "Healing Salve",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Inflict Ostracized 2 on a unit.Upgraded: Inflict Ostracized 4 on a unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HERETICMARK_NAME",
+        "ru_name": "Метка Еретика",
+        "ru_description": "Наложите Изгнание 2 на юнита.",
+        "ru_upgraded_description": "Наложите Изгнание 4 на юнита.",
+        "en_name": "Heretic Mark",
+        "en_description": "Inflict Ostracized 2 on a unit.",
+        "en_upgraded_description": "Inflict Ostracized 4 on a unit."
+      },
       "manifest": {
         "ability_id": "HereticMark",
         "display_name": "Heretic Mark",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Inflict Weakness on units in an area.Upgraded: Inflict Weakness and Poison on units in an area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MALAISE_NAME",
+        "ru_name": "Недомогание",
+        "ru_description": "Наложите Слабость на юнитов в области.",
+        "ru_upgraded_description": "Наложите Слабость и Яд на юнитов в области.",
+        "en_name": "Malaise",
+        "en_description": "Inflict Weakness on units in an area.",
+        "en_upgraded_description": "Inflict Weakness and Poison on units in an area."
+      },
       "manifest": {
         "ability_id": "Malaise",
         "display_name": "Malaise",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "Give another unit +5 Luck until the end of its next turn.Upgraded: Give allies +5 Luck and enemies -5 Luck until the end of their next turns, in an area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PRAY_NAME",
+        "ru_name": "Мольба",
+        "ru_description": "Дайте другому юниту +5 [img:lck] до конца его следующего хода.",
+        "ru_upgraded_description": "Дайте союзникам +5 [img:lck], а врагам -5 [img:lck] до конца их следующих ходов (в области).",
+        "en_name": "Pray",
+        "en_description": "Give another unit +5 [img:lck] until the end of its next turn.",
+        "en_upgraded_description": "Give allies +5 [img:lck] and enemies -5 [img:lck] until the end of their next turns, in an area."
+      },
       "manifest": {
         "ability_id": "Pray",
         "display_name": "Pray",
@@ -682,6 +934,15 @@
       "variant": "normal",
       "description": "Force a unit to attack one of its enemies.Upgraded: Force units in an area to each attack one of their enemies.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_RALLY_NAME",
+        "ru_name": "Клич",
+        "ru_description": "Заставьте юнита атаковать одного из своих врагов.",
+        "ru_upgraded_description": "Заставьте юнитов в области атаковать одного из своих врагов.",
+        "en_name": "Rally",
+        "en_description": "Force a unit to attack one of its enemies.",
+        "en_upgraded_description": "Force units in an area to each attack one of their enemies."
+      },
       "manifest": {
         "ability_id": "Rally",
         "display_name": "Rally",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Deal damage to a unit equal to the damage that unit last dealt.Upgraded: Deal damage to a unit equal to twice the damage that unit last dealt.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REBUKE_NAME",
+        "ru_name": "Упрек",
+        "ru_description": "Нанесите юниту урон, равный урону, который он нанес последним.",
+        "ru_upgraded_description": "Нанесите юниту урон, равный двойному урону, который он нанес последним.",
+        "en_name": "Rebuke",
+        "en_description": "Deal damage to a unit equal to the damage that unit last dealt.",
+        "en_upgraded_description": "Deal damage to a unit equal to twice the damage that unit last dealt."
+      },
       "manifest": {
         "ability_id": "Rebuke",
         "display_name": "Rebuke",
@@ -730,6 +1000,15 @@
       "variant": "normal",
       "description": "Reverse the last damage an adjacent unit took.Upgraded: Reverse the last damage a unit within range took.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REVERSEDAMAGE_NAME",
+        "ru_name": "Возврат урона",
+        "ru_description": "Отмените последний урон, полученный соседним юнитом.",
+        "ru_upgraded_description": "Отмените последний урон, полученный юнитом в радиусе досягаемости.",
+        "en_name": "Reverse Damage",
+        "en_description": "Reverse the last damage an adjacent unit took.",
+        "en_upgraded_description": "Reverse the last damage a unit within range took."
+      },
       "manifest": {
         "ability_id": "ReverseDamage",
         "display_name": "Reverse Damage",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "Revive a body to 50% HP and cure one of its injuries.Upgraded: Revive a body to 100% HP and cure one of its injuries. If it was an enemy, it gets charmed.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REVIVE_NAME",
+        "ru_name": "Воскрешение",
+        "ru_description": "Воскресите тело с 50% ОЗ и вылечите одну травму.",
+        "ru_upgraded_description": "Воскресите тело с 100% ОЗ и вылечите одну травму. Если это был враг, он очаровывается.",
+        "en_name": "Revive",
+        "en_description": "Revive a body to 50% HP and cure one of its injuries.",
+        "en_upgraded_description": "Revive a body to 100% HP and cure one of its injuries. If it was an enemy, it gets charmed."
+      },
       "manifest": {
         "ability_id": "Revive",
         "display_name": "Revive",
@@ -778,6 +1066,15 @@
       "variant": "normal",
       "description": "You and adjacent units gain +2 Speed.Upgraded: You and adjacent units gain +2 Speed and +1 Intelligence.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STIMULANTS_NAME",
+        "ru_name": "Стимуляторы",
+        "ru_description": "Вы и соседи получаете +2 [img:spd].",
+        "ru_upgraded_description": "Вы и соседи получаете +2 [img:spd] и +1 [img:int].",
+        "en_name": "Stimulants",
+        "en_description": "You and adjacent units gain +2 [img:spd].",
+        "en_upgraded_description": "You and adjacent units gain +2 [img:spd] and +1 [img:int]."
+      },
       "manifest": {
         "ability_id": "Stimulants",
         "display_name": "Stimulants",
@@ -802,6 +1099,15 @@
       "variant": "normal",
       "description": "Give a unit +1 Bonus Move. That unit becomes the Alpha. If there is an Alpha, this spell must target it and it gives you +1 Bonus Move too.Upgraded: Give a unit +1 Bonus Move. That unit becomes the Alpha. If there is an Alpha, this spell has infinite range, costs less and must target it, and it gives you +1 Bonus Move too.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SWIFTSERVANT_NAME",
+        "ru_name": "Быстрый слуга",
+        "ru_description": "Дайте юниту +1 Бонусное Движение. Он становится Альфой.\nЕсли Альфа уже есть, заклинание бьет в него и дает вам +1 Бонусное Движение тоже.",
+        "ru_upgraded_description": "Дайте юниту +1 Бонусное Движение. Он становится Альфой.\nЕсли Альфа уже есть, заклинание бьет через всю карту, стоит дешевле и дает вам +1 Бонусное Движение.",
+        "en_name": "Swift Servant",
+        "en_description": "Give a unit +1 Bonus Move. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives you +1 Bonus Move too.",
+        "en_upgraded_description": "Give a unit +1 Bonus Move. That unit becomes the Alpha.\nIf there is an Alpha, this spell has infinite range, costs less and must target it, and it gives you +1 Bonus Move too."
+      },
       "manifest": {
         "ability_id": "SwiftSanctify",
         "display_name": "Swift Servant",
@@ -826,6 +1132,15 @@
       "variant": "normal",
       "description": "Force a nearby unit to move away from you.Upgraded: Force a nearby unit to move away from you. If it was an enemy, inflict Madness 1 and Confusion 1.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TURNFOE_NAME",
+        "ru_name": "Изгнание врага",
+        "ru_description": "Заставьте ближайшего юнита убегать от вас.",
+        "ru_upgraded_description": "Заставьте ближайшего юнита убегать. Если это враг, наложите Безумие 1 и Замешательство 1.",
+        "en_name": "Turn Foe",
+        "en_description": "Force a nearby unit to move away from you.",
+        "en_upgraded_description": "Force a nearby unit to move away from you. If it was an enemy, inflict Madness 1 and Confusion 1."
+      },
       "manifest": {
         "ability_id": "TurnFoe",
         "display_name": "Turn Foe",
@@ -850,6 +1165,15 @@
       "variant": "normal",
       "description": "Put a bounty on a unit. When that unit dies, its killer gains All Stats Up.Upgraded: Put a bounty on a unit. When that unit dies, it becomes meat and its killer gains All Stats Up. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WITCHHUNT_NAME",
+        "ru_name": "Охота на ведьм",
+        "ru_description": "Назначьте награду за голову юнита. Когда он умрет, его убийца получит Повышение Всех Характеристик.",
+        "ru_upgraded_description": "Назначьте награду за голову юнита. Когда он умрет, он станет мясом, а убийца получит Повышение Всех Характеристик.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Witch Hunt",
+        "en_description": "Put a bounty on a unit. When that unit dies, its killer gains All Stats Up.",
+        "en_upgraded_description": "Put a bounty on a unit. When that unit dies, it becomes meat and its killer gains All Stats Up.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "WitchHunt",
         "display_name": "Witch Hunt",
@@ -874,6 +1198,15 @@
       "variant": "upgraded",
       "description": "Put a bounty on a unit. When that unit dies, its killer gains All Stats Up.Upgraded: Put a bounty on a unit. When that unit dies, it becomes meat and its killer gains All Stats Up. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WITCHHUNT_NAME",
+        "ru_name": "Охота на ведьм",
+        "ru_description": "Назначьте награду за голову юнита. Когда он умрет, его убийца получит Повышение Всех Характеристик.",
+        "ru_upgraded_description": "Назначьте награду за голову юнита. Когда он умрет, он станет мясом, а убийца получит Повышение Всех Характеристик.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Witch Hunt",
+        "en_description": "Put a bounty on a unit. When that unit dies, its killer gains All Stats Up.",
+        "en_upgraded_description": "Put a bounty on a unit. When that unit dies, it becomes meat and its killer gains All Stats Up.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "WitchHunt",
         "display_name": "Witch Hunt",
@@ -898,6 +1231,15 @@
       "variant": "normal",
       "description": "Gain +1 .Upgraded: Gain +1 . (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ZEALOT_NAME",
+        "ru_name": "Зилот",
+        "ru_description": "Получите +1 [img:divineshield].",
+        "ru_upgraded_description": "Получите +1 [img:divineshield].\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Zealot",
+        "en_description": "Gain +1 [img:divineshield].",
+        "en_upgraded_description": "Gain +1 [img:divineshield].\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Zealot",
         "display_name": "Zealot",
@@ -922,6 +1264,15 @@
       "variant": "upgraded",
       "description": "Gain +1 .Upgraded: Gain +1 . (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ZEALOT_NAME",
+        "ru_name": "Зилот",
+        "ru_description": "Получите +1 [img:divineshield].",
+        "ru_upgraded_description": "Получите +1 [img:divineshield].\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Zealot",
+        "en_description": "Gain +1 [img:divineshield].",
+        "en_upgraded_description": "Gain +1 [img:divineshield].\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Zealot",
         "display_name": "Zealot",

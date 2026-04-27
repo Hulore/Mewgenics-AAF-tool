@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Backflip out of the way the next time you're targeted by an enemy.Upgraded: Backflip out of the way the next time you're targeted by an enemy. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BACKFLIP_NAME",
+        "ru_name": "Бэкфлип",
+        "ru_description": "Когда враг нацелится на вас, сделайте сальто назад, чтобы уклониться.",
+        "ru_upgraded_description": "Когда враг нацелится на вас, сделайте сальто назад, чтобы уклониться. [s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Backflip",
+        "en_description": "Backflip out of the way the next time you're targeted by an enemy.",
+        "en_upgraded_description": "Backflip out of the way the next time you're targeted by an enemy.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Backflip",
         "display_name": "Backflip",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "Backflip out of the way the next time you're targeted by an enemy.Upgraded: Backflip out of the way the next time you're targeted by an enemy. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BACKFLIP_NAME",
+        "ru_name": "Бэкфлип",
+        "ru_description": "Когда враг нацелится на вас, сделайте сальто назад, чтобы уклониться.",
+        "ru_upgraded_description": "Когда враг нацелится на вас, сделайте сальто назад, чтобы уклониться. [s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Backflip",
+        "en_description": "Backflip out of the way the next time you're targeted by an enemy.",
+        "en_upgraded_description": "Backflip out of the way the next time you're targeted by an enemy.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Backflip",
         "display_name": "Backflip",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Gain +10% dodge chance. Disable this spell if you have more than 65% dodge chance.Upgraded: Gain +15% dodge chance. Disable this spell if you have more than 80% dodge chance.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLUR_NAME",
+        "ru_name": "Размытие",
+        "ru_description": "+10% Уклонения.\nОтключается, если уклонение выше 65%.",
+        "ru_upgraded_description": "+15% Уклонения.\nОтключается, если уклонение выше 80%.",
+        "en_name": "Blur",
+        "en_description": "Gain +10% dodge chance.\nDisable this spell if you have more than 65% dodge chance.",
+        "en_upgraded_description": "Gain +15% dodge chance. \nDisable this spell if you have more than 80% dodge chance."
+      },
       "manifest": {
         "ability_id": "Blur",
         "display_name": "Blur",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Until end of turn, your backstabs do +75% more damage and ignore shield.Upgraded: Until end of turn, your backstabs do +75% more damage, ignore shield, and inflict Bleed and Poison.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BOOSTBACKSTAB_NAME",
+        "ru_name": "Усиление бэкстаба",
+        "ru_description": "До конца хода удары в спину на 75% сильнее и игнорируют щит.",
+        "ru_upgraded_description": "До конца хода удары в спину на 75% сильнее, игнорируют щит, дают Кровотечение и Яд.",
+        "en_name": "Boost Backstab",
+        "en_description": "Until end of turn, your backstabs do +75% more damage and ignore shield.",
+        "en_upgraded_description": "Until end of turn, your backstabs do +75% more damage, ignore shield, and inflict Bleed and Poison."
+      },
       "manifest": {
         "ability_id": "BoostBackstab",
         "display_name": "Boost Backstab",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Move up to 3 tiles, spreading glass shards on the tiles you walk through.Upgraded: Move up to 5 tiles, spreading glass shards on the tiles you walk through.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CALTROPS_NAME",
+        "ru_name": "Шипы-ловушки",
+        "ru_description": "Пройдите до 3 клеток, рассыпая битое стекло по пути.",
+        "ru_upgraded_description": "Пройдите до 5 клеток, рассыпая битое стекло по пути.",
+        "en_name": "Caltrops",
+        "en_description": "Move up to 3 tiles, spreading glass shards on the tiles you walk through.",
+        "en_upgraded_description": "Move up to 5 tiles, spreading glass shards on the tiles you walk through."
+      },
       "manifest": {
         "ability_id": "Caltrops",
         "display_name": "Caltrops",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Gain temporary +5 Luck until your next turn.Upgraded: Gain temporary +10 Luck until your next turn.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHEAT_NAME",
+        "ru_name": "Жульничество",
+        "ru_description": "Временно получите +5 [img:lck] до след. хода.",
+        "ru_upgraded_description": "Временно получите +10 [img:lck] до след. хода.",
+        "en_name": "Cheat",
+        "en_description": "Gain temporary +5 [img:lck] until your next turn.",
+        "en_upgraded_description": "Gain temporary +10 [img:lck] until your next turn."
+      },
       "manifest": {
         "ability_id": "Cheat",
         "display_name": "Cheat",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Make a unit face away from you.Upgraded: Make any unit look away from you. This has a 33% chance to inflict Confusion.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DISTRACT_NAME",
+        "ru_name": "Отвлечение",
+        "ru_description": "Заставьте юнита отвернуться от вас.",
+        "ru_upgraded_description": "Заставьте любого юнита отвернуться. 33% шанс Замешательства.",
+        "en_name": "Distract",
+        "en_description": "Make a unit face away from you.",
+        "en_upgraded_description": "Make any unit look away from you. This has a 33% chance to inflict Confusion.\n"
+      },
       "manifest": {
         "ability_id": "Distract",
         "display_name": "Distract",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Spawn 2-3 coins on random tiles.Upgraded: Spawn 3-7 coins on random tiles.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_EAGLEEYE_NAME",
+        "ru_name": "Орлиный глаз",
+        "ru_description": "Создайте 2-3 монеты на случайных клетках.",
+        "ru_upgraded_description": "Создайте 3-7 монет на случайных клетках.",
+        "en_name": "Eagle Eye",
+        "en_description": "Spawn 2-3 coins on random tiles.",
+        "en_upgraded_description": "Spawn 3-7 coins on random tiles."
+      },
       "manifest": {
         "ability_id": "EagleEye",
         "display_name": "Eagle Eye",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Gain Stealth 1.Upgraded: Gain Stealth 2.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FADE_NAME",
+        "ru_name": "Растворение",
+        "ru_description": "Получите Скрытность 1.",
+        "ru_upgraded_description": "Получите Скрытность 2.",
+        "en_name": "Fade",
+        "en_description": "Gain Stealth 1.",
+        "en_upgraded_description": "Gain Stealth 2."
+      },
       "manifest": {
         "ability_id": "Fade",
         "display_name": "Fade",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Teleport to a tile with coins on it.Upgraded: Teleport to a tile with coins on it, then spawn 1-2 coins on random tiles.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GREEDSTEP_NAME",
+        "ru_name": "Алчный шаг",
+        "ru_description": "Телепортируйтесь на клетку с монетами.",
+        "ru_upgraded_description": "Телепортируйтесь на клетку с монетами, создайте 1-2 монеты случайно.",
+        "en_name": "Greedstep",
+        "en_description": "Teleport to a tile with coins on it.",
+        "en_upgraded_description": "Teleport to a tile with coins on it, then spawn 1-2 coins on random tiles."
+      },
       "manifest": {
         "ability_id": "GreedStep",
         "display_name": "Greedstep",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Inflict Confusion 1 on each adjacent unit.Upgraded: Inflict Confusion 1 on each unit within 3 tiles of you.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_JITTER_NAME",
+        "ru_name": "Дрожь",
+        "ru_description": "Замешательство 1 всем соседям.",
+        "ru_upgraded_description": "Замешательство 1 всем в радиусе 3.",
+        "en_name": "Jitter",
+        "en_description": "Inflict Confusion 1 on each adjacent unit.",
+        "en_upgraded_description": "Inflict Confusion 1 on each unit within 3 tiles of you."
+      },
       "manifest": {
         "ability_id": "Jitter",
         "display_name": "Jitter",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "Loot 1-3 coins from a body... and possibly something else? (This might destroy the body) Upgraded: Loot 1-3 coins from a body... and possibly something else? (This might not destroy the body) (Your chance of finding \"something else\" is significantly increased.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LOOTCORPSE_NAME",
+        "ru_name": "Обыск трупа",
+        "ru_description": "Снимите 1-3 монеты с трупа... и может что-то еще?\n[s:.7](Это может уничтожить тело)[/s]",
+        "ru_upgraded_description": "Снимите 1-3 монеты с трупа... и может что-то еще?\n[s:.7](Это может не уничтожить тело)[/s]\n[s:.7](Шанс найти \"что-то еще\" повышен.)[/s]",
+        "en_name": "Loot Corpse",
+        "en_description": "Loot 1-3 coins from a body... and possibly something else?\n[s:.7](This might destroy the body)[/s]",
+        "en_upgraded_description": "Loot 1-3 coins from a body... and possibly something else?\n[s:.7](This might not destroy the body)[/s]\n[s:.7](Your chance of finding \"something else\" is significantly increased.)[/s]"
+      },
       "manifest": {
         "ability_id": "LootCorpse",
         "display_name": "Loot Corpse",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Collect an adjacent pickup and gain +2 Luck instead of its normal effects.Upgraded: Collect a pickup within four tiles of you. Gain +2 Luck instead of its normal effects.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LUCKYPENNY_NAME",
+        "ru_name": "Счастливая монетка",
+        "ru_description": "Подберите соседний лут и получите +2 [img:lck] вместо обычного эффекта.",
+        "ru_upgraded_description": "Подберите лут в радиусе 4. Получите +2 [img:lck] вместо обычного эффекта.",
+        "en_name": "Lucky Penny",
+        "en_description": "Collect an adjacent pickup and gain +2 [img:lck] instead of its normal effects.",
+        "en_upgraded_description": "Collect a pickup within four tiles of you. Gain +2 [img:lck] instead of its normal effects."
+      },
       "manifest": {
         "ability_id": "LuckyPenny",
         "display_name": "Lucky Penny",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Refresh your movement action.Upgraded: Refresh your movement action. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MOVEAGAIN_NAME",
+        "ru_name": "Снова в путь",
+        "ru_description": "Обновите действие движения.",
+        "ru_upgraded_description": "Обновите действие движения.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Move Again",
+        "en_description": "Refresh your movement action.",
+        "en_upgraded_description": "Refresh your movement action.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MoveAgain",
         "display_name": "Move Again",
@@ -346,6 +472,15 @@
       "variant": "upgraded",
       "description": "Refresh your movement action.Upgraded: Refresh your movement action. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MOVEAGAIN_NAME",
+        "ru_name": "Снова в путь",
+        "ru_description": "Обновите действие движения.",
+        "ru_upgraded_description": "Обновите действие движения.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Move Again",
+        "en_description": "Refresh your movement action.",
+        "en_upgraded_description": "Refresh your movement action.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MoveAgain",
         "display_name": "Move Again",
@@ -370,6 +505,15 @@
       "variant": "upgraded",
       "description": "Throw 10 1-damage nails that ignore shield.Upgraded: Throw 10 1-damage nails that ignore shield. Throw extra nails equal to your Dexterity.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_NAILFLURRY_NAME",
+        "ru_name": "Вихрь гвоздей",
+        "ru_description": "Бросьте 10 гвоздей по 1 урону (игнор щита).",
+        "ru_upgraded_description": "Бросьте 10 гвоздей. Бросьте доп. гвозди в кол-ве вашей [img:dex].",
+        "en_name": "Nail Flurry",
+        "en_description": "Throw 10 1-damage nails that ignore shield.",
+        "en_upgraded_description": "Throw 10 1-damage nails that ignore shield. Throw extra nails equal to your [img:dex]."
+      },
       "manifest": {
         "ability_id": "NailFlurry",
         "display_name": "Nail Flurry",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Inflict Poison 4 on an adjacent unit.Upgraded: Inflict Poison 4 on an adjacent unit. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_NIGHTSHADE_NAME",
+        "ru_name": "Белладонна",
+        "ru_description": "Яд 4 на соседа.",
+        "ru_upgraded_description": "Яд 4 на соседа.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Nightshade",
+        "en_description": "Inflict Poison 4 on an adjacent unit.",
+        "en_upgraded_description": "Inflict Poison 4 on an adjacent unit.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Nightshade",
         "display_name": "Nightshade",
@@ -418,6 +571,15 @@
       "variant": "upgraded",
       "description": "Inflict Poison 4 on an adjacent unit.Upgraded: Inflict Poison 4 on an adjacent unit. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_NIGHTSHADE_NAME",
+        "ru_name": "Белладонна",
+        "ru_description": "Яд 4 на соседа.",
+        "ru_upgraded_description": "Яд 4 на соседа.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Nightshade",
+        "en_description": "Inflict Poison 4 on an adjacent unit.",
+        "en_upgraded_description": "Inflict Poison 4 on an adjacent unit.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Nightshade",
         "display_name": "Nightshade",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Teleport to a tile on the edge of the map.Upgraded: Teleport to a tile on the edge of the map. Gain +2 Damage for the rest of the turn.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_OUTSKIRTS_NAME",
+        "ru_name": "Окраина",
+        "ru_description": "Телепортируйтесь на клетку на краю карты.",
+        "ru_upgraded_description": "Телепортируйтесь на край карты. +2 Урон до конца хода.",
+        "en_name": "Outskirts",
+        "en_description": "Teleport to a tile on the edge of the map.",
+        "en_upgraded_description": "Teleport to a tile on the edge of the map. Gain +2 Damage for the rest of the turn."
+      },
       "manifest": {
         "ability_id": "Outskirts",
         "display_name": "Outskirts",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Swap positions with an ally. Swap back at the end of your turn. (Castable once per turn.) Upgraded: Swap positions with any unit. Swap back at the end of your turn. If the unit was an enemy, inflict Confusion 1. (Castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THIEFSWAP_NAME",
+        "ru_name": "Там и здесь",
+        "ru_description": "Поменяйтесь местами с союзником. В конце хода вернитесь обратно.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Поменяйтесь с любым юнитом. В конце хода вернитесь. Если это враг — Замешательство 1.\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Over Here, Over There",
+        "en_description": "Swap positions with an ally. Swap back at the end of your turn.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Swap positions with any unit. Swap back at the end of your turn. If the unit was an enemy, inflict Confusion 1.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "ThiefSwap",
         "display_name": "Over Here, Over There",
@@ -490,6 +670,15 @@
       "variant": "normal",
       "description": "Steal 1-3 coins from a unit and give it -1 Damage.Upgraded: Steal 3-5 coins from a unit, give it -1 Damage, and apply some extra debuffs at random.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PICKPOCKET_NAME",
+        "ru_name": "Кража",
+        "ru_description": "Украдите 1-3 монеты у юнита и дайте ему -1 Урон.",
+        "ru_upgraded_description": "Украдите 3-5 монет у юнита, дайте -1 Урон и случайные дебаффы.",
+        "en_name": "Pickpocket",
+        "en_description": "Steal 1-3 coins from a unit and give it -1 Damage.",
+        "en_upgraded_description": "Steal 3-5 coins from a unit, give it -1 Damage, and apply some extra debuffs at random."
+      },
       "manifest": {
         "ability_id": "PickPocket",
         "display_name": "Pickpocket",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Gain +2 Range. Your attacks pass through units and ignore shield for the rest of the turn.Upgraded: Gain +4 Range. Your attacks pass through units and ignore shield for the rest of the turn. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PIERCE_NAME",
+        "ru_name": "Пробой",
+        "ru_description": "+2 Дальность. До конца хода атаки проходят насквозь и игнорируют щит.",
+        "ru_upgraded_description": "+4 Дальность. До конца хода атаки проходят насквозь и игнорируют щит.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Pierce",
+        "en_description": "Gain +2 Range. Your attacks pass through units and ignore shield for the rest of the turn.",
+        "en_upgraded_description": "Gain +4 Range. Your attacks pass through units and ignore shield for the rest of the turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Pierce",
         "display_name": "Pierce",
@@ -538,6 +736,15 @@
       "variant": "upgraded",
       "description": "Gain +2 Range. Your attacks pass through units and ignore shield for the rest of the turn.Upgraded: Gain +4 Range. Your attacks pass through units and ignore shield for the rest of the turn. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PIERCE_NAME",
+        "ru_name": "Пробой",
+        "ru_description": "+2 Дальность. До конца хода атаки проходят насквозь и игнорируют щит.",
+        "ru_upgraded_description": "+4 Дальность. До конца хода атаки проходят насквозь и игнорируют щит.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Pierce",
+        "en_description": "Gain +2 Range. Your attacks pass through units and ignore shield for the rest of the turn.",
+        "en_upgraded_description": "Gain +4 Range. Your attacks pass through units and ignore shield for the rest of the turn.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Pierce",
         "display_name": "Pierce",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Inflict Blind on all units in a small cone.Upgraded: Inflict Blind 2 on all units in a larger cone.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_POCKETSAND_NAME",
+        "ru_name": "Песок в глаза",
+        "ru_description": "Слепота всем в малом конусе.",
+        "ru_upgraded_description": "Слепота 2 всем в большем конусе.",
+        "en_name": "Pocket Sand",
+        "en_description": "Inflict Blind on all units in a small cone.",
+        "en_upgraded_description": "Inflict Blind 2 on all units in a larger cone."
+      },
       "manifest": {
         "ability_id": "PocketSand",
         "display_name": "Pocket Sand",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Spend all your mana. For every 5 mana spent, your basic attack inflicts +1 Poison. (Castable once per battle.) Upgraded: Spend all your mana. For every 3 mana spent, your basic attack inflicts +1 Poison. (Castable once per battle.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_POISONDIP_NAME",
+        "ru_name": "Ядовитая смазка",
+        "ru_description": "Потратьте всю ману. За каждые 5 маны: +1 Яд к базовой атаке.\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Потратьте всю ману. За каждые 3 маны: +1 Яд к базовой атаке.\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Poison Dip",
+        "en_description": "Spend all your mana. For every 5 mana spent, your basic attack inflicts +1 Poison.\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Spend all your mana. For every 3 mana spent, your basic attack inflicts +1 Poison.\r\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "PoisonDip",
         "display_name": "Poison Dip",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Inflict Poison 1 on all units adjacent to you.Upgraded: Inflict Poison 2 on all units adjacent to you (even diagonally).",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_POISONGAS_NAME",
+        "ru_name": "Ядовитый газ",
+        "ru_description": "Яд 1 всем соседям.",
+        "ru_upgraded_description": "Яд 2 всем соседям (даже по диагонали).",
+        "en_name": "Poison Gas",
+        "en_description": "Inflict Poison 1 on all units adjacent to you.",
+        "en_upgraded_description": "Inflict Poison 2 on all units adjacent to you (even diagonally)."
+      },
       "manifest": {
         "ability_id": "PoisonGas",
         "display_name": "Poison Gas",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Roll in a straight line up to three tiles. RELOAD: Backstab a unit.Upgraded: Roll in a straight or diagonal line up to five tiles. RELOAD: Backstab a unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_QUICKROLL_NAME",
+        "ru_name": "Быстрый перекат",
+        "ru_description": "Перекат на 3 клетки по прямой.\nПЕРЕЗАРЯДКА: Ударьте в спину.",
+        "ru_upgraded_description": "Перекат на 5 клеток по прямой или диагонали.\nПЕРЕЗАРЯДКА: Ударьте в спину.",
+        "en_name": "Quick Roll",
+        "en_description": "Roll in a straight line up to three tiles.\nRELOAD: Backstab a unit.",
+        "en_upgraded_description": "Roll in a straight or diagonal line up to five tiles.\nRELOAD: Backstab a unit."
+      },
       "manifest": {
         "ability_id": "QuickRoll",
         "display_name": "Quick Roll",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "Refresh your basic attack.Upgraded: Refresh your basic attack. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REARM_NAME",
+        "ru_name": "Перезарядка",
+        "ru_description": "Обновите базовую атаку.",
+        "ru_upgraded_description": "Обновите базовую атаку.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Rearm",
+        "en_description": "Refresh your basic attack.",
+        "en_upgraded_description": "Refresh your basic attack.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "AttackAgain",
         "display_name": "Rearm",
@@ -682,6 +934,15 @@
       "variant": "upgraded",
       "description": "Refresh your basic attack.Upgraded: Refresh your basic attack. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REARM_NAME",
+        "ru_name": "Перезарядка",
+        "ru_description": "Обновите базовую атаку.",
+        "ru_upgraded_description": "Обновите базовую атаку.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Rearm",
+        "en_description": "Refresh your basic attack.",
+        "en_upgraded_description": "Refresh your basic attack.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "AttackAgain",
         "display_name": "Rearm",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Teleport behind a unit. Nothin' personnel, kid. Upgraded: Teleport behind a unit. Your next action has +100% crit chance. Nothin' personnel, kid.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHADOW_NAME",
+        "ru_name": "Тень",
+        "ru_description": "Телепортируйтесь за спину.\n[s:.7]Ничего личного, малыш.[/s]",
+        "ru_upgraded_description": "Телепортируйтесь за спину. След. действие +100% шанс крита.\n[s:.7]Ничего личного, малыш.[/s]",
+        "en_name": "Shadow",
+        "en_description": "Teleport behind a unit.\n[s:.7]Nothin' personnel, kid.[/s]",
+        "en_upgraded_description": "Teleport behind a unit. Your next action has +100% crit chance.\n[s:.7]Nothin' personnel, kid.[/s]"
+      },
       "manifest": {
         "ability_id": "Shadow",
         "display_name": "Shadow",
@@ -730,6 +1000,15 @@
       "variant": "normal",
       "description": "Teleport exactly 2 tiles away, leaving behind a shadow that mimics your basic attack. (The shadow fades at the end of your turn.) Upgraded: Teleport up to 3 tiles away, leaving behind a shadow that mimics your basic attack. (The shadow fades at the end of your turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHADOWSHIFT_NAME",
+        "ru_name": "Теневой сдвиг",
+        "ru_description": "Телепорт на 2 клетки. Оставляет тень, повторяющую вашу базовую атаку.\n[s:.7](Тень исчезнет в конце хода.)[/s]",
+        "ru_upgraded_description": "Телепорт на 3 клетки. Оставляет тень, повторяющую вашу базовую атаку.\n[s:.7](Тень исчезнет в конце хода.)[/s]",
+        "en_name": "Shadow Shift",
+        "en_description": "Teleport exactly 2 tiles away, leaving behind a shadow that mimics your basic attack.\n[s:.7](The shadow fades at the end of your turn.)[/s]",
+        "en_upgraded_description": "Teleport up to 3 tiles away, leaving behind a shadow that mimics your basic attack.\n[s:.7](The shadow fades at the end of your turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "Shadowshift",
         "display_name": "Shadow Shift",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "Gain +1 Dexterity and +1 Range until the end of the battle.Upgraded: Gain +1 Dexterity and +1 Range until the end of the battle. Automatically cast this spell at the end of each round for free.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHARPENNAIL_NAME",
+        "ru_name": "Подточка гвоздя",
+        "ru_description": "Получите +1 [img:dex] и +1 Дальность до конца битвы.",
+        "ru_upgraded_description": "Получите +1 [img:dex] и +1 Дальность до конца битвы.\n[s:.7]Авто-применение бесплатно в конце каждого раунда.[/s]",
+        "en_name": "Sharpen Nail",
+        "en_description": "Gain +1 [img:dex] and +1 Range until the end of the battle.",
+        "en_upgraded_description": "Gain +1 [img:dex] and +1 Range until the end of the battle.\r\n[s:.7]Automatically cast this spell at the end of each round for free.[/s]"
+      },
       "manifest": {
         "ability_id": "SharpenNail",
         "display_name": "Sharpen Nail",
@@ -778,6 +1066,15 @@
       "variant": "normal",
       "description": "Destroy an adjacent body. Enemies won't attack you until your next turn. (Castable once per turn.) Upgraded: Destroy a body in range 3. Enemies won't attack you until your next turn. (This spell is free. Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SKINDISGUISE_NAME",
+        "ru_name": "Кожаная маскировка",
+        "ru_description": "Уничтожьте соседнее тело. Враги не будут атаковать вас до след. хода.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Уничтожьте тело в радиусе 3. Враги не будут атаковать вас до след. хода.\n[s:.7](Бесплатно. Раз за ход.)[/s]",
+        "en_name": "Skin Disguise",
+        "en_description": "Destroy an adjacent body. Enemies won't attack you until your next turn.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Destroy a body in range 3. Enemies won't attack you until your next turn.\n[s:.7](This spell is free. Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "SkinDisguise",
         "display_name": "Skin Disguise",
@@ -802,6 +1099,15 @@
       "variant": "upgraded",
       "description": "Destroy an adjacent body. Enemies won't attack you until your next turn. (Castable once per turn.) Upgraded: Destroy a body in range 3. Enemies won't attack you until your next turn. (This spell is free. Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SKINDISGUISE_NAME",
+        "ru_name": "Кожаная маскировка",
+        "ru_description": "Уничтожьте соседнее тело. Враги не будут атаковать вас до след. хода.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Уничтожьте тело в радиусе 3. Враги не будут атаковать вас до след. хода.\n[s:.7](Бесплатно. Раз за ход.)[/s]",
+        "en_name": "Skin Disguise",
+        "en_description": "Destroy an adjacent body. Enemies won't attack you until your next turn.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Destroy a body in range 3. Enemies won't attack you until your next turn.\n[s:.7](This spell is free. Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "SkinDisguise",
         "display_name": "Skin Disguise",
@@ -826,6 +1132,15 @@
       "variant": "normal",
       "description": "Spawn a shadow up to 3 tiles away that mimics your basic attack. (The shadow fades at the end of your turn.) Upgraded: Spawn a shadow up to 5 tiles away that mimics your basic attack. (The shadow fades at the end of your turn.) (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SLINGSHADE_NAME",
+        "ru_name": "Теневая праща",
+        "ru_description": "Создайте тень в радиусе 3, повторяющую вашу базовую атаку.\n[s:.7](Тень исчезнет в конце хода.)[/s]",
+        "ru_upgraded_description": "Создайте тень в радиусе 5, повторяющую вашу базовую атаку.\n[s:.7](Тень исчезнет в конце хода.)[/s]\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Slingshade",
+        "en_description": "Spawn a shadow up to 3 tiles away that mimics your basic attack.\n[s:.7](The shadow fades at the end of your turn.)[/s]",
+        "en_upgraded_description": "Spawn a shadow up to 5 tiles away that mimics your basic attack.\n[s:.7](The shadow fades at the end of your turn.)[/s]\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SlingShade",
         "display_name": "Slingshade",
@@ -850,6 +1165,15 @@
       "variant": "upgraded",
       "description": "Spawn a shadow up to 3 tiles away that mimics your basic attack. (The shadow fades at the end of your turn.) Upgraded: Spawn a shadow up to 5 tiles away that mimics your basic attack. (The shadow fades at the end of your turn.) (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SLINGSHADE_NAME",
+        "ru_name": "Теневая праща",
+        "ru_description": "Создайте тень в радиусе 3, повторяющую вашу базовую атаку.\n[s:.7](Тень исчезнет в конце хода.)[/s]",
+        "ru_upgraded_description": "Создайте тень в радиусе 5, повторяющую вашу базовую атаку.\n[s:.7](Тень исчезнет в конце хода.)[/s]\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Slingshade",
+        "en_description": "Spawn a shadow up to 3 tiles away that mimics your basic attack.\n[s:.7](The shadow fades at the end of your turn.)[/s]",
+        "en_upgraded_description": "Spawn a shadow up to 5 tiles away that mimics your basic attack.\n[s:.7](The shadow fades at the end of your turn.)[/s]\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SlingShade",
         "display_name": "Slingshade",
@@ -874,6 +1198,15 @@
       "variant": "normal",
       "description": "Teleport directly behind a random enemy.Upgraded: Teleport directly behind a random enemy. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SNEAKUP_NAME",
+        "ru_name": "Подкрадывание",
+        "ru_description": "Телепорт за спину случайному врагу.",
+        "ru_upgraded_description": "Телепорт за спину случайному врагу.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Sneak Up",
+        "en_description": "Teleport directly behind a random enemy.",
+        "en_upgraded_description": "Teleport directly behind a random enemy.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SneakUp",
         "display_name": "Sneak Up",
@@ -898,6 +1231,15 @@
       "variant": "upgraded",
       "description": "Teleport directly behind a random enemy.Upgraded: Teleport directly behind a random enemy. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SNEAKUP_NAME",
+        "ru_name": "Подкрадывание",
+        "ru_description": "Телепорт за спину случайному врагу.",
+        "ru_upgraded_description": "Телепорт за спину случайному врагу.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Sneak Up",
+        "en_description": "Teleport directly behind a random enemy.",
+        "en_upgraded_description": "Teleport directly behind a random enemy.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SneakUp",
         "display_name": "Sneak Up",
@@ -922,6 +1264,15 @@
       "variant": "normal",
       "description": "Target any enemy. Teleport behind it at the start of your next turn. (Castable once per turn.) Upgraded: Target any enemy. Teleport behind it at the start of your next turn. (Castable once per turn. Costs 0 mana.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STALK_NAME",
+        "ru_name": "Преследование",
+        "ru_description": "Выберите любого врага. В начале след. хода телепортируетесь ему за спину.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Выберите любого врага. В начале след. хода телепортируетесь ему за спину.\n[s:.7](Раз за ход. Бесплатно.)[/s]",
+        "en_name": "Stalk",
+        "en_description": "Target any enemy. Teleport behind it at the start of your next turn.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Target any enemy. Teleport behind it at the start of your next turn.\n[s:.7](Castable once per turn. Costs 0 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "Stalk",
         "display_name": "Stalk",
@@ -946,6 +1297,15 @@
       "variant": "upgraded",
       "description": "Target any enemy. Teleport behind it at the start of your next turn. (Castable once per turn.) Upgraded: Target any enemy. Teleport behind it at the start of your next turn. (Castable once per turn. Costs 0 mana.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STALK_NAME",
+        "ru_name": "Преследование",
+        "ru_description": "Выберите любого врага. В начале след. хода телепортируетесь ему за спину.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Выберите любого врага. В начале след. хода телепортируетесь ему за спину.\n[s:.7](Раз за ход. Бесплатно.)[/s]",
+        "en_name": "Stalk",
+        "en_description": "Target any enemy. Teleport behind it at the start of your next turn.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Target any enemy. Teleport behind it at the start of your next turn.\n[s:.7](Castable once per turn. Costs 0 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "Stalk",
         "display_name": "Stalk",
@@ -970,6 +1330,15 @@
       "variant": "normal",
       "description": "Take an extra turn at the end of the round. (This spell can't be cast on extra turns.) Upgraded: Take an extra turn at the end of the round. (This spell can't be cast on extra turns. This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TIMEWALK_NAME",
+        "ru_name": "Таймволк",
+        "ru_description": "Сделайте доп. ход в конце раунда.\n[s:.7](Нельзя в доп. ходы.)[/s]",
+        "ru_upgraded_description": "Сделайте доп. ход в конце раунда.\n[s:.7](Нельзя в доп. ходы. Стоит дешевле.)[/s]",
+        "en_name": "Time Walk",
+        "en_description": "Take an extra turn at the end of the round.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]",
+        "en_upgraded_description": "Take an extra turn at the end of the round.\r\n[s:.7](This spell can't be cast on extra turns. This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TimeWalk",
         "display_name": "Time Walk",
@@ -994,6 +1363,15 @@
       "variant": "upgraded",
       "description": "Take an extra turn at the end of the round. (This spell can't be cast on extra turns.) Upgraded: Take an extra turn at the end of the round. (This spell can't be cast on extra turns. This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TIMEWALK_NAME",
+        "ru_name": "Таймволк",
+        "ru_description": "Сделайте доп. ход в конце раунда.\n[s:.7](Нельзя в доп. ходы.)[/s]",
+        "ru_upgraded_description": "Сделайте доп. ход в конце раунда.\n[s:.7](Нельзя в доп. ходы. Стоит дешевле.)[/s]",
+        "en_name": "Time Walk",
+        "en_description": "Take an extra turn at the end of the round.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]",
+        "en_upgraded_description": "Take an extra turn at the end of the round.\r\n[s:.7](This spell can't be cast on extra turns. This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "TimeWalk",
         "display_name": "Time Walk",
@@ -1018,6 +1396,15 @@
       "variant": "normal",
       "description": "Gain +1 Range for the rest of the turn.Upgraded: Gain +1 Range.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WINDUP_NAME",
+        "ru_name": "Замах",
+        "ru_description": "+1 Дальность до конца хода.",
+        "ru_upgraded_description": "Получите +1 Дальность.",
+        "en_name": "Wind Up",
+        "en_description": "Gain +1 Range for the rest of the turn.",
+        "en_upgraded_description": "Gain +1 Range."
+      },
       "manifest": {
         "ability_id": "WindUp",
         "display_name": "Wind Up",

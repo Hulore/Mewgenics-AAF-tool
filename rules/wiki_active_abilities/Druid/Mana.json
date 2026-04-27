@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Give all familiars in an area +2 Damage.Upgraded: Give all familiars +3 Damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BATTLECRY_NAME",
+        "ru_name": "Боевой клич",
+        "ru_description": "Дайте всем фамильярам в области +2 Урон.",
+        "ru_upgraded_description": "Дайте всем фамильярам +3 Урон.",
+        "en_name": "Battle Cry",
+        "en_description": "Give all familiars in an area +2 Damage. ",
+        "en_upgraded_description": "Give all familiars +3 Damage."
+      },
       "manifest": {
         "ability_id": "BattleCry",
         "display_name": "Battle Cry",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Give +1 Intelligence to a unit.Upgraded: Give +1 Intelligence and +2 mana to a unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BESTOWWISDOM_NAME",
+        "ru_name": "Дарование мудрости",
+        "ru_description": "Дайте +1 [img:int] юниту.",
+        "ru_upgraded_description": "Дайте +1 [img:int] и +2 маны юниту.",
+        "en_name": "Bestow Wisdom",
+        "en_description": "Give +1 [img:int] to a unit.",
+        "en_upgraded_description": "Give +1 [img:int] and +2 mana to a unit."
+      },
       "manifest": {
         "ability_id": "BestowWisdom",
         "display_name": "Bestow Wisdom",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Summon a squirrel. (Castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BIRTHSQUIRREL_NAME",
+        "ru_name": "Рождение Белки",
+        "ru_description": "Призовите белку.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "",
+        "en_name": "Birth Squirrel",
+        "en_description": "Summon a squirrel.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "BirthSquirrel",
         "display_name": "Birth Squirrel",
@@ -82,6 +109,15 @@
       "variant": "upgraded",
       "description": "Summon a squirrel. (Castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BIRTHSQUIRREL_NAME",
+        "ru_name": "Рождение Белки",
+        "ru_description": "Призовите белку.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "",
+        "en_name": "Birth Squirrel",
+        "en_description": "Summon a squirrel.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "BirthSquirrel",
         "display_name": "Birth Squirrel",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Give 5 mana to allies in an area.Upgraded: Give 5 mana to allies in a large area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLOOM_NAME",
+        "ru_name": "Цветение",
+        "ru_description": "Дайте 5 маны союзникам в области.",
+        "ru_upgraded_description": "Дайте 5 маны союзникам в большой области.",
+        "en_name": "Bloom",
+        "en_description": "Give 5 mana to allies in an area.",
+        "en_upgraded_description": "Give 5 mana to allies in a large area."
+      },
       "manifest": {
         "ability_id": "ManaBomb",
         "display_name": "Bloom",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Blow all units back one tile.Upgraded: Blow all units back three tiles. Allies are immune to knockback damage during this.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CALLTHEWIND_NAME",
+        "ru_name": "Призыв ветра",
+        "ru_description": "Сдуйте всех юнитов на 1 клетку назад.",
+        "ru_upgraded_description": "Сдуйте всех юнитов на 3 клетки назад.\nСоюзники имунны к урону от отбрасывания.",
+        "en_name": "Call the Wind",
+        "en_description": "Blow all units back one tile.",
+        "en_upgraded_description": "Blow all units back three tiles.\nAllies are immune to knockback damage during this."
+      },
       "manifest": {
         "ability_id": "CallTheWind",
         "display_name": "Call the Wind",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Deal 10 Knockback to all units in a random direction. Allies are immune to Thorns, tile and Knockback damage during this effect.Upgraded: Deal 10 Knockback to all units in a random direction. Allies gain +3 temporary Thorns and are immune to Thorns, tile and Knockback damage during this effect.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHACHASLIDE_NAME",
+        "ru_name": "Ча-Ча-Слайд",
+        "ru_description": "Наносит 10 урона с отталкиванием всем юнитам в случайном направлении. Союзники на время действия не получают урона от «Шипов», от клеток и отталкивания.",
+        "ru_upgraded_description": "Наносит 10 урона с отталкиванием всем юнитам в случайном направлении. Союзники на время действия не получают урона от «Шипов», от клеток и отталкивания и «Шипоы +3». ",
+        "en_name": "Cha Cha Slide",
+        "en_description": "Deal 10 Knockback to all units in a random direction. Allies are immune to Thorns, tile and Knockback damage during this effect.",
+        "en_upgraded_description": "Deal 10 Knockback to all units in a random direction. Allies gain +3 temporary Thorns and are immune to Thorns, tile and Knockback damage during this effect."
+      },
       "manifest": {
         "ability_id": "ChaChaSlide",
         "display_name": "Cha Cha Slide",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Make a target unit The Alpha. PASSIVE: The first spell the Alpha casts each turn is cast twice.Upgraded: Make a target unit The Alpha. PASSIVE: The first spell the Alpha casts each turn is cast twice. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHEERLEAD_NAME",
+        "ru_name": "Черлидинг",
+        "ru_description": "Сделайте юнита Альфой.\nПАССИВНО: Первое заклинание Альфы каждый ход срабатывает дважды.",
+        "ru_upgraded_description": "Сделайте юнита Альфой.\nПАССИВНО: Первое заклинание Альфы каждый ход срабатывает дважды.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Cheerlead",
+        "en_description": "Make a target unit The Alpha.\nPASSIVE: The first spell the Alpha casts each turn is cast twice.",
+        "en_upgraded_description": "Make a target unit The Alpha.\nPASSIVE: The first spell the Alpha casts each turn is cast twice.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Cheerlead",
         "display_name": "Cheerlead",
@@ -202,6 +274,15 @@
       "variant": "upgraded",
       "description": "Make a target unit The Alpha. PASSIVE: The first spell the Alpha casts each turn is cast twice.Upgraded: Make a target unit The Alpha. PASSIVE: The first spell the Alpha casts each turn is cast twice. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHEERLEAD_NAME",
+        "ru_name": "Черлидинг",
+        "ru_description": "Сделайте юнита Альфой.\nПАССИВНО: Первое заклинание Альфы каждый ход срабатывает дважды.",
+        "ru_upgraded_description": "Сделайте юнита Альфой.\nПАССИВНО: Первое заклинание Альфы каждый ход срабатывает дважды.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Cheerlead",
+        "en_description": "Make a target unit The Alpha.\nPASSIVE: The first spell the Alpha casts each turn is cast twice.",
+        "en_upgraded_description": "Make a target unit The Alpha.\nPASSIVE: The first spell the Alpha casts each turn is cast twice.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Cheerlead",
         "display_name": "Cheerlead",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Blow a unit ten tiles away from you. This doesn't deal Knockback damage.Upgraded: Blow a unit ten tiles away from you. This doesn't deal Knockback damage. (This spell costs less and has infinite range.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CONTROLAIR_NAME",
+        "ru_name": "Контроль воздуха",
+        "ru_description": "Сдуйте юнита на 10 клеток. Это не наносит урон от отбрасывания.",
+        "ru_upgraded_description": "Сдуйте юнита на 10 клеток. Это не наносит урон от отбрасывания.\n[s:.7](Стоит дешевле и бесконечная дальность.)[/s]",
+        "en_name": "Control Air",
+        "en_description": "Blow a unit ten tiles away from you. This doesn't deal Knockback damage.",
+        "en_upgraded_description": "Blow a unit ten tiles away from you. This doesn't deal Knockback damage.\n[s:.7](This spell costs less and has infinite range.)[/s]"
+      },
       "manifest": {
         "ability_id": "ControlAir",
         "display_name": "Control Air",
@@ -250,6 +340,15 @@
       "variant": "upgraded",
       "description": "Blow a unit ten tiles away from you. This doesn't deal Knockback damage.Upgraded: Blow a unit ten tiles away from you. This doesn't deal Knockback damage. (This spell costs less and has infinite range.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CONTROLAIR_NAME",
+        "ru_name": "Контроль воздуха",
+        "ru_description": "Сдуйте юнита на 10 клеток. Это не наносит урон от отбрасывания.",
+        "ru_upgraded_description": "Сдуйте юнита на 10 клеток. Это не наносит урон от отбрасывания.\n[s:.7](Стоит дешевле и бесконечная дальность.)[/s]",
+        "en_name": "Control Air",
+        "en_description": "Blow a unit ten tiles away from you. This doesn't deal Knockback damage.",
+        "en_upgraded_description": "Blow a unit ten tiles away from you. This doesn't deal Knockback damage.\n[s:.7](This spell costs less and has infinite range.)[/s]"
+      },
       "manifest": {
         "ability_id": "ControlAir",
         "display_name": "Control Air",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "A song that explodes a random enemy. If this hits a boss, it instead inflicts Fear.Upgraded: A song that explodes a random enemy. If this hits a boss, it instead inflicts Fear. Inflict Madness on each other enemy.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DEATHMETAL_NAME",
+        "ru_name": "Дэт-метал",
+        "ru_description": "Песня, взрывающая случайного врага. Боссам внушает Страх.",
+        "ru_upgraded_description": "Песня, взрывающая случайного врага. Боссам внушает Страх. Всех остальных сводит с ума (Безумие).",
+        "en_name": "Death Metal",
+        "en_description": "A song that explodes a random enemy. If this hits a boss, it instead inflicts Fear.",
+        "en_upgraded_description": "A song that explodes a random enemy. If this hits a boss, it instead inflicts Fear. Inflict Madness on each other enemy."
+      },
       "manifest": {
         "ability_id": "DeathMetal",
         "display_name": "Death Metal",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Give a familiar an extra turn after this one.Upgraded: Give a familiar an extra turn after this one. (This spell costs less and has increased range.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ENCOURAGE_NAME",
+        "ru_name": "Поощрение",
+        "ru_description": "Дайте фамильяру доп. ход после этого хода.",
+        "ru_upgraded_description": "Дайте фамильяру доп. ход после этого хода.\n[s:.7](Стоит дешевле и больше дальность.)[/s]",
+        "en_name": "Encourage",
+        "en_description": "Give a familiar an extra turn after this one.",
+        "en_upgraded_description": "Give a familiar an extra turn after this one.\n[s:.7](This spell costs less and has increased range.)[/s]"
+      },
       "manifest": {
         "ability_id": "Encourage",
         "display_name": "Encourage",
@@ -322,6 +439,15 @@
       "variant": "upgraded",
       "description": "Give a familiar an extra turn after this one.Upgraded: Give a familiar an extra turn after this one. (This spell costs less and has increased range.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ENCOURAGE_NAME",
+        "ru_name": "Поощрение",
+        "ru_description": "Дайте фамильяру доп. ход после этого хода.",
+        "ru_upgraded_description": "Дайте фамильяру доп. ход после этого хода.\n[s:.7](Стоит дешевле и больше дальность.)[/s]",
+        "en_name": "Encourage",
+        "en_description": "Give a familiar an extra turn after this one.",
+        "en_upgraded_description": "Give a familiar an extra turn after this one.\n[s:.7](This spell costs less and has increased range.)[/s]"
+      },
       "manifest": {
         "ability_id": "Encourage",
         "display_name": "Encourage",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Entangle units in an area.Upgraded: Entangle units in an area and spawn bramble tiles.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ENTANGLE_NAME",
+        "ru_name": "Опутывание",
+        "ru_description": "Опутайте юнитов в области.",
+        "ru_upgraded_description": "Опутайте юнитов в области и создайте терновник.",
+        "en_name": "Entangle",
+        "en_description": "Entangle units in an area.",
+        "en_upgraded_description": "Entangle units in an area and spawn bramble tiles."
+      },
       "manifest": {
         "ability_id": "Entangle",
         "display_name": "Entangle",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Move 3 tiles. Plant flowers as you move.Upgraded: Move 5 tiles. Plant flowers as you move and where you end up.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FLOWERFEET_NAME",
+        "ru_name": "Цветочные лапки",
+        "ru_description": "Пройдите 3 клетки. Сажайте цветы по пути.",
+        "ru_upgraded_description": "Пройдите 5 клеток. Сажайте цветы по пути и в конце.",
+        "en_name": "Flower Feet",
+        "en_description": "Move 3 tiles. Plant flowers as you move.",
+        "en_upgraded_description": "Move 5 tiles. Plant flowers as you move and where you end up."
+      },
       "manifest": {
         "ability_id": "FlowerFeet",
         "display_name": "Flower Feet",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Fly over 3 tiles.Upgraded: Fly over 3-4 tiles.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CROWFLUTTER_NAME",
+        "ru_name": "Вспорхнуть",
+        "ru_description": "Пролетите над 3 клетками.",
+        "ru_upgraded_description": "Пролетите над 3-4 клетками.",
+        "en_name": "Flutter",
+        "en_description": "Fly over 3 tiles.",
+        "en_upgraded_description": "Fly over 3-4 tiles."
+      },
       "manifest": {
         "ability_id": "CrowFlutter",
         "display_name": "Flutter",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Enter Elk Form, gaining +8 Speed, -2 Intelligence, -2 Constitution, and Trample 3. You ignore tile effects while moving. Your basic attack becomes Antler Swipe and this becomes Prance.Upgraded: Enter Elk Form, gaining +8 Speed and Trample 3. You ignore tile effects while moving. Your basic attack becomes Antler Swipe+ and this becomes Prance+.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ELKFORM_NAME",
+        "ru_name": "Облик Лося",
+        "ru_description": "Станьте Лосем: +8 [img:spd], -2 [img:int], -2 [img:con], Растаптывание 3. Игнор эффектов клеток при движении.\nАтака: Удар Рогами, Это: Гарцевание.",
+        "ru_upgraded_description": "Станьте Лосем: +8 [img:spd], Растаптывание 3. Игнор эффектов клеток.\nАтака: Удар Рогами+, Это: Гарцевание+.",
+        "en_name": "Form of the Elk",
+        "en_description": "Enter Elk Form, gaining +8 [img:spd], -2 [img:int], -2 [img:con], and Trample 3. You ignore tile effects while moving.\nYour basic attack becomes Antler Swipe and this becomes Prance.",
+        "en_upgraded_description": "Enter Elk Form, gaining +8 [img:spd] and Trample 3. You ignore tile effects while moving.\nYour basic attack becomes Antler Swipe+ and this becomes Prance+."
+      },
       "manifest": {
         "ability_id": "ElkForm",
         "display_name": "Form of the Elk",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Enter Mockingbird Form, gaining flying movement, +2 Luck, and -2 Strength. Your basic attack becomes Mock Song and this becomes Tease.Upgraded: Enter Mockingbird Form, gaining flying movement and +2 Luck. Your basic attack becomes Mock Song+ and this becomes Tease+.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MOCKINGBIRDFORM_NAME",
+        "ru_name": "Облик Пересмешника",
+        "ru_description": "Станьте Пересмешником: полет, +2 [img:lck], -2 [img:str].\nАтака: Насмешливая Песнь, Это: Дразнилка.",
+        "ru_upgraded_description": "Станьте Пересмешником: полет, +2 [img:lck].\nАтака: Насмешливая Песнь+, Это: Дразнилка+.",
+        "en_name": "Form of the Mockingbird",
+        "en_description": "Enter Mockingbird Form, gaining flying movement, +2 [img:lck], and -2 [img:str].\nYour basic attack becomes Mock Song and this becomes Tease.",
+        "en_upgraded_description": "Enter Mockingbird Form, gaining flying movement and +2 [img:lck].\nYour basic attack becomes Mock Song+ and this becomes Tease+."
+      },
       "manifest": {
         "ability_id": "MockingbirdForm",
         "display_name": "Form of the Mockingbird",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Enter Monkey Form, gaining +2 Dexterity, +2 Luck, -2 Constitution, and -2 Charisma. Your basic attack becomes Throw Poop and this becomes Monkey Toss.Upgraded: Enter Monkey Form, gaining +2 Dexterity and +2 Luck. Your basic attack becomes Throw Poop and this becomes Monkey Toss+.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORMOFTHEMONKEY_NAME",
+        "ru_name": "Облик Обезьяны",
+        "ru_description": "Станьте Обезьяной: +2 [img:dex], +2 [img:lck], -2 [img:con], -2 [img:cha]. Базовая атака станет Броском Какашки, а это — Швырком Обезьяны.",
+        "ru_upgraded_description": "Станьте Обезьяной: +2 [img:dex] и +2 [img:lck]. Базовая атака станет Броском Какашки, а это — Швырком Обезьяны+.",
+        "en_name": "Form of the Monkey",
+        "en_description": "Enter Monkey Form, gaining +2 [img:dex], +2 [img:lck], -2 [img:con], and -2 [img:cha]. Your basic attack becomes Throw Poop and this becomes Monkey Toss.",
+        "en_upgraded_description": "Enter Monkey Form, gaining +2 [img:dex] and +2 [img:lck]. Your basic attack becomes Throw Poop and this becomes Monkey Toss+."
+      },
       "manifest": {
         "ability_id": "MonkeyForm",
         "display_name": "Form of the Monkey",
@@ -490,6 +670,15 @@
       "variant": "normal",
       "description": "Enter Raccoon Form, gaining +2 Intelligence, and -2 Strength. Your basic attack becomes Pilfer and this becomes Scavenge.Upgraded: Enter Raccoon Form, gaining +2 Intelligence, and +2 Luck. Your basic attack becomes Pilfer and this becomes Scavenge+.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORMOFTHERACCOON_NAME",
+        "ru_name": "Облик Енота",
+        "ru_description": "Станьте Енотом: +2 [img:int], -2 [img:str]. Базовая атака станет Кражей, а это — Собирательством.",
+        "ru_upgraded_description": "Станьте Енотом: +2 [img:int], +2 [img:lck]. Базовая атака станет Кражей, а это — Собирательством+.",
+        "en_name": "Form of the Raccoon",
+        "en_description": "Enter Raccoon Form, gaining +2 [img:int], and -2 [img:str]. Your basic attack becomes Pilfer and this becomes Scavenge.",
+        "en_upgraded_description": "Enter Raccoon Form, gaining +2 [img:int], and +2 [img:lck]. Your basic attack becomes Pilfer and this becomes Scavenge+."
+      },
       "manifest": {
         "ability_id": "RaccoonForm",
         "display_name": "Form of the Raccoon",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Spawn squirrels on each adjacent tile, then enter Squirrel Form. Your basic attack becomes Chitter and this becomes Birth Squirrel.Upgraded: Spawn squirrels on each adjacent tile, then enter Squirrel Form. Your basic attack becomes Chitter and this becomes Birth Squirrel+. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SQUIRRELFORM_NAME",
+        "ru_name": "Облик Белки",
+        "ru_description": "Призовите белок вокруг себя, затем станьте Белкой.\nБазовая атака: Треск, Это: Рождение Белки.",
+        "ru_upgraded_description": "Призовите белок вокруг себя, затем станьте Белкой.\nБазовая атака: Треск, Это: Рождение Белки+.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Form of the Squirrel",
+        "en_description": "Spawn squirrels on each adjacent tile, then enter Squirrel Form.\r\nYour basic attack becomes Chitter and this becomes Birth Squirrel.",
+        "en_upgraded_description": "Spawn squirrels on each adjacent tile, then enter Squirrel Form.\r\nYour basic attack becomes Chitter and this becomes Birth Squirrel+.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SquirrelForm",
         "display_name": "Form of the Squirrel",
@@ -538,6 +736,15 @@
       "variant": "upgraded",
       "description": "Spawn squirrels on each adjacent tile, then enter Squirrel Form. Your basic attack becomes Chitter and this becomes Birth Squirrel.Upgraded: Spawn squirrels on each adjacent tile, then enter Squirrel Form. Your basic attack becomes Chitter and this becomes Birth Squirrel+. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SQUIRRELFORM_NAME",
+        "ru_name": "Облик Белки",
+        "ru_description": "Призовите белок вокруг себя, затем станьте Белкой.\nБазовая атака: Треск, Это: Рождение Белки.",
+        "ru_upgraded_description": "Призовите белок вокруг себя, затем станьте Белкой.\nБазовая атака: Треск, Это: Рождение Белки+.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Form of the Squirrel",
+        "en_description": "Spawn squirrels on each adjacent tile, then enter Squirrel Form.\r\nYour basic attack becomes Chitter and this becomes Birth Squirrel.",
+        "en_upgraded_description": "Spawn squirrels on each adjacent tile, then enter Squirrel Form.\r\nYour basic attack becomes Chitter and this becomes Birth Squirrel+.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SquirrelForm",
         "display_name": "Form of the Squirrel",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Enter Tree Form, gaining -2 Intelligence, +5 , and Brace 2. You become immobile and immune to Knockback. Your basic attack becomes Timber and this becomes Synthesize.Upgraded: Enter Tree Form, gaining -2 Intelligence, +5 , and Brace 4. You become immobile and immune to Knockback. Your basic attack becomes Timber and this becomes Synthesize+.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORMOFTHETREE_NAME",
+        "ru_name": "Облик Дерева",
+        "ru_description": "Станьте Деревом: -2 [img:int], +5 [img:shield], Стойкость 2. Вы неподвижны и имунны к Отбрасыванию. Атака: Лесоповал, Это: Синтез.",
+        "ru_upgraded_description": "Станьте Деревом: -2 [img:int], +5 [img:shield], Стойкость 4. Вы неподвижны и имунны к Отбрасыванию. Атака: Лесоповал, Это: Синтез+.",
+        "en_name": "Form of the Tree",
+        "en_description": "Enter Tree Form, gaining -2 [img:int], +5 [img:shield], and Brace 2. You become immobile and immune to Knockback. Your basic attack becomes Timber and this becomes Synthesize.",
+        "en_upgraded_description": "Enter Tree Form, gaining -2 [img:int], +5 [img:shield], and Brace 4. You become immobile and immune to Knockback. Your basic attack becomes Timber and this becomes Synthesize+."
+      },
       "manifest": {
         "ability_id": "TreeForm",
         "display_name": "Form of the Tree",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Enter Turtle Form, getting +2 Constitution, +10 , -2 Intelligence, and -2 Speed. Your basic attack becomes Head Bash and this becomes Harden Shell.Upgraded: Enter Turtle Form, getting +2 Constitution, +10 , and -2 Intelligence. Your basic attack becomes Head Bash and this becomes Harden Shell+.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORMOFTHETURTLE_NAME",
+        "ru_name": "Облик Черепахи",
+        "ru_description": "Станьте Черепахой: +2 [img:con], +10 [img:shield], -2 [img:int], -2 [img:spd]. Базовая атака станет Ударом Головой, а это — Укреплением Панциря.",
+        "ru_upgraded_description": "Станьте Черепахой: +2 [img:con], +10 [img:shield], -2 [img:int]. Базовая атака станет Ударом Головой, а это — Укреплением Панциря+.",
+        "en_name": "Form of the Turtle",
+        "en_description": "Enter Turtle Form, getting +2 [img:con], +10 [img:shield], -2 [img:int], and -2 [img:spd]. Your basic attack becomes Head Bash and this becomes Harden Shell.",
+        "en_upgraded_description": "Enter Turtle Form, getting +2 [img:con], +10 [img:shield], and -2 [img:int]. Your basic attack becomes Head Bash and this becomes Harden Shell+."
+      },
       "manifest": {
         "ability_id": "RhinoForm",
         "display_name": "Form of the Turtle",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Enter Wolf Form, gaining +2 Strength, +2 Speed, -2 Luck, and -2 Intelligence. Your basic attack becomes Wolf Claws and this becomes Pounce.Upgraded: Enter Wolf Form, gaining +2 Strength, +2 Speed, -2 Luck, and -2 Intelligence. Your basic attack becomes Wolf Claws+ and this becomes Pounce+.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORMOFTHEWOLF_NAME",
+        "ru_name": "Облик Волка",
+        "ru_description": "Станьте Волком: +2 [img:str], +2 [img:spd], -2 [img:lck], -2 [img:int]. Базовая атака станет Волчьими Когтями, а это — Набросом.",
+        "ru_upgraded_description": "Станьте Волком: +2 [img:str], +2 [img:spd], -2 [img:lck], -2 [img:int]. Базовая атака станет Волчьими Когтями+, а это — Набросом+.",
+        "en_name": "Form of the Wolf",
+        "en_description": "Enter Wolf Form, gaining +2 [img:str], +2 [img:spd], -2 [img:lck], and -2 [img:int]. Your basic attack becomes Wolf Claws and this becomes Pounce.",
+        "en_upgraded_description": "Enter Wolf Form, gaining +2 [img:str], +2 [img:spd], -2 [img:lck], and -2 [img:int]. Your basic attack becomes Wolf Claws+ and this becomes Pounce+."
+      },
       "manifest": {
         "ability_id": "TigerForm",
         "display_name": "Form of the Wolf",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Gain +1 , +1 Thorns, and +1 temporary Brace.Upgraded: Gain +1 , +1 Thorns, and +1 temporary Brace. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HARDENSHELL_NAME",
+        "ru_name": "Укрепление панциря",
+        "ru_description": "Получите +1 [img:shield], +1 Шипы и +1 временную Стойкость.",
+        "ru_upgraded_description": "Получите +1 [img:shield], +1 Шипы и +1 временную Стойкость.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Harden Shell",
+        "en_description": "Gain +1 [img:shield], +1 Thorns, and +1 temporary Brace.",
+        "en_upgraded_description": "Gain +1 [img:shield], +1 Thorns, and +1 temporary Brace.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "HardenSkin",
         "display_name": "Harden Shell",
@@ -658,6 +901,15 @@
       "variant": "upgraded",
       "description": "Gain +1 , +1 Thorns, and +1 temporary Brace.Upgraded: Gain +1 , +1 Thorns, and +1 temporary Brace. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HARDENSHELL_NAME",
+        "ru_name": "Укрепление панциря",
+        "ru_description": "Получите +1 [img:shield], +1 Шипы и +1 временную Стойкость.",
+        "ru_upgraded_description": "Получите +1 [img:shield], +1 Шипы и +1 временную Стойкость.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Harden Shell",
+        "en_description": "Gain +1 [img:shield], +1 Thorns, and +1 temporary Brace.",
+        "en_upgraded_description": "Gain +1 [img:shield], +1 Thorns, and +1 temporary Brace.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "HardenSkin",
         "display_name": "Harden Shell",
@@ -682,6 +934,15 @@
       "variant": "normal",
       "description": "Shoot a blast of water that deals 3 Knockback. This spell has recoil.Upgraded: Shoot a long blast of water that deals 10 Knockback. This spell has recoil.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HYDROPUMP_NAME",
+        "ru_name": "Гидронасос",
+        "ru_description": "Выстрел водой: 3 Отбрасывания. Заклинание имеет отдачу.",
+        "ru_upgraded_description": "Длинный выстрел водой: 10 Отбрасывания. Заклинание имеет отдачу.",
+        "en_name": "Hydro Pump",
+        "en_description": "Shoot a blast of water that deals 3 Knockback. This spell has recoil.",
+        "en_upgraded_description": "Shoot a long blast of water that deals 10 Knockback. This spell has recoil."
+      },
       "manifest": {
         "ability_id": "HydroPump",
         "display_name": "Hydro Pump",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Inflicts Sleep on units in an area.Upgraded: Inflicts Sleep on units in an area. (This spell costs less and has increased range.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LULLABY_NAME",
+        "ru_name": "Колыбельная",
+        "ru_description": "Усыпите юнитов в области.",
+        "ru_upgraded_description": "Усыпите юнитов в области.\n[s:.7](Стоит дешевле и дальше бьет.)[/s]",
+        "en_name": "Lullaby",
+        "en_description": "Inflicts Sleep on units in an area.",
+        "en_upgraded_description": "Inflicts Sleep on units in an area.\n[s:.7](This spell costs less and has increased range.)[/s]"
+      },
       "manifest": {
         "ability_id": "Lullaby",
         "display_name": "Lullaby",
@@ -730,6 +1000,15 @@
       "variant": "upgraded",
       "description": "Inflicts Sleep on units in an area.Upgraded: Inflicts Sleep on units in an area. (This spell costs less and has increased range.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LULLABY_NAME",
+        "ru_name": "Колыбельная",
+        "ru_description": "Усыпите юнитов в области.",
+        "ru_upgraded_description": "Усыпите юнитов в области.\n[s:.7](Стоит дешевле и дальше бьет.)[/s]",
+        "en_name": "Lullaby",
+        "en_description": "Inflicts Sleep on units in an area.",
+        "en_upgraded_description": "Inflicts Sleep on units in an area.\n[s:.7](This spell costs less and has increased range.)[/s]"
+      },
       "manifest": {
         "ability_id": "Lullaby",
         "display_name": "Lullaby",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "Throw an adjacent unit to another tile. It takes damage if it's thrown onto something.Upgraded: Throw an adjacent unit to another tile. It takes damage if it's thrown onto something. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MONKEYTOSS_NAME",
+        "ru_name": "Швырок обезьяны",
+        "ru_description": "Швырните соседнего юнита на другую клетку. Он получит урон, если упадет на что-то.",
+        "ru_upgraded_description": "Швырните соседнего юнита на другую клетку. Он получит урон, если упадет на что-то.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Monkey Toss",
+        "en_description": "Throw an adjacent unit to another tile. It takes damage if it's thrown onto something.",
+        "en_upgraded_description": "Throw an adjacent unit to another tile. It takes damage if it's thrown onto something.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MonkeyThrow",
         "display_name": "Monkey Toss",
@@ -778,6 +1066,15 @@
       "variant": "upgraded",
       "description": "Throw an adjacent unit to another tile. It takes damage if it's thrown onto something.Upgraded: Throw an adjacent unit to another tile. It takes damage if it's thrown onto something. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MONKEYTOSS_NAME",
+        "ru_name": "Швырок обезьяны",
+        "ru_description": "Швырните соседнего юнита на другую клетку. Он получит урон, если упадет на что-то.",
+        "ru_upgraded_description": "Швырните соседнего юнита на другую клетку. Он получит урон, если упадет на что-то.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Monkey Toss",
+        "en_description": "Throw an adjacent unit to another tile. It takes damage if it's thrown onto something.",
+        "en_upgraded_description": "Throw an adjacent unit to another tile. It takes damage if it's thrown onto something.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MonkeyThrow",
         "display_name": "Monkey Toss",
@@ -802,6 +1099,15 @@
       "variant": "normal",
       "description": "Grow tall grass tiles in an area and give units in that area +3 Diminishing Health RegenerationUpgraded: Grow tall grass tiles in an area and give units in that area +3 Diminishing Health Regeneration (This spell costs less and has infinite range.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_NATURESBLESSING_NAME",
+        "ru_name": "Благословение природы",
+        "ru_description": "Вырастите траву в области и дайте юнитам там +3 Угасающей Регенерации.",
+        "ru_upgraded_description": "Вырастите траву в области и дайте юнитам там +3 Угасающей Регенерации.\n[s:.7](Стоит дешевле и бесконечная дальность.)[/s]",
+        "en_name": "Nature's Blessing",
+        "en_description": "Grow tall grass tiles in an area and give units in that area +3 Diminishing Health Regeneration",
+        "en_upgraded_description": "Grow tall grass tiles in an area and give units in that area +3 Diminishing Health Regeneration\n[s:.7](This spell costs less and has infinite range.)[/s]"
+      },
       "manifest": {
         "ability_id": "NaturesBlessing",
         "display_name": "Nature's Blessing",
@@ -826,6 +1132,15 @@
       "variant": "upgraded",
       "description": "Grow tall grass tiles in an area and give units in that area +3 Diminishing Health RegenerationUpgraded: Grow tall grass tiles in an area and give units in that area +3 Diminishing Health Regeneration (This spell costs less and has infinite range.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_NATURESBLESSING_NAME",
+        "ru_name": "Благословение природы",
+        "ru_description": "Вырастите траву в области и дайте юнитам там +3 Угасающей Регенерации.",
+        "ru_upgraded_description": "Вырастите траву в области и дайте юнитам там +3 Угасающей Регенерации.\n[s:.7](Стоит дешевле и бесконечная дальность.)[/s]",
+        "en_name": "Nature's Blessing",
+        "en_description": "Grow tall grass tiles in an area and give units in that area +3 Diminishing Health Regeneration",
+        "en_upgraded_description": "Grow tall grass tiles in an area and give units in that area +3 Diminishing Health Regeneration\n[s:.7](This spell costs less and has infinite range.)[/s]"
+      },
       "manifest": {
         "ability_id": "NaturesBlessing",
         "display_name": "Nature's Blessing",
@@ -850,6 +1165,15 @@
       "variant": "normal",
       "description": "Spawn a glowing mushroom that restores mana to nearby units on its turn.Upgraded: Spawn a glowing mushroom anywhere that restores mana and health to nearby units on its turn.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_PLANTMUSHROOM_NAME",
+        "ru_name": "Посадить гриб",
+        "ru_description": "Создайте светящийся гриб, который восстанавливает ману соседям в свой ход.",
+        "ru_upgraded_description": "Создайте гриб где угодно, который лечит и восстанавливает ману соседям.",
+        "en_name": "Plant Mushroom",
+        "en_description": "Spawn a glowing mushroom that restores mana to nearby units on its turn.",
+        "en_upgraded_description": "Spawn a glowing mushroom anywhere that restores mana and health to nearby units on its turn."
+      },
       "manifest": {
         "ability_id": "PlantMushroom",
         "display_name": "Plant Mushroom",
@@ -874,6 +1198,15 @@
       "variant": "normal",
       "description": "Refresh your movement action.Upgraded: Refresh your movement action. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PRANCE_NAME",
+        "ru_name": "Гарцевание",
+        "ru_description": "Обновите действие движения.",
+        "ru_upgraded_description": "Обновите действие движения.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Prance",
+        "en_description": "Refresh your movement action.",
+        "en_upgraded_description": "Refresh your movement action.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Prance",
         "display_name": "Prance",
@@ -898,6 +1231,15 @@
       "variant": "upgraded",
       "description": "Refresh your movement action.Upgraded: Refresh your movement action. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PRANCE_NAME",
+        "ru_name": "Гарцевание",
+        "ru_description": "Обновите действие движения.",
+        "ru_upgraded_description": "Обновите действие движения.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Prance",
+        "en_description": "Refresh your movement action.",
+        "en_upgraded_description": "Refresh your movement action.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Prance",
         "display_name": "Prance",
@@ -922,6 +1264,15 @@
       "variant": "normal",
       "description": "The next familiar you spawn becomes a champion.Upgraded: The next familiar you spawn becomes an elite.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PROMOTE_NAME",
+        "ru_name": "Повышение",
+        "ru_description": "Следующий призванный фамильяр станет [img:champion] чемпионом.",
+        "ru_upgraded_description": "Следующий призванный фамильяр станет [img:elite] элитой.",
+        "en_name": "Promote",
+        "en_description": "The next familiar you spawn becomes a [img:champion] champion.",
+        "en_upgraded_description": "The next familiar you spawn becomes an [img:elite] elite."
+      },
       "manifest": {
         "ability_id": "Promote",
         "display_name": "Promote",
@@ -946,6 +1297,15 @@
       "variant": "normal",
       "description": "Give a familiar +1 .Upgraded: Give familiars in a large area +1 .",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PROTECTION_NAME",
+        "ru_name": "Защита",
+        "ru_description": "Дайте фамильяру +1 [img:divineshield].",
+        "ru_upgraded_description": "Дайте фамильярам в большой области +1 [img:divineshield].",
+        "en_name": "Protection",
+        "en_description": "Give a familiar +1 [img:divineshield].",
+        "en_upgraded_description": "Give familiars in a large area +1 [img:divineshield]."
+      },
       "manifest": {
         "ability_id": "Protection",
         "display_name": "Protection",
@@ -970,6 +1330,15 @@
       "variant": "normal",
       "description": "Summon a new crow. Castable only if your crow is dead.Upgraded: Summon a crow.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONCROW_NAME",
+        "ru_name": "Перепризыв Вороны",
+        "ru_description": "Призовите новую Ворону. Только если старая мертва.",
+        "ru_upgraded_description": "Призовите Ворону.",
+        "en_name": "Resummon Crow",
+        "en_description": "Summon a new crow. Castable only if your crow is dead.",
+        "en_upgraded_description": "Summon a crow."
+      },
       "manifest": {
         "ability_id": "SummonCrow",
         "display_name": "Resummon Crow",
@@ -994,6 +1363,15 @@
       "variant": "normal",
       "description": "Give all allies +1 .Upgraded: Give all allies +2 .",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SAFETYDANCE_NAME",
+        "ru_name": "Танец безопасности",
+        "ru_description": "Дайте всем союзникам +1 [img:shield].",
+        "ru_upgraded_description": "Дайте всем союзникам +2 [img:shield].",
+        "en_name": "Safety Dance",
+        "en_description": "Give all allies +1 [img:shield].",
+        "en_upgraded_description": "Give all allies +2 [img:shield]."
+      },
       "manifest": {
         "ability_id": "SafetyDance",
         "display_name": "Safety Dance",
@@ -1018,6 +1396,15 @@
       "variant": "normal",
       "description": "Run to any pickup and collect it.Upgraded: Run to any pickup and collect it. The effects of that pickup are doubled.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SCAVENGE_NAME",
+        "ru_name": "Собирательство",
+        "ru_description": "Бегите к любому предмету и подберите его.",
+        "ru_upgraded_description": "Бегите к любому предмету и подберите его. Эффект предмета удваивается.",
+        "en_name": "Scavenge",
+        "en_description": "Run to any pickup and collect it.",
+        "en_upgraded_description": "Run to any pickup and collect it. The effects of that pickup are doubled."
+      },
       "manifest": {
         "ability_id": "Scavenge",
         "display_name": "Scavenge",
@@ -1042,6 +1429,15 @@
       "variant": "normal",
       "description": "Give Health Regeneration 1 to units in an area.Upgraded: Give Health Regeneration 1 to units in a larger area. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SERENADE_NAME",
+        "ru_name": "Серенада",
+        "ru_description": "Дайте Регенерацию Здоровья 1 юнитам в области.",
+        "ru_upgraded_description": "Дайте Регенерацию Здоровья 1 юнитам в большей области.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Serenade",
+        "en_description": "Give Health Regeneration 1 to units in an area.",
+        "en_upgraded_description": "Give Health Regeneration 1 to units in a larger area.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Serenade",
         "display_name": "Serenade",
@@ -1066,6 +1462,15 @@
       "variant": "upgraded",
       "description": "Give Health Regeneration 1 to units in an area.Upgraded: Give Health Regeneration 1 to units in a larger area. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SERENADE_NAME",
+        "ru_name": "Серенада",
+        "ru_description": "Дайте Регенерацию Здоровья 1 юнитам в области.",
+        "ru_upgraded_description": "Дайте Регенерацию Здоровья 1 юнитам в большей области.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Serenade",
+        "en_description": "Give Health Regeneration 1 to units in an area.",
+        "en_upgraded_description": "Give Health Regeneration 1 to units in a larger area.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Serenade",
         "display_name": "Serenade",
@@ -1090,6 +1495,15 @@
       "variant": "normal",
       "description": "Inflict Sleep on a unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SLEEPPOWDER_NAME",
+        "ru_name": "Сонная пыльца",
+        "ru_description": "Усыпите юнита.",
+        "ru_upgraded_description": "",
+        "en_name": "Sleep Powder",
+        "en_description": "Inflict Sleep on a unit.",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "SleepPowder",
         "display_name": "Sleep Powder",
@@ -1114,6 +1528,15 @@
       "variant": "normal",
       "description": "Spawn flower tiles in an area.Upgraded: Spawn flower tiles in a large area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SONGOFSPRING_NAME",
+        "ru_name": "Песнь весны",
+        "ru_description": "Создайте клетки с цветами в области.",
+        "ru_upgraded_description": "Создайте клетки с цветами в большой области.",
+        "en_name": "Song of Spring",
+        "en_description": "Spawn flower tiles in an area.",
+        "en_upgraded_description": "Spawn flower tiles in a large area."
+      },
       "manifest": {
         "ability_id": "SongOfSpring",
         "display_name": "Song of Spring",
@@ -1138,6 +1561,15 @@
       "variant": "normal",
       "description": "Summon 5 baby squirrels.Upgraded: Summon 5 adult squirrels.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SQUIRRELSQUAD_NAME",
+        "ru_name": "Беличий отряд",
+        "ru_description": "Призовите 5 бельчат.",
+        "ru_upgraded_description": "Призовите 5 взрослых белок.",
+        "en_name": "Squirrel Squad",
+        "en_description": "Summon 5 baby squirrels.",
+        "en_upgraded_description": "Summon 5 adult squirrels."
+      },
       "manifest": {
         "ability_id": "SquirrelSquad",
         "display_name": "Squirrel Squad",
@@ -1162,6 +1594,15 @@
       "variant": "normal",
       "description": "Teleport an ally to you.Upgraded: Teleport any unit to you.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STANDBYME_NAME",
+        "ru_name": "Останься со мной",
+        "ru_description": "Телепортируйте союзника к себе.",
+        "ru_upgraded_description": "Телепортируйте любого юнита к себе.",
+        "en_name": "Stand By Me",
+        "en_description": "Teleport an ally to you.",
+        "en_upgraded_description": "Teleport any unit to you."
+      },
       "manifest": {
         "ability_id": "PullToSafety",
         "display_name": "Stand By Me",
@@ -1186,6 +1627,15 @@
       "variant": "normal",
       "description": "Swap positions with a familiar.Upgraded: Swap positions with any unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STEPIN_NAME",
+        "ru_name": "Вмешательство",
+        "ru_description": "Поменяйтесь местами с фамильяром.",
+        "ru_upgraded_description": "Поменяйтесь местами с любым юнитом.",
+        "en_name": "Step In",
+        "en_description": "Swap positions with a familiar.",
+        "en_upgraded_description": "Swap positions with any unit."
+      },
       "manifest": {
         "ability_id": "DruidSwap",
         "display_name": "Step In",
@@ -1210,6 +1660,15 @@
       "variant": "normal",
       "description": "Summon a bear.Upgraded: Summon a furious bear! (It has Fury Swipes.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONBEAR_NAME",
+        "ru_name": "Призыв Медведя",
+        "ru_description": "Призовите медведя.",
+        "ru_upgraded_description": "Призовите яростного медведя!\n(У него есть Яростные Когти.)",
+        "en_name": "Summon Bear",
+        "en_description": "Summon a bear.",
+        "en_upgraded_description": "Summon a furious bear!\n(It has Fury Swipes.)"
+      },
       "manifest": {
         "ability_id": "SummonBear",
         "display_name": "Summon Bear",
@@ -1234,6 +1693,15 @@
       "variant": "normal",
       "description": "Summon a caterpillar. It gains All Stats Up at the end of each turn. It becomes a moth at All Stats Up 5.Upgraded: Summon a caterpillar with All Stats Up 2. It gains All Stats Up at the end of each turn. It becomes a moth at All Stats Up 5.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONCATERPILLAR_NAME",
+        "ru_name": "Призыв Гусеницы",
+        "ru_description": "Призовите гусеницу. Она получает Повышение Хар-к каждый ход. Станет молью при 5 стаках.",
+        "ru_upgraded_description": "Призовите гусеницу с Повышением 2. Она растет каждый ход. Станет молью при 5 стаках.",
+        "en_name": "Summon Caterpillar",
+        "en_description": "Summon a caterpillar. It gains All Stats Up at the end of each turn. It becomes a moth at All Stats Up 5.",
+        "en_upgraded_description": "Summon a caterpillar with All Stats Up 2. It gains All Stats Up at the end of each turn. It becomes a moth at All Stats Up 5."
+      },
       "manifest": {
         "ability_id": "SummonCatepillar",
         "display_name": "Summon Caterpillar",
@@ -1258,6 +1726,15 @@
       "variant": "normal",
       "description": "Summon a snake.Upgraded: Summon a slippery snake! (It has a 66% dodge chance.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONSNAKE_NAME",
+        "ru_name": "Призыв Змеи",
+        "ru_description": "Призовите змею.",
+        "ru_upgraded_description": "Призовите скользкую змею!\n(У нее 66% шанс уклонения.)",
+        "en_name": "Summon Snake",
+        "en_description": "Summon a snake.",
+        "en_upgraded_description": "Summon a slippery snake!\n(It has a 66% dodge chance.)"
+      },
       "manifest": {
         "ability_id": "SummonSnake",
         "display_name": "Summon Snake",
@@ -1282,6 +1759,15 @@
       "variant": "normal",
       "description": "Summon a squirrel.Upgraded: Summon a squirrel to any tile.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONSQUIRREL_NAME",
+        "ru_name": "Призыв Белки",
+        "ru_description": "Призовите белку.",
+        "ru_upgraded_description": "Призовите белку на любую клетку.",
+        "en_name": "Summon Squirrel",
+        "en_description": "Summon a squirrel.",
+        "en_upgraded_description": "Summon a squirrel to any tile."
+      },
       "manifest": {
         "ability_id": "SummonSquirrel",
         "display_name": "Summon Squirrel",
@@ -1306,6 +1792,15 @@
       "variant": "normal",
       "description": "Summon a toad.Upgraded: Summon a super toad! (It has more damage, health, and can move an extra time each turn)",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_SUMMONTOAD_NAME",
+        "ru_name": "Призыв Жабы",
+        "ru_description": "Призовите жабу.",
+        "ru_upgraded_description": "Призовите супер-жабу!\n(У нее больше урона, здоровья и доп. движение каждый ход)",
+        "en_name": "Summon Toad",
+        "en_description": "Summon a toad.",
+        "en_upgraded_description": "Summon a super toad!\n(It has more damage, health, and can move an extra time each turn)"
+      },
       "manifest": {
         "ability_id": "SummonToad",
         "display_name": "Summon Toad",
@@ -1330,6 +1825,15 @@
       "variant": "normal",
       "description": "Summon a turtle.Upgraded: Summon a turtle to any tile in range 6.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONTURTLE_NAME",
+        "ru_name": "Призыв Черепахи",
+        "ru_description": "Призовите черепаху.",
+        "ru_upgraded_description": "Призовите черепаху на клетку в радиусе 6.",
+        "en_name": "Summon Turtle",
+        "en_description": "Summon a turtle.",
+        "en_upgraded_description": "Summon a turtle to any tile in range 6."
+      },
       "manifest": {
         "ability_id": "SummonTurtle",
         "display_name": "Summon Turtle",
@@ -1354,6 +1858,15 @@
       "variant": "normal",
       "description": "Inflict Madness 1 on a unit.Upgraded: Inflict Madness 1 on a unit. It immediately attacks a unit if it can.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TEASE_NAME",
+        "ru_name": "Дразнилка",
+        "ru_description": "Наложите Безумие 1 на юнита.",
+        "ru_upgraded_description": "Наложите Безумие 1 на юнита. Он сразу атакует кого-нибудь, если может.",
+        "en_name": "Tease",
+        "en_description": "Inflict Madness 1 on a unit.",
+        "en_upgraded_description": "Inflict Madness 1 on a unit. It immediately attacks a unit if it can."
+      },
       "manifest": {
         "ability_id": "Tease",
         "display_name": "Tease",
@@ -1378,6 +1891,15 @@
       "variant": "normal",
       "description": "Move 3 tiles. Plant brambles as you move.Upgraded: Move 3 tiles. Plant brambles as you move. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THORNYFEET_NAME",
+        "ru_name": "Колючие лапки",
+        "ru_description": "Пройдите 3 клетки. Сажайте терновник по пути.",
+        "ru_upgraded_description": "Пройдите 3 клетки. Сажайте терновник по пути.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Thorny Feet",
+        "en_description": "Move 3 tiles. Plant brambles as you move.",
+        "en_upgraded_description": "Move 3 tiles. Plant brambles as you move.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ThornyFeet",
         "display_name": "Thorny Feet",
@@ -1402,6 +1924,15 @@
       "variant": "upgraded",
       "description": "Move 3 tiles. Plant brambles as you move.Upgraded: Move 3 tiles. Plant brambles as you move. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THORNYFEET_NAME",
+        "ru_name": "Колючие лапки",
+        "ru_description": "Пройдите 3 клетки. Сажайте терновник по пути.",
+        "ru_upgraded_description": "Пройдите 3 клетки. Сажайте терновник по пути.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Thorny Feet",
+        "en_description": "Move 3 tiles. Plant brambles as you move.",
+        "en_upgraded_description": "Move 3 tiles. Plant brambles as you move.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "ThornyFeet",
         "display_name": "Thorny Feet",
@@ -1426,6 +1957,15 @@
       "variant": "normal",
       "description": "Each familiar attacks their closest enemy immediately if they can.Upgraded: Your allies and familiars all attack their closest enemy immediately if they can.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_WARCRY_NAME",
+        "ru_name": "Вопль войны",
+        "ru_description": "Каждый фамильяр немедленно атакует ближайшего врага.",
+        "ru_upgraded_description": "Ваши союзники и фамильяры немедленно атакуют ближайшего врага.",
+        "en_name": "War Cry",
+        "en_description": "Each familiar attacks their closest enemy immediately if they can.",
+        "en_upgraded_description": "Your allies and familiars all attack their closest enemy immediately if they can."
+      },
       "manifest": {
         "ability_id": "WarCry",
         "display_name": "War Cry",
@@ -1450,6 +1990,15 @@
       "variant": "normal",
       "description": "Each familiar gains All Stats Up 2 and heals to full. (Castable once per battle.) Upgraded: Each familiar gains All Stats Up 2 and heals to full. (This spell costs 0 mana. Castable once per battle.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_WEARETHECHAMPIONS_NAME",
+        "ru_name": "Мы чемпионы!",
+        "ru_description": "Каждый фамильяр получает Повышение Хар-к 2 и полное лечение.\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Каждый фамильяр получает Повышение Хар-к 2 и полное лечение.\n[s:.7](Стоит 0 маны. Раз за битву.)[/s]",
+        "en_name": "We Are the Champions",
+        "en_description": "Each familiar gains All Stats Up 2 and heals to full.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Each familiar gains All Stats Up 2 and heals to full.\n[s:.7](This spell costs 0 mana. Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "WeAreTheChampions",
         "display_name": "We Are the Champions",
@@ -1474,6 +2023,15 @@
       "variant": "upgraded",
       "description": "Each familiar gains All Stats Up 2 and heals to full. (Castable once per battle.) Upgraded: Each familiar gains All Stats Up 2 and heals to full. (This spell costs 0 mana. Castable once per battle.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_WEARETHECHAMPIONS_NAME",
+        "ru_name": "Мы чемпионы!",
+        "ru_description": "Каждый фамильяр получает Повышение Хар-к 2 и полное лечение.\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Каждый фамильяр получает Повышение Хар-к 2 и полное лечение.\n[s:.7](Стоит 0 маны. Раз за битву.)[/s]",
+        "en_name": "We Are the Champions",
+        "en_description": "Each familiar gains All Stats Up 2 and heals to full.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Each familiar gains All Stats Up 2 and heals to full.\n[s:.7](This spell costs 0 mana. Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "WeAreTheChampions",
         "display_name": "We Are the Champions",
@@ -1498,6 +2056,15 @@
       "variant": "normal",
       "description": "Inflict Petrify on a familiar and give it +6 .Upgraded: Inflict Petrify on a familiar and give it +6 and +2 Thorns.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WEWILLROCKYOU_NAME",
+        "ru_name": "Мы Вас Поразим",
+        "ru_description": "Наложить на питомца эффект «Окаменение» и дать ему +6 [img:shield].",
+        "ru_upgraded_description": "Наложить на питомца эффект «Окаменение» и дать ему +6 [img:shield] и +2 Шипы.",
+        "en_name": "We Will Rock You",
+        "en_description": "Inflict Petrify on a familiar and give it +6 [img:shield].",
+        "en_upgraded_description": "Inflict Petrify on a familiar and give it +6 [img:shield] and +2 Thorns."
+      },
       "manifest": {
         "ability_id": "WeWillRockYou",
         "display_name": "We Will Rock You",
@@ -1522,6 +2089,15 @@
       "variant": "normal",
       "description": "Give a unit +1 Bonus Move.Upgraded: Give a unit +1 Bonus Move and +1 Speed. They take their next turn earlier.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WINDYSTEP_NAME",
+        "ru_name": "Ветряной шаг",
+        "ru_description": "Дайте юниту +1 Бонусное Движение.",
+        "ru_upgraded_description": "Дайте юниту +1 Бонусное Движение и +1 [img:spd]. Он походит раньше.",
+        "en_name": "Windy Step",
+        "en_description": "Give a unit +1 Bonus Move.",
+        "en_upgraded_description": "Give a unit +1 Bonus Move and +1 [img:spd]. They take their next turn earlier."
+      },
       "manifest": {
         "ability_id": "WindyStep",
         "display_name": "Windy Step",

@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "A melee attack that can only hit from behind. This attack ignores shield and has 50% crit chance.Upgraded: A melee attack that can only hit from behind. This attack ignores shield and has 100% crit chance. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ASSASSINATE_NAME",
+        "ru_name": "Убийство",
+        "ru_description": "Ближняя атака только со спины. Игнорирует щит, 50% шанс крита.",
+        "ru_upgraded_description": "Ближняя атака только со спины. Игнорирует щит, 100% шанс крита.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Assassinate",
+        "en_description": "A melee attack that can only hit from behind. This attack ignores shield and has 50% crit chance.",
+        "en_upgraded_description": "A melee attack that can only hit from behind. This attack ignores shield and has 100% crit chance.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Assassinate",
         "display_name": "Assassinate",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "A melee attack that can only hit from behind. This attack ignores shield and has 50% crit chance.Upgraded: A melee attack that can only hit from behind. This attack ignores shield and has 100% crit chance. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ASSASSINATE_NAME",
+        "ru_name": "Убийство",
+        "ru_description": "Ближняя атака только со спины. Игнорирует щит, 50% шанс крита.",
+        "ru_upgraded_description": "Ближняя атака только со спины. Игнорирует щит, 100% шанс крита.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Assassinate",
+        "en_description": "A melee attack that can only hit from behind. This attack ignores shield and has 50% crit chance.",
+        "en_upgraded_description": "A melee attack that can only hit from behind. This attack ignores shield and has 100% crit chance.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Assassinate",
         "display_name": "Assassinate",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Throw a projectile that passes through units and then returns to you. This can collect pickups.Upgraded: Throw a projectile that passes through units and then returns to you. At its apex, it deals increased damage and always crits. This can collect pickups.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHAKRAM_NAME",
+        "ru_name": "Шакрам",
+        "ru_description": "Бросьте снаряд, который летит насквозь и возвращается. Собирает лут.",
+        "ru_upgraded_description": "Бросьте снаряд-бумеранг. В наивысшей точке наносит доп. урон и всегда критует. Собирает лут.",
+        "en_name": "Chakram",
+        "en_description": "Throw a projectile that passes through units and then returns to you. This can collect pickups.",
+        "en_upgraded_description": "Throw a projectile that passes through units and then returns to you. At its apex, it deals increased damage and always crits. This can collect pickups."
+      },
       "manifest": {
         "ability_id": "Chakram",
         "display_name": "Chakram",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Throw a coin that deals damage. RELOAD: Collect a coin. This spell costs more mana each additional time you use it on the same turn. Upgraded: Throw a coin at infinite range with +50% crit chance that ignores shield. RELOAD: Collect a coin. This spell costs more mana each additional time you use it on the same turn.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COINTOSS_NAME",
+        "ru_name": "Бросок монеты",
+        "ru_description": "Бросьте монету (урон).\nПЕРЕЗАРЯДКА: Подберите монету.\n[s:.7]Стоит дороже с каждым броском за ход.[/s]",
+        "ru_upgraded_description": "Бросьте монету (беск. дальность, +50% крит, игнор щита).\nПЕРЕЗАРЯДКА: Подберите монету.\n[s:.7]Стоит дороже с каждым броском за ход.[/s]",
+        "en_name": "Coin Toss",
+        "en_description": "Throw a coin that deals damage.\nRELOAD: Collect a coin.\n[s:.7]This spell costs more mana each additional time you use it on the same turn.[/s]",
+        "en_upgraded_description": "Throw a coin at infinite range with +50% crit chance that ignores shield.\nRELOAD: Collect a coin.\n[s:.7]This spell costs more mana each additional time you use it on the same turn.[/s]"
+      },
       "manifest": {
         "ability_id": "CoinToss",
         "display_name": "Coin Toss",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Throw a nail that knocks coins out of units it hits and ignores shield.Upgraded: Throw 2 nails that knock coins out of units they hit and ignore shield.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CUTPURSE_NAME",
+        "ru_name": "Карманник",
+        "ru_description": "Бросьте гвоздь, выбивающий монеты и игнорирующий щит.",
+        "ru_upgraded_description": "Бросьте 2 гвоздя, выбивающих монеты и игнорирующих щит.",
+        "en_name": "Cut Purse",
+        "en_description": "Throw a nail that knocks coins out of units it hits and ignores shield.",
+        "en_upgraded_description": "Throw 2 nails that knock coins out of units they hit and ignore shield."
+      },
       "manifest": {
         "ability_id": "CutPurse",
         "display_name": "Cut Purse",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "A melee attack that inflicts -1 Damage and Bleed.Upgraded: A 2-hit melee attack that inflicts -1 Damage and Bleed.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DECLAW_NAME",
+        "ru_name": "Удаление когтей",
+        "ru_description": "Ближняя атака: -1 Урон и Кровотечение.",
+        "ru_upgraded_description": "Ближняя атака (2 удара): -1 Урон и Кровотечение.",
+        "en_name": "Declaw",
+        "en_description": "A melee attack that inflicts -1 Damage and Bleed.",
+        "en_upgraded_description": "A 2-hit melee attack that inflicts -1 Damage and Bleed."
+      },
       "manifest": {
         "ability_id": "Dclaude_Declaw",
         "display_name": "Declaw",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Throw a nail that passes through units and ignores shield.Upgraded: Throw an infinite range nail that passes through units and ignores shield.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PIERCESHOT_NAME",
+        "ru_name": "Пронзающий выстрел",
+        "ru_description": "Гвоздь, прошивающий насквозь (игнор щита).",
+        "ru_upgraded_description": "Гвоздь на всю карту, прошивающий насквозь (игнор щита).",
+        "en_name": "Pierce Shot",
+        "en_description": "Throw a nail that passes through units and ignores shield.",
+        "en_upgraded_description": "Throw an infinite range nail that passes through units and ignores shield."
+      },
       "manifest": {
         "ability_id": "PierceShot",
         "display_name": "Pierce Shot",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Throw a nail that inflicts Poison and ignores shield.Upgraded: Throw 2 nails that inflict Poison and ignore shield.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_POISONNAIL_NAME",
+        "ru_name": "Ядовитый гвоздь",
+        "ru_description": "Бросьте гвоздь: Яд, игнор щита.",
+        "ru_upgraded_description": "Бросьте 2 гвоздя: Яд, игнор щита.",
+        "en_name": "Poison Nail",
+        "en_description": "Throw a nail that inflicts Poison and ignores shield.",
+        "en_upgraded_description": "Throw 2 nails that inflict Poison and ignore shield."
+      },
       "manifest": {
         "ability_id": "PoisonNail",
         "display_name": "Poison Nail",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "A melee attack that rebounds you backwards 10 tiles.Upgraded: A melee attack that rebounds you backwards 10 tiles. Deal damage to any unit you collide with.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REBOUND_NAME",
+        "ru_name": "Отскок",
+        "ru_description": "Ближняя атака, которая откидывает ВАС на 10 клеток назад.",
+        "ru_upgraded_description": "Ближняя атака, которая откидывает ВАС на 10 клеток назад. Урон при столкновении.",
+        "en_name": "Rebound",
+        "en_description": "A melee attack that rebounds you backwards 10 tiles.",
+        "en_upgraded_description": "A melee attack that rebounds you backwards 10 tiles. Deal damage to any unit you collide with."
+      },
       "manifest": {
         "ability_id": "Rebound",
         "display_name": "Rebound",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "A weak melee attack. If this crits, inflict Bleed 5.Upgraded: A weak melee attack. If this crits inflict Bleed 5 and you gain All Stats Up.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SEVERARTERY_NAME",
+        "ru_name": "Вскрытие артерии",
+        "ru_description": "Слабая атака ближнего боя. При крите: Кровотечение 5",
+        "ru_upgraded_description": "Слабая атака ближнего боя. При крите: Кровотечение 5 и вы получаете Всех Хар-к.",
+        "en_name": "Sever Artery",
+        "en_description": "A weak melee attack. If this crits, inflict Bleed 5.",
+        "en_upgraded_description": "A weak melee attack. If this crits inflict Bleed 5 and you gain All Stats Up."
+      },
       "manifest": {
         "ability_id": "SeverArtery",
         "display_name": "Sever Artery",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Throw a nail that inflicts Bleed and ignores shield.Upgraded: Throw 2 nails that inflict Bleed and ignore shield.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHARPNAIL_NAME",
+        "ru_name": "Острый гвоздь",
+        "ru_description": "Бросьте гвоздь: Кровотечение, игнор щита.",
+        "ru_upgraded_description": "Бросьте 2 гвоздя: Кровотечение, игнор щита.",
+        "en_name": "Sharp Nail",
+        "en_description": "Throw a nail that inflicts Bleed and ignores shield.",
+        "en_upgraded_description": "Throw 2 nails that inflict Bleed and ignore shield."
+      },
       "manifest": {
         "ability_id": "SharpNail",
         "display_name": "Sharp Nail",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "A melee attack that has all effects of your basic attack and ignores shield.Upgraded: A melee attack that has all effects of your basic attack and ignores shield. (This spell is free the 1st time you use it each turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SLICE_NAME",
+        "ru_name": "Разрез",
+        "ru_description": "Ближняя атака с эффектами базовой атаки, игнорирует щит.",
+        "ru_upgraded_description": "Ближняя атака с эффектами базовой атаки, игнорирует щит.\n[s:.7](Бесплатно первый раз за ход.)[/s]",
+        "en_name": "Slice",
+        "en_description": "A melee attack that has all effects of your basic attack and ignores shield.",
+        "en_upgraded_description": "A melee attack that has all effects of your basic attack and ignores shield.\n[s:.7](This spell is free the 1st time you use it each turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "Slice",
         "display_name": "Slice",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "A melee attack with increased critical hit chance. If this crits and your trinket slot is empty, gain a kidney, then inflict Bleed 1.Upgraded: A melee attack with increased critical hit chance that inflicts Bleed and Bruise 1. If this crits and your trinket slot is empty, gain a kidney, then inflict Bleed 1.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_STEALKIDNEY_NAME",
+        "ru_name": "Кража почки",
+        "ru_description": "Ближняя атака с высоким шансом крита. При крите (если слот брелока пуст): получите почку и наложите Кровотечение 1.",
+        "ru_upgraded_description": "Ближняя атака (крит, Кровотечение, Ушиб). При крите (если слот пуст): получите почку, затем Кровотечение 1.",
+        "en_name": "Steal Kidney",
+        "en_description": "A melee attack with increased critical hit chance. If this crits and your trinket slot is empty, gain a kidney, then inflict Bleed 1.",
+        "en_upgraded_description": "A melee attack with increased critical hit chance that inflicts Bleed and Bruise 1. If this crits and your trinket slot is empty, gain a kidney, then inflict Bleed 1."
+      },
       "manifest": {
         "ability_id": "StealKidney",
         "display_name": "Steal Kidney",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "A weak melee attack. If this crits, inflict -1 Luck and you gain +1 Luck.Upgraded: A weak melee attack that inflicts -1 Luck and you gain +1 Luck.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_STEALLUCK_NAME",
+        "ru_name": "Кража удачи",
+        "ru_description": "Слабая атака. При крите: -1 [img:lck] врагу, +1 [img:lck] вам.",
+        "ru_upgraded_description": "Слабая атака: -1 [img:lck] врагу, +1 [img:lck] вам.",
+        "en_name": "Steal Luck",
+        "en_description": "A weak melee attack. If this crits, inflict -1 [img:lck] and you gain +1 [img:lck].",
+        "en_upgraded_description": "A weak melee attack that inflicts -1 [img:lck] and you gain +1 [img:lck]."
+      },
       "manifest": {
         "ability_id": "StealLuck",
         "display_name": "Steal Luck",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "A melee attack. If this crits, refresh your basic attack and movement actions.Upgraded: A melee attack with +30% crit chance. If this crits, refresh your basic attack and movement actions.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_STEALTIME_NAME",
+        "ru_name": "Кража времени",
+        "ru_description": "Ближняя атака. При крите: обновите атаку и движение.",
+        "ru_upgraded_description": "Ближняя атака (+30% крит). При крите: обновите атаку и движение.",
+        "en_name": "Steal Time",
+        "en_description": "A melee attack. If this crits, refresh your basic attack and movement actions.",
+        "en_upgraded_description": "A melee attack with +30% crit chance. If this crits, refresh your basic attack and movement actions."
+      },
       "manifest": {
         "ability_id": "StealTime",
         "display_name": "Steal Time",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Throw 3 nails straight and diagonally in front of you. These nails have the effects of your basic attack and ignore shield.Upgraded: Throw 3 nails straight and diagonally in front of you 2 times. These nails have the effects of your basic attack and ignore shield.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TRIPLENAILS_NAME",
+        "ru_name": "Тройные гвозди",
+        "ru_description": "Бросьте 3 гвоздя (прямо и по диагонали). Эффекты базовой атаки + игнор щита.",
+        "ru_upgraded_description": "Бросьте 3 гвоздя ДВА РАЗА. Эффекты базовой атаки + игнор щита.",
+        "en_name": "Triple Nails",
+        "en_description": "Throw 3 nails straight and diagonally in front of you. These nails have the effects of your basic attack and ignore shield.",
+        "en_upgraded_description": "Throw 3 nails straight and diagonally in front of you 2 times. These nails have the effects of your basic attack and ignore shield."
+      },
       "manifest": {
         "ability_id": "TripleNails",
         "display_name": "Triple Nails",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Throw a nail that inflicts Poison 1 and ignores shield at each enemy in your line of sight.Upgraded: Throw 2 nails that inflict Poison 1 and ignore shield at each enemy in your line of sight.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_VENOMBARRAGE_NAME",
+        "ru_name": "Ядовитый шквал",
+        "ru_description": "Бросьте гвоздь (Яд 1, игнор щита) в КАЖДОГО видимого врага.",
+        "ru_upgraded_description": "Бросьте 2 гвоздя (Яд 1, игнор щита) в КАЖДОГО видимого врага.",
+        "en_name": "Venom Barrage",
+        "en_description": "Throw a nail that inflicts Poison 1 and ignores shield at each enemy in your line of sight. ",
+        "en_upgraded_description": "Throw 2 nails that inflict Poison 1 and ignore shield at each enemy in your line of sight. "
+      },
       "manifest": {
         "ability_id": "VenomBarrage",
         "display_name": "Venom Barrage",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Throw a nail that inflicts Weakness and ignores shield.Upgraded: Throw 2 nails that inflict Weakness and ignore shield.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WEAKENINGNAIL_NAME",
+        "ru_name": "Ослабляющий гвоздь",
+        "ru_description": "Бросьте гвоздь: Слабость, игнор щита.",
+        "ru_upgraded_description": "Бросьте 2 гвоздя: Слабость, игнор щита.",
+        "en_name": "Weakening Nail",
+        "en_description": "Throw a nail that inflicts Weakness and ignores shield.",
+        "en_upgraded_description": "Throw 2 nails that inflict Weakness and ignore shield."
+      },
       "manifest": {
         "ability_id": "WeakeningNail",
         "display_name": "Weakening Nail",

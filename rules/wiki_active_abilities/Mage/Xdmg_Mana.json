@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Shoot 3 Magic Missiles at random enemies.Upgraded: Shoot 4 Magic Missiles at random enemies.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HOMINGBLASTS_NAME",
+        "ru_name": "Самонаводка",
+        "ru_description": "Выстрелите 3 Магическими Стрелами в случайных врагов.",
+        "ru_upgraded_description": "Выстрелите 4 Магическими Стрелами в случайных врагов.",
+        "en_name": "Homing Blasts",
+        "en_description": "Shoot 3 Magic Missiles at random enemies.",
+        "en_upgraded_description": "Shoot 4 Magic Missiles at random enemies."
+      },
       "manifest": {
         "ability_id": "HomingBlasts",
         "display_name": "Homing Blasts",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "Shoot 3 Magic Missiles at random enemies.Upgraded: Shoot 4 Magic Missiles at random enemies.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HOMINGBLASTS_NAME",
+        "ru_name": "Самонаводка",
+        "ru_description": "Выстрелите 3 Магическими Стрелами в случайных врагов.",
+        "ru_upgraded_description": "Выстрелите 4 Магическими Стрелами в случайных врагов.",
+        "en_name": "Homing Blasts",
+        "en_description": "Shoot 3 Magic Missiles at random enemies.",
+        "en_upgraded_description": "Shoot 4 Magic Missiles at random enemies."
+      },
       "manifest": {
         "ability_id": "HomingBlasts",
         "display_name": "Homing Blasts",
@@ -58,6 +76,15 @@
       "variant": "upgraded",
       "description": "Shoot an ice/electric bolt in a straight line. It inflicts Slow 2, has a 25% chance to Stun and a 25% chance to Freeze.Upgraded: Shoot 2 ice/electric bolts in a straight line. They inflict Slow 2, have a 25% chance to Stun and a 25% chance to Freeze.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ICICLETASER_NAME",
+        "ru_name": "Сосулька-шокер",
+        "ru_description": "Ледяной/электрический выстрел: Замедление 2, 25% шанс Оглушения и 25% шанс Заморозки.",
+        "ru_upgraded_description": "Два ледяных/электрических выстрела: Замедление 2, 25% шанс Оглушения и 25% шанс Заморозки.",
+        "en_name": "Icicle Zapper",
+        "en_description": "Shoot an ice/electric bolt in a straight line. It inflicts Slow 2, has a 25% chance to Stun and a 25% chance to Freeze.",
+        "en_upgraded_description": "Shoot 2 ice/electric bolts in a straight line. They inflict Slow 2, have a 25% chance to Stun and a 25% chance to Freeze."
+      },
       "manifest": {
         "ability_id": "IcicleTaser",
         "display_name": "Icicle Zapper",

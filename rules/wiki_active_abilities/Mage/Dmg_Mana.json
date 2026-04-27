@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Spend all of your mana and heal that much HP.Upgraded: Spend all of your mana and heal that much HP. Excess healing is converted into .",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_ABSORB_NAME",
+        "ru_name": "Поглощение",
+        "ru_description": "Потратьте всю ману и исцелите столько же ОЗ.",
+        "ru_upgraded_description": "Потратьте всю ману и исцелите столько же ОЗ. Лишнее лечение станет [img:shield].",
+        "en_name": "Absorb",
+        "en_description": "Spend all of your mana and heal that much HP.",
+        "en_upgraded_description": "Spend all of your mana and heal that much HP. Excess healing is converted into [img:shield]."
+      },
       "manifest": {
         "ability_id": "Absorb",
         "display_name": "Absorb",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Drop to 1 HP. Gain mana equal to the HP lost. (Castable once per turn.) Upgraded: Drop to 1 HP. Gain mana equal to the HP lost and gain All Stats Up 2. (Castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLACKMAGIC_NAME",
+        "ru_name": "Черная магия",
+        "ru_description": "Опустите ОЗ до 1. Получите ману, равную потерянному здоровью.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Опустите ОЗ до 1. Получите ману, равную потерянному здоровью. Повышение Всех Характеристик 2.\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Black Magic",
+        "en_description": "Drop to 1 HP. Gain mana equal to the HP lost.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Drop to 1 HP. Gain mana equal to the HP lost and gain All Stats Up 2.\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "BlackMagic",
         "display_name": "Black Magic",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Deal ice damage in a wide line with Knockback 1 that inflicts Slow and has a 15% chance to freeze.Upgraded: Deal more ice damage in a wide line with Knockback 10 that inflicts Slow and has a 25% chance to freeze.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BLIZZARD_NAME",
+        "ru_name": "Вьюга",
+        "ru_description": "Урон льдом в широкой линии, Отбрасывание 1, Замедление и 15% шанс Заморозки.",
+        "ru_upgraded_description": "Больше урона льдом, Отбрасывание 10, Замедление и 25% шанс Заморозки.",
+        "en_name": "Blizzard",
+        "en_description": "Deal ice damage in a wide line with Knockback 1 that inflicts Slow and has a 15% chance to freeze.",
+        "en_upgraded_description": "Deal more ice damage in a wide line with Knockback 10 that inflicts Slow and has a 25% chance to freeze."
+      },
       "manifest": {
         "ability_id": "Blizzard",
         "display_name": "Blizzard",
@@ -82,6 +109,15 @@
       "variant": "upgraded",
       "description": "Deal ice damage in a wide line with Knockback 1 that inflicts Slow and has a 15% chance to freeze.Upgraded: Deal more ice damage in a wide line with Knockback 10 that inflicts Slow and has a 25% chance to freeze.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BLIZZARD_NAME",
+        "ru_name": "Вьюга",
+        "ru_description": "Урон льдом в широкой линии, Отбрасывание 1, Замедление и 15% шанс Заморозки.",
+        "ru_upgraded_description": "Больше урона льдом, Отбрасывание 10, Замедление и 25% шанс Заморозки.",
+        "en_name": "Blizzard",
+        "en_description": "Deal ice damage in a wide line with Knockback 1 that inflicts Slow and has a 15% chance to freeze.",
+        "en_upgraded_description": "Deal more ice damage in a wide line with Knockback 10 that inflicts Slow and has a 25% chance to freeze."
+      },
       "manifest": {
         "ability_id": "Blizzard",
         "display_name": "Blizzard",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "A lightning bolt that has a 25% chance to Stun.Upgraded: A stronger lightning bolt that has a 50% chance to Stun.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BOLT_NAME",
+        "ru_name": "Разряд",
+        "ru_description": "Молния с 25% шансом Оглушения.",
+        "ru_upgraded_description": "Сильная молния с 50% шансом Оглушения.",
+        "en_name": "Bolt",
+        "en_description": "A lightning bolt that has a 25% chance to Stun.",
+        "en_upgraded_description": "A stronger lightning bolt that has a 50% chance to Stun."
+      },
       "manifest": {
         "ability_id": "Bolt",
         "display_name": "Bolt",
@@ -130,6 +175,15 @@
       "variant": "upgraded",
       "description": "A lightning bolt that has a 25% chance to Stun.Upgraded: A stronger lightning bolt that has a 50% chance to Stun.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BOLT_NAME",
+        "ru_name": "Разряд",
+        "ru_description": "Молния с 25% шансом Оглушения.",
+        "ru_upgraded_description": "Сильная молния с 50% шансом Оглушения.",
+        "en_name": "Bolt",
+        "en_description": "A lightning bolt that has a 25% chance to Stun.",
+        "en_upgraded_description": "A stronger lightning bolt that has a 50% chance to Stun."
+      },
       "manifest": {
         "ability_id": "Bolt",
         "display_name": "Bolt",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Shoot lightning that chains randomly to other nearby units up to 2 tiles away.Upgraded: Shoot lightning that chains randomly to other nearby enemies up to 3 tiles away.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHAINLIGHTNING_NAME",
+        "ru_name": "Цепная молния",
+        "ru_description": "Молния, которая хаотично скачет на других юнитов (до 2 клеток).",
+        "ru_upgraded_description": "Молния, которая хаотично скачет на других врагов (до 3 клеток).",
+        "en_name": "Chain Lightning",
+        "en_description": "Shoot lightning that chains randomly to other nearby units up to 2 tiles away.",
+        "en_upgraded_description": "Shoot lightning that chains randomly to other nearby enemies up to 3 tiles away."
+      },
       "manifest": {
         "ability_id": "ChainLightning",
         "display_name": "Chain Lightning",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell. This spell resets after you cast it.Upgraded: This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell. This spell loses half its boosts after you cast it.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CRESHENDO_NAME",
+        "ru_name": "Крещендо",
+        "ru_description": "Урон, дальность, область заклинания +1 а стоимости применения -1 каждый раз, когда используешь другие заклинания.\r\n(Сбрасывает усиления после применения)",
+        "ru_upgraded_description": "Урон, дальность, область заклинания +1 а стоимости применения -1 каждый раз, когда используешь другие заклинания.\n(Сбрасывает только половину усилений после применения.)",
+        "en_name": "Crescendo",
+        "en_description": "This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell.\nThis spell resets after you cast it.",
+        "en_upgraded_description": "This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell.\nThis spell loses half its boosts after you cast it."
+      },
       "manifest": {
         "ability_id": "Creshendo",
         "display_name": "Crescendo",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Heal and inflict Freeze 1 on a unit in range 3.Upgraded: Heal and inflict Freeze 1 on any unit. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CRYOHEAL_NAME",
+        "ru_name": "Крио-хил",
+        "ru_description": "Исцелите и наложите Заморозку 1 на юнита в радиусе 3.",
+        "ru_upgraded_description": "Исцелите и наложите Заморозку 1 на любого юнита.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Cryo-Heal",
+        "en_description": "Heal and inflict Freeze 1 on a unit in range 3.",
+        "en_upgraded_description": "Heal and inflict Freeze 1 on any unit.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CryoHeal",
         "display_name": "Cryo-Heal",
@@ -226,6 +307,15 @@
       "variant": "upgraded",
       "description": "Heal and inflict Freeze 1 on a unit in range 3.Upgraded: Heal and inflict Freeze 1 on any unit. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CRYOHEAL_NAME",
+        "ru_name": "Крио-хил",
+        "ru_description": "Исцелите и наложите Заморозку 1 на юнита в радиусе 3.",
+        "ru_upgraded_description": "Исцелите и наложите Заморозку 1 на любого юнита.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Cryo-Heal",
+        "en_description": "Heal and inflict Freeze 1 on a unit in range 3.",
+        "en_upgraded_description": "Heal and inflict Freeze 1 on any unit.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "CryoHeal",
         "display_name": "Cryo-Heal",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "A high damage spell that hits a single target.Upgraded: A high damage spell that hits a single target and deals extra damage equal to your Intelligence.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ENERGYBLAST_NAME",
+        "ru_name": "Энерговзрыв",
+        "ru_description": "Заклинание с высоким уроном по одной цели.",
+        "ru_upgraded_description": "Заклинание с высоким уроном по одной цели (доп. урон зависит от [img:int]).",
+        "en_name": "Energy Blast",
+        "en_description": "A high damage spell that hits a single target.",
+        "en_upgraded_description": "A high damage spell that hits a single target and deals extra damage equal to your [img:int]."
+      },
       "manifest": {
         "ability_id": "Blast",
         "display_name": "Energy Blast",
@@ -274,6 +373,15 @@
       "variant": "upgraded",
       "description": "A high damage spell that hits a single target.Upgraded: A high damage spell that hits a single target and deals extra damage equal to your Intelligence.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ENERGYBLAST_NAME",
+        "ru_name": "Энерговзрыв",
+        "ru_description": "Заклинание с высоким уроном по одной цели.",
+        "ru_upgraded_description": "Заклинание с высоким уроном по одной цели (доп. урон зависит от [img:int]).",
+        "en_name": "Energy Blast",
+        "en_description": "A high damage spell that hits a single target.",
+        "en_upgraded_description": "A high damage spell that hits a single target and deals extra damage equal to your [img:int]."
+      },
       "manifest": {
         "ability_id": "Blast",
         "display_name": "Energy Blast",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "A fireblast that inflicts Burn 2 in an area.Upgraded: A more damaging fireblast that inflicts Burn 3 in an area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FIREBLAST_NAME",
+        "ru_name": "Огненный взрыв",
+        "ru_description": "Взрыв, накладывающий Горение 2 в области.",
+        "ru_upgraded_description": "Более мощный взрыв, накладывающий Горение 3 в области.",
+        "en_name": "Fire Blast",
+        "en_description": "A fireblast that inflicts Burn 2 in an area.",
+        "en_upgraded_description": "A more damaging fireblast that inflicts Burn 3 in an area."
+      },
       "manifest": {
         "ability_id": "Fireball",
         "display_name": "Fire Blast",
@@ -322,6 +439,15 @@
       "variant": "upgraded",
       "description": "A fireblast that inflicts Burn 2 in an area.Upgraded: A more damaging fireblast that inflicts Burn 3 in an area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FIREBLAST_NAME",
+        "ru_name": "Огненный взрыв",
+        "ru_description": "Взрыв, накладывающий Горение 2 в области.",
+        "ru_upgraded_description": "Более мощный взрыв, накладывающий Горение 3 в области.",
+        "en_name": "Fire Blast",
+        "en_description": "A fireblast that inflicts Burn 2 in an area.",
+        "en_upgraded_description": "A more damaging fireblast that inflicts Burn 3 in an area."
+      },
       "manifest": {
         "ability_id": "Fireball",
         "display_name": "Fire Blast",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "A fire spell that increases its range, area, damage, and Burn by 1 every turn.Upgraded: A fire spell that increases its range, area, damage, and Burn by 1 every turn. Starts stronger.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FIRESURGE_NAME",
+        "ru_name": "Огненный всплеск",
+        "ru_description": "Огненное заклинание, чья дальность, область, урон и Горение растут на 1 каждый ход.",
+        "ru_upgraded_description": "Огненное заклинание, чья дальность, область, урон и Горение растут на 1 каждый ход. Начинается сильнее.",
+        "en_name": "Fire Surge",
+        "en_description": "A fire spell that increases its range, area, damage, and Burn by 1 every turn.",
+        "en_upgraded_description": "A fire spell that increases its range, area, damage, and Burn by 1 every turn. Starts stronger."
+      },
       "manifest": {
         "ability_id": "FireSurge",
         "display_name": "Fire Surge",
@@ -370,6 +505,15 @@
       "variant": "upgraded",
       "description": "A fire spell that increases its range, area, damage, and Burn by 1 every turn.Upgraded: A fire spell that increases its range, area, damage, and Burn by 1 every turn. Starts stronger.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FIRESURGE_NAME",
+        "ru_name": "Огненный всплеск",
+        "ru_description": "Огненное заклинание, чья дальность, область, урон и Горение растут на 1 каждый ход.",
+        "ru_upgraded_description": "Огненное заклинание, чья дальность, область, урон и Горение растут на 1 каждый ход. Начинается сильнее.",
+        "en_name": "Fire Surge",
+        "en_description": "A fire spell that increases its range, area, damage, and Burn by 1 every turn.",
+        "en_upgraded_description": "A fire spell that increases its range, area, damage, and Burn by 1 every turn. Starts stronger."
+      },
       "manifest": {
         "ability_id": "FireSurge",
         "display_name": "Fire Surge",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Cast a fire/electric spell that inflicts Burn 1 and has a 15% chance to inflict Stun in an X shaped area.Upgraded: Cast a fire/electric spell that inflicts Burn 2 and has a 30% chance to inflict Stun in an X shaped area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FIREBOLT_NAME",
+        "ru_name": "Огненная стрела",
+        "ru_description": "Огненно/электрическое заклинание: Горение 1 и 15% шанс Оглушения в Х-образной зоне.",
+        "ru_upgraded_description": "Огненно/электрическое заклинание: Горение 2 и 30% шанс Оглушения в Х-образной зоне.",
+        "en_name": "Firebolt",
+        "en_description": "Cast a fire/electric spell that inflicts Burn 1 and has a 15% chance to inflict Stun in an X shaped area.",
+        "en_upgraded_description": "Cast a fire/electric spell that inflicts Burn 2 and has a 30% chance to inflict Stun in an X shaped area."
+      },
       "manifest": {
         "ability_id": "FireBolt",
         "display_name": "Firebolt",
@@ -418,6 +571,15 @@
       "variant": "upgraded",
       "description": "Cast a fire/electric spell that inflicts Burn 1 and has a 15% chance to inflict Stun in an X shaped area.Upgraded: Cast a fire/electric spell that inflicts Burn 2 and has a 30% chance to inflict Stun in an X shaped area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FIREBOLT_NAME",
+        "ru_name": "Огненная стрела",
+        "ru_description": "Огненно/электрическое заклинание: Горение 1 и 15% шанс Оглушения в Х-образной зоне.",
+        "ru_upgraded_description": "Огненно/электрическое заклинание: Горение 2 и 30% шанс Оглушения в Х-образной зоне.",
+        "en_name": "Firebolt",
+        "en_description": "Cast a fire/electric spell that inflicts Burn 1 and has a 15% chance to inflict Stun in an X shaped area.",
+        "en_upgraded_description": "Cast a fire/electric spell that inflicts Burn 2 and has a 30% chance to inflict Stun in an X shaped area."
+      },
       "manifest": {
         "ability_id": "FireBolt",
         "display_name": "Firebolt",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Damage all enemies and burn the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Heavily damage all enemies and burn the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORBIDDENFLAME_NAME",
+        "ru_name": "Запретный Огонь",
+        "ru_description": "Урон всем врагам и поджог всей карты. (Кроме клеток с котами)\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Дикий урон всем врагам и поджог всей карты. (Кроме клеток с котами)\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Forbidden Flame",
+        "en_description": "Damage all enemies and burn the entire map. There will be permanent consequences for casting this spell…\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Heavily damage all enemies and burn the entire map. There will be permanent consequences for casting this spell…\r\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "ForbiddenFlame",
         "display_name": "Forbidden Flame",
@@ -466,6 +637,15 @@
       "variant": "upgraded",
       "description": "Damage all enemies and burn the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Heavily damage all enemies and burn the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORBIDDENFLAME_NAME",
+        "ru_name": "Запретный Огонь",
+        "ru_description": "Урон всем врагам и поджог всей карты. (Кроме клеток с котами)\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Дикий урон всем врагам и поджог всей карты. (Кроме клеток с котами)\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Forbidden Flame",
+        "en_description": "Damage all enemies and burn the entire map. There will be permanent consequences for casting this spell…\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Heavily damage all enemies and burn the entire map. There will be permanent consequences for casting this spell…\r\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "ForbiddenFlame",
         "display_name": "Forbidden Flame",
@@ -490,6 +670,15 @@
       "variant": "normal",
       "description": "Knock back and damage all enemies, then flood the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Knock back and damage all enemies, heal all allies, then flood the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.)",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_FORBIDDENFLOOD_NAME",
+        "ru_name": "Запретный Потоп",
+        "ru_description": "Отбросьте и пораньте всех врагов, затопите всю карту. \nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Отбросьте и пораньте всех врагов, исцелите союзников, затопите карту.\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Forbidden Flood",
+        "en_description": "Knock back and damage all enemies, then flood the entire map. There will be permanent consequences for casting this spell…\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Knock back and damage all enemies, heal all allies, then flood the entire map. There will be permanent consequences for casting this spell…\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "ForbiddenFlood",
         "display_name": "Forbidden Flood",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Apply Freeze 2 to each unit except for yourself and 1 other chosen unit. Deal 5 Damage to enemies and heal each ally 5 HP. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Apply Freeze 2 to each unit except for yourself and 1 other chosen unit. Deal 10 Damage to enemies and fully heal each ally. There will be permanent consequences for casting this spell… (Castable once per battle.)",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_FORBIDDENFROST_NAME",
+        "ru_name": "Запретный Мороз",
+        "ru_description": "Наложите Заморозку 2 на ВСЕХ, кроме себя и 1 избранного.\n5 урона врагам, 5 лечения союзникам.\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Наложите Заморозку 2 на ВСЕХ, кроме себя и 1 избранного.\n10 урона врагам, полное лечение союзникам.\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Forbidden Frost",
+        "en_description": "Apply Freeze 2 to each unit except for yourself and 1 other chosen unit.\nDeal 5 Damage to enemies and heal each ally 5 HP.\nThere will be permanent consequences for casting this spell…\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Apply Freeze 2 to each unit except for yourself and 1 other chosen unit.\nDeal 10 Damage to enemies and fully heal each ally.\nThere will be permanent consequences for casting this spell…\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "ForbiddenFrost",
         "display_name": "Forbidden Frost",
@@ -538,6 +736,15 @@
       "variant": "upgraded",
       "description": "Apply Freeze 2 to each unit except for yourself and 1 other chosen unit. Deal 5 Damage to enemies and heal each ally 5 HP. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Apply Freeze 2 to each unit except for yourself and 1 other chosen unit. Deal 10 Damage to enemies and fully heal each ally. There will be permanent consequences for casting this spell… (Castable once per battle.)",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_FORBIDDENFROST_NAME",
+        "ru_name": "Запретный Мороз",
+        "ru_description": "Наложите Заморозку 2 на ВСЕХ, кроме себя и 1 избранного.\n5 урона врагам, 5 лечения союзникам.\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Наложите Заморозку 2 на ВСЕХ, кроме себя и 1 избранного.\n10 урона врагам, полное лечение союзникам.\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Forbidden Frost",
+        "en_description": "Apply Freeze 2 to each unit except for yourself and 1 other chosen unit.\nDeal 5 Damage to enemies and heal each ally 5 HP.\nThere will be permanent consequences for casting this spell…\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Apply Freeze 2 to each unit except for yourself and 1 other chosen unit.\nDeal 10 Damage to enemies and fully heal each ally.\nThere will be permanent consequences for casting this spell…\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "ForbiddenFrost",
         "display_name": "Forbidden Frost",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Strike all enemies with lightning, inflicting Stun. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Strike all enemies with lightning, inflicting Stun 2. There will be permanent consequences for casting this spell… (Castable once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FORBIDDENFULMINATION_NAME",
+        "ru_name": "Запретный Гром",
+        "ru_description": "Ударьте всех врагов молнией, накладывая Оглушение. \nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Ударьте всех врагов молнией, накладывая Оглушение 2. \nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Forbidden Fulmination",
+        "en_description": "Strike all enemies with lightning, inflicting Stun. There will be permanent consequences for casting this spell…\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Strike all enemies with lightning, inflicting Stun 2. There will be permanent consequences for casting this spell…\r\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "ForbiddenFulmination",
         "display_name": "Forbidden Fulmination",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Cast a fire/ice spell that inflicts Burn 2, Slow 2 and Knockback 2 on all units around you.Upgraded: Cast a fire/ice spell that inflicts Burn 3, Slow 3 and Knockback 3 on all units around you in a larger area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FREEZERBURN_NAME",
+        "ru_name": "Обморожение",
+        "ru_description": "Огненно/ледяное заклинание: Горение 2, Замедление 2 и Отбрасывание 2 на всех вокруг вас.",
+        "ru_upgraded_description": "Огненно/ледяное заклинание: Горение 3, Замедление 3 и Отбрасывание 3 в большей зоне.",
+        "en_name": "Freezer Burn",
+        "en_description": "Cast a fire/ice spell that inflicts Burn 2, Slow 2 and Knockback 2 on all units around you.",
+        "en_upgraded_description": "Cast a fire/ice spell that inflicts Burn 3, Slow 3 and Knockback 3 on all units around you in a larger area."
+      },
       "manifest": {
         "ability_id": "FreezerBurn",
         "display_name": "Freezer Burn",
@@ -610,6 +835,15 @@
       "variant": "upgraded",
       "description": "Cast a fire/ice spell that inflicts Burn 2, Slow 2 and Knockback 2 on all units around you.Upgraded: Cast a fire/ice spell that inflicts Burn 3, Slow 3 and Knockback 3 on all units around you in a larger area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FREEZERBURN_NAME",
+        "ru_name": "Обморожение",
+        "ru_description": "Огненно/ледяное заклинание: Горение 2, Замедление 2 и Отбрасывание 2 на всех вокруг вас.",
+        "ru_upgraded_description": "Огненно/ледяное заклинание: Горение 3, Замедление 3 и Отбрасывание 3 в большей зоне.",
+        "en_name": "Freezer Burn",
+        "en_description": "Cast a fire/ice spell that inflicts Burn 2, Slow 2 and Knockback 2 on all units around you.",
+        "en_upgraded_description": "Cast a fire/ice spell that inflicts Burn 3, Slow 3 and Knockback 3 on all units around you in a larger area."
+      },
       "manifest": {
         "ability_id": "FreezerBurn",
         "display_name": "Freezer Burn",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile. (Castable once per turn.) Upgraded: Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HYPERBEAM_NAME",
+        "ru_name": "Гипер-луч",
+        "ru_description": "Выберите клетку. В начале следующего хода и ударьте туда мега-лучом с диким уроном.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Выберите клетку. В начале следующего хода ударьте туда мега-лучом с диким уроном.",
+        "en_name": "Hyper Beam",
+        "en_description": "Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile."
+      },
       "manifest": {
         "ability_id": "HyperBeam",
         "display_name": "Hyper Beam",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "An ice spell that increases its range and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1. (Current turns: 0) Upgraded: An ice spell that increases its range, damage, and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1. (Current turns: 0)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ICESURGE_NAME",
+        "ru_name": "Ледяной всплеск",
+        "ru_description": "Лед: дальность и Замедление растут каждый ход. На 2 ход: Обездвиживание 1. На 3 ход: Заморозка 1.\n[s:.7](Текущий ход: {v0})[/s]",
+        "ru_upgraded_description": "Лед: дальность, урон и Замедление растут каждый ход. На 2 ход: Обездвиживание 1. На 3 ход: Заморозка 1.\n[s:.7](Текущий ход: {v0})[/s]",
+        "en_name": "Ice Surge",
+        "en_description": "An ice spell that increases its range and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1.\n[s:.7](Current turns: {v0})[/s]",
+        "en_upgraded_description": "An ice spell that increases its range, damage, and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1.\n[s:.7](Current turns: {v0})[/s]"
+      },
       "manifest": {
         "ability_id": "IceSurge",
         "display_name": "Ice Surge",
@@ -682,6 +934,15 @@
       "variant": "upgraded",
       "description": "An ice spell that increases its range and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1. (Current turns: 0) Upgraded: An ice spell that increases its range, damage, and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1. (Current turns: 0)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ICESURGE_NAME",
+        "ru_name": "Ледяной всплеск",
+        "ru_description": "Лед: дальность и Замедление растут каждый ход. На 2 ход: Обездвиживание 1. На 3 ход: Заморозка 1.\n[s:.7](Текущий ход: {v0})[/s]",
+        "ru_upgraded_description": "Лед: дальность, урон и Замедление растут каждый ход. На 2 ход: Обездвиживание 1. На 3 ход: Заморозка 1.\n[s:.7](Текущий ход: {v0})[/s]",
+        "en_name": "Ice Surge",
+        "en_description": "An ice spell that increases its range and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1.\n[s:.7](Current turns: {v0})[/s]",
+        "en_upgraded_description": "An ice spell that increases its range, damage, and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1.\n[s:.7](Current turns: {v0})[/s]"
+      },
       "manifest": {
         "ability_id": "IceSurge",
         "display_name": "Ice Surge",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Shoot an ice/electric bolt in a straight line. It inflicts Slow 2, has a 25% chance to Stun and a 25% chance to Freeze.Upgraded: Shoot 2 ice/electric bolts in a straight line. They inflict Slow 2, have a 25% chance to Stun and a 25% chance to Freeze.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ICICLETASER_NAME",
+        "ru_name": "Сосулька-шокер",
+        "ru_description": "Ледяной/электрический выстрел: Замедление 2, 25% шанс Оглушения и 25% шанс Заморозки.",
+        "ru_upgraded_description": "Два ледяных/электрических выстрела: Замедление 2, 25% шанс Оглушения и 25% шанс Заморозки.",
+        "en_name": "Icicle Zapper",
+        "en_description": "Shoot an ice/electric bolt in a straight line. It inflicts Slow 2, has a 25% chance to Stun and a 25% chance to Freeze.",
+        "en_upgraded_description": "Shoot 2 ice/electric bolts in a straight line. They inflict Slow 2, have a 25% chance to Stun and a 25% chance to Freeze."
+      },
       "manifest": {
         "ability_id": "IcicleTaser",
         "display_name": "Icicle Zapper",
@@ -730,6 +1000,15 @@
       "variant": "normal",
       "description": "Deal fire damage and inflict Burn 3 to all units in a large circle around you.Upgraded: Deal more fire damage and inflict Burn 5 to all units in a large circle around you.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_INFERNO_NAME",
+        "ru_name": "Инферно",
+        "ru_description": "Урон огнем и Горение 3 всем юнитам в большом круге вокруг вас.",
+        "ru_upgraded_description": "Больше урона огнем и Горение 5 всем юнитам в большом круге вокруг вас.",
+        "en_name": "Inferno",
+        "en_description": "Deal fire damage and inflict Burn 3 to all units in a large circle around you.",
+        "en_upgraded_description": "Deal more fire damage and inflict Burn 5 to all units in a large circle around you."
+      },
       "manifest": {
         "ability_id": "Inferno",
         "display_name": "Inferno",
@@ -754,6 +1033,15 @@
       "variant": "upgraded",
       "description": "Deal fire damage and inflict Burn 3 to all units in a large circle around you.Upgraded: Deal more fire damage and inflict Burn 5 to all units in a large circle around you.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_INFERNO_NAME",
+        "ru_name": "Инферно",
+        "ru_description": "Урон огнем и Горение 3 всем юнитам в большом круге вокруг вас.",
+        "ru_upgraded_description": "Больше урона огнем и Горение 5 всем юнитам в большом круге вокруг вас.",
+        "en_name": "Inferno",
+        "en_description": "Deal fire damage and inflict Burn 3 to all units in a large circle around you.",
+        "en_upgraded_description": "Deal more fire damage and inflict Burn 5 to all units in a large circle around you."
+      },
       "manifest": {
         "ability_id": "Inferno",
         "display_name": "Inferno",
@@ -778,6 +1066,15 @@
       "variant": "normal",
       "description": "Shoot a lightning bolt that deals 1 damage and knocks the unit it hits 3 tiles in the direction it's facing.Upgraded: Shoot a lightning bolt that deals 2 damage and knocks the unit it hits 6 tiles in the direction it's facing.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_JOLT_NAME",
+        "ru_name": "Тряска",
+        "ru_description": "Молния: 1 урон и отбрасывание цели на 3 клетки туда, куда она смотрит.",
+        "ru_upgraded_description": "Молния: 2 урона и отбрасывание цели на 6 клеток туда, куда она смотрит.",
+        "en_name": "Jolt",
+        "en_description": "Shoot a lightning bolt that deals 1 damage and knocks the unit it hits 3 tiles in the direction it's facing.",
+        "en_upgraded_description": "Shoot a lightning bolt that deals 2 damage and knocks the unit it hits 6 tiles in the direction it's facing."
+      },
       "manifest": {
         "ability_id": "Jolt",
         "display_name": "Jolt",
@@ -802,6 +1099,15 @@
       "variant": "upgraded",
       "description": "Shoot a lightning bolt that deals 1 damage and knocks the unit it hits 3 tiles in the direction it's facing.Upgraded: Shoot a lightning bolt that deals 2 damage and knocks the unit it hits 6 tiles in the direction it's facing.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_JOLT_NAME",
+        "ru_name": "Тряска",
+        "ru_description": "Молния: 1 урон и отбрасывание цели на 3 клетки туда, куда она смотрит.",
+        "ru_upgraded_description": "Молния: 2 урона и отбрасывание цели на 6 клеток туда, куда она смотрит.",
+        "en_name": "Jolt",
+        "en_description": "Shoot a lightning bolt that deals 1 damage and knocks the unit it hits 3 tiles in the direction it's facing.",
+        "en_upgraded_description": "Shoot a lightning bolt that deals 2 damage and knocks the unit it hits 6 tiles in the direction it's facing."
+      },
       "manifest": {
         "ability_id": "Jolt",
         "display_name": "Jolt",
@@ -826,6 +1132,15 @@
       "variant": "normal",
       "description": "An electric spell that increases its range and damage by 2 every turn, and its stun chance by 10%.Upgraded: An electric spell that increases its range and damage by 3 every turn, and its stun chance by 10%.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_LIGHTNINGSURGE_NAME",
+        "ru_name": "Электрический всплеск",
+        "ru_description": "Молния: дальность и урон растут на 2 каждый ход, а шанс стана на 10%.",
+        "ru_upgraded_description": "Молния: дальность и урон растут на 3 каждый ход, а шанс стана на 10%.",
+        "en_name": "Lightning Surge",
+        "en_description": "An electric spell that increases its range and damage by 2 every turn, and its stun chance by 10%.",
+        "en_upgraded_description": "An electric spell that increases its range and damage by 3 every turn, and its stun chance by 10%."
+      },
       "manifest": {
         "ability_id": "LightningSurge",
         "display_name": "Lightning Surge",
@@ -850,6 +1165,15 @@
       "variant": "upgraded",
       "description": "An electric spell that increases its range and damage by 2 every turn, and its stun chance by 10%.Upgraded: An electric spell that increases its range and damage by 3 every turn, and its stun chance by 10%.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_LIGHTNINGSURGE_NAME",
+        "ru_name": "Электрический всплеск",
+        "ru_description": "Молния: дальность и урон растут на 2 каждый ход, а шанс стана на 10%.",
+        "ru_upgraded_description": "Молния: дальность и урон растут на 3 каждый ход, а шанс стана на 10%.",
+        "en_name": "Lightning Surge",
+        "en_description": "An electric spell that increases its range and damage by 2 every turn, and its stun chance by 10%.",
+        "en_upgraded_description": "An electric spell that increases its range and damage by 3 every turn, and its stun chance by 10%."
+      },
       "manifest": {
         "ability_id": "LightningSurge",
         "display_name": "Lightning Surge",
@@ -874,6 +1198,15 @@
       "variant": "normal",
       "description": "Shoot an infinite-range projectile that can't miss.Upgraded: Shoot an infinite-range projectile that can't miss. Emit 3 Sparkles.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MAGICMISSILE_NAME",
+        "ru_name": "Магическая стрела",
+        "ru_description": "Выстрелить снарядом с бесконечной дальностью.",
+        "ru_upgraded_description": "Выстрелить снарядом с бесконечной дальностью. Выпустите 3 искры.",
+        "en_name": "Magic Missile",
+        "en_description": "Shoot an infinite-range projectile that can't miss.",
+        "en_upgraded_description": "Shoot an infinite-range projectile that can't miss. Emit 3 Sparkles."
+      },
       "manifest": {
         "ability_id": "MagicMissile",
         "display_name": "Magic Missile",
@@ -898,6 +1231,15 @@
       "variant": "normal",
       "description": "Deal high damage in a cone.Upgraded: Deal high damage in a larger cone.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MEGABLAST_NAME",
+        "ru_name": "Мега-взрыв",
+        "ru_description": "Нанесите высокий урон в конусе.",
+        "ru_upgraded_description": "Нанесите высокий урон в большем конусе.",
+        "en_name": "Mega Blast",
+        "en_description": "Deal high damage in a cone.",
+        "en_upgraded_description": "Deal high damage in a larger cone."
+      },
       "manifest": {
         "ability_id": "MegaBlast",
         "display_name": "Mega Blast",
@@ -922,6 +1264,15 @@
       "variant": "normal",
       "description": "Summon meteors that hit random tiles in a large area. These meteors have a chance to stun, spawn fires, or leave rocks behind.Upgraded: Summon meteors that hit random tiles in a larger area. These meteors have a chance to stun, spawn fires, or leave rocks behind.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_METEORSTORM_NAME",
+        "ru_name": "Метеоритный шторм",
+        "ru_description": "Призовите метеориты, они падают на случайные клетки в большой области (7). Эти метеориты могут оглушать, поджечь или оставлять камни.",
+        "ru_upgraded_description": "Призовите метеориты, они падают на случайные клетки в более большой области. Эти метеориты могут оглушать, поджечь или оставлять камни.",
+        "en_name": "Meteor Storm",
+        "en_description": "Summon meteors that hit random tiles in a large area. These meteors have a chance to stun, spawn fires, or leave rocks behind.",
+        "en_upgraded_description": "Summon meteors that hit random tiles in a larger area. These meteors have a chance to stun, spawn fires, or leave rocks behind."
+      },
       "manifest": {
         "ability_id": "MeteorStorm",
         "display_name": "Meteor Storm",
@@ -946,6 +1297,15 @@
       "variant": "normal",
       "description": "A melee attack that instantly kills frozen units. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2.Upgraded: A spell that instantly kills frozen units in an area. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHATTER_NAME",
+        "ru_name": "Разбивание",
+        "ru_description": "Ближняя атака: убивает замороженных мгновенно. Боссам снимает Лед, наносит 15 урона и Замедление 2.",
+        "ru_upgraded_description": "Заклинание: убивает замороженных в области. Боссам снимает Лед, наносит 15 урона и Замедление 2.",
+        "en_name": "Shatter",
+        "en_description": "A melee attack that instantly kills frozen units. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2.",
+        "en_upgraded_description": "A spell that instantly kills frozen units in an area. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2."
+      },
       "manifest": {
         "ability_id": "Shatter",
         "display_name": "Shatter",
@@ -970,6 +1330,15 @@
       "variant": "upgraded",
       "description": "A melee attack that instantly kills frozen units. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2.Upgraded: A spell that instantly kills frozen units in an area. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHATTER_NAME",
+        "ru_name": "Разбивание",
+        "ru_description": "Ближняя атака: убивает замороженных мгновенно. Боссам снимает Лед, наносит 15 урона и Замедление 2.",
+        "ru_upgraded_description": "Заклинание: убивает замороженных в области. Боссам снимает Лед, наносит 15 урона и Замедление 2.",
+        "en_name": "Shatter",
+        "en_description": "A melee attack that instantly kills frozen units. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2.",
+        "en_upgraded_description": "A spell that instantly kills frozen units in an area. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2."
+      },
       "manifest": {
         "ability_id": "Shatter",
         "display_name": "Shatter",
@@ -994,6 +1363,15 @@
       "variant": "normal",
       "description": "A water spell that deals damage and knockback in a large area.Upgraded: A water spell that deals more damage and knockback in a larger area.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SURF_NAME",
+        "ru_name": "Серф",
+        "ru_description": "Водное заклинание, наносящее урон и отбрасывание в большой области.",
+        "ru_upgraded_description": "Водное заклинание, наносящее больше урона и отбрасывания в большей области.",
+        "en_name": "Surf",
+        "en_description": "A water spell that deals damage and knockback in a large area.",
+        "en_upgraded_description": "A water spell that deals more damage and knockback in a larger area."
+      },
       "manifest": {
         "ability_id": "Surf",
         "display_name": "Surf",
@@ -1018,6 +1396,15 @@
       "variant": "upgraded",
       "description": "A water spell that deals damage and knockback in a large area.Upgraded: A water spell that deals more damage and knockback in a larger area.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SURF_NAME",
+        "ru_name": "Серф",
+        "ru_description": "Водное заклинание, наносящее урон и отбрасывание в большой области.",
+        "ru_upgraded_description": "Водное заклинание, наносящее больше урона и отбрасывания в большей области.",
+        "en_name": "Surf",
+        "en_description": "A water spell that deals damage and knockback in a large area.",
+        "en_upgraded_description": "A water spell that deals more damage and knockback in a larger area."
+      },
       "manifest": {
         "ability_id": "Surf",
         "display_name": "Surf",
@@ -1042,6 +1429,15 @@
       "variant": "normal",
       "description": "Teleport onto a unit, dealing damage to yourself and that unit.Upgraded: Teleport onto a unit, dealing damage to that unit.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TELEFRAG_NAME",
+        "ru_name": "Телефраг",
+        "ru_description": "Телепортируйтесь ПРЯМО в юнита, нанося урон и себе, и ему.",
+        "ru_upgraded_description": "Телепортируйтесь ПРЯМО в юнита, нанося урон ему.",
+        "en_name": "Telefrag",
+        "en_description": "Teleport onto a unit, dealing damage to yourself and that unit.",
+        "en_upgraded_description": "Teleport onto a unit, dealing damage to that unit."
+      },
       "manifest": {
         "ability_id": "Telefrag",
         "display_name": "Telefrag",
@@ -1066,6 +1462,15 @@
       "variant": "normal",
       "description": "Shoot lightning bolts in eight directions with a 15% chance to Stun.Upgraded: Shoot stronger lightning bolts in eight directions with a 25% chance to Stun.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THUNDERBURST_NAME",
+        "ru_name": "Грозовой Взрыв",
+        "ru_description": "Молнии в 8 направлений с 15% шансом Оглушения.",
+        "ru_upgraded_description": "Сильные молнии в 8 направлений с 25% шансом Оглушения.",
+        "en_name": "Thunderburst",
+        "en_description": "Shoot lightning bolts in eight directions with a 15% chance to Stun.",
+        "en_upgraded_description": "Shoot stronger lightning bolts in eight directions with a 25% chance to Stun."
+      },
       "manifest": {
         "ability_id": "Thunderburst",
         "display_name": "Thunderburst",
@@ -1090,6 +1495,15 @@
       "variant": "upgraded",
       "description": "Shoot lightning bolts in eight directions with a 15% chance to Stun.Upgraded: Shoot stronger lightning bolts in eight directions with a 25% chance to Stun.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THUNDERBURST_NAME",
+        "ru_name": "Грозовой Взрыв",
+        "ru_description": "Молнии в 8 направлений с 15% шансом Оглушения.",
+        "ru_upgraded_description": "Сильные молнии в 8 направлений с 25% шансом Оглушения.",
+        "en_name": "Thunderburst",
+        "en_description": "Shoot lightning bolts in eight directions with a 15% chance to Stun.",
+        "en_upgraded_description": "Shoot stronger lightning bolts in eight directions with a 25% chance to Stun."
+      },
       "manifest": {
         "ability_id": "Thunderburst",
         "display_name": "Thunderburst",
@@ -1114,6 +1528,15 @@
       "variant": "normal",
       "description": "A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun.Upgraded: A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun in an area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TRIATTACK_NAME",
+        "ru_name": "Три-Атака",
+        "ru_description": "Огонь/Лед/Электричество: Горение 1, Замедление 1 и 5% шанс Оглушения.",
+        "ru_upgraded_description": "Огонь/Лед/Электричество: Горение 1, Замедление 1 и 5% шанс Оглушения в области.",
+        "en_name": "Tri-Attack",
+        "en_description": "A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun.",
+        "en_upgraded_description": "A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun in an area."
+      },
       "manifest": {
         "ability_id": "TriAttack",
         "display_name": "Tri-Attack",
@@ -1138,6 +1561,15 @@
       "variant": "normal",
       "description": "A fire spell that inflicts Burn 1 and spawns fires in a perpendicular line.Upgraded: A fire spell that damages, inflicts Burn 3 and spawns fires in a perpendicular line.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_WALLOFFIRE_NAME",
+        "ru_name": "Стена огня",
+        "ru_description": "Огонь, накладывающий Горение 1 и создающий пожар по линии.",
+        "ru_upgraded_description": "Огонь, накладывающий Горение 3, урон и создающий пожар по линии.",
+        "en_name": "Wall of Fire",
+        "en_description": "A fire spell that inflicts Burn 1 and spawns fires in a perpendicular line.",
+        "en_upgraded_description": "A fire spell that damages, inflicts Burn 3 and spawns fires in a perpendicular line."
+      },
       "manifest": {
         "ability_id": "WallOfFire",
         "display_name": "Wall of Fire",
@@ -1162,6 +1594,15 @@
       "variant": "upgraded",
       "description": "A fire spell that inflicts Burn 1 and spawns fires in a perpendicular line.Upgraded: A fire spell that damages, inflicts Burn 3 and spawns fires in a perpendicular line.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_WALLOFFIRE_NAME",
+        "ru_name": "Стена огня",
+        "ru_description": "Огонь, накладывающий Горение 1 и создающий пожар по линии.",
+        "ru_upgraded_description": "Огонь, накладывающий Горение 3, урон и создающий пожар по линии.",
+        "en_name": "Wall of Fire",
+        "en_description": "A fire spell that inflicts Burn 1 and spawns fires in a perpendicular line.",
+        "en_upgraded_description": "A fire spell that damages, inflicts Burn 3 and spawns fires in a perpendicular line."
+      },
       "manifest": {
         "ability_id": "WallOfFire",
         "display_name": "Wall of Fire",
@@ -1186,6 +1627,15 @@
       "variant": "normal",
       "description": "A wind spell that hits an entire line with Knockback 1.Upgraded: A wind spell that hits a wide line with Knockback 2.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WINDSLASH_NAME",
+        "ru_name": "Рассечение ветра",
+        "ru_description": "Ветряное заклинание, бьющее линию с Отбрасыванием 1.",
+        "ru_upgraded_description": "Ветряное заклинание, бьющее широкую линию с Отбрасыванием 2.",
+        "en_name": "Wind Slash",
+        "en_description": "A wind spell that hits an entire line with Knockback 1.",
+        "en_upgraded_description": "A wind spell that hits a wide line with Knockback 2."
+      },
       "manifest": {
         "ability_id": "WindSlash",
         "display_name": "Wind Slash",
@@ -1210,6 +1660,15 @@
       "variant": "upgraded",
       "description": "A wind spell that hits an entire line with Knockback 1.Upgraded: A wind spell that hits a wide line with Knockback 2.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WINDSLASH_NAME",
+        "ru_name": "Рассечение ветра",
+        "ru_description": "Ветряное заклинание, бьющее линию с Отбрасыванием 1.",
+        "ru_upgraded_description": "Ветряное заклинание, бьющее широкую линию с Отбрасыванием 2.",
+        "en_name": "Wind Slash",
+        "en_description": "A wind spell that hits an entire line with Knockback 1.",
+        "en_upgraded_description": "A wind spell that hits a wide line with Knockback 2."
+      },
       "manifest": {
         "ability_id": "WindSlash",
         "display_name": "Wind Slash",

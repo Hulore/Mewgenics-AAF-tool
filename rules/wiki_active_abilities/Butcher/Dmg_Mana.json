@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Gain -1 Speed, +1 Constitution, and +1 Strength.Upgraded: Gain -1 Speed, +1 Constitution, +1 Strength, and heal 4 HP.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_BINGE_NAME",
+        "ru_name": "Обжорство",
+        "ru_description": "Получите -1 [img:spd], +1 [img:con] и +1 [img:str].",
+        "ru_upgraded_description": "Получите -1 [img:spd], +1 [img:con], +1 [img:str] и исцелите 4 ОЗ.",
+        "en_name": "Binge",
+        "en_description": "Gain -1 [img:spd], +1 [img:con], and +1 [img:str].",
+        "en_upgraded_description": "Gain -1 [img:spd], +1 [img:con], +1 [img:str], and heal 4 HP."
+      },
       "manifest": {
         "ability_id": "Binge",
         "display_name": "Binge",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "Gain -1 Speed, +1 Constitution, and +1 Strength.Upgraded: Gain -1 Speed, +1 Constitution, +1 Strength, and heal 4 HP.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_BINGE_NAME",
+        "ru_name": "Обжорство",
+        "ru_description": "Получите -1 [img:spd], +1 [img:con] и +1 [img:str].",
+        "ru_upgraded_description": "Получите -1 [img:spd], +1 [img:con], +1 [img:str] и исцелите 4 ОЗ.",
+        "en_name": "Binge",
+        "en_description": "Gain -1 [img:spd], +1 [img:con], and +1 [img:str].",
+        "en_upgraded_description": "Gain -1 [img:spd], +1 [img:con], +1 [img:str], and heal 4 HP."
+      },
       "manifest": {
         "ability_id": "Binge",
         "display_name": "Binge",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Take 5 damage and gain 5 mana. (Castable once per turn.) Upgraded: Take 5 damage and gain 10 mana. (Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BLOODMAGIC_NAME",
+        "ru_name": "Магия крови",
+        "ru_description": "Получите 5 урона и восстановите 5 маны.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Получите 5 урона и восстановите 10 маны.\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Blood Magic",
+        "en_description": "Take 5 damage and gain 5 mana.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Take 5 damage and gain 10 mana.\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "BloodMagic",
         "display_name": "Blood Magic",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP.Upgraded: Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP. This attack inflicts Bruise and has a chance to Stun.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BODYSLAM_NAME",
+        "ru_name": "Слэм телом",
+        "ru_description": "Прыгните в радиусе 2. Урон себе и тем, на кого упали (25% от ваших текущих ОЗ).",
+        "ru_upgraded_description": "Прыгните в радиусе 2. Урон себе и тем, на кого упали (25% от ОЗ). Накладывает Ушиб и может Оглушить.",
+        "en_name": "Body Slam",
+        "en_description": "Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP.",
+        "en_upgraded_description": "Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP. This attack inflicts Bruise and has a chance to Stun."
+      },
       "manifest": {
         "ability_id": "BodySlam",
         "display_name": "Body Slam",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, stun it. (Castable once per turn.) Upgraded: Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, damage and stun it. (This spell costs less.) (Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CANNONBALL_NAME",
+        "ru_name": "Бомбочка!",
+        "ru_description": "Выберите любую клетку. В начале вашего следующего хода прыгните туда. Если приземлитесь на юнита, оглушите его.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Выберите любую клетку. В начале след. хода прыгните туда. Если приземлитесь на юнита, нанесите урон и оглушите его.\n[s:.7](Это заклинание стоит дешевле.)[/s]\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Cannon Ball!",
+        "en_description": "Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, stun it.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, damage and stun it.\n[s:.7](This spell costs less.)[/s]\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "CannonBall",
         "display_name": "Cannon Ball!",
@@ -130,6 +175,15 @@
       "variant": "upgraded",
       "description": "Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, stun it. (Castable once per turn.) Upgraded: Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, damage and stun it. (This spell costs less.) (Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CANNONBALL_NAME",
+        "ru_name": "Бомбочка!",
+        "ru_description": "Выберите любую клетку. В начале вашего следующего хода прыгните туда. Если приземлитесь на юнита, оглушите его.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Выберите любую клетку. В начале след. хода прыгните туда. Если приземлитесь на юнита, нанесите урон и оглушите его.\n[s:.7](Это заклинание стоит дешевле.)[/s]\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Cannon Ball!",
+        "en_description": "Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, stun it.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, damage and stun it.\n[s:.7](This spell costs less.)[/s]\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "CannonBall",
         "display_name": "Cannon Ball!",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "A melee attack with Life Steal. If used on an ally, gain +1 Strength. If used on a pickup, gain double that pickup's effects.Upgraded: A wide melee attack with Life Steal. If used on an ally, gain +1 Strength. If used on a pickup, gain double that pickup's effects.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHOMP_NAME",
+        "ru_name": "Кусь",
+        "ru_description": "Ближняя атака с Вампиризмом. Если на союзника — дает +1[img:str]. Если на лут — дает двойной эффект лута.",
+        "ru_upgraded_description": "Широкая ближняя атака с Вампиризмом. Если на союзника — дает +1[img:str]. Если на лут — дает двойной эффект.",
+        "en_name": "Chomp",
+        "en_description": "A melee attack with Life Steal. If used on an ally, gain +1[img:str]. If used on a pickup, gain double that pickup's effects.",
+        "en_upgraded_description": "A wide melee attack with Life Steal. If used on an ally, gain +1[img:str]. If used on a pickup, gain double that pickup's effects."
+      },
       "manifest": {
         "ability_id": "Chomp",
         "display_name": "Chomp",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Deal 5 damage to yourself. Refresh your movement action.Upgraded: Deal 5 damage to yourself. Refresh your movement action. PASSIVE: You have Trample.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHONKWALK_NAME",
+        "ru_name": "Тяжолая Походка",
+        "ru_description": "Нанесите себе 5 урона. Обновите действие движения.",
+        "ru_upgraded_description": "Нанесите себе 5 урона. Обновите действие движения.\nПАССИВНО: У вас есть Растаптывание.",
+        "en_name": "Chonkwalk",
+        "en_description": "Deal 5 damage to yourself. Refresh your movement action.",
+        "en_upgraded_description": "Deal 5 damage to yourself. Refresh your movement action.\nPASSIVE: You have Trample."
+      },
       "manifest": {
         "ability_id": "Chonkwalk",
         "display_name": "Chonkwalk",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 3 Knockback to units without Shield.Upgraded: This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 10 Knockback to units without Shield.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CRUSHINATOR_NAME",
+        "ru_name": "Крушитель",
+        "ru_description": "Это заклинание бьет только по Щиту. Рассечение и Оглушение по юнитам со Щитом. 3 Отбрасывания юнитам без Щита.",
+        "ru_upgraded_description": "Это заклинание бьет только по Щиту. Рассечение и Оглушение по юнитам со Щитом. 10 Отбрасывания юнитам без Щита.",
+        "en_name": "Crushinator",
+        "en_description": "This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 3 Knockback to units without Shield.",
+        "en_upgraded_description": "This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 10 Knockback to units without Shield."
+      },
       "manifest": {
         "ability_id": "Crushinator",
         "display_name": "Crushinator",
@@ -226,6 +307,15 @@
       "variant": "upgraded",
       "description": "This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 3 Knockback to units without Shield.Upgraded: This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 10 Knockback to units without Shield.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CRUSHINATOR_NAME",
+        "ru_name": "Крушитель",
+        "ru_description": "Это заклинание бьет только по Щиту. Рассечение и Оглушение по юнитам со Щитом. 3 Отбрасывания юнитам без Щита.",
+        "ru_upgraded_description": "Это заклинание бьет только по Щиту. Рассечение и Оглушение по юнитам со Щитом. 10 Отбрасывания юнитам без Щита.",
+        "en_name": "Crushinator",
+        "en_description": "This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 3 Knockback to units without Shield.",
+        "en_upgraded_description": "This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 10 Knockback to units without Shield."
+      },
       "manifest": {
         "ability_id": "Crushinator",
         "display_name": "Crushinator",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Lose 25% of your current HP, deal that much damage to adjacent units, and deal Knockback to them.Upgraded: Lose 25% of your HP, deal that much damage to nearby units, and deal Knockback to them.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FARTOOM_NAME",
+        "ru_name": "Пердум!",
+        "ru_description": "Потеряйте 25% текущих ОЗ, нанесите столько же урона соседям и отбросьте их.",
+        "ru_upgraded_description": "Потеряйте 25% ОЗ, нанесите столько же урона соседям и отбросьте их.",
+        "en_name": "Fartoom!",
+        "en_description": "Lose 25% of your current HP, deal that much damage to adjacent units, and deal Knockback to them.",
+        "en_upgraded_description": "Lose 25% of your HP, deal that much damage to nearby units, and deal Knockback to them."
+      },
       "manifest": {
         "ability_id": "Fartoom",
         "display_name": "Fartoom!",
@@ -274,6 +373,15 @@
       "variant": "upgraded",
       "description": "Lose 25% of your current HP, deal that much damage to adjacent units, and deal Knockback to them.Upgraded: Lose 25% of your HP, deal that much damage to nearby units, and deal Knockback to them.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FARTOOM_NAME",
+        "ru_name": "Пердум!",
+        "ru_description": "Потеряйте 25% текущих ОЗ, нанесите столько же урона соседям и отбросьте их.",
+        "ru_upgraded_description": "Потеряйте 25% ОЗ, нанесите столько же урона соседям и отбросьте их.",
+        "en_name": "Fartoom!",
+        "en_description": "Lose 25% of your current HP, deal that much damage to adjacent units, and deal Knockback to them.",
+        "en_upgraded_description": "Lose 25% of your HP, deal that much damage to nearby units, and deal Knockback to them."
+      },
       "manifest": {
         "ability_id": "Fartoom",
         "display_name": "Fartoom!",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Heal an adjacent unit and give that unit +1 Constitution and -1 Speed.Upgraded: Heal a unit within range and give that unit +1 Constitution and -1 Speed.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_FORCEFEED_NAME",
+        "ru_name": "Насильное кормление",
+        "ru_description": "Исцелите соседа и дайте ему +1 [img:con] и -1 [img:spd].",
+        "ru_upgraded_description": "Исцелите юнита в радиусе и дайте ему +1 [img:con] и -1 [img:spd].",
+        "en_name": "Force Feed",
+        "en_description": "Heal an adjacent unit and give that unit +1 [img:con] and -1 [img:spd].",
+        "en_upgraded_description": "Heal a unit within range and give that unit +1 [img:con] and -1 [img:spd]."
+      },
       "manifest": {
         "ability_id": "ForceFeed",
         "display_name": "Force Feed",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Attack a unit in melee range. If this kills it, it becomes 3 food pickups.Upgraded: Attack a unit in melee range for more damage. If this kills it, it becomes 3 food pickups.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_GIB_NAME",
+        "ru_name": "В мясо",
+        "ru_description": "Атакуйте юнита вблизи. Если это убьет его, он превратится в 3 куска еды.",
+        "ru_upgraded_description": "Атакуйте юнита вблизи (больше урона). Если это убьет его, он превратится в 3 куска еды.",
+        "en_name": "Gib",
+        "en_description": "Attack a unit in melee range. If this kills it, it becomes 3 food pickups.",
+        "en_upgraded_description": "Attack a unit in melee range for more damage. If this kills it, it becomes 3 food pickups."
+      },
       "manifest": {
         "ability_id": "Gib",
         "display_name": "Gib",
@@ -346,6 +472,15 @@
       "variant": "upgraded",
       "description": "Attack a unit in melee range. If this kills it, it becomes 3 food pickups.Upgraded: Attack a unit in melee range for more damage. If this kills it, it becomes 3 food pickups.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_GIB_NAME",
+        "ru_name": "В мясо",
+        "ru_description": "Атакуйте юнита вблизи. Если это убьет его, он превратится в 3 куска еды.",
+        "ru_upgraded_description": "Атакуйте юнита вблизи (больше урона). Если это убьет его, он превратится в 3 куска еды.",
+        "en_name": "Gib",
+        "en_description": "Attack a unit in melee range. If this kills it, it becomes 3 food pickups.",
+        "en_upgraded_description": "Attack a unit in melee range for more damage. If this kills it, it becomes 3 food pickups."
+      },
       "manifest": {
         "ability_id": "Gib",
         "display_name": "Gib",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Trample over to a tile with meat on it.Upgraded: Trample over to a tile with meat on it and Cleave all units in your way.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HOGRUSH_NAME",
+        "ru_name": "Свиной рывок",
+        "ru_description": "Растопчите всех на пути к клетке с мясом.",
+        "ru_upgraded_description": "Растопчите всех на пути к клетке с мясом и Рассеките всех, кто мешает.",
+        "en_name": "Hog Rush",
+        "en_description": "Trample over to a tile with meat on it.",
+        "en_upgraded_description": "Trample over to a tile with meat on it and Cleave all units in your way."
+      },
       "manifest": {
         "ability_id": "HogRush",
         "display_name": "Hog Rush",
@@ -394,6 +538,15 @@
       "variant": "upgraded",
       "description": "Trample over to a tile with meat on it.Upgraded: Trample over to a tile with meat on it and Cleave all units in your way.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HOGRUSH_NAME",
+        "ru_name": "Свиной рывок",
+        "ru_description": "Растопчите всех на пути к клетке с мясом.",
+        "ru_upgraded_description": "Растопчите всех на пути к клетке с мясом и Рассеките всех, кто мешает.",
+        "en_name": "Hog Rush",
+        "en_description": "Trample over to a tile with meat on it.",
+        "en_upgraded_description": "Trample over to a tile with meat on it and Cleave all units in your way."
+      },
       "manifest": {
         "ability_id": "HogRush",
         "display_name": "Hog Rush",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Melee attack that immobilizes.Upgraded: Melee attack that immobilizes and inflicts Bleed 2.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HOOKBIND_NAME",
+        "ru_name": "Зацеп",
+        "ru_description": "Ближняя атака, которая Обездвиживает.",
+        "ru_upgraded_description": "Ближняя атака: Обездвиживание и Кровотечение 2.",
+        "en_name": "Hook Bind",
+        "en_description": "Melee attack that immobilizes.",
+        "en_upgraded_description": "Melee attack that immobilizes and inflicts Bleed 2."
+      },
       "manifest": {
         "ability_id": "HookBind",
         "display_name": "Hook Bind",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Take 25 damage. You take an extra turn after this one. (This spell can't be cast on extra turns.) Upgraded: Take 15 damage. You take an extra turn after this one. (This spell can't be cast on extra turns.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_LIGHTENTHELOAD_NAME",
+        "ru_name": "Облегчение",
+        "ru_description": "Получите 25 урона. Вы получаете дополнительный ход после этого.\n[s:.7](Это нельзя использовать во время доп. ходов.)[/s]",
+        "ru_upgraded_description": "Получите 15 урона. Вы получаете дополнительный ход после этого.\n[s:.7](Это нельзя использовать во время доп. ходов.)[/s]",
+        "en_name": "Lighten the Load",
+        "en_description": "Take 25 damage. You take an extra turn after this one.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]",
+        "en_upgraded_description": "Take 15 damage. You take an extra turn after this one.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]"
+      },
       "manifest": {
         "ability_id": "LightenTheLoad",
         "display_name": "Lighten the Load",
@@ -466,6 +637,15 @@
       "variant": "upgraded",
       "description": "Take 25 damage. You take an extra turn after this one. (This spell can't be cast on extra turns.) Upgraded: Take 15 damage. You take an extra turn after this one. (This spell can't be cast on extra turns.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_LIGHTENTHELOAD_NAME",
+        "ru_name": "Облегчение",
+        "ru_description": "Получите 25 урона. Вы получаете дополнительный ход после этого.\n[s:.7](Это нельзя использовать во время доп. ходов.)[/s]",
+        "ru_upgraded_description": "Получите 15 урона. Вы получаете дополнительный ход после этого.\n[s:.7](Это нельзя использовать во время доп. ходов.)[/s]",
+        "en_name": "Lighten the Load",
+        "en_description": "Take 25 damage. You take an extra turn after this one.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]",
+        "en_upgraded_description": "Take 15 damage. You take an extra turn after this one.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]"
+      },
       "manifest": {
         "ability_id": "LightenTheLoad",
         "display_name": "Lighten the Load",
@@ -490,6 +670,15 @@
       "variant": "normal",
       "description": "Jump to a food pickup in range 4.Upgraded: Jump to any food pickup.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LUNCHTIME_NAME",
+        "ru_name": "Время обеда",
+        "ru_description": "Прыгните к еде в радиусе 4.",
+        "ru_upgraded_description": "Прыгните к любой еде.",
+        "en_name": "Lunch Time",
+        "en_description": "Jump to a food pickup in range 4.",
+        "en_upgraded_description": "Jump to any food pickup."
+      },
       "manifest": {
         "ability_id": "LunchTime",
         "display_name": "Lunch Time",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "A melee attack with lifesteal. This spell does more damage the less health you have.Upgraded: A melee attack with lifesteal. This spell does more damage the less health you have. (This spell costs less.)",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_MONCH_NAME",
+        "ru_name": "Хрум",
+        "ru_description": "Ближняя атака с вампиризмом. Наносит тем больше урона, чем меньше у вас здоровья.",
+        "ru_upgraded_description": "Ближняя атака с вампиризмом. Наносит тем больше урона, чем меньше у вас здоровья.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Monch",
+        "en_description": "A melee attack with lifesteal. This spell does more damage the less health you have.",
+        "en_upgraded_description": "A melee attack with lifesteal. This spell does more damage the less health you have.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Monch",
         "display_name": "Monch",
@@ -538,6 +736,15 @@
       "variant": "upgraded",
       "description": "A melee attack with lifesteal. This spell does more damage the less health you have.Upgraded: A melee attack with lifesteal. This spell does more damage the less health you have. (This spell costs less.)",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_MONCH_NAME",
+        "ru_name": "Хрум",
+        "ru_description": "Ближняя атака с вампиризмом. Наносит тем больше урона, чем меньше у вас здоровья.",
+        "ru_upgraded_description": "Ближняя атака с вампиризмом. Наносит тем больше урона, чем меньше у вас здоровья.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Monch",
+        "en_description": "A melee attack with lifesteal. This spell does more damage the less health you have.",
+        "en_upgraded_description": "A melee attack with lifesteal. This spell does more damage the less health you have.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Monch",
         "display_name": "Monch",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Puke on the tile in front of you. You get -1 Constitution and +2 Speed.Upgraded: Puke on a tile in range. You get -1 Constitution and +2 Speed.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PURGE_NAME",
+        "ru_name": "Чистка желудка",
+        "ru_description": "Блеваните на клетку перед собой. Вы получаете -1 [img:con] и +2 [img:spd].",
+        "ru_upgraded_description": "Блеваните на клетку в радиусе. Вы получаете -1 [img:con] и +2 [img:spd].",
+        "en_name": "Purge",
+        "en_description": "Puke on the tile in front of you. You get -1 [img:con] and +2 [img:spd].",
+        "en_upgraded_description": "Puke on a tile in range. You get -1 [img:con] and +2 [img:spd]."
+      },
       "manifest": {
         "ability_id": "ButcherPurge",
         "display_name": "Purge",
@@ -586,6 +802,15 @@
       "variant": "upgraded",
       "description": "Puke on the tile in front of you. You get -1 Constitution and +2 Speed.Upgraded: Puke on a tile in range. You get -1 Constitution and +2 Speed.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PURGE_NAME",
+        "ru_name": "Чистка желудка",
+        "ru_description": "Блеваните на клетку перед собой. Вы получаете -1 [img:con] и +2 [img:spd].",
+        "ru_upgraded_description": "Блеваните на клетку в радиусе. Вы получаете -1 [img:con] и +2 [img:spd].",
+        "en_name": "Purge",
+        "en_description": "Puke on the tile in front of you. You get -1 [img:con] and +2 [img:spd].",
+        "en_upgraded_description": "Puke on a tile in range. You get -1 [img:con] and +2 [img:spd]."
+      },
       "manifest": {
         "ability_id": "ButcherPurge",
         "display_name": "Purge",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Take 2 damage and gain Burn 2, then fire a projectile that spawns a lava tile at short range.Upgraded: Take 2 damage and gain Burn 2, then fire a projectile that spawns a lava tile at long range.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REFLUX_NAME",
+        "ru_name": "Рефлюкс",
+        "ru_description": "Получите 2 урона и Горение 2, затем выстрелите снарядом, создающим лаву вблизи.",
+        "ru_upgraded_description": "Получите 2 урона и Горение 2, затем выстрелите снарядом, создающим лаву далеко.",
+        "en_name": "Reflux",
+        "en_description": "Take 2 damage and gain Burn 2, then fire a projectile that spawns a lava tile at short range.",
+        "en_upgraded_description": "Take 2 damage and gain Burn 2, then fire a projectile that spawns a lava tile at long range."
+      },
       "manifest": {
         "ability_id": "Reflux",
         "display_name": "Reflux",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Breathe a cone of fire.Upgraded: Breathe a larger cone of fire.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ROAST_NAME",
+        "ru_name": "Жаркое",
+        "ru_description": "Выдохните конус огня.",
+        "ru_upgraded_description": "Выдохните большой конус огня.",
+        "en_name": "Roast",
+        "en_description": "Breathe a cone of fire.",
+        "en_upgraded_description": "Breathe a larger cone of fire."
+      },
       "manifest": {
         "ability_id": "Roast",
         "display_name": "Roast",
@@ -658,6 +901,15 @@
       "variant": "upgraded",
       "description": "Breathe a cone of fire.Upgraded: Breathe a larger cone of fire.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ROAST_NAME",
+        "ru_name": "Жаркое",
+        "ru_description": "Выдохните конус огня.",
+        "ru_upgraded_description": "Выдохните большой конус огня.",
+        "en_name": "Roast",
+        "en_description": "Breathe a cone of fire.",
+        "en_upgraded_description": "Breathe a larger cone of fire."
+      },
       "manifest": {
         "ability_id": "Roast",
         "display_name": "Roast",
@@ -682,6 +934,15 @@
       "variant": "normal",
       "description": "Throw an adjacent unit to an empty tile, dealing a lot of damage to that unit.Upgraded: Throw an adjacent unit to another tile (even if it isnt empty), dealing a lot of damage to that unit and whatever it lands on.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ROUGHTOSS_NAME",
+        "ru_name": "Грубый бросок",
+        "ru_description": "Бросьте соседа на пустую клетку, нанося ему кучу урона.",
+        "ru_upgraded_description": "Бросьте соседа на любую клетку (даже занятую), нанося кучу урона ему и тому, на кого он упадет.",
+        "en_name": "Rough Toss",
+        "en_description": "Throw an adjacent unit to an empty tile, dealing a lot of damage to that unit.",
+        "en_upgraded_description": "Throw an adjacent unit to another tile (even if it isnt empty), dealing a lot of damage to that unit and whatever it lands on."
+      },
       "manifest": {
         "ability_id": "RoughToss",
         "display_name": "Rough Toss",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Attack yourself with Cleave to gain +2 Strength.Upgraded: Attack yourself at half damage with Cleave to gain +2 Strength.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SELFHARM_NAME",
+        "ru_name": "Членовредительство",
+        "ru_description": "Атакуйте себя с Рассечением, чтобы получить +2 [img:str].",
+        "ru_upgraded_description": "Атакуйте себя вполсилы с Рассечением, чтобы получить +2 [img:str].",
+        "en_name": "Self Harm",
+        "en_description": "Attack yourself with Cleave to gain +2 [img:str].",
+        "en_upgraded_description": "Attack yourself at half damage with Cleave to gain +2 [img:str]."
+      },
       "manifest": {
         "ability_id": "SelfMutilate",
         "display_name": "Self Harm",
@@ -730,6 +1000,15 @@
       "variant": "upgraded",
       "description": "Attack yourself with Cleave to gain +2 Strength.Upgraded: Attack yourself at half damage with Cleave to gain +2 Strength.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SELFHARM_NAME",
+        "ru_name": "Членовредительство",
+        "ru_description": "Атакуйте себя с Рассечением, чтобы получить +2 [img:str].",
+        "ru_upgraded_description": "Атакуйте себя вполсилы с Рассечением, чтобы получить +2 [img:str].",
+        "en_name": "Self Harm",
+        "en_description": "Attack yourself with Cleave to gain +2 [img:str].",
+        "en_upgraded_description": "Attack yourself at half damage with Cleave to gain +2 [img:str]."
+      },
       "manifest": {
         "ability_id": "SelfMutilate",
         "display_name": "Self Harm",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "A range 1 dash attack that inflicts Stun and knockback. Also stuns yourself.Upgraded: A range 4 dash attack that inflicts Stun and knockback. Has a 50% chance to stun yourself.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SKULLBASH_NAME",
+        "ru_name": "Пролом черепа",
+        "ru_description": "Рывок на 1 клетку: Оглушение и отбрасывание. Оглушает и вас.",
+        "ru_upgraded_description": "Рывок на 4 клетки: Оглушение и отбрасывание. 50% шанс оглушить себя.",
+        "en_name": "Skull Bash",
+        "en_description": "A range 1 dash attack that inflicts Stun and knockback. Also stuns yourself. ",
+        "en_upgraded_description": "A range 4 dash attack that inflicts Stun and knockback. Has a 50% chance to stun yourself."
+      },
       "manifest": {
         "ability_id": "SkullBash",
         "display_name": "Skull Bash",
@@ -778,6 +1066,15 @@
       "variant": "normal",
       "description": "Trample over one tile. If you trample over a unit, you inflict Bruise on that unit and yourself.Upgraded: Trample over one tile. If you trample over a unit, you inflict Bruise on that unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TROMP_NAME",
+        "ru_name": "Топот",
+        "ru_description": "Растопчите одну клетку. Если вы растопчете юнита, вы наложите Ушиб на него и на себя.",
+        "ru_upgraded_description": "Растопчите одну клетку. Если вы растопчете юнита, вы наложите Ушиб на него.",
+        "en_name": "Tromp",
+        "en_description": "Trample over one tile. If you trample over a unit, you inflict Bruise on that unit and yourself.",
+        "en_upgraded_description": "Trample over one tile. If you trample over a unit, you inflict Bruise on that unit."
+      },
       "manifest": {
         "ability_id": "Tromp",
         "display_name": "Tromp",
@@ -802,6 +1099,15 @@
       "variant": "upgraded",
       "description": "Trample over one tile. If you trample over a unit, you inflict Bruise on that unit and yourself.Upgraded: Trample over one tile. If you trample over a unit, you inflict Bruise on that unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TROMP_NAME",
+        "ru_name": "Топот",
+        "ru_description": "Растопчите одну клетку. Если вы растопчете юнита, вы наложите Ушиб на него и на себя.",
+        "ru_upgraded_description": "Растопчите одну клетку. Если вы растопчете юнита, вы наложите Ушиб на него.",
+        "en_name": "Tromp",
+        "en_description": "Trample over one tile. If you trample over a unit, you inflict Bruise on that unit and yourself.",
+        "en_upgraded_description": "Trample over one tile. If you trample over a unit, you inflict Bruise on that unit."
+      },
       "manifest": {
         "ability_id": "Tromp",
         "display_name": "Tromp",

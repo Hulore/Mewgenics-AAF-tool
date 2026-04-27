@@ -10,6 +10,15 @@
       "variant": "upgraded",
       "description": "A weak melee attack.Upgraded: A weak melee attack with a chance to repeat.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SMACK_NAME",
+        "ru_name": "Шлепок",
+        "ru_description": "Слабая атака ближнего боя.",
+        "ru_upgraded_description": "Слабая атака ближнего боя с шансом повтора.",
+        "en_name": "Smack",
+        "en_description": "A weak melee attack.",
+        "en_upgraded_description": "A weak melee attack with a chance to repeat."
+      },
       "manifest": {
         "ability_id": "Smack",
         "display_name": "Smack",

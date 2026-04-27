@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Take damage equal to half of your max HP, then deal that much damage and inflict Fear 2 on another unit.Upgraded: Take damage equal to half of your max HP, then deal that much damage and inflict Fear 2 on units in an area.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BLOODGEYSER_NAME",
+        "ru_name": "Кровавый гейзер",
+        "ru_description": "Получите урон (50% макс. ОЗ), затем нанесите столько же и Страх 2 другому юниту.",
+        "ru_upgraded_description": "Получите урон (50% макс. ОЗ), затем нанесите столько же и Страх 2 юнитам в области.",
+        "en_name": "Blood Geyser",
+        "en_description": "Take damage equal to half of your max HP, then deal that much damage and inflict Fear 2 on another unit.",
+        "en_upgraded_description": "Take damage equal to half of your max HP, then deal that much damage and inflict Fear 2 on units in an area."
+      },
       "manifest": {
         "ability_id": "BloodGeyser",
         "display_name": "Blood Geyser",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Take 1 damage and heal all allies 1 HP.Upgraded: Take 1 damage, heal all allies 1 HP and give them +1 mana.",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_BLOODRAIN_NAME",
+        "ru_name": "Кровавый дождь",
+        "ru_description": "Получите 1 урон, исцелите всех союзников на 1.",
+        "ru_upgraded_description": "Получите 1 урон, исцелите союзников на 1 и дайте им +1 ману.",
+        "en_name": "Blood Rain",
+        "en_description": "Take 1 damage and heal all allies 1 HP.",
+        "en_upgraded_description": "Take 1 damage, heal all allies 1 HP and give them +1 mana."
+      },
       "manifest": {
         "ability_id": "BloodRain",
         "display_name": "Blood Rain",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Deal 1 damage and inflict Leech 1. This spell is stronger and castable while you're downed. Upgraded: Deal 2 damage and inflict Leech 2. This spell is stronger and castable while you're downed.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CARRIONSHOT_NAME",
+        "ru_name": "Выстрел падалью",
+        "ru_description": "Нанесите 1 урон и наложите эффект «Высасывание Жизни» 1.\n[s:.7]Сильнее и доступно, когда вас вырубили.[/s]",
+        "ru_upgraded_description": "Нанесите 2 урон и наложите эффект «Высасывание Жизни» 2.\n[s:.7]Сильнее и доступно, когда вас вырубили.[/s]",
+        "en_name": "Carrion Shot",
+        "en_description": "Deal 1 damage and inflict Leech 1.\n[s:.7]This spell is stronger and castable while you're downed.[/s]",
+        "en_upgraded_description": "Deal 2 damage and inflict Leech 2.\n[s:.7]This spell is stronger and castable while you're downed.[/s]"
+      },
       "manifest": {
         "ability_id": "CarrionShot",
         "display_name": "Carrion Shot",
@@ -82,6 +109,15 @@
       "variant": "upgraded",
       "description": "Deal 1 damage and inflict Leech 1. This spell is stronger and castable while you're downed. Upgraded: Deal 2 damage and inflict Leech 2. This spell is stronger and castable while you're downed.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CARRIONSHOT_NAME",
+        "ru_name": "Выстрел падалью",
+        "ru_description": "Нанесите 1 урон и наложите эффект «Высасывание Жизни» 1.\n[s:.7]Сильнее и доступно, когда вас вырубили.[/s]",
+        "ru_upgraded_description": "Нанесите 2 урон и наложите эффект «Высасывание Жизни» 2.\n[s:.7]Сильнее и доступно, когда вас вырубили.[/s]",
+        "en_name": "Carrion Shot",
+        "en_description": "Deal 1 damage and inflict Leech 1.\n[s:.7]This spell is stronger and castable while you're downed.[/s]",
+        "en_upgraded_description": "Deal 2 damage and inflict Leech 2.\n[s:.7]This spell is stronger and castable while you're downed.[/s]"
+      },
       "manifest": {
         "ability_id": "CarrionShot",
         "display_name": "Carrion Shot",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Teleport to an open tile.Upgraded: Teleport to a tile. If you teleport into a unit you both take 5 damage, then inflict Fear on it.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DARKSTEP_NAME",
+        "ru_name": "Темный шаг",
+        "ru_description": "Телепорт на свободную клетку.",
+        "ru_upgraded_description": "Телепорт. Если влетите в юнита — оба получаете 5 урона, он получает Страх.",
+        "en_name": "Dark Step",
+        "en_description": "Teleport to an open tile.",
+        "en_upgraded_description": "Teleport to a tile. If you teleport into a unit you both take 5 damage, then inflict Fear on it."
+      },
       "manifest": {
         "ability_id": "DarkStep",
         "display_name": "Dark Step",
@@ -130,6 +175,15 @@
       "variant": "upgraded",
       "description": "Teleport to an open tile.Upgraded: Teleport to a tile. If you teleport into a unit you both take 5 damage, then inflict Fear on it.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DARKSTEP_NAME",
+        "ru_name": "Темный шаг",
+        "ru_description": "Телепорт на свободную клетку.",
+        "ru_upgraded_description": "Телепорт. Если влетите в юнита — оба получаете 5 урона, он получает Страх.",
+        "en_name": "Dark Step",
+        "en_description": "Teleport to an open tile.",
+        "en_upgraded_description": "Teleport to a tile. If you teleport into a unit you both take 5 damage, then inflict Fear on it."
+      },
       "manifest": {
         "ability_id": "DarkStep",
         "display_name": "Dark Step",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Deal damage and inflict Weakness on an adjacent unit. If you have no weapon, equip a bone.Upgraded: Deal damage, inflict Weakness and Immobile on an adjacent unit. If you have no weapon, equip a bone.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DEBONE_NAME",
+        "ru_name": "Обескостить",
+        "ru_description": "Урон и Слабость соседу. Если у вас нет оружия, экипируйте кость.",
+        "ru_upgraded_description": "Урон, Слабость и Обездвиживание соседу. Если у вас нет оружия, экипируйте кость.",
+        "en_name": "Debone",
+        "en_description": "Deal damage and inflict Weakness on an adjacent unit. If you have no weapon, equip a bone.",
+        "en_upgraded_description": "Deal damage, inflict Weakness and Immobile on an adjacent unit. If you have no weapon, equip a bone."
+      },
       "manifest": {
         "ability_id": "Debone",
         "display_name": "Debone",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Heal a unit 5 HP, then take 10 damage. Castable while you're downed. If you do, take no damage and give what you heal All Stats Up. Upgraded: Heal all units in an area 5 HP, then take 10 damage. Castable while you're downed. If you do, take no damage and give what you heal All Stats Up.",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_DONATEBLOOD_NAME",
+        "ru_name": "Донорство",
+        "ru_description": "Исцелите юнита на 5, затем получите 10 урона.\n[s:.7]Доступно, когда вы вырублены. Тогда без урона вам, а цели — Повышение Всех Хар-к.[/s]",
+        "ru_upgraded_description": "Исцелите всех в области на 5, затем получите 10 урона.\n[s:.7]Доступно, когда вы вырублены. Тогда без урона вам, а целям — Повышение Всех Хар-к.[/s]",
+        "en_name": "Donate Blood",
+        "en_description": "Heal a unit 5 HP, then take 10 damage.\n[s:.7]Castable while you're downed. If you do, take no damage and give what you heal All Stats Up.[/s]",
+        "en_upgraded_description": "Heal all units in an area 5 HP, then take 10 damage.\n[s:.7]Castable while you're downed. If you do, take no damage and give what you heal All Stats Up.[/s]"
+      },
       "manifest": {
         "ability_id": "DonateBlood",
         "display_name": "Donate Blood",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Spend all of your mana, then drain that much HP from an adjacent unit. Ignores shield.Upgraded: Spend all of your mana, then drain that much HP from a unit in range 3. Ignores shield.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GIGADRAIN_NAME",
+        "ru_name": "Гига-дрейн",
+        "ru_description": "Потратьте всю ману, высосите столько же ОЗ у соседа. Игнор щита.",
+        "ru_upgraded_description": "Потратьте всю ману, высосите столько же ОЗ у цели в радиусе 3. Игнор щита.",
+        "en_name": "Giga Drain",
+        "en_description": "Spend all of your mana, then drain that much HP from an adjacent unit. Ignores shield.",
+        "en_upgraded_description": "Spend all of your mana, then drain that much HP from a unit in range 3. Ignores shield."
+      },
       "manifest": {
         "ability_id": "GigaDrain",
         "display_name": "Giga Drain",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Drain 2 HP at melee range. This spell is much stronger and castable while you're downed. If this kills a unit, revive with 50% hp. Upgraded: Drain 2 HP at melee range. This spell is much stronger and castable while you're downed. If this kills a unit, revive with max hp.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LIFEDRAIN_NAME",
+        "ru_name": "Кража жизни",
+        "ru_description": "Высосите 2 ОЗ вблизи.\n[s:.7]Сильнее и доступно, когда вас вырубили. При убийстве: воскресаете с 50% ОЗ.[/s]",
+        "ru_upgraded_description": "Высосите 2 ОЗ вблизи.\n[s:.7]Сильнее и доступно, когда вас вырубили. При убийстве: воскресаете с макс. ОЗ.[/s]",
+        "en_name": "Lifedrain",
+        "en_description": "Drain 2 HP at melee range.\n[s:.7]This spell is much stronger and castable while you're downed. If this kills a unit, revive with 50% hp.[/s]",
+        "en_upgraded_description": "Drain 2 HP at melee range.\n[s:.7]This spell is much stronger and castable while you're downed. If this kills a unit, revive with max hp.[/s]"
+      },
       "manifest": {
         "ability_id": "LifeDrain",
         "display_name": "Lifedrain",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Deal 1 damage to all units.Upgraded: Deal 1 damage to all units. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CROWNOFPESTILENCE_NAME",
+        "ru_name": "Мор",
+        "ru_description": "Нанесите 1 урон всем юнитам.",
+        "ru_upgraded_description": "",
+        "en_name": "Pestilence",
+        "en_description": "Deal 1 damage to all units.",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "head_Pestilence",
         "display_name": "",
@@ -274,6 +373,15 @@
       "variant": "upgraded",
       "description": "Deal 1 damage to all units.Upgraded: Deal 1 damage to all units. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CROWNOFPESTILENCE_NAME",
+        "ru_name": "Мор",
+        "ru_description": "Нанесите 1 урон всем юнитам.",
+        "ru_upgraded_description": "",
+        "en_name": "Pestilence",
+        "en_description": "Deal 1 damage to all units.",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "head_Pestilence",
         "display_name": "",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Teleport to an open tile in range 1. Whenever a unit dies, this spell's range increases by 1.Upgraded: Teleport to a tile in range 1, dealing damage to units you land on. Whenever a unit dies, this spell's range and damage increase by 1.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REAPERSTEP_NAME",
+        "ru_name": "Шаг Жнеца",
+        "ru_description": "Телепорт в радиусе 1. Когда кто-то умирает, радиус растет на 1.",
+        "ru_upgraded_description": "Телепорт в радиусе 1 (урон при посадке). Когда кто-то умирает, радиус и урон растут на 1.",
+        "en_name": "Reaper Step",
+        "en_description": "Teleport to an open tile in range 1. Whenever a unit dies, this spell's range increases by 1.",
+        "en_upgraded_description": "Teleport to a tile in range 1, dealing damage to units you land on. Whenever a unit dies, this spell's range and damage increase by 1."
+      },
       "manifest": {
         "ability_id": "ReaperStep",
         "display_name": "Reaper Step",
@@ -322,6 +439,15 @@
       "variant": "upgraded",
       "description": "Teleport to an open tile in range 1. Whenever a unit dies, this spell's range increases by 1.Upgraded: Teleport to a tile in range 1, dealing damage to units you land on. Whenever a unit dies, this spell's range and damage increase by 1.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REAPERSTEP_NAME",
+        "ru_name": "Шаг Жнеца",
+        "ru_description": "Телепорт в радиусе 1. Когда кто-то умирает, радиус растет на 1.",
+        "ru_upgraded_description": "Телепорт в радиусе 1 (урон при посадке). Когда кто-то умирает, радиус и урон растут на 1.",
+        "en_name": "Reaper Step",
+        "en_description": "Teleport to an open tile in range 1. Whenever a unit dies, this spell's range increases by 1.",
+        "en_upgraded_description": "Teleport to a tile in range 1, dealing damage to units you land on. Whenever a unit dies, this spell's range and damage increase by 1."
+      },
       "manifest": {
         "ability_id": "ReaperStep",
         "display_name": "Reaper Step",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Inflict Fear 1, Confusion 2, and Madness 2 on units within a cone.Upgraded: Inflict Fear 1, Confusion 2, Madness 2 and drain 2 HP from units within a cone.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHRIEK_NAME",
+        "ru_name": "Визг",
+        "ru_description": "Страх 1, Замешательство 2, Безумие 2 в конусе.",
+        "ru_upgraded_description": "Страх 1, Замешательство 2, Безумие 2 и кража 2 ОЗ в конусе.",
+        "en_name": "Shriek",
+        "en_description": "Inflict Fear 1, Confusion 2, and Madness 2 on units within a cone.",
+        "en_upgraded_description": "Inflict Fear 1, Confusion 2, Madness 2 and drain 2 HP from units within a cone."
+      },
       "manifest": {
         "ability_id": "Shriek",
         "display_name": "Shriek",
@@ -370,6 +505,15 @@
       "variant": "upgraded",
       "description": "Inflict Fear 1, Confusion 2, and Madness 2 on units within a cone.Upgraded: Inflict Fear 1, Confusion 2, Madness 2 and drain 2 HP from units within a cone.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHRIEK_NAME",
+        "ru_name": "Визг",
+        "ru_description": "Страх 1, Замешательство 2, Безумие 2 в конусе.",
+        "ru_upgraded_description": "Страх 1, Замешательство 2, Безумие 2 и кража 2 ОЗ в конусе.",
+        "en_name": "Shriek",
+        "en_description": "Inflict Fear 1, Confusion 2, and Madness 2 on units within a cone.",
+        "en_upgraded_description": "Inflict Fear 1, Confusion 2, Madness 2 and drain 2 HP from units within a cone."
+      },
       "manifest": {
         "ability_id": "Shriek",
         "display_name": "Shriek",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Deal 2 damage to yourself.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SLITWRISTS_NAME",
+        "ru_name": "Вскрыть вены",
+        "ru_description": "Нанесите себе 2 урона.",
+        "ru_upgraded_description": "",
+        "en_name": "Slit Wrists",
+        "en_description": "Deal 2 damage to yourself.",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "SlitWrists",
         "display_name": "Slit Wrists",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Give a unit +1 Constitution and heal it 4 HP. You gain -1 Constitution and lose 4 health.Upgraded: Give a unit +1 Constitution and heal it 4 HP. You gain -1 Constitution and lose 4 health. This spell can revive units. If the unit revived was an enemy it gets charmed for the battle.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SOULTRANSFER_NAME",
+        "ru_name": "Перенос души",
+        "ru_description": "Дайте юниту +1 [img:con] и +4 ОЗ. Вы теряете 1 [img:con] и 4 ОЗ.",
+        "ru_upgraded_description": "Дайте юниту +1 [img:con] и +4 ОЗ. Вы теряете 1 [img:con] и 4 ОЗ.\nМожет воскрешать. Воскрешенный враг будет очарован до конца битвы.",
+        "en_name": "Soul Transfer",
+        "en_description": "Give a unit +1 [img:con] and heal it 4 HP. You gain -1 [img:con] and lose 4 health.",
+        "en_upgraded_description": "Give a unit +1 [img:con] and heal it 4 HP. You gain -1 [img:con] and lose 4 health.\nThis spell can revive units. If the unit revived was an enemy it gets charmed for the battle."
+      },
       "manifest": {
         "ability_id": "SoulTransfer",
         "display_name": "Soul Transfer",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Inflict Infested 1 on a unit in range 3.Upgraded: Deal 1 damage and inflict Infested 1 on any unit.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPIDEREGG_NAME",
+        "ru_name": "Яйцо паука",
+        "ru_description": "Наложите Заражение 1 на юнита в радиусе 3.",
+        "ru_upgraded_description": "1 урон и Заражение 1 любому юниту.",
+        "en_name": "Spider Egg",
+        "en_description": "Inflict Infested 1 on a unit in range 3.",
+        "en_upgraded_description": "Deal 1 damage and inflict Infested 1 on any unit."
+      },
       "manifest": {
         "ability_id": "SpiderEgg",
         "display_name": "Spider Egg",
@@ -466,6 +637,15 @@
       "variant": "upgraded",
       "description": "Inflict Infested 1 on a unit in range 3.Upgraded: Deal 1 damage and inflict Infested 1 on any unit.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPIDEREGG_NAME",
+        "ru_name": "Яйцо паука",
+        "ru_description": "Наложите Заражение 1 на юнита в радиусе 3.",
+        "ru_upgraded_description": "1 урон и Заражение 1 любому юниту.",
+        "en_name": "Spider Egg",
+        "en_description": "Inflict Infested 1 on a unit in range 3.",
+        "en_upgraded_description": "Deal 1 damage and inflict Infested 1 on any unit."
+      },
       "manifest": {
         "ability_id": "SpiderEgg",
         "display_name": "Spider Egg",

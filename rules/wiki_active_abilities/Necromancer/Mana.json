@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Down an ally in range 5 and steal their mana. It doesn't get injured. (Castable once per turn.) Upgraded: Down any ally and steal their mana. It doesn't get injured. (Castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ABSORBSOUL_NAME",
+        "ru_name": "Поглощение души",
+        "ru_description": "Вырубите союзника (радиус 5) и украдите ману. Травмы не будет.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Вырубите любого союзника и украдите ману. Травмы не будет.\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Absorb Soul",
+        "en_description": "Down an ally in range 5 and steal their mana. It doesn't get injured.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Down any ally and steal their mana. It doesn't get injured.\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "AbsorbSoul",
         "display_name": "Absorb Soul",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Remove all status effects from another unit, then inflict Bleed 5 on it.Upgraded: Remove all status effects from another unit, then inflict Bleed 5 on it. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLOODLETTING_NAME",
+        "ru_name": "Кровопускание",
+        "ru_description": "Снимите все эффекты с юнита, затем наложите Кровотечение 5.",
+        "ru_upgraded_description": "Снимите все эффекты с юнита, затем наложите Кровотечение 5.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Bloodletting",
+        "en_description": "Remove all status effects from another unit, then inflict Bleed 5 on it.",
+        "en_upgraded_description": "Remove all status effects from another unit, then inflict Bleed 5 on it.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Bloodletting",
         "display_name": "Bloodletting",
@@ -58,6 +76,15 @@
       "variant": "upgraded",
       "description": "Remove all status effects from another unit, then inflict Bleed 5 on it.Upgraded: Remove all status effects from another unit, then inflict Bleed 5 on it. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLOODLETTING_NAME",
+        "ru_name": "Кровопускание",
+        "ru_description": "Снимите все эффекты с юнита, затем наложите Кровотечение 5.",
+        "ru_upgraded_description": "Снимите все эффекты с юнита, затем наложите Кровотечение 5.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Bloodletting",
+        "en_description": "Remove all status effects from another unit, then inflict Bleed 5 on it.",
+        "en_upgraded_description": "Remove all status effects from another unit, then inflict Bleed 5 on it.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Bloodletting",
         "display_name": "Bloodletting",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Surround a unit with leeches.Upgraded: Surround a unit with beefy leeches.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CLEWOFLEECHES_NAME",
+        "ru_name": "Клубок пиявок",
+        "ru_description": "Окружите юнита пиявками.",
+        "ru_upgraded_description": "Окружите юнита жирными пиявками.",
+        "en_name": "Clew of Leeches",
+        "en_description": "Surround a unit with leeches.",
+        "en_upgraded_description": "Surround a unit with beefy leeches."
+      },
       "manifest": {
         "ability_id": "ClewOfLeeches",
         "display_name": "Clew of Leeches",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Jump to an open tile in range 2. This spell is stronger and castable while you're downed. When downed you can land on units dealing damage and inflicting Madness. Upgraded: Jump to an open tile in range 3. This spell is stronger and castable while you're downed. When downed you can land on units anywhere dealing damage and inflicting Madness 2.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COFFINFLOP_NAME",
+        "ru_name": "Гробоплюх",
+        "ru_description": "Прыжок на 2 клетки.\n[s:.7]Доступно и сильнее, когда вы вырублены. Можно прыгать на юнитов (урон + Безумие).[/s]",
+        "ru_upgraded_description": "Прыжок на 3 клетки.\n[s:.7]Доступно и сильнее, когда вы вырублены. Можно прыгать на юнитов (урон + Безумие 2).[/s]",
+        "en_name": "Coffin Flop",
+        "en_description": "Jump to an open tile in range 2.\n[s:.7]This spell is stronger and castable while you're downed. When downed you can land on units dealing damage and inflicting Madness. [/s]",
+        "en_upgraded_description": "Jump to an open tile in range 3.\n[s:.7]This spell is stronger and castable while you're downed. When downed you can land on units anywhere dealing damage and inflicting Madness 2. [/s]"
+      },
       "manifest": {
         "ability_id": "CoffinFlop",
         "display_name": "Coffin Flop",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Give a unit -4 Luck.Upgraded: Give a unit -4 Luck. (This spell has increased range)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CURSE_NAME",
+        "ru_name": "Проклятие",
+        "ru_description": "Дайте юниту -4 [img:lck].",
+        "ru_upgraded_description": "Дайте юниту -4 [img:lck].\n[s:.7](Дальность повышена)[/s]",
+        "en_name": "Curse",
+        "en_description": "Give a unit -4 [img:lck].",
+        "en_upgraded_description": "Give a unit -4 [img:lck].\n[s:.7](This spell has increased range)[/s]"
+      },
       "manifest": {
         "ability_id": "Curse",
         "display_name": "Curse",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Destroy an adjacent body. The next spell you cast costs 0 mana.Upgraded: Destroy an adjacent body. The next 2 spells you cast cost 0 mana.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DARKRITUAL_NAME",
+        "ru_name": "Темный ритуал",
+        "ru_description": "Уничтожьте соседнее тело. Ваше след. заклинание бесплатно.",
+        "ru_upgraded_description": "Уничтожьте соседнее тело. Ваши 2 след. заклинания бесплатны.",
+        "en_name": "Dark Ritual",
+        "en_description": "Destroy an adjacent body. The next spell you cast costs 0 mana.",
+        "en_upgraded_description": "Destroy an adjacent body. The next 2 spells you cast cost 0 mana."
+      },
       "manifest": {
         "ability_id": "SoulSuck",
         "display_name": "Dark Ritual",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Explode a body, dealing damage and Knockback to adjacent units.Upgraded: Explode a body, dealing damage and Knockback to units in a large area.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DEATHBLOOM_NAME",
+        "ru_name": "Цветок смерти",
+        "ru_description": "Взорвите тело: урон и отбрасывание соседям.",
+        "ru_upgraded_description": "Взорвите тело: урон и отбрасывание в большой области.",
+        "en_name": "Death Bloom",
+        "en_description": "Explode a body, dealing damage and Knockback to adjacent units.",
+        "en_upgraded_description": "Explode a body, dealing damage and Knockback to units in a large area."
+      },
       "manifest": {
         "ability_id": "DeathBloom",
         "display_name": "Death Bloom",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Explode a body and spawn 3 Leeches.Upgraded: Explode a body and spawn 5 Leeches.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DECOMPOSE_NAME",
+        "ru_name": "Разложение",
+        "ru_description": "Взорвите тело и призовите 3 Пиявок.",
+        "ru_upgraded_description": "Взорвите тело и призовите 5 Пиявок.",
+        "en_name": "Decompose",
+        "en_description": "Explode a body and spawn 3 Leeches.",
+        "en_upgraded_description": "Explode a body and spawn 5 Leeches."
+      },
       "manifest": {
         "ability_id": "MaggotArmy",
         "display_name": "Decompose",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Injure yourself and take an extra turn. (This spell can't be cast on extra turns.) Upgraded: Injure yourself and take an extra turn. (This spell costs less. This spell can't be cast on extra turns.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DEMONICPACT_NAME",
+        "ru_name": "Демонический пакт",
+        "ru_description": "Нанеси себе травму (навсегда) и получите доп. ход.\n[s:.7](Нельзя в доп. ходы.)[/s]",
+        "ru_upgraded_description": "Нанеси себе травму (навсегда) и получите доп. ход.\n[s:.7](Дешевле. Нельзя в доп. ходы.)[/s]",
+        "en_name": "Demonic Pact",
+        "en_description": "Injure yourself and take an extra turn.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]",
+        "en_upgraded_description": "Injure yourself and take an extra turn.\r\n[s:.7](This spell costs less. This spell can't be cast on extra turns.)[/s]"
+      },
       "manifest": {
         "ability_id": "DemonicPact",
         "display_name": "Demonic Pact",
@@ -250,6 +340,15 @@
       "variant": "upgraded",
       "description": "Injure yourself and take an extra turn. (This spell can't be cast on extra turns.) Upgraded: Injure yourself and take an extra turn. (This spell costs less. This spell can't be cast on extra turns.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DEMONICPACT_NAME",
+        "ru_name": "Демонический пакт",
+        "ru_description": "Нанеси себе травму (навсегда) и получите доп. ход.\n[s:.7](Нельзя в доп. ходы.)[/s]",
+        "ru_upgraded_description": "Нанеси себе травму (навсегда) и получите доп. ход.\n[s:.7](Дешевле. Нельзя в доп. ходы.)[/s]",
+        "en_name": "Demonic Pact",
+        "en_description": "Injure yourself and take an extra turn.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]",
+        "en_upgraded_description": "Injure yourself and take an extra turn.\r\n[s:.7](This spell costs less. This spell can't be cast on extra turns.)[/s]"
+      },
       "manifest": {
         "ability_id": "DemonicPact",
         "display_name": "Demonic Pact",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "Dig to any tile and unearth 4 zombies.Upgraded: Dig to any tile and unearth 4 zombies. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DIGUPTHEDEAD_NAME",
+        "ru_name": "Выкопать мертвых",
+        "ru_description": "Прокопайте на любую клетку и выкопайте 4 зомби.",
+        "ru_upgraded_description": "Прокопайте на любую клетку и выкопайте 4 зомби.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Dig Up the Dead",
+        "en_description": "Dig to any tile and unearth 4 zombies.",
+        "en_upgraded_description": "Dig to any tile and unearth 4 zombies.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DigUpTheDead",
         "display_name": "Dig Up the Dead",
@@ -298,6 +406,15 @@
       "variant": "upgraded",
       "description": "Dig to any tile and unearth 4 zombies.Upgraded: Dig to any tile and unearth 4 zombies. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DIGUPTHEDEAD_NAME",
+        "ru_name": "Выкопать мертвых",
+        "ru_description": "Прокопайте на любую клетку и выкопайте 4 зомби.",
+        "ru_upgraded_description": "Прокопайте на любую клетку и выкопайте 4 зомби.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Dig Up the Dead",
+        "en_description": "Dig to any tile and unearth 4 zombies.",
+        "en_upgraded_description": "Dig to any tile and unearth 4 zombies.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DigUpTheDead",
         "display_name": "Dig Up the Dead",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Resurrect an enemy body to full HP. It joins your team.Upgraded: Resurrect an enemy body to full HP. It joins your team and takes an extra turn after this one.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ETERNALSERVITUDE_NAME",
+        "ru_name": "Вечное служение",
+        "ru_description": "Воскресите тело врага с полным ОЗ. Он присоединяется к вам.",
+        "ru_upgraded_description": "Воскресите тело врага с полным ОЗ. Он присоединяется и ходит сразу же.",
+        "en_name": "Eternal Servitude",
+        "en_description": "Resurrect an enemy body to full HP. It joins your team.",
+        "en_upgraded_description": "Resurrect an enemy body to full HP. It joins your team and takes an extra turn after this one."
+      },
       "manifest": {
         "ability_id": "AnimateDead",
         "display_name": "Eternal Servitude",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Inflict Fear on all enemies.Upgraded: Inflict Fear 1 and Weakness 2 on all enemies.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "{itemname}",
+        "ru_name": "",
+        "ru_description": "",
+        "ru_upgraded_description": "",
+        "en_name": "",
+        "en_description": "",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "wp_TinaScream",
         "display_name": "",
@@ -370,6 +505,15 @@
       "variant": "upgraded",
       "description": "Inflict Fear on all enemies.Upgraded: Inflict Fear 1 and Weakness 2 on all enemies.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "{itemname}",
+        "ru_name": "",
+        "ru_description": "",
+        "ru_upgraded_description": "",
+        "en_name": "",
+        "en_description": "",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "wp_TinaScream",
         "display_name": "",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Destroy an adjacent body. Your basic attack inflicts +1 Leech for the rest of the battle.Upgraded: Destroy a body at range. Your basic attack inflicts +1 Leech for the rest of the battle.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FEED_NAME",
+        "ru_name": "Кормление",
+        "ru_description": "Уничтожьте соседнее тело. Ваша атака дает +1 Похищение Жизни на весь бой.",
+        "ru_upgraded_description": "Уничтожьте тело вдали. Ваша атака дает +1 Похищение Жизни на весь бой.",
+        "en_name": "Feed",
+        "en_description": "Destroy an adjacent body. Your basic attack inflicts +1 Leech for the rest of the battle.",
+        "en_upgraded_description": "Destroy a body at range. Your basic attack inflicts +1 Leech for the rest of the battle."
+      },
       "manifest": {
         "ability_id": "Feed",
         "display_name": "Feed",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn. The copy can't cast this ability or give extra turns to units. Upgraded: Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn. The copy can't cast this ability or give extra turns to units. (This spell costs 0 mana.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FLATLINE_NAME",
+        "ru_name": "Остановка сердца",
+        "ru_description": "Вырубитесь. Вы не травмируетесь. Призовите тень, живущую 1 ход.\n[s:.7]Копия не может использовать это или давать доп. ходы.[/s]",
+        "ru_upgraded_description": "Вырубитесь. Вы не травмируетесь. Призовите тень, живущую 1 ход.\n[s:.7]Копия не может использовать это или давать доп. ходы.[/s]\n[s:.7](Бесплатно.)[/s]",
+        "en_name": "Flatline",
+        "en_description": "Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn.\n[s:.7]The copy can't cast this ability or give extra turns to units.[/s]",
+        "en_upgraded_description": "Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn.\n[s:.7]The copy can't cast this ability or give extra turns to units.[/s]\n[s:.7](This spell costs 0 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "Flatline",
         "display_name": "Flatline",
@@ -442,6 +604,15 @@
       "variant": "upgraded",
       "description": "Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn. The copy can't cast this ability or give extra turns to units. Upgraded: Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn. The copy can't cast this ability or give extra turns to units. (This spell costs 0 mana.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FLATLINE_NAME",
+        "ru_name": "Остановка сердца",
+        "ru_description": "Вырубитесь. Вы не травмируетесь. Призовите тень, живущую 1 ход.\n[s:.7]Копия не может использовать это или давать доп. ходы.[/s]",
+        "ru_upgraded_description": "Вырубитесь. Вы не травмируетесь. Призовите тень, живущую 1 ход.\n[s:.7]Копия не может использовать это или давать доп. ходы.[/s]\n[s:.7](Бесплатно.)[/s]",
+        "en_name": "Flatline",
+        "en_description": "Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn.\n[s:.7]The copy can't cast this ability or give extra turns to units.[/s]",
+        "en_upgraded_description": "Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn.\n[s:.7]The copy can't cast this ability or give extra turns to units.[/s]\n[s:.7](This spell costs 0 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "Flatline",
         "display_name": "Flatline",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "You and all allies lose 10 HP. Summon a flesh golem with one random spell from each of those units. (Castable once per battle.) Upgraded: You and all allies lose 10 HP. Summon a flesh golem with one random spell and random passives from each of those units. (Castable once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FLESHGOLEM_NAME",
+        "ru_name": "Голем из плоти",
+        "ru_description": "Вы и все союзники теряете 10 ОЗ. Призывает Голема со случайным скиллом каждого из вас.\n[s:.7](Раз за бой.)[/s]",
+        "ru_upgraded_description": "Вы и все союзники теряете 10 ОЗ. Призывает Голема со скиллом и пассивками каждого.\n[s:.7](Раз за бой.)[/s]",
+        "en_name": "Flesh Golem",
+        "en_description": "You and all allies lose 10 HP. Summon a flesh golem with one random spell from each of those units.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "You and all allies lose 10 HP. Summon a flesh golem with one random spell and random passives from each of those units.\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "FleshGolem",
         "display_name": "Flesh Golem",
@@ -490,6 +670,15 @@
       "variant": "normal",
       "description": "Inflict Weakness 5, Poison 2, and Madness 2 on all enemies. There are permanent consequences for casting this spell… but maybe not for you. (Castable once per battle.) Upgraded: Inflict Leech 2, Weakness 5, Poison 2, and Madness 2 on all enemies. There are permanent consequences for casting this spell… but maybe not for you. (Castable once per battle.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FORBIDDENFAMINE_NAME",
+        "ru_name": "Запретный Голод",
+        "ru_description": "Слабость 5, Яд 2 и Безумие 2 всем врагам.\nПрименение будет иметь необратимые последствия (Расстройство), но может не для вас... \n[s:.7](Раз за бой.)[/s]",
+        "ru_upgraded_description": "Похищение Жизни 2, Слабость 5, Яд 2 и Безумие 2 всем врагам.\nПрименение будет иметь необратимые последствия (Расстройство), но может не для вас...\n[s:.7](Раз за бой.)[/s]",
+        "en_name": "Forbidden Famine",
+        "en_description": "Inflict Weakness 5, Poison 2, and Madness 2 on all enemies.\r\nThere are permanent consequences for casting this spell… but maybe not for you. \r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Inflict Leech 2, Weakness 5, Poison 2, and Madness 2 on all enemies.\r\nThere are permanent consequences for casting this spell… but maybe not for you. \r\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "ForbiddenFamine",
         "display_name": "Forbidden Famine",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Give Lifesteal 1 to units in an area.Upgraded: Give Lifesteal 3 to units in an area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BESTOWLEECHES_NAME",
+        "ru_name": "Полная луна",
+        "ru_description": "Дайте Вампиризм 1 юнитам в области.",
+        "ru_upgraded_description": "Дайте Вампиризм 3 юнитам в области.",
+        "en_name": "Full Moon",
+        "en_description": "Give Lifesteal 1 to units in an area.",
+        "en_upgraded_description": "Give Lifesteal 3 to units in an area."
+      },
       "manifest": {
         "ability_id": "FullMoon",
         "display_name": "Full Moon",
@@ -538,6 +736,15 @@
       "variant": "normal",
       "description": "Until your next turn, you won't get injured if you're downed.Upgraded: Until your next turn, you won't get injured if you're downed. When downed, inflict Confusion 10 on the unit that downed you.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GOLIMP_NAME",
+        "ru_name": "Обмякнуть",
+        "ru_description": "До след. хода вы не получите травму, если вас вырубят.",
+        "ru_upgraded_description": "До след. хода вы не получите травму, если вас вырубят.\nПри вырубании вас: Замешательство 10 обидчику.",
+        "en_name": "Go Limp",
+        "en_description": "Until your next turn, you won't get injured if you're downed.",
+        "en_upgraded_description": "Until your next turn, you won't get injured if you're downed.\nWhen downed, inflict Confusion 10 on the unit that downed you."
+      },
       "manifest": {
         "ability_id": "GoLimp",
         "display_name": "Go Limp",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Dig to any tile and unearth a body.Upgraded: Dig to any tile and unearth 1-3 bodies. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GRAVECRAWL_NAME",
+        "ru_name": "Могильный ползок",
+        "ru_description": "Прокопайте на любую клетку и выкопайте тело.",
+        "ru_upgraded_description": "Прокопайте на любую клетку и выкопайте 1-3 тела.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Gravecrawl",
+        "en_description": "Dig to any tile and unearth a body.",
+        "en_upgraded_description": "Dig to any tile and unearth 1-3 bodies.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Gravecrawl",
         "display_name": "Gravecrawl",
@@ -586,6 +802,15 @@
       "variant": "upgraded",
       "description": "Dig to any tile and unearth a body.Upgraded: Dig to any tile and unearth 1-3 bodies. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GRAVECRAWL_NAME",
+        "ru_name": "Могильный ползок",
+        "ru_description": "Прокопайте на любую клетку и выкопайте тело.",
+        "ru_upgraded_description": "Прокопайте на любую клетку и выкопайте 1-3 тела.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Gravecrawl",
+        "en_description": "Dig to any tile and unearth a body.",
+        "en_upgraded_description": "Dig to any tile and unearth 1-3 bodies.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Gravecrawl",
         "display_name": "Gravecrawl",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Inflict Sleep 1 on an adjacent unit.Upgraded: Inflict Sleep 1 on a unit in range 4.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HUSH_NAME",
+        "ru_name": "Тише...",
+        "ru_description": "Усыпление 1 на соседа.",
+        "ru_upgraded_description": "Усыпление 1 на юнита в радиусе 4.",
+        "en_name": "Hush",
+        "en_description": "Inflict Sleep 1 on an adjacent unit.",
+        "en_upgraded_description": "Inflict Sleep 1 on a unit in range 4."
+      },
       "manifest": {
         "ability_id": "Hush",
         "display_name": "Hush",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Inflict Leech 3 on all units, except yourself.Upgraded: Inflict Leech 1 on each allied unit and Leech 3 on all other units, except yourself.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LEECHSWARM_NAME",
+        "ru_name": "Рой пиявок",
+        "ru_description": "Наложите эффект «Высасывание Жизни» 3 на всех юнитов, кроме себя.",
+        "ru_upgraded_description": "Наложите эффект «Высасывание Жизни» 1 на каждого союзного юнита и эффект «Высасывание Жизни» 3 на всех остальных юнитов, кроме себя.",
+        "en_name": "Leech Swarm",
+        "en_description": "Inflict Leech 3 on all units, except yourself.",
+        "en_upgraded_description": "Inflict Leech 1 on each allied unit and Leech 3 on all other units, except yourself."
+      },
       "manifest": {
         "ability_id": "LeechSwarm",
         "display_name": "Leech Swarm",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "Inflict Leech 1 on a unit.Upgraded: Inflict Leech 1 and Mana Leech 1 on a unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LEECHES_NAME",
+        "ru_name": "Пиявки",
+        "ru_description": "Наложите эффект «Высасывание Жизни» 1 на юнита.",
+        "ru_upgraded_description": "Наложите эффект «Высасывание Жизни» 1 и «Высасывание Маны» 1 на юнита.",
+        "en_name": "Leeches",
+        "en_description": "Inflict Leech 1 on a unit.",
+        "en_upgraded_description": "Inflict Leech 1 and Mana Leech 1 on a unit."
+      },
       "manifest": {
         "ability_id": "Leeches",
         "display_name": "Leeches",
@@ -682,6 +934,15 @@
       "variant": "normal",
       "description": "Inflict Madness on all enemies.Upgraded: Inflict Madness on all enemies. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MASSPSYCHOSIS_NAME",
+        "ru_name": "Массовый психоз",
+        "ru_description": "Наложите Безумие на всех врагов.",
+        "ru_upgraded_description": "Наложите Безумие на всех врагов.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Mass Psychosis",
+        "en_description": "Inflict Madness on all enemies.",
+        "en_upgraded_description": "Inflict Madness on all enemies.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MassPsychosis",
         "display_name": "Mass Psychosis",
@@ -706,6 +967,15 @@
       "variant": "upgraded",
       "description": "Inflict Madness on all enemies.Upgraded: Inflict Madness on all enemies. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MASSPSYCHOSIS_NAME",
+        "ru_name": "Массовый психоз",
+        "ru_description": "Наложите Безумие на всех врагов.",
+        "ru_upgraded_description": "Наложите Безумие на всех врагов.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Mass Psychosis",
+        "en_description": "Inflict Madness on all enemies.",
+        "en_upgraded_description": "Inflict Madness on all enemies.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "MassPsychosis",
         "display_name": "Mass Psychosis",
@@ -730,6 +1000,15 @@
       "variant": "normal",
       "description": "Resurrect a body to half HP. It becomes a Zombie and joins your team.Upgraded: Resurrect a body to full HP. It becomes a Zombie and joins your team.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REANIMATE_NAME",
+        "ru_name": "Реанимация",
+        "ru_description": "Воскресите тело с половиной ОЗ. Оно станет Зомби вашей команды.",
+        "ru_upgraded_description": "Воскресите тело с полным ОЗ. Оно станет Зомби вашей команды.",
+        "en_name": "Reanimate",
+        "en_description": "Resurrect a body to half HP. It becomes a Zombie and joins your team.",
+        "en_upgraded_description": "Resurrect a body to full HP. It becomes a Zombie and joins your team."
+      },
       "manifest": {
         "ability_id": "Reanimate",
         "display_name": "Reanimate",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "Teleport into a unit with 5 or less health and destroy it.Upgraded: Teleport into a unit with 10 or less health and destroy it. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_REAP_NAME",
+        "ru_name": "Жатва",
+        "ru_description": "Телепортируйтесь в юнита с <=5 ОЗ и уничтожьте его.",
+        "ru_upgraded_description": "Телепортируйтесь в юнита с <=10 ОЗ и уничтожьте его.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Reap",
+        "en_description": "Teleport into a unit with 5 or less health and destroy it.",
+        "en_upgraded_description": "Teleport into a unit with 10 or less health and destroy it.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Reap",
         "display_name": "Reap",
@@ -778,6 +1066,15 @@
       "variant": "upgraded",
       "description": "Teleport into a unit with 5 or less health and destroy it.Upgraded: Teleport into a unit with 10 or less health and destroy it. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_REAP_NAME",
+        "ru_name": "Жатва",
+        "ru_description": "Телепортируйтесь в юнита с <=5 ОЗ и уничтожьте его.",
+        "ru_upgraded_description": "Телепортируйтесь в юнита с <=10 ОЗ и уничтожьте его.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Reap",
+        "en_description": "Teleport into a unit with 5 or less health and destroy it.",
+        "en_upgraded_description": "Teleport into a unit with 10 or less health and destroy it.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Reap",
         "display_name": "Reap",
@@ -802,6 +1099,15 @@
       "variant": "normal",
       "description": "Teleport into a body, destroying it to heal 4 HP, gain +1 Intelligence and +1 Constitution.Upgraded: Teleport into a body, destroying it to heal 4 HP and gain All Stats Up.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_REBIRTH_NAME",
+        "ru_name": "Перерождение",
+        "ru_description": "Телепортируйтесь в тело, уничтожая его: лечение 4, +1 [img:int], +1 [img:con].",
+        "ru_upgraded_description": "Телепортируйтесь в тело, уничтожая его: лечение 4 и Повышение Всех Хар-к.",
+        "en_name": "Rebirth",
+        "en_description": "Teleport into a body, destroying it to heal 4 HP, gain +1 [img:int] and +1 [img:con].",
+        "en_upgraded_description": "Teleport into a body, destroying it to heal 4 HP and gain All Stats Up."
+      },
       "manifest": {
         "ability_id": "Rebirth",
         "display_name": "Rebirth",
@@ -826,6 +1132,15 @@
       "variant": "upgraded",
       "description": "Teleport into a body, destroying it to heal 4 HP, gain +1 Intelligence and +1 Constitution.Upgraded: Teleport into a body, destroying it to heal 4 HP and gain All Stats Up.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_REBIRTH_NAME",
+        "ru_name": "Перерождение",
+        "ru_description": "Телепортируйтесь в тело, уничтожая его: лечение 4, +1 [img:int], +1 [img:con].",
+        "ru_upgraded_description": "Телепортируйтесь в тело, уничтожая его: лечение 4 и Повышение Всех Хар-к.",
+        "en_name": "Rebirth",
+        "en_description": "Teleport into a body, destroying it to heal 4 HP, gain +1 [img:int] and +1 [img:con].",
+        "en_upgraded_description": "Teleport into a body, destroying it to heal 4 HP and gain All Stats Up."
+      },
       "manifest": {
         "ability_id": "Rebirth",
         "display_name": "Rebirth",
@@ -850,6 +1165,15 @@
       "variant": "normal",
       "description": "Teleport into a familiar and destroy it. Refresh your basic attack.Upgraded: Teleport into a familiar and destroy it. Refresh your basic attack and heal 5 HP.",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_REPLACE_NAME",
+        "ru_name": "Замена",
+        "ru_description": "Телепортируйтесь в фамильяра и уничтожьте его. Обновите базовую атаку.",
+        "ru_upgraded_description": "Телепортируйтесь в фамильяра и уничтожьте его. Обновите базовую атаку и исцелите 5.",
+        "en_name": "Replace",
+        "en_description": "Teleport into a familiar and destroy it. Refresh your basic attack.",
+        "en_upgraded_description": "Teleport into a familiar and destroy it. Refresh your basic attack and heal 5 HP."
+      },
       "manifest": {
         "ability_id": "Replace",
         "display_name": "Replace",
@@ -874,6 +1198,15 @@
       "variant": "normal",
       "description": "Teleport in front of an enemy then Knockback each adjacent unit 4 tiles.Upgraded: Teleport in front of an enemy then inflict Knockback 4 and Fear on each adjacent unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SCARE_NAME",
+        "ru_name": "Испуг",
+        "ru_description": "Телепорт к врагу, затем Отбрасывание всех соседей на 4 клетки.",
+        "ru_upgraded_description": "Телепорт к врагу, затем Отбрасывание 4 и Страх всем соседям.",
+        "en_name": "Scare",
+        "en_description": "Teleport in front of an enemy then Knockback each adjacent unit 4 tiles.",
+        "en_upgraded_description": "Teleport in front of an enemy then inflict Knockback 4 and Fear on each adjacent unit."
+      },
       "manifest": {
         "ability_id": "Scare",
         "display_name": "Scare",
@@ -898,6 +1231,15 @@
       "variant": "normal",
       "description": "Spawn a ghost Familiar that fades after its first turn. Castable while you're downed. If you do, spawn a shadow copy of yourself instead. Upgraded: Spawn a ghost Familiar that fades after its second turn. Castable while you're downed. If you do, spawn a shadow copy of yourself instead.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SEANCE_NAME",
+        "ru_name": "Сеанс",
+        "ru_description": "Призовите Призрака, живущего 1 ход.\n[s:.7]Доступно, когда вы вырублены. Тогда призывает Тень-копию себя.[/s]",
+        "ru_upgraded_description": "Призовите Призрака, живущего 2 хода.\n[s:.7]Доступно, когда вы вырублены. Тогда призывает Тень-копию себя.[/s]",
+        "en_name": "Seance",
+        "en_description": "Spawn a ghost Familiar that fades after its first turn.\n[s:.7]Castable while you're downed. If you do, spawn a shadow copy of yourself instead.[/s]",
+        "en_upgraded_description": "Spawn a ghost Familiar that fades after its second turn.\n[s:.7]Castable while you're downed. If you do, spawn a shadow copy of yourself instead.[/s]"
+      },
       "manifest": {
         "ability_id": "Seance",
         "display_name": "Seance",
@@ -922,6 +1264,15 @@
       "variant": "normal",
       "description": "Down yourself.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SEPPUKU_NAME",
+        "ru_name": "Сеппуку",
+        "ru_description": "Вырубитесь.",
+        "ru_upgraded_description": "",
+        "en_name": "Seppuku",
+        "en_description": "Down yourself.",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "Seppuku",
         "display_name": "Seppuku",
@@ -946,6 +1297,15 @@
       "variant": "normal",
       "description": "Inflict Soul Link on units in an area.Upgraded: Inflict Soul Link on units in a large area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SOULLINK_NAME",
+        "ru_name": "Связь душ",
+        "ru_description": "Наложите Связь Душ на юнитов в области.",
+        "ru_upgraded_description": "Наложите Связь Душ на юнитов в большой области.",
+        "en_name": "Soul Link",
+        "en_description": "Inflict Soul Link on units in an area.",
+        "en_upgraded_description": "Inflict Soul Link on units in a large area."
+      },
       "manifest": {
         "ability_id": "SoulLink",
         "display_name": "Soul Link",
@@ -970,6 +1330,15 @@
       "variant": "normal",
       "description": "Summon a skeleton from a body.Upgraded: Summon a skeleton from a body, anywhere. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONBONES_NAME",
+        "ru_name": "Призыв костей",
+        "ru_description": "Призовите скелета из тела.",
+        "ru_upgraded_description": "Призовите скелета из тела где угодно.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Summon Bones",
+        "en_description": "Summon a skeleton from a body.",
+        "en_upgraded_description": "Summon a skeleton from a body, anywhere.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SummonBones",
         "display_name": "Summon Bones",
@@ -994,6 +1363,15 @@
       "variant": "upgraded",
       "description": "Summon a skeleton from a body.Upgraded: Summon a skeleton from a body, anywhere. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONBONES_NAME",
+        "ru_name": "Призыв костей",
+        "ru_description": "Призовите скелета из тела.",
+        "ru_upgraded_description": "Призовите скелета из тела где угодно.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Summon Bones",
+        "en_description": "Summon a skeleton from a body.",
+        "en_upgraded_description": "Summon a skeleton from a body, anywhere.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "SummonBones",
         "display_name": "Summon Bones",
@@ -1018,6 +1396,15 @@
       "variant": "normal",
       "description": "Spawn a shadow copy of yourself that fades after its first turn. (The copy can't cast this ability or give extra turns to units.) Upgraded: Spawn a shadow copy of yourself that fades after its second turn. (The copy can't cast this ability or give extra turns to units.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONSHADE_NAME",
+        "ru_name": "Призыв Тени",
+        "ru_description": "Создайте свою теневую копию, которая исчезнет после первого хода.\r\n[s:.7](Копия не может использовать эту способность или давать доп ходы юнитам.)[/s]",
+        "ru_upgraded_description": "Призовите теневую копию себя. Исчезает после 2-го хода.\n[s:.7](Копия не может использовать это или давать доп. ходы.)[/s]",
+        "en_name": "Summon Shade",
+        "en_description": "Spawn a shadow copy of yourself that fades after its first turn.\n[s:.7](The copy can't cast this ability or give extra turns to units.)[/s]",
+        "en_upgraded_description": "Spawn a shadow copy of yourself that fades after its second turn.\n[s:.7](The copy can't cast this ability or give extra turns to units.)[/s]"
+      },
       "manifest": {
         "ability_id": "SummonShade",
         "display_name": "Summon Shade",
@@ -1042,6 +1429,15 @@
       "variant": "normal",
       "description": "Swap HP with an ally in range 3. Castable while you're downed. If this spell downs you or the ally, neither are injured. Upgraded: Swap HP with any ally. Castable while you're downed. If this spell downs you or the ally, neither are injured.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TRADELIFE_NAME",
+        "ru_name": "Обмен жизнью",
+        "ru_description": "Поменяйтесь ОЗ с союзником в радиусе 3.\n[s:.7]Можно когда вырублены. Если это вырубит кого-то — травмы не будет.[/s]",
+        "ru_upgraded_description": "Поменяйтесь ОЗ с любым союзником.\n[s:.7]Можно когда вырублены. Если это вырубит кого-то — травмы не будет.[/s]",
+        "en_name": "Trade Life",
+        "en_description": "Swap HP with an ally in range 3.\n[s:.7]Castable while you're downed. If this spell downs you or the ally, neither are injured.[/s]",
+        "en_upgraded_description": "Swap HP with any ally.\n[s:.7]Castable while you're downed. If this spell downs you or the ally, neither are injured.[/s]"
+      },
       "manifest": {
         "ability_id": "TradeLife",
         "display_name": "Trade Life",
@@ -1066,6 +1462,15 @@
       "variant": "normal",
       "description": "Dig up a body. It reanimates at the end of the round.Upgraded: Dig up a body. It reanimates at the end of the round. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_UNEARTH_NAME",
+        "ru_name": "Раскопки",
+        "ru_description": "Выкопайте тело. Оно воскреснет в конце раунда.",
+        "ru_upgraded_description": "Выкопайте тело. Оно воскреснет в конце раунда.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Unearth",
+        "en_description": "Dig up a body. It reanimates at the end of the round.",
+        "en_upgraded_description": "Dig up a body. It reanimates at the end of the round.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Unearth",
         "display_name": "Unearth",
@@ -1090,6 +1495,15 @@
       "variant": "upgraded",
       "description": "Dig up a body. It reanimates at the end of the round.Upgraded: Dig up a body. It reanimates at the end of the round. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_UNEARTH_NAME",
+        "ru_name": "Раскопки",
+        "ru_description": "Выкопайте тело. Оно воскреснет в конце раунда.",
+        "ru_upgraded_description": "Выкопайте тело. Оно воскреснет в конце раунда.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Unearth",
+        "en_description": "Dig up a body. It reanimates at the end of the round.",
+        "en_upgraded_description": "Dig up a body. It reanimates at the end of the round.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Unearth",
         "display_name": "Unearth",
@@ -1114,6 +1528,15 @@
       "variant": "normal",
       "description": "Inflict Soul Link on yourself and every enemy.Upgraded: Inflict Soul Link on yourself and every enemy. Gain +2 Constitution and heal 8 HP.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_WEAREONE_NAME",
+        "ru_name": "Мы едины",
+        "ru_description": "Свяжите Душой себя и всех врагов.",
+        "ru_upgraded_description": "Свяжите Душой себя и всех врагов. +2 [img:con] и лечение 8.",
+        "en_name": "We Are One",
+        "en_description": "Inflict Soul Link on yourself and every enemy.",
+        "en_upgraded_description": "Inflict Soul Link on yourself and every enemy. Gain +2 [img:con] and heal 8 HP."
+      },
       "manifest": {
         "ability_id": "WeAreOne",
         "display_name": "We Are One",
@@ -1138,6 +1561,15 @@
       "variant": "normal",
       "description": "Inflict Weakness 5 on a unit.Upgraded: Give a unit Weakness 5 and All Stats Down.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WEAKNESS_NAME",
+        "ru_name": "Слабость",
+        "ru_description": "Наложите Слабость 5 на юнита.",
+        "ru_upgraded_description": "Наложите Слабость 5 и Снижение Всех Хар-к на юнита.",
+        "en_name": "Weakness",
+        "en_description": "Inflict Weakness 5 on a unit.",
+        "en_upgraded_description": "Give a unit Weakness 5 and All Stats Down."
+      },
       "manifest": {
         "ability_id": "Weakness",
         "display_name": "Weakness",
@@ -1162,6 +1594,15 @@
       "variant": "normal",
       "description": "Inflict Fear and Madness on an adjacent unit.Upgraded: Inflict Fear 1 and Madness 2 on a unit in range 4.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WHISPER_NAME",
+        "ru_name": "Шепот",
+        "ru_description": "Наложите Страх и Безумие на соседа.",
+        "ru_upgraded_description": "Наложите Страх 1 и Безумие 2 на юнита в радиусе 4.",
+        "en_name": "Whisper",
+        "en_description": "Inflict Fear and Madness on an adjacent unit.",
+        "en_upgraded_description": "Inflict Fear 1 and Madness 2 on a unit in range 4."
+      },
       "manifest": {
         "ability_id": "Whisper",
         "display_name": "Whisper",

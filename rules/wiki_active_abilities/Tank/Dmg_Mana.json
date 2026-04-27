@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "All units on dirt tiles get tossed to random nearby tiles and take damage when they land.Upgraded: All units on dirt tiles get tossed to random tiles and take damage when they land. Bonus Passive: All of your spells have Earth element.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_AFTERSHOCK_NAME",
+        "ru_name": "Афтершок",
+        "ru_description": "Всех на клетках грязи подкидывает на случайные клетки с уроном.",
+        "ru_upgraded_description": "Всех на клетках грязи подкидывает на случайные клетки с уроном.\nПассивно: Все ваши заклинания имеют элемент Земли.",
+        "en_name": "Aftershock",
+        "en_description": "All units on dirt tiles get tossed to random nearby tiles and take damage when they land.",
+        "en_upgraded_description": "All units on dirt tiles get tossed to random tiles and take damage when they land.\nBonus Passive: All of your spells have Earth element."
+      },
       "manifest": {
         "ability_id": "Aftershock",
         "display_name": "Aftershock",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "A melee attack that Immobilizes.Upgraded: A melee attack that Immobilizes and gives -2 Speed.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BACKBREAKER_NAME",
+        "ru_name": "Ломатель спин",
+        "ru_description": "Ближняя атака: Обездвиживание.",
+        "ru_upgraded_description": "Ближняя атака: Обездвиживание и -2 [img:spd].",
+        "en_name": "Backbreaker",
+        "en_description": "A melee attack that Immobilizes.",
+        "en_upgraded_description": "A melee attack that Immobilizes and gives -2 [img:spd]."
+      },
       "manifest": {
         "ability_id": "BackBreaker",
         "display_name": "Backbreaker",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Knock a unit back 10 tiles.Upgraded: Knock a unit back 10 tiles with Chain Knockback.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BATTERUP_NAME",
+        "ru_name": "Отбивающий",
+        "ru_description": "Отбейте юнита на 10 клеток назад.",
+        "ru_upgraded_description": "Отбейте юнита на 10 клеток назад с Цепным отбрасыванием.",
+        "en_name": "Batter Up",
+        "en_description": "Knock a unit back 10 tiles.",
+        "en_upgraded_description": "Knock a unit back 10 tiles with Chain Knockback."
+      },
       "manifest": {
         "ability_id": "BatterUp",
         "display_name": "Batter Up",
@@ -82,6 +109,15 @@
       "variant": "upgraded",
       "description": "Knock a unit back 10 tiles.Upgraded: Knock a unit back 10 tiles with Chain Knockback.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BATTERUP_NAME",
+        "ru_name": "Отбивающий",
+        "ru_description": "Отбейте юнита на 10 клеток назад.",
+        "ru_upgraded_description": "Отбейте юнита на 10 клеток назад с Цепным отбрасыванием.",
+        "en_name": "Batter Up",
+        "en_description": "Knock a unit back 10 tiles.",
+        "en_upgraded_description": "Knock a unit back 10 tiles with Chain Knockback."
+      },
       "manifest": {
         "ability_id": "BatterUp",
         "display_name": "Batter Up",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Jump to a tile and Immobilize anything you land on.Upgraded: Jump to a tile and Immobilize units in an area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BELLYFLOP_NAME",
+        "ru_name": "Плюх пузом",
+        "ru_description": "Прыгните на клетку и Обездвижьте всё, на что упали.",
+        "ru_upgraded_description": "Прыгните на клетку и Обездвижьте юнитов в области.",
+        "en_name": "Belly Flop",
+        "en_description": "Jump to a tile and Immobilize anything you land on.",
+        "en_upgraded_description": "Jump to a tile and Immobilize units in an area."
+      },
       "manifest": {
         "ability_id": "BellyFlop",
         "display_name": "Belly Flop",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Drop a boulder on an adjacent tile, damaging and displacing units it lands on.Upgraded: Drop a boulder on an adjacent tile, damaging, Stunning and displacing units it lands on.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BIGROCK_NAME",
+        "ru_name": "Валун",
+        "ru_description": "Сбросьте валун на соседнюю клетку. Урон и смещение.",
+        "ru_upgraded_description": "Сбросьте валун на соседнюю клетку. Урон, Оглушение и смещение.",
+        "en_name": "Big Rock",
+        "en_description": "Drop a boulder on an adjacent tile, damaging and displacing units it lands on.",
+        "en_upgraded_description": "Drop a boulder on an adjacent tile, damaging, Stunning and displacing units it lands on."
+      },
       "manifest": {
         "ability_id": "BigRock",
         "display_name": "Big Rock",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Trample over one tile diagonally.Upgraded: Trample over two tiles diagonally with a 10% chance to inflict Stun.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BOWLOVER_NAME",
+        "ru_name": "Сбивание с ног",
+        "ru_description": "Растопчите одну клетку по диагонали.",
+        "ru_upgraded_description": "Растопчите две клетки по диагонали с 10% шансом Оглушения.",
+        "en_name": "Bowl Over",
+        "en_description": "Trample over one tile diagonally.",
+        "en_upgraded_description": "Trample over two tiles diagonally with a 10% chance to inflict Stun."
+      },
       "manifest": {
         "ability_id": "BowlOver",
         "display_name": "Bowl Over",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "A melee attack with Lifesteal.Upgraded: A melee attack with Lifesteal that inflicts Bleed 2 and ignores shield.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHEW_NAME",
+        "ru_name": "Пожуй",
+        "ru_description": "Ближняя атака с Вампиризмом.",
+        "ru_upgraded_description": "Ближняя атака с Вампиризмом, Кровотечением 2 и игнором щита.",
+        "en_name": "Chew",
+        "en_description": "A melee attack with Lifesteal.",
+        "en_upgraded_description": "A melee attack with Lifesteal that inflicts Bleed 2 and ignores shield."
+      },
       "manifest": {
         "ability_id": "Chew",
         "display_name": "Chew",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Heal yourself.Upgraded: Heal yourself more.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CHEWCUD_NAME",
+        "ru_name": "Жвачка",
+        "ru_description": "Исцелите себя.",
+        "ru_upgraded_description": "Исцелите себя сильнее.",
+        "en_name": "Chew Cud",
+        "en_description": "Heal yourself.",
+        "en_upgraded_description": "Heal yourself more."
+      },
       "manifest": {
         "ability_id": "ChewCud",
         "display_name": "Chew Cud",
@@ -226,6 +307,15 @@
       "variant": "upgraded",
       "description": "Heal yourself.Upgraded: Heal yourself more.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CHEWCUD_NAME",
+        "ru_name": "Жвачка",
+        "ru_description": "Исцелите себя.",
+        "ru_upgraded_description": "Исцелите себя сильнее.",
+        "en_name": "Chew Cud",
+        "en_description": "Heal yourself.",
+        "en_upgraded_description": "Heal yourself more."
+      },
       "manifest": {
         "ability_id": "ChewCud",
         "display_name": "Chew Cud",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Deal damage in a cone with a 10% chance to Petrify. Has a chance to spawn rocks. (This spell spawns rocks.) Upgraded: Deal more damage in a cone with a 20% chance to Petrify. Has a chance to spawn rocks. (This spell spawns rocks.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_EARTHQUAKE_NAME",
+        "ru_name": "Землетрясение",
+        "ru_description": "Урон в конусе, 10% шанс Окаменения. Шанс создать камни.\n[s:.7](Это заклинание создает камни.)[/s]",
+        "ru_upgraded_description": "Больше урона в конусе, 20% шанс Окаменения. Шанс создать камни.\n[s:.7](Это заклинание создает камни.)[/s]",
+        "en_name": "Earthquake",
+        "en_description": "Deal damage in a cone with a 10% chance to Petrify. Has a chance to spawn rocks.\n[s:.7](This spell spawns rocks.)[/s]",
+        "en_upgraded_description": "Deal more damage in a cone with a 20% chance to Petrify. Has a chance to spawn rocks.\n[s:.7](This spell spawns rocks.)[/s]"
+      },
       "manifest": {
         "ability_id": "Earthquake",
         "display_name": "Earthquake",
@@ -274,6 +373,15 @@
       "variant": "upgraded",
       "description": "Deal damage in a cone with a 10% chance to Petrify. Has a chance to spawn rocks. (This spell spawns rocks.) Upgraded: Deal more damage in a cone with a 20% chance to Petrify. Has a chance to spawn rocks. (This spell spawns rocks.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_EARTHQUAKE_NAME",
+        "ru_name": "Землетрясение",
+        "ru_description": "Урон в конусе, 10% шанс Окаменения. Шанс создать камни.\n[s:.7](Это заклинание создает камни.)[/s]",
+        "ru_upgraded_description": "Больше урона в конусе, 20% шанс Окаменения. Шанс создать камни.\n[s:.7](Это заклинание создает камни.)[/s]",
+        "en_name": "Earthquake",
+        "en_description": "Deal damage in a cone with a 10% chance to Petrify. Has a chance to spawn rocks.\n[s:.7](This spell spawns rocks.)[/s]",
+        "en_upgraded_description": "Deal more damage in a cone with a 20% chance to Petrify. Has a chance to spawn rocks.\n[s:.7](This spell spawns rocks.)[/s]"
+      },
       "manifest": {
         "ability_id": "Earthquake",
         "display_name": "Earthquake",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "Fling all units in a straight line onto nearby tiles.Upgraded: Fling all units in a straight line onto nearby tiles, dealing more damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FAULTLINE_NAME",
+        "ru_name": "Линия разлома",
+        "ru_description": "Швырните всех юнитов на линии на соседние клетки.",
+        "ru_upgraded_description": "Швырните всех юнитов на линии на соседние клетки (больше урона).",
+        "en_name": "Fault Line",
+        "en_description": "Fling all units in a straight line onto nearby tiles.",
+        "en_upgraded_description": "Fling all units in a straight line onto nearby tiles, dealing more damage."
+      },
       "manifest": {
         "ability_id": "FaultLine",
         "display_name": "Fault Line",
@@ -322,6 +439,15 @@
       "variant": "upgraded",
       "description": "Fling all units in a straight line onto nearby tiles.Upgraded: Fling all units in a straight line onto nearby tiles, dealing more damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FAULTLINE_NAME",
+        "ru_name": "Линия разлома",
+        "ru_description": "Швырните всех юнитов на линии на соседние клетки.",
+        "ru_upgraded_description": "Швырните всех юнитов на линии на соседние клетки (больше урона).",
+        "en_name": "Fault Line",
+        "en_description": "Fling all units in a straight line onto nearby tiles.",
+        "en_upgraded_description": "Fling all units in a straight line onto nearby tiles, dealing more damage."
+      },
       "manifest": {
         "ability_id": "FaultLine",
         "display_name": "Fault Line",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Jump up to 3 tiles away, damage units you land on, then gain -1 Speed. (This spell's mana cost is equal to your Speed. At 0 Speed, this spell is Castable once per turn.) Upgraded: Jump up to 4 tiles away, damage units you land on, then gain -1 Speed. If your Speed is 0, this has increased range and damage. (This spell's mana cost is equal to your Speed. At 0 Speed, this spell is Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FLIPFLOP_NAME",
+        "ru_name": "Шлеп-шлеп",
+        "ru_description": "Прыгните на 3 клетки, урон при посадке, получите -1 [img:spd].\n[s:.7](Цена маны = ваша [img:spd].\nПри 0 [img:spd] можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Прыгните на 4 клетки, урон при посадке, получите -1 [img:spd].\nЕсли [img:spd] = 0, дальность и урон растут.\n[s:.7](Цена маны = ваша [img:spd].)[/s]\nПри 0 [img:spd] можно использовать раз за ход.)[/s]",
+        "en_name": "Flip Flop",
+        "en_description": "Jump up to 3 tiles away, damage units you land on, then gain -1 [img:spd].\n[s:.7](This spell's mana cost is equal to your [img:spd].\nAt 0 [img:spd], this spell is Castable once per turn.)[/s]",
+        "en_upgraded_description": "Jump up to 4 tiles away, damage units you land on, then gain -1 [img:spd].\nIf your [img:spd] is 0, this has increased range and damage.\n[s:.7](This spell's mana cost is equal to your [img:spd].\nAt 0 [img:spd], this spell is Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "FlipFlop",
         "display_name": "Flip Flop",
@@ -370,6 +505,15 @@
       "variant": "upgraded",
       "description": "Jump up to 3 tiles away, damage units you land on, then gain -1 Speed. (This spell's mana cost is equal to your Speed. At 0 Speed, this spell is Castable once per turn.) Upgraded: Jump up to 4 tiles away, damage units you land on, then gain -1 Speed. If your Speed is 0, this has increased range and damage. (This spell's mana cost is equal to your Speed. At 0 Speed, this spell is Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FLIPFLOP_NAME",
+        "ru_name": "Шлеп-шлеп",
+        "ru_description": "Прыгните на 3 клетки, урон при посадке, получите -1 [img:spd].\n[s:.7](Цена маны = ваша [img:spd].\nПри 0 [img:spd] можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Прыгните на 4 клетки, урон при посадке, получите -1 [img:spd].\nЕсли [img:spd] = 0, дальность и урон растут.\n[s:.7](Цена маны = ваша [img:spd].)[/s]\nПри 0 [img:spd] можно использовать раз за ход.)[/s]",
+        "en_name": "Flip Flop",
+        "en_description": "Jump up to 3 tiles away, damage units you land on, then gain -1 [img:spd].\n[s:.7](This spell's mana cost is equal to your [img:spd].\nAt 0 [img:spd], this spell is Castable once per turn.)[/s]",
+        "en_upgraded_description": "Jump up to 4 tiles away, damage units you land on, then gain -1 [img:spd].\nIf your [img:spd] is 0, this has increased range and damage.\n[s:.7](This spell's mana cost is equal to your [img:spd].\nAt 0 [img:spd], this spell is Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "FlipFlop",
         "display_name": "Flip Flop",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Deal damage equal to your Constitution and inflict Stun. Also stuns yourself.Upgraded: Deal damage equal to your Constitution and inflict Stun and Bruise 4. Also stuns yourself.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FULLFORCE_NAME",
+        "ru_name": "Полная сила",
+        "ru_description": "Нанесите урон (равный [img:con]) и Оглушите цель. Оглушает вас тоже.",
+        "ru_upgraded_description": "Нанесите урон (равный [img:con]), Оглушите и наложите Ушиб 4. Оглушает вас.",
+        "en_name": "Full Force",
+        "en_description": "Deal damage equal to your [img:con] and inflict Stun. Also stuns yourself.",
+        "en_upgraded_description": "Deal damage equal to your [img:con] and inflict Stun and Bruise 4. Also stuns yourself."
+      },
       "manifest": {
         "ability_id": "FullForce",
         "display_name": "Full Force",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Dash 3 tiles, damage, inflict Bruise and throw what you hit towards your original tile.Upgraded: Dash 10 tiles, damage, inflict Bruise and throw what you hit towards your original tile.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_GORE_NAME",
+        "ru_name": "Насаживание",
+        "ru_description": "Рывок на 3 клетки, урон, Ушиб и бросок цели обратно на ваше старое место.",
+        "ru_upgraded_description": "Рывок на 10 клеток, урон, Ушиб и бросок цели обратно на ваше старое место.",
+        "en_name": "Gore",
+        "en_description": "Dash 3 tiles, damage, inflict Bruise and throw what you hit towards your original tile.",
+        "en_upgraded_description": "Dash 10 tiles, damage, inflict Bruise and throw what you hit towards your original tile."
+      },
       "manifest": {
         "ability_id": "Gore",
         "display_name": "Gore",
@@ -442,6 +604,15 @@
       "variant": "upgraded",
       "description": "Dash 3 tiles, damage, inflict Bruise and throw what you hit towards your original tile.Upgraded: Dash 10 tiles, damage, inflict Bruise and throw what you hit towards your original tile.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_GORE_NAME",
+        "ru_name": "Насаживание",
+        "ru_description": "Рывок на 3 клетки, урон, Ушиб и бросок цели обратно на ваше старое место.",
+        "ru_upgraded_description": "Рывок на 10 клеток, урон, Ушиб и бросок цели обратно на ваше старое место.",
+        "en_name": "Gore",
+        "en_description": "Dash 3 tiles, damage, inflict Bruise and throw what you hit towards your original tile.",
+        "en_upgraded_description": "Dash 10 tiles, damage, inflict Bruise and throw what you hit towards your original tile."
+      },
       "manifest": {
         "ability_id": "Gore",
         "display_name": "Gore",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "A melee attack that inflicts Stun.Upgraded: A melee attack that inflicts Stun. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HEADBUTT_NAME",
+        "ru_name": "Удар головой",
+        "ru_description": "Ближняя атака, вызывающая Оглушение.",
+        "ru_upgraded_description": "Ближняя атака, вызывающая Оглушение.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Headbutt",
+        "en_description": "A melee attack that inflicts Stun.",
+        "en_upgraded_description": "A melee attack that inflicts Stun.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "HeadButt",
         "display_name": "Headbutt",
@@ -490,6 +670,15 @@
       "variant": "upgraded",
       "description": "A melee attack that inflicts Stun.Upgraded: A melee attack that inflicts Stun. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HEADBUTT_NAME",
+        "ru_name": "Удар головой",
+        "ru_description": "Ближняя атака, вызывающая Оглушение.",
+        "ru_upgraded_description": "Ближняя атака, вызывающая Оглушение.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Headbutt",
+        "en_description": "A melee attack that inflicts Stun.",
+        "en_upgraded_description": "A melee attack that inflicts Stun.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "HeadButt",
         "display_name": "Headbutt",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Dash forward one tile and attack with Knockback. This spell uses up your movement action.Upgraded: Dash forward one tile, attack with Knockback and inflict Stun. This spell uses up your movement action.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_LUNGE_NAME",
+        "ru_name": "Выпад",
+        "ru_description": "Рывок на 1 клетку и атака с Отбрасыванием.\nТратит действие движения.",
+        "ru_upgraded_description": "Рывок на 1 клетку, атака с Отбрасыванием и Оглушением.\nТратит действие движения.",
+        "en_name": "Lunge",
+        "en_description": "Dash forward one tile and attack with Knockback.\nThis spell uses up your movement action.",
+        "en_upgraded_description": "Dash forward one tile, attack with Knockback and inflict Stun.\nThis spell uses up your movement action."
+      },
       "manifest": {
         "ability_id": "Lunge",
         "display_name": "Lunge",
@@ -538,6 +736,15 @@
       "variant": "normal",
       "description": "Trample over 2 tiles in a straight line destroying any inanimate objects.Upgraded: Trample over 4 tiles in a straight line destroying any inanimate objects and inflicting Bruise 1 on units you trample.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PUSHTHROUGH_NAME",
+        "ru_name": "Продавливание",
+        "ru_description": "Растопчите 2 клетки по прямой, ломая объекты.",
+        "ru_upgraded_description": "Растопчите 4 клетки по прямой, ломая объекты и накладывая Ушиб 1.",
+        "en_name": "Push Through",
+        "en_description": "Trample over 2 tiles in a straight line destroying any inanimate objects.",
+        "en_upgraded_description": "Trample over 4 tiles in a straight line destroying any inanimate objects and inflicting Bruise 1 on units you trample."
+      },
       "manifest": {
         "ability_id": "PushThrough",
         "display_name": "Push Through",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Damage and Petrify a unit within 3 tiles of you.Upgraded: Damage and Petrify a unit within 5 tiles of you. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ROCKTOMB_NAME",
+        "ru_name": "Каменная гробница",
+        "ru_description": "Урон и Окаменение юниту в радиусе 3.",
+        "ru_upgraded_description": "Урон и Окаменение юниту в радиусе 5.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Rock Tomb",
+        "en_description": "Damage and Petrify a unit within 3 tiles of you.",
+        "en_upgraded_description": "Damage and Petrify a unit within 5 tiles of you.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "RockTomb",
         "display_name": "Rock Tomb",
@@ -586,6 +802,15 @@
       "variant": "upgraded",
       "description": "Damage and Petrify a unit within 3 tiles of you.Upgraded: Damage and Petrify a unit within 5 tiles of you. (This spell costs less.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ROCKTOMB_NAME",
+        "ru_name": "Каменная гробница",
+        "ru_description": "Урон и Окаменение юниту в радиусе 3.",
+        "ru_upgraded_description": "Урон и Окаменение юниту в радиусе 5.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Rock Tomb",
+        "en_description": "Damage and Petrify a unit within 3 tiles of you.",
+        "en_upgraded_description": "Damage and Petrify a unit within 5 tiles of you.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "RockTomb",
         "display_name": "Rock Tomb",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Throw a rock with a 10% chance to Stun.Upgraded: Throw a rock with a 33% chance to Stun.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ROCKTOSS_NAME",
+        "ru_name": "Бросок камня",
+        "ru_description": "Бросьте камень (10% шанс Оглушения).",
+        "ru_upgraded_description": "Бросьте камень (33% шанс Оглушения).",
+        "en_name": "Rock Toss",
+        "en_description": "Throw a rock with a 10% chance to Stun.",
+        "en_upgraded_description": "Throw a rock with a 33% chance to Stun."
+      },
       "manifest": {
         "ability_id": "RockToss",
         "display_name": "Rock Toss",
@@ -634,6 +868,15 @@
       "variant": "upgraded",
       "description": "Throw a rock with a 10% chance to Stun.Upgraded: Throw a rock with a 33% chance to Stun.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ROCKTOSS_NAME",
+        "ru_name": "Бросок камня",
+        "ru_description": "Бросьте камень (10% шанс Оглушения).",
+        "ru_upgraded_description": "Бросьте камень (33% шанс Оглушения).",
+        "en_name": "Rock Toss",
+        "en_description": "Throw a rock with a 10% chance to Stun.",
+        "en_upgraded_description": "Throw a rock with a 33% chance to Stun."
+      },
       "manifest": {
         "ability_id": "RockToss",
         "display_name": "Rock Toss",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "Grab a unit in front of you and slam it into the tile behind you.Upgraded: Grab a unit in front of you and slam it into the tile behind you, inflicting Bruise 3 and Immobile.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUPLEX_NAME",
+        "ru_name": "Суплекс",
+        "ru_description": "Схватите юнита спереди и впечатайте в клетку сзади.",
+        "ru_upgraded_description": "Схватите юнита спереди и впечатайте сзади (Ушиб 3, Обездвиживание).",
+        "en_name": "Suplex",
+        "en_description": "Grab a unit in front of you and slam it into the tile behind you.",
+        "en_upgraded_description": "Grab a unit in front of you and slam it into the tile behind you, inflicting Bruise 3 and Immobile."
+      },
       "manifest": {
         "ability_id": "Suplex",
         "display_name": "Suplex",
@@ -682,6 +934,15 @@
       "variant": "normal",
       "description": "Heal 15 HP and gain -2 Speed. (Castable once per battle.) Upgraded: Heal 15 HP, gain -2 Speed and +5 Health Regeneration. (Castable once per battle.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SUPPER_NAME",
+        "ru_name": "Ужин",
+        "ru_description": "Исцелите 15 ОЗ и получите -2 [img:spd].\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Исцелите 15 ОЗ, получите -2 [img:spd] и +5 Регенерации Здоровья.\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Supper",
+        "en_description": "Heal 15 HP and gain -2 [img:spd].\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Heal 15 HP, gain -2 [img:spd] and +5 Health Regeneration.\n[s:.7](Castable once per battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "Supper",
         "display_name": "Supper",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Hit all adjacent units, then spawn a rock.Upgraded: Hit all adjacent and diagonally adjacent units, then spawn a rock.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TANKTANTRUM_NAME",
+        "ru_name": "Истерика",
+        "ru_description": "Ударьте всех соседей, затем создайте камень.",
+        "ru_upgraded_description": "Ударьте всех соседей (и по диагонали), затем создайте камень.",
+        "en_name": "Tantrum",
+        "en_description": "Hit all adjacent units, then spawn a rock.",
+        "en_upgraded_description": "Hit all adjacent and diagonally adjacent units, then spawn a rock."
+      },
       "manifest": {
         "ability_id": "TankTantrum",
         "display_name": "Tantrum",
@@ -730,6 +1000,15 @@
       "variant": "upgraded",
       "description": "Hit all adjacent units, then spawn a rock.Upgraded: Hit all adjacent and diagonally adjacent units, then spawn a rock.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TANKTANTRUM_NAME",
+        "ru_name": "Истерика",
+        "ru_description": "Ударьте всех соседей, затем создайте камень.",
+        "ru_upgraded_description": "Ударьте всех соседей (и по диагонали), затем создайте камень.",
+        "en_name": "Tantrum",
+        "en_description": "Hit all adjacent units, then spawn a rock.",
+        "en_upgraded_description": "Hit all adjacent and diagonally adjacent units, then spawn a rock."
+      },
       "manifest": {
         "ability_id": "TankTantrum",
         "display_name": "Tantrum",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "Jump to a tile adjacent to an ally. Damage and displace any units you land on.Upgraded: Jump to a tile adjacent to an ally. Damage and displace any units you land on, or are adjacent to.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TOTHERESCUE_NAME",
+        "ru_name": "На помощь!",
+        "ru_description": "Прыгните к союзнику. Урон и смещение тем, на кого упали.",
+        "ru_upgraded_description": "Прыгните к союзнику. Урон и смещение тем, на кого упали или кто рядом.",
+        "en_name": "To the Rescue!",
+        "en_description": "Jump to a tile adjacent to an ally. Damage and displace any units you land on.",
+        "en_upgraded_description": "Jump to a tile adjacent to an ally. Damage and displace any units you land on, or are adjacent to."
+      },
       "manifest": {
         "ability_id": "ToTheRescue",
         "display_name": "To the Rescue!",
@@ -778,6 +1066,15 @@
       "variant": "upgraded",
       "description": "Jump to a tile adjacent to an ally. Damage and displace any units you land on.Upgraded: Jump to a tile adjacent to an ally. Damage and displace any units you land on, or are adjacent to.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TOTHERESCUE_NAME",
+        "ru_name": "На помощь!",
+        "ru_description": "Прыгните к союзнику. Урон и смещение тем, на кого упали.",
+        "ru_upgraded_description": "Прыгните к союзнику. Урон и смещение тем, на кого упали или кто рядом.",
+        "en_name": "To the Rescue!",
+        "en_description": "Jump to a tile adjacent to an ally. Damage and displace any units you land on.",
+        "en_upgraded_description": "Jump to a tile adjacent to an ally. Damage and displace any units you land on, or are adjacent to."
+      },
       "manifest": {
         "ability_id": "ToTheRescue",
         "display_name": "To the Rescue!",
@@ -802,6 +1099,15 @@
       "variant": "normal",
       "description": "Throw an adjacent unit to an open tile.Upgraded: Throw an adjacent unit to a tile, dealing bonus damage if it collides with something.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TOSS_NAME",
+        "ru_name": "Бросок",
+        "ru_description": "Бросьте соседа на свободную клетку.",
+        "ru_upgraded_description": "Бросьте соседа на клетку. Бонус урон при столкновении.",
+        "en_name": "Toss",
+        "en_description": "Throw an adjacent unit to an open tile.",
+        "en_upgraded_description": "Throw an adjacent unit to a tile, dealing bonus damage if it collides with something."
+      },
       "manifest": {
         "ability_id": "Toss",
         "display_name": "Toss",
@@ -826,6 +1132,15 @@
       "variant": "normal",
       "description": "Throw your crippled friend to any tile. (Castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TOSS_NAME",
+        "ru_name": "Бросок",
+        "ru_description": "Бросьте соседа на свободную клетку.",
+        "ru_upgraded_description": "Бросьте соседа на клетку. Бонус урон при столкновении.",
+        "en_name": "Toss",
+        "en_description": "Throw an adjacent unit to an open tile.",
+        "en_upgraded_description": "Throw an adjacent unit to a tile, dealing bonus damage if it collides with something."
+      },
       "manifest": {
         "ability_id": "Toss",
         "display_name": "Toss",
@@ -850,6 +1165,15 @@
       "variant": "normal",
       "description": "Throw an adjacent unit to an open tile. (Castable once per turn.) Upgraded: Throw an adjacent unit to a tile, dealing bonus damage if it collides with something. (Castable once per turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TOSS_NAME",
+        "ru_name": "Бросок",
+        "ru_description": "Бросьте соседа на свободную клетку.",
+        "ru_upgraded_description": "Бросьте соседа на клетку. Бонус урон при столкновении.",
+        "en_name": "Toss",
+        "en_description": "Throw an adjacent unit to an open tile.",
+        "en_upgraded_description": "Throw an adjacent unit to a tile, dealing bonus damage if it collides with something."
+      },
       "manifest": {
         "ability_id": "Toss",
         "display_name": "Toss",
@@ -874,6 +1198,15 @@
       "variant": "normal",
       "description": "Dash forward with Trample, then spawn a rock.Upgraded: Dash forward with Trample, then spawn a rock. Deals more damage and has a 20% chance to inflict Stun.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "EABILITY_TRAMPLEDASH_NAME",
+        "ru_name": "Растаптывающий Рывок",
+        "ru_description": "",
+        "ru_upgraded_description": "",
+        "en_name": "Trample Dash",
+        "en_description": "",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "TrampleDash",
         "display_name": "",
@@ -898,6 +1231,15 @@
       "variant": "upgraded",
       "description": "Dash forward with Trample, then spawn a rock.Upgraded: Dash forward with Trample, then spawn a rock. Deals more damage and has a 20% chance to inflict Stun.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "EABILITY_TRAMPLEDASH_NAME",
+        "ru_name": "Растаптывающий Рывок",
+        "ru_description": "",
+        "ru_upgraded_description": "",
+        "en_name": "Trample Dash",
+        "en_description": "",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "TrampleDash",
         "display_name": "",

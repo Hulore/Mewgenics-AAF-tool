@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Gain +4 Brace until the next time you move.Upgraded: Gain +4 Brace until the next time you move. Bonus Passive: Knockback immunity.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ANCHOR_NAME",
+        "ru_name": "Якорь",
+        "ru_description": "Получите +4 Стойкости до следующего движения.",
+        "ru_upgraded_description": "Получите +4 Стойкости до следующего движения.\nПассивно: Иммунитет к отбрасыванию.",
+        "en_name": "Anchor",
+        "en_description": "Gain +4 Brace until the next time you move.",
+        "en_upgraded_description": "Gain +4 Brace until the next time you move.\nBonus Passive: Knockback immunity."
+      },
       "manifest": {
         "ability_id": "Anchor",
         "display_name": "Anchor",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Knock back units in an area near you 2 tiles.Upgraded: Knock back units in a larger area near you 10 tiles.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GASSYASSBLAST_NAME",
+        "ru_name": "Пердежный залп",
+        "ru_description": "Отбросьте всех соседних юнитов.",
+        "ru_upgraded_description": "Отбросьте всех соседних юнитов на 3 клетки и наложите Яд 1.",
+        "en_name": "Ass Blast",
+        "en_description": "Knock back all adjacent units.",
+        "en_upgraded_description": "Knock back all adjacent units 3 tiles and inflict Poison 1."
+      },
       "manifest": {
         "ability_id": "Gassy_AssBlast",
         "display_name": "Ass Blast",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Give a unit +5 Thorns until your next turn. (You can target yourself.) Upgraded: Give a unit or object +5 Thorns until your next turn. (You can target yourself.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BARBEDWIRE_NAME",
+        "ru_name": "Колючая проволока",
+        "ru_description": "Дайте юниту +5 Шипов до вашего след. хода.\n[s:.7](Можно на себя.)[/s]",
+        "ru_upgraded_description": "Дайте юниту или объекту +5 Шипов до вашего след. хода.\n[s:.7](Можно на себя.)[/s]",
+        "en_name": "Barbed Wire",
+        "en_description": "Give a unit +5 Thorns until your next turn.\n[s:.7](You can target yourself.)[/s]",
+        "en_upgraded_description": "Give a unit or object +5 Thorns until your next turn.\n[s:.7](You can target yourself.)[/s]"
+      },
       "manifest": {
         "ability_id": "BarbedWire",
         "display_name": "Barbed Wire",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "The next time an ally is targeted by an enemy, switch places with that ally.Upgraded: The next time an ally is targeted by an enemy, switch places with that ally and gain +4 .",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BODYGUARD_NAME",
+        "ru_name": "Телохранитель",
+        "ru_description": "Когда союзника атакуют в следующий раз, вы поменяетесь с ним местами.",
+        "ru_upgraded_description": "Когда союзника атакуют в следующий раз, вы поменяетесь с ним местами и получите +4 [img:shield].",
+        "en_name": "Body Guard",
+        "en_description": "The next time an ally is targeted by an enemy, switch places with that ally.",
+        "en_upgraded_description": "The next time an ally is targeted by an enemy, switch places with that ally and gain +4 [img:shield]."
+      },
       "manifest": {
         "ability_id": "BodyGuard",
         "display_name": "Body Guard",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Knock 2 enemies in front of you together.Upgraded: Knock 2 enemies in front of you together with +2 knockback damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CLAP_NAME",
+        "ru_name": "Хлопок",
+        "ru_description": "Столкните лбами 2 врагов перед собой.",
+        "ru_upgraded_description": "Столкните лбами 2 врагов перед собой (+2 урона от отбрасывания).",
+        "en_name": "Clap",
+        "en_description": "Knock 2 enemies in front of you together.",
+        "en_upgraded_description": "Knock 2 enemies in front of you together with +2 knockback damage."
+      },
       "manifest": {
         "ability_id": "Clap",
         "display_name": "Clap",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Turn a tile into a dirt tile, smashing any inanimate objects into rocks.Upgraded: Turn 3 tiles into dirt tiles, smashing any inanimate objects into rocks.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DEMOLISH_NAME",
+        "ru_name": "Снос",
+        "ru_description": "Превратите клетку в грязь, разбивая объекты в камни.",
+        "ru_upgraded_description": "Превратите 3 клетки в грязь, разбивая объекты в камни.",
+        "en_name": "Demolish",
+        "en_description": "Turn a tile into a dirt tile, smashing any inanimate objects into rocks.",
+        "en_upgraded_description": "Turn 3 tiles into dirt tiles, smashing any inanimate objects into rocks."
+      },
       "manifest": {
         "ability_id": "Demolish",
         "display_name": "Demolish",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Eat a rock to gain +5 and +1 Strength.Upgraded: Eat a rock to gain +5 and All Stats Up.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_EATROCK_NAME",
+        "ru_name": "Есть камни",
+        "ru_description": "Съешьте камень: +5 [img:shield] и +1 [img:str].",
+        "ru_upgraded_description": "Съешьте камень: +5 [img:shield] и Повышение Всех Хар-к.",
+        "en_name": "Eat Rock",
+        "en_description": "Eat a rock to gain +5 [img:shield] and +1 [img:str].",
+        "en_upgraded_description": "Eat a rock to gain +5 [img:shield] and All Stats Up."
+      },
       "manifest": {
         "ability_id": "EatRock",
         "display_name": "Eat Rock",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Pull all units in a wide line towards the center of that line. This has a 10% chance to Petrify.Upgraded: Pull all units in a wide line towards the center of that line. This has a 15% chance to Petrify and spawns rocks.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FISSURE_NAME",
+        "ru_name": "Расселина",
+        "ru_description": "Стяните юнитов в широкой линии к центру. 10% шанс Окаменения.",
+        "ru_upgraded_description": "Стяните юнитов в широкой линии к центру. 15% шанс Окаменения, создает камни.",
+        "en_name": "Fissure",
+        "en_description": "Pull all units in a wide line towards the center of that line. This has a 10% chance to Petrify.",
+        "en_upgraded_description": "Pull all units in a wide line towards the center of that line. This has a 15% chance to Petrify and spawns rocks."
+      },
       "manifest": {
         "ability_id": "Fissure",
         "display_name": "Fissure",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Toss a unit to an empty tile within 3 tiles of you, then your allies attack it if they can.Upgraded: Toss a unit to an empty tile within 6 tiles of you and inflict Bruise, then your allies attack it if they can.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_GANGUP_NAME",
+        "ru_name": "Навалиться",
+        "ru_description": "Бросьте юнита на пустую клетку в радиусе 3, ваши союзники атакуют его.",
+        "ru_upgraded_description": "Бросьте юнита на пустую клетку в радиусе 6 (Ушиб), ваши союзники атакуют его.",
+        "en_name": "Gang Up",
+        "en_description": "Toss a unit to an empty tile within 3 tiles of you, then your allies attack it if they can.",
+        "en_upgraded_description": "Toss a unit to an empty tile within 6 tiles of you and inflict Bruise, then your allies attack it if they can."
+      },
       "manifest": {
         "ability_id": "GangUp",
         "display_name": "Gang Up",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Force an enemy to move towards you.Upgraded: Force an enemy anywhere to move towards you. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TANKMOCK_NAME",
+        "ru_name": "Провокация",
+        "ru_description": "Заставьте врага идти к вам.",
+        "ru_upgraded_description": "Заставьте врага где угодно идти к вам.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Goad",
+        "en_description": "Force an enemy to move towards you.",
+        "en_upgraded_description": "Force an enemy anywhere to move towards you.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DrawAttention",
         "display_name": "Goad",
@@ -250,6 +340,15 @@
       "variant": "upgraded",
       "description": "Force an enemy to move towards you.Upgraded: Force an enemy anywhere to move towards you. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TANKMOCK_NAME",
+        "ru_name": "Провокация",
+        "ru_description": "Заставьте врага идти к вам.",
+        "ru_upgraded_description": "Заставьте врага где угодно идти к вам.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Goad",
+        "en_description": "Force an enemy to move towards you.",
+        "en_upgraded_description": "Force an enemy anywhere to move towards you.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DrawAttention",
         "display_name": "Goad",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "Inflict Petrify on all units in your line of sight.Upgraded: Inflict Petrify on all units in your line of sight. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MEDUSA_NAME",
+        "ru_name": "Взгляд Горгоны",
+        "ru_description": "Окаменение всем видимым юнитам.",
+        "ru_upgraded_description": "Окаменение всем видимым юнитам.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Gorgon Glare",
+        "en_description": "Inflict Petrify on all units in your line of sight.",
+        "en_upgraded_description": "Inflict Petrify on all units in your line of sight.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Medusa",
         "display_name": "Gorgon Glare",
@@ -298,6 +406,15 @@
       "variant": "upgraded",
       "description": "Inflict Petrify on all units in your line of sight.Upgraded: Inflict Petrify on all units in your line of sight. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MEDUSA_NAME",
+        "ru_name": "Взгляд Горгоны",
+        "ru_description": "Окаменение всем видимым юнитам.",
+        "ru_upgraded_description": "Окаменение всем видимым юнитам.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Gorgon Glare",
+        "en_description": "Inflict Petrify on all units in your line of sight.",
+        "en_upgraded_description": "Inflict Petrify on all units in your line of sight.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Medusa",
         "display_name": "Gorgon Glare",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Pull a unit within 2 tiles towards you, knocking it into you.Upgraded: Pull a unit within 4 tiles towards you, knocking it into you and inflicting Grappled.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GRAB_NAME",
+        "ru_name": "Захват",
+        "ru_description": "Притяните к себе юнита в радиусе 4 клеток, столкнув его с собой.",
+        "ru_upgraded_description": "Притяните к себе юнита в радиусе 4 клеток, столкнув его с собой и наложив на него эффект «Захват».",
+        "en_name": "Grab",
+        "en_description": "Pull a unit within 2 tiles towards you, knocking it into you.",
+        "en_upgraded_description": "Pull a unit within 4 tiles towards you, knocking it into you and inflicting Grappled."
+      },
       "manifest": {
         "ability_id": "BearHug",
         "display_name": "Grab",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Inflict Fear on an adjacent unit.Upgraded: Inflict Fear on a unit up to five tiles away.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_INTIMIDATE_NAME",
+        "ru_name": "Устрашение",
+        "ru_description": "Наложите Страх на соседа.",
+        "ru_upgraded_description": "Наложите Страх на юнита в радиусе 5.",
+        "en_name": "Intimidate",
+        "en_description": "Inflict Fear on an adjacent unit.",
+        "en_upgraded_description": "Inflict Fear on a unit up to five tiles away."
+      },
       "manifest": {
         "ability_id": "Intimidate",
         "display_name": "Intimidate",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Dash forward up to 3 tiles, gain +4 then damage and knock back adjacent units.Upgraded: Dash forward up to 10 tiles, gain +4 then damage and knock back adjacent units with +5 knockback damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_IRONHEAD_NAME",
+        "ru_name": "Железная голова",
+        "ru_description": "Рывок до 3 клеток, +4 [img:shield], урон и отбрасывание соседей.",
+        "ru_upgraded_description": "Рывок до 10 клеток, +4 [img:shield], урон и отбрасывание (+5 урона от толчка) соседей.",
+        "en_name": "Iron Head",
+        "en_description": "Dash forward up to 3 tiles, gain +4 [img:shield] then damage and knock back adjacent units.",
+        "en_upgraded_description": "Dash forward up to 10 tiles, gain +4 [img:shield] then damage and knock back adjacent units with +5 knockback damage."
+      },
       "manifest": {
         "ability_id": "IronHead",
         "display_name": "Iron Head",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Push a unit back 1 tile. (This spell costs 0 mana the first time it's used each turn.) Upgraded: Push a unit back 10 tiles. (This spell costs 0 mana the first time it's used each turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_NUDGE_NAME",
+        "ru_name": "Тычок",
+        "ru_description": "Толкните юнита на 1 клетку.\n[s:.7](Бесплатно первый раз за ход.)[/s]",
+        "ru_upgraded_description": "Толкните юнита на 10 клеток.\n[s:.7](Бесплатно первый раз за ход.)[/s]",
+        "en_name": "Nudge",
+        "en_description": "Push a unit back 1 tile.\r\n[s:.7](This spell costs 0 mana the first time it's used each turn.)[/s]",
+        "en_upgraded_description": "Push a unit back 10 tiles.\r\n[s:.7](This spell costs 0 mana the first time it's used each turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "Nudge",
         "display_name": "Nudge",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Gain +3 Thorns. This spell uses up your movement action.Upgraded: Gain +3 Thorns and +1 Brace. This spell uses up your movement action.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PINCUSHION_NAME",
+        "ru_name": "Игольница",
+        "ru_description": "Получите +3 Шипов.\nТратит действие движения.",
+        "ru_upgraded_description": "Получите +3 Шипов и +1 Стойкость.\nТратит действие движения.",
+        "en_name": "Pincushion",
+        "en_description": "Gain +3 Thorns. \nThis spell uses up your movement action.",
+        "en_upgraded_description": "Gain +3 Thorns and +1 Brace.\nThis spell uses up your movement action."
+      },
       "manifest": {
         "ability_id": "Spur",
         "display_name": "Pincushion",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Gain +5 and -1 Speed. If you are at 0 Speed, instead cleanse all of your debuffs. (Castable once per turn.) Upgraded: Gain +6 and -1 Speed. If you are at 0 Speed, instead cleanse all of your debuffs and gain All Stats Up. (Castable once per turn.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PLANTFEET_NAME",
+        "ru_name": "Упереться ногами",
+        "ru_description": "Получите +5 [img:shield] и -1 [img:spd].\nЕсли у вас 0 [img:spd], вместо этого снимите все дебаффы.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Получите +6 [img:shield] и -1 [img:spd].\nЕсли у вас 0 [img:spd], снимите дебаффы и получите Повышение Всех Хар-к.\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Plant Your Feet",
+        "en_description": "Gain +5 [img:shield] and -1 [img:spd]. \nIf you are at 0 [img:spd], instead cleanse all of your debuffs.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Gain +6 [img:shield] and -1 [img:spd].\nIf you are at 0 [img:spd], instead cleanse all of your debuffs and gain All Stats Up.\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "PlantFeet",
         "display_name": "Plant Your Feet",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Shoot a rock forward.Upgraded: Shoot a rock forward with Chain Knockback. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ROCKBLAST_NAME",
+        "ru_name": "Каменный выстрел",
+        "ru_description": "Выстрелите камнем вперед.",
+        "ru_upgraded_description": "Выстрелите камнем вперед с Цепным отбрасыванием.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Rock Blast",
+        "en_description": "Shoot a rock forward.",
+        "en_upgraded_description": "Shoot a rock forward with Chain Knockback.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "RockBlast",
         "display_name": "Rock Blast",
@@ -490,6 +670,15 @@
       "variant": "upgraded",
       "description": "Shoot a rock forward.Upgraded: Shoot a rock forward with Chain Knockback. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ROCKBLAST_NAME",
+        "ru_name": "Каменный выстрел",
+        "ru_description": "Выстрелите камнем вперед.",
+        "ru_upgraded_description": "Выстрелите камнем вперед с Цепным отбрасыванием.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Rock Blast",
+        "en_description": "Shoot a rock forward.",
+        "en_upgraded_description": "Shoot a rock forward with Chain Knockback.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "RockBlast",
         "display_name": "Rock Blast",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Jump on top of a rock, exploding it. Deal damage and knock back all adjacent units.Upgraded: Jump on top of a rock, exploding it. Deal high damage and knock back all adjacent units.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ROCKCRUSHER_NAME",
+        "ru_name": "Камнедробилка",
+        "ru_description": "Прыгните на камень, взрывая его. Урон и отбрасывание всем соседям.",
+        "ru_upgraded_description": "Прыгните на камень, взрывая его. Высокий урон и отбрасывание всем соседям.",
+        "en_name": "Rock Crusher",
+        "en_description": "Jump on top of a rock, exploding it. Deal damage and knock back all adjacent units.",
+        "en_upgraded_description": "Jump on top of a rock, exploding it. Deal high damage and knock back all adjacent units."
+      },
       "manifest": {
         "ability_id": "RockCrusher",
         "display_name": "Rock Crusher",
@@ -538,6 +736,15 @@
       "variant": "normal",
       "description": "Levitate all rocks. They will automatically fling towards enemies that end movement in line with them.Upgraded: Levitate all rocks. They will automatically fling towards enemies that end movement in line with them. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "EABILITY_ROCKSONG_NAME",
+        "ru_name": "Песнь камня",
+        "ru_description": "",
+        "ru_upgraded_description": "",
+        "en_name": "Rock Song",
+        "en_description": "",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "RockSong",
         "display_name": "",
@@ -562,6 +769,15 @@
       "variant": "upgraded",
       "description": "Levitate all rocks. They will automatically fling towards enemies that end movement in line with them.Upgraded: Levitate all rocks. They will automatically fling towards enemies that end movement in line with them. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "EABILITY_ROCKSONG_NAME",
+        "ru_name": "Песнь камня",
+        "ru_description": "",
+        "ru_upgraded_description": "",
+        "en_name": "Rock Song",
+        "en_description": "",
+        "en_upgraded_description": ""
+      },
       "manifest": {
         "ability_id": "RockSong",
         "display_name": "",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Start a sandstorm. (Sandstorm deals 1 damage to all units at the end of round.) If a sandstorm was already active, increase its damage by 1.Upgraded: Start a sandstorm. (Sandstorm deals 1 damage to all units at the end of round.) If a sandstorm was already active, increase its damage by 1. (This spell costs 0 mana the first time you cast it each turn.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SANDSTORM_NAME",
+        "ru_name": "Песчаная буря",
+        "ru_description": "Начните Бурю.\n(Буря наносит 1 урон всем в конце раунда.)\nЕсли уже активна, увеличивает урон на 1.",
+        "ru_upgraded_description": "Начните Бурю.\n(Буря наносит 1 урон всем в конце раунда.)\nЕсли уже активна, увеличивает урон на 1.\n[s:.7](Бесплатно первый раз за ход.)[/s]",
+        "en_name": "Sandstorm",
+        "en_description": "Start a sandstorm.\n(Sandstorm deals 1 damage to all units at the end of round.)\nIf a sandstorm was already active, increase its damage by 1.",
+        "en_upgraded_description": "Start a sandstorm.\n(Sandstorm deals 1 damage to all units at the end of round.)\nIf a sandstorm was already active, increase its damage by 1.\n[s:.7](This spell costs 0 mana the first time you cast it each turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "Sandstorm",
         "display_name": "Sandstorm",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Gain +99 Brace until your next turn, then disable this spell until you take a total of 25 damage.Upgraded: Gain +99 Brace until your next turn, then disable this spell until you take a total of 15 damage.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_STEELSKIN_NAME",
+        "ru_name": "Стальная кожа",
+        "ru_description": "Получите +99 Стойкости до след. хода. Отключается, пока вы не получите 25 урона.",
+        "ru_upgraded_description": "Получите +99 Стойкости до след. хода. Отключается, пока вы не получите 15 урона.",
+        "en_name": "Steelskin",
+        "en_description": "Gain +99 Brace until your next turn, then disable this spell until you take a total of 25 damage.",
+        "en_upgraded_description": "Gain +99 Brace until your next turn, then disable this spell until you take a total of 15 damage."
+      },
       "manifest": {
         "ability_id": "SteelSkin",
         "display_name": "Steelskin",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Inflict Petrify on the first unit in a line.Upgraded: Inflict Petrify and Knockback on the first unit in a line. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STONEBREATH_NAME",
+        "ru_name": "Каменное дыхание",
+        "ru_description": "Окаменение первому юниту на линии.",
+        "ru_upgraded_description": "Окаменение и Отбрасывание первому юниту на линии.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Stone Breath",
+        "en_description": "Inflict Petrify on the first unit in a line.",
+        "en_upgraded_description": "Inflict Petrify and Knockback on the first unit in a line.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "StoneGaze",
         "display_name": "Stone Breath",
@@ -658,6 +901,15 @@
       "variant": "upgraded",
       "description": "Inflict Petrify on the first unit in a line.Upgraded: Inflict Petrify and Knockback on the first unit in a line. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STONEBREATH_NAME",
+        "ru_name": "Каменное дыхание",
+        "ru_description": "Окаменение первому юниту на линии.",
+        "ru_upgraded_description": "Окаменение и Отбрасывание первому юниту на линии.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Stone Breath",
+        "en_description": "Inflict Petrify on the first unit in a line.",
+        "en_upgraded_description": "Inflict Petrify and Knockback on the first unit in a line.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "StoneGaze",
         "display_name": "Stone Breath",
@@ -682,6 +934,15 @@
       "variant": "normal",
       "description": "Swap positions with any ally.Upgraded: Swap positions with any unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TANKSWAP_NAME",
+        "ru_name": "Обмен",
+        "ru_description": "Поменяйтесь местами с союзником.",
+        "ru_upgraded_description": "Поменяйтесь местами с любым юнитом.",
+        "en_name": "Swap",
+        "en_description": "Swap positions with any ally.",
+        "en_upgraded_description": "Swap positions with any unit."
+      },
       "manifest": {
         "ability_id": "TankSwap",
         "display_name": "Swap",
@@ -706,6 +967,15 @@
       "variant": "upgraded",
       "description": "Swap positions with any ally.Upgraded: Swap positions with any unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TANKSWAP_NAME",
+        "ru_name": "Обмен",
+        "ru_description": "Поменяйтесь местами с союзником.",
+        "ru_upgraded_description": "Поменяйтесь местами с любым юнитом.",
+        "en_name": "Swap",
+        "en_description": "Swap positions with any ally.",
+        "en_upgraded_description": "Swap positions with any unit."
+      },
       "manifest": {
         "ability_id": "TankSwap",
         "display_name": "Swap",
@@ -730,6 +1000,15 @@
       "variant": "normal",
       "description": "Gain +1 knockback damage and +1 knockback range until the end of the turn.Upgraded: Gain +1 Constitution. Gain +1 knockback damage and +1 knockback range until the end of the turn.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_THICKEN_NAME",
+        "ru_name": "Уплотнение",
+        "ru_description": "Получите +1 урон от отбрасывания и +1 дальность отбрасывания до конца хода.",
+        "ru_upgraded_description": "Получите +1 [img:con].\nПолучите +1 урон от отбрасывания и +1 дальность отбрасывания до конца хода.",
+        "en_name": "Thicken",
+        "en_description": "Gain +1 knockback damage and +1 knockback range until the end of the turn.",
+        "en_upgraded_description": "Gain +1 [img:con].\nGain +1 knockback damage and +1 knockback range until the end of the turn."
+      },
       "manifest": {
         "ability_id": "Thicken",
         "display_name": "Thicken",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "Give +3 to a unit or spawn a scrap pickup on an empty tile.Upgraded: Give +3 to units in an area and spawn scrap pickups on the empty tiles in that area.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THROWSCRAP_NAME",
+        "ru_name": "Бросок лома",
+        "ru_description": "Дайте +3 [img:shield] юниту или создайте лом на пустой клетке.",
+        "ru_upgraded_description": "Дайте +3 [img:shield] юнитам в области и создайте лом на пустых клетках там.",
+        "en_name": "Throw Scrap",
+        "en_description": "Give +3 [img:shield] to a unit or spawn a scrap pickup on an empty tile.",
+        "en_upgraded_description": "Give +3 [img:shield] to units in an area and spawn scrap pickups on the empty tiles in that area."
+      },
       "manifest": {
         "ability_id": "ThrowShield",
         "display_name": "Throw Scrap",

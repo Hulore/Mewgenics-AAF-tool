@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Move toward the closest enemy. The dumber you are, the farther you move.Upgraded: Move toward the closest enemy. The dumber you are, the farther you move. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DUMBMOVE_NAME",
+        "ru_name": "1D Шахматы",
+        "ru_description": "Идите к ближайшему врагу. Чем вы тупее, тем дальше идете.",
+        "ru_upgraded_description": "Идите к ближайшему врагу. Чем вы тупее, тем дальше идете.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "1D Chess",
+        "en_description": "Move toward the closest enemy. The dumber you are, the farther you move.",
+        "en_upgraded_description": "Move toward the closest enemy. The dumber you are, the farther you move.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DumbMove",
         "display_name": "1D Chess",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "Move toward the closest enemy. The dumber you are, the farther you move.Upgraded: Move toward the closest enemy. The dumber you are, the farther you move. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DUMBMOVE_NAME",
+        "ru_name": "1D Шахматы",
+        "ru_description": "Идите к ближайшему врагу. Чем вы тупее, тем дальше идете.",
+        "ru_upgraded_description": "Идите к ближайшему врагу. Чем вы тупее, тем дальше идете.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "1D Chess",
+        "en_description": "Move toward the closest enemy. The dumber you are, the farther you move.",
+        "en_upgraded_description": "Move toward the closest enemy. The dumber you are, the farther you move.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "DumbMove",
         "display_name": "1D Chess",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Gain +5 Strength and Bruise 5. This ability becomes Berserker Dash.Upgraded: Gain +7 Strength and Bruise 3. This ability becomes Berserker Dash+.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BERSERK_NAME",
+        "ru_name": "Берсерк",
+        "ru_description": "Получите +5 [img:str] и Ушиб 5. Способность станет Рывком Берсерка.",
+        "ru_upgraded_description": "Получите +7 [img:str] и Ушиб 3. Способность станет Рывком Берсерка+.",
+        "en_name": "Berserk",
+        "en_description": "Gain +5 [img:str] and Bruise 5. This ability becomes Berserker Dash.",
+        "en_upgraded_description": "Gain +7 [img:str] and Bruise 3. This ability becomes Berserker Dash+."
+      },
       "manifest": {
         "ability_id": "Berserk",
         "display_name": "Berserk",
@@ -82,6 +109,15 @@
       "variant": "normal",
       "description": "Drop to 1 HP. Damage you deal to bleeding units has Lifesteal. This spell becomes Lacerate.Upgraded: Drop to 1 HP. Damage you deal to bleeding units has Lifesteal. This spell becomes Lacerate+. (This spell costs 0 mana.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BLOODZERK_NAME",
+        "ru_name": "Кровавый зерк",
+        "ru_description": "Опустите ОЗ до 1.\nУрон по кровоточащим имеет Вампиризм.\nСпособность меняется на Рваную Рану.",
+        "ru_upgraded_description": "Опустите ОЗ до 1.\nУрон по кровоточащим имеет Вампиризм.\nСпособность меняется на Рваную Рану+.\n[s:.7](Стоит 0 маны.)[/s]",
+        "en_name": "Bloodzerk",
+        "en_description": "Drop to 1 HP.\nDamage you deal to bleeding units has Lifesteal.\nThis spell becomes Lacerate.",
+        "en_upgraded_description": "Drop to 1 HP.\nDamage you deal to bleeding units has Lifesteal.\nThis spell becomes Lacerate+.\n[s:.7](This spell costs 0 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "Bloodzerk",
         "display_name": "Bloodzerk",
@@ -106,6 +142,15 @@
       "variant": "upgraded",
       "description": "Drop to 1 HP. Damage you deal to bleeding units has Lifesteal. This spell becomes Lacerate.Upgraded: Drop to 1 HP. Damage you deal to bleeding units has Lifesteal. This spell becomes Lacerate+. (This spell costs 0 mana.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BLOODZERK_NAME",
+        "ru_name": "Кровавый зерк",
+        "ru_description": "Опустите ОЗ до 1.\nУрон по кровоточащим имеет Вампиризм.\nСпособность меняется на Рваную Рану.",
+        "ru_upgraded_description": "Опустите ОЗ до 1.\nУрон по кровоточащим имеет Вампиризм.\nСпособность меняется на Рваную Рану+.\n[s:.7](Стоит 0 маны.)[/s]",
+        "en_name": "Bloodzerk",
+        "en_description": "Drop to 1 HP.\nDamage you deal to bleeding units has Lifesteal.\nThis spell becomes Lacerate.",
+        "en_upgraded_description": "Drop to 1 HP.\nDamage you deal to bleeding units has Lifesteal.\nThis spell becomes Lacerate+.\n[s:.7](This spell costs 0 mana.)[/s]"
+      },
       "manifest": {
         "ability_id": "Bloodzerk",
         "display_name": "Bloodzerk",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Take an extra turn. You have Madness 1 and Confusion 1 on that turn. (This spell can't be cast on extra turns.) Upgraded: Take an extra turn. You have Madness 1 on that turn. (This spell can't be cast on extra turns.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHAOSRAMPAGE_NAME",
+        "ru_name": "Буйство Хаоса",
+        "ru_description": "Дополнительный ход. В этот ход у вас Безумие 1 и Замешательство 1.\n[s:.7](Нельзя в доп. ходы.)[/s]",
+        "ru_upgraded_description": "Дополнительный ход. В этот ход у вас Безумие 1.\n[s:.7](Нельзя в доп. ходы.)[/s]",
+        "en_name": "Chaos Rampage",
+        "en_description": "Take an extra turn. You have Madness 1 and Confusion 1 on that turn.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]",
+        "en_upgraded_description": "Take an extra turn. You have Madness 1 on that turn.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]"
+      },
       "manifest": {
         "ability_id": "ChaosRampage",
         "display_name": "Chaos Rampage",
@@ -154,6 +208,15 @@
       "variant": "normal",
       "description": "Move in front of an enemy.Upgraded: Move in front of an enemy. Your next action has +30% critical chance. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CONFRONT_NAME",
+        "ru_name": "Конфронтация",
+        "ru_description": "Встаньте перед лицом врага.",
+        "ru_upgraded_description": "Встаньте перед лицом врага.\nВаше след. действие имеет +30% шанс крита.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Confront",
+        "en_description": "Move in front of an enemy.",
+        "en_upgraded_description": "Move in front of an enemy.\nYour next action has +30% critical chance.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Confront",
         "display_name": "Confront",
@@ -178,6 +241,15 @@
       "variant": "upgraded",
       "description": "Move in front of an enemy.Upgraded: Move in front of an enemy. Your next action has +30% critical chance. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CONFRONT_NAME",
+        "ru_name": "Конфронтация",
+        "ru_description": "Встаньте перед лицом врага.",
+        "ru_upgraded_description": "Встаньте перед лицом врага.\nВаше след. действие имеет +30% шанс крита.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Confront",
+        "en_description": "Move in front of an enemy.",
+        "en_upgraded_description": "Move in front of an enemy.\nYour next action has +30% critical chance.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Confront",
         "display_name": "Confront",
@@ -202,6 +274,15 @@
       "variant": "normal",
       "description": "Counterattack all attacks until your next turn.Upgraded: Preemptively counterattack all attacks until your next turn.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COUNTER_NAME",
+        "ru_name": "Контрудар",
+        "ru_description": "Контратакуйте все атаки до вашего след. хода.",
+        "ru_upgraded_description": "Превентивно контратакуйте все атаки до вашего след. хода.",
+        "en_name": "Counter",
+        "en_description": "Counterattack all attacks until your next turn.",
+        "en_upgraded_description": "Preemptively counterattack all attacks until your next turn."
+      },
       "manifest": {
         "ability_id": "Counter",
         "display_name": "Counter",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Give a unit +4 Strength and Confusion 2.Upgraded: Give a unit on any tile +4 Strength and Confusion 2.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ENRAGE_NAME",
+        "ru_name": "Бешенство",
+        "ru_description": "Дайте юниту +4 [img:str] и Замешательство 2.",
+        "ru_upgraded_description": "Дайте любому юниту +4 [img:str] и Замешательство 2.",
+        "en_name": "Enrage",
+        "en_description": "Give a unit +4 [img:str] and Confusion 2.",
+        "en_upgraded_description": "Give a unit on any tile +4 [img:str] and Confusion 2."
+      },
       "manifest": {
         "ability_id": "Enrage",
         "display_name": "Enrage",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Refresh your basic attack and movement action. Fall asleep at the end of the turn.Upgraded: Refresh your basic attack and movement action. Gain +2 Strength and +4 Speed until end of turn. Fall asleep at the end of the turn.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_EXERT_NAME",
+        "ru_name": "Напряжение",
+        "ru_description": "Обновите атаку и движение.\nУсните в конце хода.",
+        "ru_upgraded_description": "Обновите атаку и движение.\nПолучите +2 [img:str] и +4 [img:spd] до конца хода.\nУсните в конце хода.",
+        "en_name": "Exert",
+        "en_description": "Refresh your basic attack and movement action.\r\nFall asleep at the end of the turn.",
+        "en_upgraded_description": "Refresh your basic attack and movement action.\nGain +2 [img:str] and +4 [img:spd] until end of turn.\nFall asleep at the end of the turn."
+      },
       "manifest": {
         "ability_id": "Exert",
         "display_name": "Exert",
@@ -274,6 +373,15 @@
       "variant": "upgraded",
       "description": "Refresh your basic attack and movement action. Fall asleep at the end of the turn.Upgraded: Refresh your basic attack and movement action. Gain +2 Strength and +4 Speed until end of turn. Fall asleep at the end of the turn.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_EXERT_NAME",
+        "ru_name": "Напряжение",
+        "ru_description": "Обновите атаку и движение.\nУсните в конце хода.",
+        "ru_upgraded_description": "Обновите атаку и движение.\nПолучите +2 [img:str] и +4 [img:spd] до конца хода.\nУсните в конце хода.",
+        "en_name": "Exert",
+        "en_description": "Refresh your basic attack and movement action.\r\nFall asleep at the end of the turn.",
+        "en_upgraded_description": "Refresh your basic attack and movement action.\nGain +2 [img:str] and +4 [img:spd] until end of turn.\nFall asleep at the end of the turn."
+      },
       "manifest": {
         "ability_id": "Exert",
         "display_name": "Exert",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "You and each allied cat gain +2 and knockback adjacent units 2 tiles.Upgraded: You and each allied cat gain +2 , +2 temporary Brace, and knockback adjacent units 2 tiles.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FLEXOFF_NAME",
+        "ru_name": "Группа мышц",
+        "ru_description": "Вы и все союзные кошки получаете +2 [img:shield] и отбрасываете соседних юнитов на 2 клетки.",
+        "ru_upgraded_description": "Вы и все союзные кошки получаете +2 [img:shield], +2 врем. Стойкость и отбрасываете соседних юнитов на 2 клетки.",
+        "en_name": "Flex Off",
+        "en_description": "You and each allied cat gain +2 [img:shield] and knockback adjacent units 2 tiles.",
+        "en_upgraded_description": "You and each allied cat gain +2 [img:shield], +2 temporary Brace, and knockback adjacent units 2 tiles."
+      },
       "manifest": {
         "ability_id": "TeamFlex",
         "display_name": "Flex Off",
@@ -322,6 +439,15 @@
       "variant": "normal",
       "description": "Immobilize an adjacent unit for as long as you remain adjacent.Upgraded: Immobilize an adjacent unit for as long as you remain adjacent. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GRAPPLE_NAME",
+        "ru_name": "Захват",
+        "ru_description": "Обездвижьте соседа, пока вы стоите рядом.",
+        "ru_upgraded_description": "Обездвижьте соседа, пока вы стоите рядом.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Grapple",
+        "en_description": "Immobilize an adjacent unit for as long as you remain adjacent.",
+        "en_upgraded_description": "Immobilize an adjacent unit for as long as you remain adjacent.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Grapple",
         "display_name": "Grapple",
@@ -346,6 +472,15 @@
       "variant": "upgraded",
       "description": "Immobilize an adjacent unit for as long as you remain adjacent.Upgraded: Immobilize an adjacent unit for as long as you remain adjacent. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GRAPPLE_NAME",
+        "ru_name": "Захват",
+        "ru_description": "Обездвижьте соседа, пока вы стоите рядом.",
+        "ru_upgraded_description": "Обездвижьте соседа, пока вы стоите рядом.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Grapple",
+        "en_description": "Immobilize an adjacent unit for as long as you remain adjacent.",
+        "en_upgraded_description": "Immobilize an adjacent unit for as long as you remain adjacent.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Grapple",
         "display_name": "Grapple",
@@ -370,6 +505,15 @@
       "variant": "normal",
       "description": "Jump to a tile and pull enemies toward you when you land.Upgraded: Jump to a tile and pull enemies toward you when you land. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GRAVITYSLAM_NAME",
+        "ru_name": "Грави-слэм",
+        "ru_description": "Прыгните на клетку и притяните врагов при посадке.",
+        "ru_upgraded_description": "Прыгните на клетку и притяните врагов при посадке.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Gravity Slam",
+        "en_description": "Jump to a tile and pull enemies toward you when you land.",
+        "en_upgraded_description": "Jump to a tile and pull enemies toward you when you land.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "GravitySlam",
         "display_name": "Gravity Slam",
@@ -394,6 +538,15 @@
       "variant": "upgraded",
       "description": "Jump to a tile and pull enemies toward you when you land.Upgraded: Jump to a tile and pull enemies toward you when you land. (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GRAVITYSLAM_NAME",
+        "ru_name": "Грави-слэм",
+        "ru_description": "Прыгните на клетку и притяните врагов при посадке.",
+        "ru_upgraded_description": "Прыгните на клетку и притяните врагов при посадке.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Gravity Slam",
+        "en_description": "Jump to a tile and pull enemies toward you when you land.",
+        "en_upgraded_description": "Jump to a tile and pull enemies toward you when you land.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "GravitySlam",
         "display_name": "Gravity Slam",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "You and each allied cat give adjacent units +1 Damage and +2 Speed.Upgraded: You and each allied cat give adjacent units +1 Damage and +2 Speed. (This spell is free the first time it's cast each battle.)",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HUDDLE_NAME",
+        "ru_name": "Куча-мала",
+        "ru_description": "Вы и союзники даете соседям +1 Урон и +2 [img:spd].",
+        "ru_upgraded_description": "Вы и союзники даете соседям +1 Урон и +2 [img:spd].\n[s:.7](Бесплатно первый раз за бой.)[/s]",
+        "en_name": "Huddle",
+        "en_description": "You and each allied cat give adjacent units +1 Damage and +2 [img:spd].",
+        "en_upgraded_description": "You and each allied cat give adjacent units +1 Damage and +2 [img:spd].\n[s:.7](This spell is free the first time it's cast each battle.)[/s]"
+      },
       "manifest": {
         "ability_id": "Huddle",
         "display_name": "Huddle",
@@ -442,6 +604,15 @@
       "variant": "normal",
       "description": "Suck all units in a straight line 1 tile toward you.Upgraded: Suck all units in a straight line 3 tiles toward you.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_INHALE_NAME",
+        "ru_name": "Вдох",
+        "ru_description": "Всосите всех на линии на 1 клетку к себе.",
+        "ru_upgraded_description": "Всосите всех на линии на 3 клетки к себе.",
+        "en_name": "Inhale",
+        "en_description": "Suck all units in a straight line 1 tile toward you.",
+        "en_upgraded_description": "Suck all units in a straight line 3 tiles toward you."
+      },
       "manifest": {
         "ability_id": "Inhale",
         "display_name": "Inhale",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Your movement range is doubled until the end of the turn.Upgraded: Your movement range is doubled and you get +4 Strength until the end of the turn.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_JUICED_NAME",
+        "ru_name": "На стероидах",
+        "ru_description": "Дальность движения удвоена до конца хода.",
+        "ru_upgraded_description": "Дальность движения удвоена и вы получаете +4 [img:str] до конца хода.",
+        "en_name": "Juiced",
+        "en_description": "Your movement range is doubled until the end of the turn.",
+        "en_upgraded_description": "Your movement range is doubled and you get +4 [img:str] until the end of the turn."
+      },
       "manifest": {
         "ability_id": "Juiced",
         "display_name": "Juiced",
@@ -490,6 +670,15 @@
       "variant": "normal",
       "description": "Force a unit to move towards you. RELOAD: Kill something.Upgraded: Force a unit to move towards you. RELOAD: Kill something. Bonus Ability: Slap.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MOCK_NAME",
+        "ru_name": "Издевка",
+        "ru_description": "Заставьте юнита идти к вам.\nПЕРЕЗАРЯДКА: Убейте кого-то.",
+        "ru_upgraded_description": "Заставьте юнита идти к вам.\nПЕРЕЗАРЯДКА: Убейте кого-то.\nБонус: Пощечина.",
+        "en_name": "Mock",
+        "en_description": "Force a unit to move towards you.\nRELOAD: Kill something.",
+        "en_upgraded_description": "Force a unit to move towards you.\nRELOAD: Kill something.\nBonus Ability: Slap."
+      },
       "manifest": {
         "ability_id": "Challenge",
         "display_name": "Mock",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "Lose all of your mana and gain that much Strength until the end of the turn.Upgraded: Lose all of your mana and gain that much Strength, Dexterity, and Speed until the end of the turn.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MOREANGRIER_NAME",
+        "ru_name": "БОЛЬШЕ ЗЛЕЕ!!!",
+        "ru_description": "Потеряйте всю ману. Получите столько же [img:str] до конца хода.",
+        "ru_upgraded_description": "Потеряйте всю ману. Получите столько же [img:str], [img:dex] и [img:spd] до конца хода.",
+        "en_name": "MORE ANGRIER!!!",
+        "en_description": "Lose all of your mana and gain that much [img:str] until the end of the turn.",
+        "en_upgraded_description": "Lose all of your mana and gain that much [img:str], [img:dex], and [img:spd] until the end of the turn."
+      },
       "manifest": {
         "ability_id": "LastThought",
         "display_name": "MORE ANGRIER!!!",
@@ -538,6 +736,15 @@
       "variant": "normal",
       "description": "Knockback a unit 2 tiles.Upgraded: Turn an adjacent unit around and knock it back 2 tiles.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PUSH_NAME",
+        "ru_name": "Толчок",
+        "ru_description": "Отбросьте юнита на 2 клетки.",
+        "ru_upgraded_description": "Разверните соседа спиной и отбросьте на 2 клетки.",
+        "en_name": "Push",
+        "en_description": "Knockback a unit 2 tiles.",
+        "en_upgraded_description": "Turn an adjacent unit around and knock it back 2 tiles."
+      },
       "manifest": {
         "ability_id": "Push",
         "display_name": "Push",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Move up to two tiles.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REPOSITION_NAME",
+        "ru_name": "Смена позиции",
+        "ru_description": "Сдвиньтесь на 2 клетки.",
+        "ru_upgraded_description": "Сдвиньтесь на 2 клетки.",
+        "en_name": "Reposition",
+        "en_description": "Move up to two tiles.",
+        "en_upgraded_description": "Move up to two tiles."
+      },
       "manifest": {
         "ability_id": "Reposition",
         "display_name": "Reposition",
@@ -586,6 +802,15 @@
       "variant": "upgraded",
       "description": "Move up to two tiles.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REPOSITION_NAME",
+        "ru_name": "Смена позиции",
+        "ru_description": "Сдвиньтесь на 2 клетки.",
+        "ru_upgraded_description": "Сдвиньтесь на 2 клетки.",
+        "en_name": "Reposition",
+        "en_description": "Move up to two tiles.",
+        "en_upgraded_description": "Move up to two tiles."
+      },
       "manifest": {
         "ability_id": "Reposition",
         "display_name": "Reposition",
@@ -610,6 +835,15 @@
       "variant": "normal",
       "description": "Inflict Sleep on an adjacent unit.Upgraded: Inflict Sleep and Bruise on an adjacent unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SLEEPERHOLD_NAME",
+        "ru_name": "Удушающий",
+        "ru_description": "Усыпите соседа.",
+        "ru_upgraded_description": "Усыпите соседа и наложите Ушиб.",
+        "en_name": "Sleeper Hold",
+        "en_description": "Inflict Sleep on an adjacent unit.",
+        "en_upgraded_description": "Inflict Sleep and Bruise on an adjacent unit."
+      },
       "manifest": {
         "ability_id": "SleeperHold",
         "display_name": "Sleeper Hold",
@@ -634,6 +868,15 @@
       "variant": "upgraded",
       "description": "Inflict Sleep on an adjacent unit.Upgraded: Inflict Sleep and Bruise on an adjacent unit.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SLEEPERHOLD_NAME",
+        "ru_name": "Удушающий",
+        "ru_description": "Усыпите соседа.",
+        "ru_upgraded_description": "Усыпите соседа и наложите Ушиб.",
+        "en_name": "Sleeper Hold",
+        "en_description": "Inflict Sleep on an adjacent unit.",
+        "en_upgraded_description": "Inflict Sleep and Bruise on an adjacent unit."
+      },
       "manifest": {
         "ability_id": "SleeperHold",
         "display_name": "Sleeper Hold",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "Equip a temporary Stick! (Your weapon slot must be empty.) Upgraded: Equip a temporary Stick! Maybe even a big one? (Your weapon slot must be empty.) (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STICK_NAME",
+        "ru_name": "Палочка!",
+        "ru_description": "Возьмите временную Палку!\n[s:.7](Слот оружия должен быть пуст.)[/s]",
+        "ru_upgraded_description": "Возьмите временную Палку! Может даже большую?\n[s:.7](Слот оружия должен быть пуст.)[/s]\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Stick!",
+        "en_description": "Equip a temporary Stick!\r\n[s:.7](Your weapon slot must be empty.)[/s]",
+        "en_upgraded_description": "Equip a temporary Stick! Maybe even a big one?\r\n[s:.7](Your weapon slot must be empty.)[/s]\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Stick",
         "display_name": "Stick!",
@@ -682,6 +934,15 @@
       "variant": "upgraded",
       "description": "Equip a temporary Stick! (Your weapon slot must be empty.) Upgraded: Equip a temporary Stick! Maybe even a big one? (Your weapon slot must be empty.) (This spell costs less.)",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STICK_NAME",
+        "ru_name": "Палочка!",
+        "ru_description": "Возьмите временную Палку!\n[s:.7](Слот оружия должен быть пуст.)[/s]",
+        "ru_upgraded_description": "Возьмите временную Палку! Может даже большую?\n[s:.7](Слот оружия должен быть пуст.)[/s]\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Stick!",
+        "en_description": "Equip a temporary Stick!\r\n[s:.7](Your weapon slot must be empty.)[/s]",
+        "en_upgraded_description": "Equip a temporary Stick! Maybe even a big one?\r\n[s:.7](Your weapon slot must be empty.)[/s]\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Stick",
         "display_name": "Stick!",
@@ -706,6 +967,15 @@
       "variant": "normal",
       "description": "Your Intelligence becomes 0. You can attack an extra time each turn for the rest of the battle. This ability becomes MORE ANGRIER!!!Upgraded: Your Intelligence becomes 0. You can attack an extra time each turn for the rest of the battle. This ability becomes MORE ANGRIER!!!+",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_STOOPZERK_NAME",
+        "ru_name": "Тупо-зерк",
+        "ru_description": "Ваш [img:int] становится 0. До конца боя вы можете атаковать лишний раз за ход.\nСпособность меняется на БОЛЬШЕ ЗЛЕЕ!!!",
+        "ru_upgraded_description": "Ваш [img:int] становится 0. До конца боя вы можете атаковать лишний раз за ход.\nСпособность меняется на БОЛЬШЕ ЗЛЕЕ!!!+",
+        "en_name": "Stoopzerk",
+        "en_description": "Your [img:int] becomes 0. You can attack an extra time each turn for the rest of the battle.\nThis ability becomes MORE ANGRIER!!!",
+        "en_upgraded_description": "Your [img:int] becomes 0. You can attack an extra time each turn for the rest of the battle.\nThis ability becomes MORE ANGRIER!!!+"
+      },
       "manifest": {
         "ability_id": "Stoopzerk",
         "display_name": "Stoopzerk",
@@ -730,6 +1000,15 @@
       "variant": "upgraded",
       "description": "Your Intelligence becomes 0. You can attack an extra time each turn for the rest of the battle. This ability becomes MORE ANGRIER!!!Upgraded: Your Intelligence becomes 0. You can attack an extra time each turn for the rest of the battle. This ability becomes MORE ANGRIER!!!+",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_STOOPZERK_NAME",
+        "ru_name": "Тупо-зерк",
+        "ru_description": "Ваш [img:int] становится 0. До конца боя вы можете атаковать лишний раз за ход.\nСпособность меняется на БОЛЬШЕ ЗЛЕЕ!!!",
+        "ru_upgraded_description": "Ваш [img:int] становится 0. До конца боя вы можете атаковать лишний раз за ход.\nСпособность меняется на БОЛЬШЕ ЗЛЕЕ!!!+",
+        "en_name": "Stoopzerk",
+        "en_description": "Your [img:int] becomes 0. You can attack an extra time each turn for the rest of the battle.\nThis ability becomes MORE ANGRIER!!!",
+        "en_upgraded_description": "Your [img:int] becomes 0. You can attack an extra time each turn for the rest of the battle.\nThis ability becomes MORE ANGRIER!!!+"
+      },
       "manifest": {
         "ability_id": "Stoopzerk",
         "display_name": "Stoopzerk",
@@ -754,6 +1033,15 @@
       "variant": "normal",
       "description": "The next time an enemy moves through an adjacent tile, cancel its movement and attack it.Upgraded: The next time an enemy moves through an adjacent tile, cancel its movement and attack it. Bonus Passive: While it's not your turn, your basic attack inflicts Bruise 2.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SUCKERPUNCH_NAME",
+        "ru_name": "Подлый удар",
+        "ru_description": "Когда враг пройдет мимо вас, прервите его движение и атакуйте.",
+        "ru_upgraded_description": "Когда враг пройдет мимо вас, прервите его движение и атакуйте.\nПассивно: Вне вашего хода базовая атака дает Ушиб 2.",
+        "en_name": "Sucker Punch",
+        "en_description": "The next time an enemy moves through an adjacent tile, cancel its movement and attack it.",
+        "en_upgraded_description": "The next time an enemy moves through an adjacent tile, cancel its movement and attack it.\nBonus Passive: While it's not your turn, your basic attack inflicts Bruise 2."
+      },
       "manifest": {
         "ability_id": "SuckerPunch",
         "display_name": "Sucker Punch",
@@ -778,6 +1066,15 @@
       "variant": "normal",
       "description": "All enemies within 3 tiles move toward you.Upgraded: All enemies within 5 tiles move toward you.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TAUNT_NAME",
+        "ru_name": "Насмешка!",
+        "ru_description": "Все враги в радиусе 3 идут к вам.",
+        "ru_upgraded_description": "Все враги в радиусе 5 идут к вам.",
+        "en_name": "Taunt!",
+        "en_description": "All enemies within 3 tiles move toward you.",
+        "en_upgraded_description": "All enemies within 5 tiles move toward you."
+      },
       "manifest": {
         "ability_id": "FighterTaunt",
         "display_name": "Taunt!",
@@ -802,6 +1099,15 @@
       "variant": "upgraded",
       "description": "All enemies within 3 tiles move toward you.Upgraded: All enemies within 5 tiles move toward you.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TAUNT_NAME",
+        "ru_name": "Насмешка!",
+        "ru_description": "Все враги в радиусе 3 идут к вам.",
+        "ru_upgraded_description": "Все враги в радиусе 5 идут к вам.",
+        "en_name": "Taunt!",
+        "en_description": "All enemies within 3 tiles move toward you.",
+        "en_upgraded_description": "All enemies within 5 tiles move toward you."
+      },
       "manifest": {
         "ability_id": "FighterTaunt",
         "display_name": "Taunt!",
@@ -826,6 +1132,15 @@
       "variant": "normal",
       "description": "Move one tile diagonally.Upgraded: Move two tiles diagonally.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TUMBLE_NAME",
+        "ru_name": "Кувырок",
+        "ru_description": "Переместитесь на 1 клетку по диагонали.",
+        "ru_upgraded_description": "Переместитесь на 2 клетки по диагонали.",
+        "en_name": "Tumble",
+        "en_description": "Move one tile diagonally.",
+        "en_upgraded_description": "Move two tiles diagonally."
+      },
       "manifest": {
         "ability_id": "Tumble",
         "display_name": "Tumble",
@@ -850,6 +1165,15 @@
       "variant": "normal",
       "description": "Your movement action becomes a dash attack. This ability becomes Reposition.Upgraded: Your movement action becomes a dash attack. Restore all your mana. This ability becomes Reposition+.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ZOOMZERK_NAME",
+        "ru_name": "Зум-зерк",
+        "ru_description": "Ваше движение превращается в рывок-атаку.\nСпособность меняется на Смену Позиции.",
+        "ru_upgraded_description": "Ваше движение превращается в рывок-атаку. Восстановите всю ману.\nСпособность меняется на Смену Позиции+.",
+        "en_name": "Zoomzerk",
+        "en_description": "Your movement action becomes a dash attack.\nThis ability becomes Reposition.",
+        "en_upgraded_description": "Your movement action becomes a dash attack. Restore all your mana.\nThis ability becomes Reposition+."
+      },
       "manifest": {
         "ability_id": "Zoomzerk",
         "display_name": "Zoomzerk",

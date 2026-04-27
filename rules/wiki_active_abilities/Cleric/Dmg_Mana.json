@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Heal a unit and remove its debuffs. That unit gets +1 to a random stat and becomes the Alpha. If there is an Alpha, this spell has infinite range and must target it.Upgraded: Heal or revive a unit and remove its debuffs. That unit gets +1 to 3 random stats and becomes the Alpha. If there is an Alpha, this spell has infinite range and must target it.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_ADOUBMENT_NAME",
+        "ru_name": "Посвящение",
+        "ru_description": "Исцелите юнита и снимите дебаффы. Он получает +1 к случ. хар-ке и становится Альфой.\nЕсли Альфа уже есть, заклинание бьет через всю карту и только в него.",
+        "ru_upgraded_description": "Исцелите/воскресите юнита и снимите дебаффы. Он получает +1 к 3 случ. хар-кам и становится Альфой.\nЕсли Альфа уже есть, заклинание бьет через всю карту и только в него.",
+        "en_name": "Adoubment",
+        "en_description": "Heal a unit and remove its debuffs. That unit gets +1 to a random stat and becomes the Alpha.\nIf there is an Alpha, this spell has infinite range and must target it.",
+        "en_upgraded_description": "Heal or revive a unit and remove its debuffs. That unit gets +1 to 3 random stats and becomes the Alpha.\nIf there is an Alpha, this spell has infinite range and must target it."
+      },
       "manifest": {
         "ability_id": "Adoubement",
         "display_name": "Adoubment",
@@ -34,6 +43,15 @@
       "variant": "upgraded",
       "description": "Heal a unit and remove its debuffs. That unit gets +1 to a random stat and becomes the Alpha. If there is an Alpha, this spell has infinite range and must target it.Upgraded: Heal or revive a unit and remove its debuffs. That unit gets +1 to 3 random stats and becomes the Alpha. If there is an Alpha, this spell has infinite range and must target it.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_ADOUBMENT_NAME",
+        "ru_name": "Посвящение",
+        "ru_description": "Исцелите юнита и снимите дебаффы. Он получает +1 к случ. хар-ке и становится Альфой.\nЕсли Альфа уже есть, заклинание бьет через всю карту и только в него.",
+        "ru_upgraded_description": "Исцелите/воскресите юнита и снимите дебаффы. Он получает +1 к 3 случ. хар-кам и становится Альфой.\nЕсли Альфа уже есть, заклинание бьет через всю карту и только в него.",
+        "en_name": "Adoubment",
+        "en_description": "Heal a unit and remove its debuffs. That unit gets +1 to a random stat and becomes the Alpha.\nIf there is an Alpha, this spell has infinite range and must target it.",
+        "en_upgraded_description": "Heal or revive a unit and remove its debuffs. That unit gets +1 to 3 random stats and becomes the Alpha.\nIf there is an Alpha, this spell has infinite range and must target it."
+      },
       "manifest": {
         "ability_id": "Adoubement",
         "display_name": "Adoubment",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "A melee attack that inflicts Blind 5 and Bleed 1.Upgraded: A melee attack that inflicts Blind 5, Bleed 1, and Madness 1.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_EYEFORANEYE_NAME",
+        "ru_name": "Око за око",
+        "ru_description": "Атака ближнего боя, накладывающая Слепоту 5 и Кровотечение 1.",
+        "ru_upgraded_description": "Атака ближнего боя: Слепота 5, Кровотечение 1 и Безумие 1.",
+        "en_name": "An Eye for an Eye",
+        "en_description": "A melee attack that inflicts Blind 5 and Bleed 1.",
+        "en_upgraded_description": "A melee attack that inflicts Blind 5, Bleed 1, and Madness 1."
+      },
       "manifest": {
         "ability_id": "EyeForAnEye",
         "display_name": "An Eye for an Eye",
@@ -82,6 +109,15 @@
       "variant": "upgraded",
       "description": "A melee attack that inflicts Blind 5 and Bleed 1.Upgraded: A melee attack that inflicts Blind 5, Bleed 1, and Madness 1.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_EYEFORANEYE_NAME",
+        "ru_name": "Око за око",
+        "ru_description": "Атака ближнего боя, накладывающая Слепоту 5 и Кровотечение 1.",
+        "ru_upgraded_description": "Атака ближнего боя: Слепота 5, Кровотечение 1 и Безумие 1.",
+        "en_name": "An Eye for an Eye",
+        "en_description": "A melee attack that inflicts Blind 5 and Bleed 1.",
+        "en_upgraded_description": "A melee attack that inflicts Blind 5, Bleed 1, and Madness 1."
+      },
       "manifest": {
         "ability_id": "EyeForAnEye",
         "display_name": "An Eye for an Eye",
@@ -106,6 +142,15 @@
       "variant": "normal",
       "description": "Revive a body to 1 HP.Upgraded: Revive a body to 1 HP. Give that unit +1 and All Stats Up.",
       "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_AWAKEN_NAME",
+        "ru_name": "Пробуждение",
+        "ru_description": "Воскресите тело с 1 ОЗ.",
+        "ru_upgraded_description": "Воскресите тело с 1 ОЗ. Дайте ему +1 [img:divineshield] и Повышение Всех Характеристик.",
+        "en_name": "Awaken",
+        "en_description": "Revive a body to 1 HP.",
+        "en_upgraded_description": "Revive a body to 1 HP. Give that unit +1 [img:divineshield] and All Stats Up."
+      },
       "manifest": {
         "ability_id": "Awaken",
         "display_name": "Awaken",
@@ -130,6 +175,15 @@
       "variant": "normal",
       "description": "Heal EVERYTHING for 2 HP.Upgraded: Heal EVERYTHING for 2 HP. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_BENEDICTION_NAME",
+        "ru_name": "Благословение",
+        "ru_description": "Исцелите ВСЁ ЖИВОЕ на 2 ОЗ.",
+        "ru_upgraded_description": "Исцелите ВСЁ ЖИВОЕ на 2 ОЗ.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Benediction",
+        "en_description": "Heal EVERYTHING for 2 HP.",
+        "en_upgraded_description": "Heal EVERYTHING for 2 HP.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Benediction",
         "display_name": "Benediction",
@@ -154,6 +208,15 @@
       "variant": "upgraded",
       "description": "Heal EVERYTHING for 2 HP.Upgraded: Heal EVERYTHING for 2 HP. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_BENEDICTION_NAME",
+        "ru_name": "Благословение",
+        "ru_description": "Исцелите ВСЁ ЖИВОЕ на 2 ОЗ.",
+        "ru_upgraded_description": "Исцелите ВСЁ ЖИВОЕ на 2 ОЗ.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Benediction",
+        "en_description": "Heal EVERYTHING for 2 HP.",
+        "en_upgraded_description": "Heal EVERYTHING for 2 HP.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "Benediction",
         "display_name": "Benediction",
@@ -178,6 +241,15 @@
       "variant": "normal",
       "description": "Heal an adjacent unit. Excess healing is converted to an equal amount of random stat ups.Upgraded: Heal a unit at range. Excess healing is converted to an equal amount of random stat ups.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_BOOSTER_NAME",
+        "ru_name": "Бустер",
+        "ru_description": "Исцелите соседа. Лишнее лечение превращается в случайные Бафы Характеристик (+1хп = +1баф) (до конца битвы).",
+        "ru_upgraded_description": "Исцелите юнита на расстоянии. Лишнее лечение превращается в случайные Бафы Характеристик (+1хп = +1баф) (до конца битвы).",
+        "en_name": "Booster",
+        "en_description": "Heal an adjacent unit. Excess healing is converted to an equal amount of random stat ups.",
+        "en_upgraded_description": "Heal a unit at range. Excess healing is converted to an equal amount of random stat ups."
+      },
       "manifest": {
         "ability_id": "Booster",
         "display_name": "Booster",
@@ -202,6 +274,15 @@
       "variant": "upgraded",
       "description": "Heal an adjacent unit. Excess healing is converted to an equal amount of random stat ups.Upgraded: Heal a unit at range. Excess healing is converted to an equal amount of random stat ups.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_BOOSTER_NAME",
+        "ru_name": "Бустер",
+        "ru_description": "Исцелите соседа. Лишнее лечение превращается в случайные Бафы Характеристик (+1хп = +1баф) (до конца битвы).",
+        "ru_upgraded_description": "Исцелите юнита на расстоянии. Лишнее лечение превращается в случайные Бафы Характеристик (+1хп = +1баф) (до конца битвы).",
+        "en_name": "Booster",
+        "en_description": "Heal an adjacent unit. Excess healing is converted to an equal amount of random stat ups.",
+        "en_upgraded_description": "Heal a unit at range. Excess healing is converted to an equal amount of random stat ups."
+      },
       "manifest": {
         "ability_id": "Booster",
         "display_name": "Booster",
@@ -226,6 +307,15 @@
       "variant": "normal",
       "description": "Heal an adjacent unit.Upgraded: Heal all adjacent units.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CUREWOUNDS_NAME",
+        "ru_name": "Лечение ран",
+        "ru_description": "Исцелите соседнего юнита.",
+        "ru_upgraded_description": "Исцелите всех соседних юнитов.",
+        "en_name": "Cure Wounds",
+        "en_description": "Heal an adjacent unit.",
+        "en_upgraded_description": "Heal all adjacent units."
+      },
       "manifest": {
         "ability_id": "MeleeHeal",
         "display_name": "Cure Wounds",
@@ -250,6 +340,15 @@
       "variant": "normal",
       "description": "Gain 4 , 3 , heal 2 HP, and Brace 1.Upgraded: Gain Thorns 6, Reflect 5, 4 , 3 , heal 2 HP and Brace 1.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_ETHEREAL_NAME",
+        "ru_name": "Эфирность",
+        "ru_description": "Получите 4 [img:divineshield], 3 [img:shield], восстановите 2 ОЗ и Стойкость 1.",
+        "ru_upgraded_description": "Получите Шипы 6, Отражение 5, 4 [img:divineshield],\n3 [img:shield], восстановите 2 ОЗ и Стойкость 1.",
+        "en_name": "Ethereal",
+        "en_description": "Gain 4 [img:divineshield], 3 [img:shield], heal 2 HP, and Brace 1.",
+        "en_upgraded_description": "Gain Thorns 6, Reflect 5, 4 [img:divineshield],\n3 [img:shield], heal 2 HP and Brace 1."
+      },
       "manifest": {
         "ability_id": "Ethereal",
         "display_name": "Ethereal",
@@ -274,6 +373,15 @@
       "variant": "normal",
       "description": "A ranged spell that heals allies and damages enemies.Upgraded: An infinitely ranged spell that heals allies and damages enemies.",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABIITY_FRIENDORFOE_NAME",
+        "ru_name": "Друг или враг",
+        "ru_description": "Дальнее заклинание: лечит союзников и калечит врагов.",
+        "ru_upgraded_description": "Заклинание с бесконечной дальностью: лечит союзников и калечит врагов.",
+        "en_name": "Friend or Foe",
+        "en_description": "A ranged spell that heals allies and damages enemies.",
+        "en_upgraded_description": "An infinitely ranged spell that heals allies and damages enemies."
+      },
       "manifest": {
         "ability_id": "FriendOrFoe",
         "display_name": "Friend or Foe",
@@ -298,6 +406,15 @@
       "variant": "normal",
       "description": "You or an adjacent unit gains a random positive effect.Upgraded: You or an adjacent unit heals a random amount of HP, gains +1 to a random stat, and gains a random positive effect.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_GRACE_NAME",
+        "ru_name": "Милость",
+        "ru_description": "Вы или сосед получаете случайный положительный эффект.",
+        "ru_upgraded_description": "Вы или сосед исцеляетесь на случайное кол-во, получаете +1 к случ. стату и случайный бафф.",
+        "en_name": "Grace",
+        "en_description": "You or an adjacent unit gains a random positive effect.",
+        "en_upgraded_description": "You or an adjacent unit heals a random amount of HP, gains +1 to a random stat, and gains a random positive effect."
+      },
       "manifest": {
         "ability_id": "Grace",
         "display_name": "Grace",
@@ -322,6 +439,15 @@
       "variant": "upgraded",
       "description": "You or an adjacent unit gains a random positive effect.Upgraded: You or an adjacent unit heals a random amount of HP, gains +1 to a random stat, and gains a random positive effect.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_GRACE_NAME",
+        "ru_name": "Милость",
+        "ru_description": "Вы или сосед получаете случайный положительный эффект.",
+        "ru_upgraded_description": "Вы или сосед исцеляетесь на случайное кол-во, получаете +1 к случ. стату и случайный бафф.",
+        "en_name": "Grace",
+        "en_description": "You or an adjacent unit gains a random positive effect.",
+        "en_upgraded_description": "You or an adjacent unit heals a random amount of HP, gains +1 to a random stat, and gains a random positive effect."
+      },
       "manifest": {
         "ability_id": "Grace",
         "display_name": "Grace",
@@ -346,6 +472,15 @@
       "variant": "normal",
       "description": "Jump to an open tile, then heal each adjacent unit.Upgraded: Jump to an open tile, then heal each adjacent unit. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_HEALINGFALL_NAME",
+        "ru_name": "Целебное падение",
+        "ru_description": "Прыгните на свободную клетку, затем исцелите всех соседей.",
+        "ru_upgraded_description": "Прыгните на свободную клетку, затем исцелите всех соседей.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Healing Fall",
+        "en_description": "Jump to an open tile, then heal each adjacent unit.",
+        "en_upgraded_description": "Jump to an open tile, then heal each adjacent unit.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "HealingFall",
         "display_name": "Healing Fall",
@@ -370,6 +505,15 @@
       "variant": "upgraded",
       "description": "Jump to an open tile, then heal each adjacent unit.Upgraded: Jump to an open tile, then heal each adjacent unit. (This spell costs less.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_HEALINGFALL_NAME",
+        "ru_name": "Целебное падение",
+        "ru_description": "Прыгните на свободную клетку, затем исцелите всех соседей.",
+        "ru_upgraded_description": "Прыгните на свободную клетку, затем исцелите всех соседей.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Healing Fall",
+        "en_description": "Jump to an open tile, then heal each adjacent unit.",
+        "en_upgraded_description": "Jump to an open tile, then heal each adjacent unit.\r\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "HealingFall",
         "display_name": "Healing Fall",
@@ -394,6 +538,15 @@
       "variant": "normal",
       "description": "Heal a unit at range.Upgraded: Heal other units in an area at range.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_HEALINGWORD_NAME",
+        "ru_name": "Лечащее Слово",
+        "ru_description": "Исцелите юнита на расстоянии.",
+        "ru_upgraded_description": "Исцелите юнитов в области на расстоянии.",
+        "en_name": "Healing Word",
+        "en_description": "Heal a unit at range.",
+        "en_upgraded_description": "Heal other units in an area at range."
+      },
       "manifest": {
         "ability_id": "RangedHeal",
         "display_name": "Healing Word",
@@ -418,6 +571,15 @@
       "variant": "normal",
       "description": "Dash forward, heal a unit and give it a random stat up.Upgraded: Dash forward, heal a unit and give it 3 random stat ups.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_RALLYCHARGE_NAME",
+        "ru_name": "Святой рывок",
+        "ru_description": "Рывок вперед: исцелите юнита и дайте ему случайный бафф характеристик.",
+        "ru_upgraded_description": "Рывок вперед: исцелите юнита и дайте ему 3 случайных баффа характеристик.",
+        "en_name": "Holy Dash",
+        "en_description": "Dash forward, heal a unit and give it a random stat up.",
+        "en_upgraded_description": "Dash forward, heal a unit and give it 3 random stat ups."
+      },
       "manifest": {
         "ability_id": "RallyCharge",
         "display_name": "Holy Dash",
@@ -442,6 +604,15 @@
       "variant": "upgraded",
       "description": "Dash forward, heal a unit and give it a random stat up.Upgraded: Dash forward, heal a unit and give it 3 random stat ups.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_RALLYCHARGE_NAME",
+        "ru_name": "Святой рывок",
+        "ru_description": "Рывок вперед: исцелите юнита и дайте ему случайный бафф характеристик.",
+        "ru_upgraded_description": "Рывок вперед: исцелите юнита и дайте ему 3 случайных баффа характеристик.",
+        "en_name": "Holy Dash",
+        "en_description": "Dash forward, heal a unit and give it a random stat up.",
+        "en_upgraded_description": "Dash forward, heal a unit and give it 3 random stat ups."
+      },
       "manifest": {
         "ability_id": "RallyCharge",
         "display_name": "Holy Dash",
@@ -466,6 +637,15 @@
       "variant": "normal",
       "description": "Heal allies and damage enemies in an area. This spell has half effect outside its center.Upgraded: Heal allies and damage enemies in an area. This spell has half effect outside its center. (This spell costs less.)",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_HOLYLIGHT_NAME",
+        "ru_name": "Святой свет",
+        "ru_description": "Лечите союзников и наносите урон врагам в области. Эффект слабее в 2 раза на краях зоны.",
+        "ru_upgraded_description": "Лечите союзников и наносите урон врагам в области. Эффект слабее в 2 раза на краях зоны.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Holy Light",
+        "en_description": "Heal allies and damage enemies in an area. This spell has half effect outside its center.",
+        "en_upgraded_description": "Heal allies and damage enemies in an area. This spell has half effect outside its center.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "HolyLight",
         "display_name": "Holy Light",
@@ -490,6 +670,15 @@
       "variant": "upgraded",
       "description": "Heal allies and damage enemies in an area. This spell has half effect outside its center.Upgraded: Heal allies and damage enemies in an area. This spell has half effect outside its center. (This spell costs less.)",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_HOLYLIGHT_NAME",
+        "ru_name": "Святой свет",
+        "ru_description": "Лечите союзников и наносите урон врагам в области. Эффект слабее в 2 раза на краях зоны.",
+        "ru_upgraded_description": "Лечите союзников и наносите урон врагам в области. Эффект слабее в 2 раза на краях зоны.\n[s:.7](Это заклинание стоит дешевле.)[/s]",
+        "en_name": "Holy Light",
+        "en_description": "Heal allies and damage enemies in an area. This spell has half effect outside its center.",
+        "en_upgraded_description": "Heal allies and damage enemies in an area. This spell has half effect outside its center.\n[s:.7](This spell costs less.)[/s]"
+      },
       "manifest": {
         "ability_id": "HolyLight",
         "display_name": "Holy Light",
@@ -514,6 +703,15 @@
       "variant": "normal",
       "description": "A dash attack with range, damage, and knockback equal to the amount of HP you healed other units this turn. (Castable once per turn.) Upgraded: A dash attack with range, damage, and knockback equal to twice the amount of HP you healed other units this turn. (Castable once per turn.)",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_HOLYWEAPON_NAME",
+        "ru_name": "Святое оружие",
+        "ru_description": "Рывок-атака: дальность, урон и отбрасывание равны кол-ву ОЗ, которое вы восстановили другим в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Рывок-атака: дальность, урон и отбрасывание равны ДВОЙНОМУ кол-ву ОЗ, которое вы восстановили другим в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Holy Weapon",
+        "en_description": "A dash attack with range, damage, and knockback equal to the amount of HP you healed other units this turn.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "A dash attack with range, damage, and knockback equal to twice the amount of HP you healed other units this turn.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "HolyWeapon",
         "display_name": "Holy Weapon",
@@ -538,6 +736,15 @@
       "variant": "normal",
       "description": "An attack that deals more damage the less health the target unit has. (based on their health percent) Upgraded: An attack that deals even more damage the less health the target unit has. (based on their health percent)",
       "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_OPENWOUNDS_NAME",
+        "ru_name": "Открытые раны",
+        "ru_description": "Атака, которая наносит тем больше урона, чем меньше здоровья у цели.\n[s:.7](зависит от процента их здоровья)[/s]",
+        "ru_upgraded_description": "Атака, которая наносит ЗНАЧИТЕЛЬНО больше урона, чем меньше здоровья у цели.\n[s:.7](зависит от процента их здоровья)[/s]",
+        "en_name": "Open Wounds",
+        "en_description": "An attack that deals more damage the less health the target unit has.\n[s:.7](based on their health percent)[/s]",
+        "en_upgraded_description": "An attack that deals even more damage the less health the target unit has.\n[s:.7](based on their health percent)[/s]"
+      },
       "manifest": {
         "ability_id": "OpenWounds",
         "display_name": "Open Wounds",
@@ -562,6 +769,15 @@
       "variant": "normal",
       "description": "Heal units in an area.Upgraded: Heal units in a larger area. Infinite range.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_PRAYER_NAME",
+        "ru_name": "Молитва",
+        "ru_description": "Исцелите юнитов в области.",
+        "ru_upgraded_description": "Исцелите юнитов в большей области. Бесконечная дальность.",
+        "en_name": "Prayer",
+        "en_description": "Heal units in an area.",
+        "en_upgraded_description": "Heal units in a larger area. Infinite range."
+      },
       "manifest": {
         "ability_id": "Prayer",
         "display_name": "Prayer",
@@ -586,6 +802,15 @@
       "variant": "normal",
       "description": "Swap positions with any unit. That unit becomes the Alpha. If there is an Alpha, this spell must target it.Upgraded: Swap positions with any unit and heal it by 1 HP. That unit becomes the Alpha. If there is an Alpha, this spell must target it.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_STANDIN_NAME",
+        "ru_name": "Подмена",
+        "ru_description": "Поменяйтесь местами с любым юнитом. Он становится Альфой.\nЕсли Альфа уже есть, заклинание обязано бить в него.",
+        "ru_upgraded_description": "Поменяйтесь местами с любым юнитом и исцелите его на 1 ОЗ. Он становится Альфой.\nЕсли Альфа уже есть, заклинание обязано бить в него.",
+        "en_name": "Stand In",
+        "en_description": "Swap positions with any unit. That unit becomes the Alpha.\r\nIf there is an Alpha, this spell must target it.",
+        "en_upgraded_description": "Swap positions with any unit and heal it by 1 HP. That unit becomes the Alpha.\r\nIf there is an Alpha, this spell must target it."
+      },
       "manifest": {
         "ability_id": "GetDown",
         "display_name": "Stand In",
@@ -610,6 +835,15 @@
       "variant": "upgraded",
       "description": "Swap positions with any unit. That unit becomes the Alpha. If there is an Alpha, this spell must target it.Upgraded: Swap positions with any unit and heal it by 1 HP. That unit becomes the Alpha. If there is an Alpha, this spell must target it.",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_STANDIN_NAME",
+        "ru_name": "Подмена",
+        "ru_description": "Поменяйтесь местами с любым юнитом. Он становится Альфой.\nЕсли Альфа уже есть, заклинание обязано бить в него.",
+        "ru_upgraded_description": "Поменяйтесь местами с любым юнитом и исцелите его на 1 ОЗ. Он становится Альфой.\nЕсли Альфа уже есть, заклинание обязано бить в него.",
+        "en_name": "Stand In",
+        "en_description": "Swap positions with any unit. That unit becomes the Alpha.\r\nIf there is an Alpha, this spell must target it.",
+        "en_upgraded_description": "Swap positions with any unit and heal it by 1 HP. That unit becomes the Alpha.\r\nIf there is an Alpha, this spell must target it."
+      },
       "manifest": {
         "ability_id": "GetDown",
         "display_name": "Stand In",
@@ -634,6 +868,15 @@
       "variant": "normal",
       "description": "Target an area. At the beginning of your next turn, heal all units in that area. (Castable once per turn.) Upgraded: Target an area. At the beginning of your next turn, heal all units in that area. This spell tracks its target if you directly targeted a unit. (Castable once per turn.)",
       "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_WISH_NAME",
+        "ru_name": "Желание",
+        "ru_description": "Выберите область. В начале вашего следующего хода все юниты там исцелятся.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Выберите область. В начале вашего следующего хода все юниты там исцелятся. Заклинание отслеживает цель, если вы выбрали конкретного юнита.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Wish",
+        "en_description": "Target an area. At the beginning of your next turn, heal all units in that area.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Target an area. At the beginning of your next turn, heal all units in that area. This spell tracks its target if you directly targeted a unit.\n[s:.7](Castable once per turn.)[/s]"
+      },
       "manifest": {
         "ability_id": "Wish",
         "display_name": "Wish",
@@ -658,6 +901,15 @@
       "variant": "normal",
       "description": "Deal holy damage and inflict Blind to everything except for a safe circle around you. This vaporizes units it kills.Upgraded: Deal holy damage and inflict Blind to all enemies. This vaporizes units it kills.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_WRATHOFGOD_NAME",
+        "ru_name": "Гнев Божий",
+        "ru_description": "Нанесите святой урон и Слепоту всему, кроме безопасного круга вокруг вас. Это испаряет убитых.",
+        "ru_upgraded_description": "Нанесите святой урон и Слепоту всем врагам. Это испаряет убитых.",
+        "en_name": "Wrath of God",
+        "en_description": "Deal holy damage and inflict Blind to everything except for a safe circle around you. This vaporizes units it kills.",
+        "en_upgraded_description": "Deal holy damage and inflict Blind to all enemies. This vaporizes units it kills."
+      },
       "manifest": {
         "ability_id": "WrathOfGod",
         "display_name": "Wrath of God",

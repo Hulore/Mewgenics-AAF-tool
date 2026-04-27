@@ -10,6 +10,15 @@
       "variant": "normal",
       "description": "Attack 3-5 times for 1 damage each. These attacks inflict Bleed.Upgraded: Attack 3-10 times for 1 damage each. These attacks inflict Bleed.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MUTILATE_NAME",
+        "ru_name": "Увечье",
+        "ru_description": "Атакуйте 3-5 раз по 1 урону. Эти атаки вызывают Кровотечение.",
+        "ru_upgraded_description": "Атакуйте 3-10 раз по 1 урону. Эти атаки вызывают Кровотечение.",
+        "en_name": "Mutilate",
+        "en_description": "Attack 3-5 times for 1 damage each. These attacks inflict Bleed.",
+        "en_upgraded_description": "Attack 3-10 times for 1 damage each. These attacks inflict Bleed."
+      },
       "manifest": {
         "ability_id": "Mutilate",
         "display_name": "Mutilate",
@@ -34,6 +43,15 @@
       "variant": "normal",
       "description": "Attack five times for 1 damage each. These attacks inflict all status effects your basic attack does.Upgraded: Attack five times with damage that scales with Strength. These attacks inflict all status effects your basic attack does.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHRED_NAME",
+        "ru_name": "Шинковка",
+        "ru_description": "Атакуйте пять раз по 1 урону. Накладывает эффекты базовой атаки.",
+        "ru_upgraded_description": "Атакуйте пять раз (урон зависит от [img:str]). Накладывает эффекты базовой атаки.",
+        "en_name": "Shred",
+        "en_description": "Attack five times for 1 damage each. These attacks inflict all status effects your basic attack does.",
+        "en_upgraded_description": "Attack five times with damage that scales with [img:str]. These attacks inflict all status effects your basic attack does."
+      },
       "manifest": {
         "ability_id": "Shred",
         "display_name": "Shred",
@@ -58,6 +76,15 @@
       "variant": "normal",
       "description": "Dash forward one tile and do a spin attack with Cleave, then repeat twice more.Upgraded: Dash forward one tile and do a spin attack with Cleave, then repeat four more times.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SLICEANDDICE_NAME",
+        "ru_name": "Нарезай и Измельчай!",
+        "ru_description": "Рывок на клетку и круговая атака с Рассечением. Повторить еще 2 раза.",
+        "ru_upgraded_description": "Рывок на клетку и круговая атака с Рассечением. Повторить еще 4 раза.",
+        "en_name": "Slice and Dice",
+        "en_description": "Dash forward one tile and do a spin attack with Cleave, then repeat twice more.",
+        "en_upgraded_description": "Dash forward one tile and do a spin attack with Cleave, then repeat four more times."
+      },
       "manifest": {
         "ability_id": "SliceAndDice",
         "display_name": "Slice and Dice",
@@ -82,6 +109,15 @@
       "variant": "upgraded",
       "description": "Dash forward one tile and do a spin attack with Cleave, then repeat twice more.Upgraded: Dash forward one tile and do a spin attack with Cleave, then repeat four more times.",
       "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SLICEANDDICE_NAME",
+        "ru_name": "Нарезай и Измельчай!",
+        "ru_description": "Рывок на клетку и круговая атака с Рассечением. Повторить еще 2 раза.",
+        "ru_upgraded_description": "Рывок на клетку и круговая атака с Рассечением. Повторить еще 4 раза.",
+        "en_name": "Slice and Dice",
+        "en_description": "Dash forward one tile and do a spin attack with Cleave, then repeat twice more.",
+        "en_upgraded_description": "Dash forward one tile and do a spin attack with Cleave, then repeat four more times."
+      },
       "manifest": {
         "ability_id": "SliceAndDice",
         "display_name": "Slice and Dice",
