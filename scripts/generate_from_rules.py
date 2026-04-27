@@ -17,6 +17,8 @@ except ImportError:  # pragma: no cover - local tool fallback
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
 
+JESTER_GRADIENT_ID = "jester_ui_rainbow"
+
 DEFAULT_FONT_PATHS = {
     "MewgenicsNumber": Path(
         r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Number Fonts\fonts\1_TikaFont_TikaFont Adjusted Regular.ttf"
@@ -77,6 +79,33 @@ def read_svg_children(path: Path, recolor: dict[str, str]) -> list[ET.Element]:
             if value in recolor:
                 node.set(attr, recolor[value])
     return [deepcopy(child) for child in list(root)]
+
+
+def add_jester_gradient(root: ET.Element, canvas: dict) -> None:
+    defs = root.find(f"{{{SVG_NS}}}defs")
+    if defs is None:
+        defs = ET.SubElement(root, f"{{{SVG_NS}}}defs")
+    gradient = ET.SubElement(
+        defs,
+        f"{{{SVG_NS}}}linearGradient",
+        {
+            "id": JESTER_GRADIENT_ID,
+            "gradientUnits": "userSpaceOnUse",
+            "x1": "0",
+            "y1": "0",
+            "x2": str(canvas["width"]),
+            "y2": str(canvas["height"]),
+        },
+    )
+    for offset, color in (
+        ("0%", "#c9b8ff"),
+        ("18%", "#f0a8e6"),
+        ("38%", "#ffbfd0"),
+        ("58%", "#ffd4b0"),
+        ("78%", "#f6eaa0"),
+        ("100%", "#dcefa3"),
+    ):
+        ET.SubElement(gradient, f"{{{SVG_NS}}}stop", {"offset": offset, "stop-color": color})
 
 
 def resolve_source(source: str, rules_dir: Path, main_svg: Path) -> Path:
@@ -215,6 +244,9 @@ def build_from_rules(
         defs = ET.SubElement(root, f"{{{SVG_NS}}}defs")
         style = ET.SubElement(defs, f"{{{SVG_NS}}}style", {"type": "text/css"})
         style.text = style_text
+    class_shader = class_data.get("shader")
+    if class_shader == "jester_rainbow":
+        add_jester_gradient(root, canvas)
 
     for layer in rules["layers"]:
         layer = deepcopy(layer)
@@ -299,7 +331,12 @@ def build_from_rules(
         recolor = {}
         for source_color, target_color in layer.get("recolor", {}).items():
             if target_color == "$classColor":
-                recolor[source_color] = class_data["color"]
+                if class_shader == "jester_rainbow":
+                    recolor[source_color] = f"url(#{JESTER_GRADIENT_ID})"
+                else:
+                    recolor[source_color] = class_data["color"]
+            elif target_color == "$classShader" and class_shader == "jester_rainbow":
+                recolor[source_color] = f"url(#{JESTER_GRADIENT_ID})"
             else:
                 recolor[source_color] = target_color
 

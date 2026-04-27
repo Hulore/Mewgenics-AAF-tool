@@ -4,7 +4,7 @@ Collarless 76716d
 Druid 49352c
 Fighter 8e5c5c
 Hunter 354b31
-Jester
+Jester 817b77 jester_rainbow
 Mage 60607b
 Monk 606060
 Necromancer 1c1d1e

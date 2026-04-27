@@ -193,34 +193,39 @@ def load_class_colors(path: Path) -> dict[str, str]:
         name, color = parts[0].strip().lower(), parts[1].strip()
         if not color.startswith("#"):
             color = f"#{color}"
-        colors[name] = color
+        colors[name] = {"color": color}
+        if len(parts) > 2:
+            colors[name]["shader"] = parts[2].strip()
         if name == "collarless":
-            colors["colorless"] = color
+            colors["colorless"] = colors[name]
     return colors
 
 
 def prepare_frame_rules(rules_path: Path, class_colors_path: Path | None = None) -> dict:
     rules = json.loads(rules_path.read_text(encoding="utf-8"))
     class_colors = {
-        "butcher": "#8a3746",
-        "cleric": "#fdfdfd",
-        "colorless": "#817b77",
-        "druid": "#5b4237",
-        "fighter": "#b17373",
-        "hunter": "#425d3d",
-        "jester": "#817b77",
-        "mage": "#787899",
-        "monk": "#787878",
-        "necromancer": "#232425",
-        "psychic": "#645379",
-        "tank": "#857348",
-        "thief": "#fffbb5",
-        "tinkerer": "#b5eadc",
+        "butcher": {"color": "#8a3746"},
+        "cleric": {"color": "#fdfdfd"},
+        "colorless": {"color": "#817b77"},
+        "druid": {"color": "#5b4237"},
+        "fighter": {"color": "#b17373"},
+        "hunter": {"color": "#425d3d"},
+        "jester": {"color": "#817b77", "shader": "jester_rainbow"},
+        "mage": {"color": "#787899"},
+        "monk": {"color": "#787878"},
+        "necromancer": {"color": "#232425"},
+        "psychic": {"color": "#645379"},
+        "tank": {"color": "#857348"},
+        "thief": {"color": "#fffbb5"},
+        "tinkerer": {"color": "#b5eadc"},
     }
     if class_colors_path and class_colors_path.exists():
         class_colors.update(load_class_colors(class_colors_path))
 
-    rules["classes"] = {name: {"color": color} for name, color in class_colors.items()}
+    rules["classes"] = {
+        name: data if isinstance(data, dict) else {"color": data}
+        for name, data in class_colors.items()
+    }
     for layer in rules.get("layers", []):
         if layer.get("source") != "$main":
             layer["recolor"] = {"#111111": "$classColor"}
