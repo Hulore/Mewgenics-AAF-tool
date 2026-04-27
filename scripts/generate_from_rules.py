@@ -49,8 +49,11 @@ def build_from_rules(
     output: Path,
     layer_overrides: dict[str, dict] | None = None,
 ) -> None:
-    class_data = rules.get("classes", {}).get(class_name)
-    if class_data is None:
+    classes = rules.get("classes", {})
+    class_data = classes.get(class_name)
+    if class_data is None and not classes:
+        class_data = {"color": rules.get("preview_recolor", {}).get("#111111", "#8a3746")}
+    elif class_data is None:
         known = ", ".join(sorted(rules.get("classes", {})))
         raise KeyError(f"Unknown class '{class_name}'. Known classes: {known}")
 
@@ -74,17 +77,6 @@ def build_from_rules(
         layer = deepcopy(layer)
         if layer_overrides and layer["id"] in layer_overrides:
             layer.update(layer_overrides[layer["id"]])
-
-        source = resolve_source(layer["source"], rules_dir, main_svg)
-        if not source.exists():
-            raise FileNotFoundError(source)
-
-        recolor = {}
-        for source_color, target_color in layer.get("recolor", {}).items():
-            if target_color == "$classColor":
-                recolor[source_color] = class_data["color"]
-            else:
-                recolor[source_color] = target_color
 
         transform_parts = [f"translate({layer.get('x', 0)} {layer.get('y', 0)})"]
         matrix = layer.get("matrix")
@@ -114,6 +106,34 @@ def build_from_rules(
                 "transform": " ".join(transform_parts),
             },
         )
+
+        if layer.get("type") == "text":
+            text_node = ET.SubElement(
+                group,
+                f"{{{SVG_NS}}}text",
+                {
+                    "x": "0",
+                    "y": "0",
+                    "fill": layer.get("fill", "#000000"),
+                    "font-family": layer.get("fontFamily", "sans-serif"),
+                    "font-size": str(layer.get("fontSize", 12)),
+                    "dominant-baseline": "hanging",
+                },
+            )
+            text_node.text = str(layer.get("text", ""))
+            continue
+
+        source = resolve_source(layer["source"], rules_dir, main_svg)
+        if not source.exists():
+            raise FileNotFoundError(source)
+
+        recolor = {}
+        for source_color, target_color in layer.get("recolor", {}).items():
+            if target_color == "$classColor":
+                recolor[source_color] = class_data["color"]
+            else:
+                recolor[source_color] = target_color
+
         for child in read_svg_children(source, recolor):
             group.append(child)
 

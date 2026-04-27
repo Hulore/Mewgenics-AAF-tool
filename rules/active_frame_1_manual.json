@@ -74,6 +74,58 @@
       "scaleY": 1,
       "rotation": 0,
       "visible": true
+    },
+    {
+      "id": "damage_type_icon",
+      "label": "2762 damage type icon sample",
+      "source": "../../SVG Important/Svg number icons/shapes/2762.svg",
+      "x": 17,
+      "y": 112,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    },
+    {
+      "id": "damage_number_text",
+      "label": "Damage number sample",
+      "type": "text",
+      "text": "5",
+      "fontFamily": "MewgenicsMain",
+      "fontSize": 12,
+      "fill": "#000000",
+      "x": 31,
+      "y": 115,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    },
+    {
+      "id": "mana_type_icon",
+      "label": "2769 mana icon",
+      "source": "../../SVG Important/Svg number icons/shapes/2769.svg",
+      "x": 61,
+      "y": 117,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    },
+    {
+      "id": "mana_number_text",
+      "label": "Mana number sample",
+      "type": "text",
+      "text": "2",
+      "fontFamily": "MewgenicsMain",
+      "fontSize": 12,
+      "fill": "#000000",
+      "x": 76,
+      "y": 115,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
     }
   ]
 }

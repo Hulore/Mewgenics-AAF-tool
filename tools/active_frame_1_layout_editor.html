@@ -4,6 +4,11 @@
   <meta charset="utf-8">
   <title>Active Frame 1 Layout Editor</title>
   <style>
+    @font-face {
+      font-family: "MewgenicsMain";
+      src: url("../../SVG Important/MainFont/fonts/6_Edmundm_EdmundMcMillen_INTLv4 Regular.ttf") format("truetype");
+    }
+
     :root {
       color-scheme: dark;
       font-family: Arial, sans-serif;
@@ -60,6 +65,16 @@
 
     .layer img {
       display: block;
+      pointer-events: none;
+      transform-origin: 0 0;
+    }
+
+    .text-layer {
+      color: #000000;
+      font-family: "MewgenicsMain", Arial, sans-serif;
+      font-weight: 400;
+      line-height: 1;
+      white-space: nowrap;
       pointer-events: none;
       transform-origin: 0 0;
     }
@@ -231,7 +246,11 @@
         { id: "base_white", label: "2760 base white", source: "../../SVG Important/shapes/Atcive Frame 1/2760.svg", x: 16, y: 10, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
         { id: "class_body", label: "2763 class body", source: "../../SVG Important/shapes/Atcive Frame 1/2763.svg", x: 12.25, y: 13.75, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
         { id: "black_outline", label: "2776 black outline", source: "../../SVG Important/shapes/Atcive Frame 1/2776.svg", x: 14, y: 8, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
-        { id: "bottom_slots", label: "2817 bottom slots", source: "../../SVG Important/shapes/Atcive Frame 1/2817.svg", x: 8.25, y: 36.5, scaleX: 0.994, scaleY: 1, rotation: 0, visible: true }
+        { id: "bottom_slots", label: "2817 bottom slots", source: "../../SVG Important/shapes/Atcive Frame 1/2817.svg", x: 8.25, y: 36.5, scaleX: 0.999, scaleY: 1, rotation: 0, visible: true },
+        { id: "damage_type_icon", label: "2762 damage type icon sample", source: "../../SVG Important/Svg number icons/shapes/2762.svg", x: 17, y: 112, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
+        { id: "damage_number_text", label: "Damage number sample", type: "text", text: "5", fontFamily: "MewgenicsMain", fontSize: 12, fill: "#000000", x: 31, y: 115, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
+        { id: "mana_type_icon", label: "2769 mana icon", source: "../../SVG Important/Svg number icons/shapes/2769.svg", x: 61, y: 117, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
+        { id: "mana_number_text", label: "Mana number sample", type: "text", text: "2", fontFamily: "MewgenicsMain", fontSize: 12, fill: "#000000", x: 76, y: 115, scaleX: 1, scaleY: 1, rotation: 0, visible: true }
       ]
     };
 
@@ -362,12 +381,22 @@
         el.style.zIndex = String(index + 1);
         el.style.transform = layerTransform(layer);
 
-        const img = document.createElement("img");
-        img.src = await previewSource(layer.source);
-        if (currentRender !== renderRun) return;
-        img.draggable = false;
-        img.style.transform = `scale(${stageScale})`;
-        el.append(img);
+        if (layer.type === "text") {
+          const textEl = document.createElement("div");
+          textEl.className = "text-layer";
+          textEl.textContent = layer.text || "0";
+          textEl.style.color = layer.fill || "#000000";
+          textEl.style.fontFamily = `"${layer.fontFamily || "MewgenicsMain"}", Arial, sans-serif`;
+          textEl.style.fontSize = `${(layer.fontSize || 12) * stageScale}px`;
+          el.append(textEl);
+        } else {
+          const img = document.createElement("img");
+          img.src = await previewSource(layer.source);
+          if (currentRender !== renderRun) return;
+          img.draggable = false;
+          img.style.transform = `scale(${stageScale})`;
+          el.append(img);
+        }
         stageFragment.append(el);
       }
 
