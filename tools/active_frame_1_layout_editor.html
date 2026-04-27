@@ -197,7 +197,7 @@
   <main>
     <div class="label">Active Frame 1 only</div>
     <div id="stage"></div>
-    <div class="hint">Preview recolors only <code>#111111</code> to <code>#8a3746</code>. Export keeps original SVG paths and only saves layout values.</div>
+    <div class="hint">Preview recolors only <code>#111111</code> to <code>#8a3746</code>. Layer <code>x/y</code> values are center anchors; text boxes are fitted automatically.</div>
   </main>
 
   <aside>
@@ -211,8 +211,8 @@
         <div id="layerList" class="layer-list"></div>
       </div>
       <div class="grid3">
-        <label>X <input id="x" type="number" step="0.25"></label>
-        <label>Y <input id="y" type="number" step="0.25"></label>
+        <label>Center X <input id="x" type="number" step="0.25"></label>
+        <label>Center Y <input id="y" type="number" step="0.25"></label>
         <label>Rotate <input id="rotation" type="number" step="0.25"></label>
       </div>
       <div class="grid3">
@@ -466,6 +466,16 @@
       return minFontSize;
     }
 
+    function layerAnchor(layer) {
+      if (Number.isFinite(Number(layer.anchorX)) && Number.isFinite(Number(layer.anchorY))) {
+        return { x: Number(layer.anchorX), y: Number(layer.anchorY) };
+      }
+      if (layer.type === "text") {
+        return { x: (layer.boxWidth || 0) / 2, y: (layer.boxHeight || 0) / 2 };
+      }
+      return { x: 0, y: 0 };
+    }
+
     function recolorSvgText(text) {
       let result = text;
       for (const [from, to] of Object.entries(previewRecolor)) {
@@ -572,6 +582,7 @@
           textEl.style.width = `${(layer.boxWidth || 18) * stageScale}px`;
           textEl.style.height = `${(layer.boxHeight || 13) * stageScale}px`;
           textEl.style.color = layer.fill || "#000000";
+          textEl.style.transform = `translate(${-layerAnchor(layer).x * stageScale}px, ${-layerAnchor(layer).y * stageScale}px)`;
           textEl.style.fontFamily = `"${layer.fontFamily || "MewgenicsMain"}", Arial, sans-serif`;
           const textValue = document.createElement("span");
           textValue.className = "text-value";
@@ -584,7 +595,7 @@
           img.src = await previewSource(layer.source);
           if (currentRender !== renderRun) return;
           img.draggable = false;
-          img.style.transform = `scale(${stageScale})`;
+          img.style.transform = `translate(${-layerAnchor(layer).x * stageScale}px, ${-layerAnchor(layer).y * stageScale}px) scale(${stageScale})`;
           el.append(img);
         }
         stageFragment.append(el);
@@ -636,6 +647,9 @@
       if (layer.type === "text") {
         layer.boxWidth = Number(fields.boxWidth.value || 18);
         layer.boxHeight = Number(fields.boxHeight.value || 13);
+        layer.anchor = "center";
+        layer.anchorX = layer.boxWidth / 2;
+        layer.anchorY = layer.boxHeight / 2;
       }
       render();
     }

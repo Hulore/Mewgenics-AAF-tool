@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import base64
 import json
+import re
 from copy import deepcopy
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -49,6 +50,25 @@ def fitted_font_size(layer: dict) -> float:
     return min_font_size
 
 
+def parse_svg_length(value: str | None) -> float | None:
+    if value is None:
+        return None
+    match = re.match(r"[-+]?\d*\.?\d+", str(value))
+    return float(match.group(0)) if match else None
+
+
+def svg_viewport(path: Path) -> tuple[float, float, float, float]:
+    root = ET.parse(path).getroot()
+    view_box = root.attrib.get("viewBox")
+    if view_box:
+        parts = [float(part) for part in re.split(r"[,\s]+", view_box.strip()) if part]
+        if len(parts) == 4:
+            return parts[0], parts[1], parts[2], parts[3]
+    width = parse_svg_length(root.attrib.get("width")) or 0
+    height = parse_svg_length(root.attrib.get("height")) or 0
+    return 0, 0, width, height
+
+
 def read_svg_children(path: Path, recolor: dict[str, str]) -> list[ET.Element]:
     root = ET.parse(path).getroot()
     for node in root.iter():
@@ -84,6 +104,16 @@ def font_face_style(font_families: set[str]) -> str:
             "}"
         )
     return "\n".join(rules)
+
+
+def layer_anchor(layer: dict, rules_dir: Path, main_svg: Path) -> tuple[float, float]:
+    if layer.get("type") == "text":
+        if "anchorX" in layer and "anchorY" in layer:
+            return float(layer["anchorX"]), float(layer["anchorY"])
+        return float(layer.get("boxWidth", 0) or 0) / 2, float(layer.get("boxHeight", 0) or 0) / 2
+    source = resolve_source(layer["source"], rules_dir, main_svg)
+    min_x, min_y, width, height = svg_viewport(source)
+    return min_x + width / 2, min_y + height / 2
 
 
 def build(
@@ -163,6 +193,9 @@ def build_from_rules(
                 f"scale({layer.get('scaleX', 1)} {layer.get('scaleY', 1)})",
             ]
         )
+        if layer.get("anchor", "top_left") == "center":
+            anchor_x, anchor_y = layer_anchor(layer, rules_dir, main_svg)
+            transform_parts.append(f"translate({-anchor_x} {-anchor_y})")
 
         group = ET.SubElement(
             root,
