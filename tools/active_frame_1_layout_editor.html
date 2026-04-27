@@ -216,6 +216,7 @@
     let selectedId = "base_white";
     let drag = null;
     const objectUrls = new Map();
+    let renderRun = 0;
     let rules = {
       canvas: { width: 120, height: 150, viewBox: "0 0 120 150" },
       frame_variant: "active_frame_1",
@@ -265,15 +266,16 @@
     }
 
     async function render() {
-      stage.innerHTML = "";
-      layerSelect.innerHTML = "";
-      layerList.innerHTML = "";
+      const currentRender = ++renderRun;
+      const stageFragment = document.createDocumentFragment();
+      const selectFragment = document.createDocumentFragment();
+      const listFragment = document.createDocumentFragment();
 
       for (const [index, layer] of rules.layers.entries()) {
         const option = document.createElement("option");
         option.value = layer.id;
         option.textContent = layer.label || layer.id;
-        layerSelect.append(option);
+        selectFragment.append(option);
 
         const row = document.createElement("label");
         row.className = "layer-row";
@@ -314,7 +316,7 @@
           }
         });
         row.append(check, text, up, down);
-        layerList.append(row);
+        listFragment.append(row);
 
         const el = document.createElement("div");
         el.className = "layer";
@@ -322,16 +324,21 @@
         el.dataset.id = layer.id;
         el.style.display = layer.visible === false ? "none" : "block";
         el.style.zIndex = String(index + 1);
-        el.style.transform = `translate(${layer.x * stageScale}px, ${layer.y * stageScale}px) rotate(${layer.rotation || 0}deg) scale(${layer.scaleX || 1}, ${layer.scaleY || 1})`;
+        el.style.transform = layerTransform(layer);
 
         const img = document.createElement("img");
         img.src = await previewSource(layer.source);
+        if (currentRender !== renderRun) return;
         img.draggable = false;
         img.style.transform = `scale(${stageScale})`;
         el.append(img);
-        stage.append(el);
+        stageFragment.append(el);
       }
 
+      if (currentRender !== renderRun) return;
+      stage.replaceChildren(stageFragment);
+      layerSelect.replaceChildren(selectFragment);
+      layerList.replaceChildren(listFragment);
       layerSelect.value = selectedId;
       syncControls();
     }
@@ -345,6 +352,15 @@
       fields.scaleY.value = layer.scaleY ?? 1;
       fields.rotation.value = layer.rotation || 0;
       fields.visible.checked = layer.visible !== false;
+    }
+
+    function layerTransform(layer) {
+      return `translate(${layer.x * stageScale}px, ${layer.y * stageScale}px) rotate(${layer.rotation || 0}deg) scale(${layer.scaleX || 1}, ${layer.scaleY || 1})`;
+    }
+
+    function applyLayerTransform(layer) {
+      const el = stage.querySelector(`.layer[data-id="${layer.id}"]`);
+      if (el) el.style.transform = layerTransform(layer);
     }
 
     function updateSelected() {
@@ -373,6 +389,7 @@
         pointerId: event.pointerId,
         startX: event.clientX,
         startY: event.clientY,
+        layerId: layer.id,
         layerX: layer.x || 0,
         layerY: layer.y || 0
       };
@@ -381,10 +398,13 @@
 
     stage.addEventListener("pointermove", event => {
       if (!drag || event.pointerId !== drag.pointerId) return;
-      const layer = layerById(selectedId);
+      const layer = layerById(drag.layerId);
+      if (!layer) return;
       layer.x = Math.round((drag.layerX + (event.clientX - drag.startX) / stageScale) * 4) / 4;
       layer.y = Math.round((drag.layerY + (event.clientY - drag.startY) / stageScale) * 4) / 4;
-      render();
+      fields.x.value = layer.x;
+      fields.y.value = layer.y;
+      applyLayerTransform(layer);
     });
 
     stage.addEventListener("pointerup", () => {
