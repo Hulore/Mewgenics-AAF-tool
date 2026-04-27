@@ -239,8 +239,10 @@
     function recolorSvgText(text) {
       let result = text;
       for (const [from, to] of Object.entries(previewRecolor)) {
-        result = result.replaceAll(from, to).replaceAll(from.toLowerCase(), to).replaceAll(from.toUpperCase(), to);
+        const escaped = from.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        result = result.replace(new RegExp(escaped, "gi"), to);
       }
+      result = result.replace(/rgb\(\s*17\s*,\s*17\s*,\s*17\s*\)/gi, previewRecolor["#111111"]);
       return result;
     }
 
@@ -248,9 +250,10 @@
       if (objectUrls.has(source)) return objectUrls.get(source);
       const previewPath = source === "$main" ? sampleMainSource : source;
       try {
-        const response = await fetch(previewPath);
+        const response = await fetch(previewPath, { cache: "no-store" });
         if (!response.ok) return previewPath;
-        const text = recolorSvgText(await response.text());
+        const rawText = await response.text();
+        const text = source === "$main" ? rawText : recolorSvgText(rawText);
         const url = URL.createObjectURL(new Blob([text], { type: "image/svg+xml" }));
         objectUrls.set(source, url);
         return url;
