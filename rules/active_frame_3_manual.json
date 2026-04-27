@@ -35,7 +35,12 @@
       "visible": true,
       "anchor": "center",
       "anchorX": 31.075,
-      "anchorY": 26.175
+      "anchorY": 26.175,
+      "boxWidth": 62.15,
+      "boxHeight": 52.35,
+      "fitMode": "stretch",
+      "sourceWidth": 62.15,
+      "sourceHeight": 52.35
     },
     {
       "id": "base_white",

@@ -116,6 +116,27 @@ def layer_anchor(layer: dict, rules_dir: Path, main_svg: Path) -> tuple[float, f
     return min_x + width / 2, min_y + height / 2
 
 
+def layer_scale(layer: dict, rules_dir: Path, main_svg: Path) -> tuple[float, float]:
+    scale_x = float(layer.get("scaleX", 1))
+    scale_y = float(layer.get("scaleY", 1))
+    fit_mode = layer.get("fitMode")
+    box_width = float(layer.get("boxWidth", 0) or 0)
+    box_height = float(layer.get("boxHeight", 0) or 0)
+    if layer.get("type") == "text" or not fit_mode or box_width <= 0 or box_height <= 0:
+        return scale_x, scale_y
+
+    source = resolve_source(layer["source"], rules_dir, main_svg)
+    _min_x, _min_y, source_width, source_height = svg_viewport(source)
+    if source_width <= 0 or source_height <= 0:
+        return scale_x, scale_y
+
+    fit_x = box_width / source_width
+    fit_y = box_height / source_height
+    if fit_mode == "contain":
+        fit_x = fit_y = min(fit_x, fit_y)
+    return scale_x * fit_x, scale_y * fit_y
+
+
 def build(
     rules_path: Path,
     main_svg: Path,
@@ -187,12 +208,8 @@ def build_from_rules(
                 f"{matrix.get('f', 0)}"
                 ")"
             )
-        transform_parts.extend(
-            [
-                f"rotate({layer.get('rotation', 0)})",
-                f"scale({layer.get('scaleX', 1)} {layer.get('scaleY', 1)})",
-            ]
-        )
+        scale_x, scale_y = layer_scale(layer, rules_dir, main_svg)
+        transform_parts.extend([f"rotate({layer.get('rotation', 0)})", f"scale({scale_x} {scale_y})"])
         if layer.get("anchor", "top_left") == "center":
             anchor_x, anchor_y = layer_anchor(layer, rules_dir, main_svg)
             transform_parts.append(f"translate({-anchor_x} {-anchor_y})")

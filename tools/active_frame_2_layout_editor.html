@@ -95,6 +95,22 @@
       line-height: 1;
     }
 
+    .box-layer {
+      box-sizing: border-box;
+      border: 1px dashed rgba(101, 214, 255, 0.8);
+      overflow: hidden;
+      pointer-events: none;
+      transform-origin: 0 0;
+    }
+
+    .box-layer img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      transform-origin: 0 0;
+    }
+
     .selected {
       outline: 1px dashed #65d6ff;
       outline-offset: 2px;
@@ -197,7 +213,7 @@
   <main>
     <div class="label">Active Frame 2 only</div>
     <div id="stage"></div>
-    <div class="hint">Preview recolors only <code>#111111</code> to <code>#8a3746</code>. Layer <code>x/y</code> values are center anchors; text boxes are fitted automatically.</div>
+    <div class="hint">Preview recolors only <code>#111111</code> to <code>#8a3746</code>. Layer <code>x/y</code> values are center anchors; main picture and text boxes use <code>Box W/H</code> containers.</div>
   </main>
 
   <aside>
@@ -466,6 +482,10 @@
       return minFontSize;
     }
 
+    function hasBox(layer) {
+      return Boolean(layer.boxWidth && layer.boxHeight && (layer.type === "text" || layer.fitMode));
+    }
+
     function layerAnchor(layer) {
       if (Number.isFinite(Number(layer.anchorX)) && Number.isFinite(Number(layer.anchorY))) {
         return { x: Number(layer.anchorX), y: Number(layer.anchorY) };
@@ -595,8 +615,19 @@
           img.src = await previewSource(layer.source);
           if (currentRender !== renderRun) return;
           img.draggable = false;
-          img.style.transform = `translate(${-layerAnchor(layer).x * stageScale}px, ${-layerAnchor(layer).y * stageScale}px) scale(${stageScale})`;
-          el.append(img);
+          if (hasBox(layer)) {
+            const box = document.createElement("div");
+            box.className = "box-layer";
+            box.style.width = `${layer.boxWidth * stageScale}px`;
+            box.style.height = `${layer.boxHeight * stageScale}px`;
+            box.style.transform = `translate(${-(layer.boxWidth / 2) * stageScale}px, ${-(layer.boxHeight / 2) * stageScale}px)`;
+            img.style.objectFit = layer.fitMode === "contain" ? "contain" : "fill";
+            box.append(img);
+            el.append(box);
+          } else {
+            img.style.transform = `translate(${-layerAnchor(layer).x * stageScale}px, ${-layerAnchor(layer).y * stageScale}px) scale(${stageScale})`;
+            el.append(img);
+          }
         }
         stageFragment.append(el);
       }
@@ -620,8 +651,8 @@
       fields.visible.checked = layer.visible !== false;
       fields.boxWidth.value = layer.boxWidth || "";
       fields.boxHeight.value = layer.boxHeight || "";
-      fields.boxWidth.disabled = layer.type !== "text";
-      fields.boxHeight.disabled = layer.type !== "text";
+      fields.boxWidth.disabled = !hasBox(layer) && layer.id !== "main_picture";
+      fields.boxHeight.disabled = !hasBox(layer) && layer.id !== "main_picture";
     }
 
     function layerTransform(layer) {
@@ -650,6 +681,11 @@
         layer.anchor = "center";
         layer.anchorX = layer.boxWidth / 2;
         layer.anchorY = layer.boxHeight / 2;
+      } else if (layer.id === "main_picture" || layer.fitMode) {
+        layer.boxWidth = Number(fields.boxWidth.value || layer.boxWidth || 62.15);
+        layer.boxHeight = Number(fields.boxHeight.value || layer.boxHeight || 52.35);
+        layer.fitMode = layer.fitMode || "stretch";
+        layer.anchor = "center";
       }
       render();
     }
