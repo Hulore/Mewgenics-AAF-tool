@@ -1,0 +1,100 @@
+{
+  "canvas": {
+    "width": 72,
+    "height": 72,
+    "viewBox": "0 0 72 72"
+  },
+  "classes": {
+    "butcher": {
+      "color": "#ac4457"
+    },
+    "cleric": {
+      "color": "#fdfdfd"
+    },
+    "colorless": {
+      "color": "#817b77"
+    },
+    "druid": {
+      "color": "#5b4237"
+    },
+    "fighter": {
+      "color": "#b17373"
+    },
+    "hunter": {
+      "color": "#425d3d"
+    },
+    "jester": {
+      "color": "#817b77"
+    },
+    "mage": {
+      "color": "#787899"
+    },
+    "monk": {
+      "color": "#787878"
+    },
+    "necromancer": {
+      "color": "#232425"
+    },
+    "psychic": {
+      "color": "#645379"
+    },
+    "tank": {
+      "color": "#857348"
+    },
+    "thief": {
+      "color": "#fffbb5"
+    },
+    "tinkerer": {
+      "color": "#b5eadc"
+    }
+  },
+  "layers": [
+    {
+      "id": "icon_background",
+      "label": "Icon background",
+      "source": "../../../Passive Abilities Frame/OtherGameFiles/UnpackedImportant/Ability Passive Svg/shapes/516.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    },
+    {
+      "id": "main_picture",
+      "label": "Main picture",
+      "source": "$main",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    },
+    {
+      "id": "class_tint",
+      "label": "Class tint placeholder",
+      "source": "../../../Passive Abilities Frame/OtherGameFiles/UnpackedImportant/Ability Passive Svg/shapes/516.svg",
+      "x": 0,
+      "y": 58,
+      "scaleX": 1,
+      "scaleY": 0.12,
+      "rotation": 0,
+      "visible": true,
+      "recolor": {
+        "#ffffff": "$classColor"
+      }
+    },
+    {
+      "id": "black_frame",
+      "label": "Black frame",
+      "source": "../../../Passive Abilities Frame/OtherGameFiles/UnpackedImportant/Ability Passive Svg/shapes/518.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    }
+  ]
+}

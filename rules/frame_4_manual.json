@@ -1,0 +1,265 @@
+{
+  "canvas": {
+    "width": 116.05,
+    "height": 178,
+    "viewBox": "0 0 116.05 178"
+  },
+  "classes": {
+    "butcher": {
+      "color": "#ac4457"
+    },
+    "cleric": {
+      "color": "#fdfdfd"
+    },
+    "colorless": {
+      "color": "#817b77"
+    },
+    "druid": {
+      "color": "#5b4237"
+    },
+    "fighter": {
+      "color": "#b17373"
+    },
+    "hunter": {
+      "color": "#425d3d"
+    },
+    "jester": {
+      "color": "#817b77"
+    },
+    "mage": {
+      "color": "#787899"
+    },
+    "monk": {
+      "color": "#787878"
+    },
+    "necromancer": {
+      "color": "#232425"
+    },
+    "psychic": {
+      "color": "#645379"
+    },
+    "tank": {
+      "color": "#857348"
+    },
+    "thief": {
+      "color": "#fffbb5"
+    },
+    "tinkerer": {
+      "color": "#b5eadc"
+    }
+  },
+  "frame_variant": "frame_4",
+  "layers": [
+    {
+      "id": "char_2827_d1",
+      "label": "char_2827_d1",
+      "source": "../assets/shell_shapes/2827.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 0.0,
+        "f": 0.0
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "main_picture",
+      "label": "Main picture",
+      "source": "$main",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1.1550903,
+        "b": 0,
+        "c": 0,
+        "d": 1.1522827,
+        "e": 8.75,
+        "f": 7.95
+      },
+      "visible": true
+    },
+    {
+      "id": "char_2828_d9",
+      "label": "char_2828_d9",
+      "source": "../assets/shell_shapes/2828.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 0.0,
+        "f": 0.0
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "char_2829_d10",
+      "label": "char_2829_d10",
+      "source": "../assets/shell_shapes/2829.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 0.70643616,
+        "b": 0,
+        "c": 0,
+        "d": 0.77389526,
+        "e": 13.3,
+        "f": 20.8
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "damage_icon_d11_2762_d1",
+      "label": "damage_icon_d11_2762_d1",
+      "source": "../assets/shell_shapes/2762.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1.1803894,
+        "b": 0.14439392,
+        "c": -0.14439392,
+        "d": 1.1803894,
+        "e": 21.3,
+        "f": 71.55
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "type_d22_2778_d1_2777_d1",
+      "label": "type_d22_2778_d1_2777_d1",
+      "source": "../assets/shell_shapes/2777.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 0.9970896239003612,
+        "b": 0.5756507806019581,
+        "c": -0.5756507806019581,
+        "d": 0.9970896239003612,
+        "e": 19.55,
+        "f": -27.74315758
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "element0_d24_2802_d2",
+      "label": "element0_d24_2802_d2",
+      "source": "../assets/shell_shapes/2802.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 0.94493103,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.94493103,
+        "e": 7.3,
+        "f": -4.25
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "element1_d27_2802_d2",
+      "label": "element1_d27_2802_d2",
+      "source": "../assets/shell_shapes/2802.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 0.94493103,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.94493103,
+        "e": 18.35,
+        "f": -4.2
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "element2_d30_2802_d2",
+      "label": "element2_d30_2802_d2",
+      "source": "../assets/shell_shapes/2802.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 0.94493103,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.94493103,
+        "e": 29.25,
+        "f": -4.2
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    }
+  ]
+}

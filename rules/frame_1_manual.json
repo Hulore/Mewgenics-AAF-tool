@@ -1,0 +1,385 @@
+{
+  "canvas": {
+    "width": 116.05,
+    "height": 178,
+    "viewBox": "0 0 116.05 178"
+  },
+  "classes": {
+    "butcher": {
+      "color": "#ac4457"
+    },
+    "cleric": {
+      "color": "#fdfdfd"
+    },
+    "colorless": {
+      "color": "#817b77"
+    },
+    "druid": {
+      "color": "#5b4237"
+    },
+    "fighter": {
+      "color": "#b17373"
+    },
+    "hunter": {
+      "color": "#425d3d"
+    },
+    "jester": {
+      "color": "#817b77"
+    },
+    "mage": {
+      "color": "#787899"
+    },
+    "monk": {
+      "color": "#787878"
+    },
+    "necromancer": {
+      "color": "#232425"
+    },
+    "psychic": {
+      "color": "#645379"
+    },
+    "tank": {
+      "color": "#857348"
+    },
+    "thief": {
+      "color": "#fffbb5"
+    },
+    "tinkerer": {
+      "color": "#b5eadc"
+    }
+  },
+  "frame_variant": "frame_1",
+  "layers": [
+    {
+      "id": "up1_d1_2756_d1",
+      "label": "up1_d1_2756_d1",
+      "source": "../assets/shell_shapes/2756.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 3.25,
+        "f": -27.1
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "char_2758_d3",
+      "label": "char_2758_d3",
+      "source": "../assets/shell_shapes/2758.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 0.0,
+        "f": 0.0
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "main_picture",
+      "label": "Main picture",
+      "source": "$main",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 13.4,
+        "f": 9.9
+      },
+      "visible": true
+    },
+    {
+      "id": "char_2761_d10",
+      "label": "char_2761_d10",
+      "source": "../assets/shell_shapes/2761.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 0.0,
+        "f": 0.0
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "char_2773_d11_damage_icon_d1_2762_d1",
+      "label": "char_2773_d11_damage_icon_d1_2762_d1",
+      "source": "../assets/shell_shapes/2762.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 8.95,
+        "f": 74.2
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "char_2773_d11_2770_d3_2769_d1",
+      "label": "char_2773_d11_2770_d3_2769_d1",
+      "source": "../assets/shell_shapes/2769.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 0.8357849,
+        "b": 0.552124,
+        "c": -0.46136475,
+        "d": 0.95635986,
+        "e": 42.2,
+        "f": 76.75
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "char_2773_d11_2770_d7_2769_d1",
+      "label": "char_2773_d11_2770_d7_2769_d1",
+      "source": "../assets/shell_shapes/2769.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 0.8357849,
+        "b": 0.552124,
+        "c": -0.46136475,
+        "d": 0.95635986,
+        "e": 42.2,
+        "f": 76.75
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "char_2774_d19",
+      "label": "char_2774_d19",
+      "source": "../assets/shell_shapes/2774.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 0.0,
+        "f": 0.0
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "up0_d20_2775_d1",
+      "label": "up0_d20_2775_d1",
+      "source": "../assets/shell_shapes/2775.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 39.75,
+        "f": 61.35
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "type_d22_2778_d1_2777_d1",
+      "label": "type_d22_2778_d1_2777_d1",
+      "source": "../assets/shell_shapes/2777.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 0.9970896239003612,
+        "b": 0.5756507806019581,
+        "c": -0.5756507806019581,
+        "d": 0.9970896239003612,
+        "e": 19.55,
+        "f": -27.74315758
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "element0_d24_2802_d2",
+      "label": "element0_d24_2802_d2",
+      "source": "../assets/shell_shapes/2802.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 0.94493103,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.94493103,
+        "e": 8.4,
+        "f": -2.85
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "element1_d27_2802_d2",
+      "label": "element1_d27_2802_d2",
+      "source": "../assets/shell_shapes/2802.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 0.94493103,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.94493103,
+        "e": 19.45,
+        "f": -2.8
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "element2_d30_2802_d2",
+      "label": "element2_d30_2802_d2",
+      "source": "../assets/shell_shapes/2802.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 0.94493103,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.94493103,
+        "e": 30.35,
+        "f": -2.8
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    },
+    {
+      "id": "classed_indicator_d33_2816_d1_2815_d2",
+      "label": "classed_indicator_d33_2816_d1_2815_d2",
+      "source": "../assets/shell_shapes/2815.svg",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "matrix": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 1.2148438,
+        "e": -2.45,
+        "f": 15.3
+      },
+      "recolor": {
+        "#111111": "$classColor",
+        "#666666": "$classColor",
+        "#767676": "$classColor"
+      },
+      "visible": true
+    }
+  ]
+}

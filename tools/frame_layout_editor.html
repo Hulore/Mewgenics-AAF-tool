@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mewgenics AAF Frame Layout Editor</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Arial, sans-serif;
+      background: #202124;
+      color: #eeeeee;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: minmax(560px, 1fr) 390px;
+    }
+
+    main {
+      padding: 18px;
+      display: grid;
+      gap: 12px;
+      align-content: start;
+    }
+
+    aside {
+      border-left: 1px solid #3d3f45;
+      padding: 16px;
+      background: #292b31;
+      overflow: auto;
+      max-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    #stage {
+      position: relative;
+      width: 464.2px;
+      height: 712px;
+      background:
+        linear-gradient(45deg, #303238 25%, transparent 25%),
+        linear-gradient(-45deg, #303238 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #303238 75%),
+        linear-gradient(-45deg, transparent 75%, #303238 75%);
+      background-size: 20px 20px;
+      background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+      border: 1px solid #555861;
+      overflow: hidden;
+    }
+
+    .layer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform-origin: 0 0;
+      cursor: move;
+      user-select: none;
+    }
+
+    .layer img {
+      display: block;
+      pointer-events: none;
+      transform-origin: 0 0;
+    }
+
+    .selected {
+      outline: 1px dashed #65d6ff;
+      outline-offset: 2px;
+    }
+
+    .toolbar {
+      display: grid;
+      gap: 10px;
+    }
+
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .layer-list {
+      display: grid;
+      gap: 6px;
+      padding: 8px;
+      border: 1px solid #444850;
+      background: #202228;
+      max-height: 280px;
+      overflow: auto;
+    }
+
+    .layer-row {
+      display: grid;
+      grid-template-columns: 22px minmax(0, 1fr) 28px 28px;
+      gap: 8px;
+      align-items: center;
+      padding: 4px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .layer-row:hover,
+    .layer-row.active {
+      background: #343842;
+    }
+
+    .mini {
+      width: 26px;
+      height: 24px;
+      padding: 0;
+      font-size: 11px;
+    }
+
+    button,
+    select,
+    input,
+    textarea {
+      box-sizing: border-box;
+      border: 1px solid #555861;
+      background: #1d1f24;
+      color: #f2f2f2;
+      border-radius: 4px;
+      padding: 8px;
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+      background: #343842;
+    }
+
+    button:hover {
+      background: #414754;
+    }
+
+    label {
+      display: grid;
+      gap: 5px;
+      color: #d6d7dc;
+      font-size: 13px;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 230px;
+      resize: vertical;
+      font-family: Consolas, monospace;
+      font-size: 12px;
+    }
+
+    .hint,
+    .label {
+      color: #aeb2bd;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="label">Active ability frame variant</div>
+    <div id="stage"></div>
+    <div class="hint">Load <code>rules/frame_variants.json</code> if the list is empty. Export the tuned variant into a separate rules JSON.</div>
+  </main>
+
+  <aside>
+    <div class="toolbar">
+      <label>
+        Frame variants JSON
+        <input id="variantsFile" type="file" accept=".json,application/json">
+      </label>
+      <label>
+        Variant
+        <select id="variantSelect"></select>
+      </label>
+      <label>
+        Main picture preview
+        <input id="mainFile" type="file" accept=".svg,image/svg+xml">
+      </label>
+      <label>
+        Layer
+        <select id="layerSelect"></select>
+      </label>
+      <div>
+        <div class="label">Layer visibility/order</div>
+        <div id="layerList" class="layer-list"></div>
+      </div>
+      <div class="grid3">
+        <label>X <input id="x" type="number" step="0.25"></label>
+        <label>Y <input id="y" type="number" step="0.25"></label>
+        <label>Rotate <input id="rotation" type="number" step="0.25"></label>
+      </div>
+      <div class="grid3">
+        <label>Scale X <input id="scaleX" type="number" step="0.01"></label>
+        <label>Scale Y <input id="scaleY" type="number" step="0.01"></label>
+        <label>Visible <input id="visible" type="checkbox"></label>
+      </div>
+      <div class="grid2">
+        <button id="exportBtn" type="button">Export Variant</button>
+        <button id="importBtn" type="button">Import Variant</button>
+      </div>
+      <textarea id="jsonBox" spellcheck="false"></textarea>
+    </div>
+  </aside>
+
+  <script>
+    const stageScale = 4;
+    const defaultMain = "../assets/shell_shapes/2759.svg";
+    const stage = document.querySelector("#stage");
+    const variantsFile = document.querySelector("#variantsFile");
+    const variantSelect = document.querySelector("#variantSelect");
+    const layerSelect = document.querySelector("#layerSelect");
+    const layerList = document.querySelector("#layerList");
+    const jsonBox = document.querySelector("#jsonBox");
+    const fields = {
+      x: document.querySelector("#x"),
+      y: document.querySelector("#y"),
+      scaleX: document.querySelector("#scaleX"),
+      scaleY: document.querySelector("#scaleY"),
+      rotation: document.querySelector("#rotation"),
+      visible: document.querySelector("#visible")
+    };
+
+    let variantsData = null;
+    let currentVariantKey = "";
+    let rules = null;
+    let selectedId = "";
+    let drag = null;
+    let mainPreviewUrl = null;
+
+    const classes = {
+      butcher: { color: "#ac4457" },
+      cleric: { color: "#fdfdfd" },
+      colorless: { color: "#817b77" },
+      druid: { color: "#5b4237" },
+      fighter: { color: "#b17373" },
+      hunter: { color: "#425d3d" },
+      jester: { color: "#817b77" },
+      mage: { color: "#787899" },
+      monk: { color: "#787878" },
+      necromancer: { color: "#232425" },
+      psychic: { color: "#645379" },
+      tank: { color: "#857348" },
+      thief: { color: "#fffbb5" },
+      tinkerer: { color: "#b5eadc" }
+    };
+
+    function deepCopy(value) {
+      return JSON.parse(JSON.stringify(value));
+    }
+
+    function setVariants(data) {
+      variantsData = data;
+      variantSelect.innerHTML = "";
+      Object.entries(data.variants || {}).forEach(([key, variant]) => {
+        const option = document.createElement("option");
+        option.value = key;
+        option.textContent = variant.label || key;
+        variantSelect.append(option);
+      });
+      currentVariantKey = variantSelect.value || Object.keys(data.variants || {})[0] || "";
+      loadVariant(currentVariantKey);
+    }
+
+    function loadVariant(key) {
+      currentVariantKey = key;
+      const variant = variantsData.variants[key];
+      rules = {
+        canvas: deepCopy(variantsData.canvas),
+        classes,
+        frame_variant: key,
+        layers: deepCopy(variant.layers)
+      };
+      selectedId = rules.layers[0]?.id || "";
+      render();
+    }
+
+    function layerById(id) {
+      return rules.layers.find(layer => layer.id === id);
+    }
+
+    function editorSource(source) {
+      return source === "$main" ? (mainPreviewUrl || defaultMain) : source;
+    }
+
+    function layerTransform(layer) {
+      const matrix = layer.matrix || { a: 1, b: 0, c: 0, d: 1, e: 0, f: 0 };
+      return [
+        `translate(${layer.x * stageScale}px, ${layer.y * stageScale}px)`,
+        `matrix(${matrix.a} ${matrix.b} ${matrix.c} ${matrix.d} ${matrix.e * stageScale} ${matrix.f * stageScale})`,
+        `rotate(${layer.rotation || 0}deg)`,
+        `scale(${layer.scaleX || 1}, ${layer.scaleY || 1})`
+      ].join(" ");
+    }
+
+    function moveLayer(id, delta) {
+      const index = rules.layers.findIndex(layer => layer.id === id);
+      const next = index + delta;
+      if (index < 0 || next < 0 || next >= rules.layers.length) return;
+      const item = rules.layers.splice(index, 1)[0];
+      rules.layers.splice(next, 0, item);
+      selectedId = id;
+      render();
+    }
+
+    function render() {
+      if (!rules) return;
+      stage.innerHTML = "";
+      layerSelect.innerHTML = "";
+      layerList.innerHTML = "";
+
+      rules.layers.forEach((layer, index) => {
+        const option = document.createElement("option");
+        option.value = layer.id;
+        option.textContent = layer.label || layer.id;
+        layerSelect.append(option);
+
+        const row = document.createElement("label");
+        row.className = "layer-row";
+        if (layer.id === selectedId) row.classList.add("active");
+        const check = document.createElement("input");
+        check.type = "checkbox";
+        check.checked = layer.visible !== false;
+        check.addEventListener("change", event => {
+          event.stopPropagation();
+          layer.visible = check.checked;
+          selectedId = layer.id;
+          render();
+        });
+        const text = document.createElement("span");
+        text.textContent = layer.label || layer.id;
+        const up = document.createElement("button");
+        up.type = "button";
+        up.className = "mini";
+        up.textContent = "Up";
+        up.disabled = index === rules.layers.length - 1;
+        up.addEventListener("click", event => {
+          event.stopPropagation();
+          moveLayer(layer.id, 1);
+        });
+        const down = document.createElement("button");
+        down.type = "button";
+        down.className = "mini";
+        down.textContent = "Dn";
+        down.disabled = index === 0;
+        down.addEventListener("click", event => {
+          event.stopPropagation();
+          moveLayer(layer.id, -1);
+        });
+        row.addEventListener("click", event => {
+          if (event.target !== check && event.target !== up && event.target !== down) {
+            selectedId = layer.id;
+            render();
+          }
+        });
+        row.append(check, text, up, down);
+        layerList.append(row);
+
+        const el = document.createElement("div");
+        el.className = "layer";
+        if (layer.id === selectedId) el.classList.add("selected");
+        el.dataset.id = layer.id;
+        el.style.display = layer.visible === false ? "none" : "block";
+        el.style.zIndex = String(index + 1);
+        el.style.transform = layerTransform(layer);
+
+        const img = document.createElement("img");
+        img.src = editorSource(layer.source);
+        img.draggable = false;
+        img.style.transform = `scale(${stageScale})`;
+        el.append(img);
+        stage.append(el);
+      });
+
+      layerSelect.value = selectedId;
+      syncControls();
+    }
+
+    function syncControls() {
+      const layer = layerById(selectedId);
+      if (!layer) return;
+      fields.x.value = layer.x || 0;
+      fields.y.value = layer.y || 0;
+      fields.scaleX.value = layer.scaleX ?? 1;
+      fields.scaleY.value = layer.scaleY ?? 1;
+      fields.rotation.value = layer.rotation || 0;
+      fields.visible.checked = layer.visible !== false;
+    }
+
+    function updateSelected() {
+      const layer = layerById(selectedId);
+      if (!layer) return;
+      layer.x = Number(fields.x.value);
+      layer.y = Number(fields.y.value);
+      layer.scaleX = Number(fields.scaleX.value);
+      layer.scaleY = Number(fields.scaleY.value);
+      layer.rotation = Number(fields.rotation.value);
+      layer.visible = fields.visible.checked;
+      render();
+    }
+
+    variantsFile.addEventListener("change", async event => {
+      const file = event.target.files[0];
+      if (!file) return;
+      setVariants(JSON.parse(await file.text()));
+    });
+
+    variantSelect.addEventListener("change", () => loadVariant(variantSelect.value));
+
+    layerSelect.addEventListener("change", () => {
+      selectedId = layerSelect.value;
+      render();
+    });
+
+    Object.values(fields).forEach(input => input.addEventListener("input", updateSelected));
+
+    stage.addEventListener("pointerdown", event => {
+      const el = event.target.closest(".layer");
+      if (!el || !rules) return;
+      selectedId = el.dataset.id;
+      const layer = layerById(selectedId);
+      drag = {
+        pointerId: event.pointerId,
+        startX: event.clientX,
+        startY: event.clientY,
+        layerX: layer.x || 0,
+        layerY: layer.y || 0
+      };
+      el.setPointerCapture(event.pointerId);
+      render();
+    });
+
+    stage.addEventListener("pointermove", event => {
+      if (!drag || event.pointerId !== drag.pointerId) return;
+      const layer = layerById(selectedId);
+      layer.x = Math.round((drag.layerX + (event.clientX - drag.startX) / stageScale) * 4) / 4;
+      layer.y = Math.round((drag.layerY + (event.clientY - drag.startY) / stageScale) * 4) / 4;
+      render();
+    });
+
+    stage.addEventListener("pointerup", () => {
+      drag = null;
+    });
+
+    document.querySelector("#mainFile").addEventListener("change", event => {
+      const file = event.target.files[0];
+      if (!file) return;
+      if (mainPreviewUrl) URL.revokeObjectURL(mainPreviewUrl);
+      mainPreviewUrl = URL.createObjectURL(file);
+      render();
+    });
+
+    document.querySelector("#exportBtn").addEventListener("click", () => {
+      jsonBox.value = JSON.stringify(rules, null, 2);
+      jsonBox.select();
+    });
+
+    document.querySelector("#importBtn").addEventListener("click", () => {
+      rules = JSON.parse(jsonBox.value);
+      selectedId = rules.layers[0]?.id || "";
+      render();
+    });
+
+    fetch("../rules/frame_variants.json")
+      .then(response => response.ok ? response.json() : null)
+      .then(data => {
+        if (data) setVariants(data);
+      })
+      .catch(() => {
+        jsonBox.value = "Open rules/frame_variants.json with the file picker above.";
+      });
+  </script>
+</body>
+</html>

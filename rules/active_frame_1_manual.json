@@ -1,0 +1,57 @@
+{
+  "canvas": {
+    "width": 120,
+    "height": 150,
+    "viewBox": "0 0 120 150"
+  },
+  "frame_variant": "active_frame_1",
+  "preview_recolor": {
+    "#111111": "#8a3746"
+  },
+  "layers": [
+    {
+      "id": "base_white",
+      "label": "2760 base white",
+      "source": "../../SVG Important/shapes/Atcive Frame 1/2760.svg",
+      "x": 16,
+      "y": 10,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    },
+    {
+      "id": "class_body",
+      "label": "2763 class body",
+      "source": "../../SVG Important/shapes/Atcive Frame 1/2763.svg",
+      "x": 16,
+      "y": 10,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    },
+    {
+      "id": "black_outline",
+      "label": "2776 black outline",
+      "source": "../../SVG Important/shapes/Atcive Frame 1/2776.svg",
+      "x": 14,
+      "y": 8,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    },
+    {
+      "id": "bottom_slots",
+      "label": "2817 bottom slots",
+      "source": "../../SVG Important/shapes/Atcive Frame 1/2817.svg",
+      "x": 7,
+      "y": 105,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    }
+  ]
+}
