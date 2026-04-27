@@ -80,6 +80,7 @@ def number_overrides(ability: dict) -> dict[str, dict]:
     overrides: dict[str, dict] = {
         "damage_number_text": {"text": numbers.get("value") or ""},
         "mana_number_text": {"text": numbers.get("mana") or ""},
+        "upgraded_overlay": {"visible": (ability.get("variant") == "upgraded")},
     }
 
     if numbers.get("frame_type") == "Xdmg_Mana":
