@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import json
 from copy import deepcopy
 from pathlib import Path
@@ -9,6 +10,12 @@ from xml.etree import ElementTree as ET
 
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
+
+DEFAULT_FONT_PATHS = {
+    "MewgenicsNumber": Path(
+        r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Number Fonts\fonts\1_TikaFont_TikaFont Adjusted Regular.ttf"
+    ),
+}
 
 
 def read_svg_children(path: Path, recolor: dict[str, str]) -> list[ET.Element]:
@@ -28,6 +35,24 @@ def resolve_source(source: str, rules_dir: Path, main_svg: Path) -> Path:
     if not path.is_absolute():
         path = (rules_dir / path).resolve()
     return path
+
+
+def font_face_style(font_families: set[str]) -> str:
+    rules: list[str] = []
+    for family in sorted(font_families):
+        path = DEFAULT_FONT_PATHS.get(family)
+        if not path or not path.exists():
+            continue
+        encoded = base64.b64encode(path.read_bytes()).decode("ascii")
+        rules.append(
+            "@font-face { "
+            f"font-family: '{family}'; "
+            f"src: url(data:font/ttf;base64,{encoded}) format('truetype'); "
+            "font-weight: 400; "
+            "font-style: normal; "
+            "}"
+        )
+    return "\n".join(rules)
 
 
 def build(
@@ -67,6 +92,16 @@ def build_from_rules(
             "version": "1.1",
         },
     )
+    text_font_families = {
+        layer.get("fontFamily")
+        for layer in rules.get("layers", [])
+        if layer.get("type") == "text" and layer.get("fontFamily")
+    }
+    style_text = font_face_style(text_font_families)
+    if style_text:
+        defs = ET.SubElement(root, f"{{{SVG_NS}}}defs")
+        style = ET.SubElement(defs, f"{{{SVG_NS}}}style", {"type": "text/css"})
+        style.text = style_text
 
     for layer in rules["layers"]:
         if not layer.get("visible", True):
@@ -117,6 +152,7 @@ def build_from_rules(
                     "fill": layer.get("fill", "#000000"),
                     "font-family": layer.get("fontFamily", "sans-serif"),
                     "font-size": str(layer.get("fontSize", 12)),
+                    "text-anchor": layer.get("textAnchor", "start"),
                     "dominant-baseline": "hanging",
                 },
             )

@@ -8,6 +8,11 @@ import sys
 from copy import deepcopy
 from pathlib import Path
 
+try:
+    from PIL import ImageFont
+except ImportError:  # pragma: no cover - local tool fallback
+    ImageFont = None
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from scripts.classify_active_abilities_from_wiki import prepare_frame_rules
@@ -29,6 +34,9 @@ NUMBER_ICON_SOURCES = {
     "heal": Path(r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Svg number icons\shapes\2763.svg"),
     "damage_or_heal": Path(r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Svg number icons\shapes\2764.svg"),
 }
+NUMBER_FONT_PATH = Path(
+    r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Number Fonts\fonts\1_TikaFont_TikaFont Adjusted Regular.ttf"
+)
 
 
 def safe_name(value: str) -> str:
@@ -45,11 +53,43 @@ def load_frame_rules(frame_rules: dict[str, Path]) -> dict[str, tuple[dict, Path
     return loaded
 
 
-def number_overrides(ability: dict) -> dict[str, dict]:
+def text_width(text: str, font_size: float, font_family: str) -> float:
+    if ImageFont and font_family == "MewgenicsNumber" and NUMBER_FONT_PATH.exists():
+        font = ImageFont.truetype(str(NUMBER_FONT_PATH), int(round(font_size)))
+        return float(font.getlength(text))
+    return len(text) * font_size * 0.6
+
+
+def centered_text_x(layer: dict) -> float:
+    sample_text = str(layer.get("text") or "")
+    if not sample_text:
+        return float(layer.get("x", 0))
+    width = text_width(sample_text, float(layer.get("fontSize", 12)), layer.get("fontFamily", ""))
+    return float(layer.get("x", 0)) + width * float(layer.get("scaleX", 1)) / 2
+
+
+def text_layer_by_id(frame_rules_data: dict, layer_id: str) -> dict:
+    for layer in frame_rules_data.get("layers", []):
+        if layer.get("id") == layer_id:
+            return layer
+    return {}
+
+
+def number_overrides(ability: dict, frame_rules_data: dict) -> dict[str, dict]:
     numbers = ability.get("numbers") or {}
+    damage_layer = text_layer_by_id(frame_rules_data, "damage_number_text")
+    mana_layer = text_layer_by_id(frame_rules_data, "mana_number_text")
     overrides: dict[str, dict] = {
-        "damage_number_text": {"text": numbers.get("value") or ""},
-        "mana_number_text": {"text": numbers.get("mana") or ""},
+        "damage_number_text": {
+            "text": numbers.get("value") or "",
+            "x": centered_text_x(damage_layer),
+            "textAnchor": "middle",
+        },
+        "mana_number_text": {
+            "text": numbers.get("mana") or "",
+            "x": centered_text_x(mana_layer),
+            "textAnchor": "middle",
+        },
     }
 
     if numbers.get("frame_type") == "Xdmg_Mana":
@@ -110,7 +150,7 @@ def generate(
                     main_svg.resolve(),
                     class_name,
                     output_svg.resolve(),
-                    number_overrides(ability),
+                    number_overrides(ability, frame_rules_data),
                 )
             except Exception as exc:
                 errors.append(f"{ability_id} [{frame_type}/{variant}]: {exc}")
