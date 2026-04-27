@@ -1,0 +1,824 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Butcher",
+  "frame_type": "Dmg_Mana",
+  "count": 34,
+  "abilities": [
+    {
+      "wiki_name": "Binge",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Gain -1 Speed, +1 Constitution, and +1 Strength.Upgraded: Gain -1 Speed, +1 Constitution, +1 Strength, and heal 4 HP.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Binge",
+        "display_name": "Binge",
+        "tool_class": "butcher",
+        "icon_label": "Binge",
+        "resolved_icon_label": "Binge",
+        "main_svg_id": "969",
+        "main_svg_filename": "969.svg"
+      },
+      "numbers": {
+        "raw": "N/A 2",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Binge",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Gain -1 Speed, +1 Constitution, and +1 Strength.Upgraded: Gain -1 Speed, +1 Constitution, +1 Strength, and heal 4 HP.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Binge",
+        "display_name": "Binge",
+        "tool_class": "butcher",
+        "icon_label": "Binge",
+        "resolved_icon_label": "Binge",
+        "main_svg_id": "969",
+        "main_svg_filename": "969.svg"
+      },
+      "numbers": {
+        "raw": "4 2",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Blood Magic",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Take 5 damage and gain 5 mana. (Castable once per turn.) Upgraded: Take 5 damage and gain 10 mana. (Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BloodMagic",
+        "display_name": "Blood Magic",
+        "tool_class": "butcher",
+        "icon_label": "BloodMagic",
+        "resolved_icon_label": "BloodMagic",
+        "main_svg_id": "954",
+        "main_svg_filename": "954.svg"
+      },
+      "numbers": {
+        "raw": "5 0",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Body Slam",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP.Upgraded: Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP. This attack inflicts Bruise and has a chance to Stun.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BodySlam",
+        "display_name": "Body Slam",
+        "tool_class": "butcher",
+        "icon_label": "BodySlam",
+        "resolved_icon_label": "BodySlam",
+        "main_svg_id": "953",
+        "main_svg_filename": "953.svg"
+      },
+      "numbers": {
+        "raw": "1 6",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cannon Ball!",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, stun it. (Castable once per turn.) Upgraded: Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, damage and stun it. (This spell costs less.) (Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CannonBall",
+        "display_name": "Cannon Ball!",
+        "tool_class": "butcher",
+        "icon_label": "CannonBall",
+        "resolved_icon_label": "CannonBall",
+        "main_svg_id": "962",
+        "main_svg_filename": "962.svg"
+      },
+      "numbers": {
+        "raw": "N/A 4",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cannon Ball!",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, stun it. (Castable once per turn.) Upgraded: Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, damage and stun it. (This spell costs less.) (Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CannonBall",
+        "display_name": "Cannon Ball!",
+        "tool_class": "butcher",
+        "icon_label": "CannonBall",
+        "resolved_icon_label": "CannonBall",
+        "main_svg_id": "962",
+        "main_svg_filename": "962.svg"
+      },
+      "numbers": {
+        "raw": "10 2",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Chomp",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "A melee attack with Life Steal. If used on an ally, gain +1 Strength. If used on a pickup, gain double that pickup's effects.Upgraded: A wide melee attack with Life Steal. If used on an ally, gain +1 Strength. If used on a pickup, gain double that pickup's effects.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Chomp",
+        "display_name": "Chomp",
+        "tool_class": "butcher",
+        "icon_label": "Chomp",
+        "resolved_icon_label": "Chomp",
+        "main_svg_id": "949",
+        "main_svg_filename": "949.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Chonkwalk",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Deal 5 damage to yourself. Refresh your movement action.Upgraded: Deal 5 damage to yourself. Refresh your movement action. PASSIVE: You have Trample.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Chonkwalk",
+        "display_name": "Chonkwalk",
+        "tool_class": "butcher",
+        "icon_label": "Chonkwalk",
+        "resolved_icon_label": "Chonkwalk",
+        "main_svg_id": "985",
+        "main_svg_filename": "985.svg"
+      },
+      "numbers": {
+        "raw": "5 2",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Crushinator",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 3 Knockback to units without Shield.Upgraded: This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 10 Knockback to units without Shield.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Crushinator",
+        "display_name": "Crushinator",
+        "tool_class": "butcher",
+        "icon_label": "Crushinator",
+        "resolved_icon_label": "Crushinator",
+        "main_svg_id": "961",
+        "main_svg_filename": "961.svg"
+      },
+      "numbers": {
+        "raw": "20 6",
+        "frame_type": "Dmg_Mana",
+        "value": "20",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Crushinator",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 3 Knockback to units without Shield.Upgraded: This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 10 Knockback to units without Shield.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Crushinator",
+        "display_name": "Crushinator",
+        "tool_class": "butcher",
+        "icon_label": "Crushinator",
+        "resolved_icon_label": "Crushinator",
+        "main_svg_id": "961",
+        "main_svg_filename": "961.svg"
+      },
+      "numbers": {
+        "raw": "50 6",
+        "frame_type": "Dmg_Mana",
+        "value": "50",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fartoom!",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Lose 25% of your current HP, deal that much damage to adjacent units, and deal Knockback to them.Upgraded: Lose 25% of your HP, deal that much damage to nearby units, and deal Knockback to them.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Fartoom",
+        "display_name": "Fartoom!",
+        "tool_class": "butcher",
+        "icon_label": "Fartoom",
+        "resolved_icon_label": "Fartoom",
+        "main_svg_id": "945",
+        "main_svg_filename": "945.svg"
+      },
+      "numbers": {
+        "raw": "1 5",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fartoom!",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Lose 25% of your current HP, deal that much damage to adjacent units, and deal Knockback to them.Upgraded: Lose 25% of your HP, deal that much damage to nearby units, and deal Knockback to them.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Fartoom",
+        "display_name": "Fartoom!",
+        "tool_class": "butcher",
+        "icon_label": "Fartoom",
+        "resolved_icon_label": "Fartoom",
+        "main_svg_id": "945",
+        "main_svg_filename": "945.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Force Feed",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Heal an adjacent unit and give that unit +1 Constitution and -1 Speed.Upgraded: Heal a unit within range and give that unit +1 Constitution and -1 Speed.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "ForceFeed",
+        "display_name": "Force Feed",
+        "tool_class": "butcher",
+        "icon_label": "ForceFeed",
+        "resolved_icon_label": "ForceFeed",
+        "main_svg_id": "944",
+        "main_svg_filename": "944.svg"
+      },
+      "numbers": {
+        "raw": "4 3",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gib",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Attack a unit in melee range. If this kills it, it becomes 3 food pickups.Upgraded: Attack a unit in melee range for more damage. If this kills it, it becomes 3 food pickups.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Gib",
+        "display_name": "Gib",
+        "tool_class": "butcher",
+        "icon_label": "Gib",
+        "resolved_icon_label": "Gib",
+        "main_svg_id": "976",
+        "main_svg_filename": "976.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gib",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Attack a unit in melee range. If this kills it, it becomes 3 food pickups.Upgraded: Attack a unit in melee range for more damage. If this kills it, it becomes 3 food pickups.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Gib",
+        "display_name": "Gib",
+        "tool_class": "butcher",
+        "icon_label": "Gib",
+        "resolved_icon_label": "Gib",
+        "main_svg_id": "976",
+        "main_svg_filename": "976.svg"
+      },
+      "numbers": {
+        "raw": "6 5",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hog Rush",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Trample over to a tile with meat on it.Upgraded: Trample over to a tile with meat on it and Cleave all units in your way.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "HogRush",
+        "display_name": "Hog Rush",
+        "tool_class": "butcher",
+        "icon_label": "HogRush",
+        "resolved_icon_label": "HogRush",
+        "main_svg_id": "941",
+        "main_svg_filename": "941.svg"
+      },
+      "numbers": {
+        "raw": "N/A 7",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hog Rush",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Trample over to a tile with meat on it.Upgraded: Trample over to a tile with meat on it and Cleave all units in your way.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "HogRush",
+        "display_name": "Hog Rush",
+        "tool_class": "butcher",
+        "icon_label": "HogRush",
+        "resolved_icon_label": "HogRush",
+        "main_svg_id": "941",
+        "main_svg_filename": "941.svg"
+      },
+      "numbers": {
+        "raw": "3 7",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hook Bind",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Melee attack that immobilizes.Upgraded: Melee attack that immobilizes and inflicts Bleed 2.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "HookBind",
+        "display_name": "Hook Bind",
+        "tool_class": "butcher",
+        "icon_label": "HookBind",
+        "resolved_icon_label": "HookBind",
+        "main_svg_id": "978",
+        "main_svg_filename": "978.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lighten the Load",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Take 25 damage. You take an extra turn after this one. (This spell can't be cast on extra turns.) Upgraded: Take 15 damage. You take an extra turn after this one. (This spell can't be cast on extra turns.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "LightenTheLoad",
+        "display_name": "Lighten the Load",
+        "tool_class": "butcher",
+        "icon_label": "LightenTheLoad",
+        "resolved_icon_label": "LightenTheLoad",
+        "main_svg_id": "960",
+        "main_svg_filename": "960.svg"
+      },
+      "numbers": {
+        "raw": "25 2",
+        "frame_type": "Dmg_Mana",
+        "value": "25",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lighten the Load",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Take 25 damage. You take an extra turn after this one. (This spell can't be cast on extra turns.) Upgraded: Take 15 damage. You take an extra turn after this one. (This spell can't be cast on extra turns.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "LightenTheLoad",
+        "display_name": "Lighten the Load",
+        "tool_class": "butcher",
+        "icon_label": "LightenTheLoad",
+        "resolved_icon_label": "LightenTheLoad",
+        "main_svg_id": "960",
+        "main_svg_filename": "960.svg"
+      },
+      "numbers": {
+        "raw": "15 2",
+        "frame_type": "Dmg_Mana",
+        "value": "15",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lunch Time",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Jump to a food pickup in range 4.Upgraded: Jump to any food pickup.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "LunchTime",
+        "display_name": "Lunch Time",
+        "tool_class": "butcher",
+        "icon_label": "LunchTime",
+        "resolved_icon_label": "LunchTime",
+        "main_svg_id": "958",
+        "main_svg_filename": "958.svg"
+      },
+      "numbers": {
+        "raw": "5 3",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Monch",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "A melee attack with lifesteal. This spell does more damage the less health you have.Upgraded: A melee attack with lifesteal. This spell does more damage the less health you have. (This spell costs less.)",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "Monch",
+        "display_name": "Monch",
+        "tool_class": "butcher",
+        "icon_label": "Monch",
+        "resolved_icon_label": "Monch",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "1 5",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Monch",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "A melee attack with lifesteal. This spell does more damage the less health you have.Upgraded: A melee attack with lifesteal. This spell does more damage the less health you have. (This spell costs less.)",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "Monch",
+        "display_name": "Monch",
+        "tool_class": "butcher",
+        "icon_label": "Monch",
+        "resolved_icon_label": "Monch",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Purge",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Puke on the tile in front of you. You get -1 Constitution and +2 Speed.Upgraded: Puke on a tile in range. You get -1 Constitution and +2 Speed.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ButcherPurge",
+        "display_name": "Purge",
+        "tool_class": "butcher",
+        "icon_label": "ButcherPurge",
+        "resolved_icon_label": "ButcherPurge",
+        "main_svg_id": "970",
+        "main_svg_filename": "970.svg"
+      },
+      "numbers": {
+        "raw": "1 2",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Purge",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Puke on the tile in front of you. You get -1 Constitution and +2 Speed.Upgraded: Puke on a tile in range. You get -1 Constitution and +2 Speed.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ButcherPurge",
+        "display_name": "Purge",
+        "tool_class": "butcher",
+        "icon_label": "ButcherPurge",
+        "resolved_icon_label": "ButcherPurge",
+        "main_svg_id": "970",
+        "main_svg_filename": "970.svg"
+      },
+      "numbers": {
+        "raw": "5 2",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reflux",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Take 2 damage and gain Burn 2, then fire a projectile that spawns a lava tile at short range.Upgraded: Take 2 damage and gain Burn 2, then fire a projectile that spawns a lava tile at long range.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Reflux",
+        "display_name": "Reflux",
+        "tool_class": "butcher",
+        "icon_label": "Reflux",
+        "resolved_icon_label": "Reflux",
+        "main_svg_id": "980",
+        "main_svg_filename": "980.svg"
+      },
+      "numbers": {
+        "raw": "1 7",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Roast",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Breathe a cone of fire.Upgraded: Breathe a larger cone of fire.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Roast",
+        "display_name": "Roast",
+        "tool_class": "butcher",
+        "icon_label": "Roast",
+        "resolved_icon_label": "Roast",
+        "main_svg_id": "967",
+        "main_svg_filename": "967.svg"
+      },
+      "numbers": {
+        "raw": "3 6",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Roast",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Breathe a cone of fire.Upgraded: Breathe a larger cone of fire.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Roast",
+        "display_name": "Roast",
+        "tool_class": "butcher",
+        "icon_label": "Roast",
+        "resolved_icon_label": "Roast",
+        "main_svg_id": "967",
+        "main_svg_filename": "967.svg"
+      },
+      "numbers": {
+        "raw": "4 6",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rough Toss",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Throw an adjacent unit to an empty tile, dealing a lot of damage to that unit.Upgraded: Throw an adjacent unit to another tile (even if it isnt empty), dealing a lot of damage to that unit and whatever it lands on.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "RoughToss",
+        "display_name": "Rough Toss",
+        "tool_class": "butcher",
+        "icon_label": "RoughToss",
+        "resolved_icon_label": "RoughToss",
+        "main_svg_id": "971",
+        "main_svg_filename": "971.svg"
+      },
+      "numbers": {
+        "raw": "7 6",
+        "frame_type": "Dmg_Mana",
+        "value": "7",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Self Harm",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Attack yourself with Cleave to gain +2 Strength.Upgraded: Attack yourself at half damage with Cleave to gain +2 Strength.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SelfMutilate",
+        "display_name": "Self Harm",
+        "tool_class": "butcher",
+        "icon_label": "SelfMutilate",
+        "resolved_icon_label": "SelfMutilate",
+        "main_svg_id": "943",
+        "main_svg_filename": "943.svg"
+      },
+      "numbers": {
+        "raw": "5 2",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Self Harm",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Attack yourself with Cleave to gain +2 Strength.Upgraded: Attack yourself at half damage with Cleave to gain +2 Strength.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SelfMutilate",
+        "display_name": "Self Harm",
+        "tool_class": "butcher",
+        "icon_label": "SelfMutilate",
+        "resolved_icon_label": "SelfMutilate",
+        "main_svg_id": "943",
+        "main_svg_filename": "943.svg"
+      },
+      "numbers": {
+        "raw": "2 2",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Skull Bash",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "A range 1 dash attack that inflicts Stun and knockback. Also stuns yourself.Upgraded: A range 4 dash attack that inflicts Stun and knockback. Has a 50% chance to stun yourself.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SkullBash",
+        "display_name": "Skull Bash",
+        "tool_class": "butcher",
+        "icon_label": "SkullBash",
+        "resolved_icon_label": "SkullBash",
+        "main_svg_id": "947",
+        "main_svg_filename": "947.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tromp",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Trample over one tile. If you trample over a unit, you inflict Bruise on that unit and yourself.Upgraded: Trample over one tile. If you trample over a unit, you inflict Bruise on that unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Tromp",
+        "display_name": "Tromp",
+        "tool_class": "butcher",
+        "icon_label": "Tromp",
+        "resolved_icon_label": "Tromp",
+        "main_svg_id": "959",
+        "main_svg_filename": "959.svg"
+      },
+      "numbers": {
+        "raw": "3 3",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tromp",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Trample over one tile. If you trample over a unit, you inflict Bruise on that unit and yourself.Upgraded: Trample over one tile. If you trample over a unit, you inflict Bruise on that unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Tromp",
+        "display_name": "Tromp",
+        "tool_class": "butcher",
+        "icon_label": "Tromp",
+        "resolved_icon_label": "Tromp",
+        "main_svg_id": "959",
+        "main_svg_filename": "959.svg"
+      },
+      "numbers": {
+        "raw": "3 2",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

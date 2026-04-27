@@ -1,0 +1,848 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Fighter",
+  "frame_type": "Dmg_Mana",
+  "count": 35,
+  "abilities": [
+    {
+      "wiki_name": "Assert Dominance",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A weak melee attack. If this kills anything, you become the Alpha. If you are the Alpha, this spell deals 5 additional damage and inflicts Bruise.Upgraded: A weak melee attack. If this kills anything, you become the Alpha and gain +2 Strength. If you are the Alpha, this spell deals 5 additional damage and inflicts Bruise.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "AssertDominance",
+        "display_name": "Assert Dominance",
+        "tool_class": "fighter",
+        "icon_label": "AssertDominance",
+        "resolved_icon_label": "AssertDominance",
+        "main_svg_id": "866",
+        "main_svg_filename": "866.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Berserker Dash",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A short range dash attack.Upgraded: A dash attack with infinite range.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BerserkDash",
+        "display_name": "Berserker Dash",
+        "tool_class": "fighter",
+        "icon_label": "BerserkDash",
+        "resolved_icon_label": "BerserkDash",
+        "main_svg_id": "834",
+        "main_svg_filename": "834.svg"
+      },
+      "numbers": {
+        "raw": "1 2",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Big Punch",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A melee attack. This spell's mana cost increases by 2 each time it's cast.Upgraded: A melee attack. This spell's mana cost increases by 1 each time it's cast.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BigPunch",
+        "display_name": "Big Punch",
+        "tool_class": "fighter",
+        "icon_label": "BigPunch",
+        "resolved_icon_label": "BigPunch",
+        "main_svg_id": "874",
+        "main_svg_filename": "874.svg"
+      },
+      "numbers": {
+        "raw": "10 3",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Breaking Point",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Deal damage, knockback, and knockback damage equal to your Strength. Reduce this spell's mana cost by 1 each time you take damage. (Castable once per turn.) Upgraded: Deal damage, knockback, and knockback damage equal to your Strength. Reduce this spell's mana cost by 2 each time you take damage. (Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BreakingPoint",
+        "display_name": "Breaking Point",
+        "tool_class": "fighter",
+        "icon_label": "BreakingPoint",
+        "resolved_icon_label": "BreakingPoint",
+        "main_svg_id": "867",
+        "main_svg_filename": "867.svg"
+      },
+      "numbers": {
+        "raw": "5 15",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "15",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bull Rush",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Dash forward and attack with knockback.Upgraded: Dash forward and attack with knockback. Repeat this if you hit something.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Dash",
+        "display_name": "Bull Rush",
+        "tool_class": "fighter",
+        "icon_label": "Dash",
+        "resolved_icon_label": "Dash",
+        "main_svg_id": "831",
+        "main_svg_filename": "831.svg"
+      },
+      "numbers": {
+        "raw": "3 6",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cosmic Punch",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Punch a unit into SPACE! They will fall back down at the end of the round. Upgraded: Punch a unit into SPACE! They will fall back down at the end of the round. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "CosmicPunch",
+        "display_name": "Cosmic Punch",
+        "tool_class": "fighter",
+        "icon_label": "CosmicPunch",
+        "resolved_icon_label": "CosmicPunch",
+        "main_svg_id": "844",
+        "main_svg_filename": "844.svg"
+      },
+      "numbers": {
+        "raw": "10 5",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cosmic Punch",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Punch a unit into SPACE! They will fall back down at the end of the round. Upgraded: Punch a unit into SPACE! They will fall back down at the end of the round. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "CosmicPunch",
+        "display_name": "Cosmic Punch",
+        "tool_class": "fighter",
+        "icon_label": "CosmicPunch",
+        "resolved_icon_label": "CosmicPunch",
+        "main_svg_id": "844",
+        "main_svg_filename": "844.svg"
+      },
+      "numbers": {
+        "raw": "10 1",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Exhausting Blow",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Dash forward one tile and attack with knockback. (This spell's mana cost increases by 2 at the end of each of your turns.) Upgraded: Dash forward any number of tiles and attack with knockback. (This spell's mana cost increases by 2 at the end of each of your turns.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ExhaustingBlow",
+        "display_name": "Exhausting Blow",
+        "tool_class": "fighter",
+        "icon_label": "ExhaustingBlow",
+        "resolved_icon_label": "ExhaustingBlow",
+        "main_svg_id": "861",
+        "main_svg_filename": "861.svg"
+      },
+      "numbers": {
+        "raw": "5 2",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Falcon Punch",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Charge up a mega punch. (This punch will be unleashed on your next turn.) (Castable once per turn.) Upgraded: Charge up a mega dash attack. (This punch will be unleashed on your next turn.) (Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FalconPunch",
+        "display_name": "Falcon Punch",
+        "tool_class": "fighter",
+        "icon_label": "FalconPunch",
+        "resolved_icon_label": "FalconPunch",
+        "main_svg_id": "838",
+        "main_svg_filename": "838.svg"
+      },
+      "numbers": {
+        "raw": "25 2",
+        "frame_type": "Dmg_Mana",
+        "value": "25",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fire Punch",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A melee attack that inflicts Burn 3.Upgraded: A melee attack that inflicts more Burn the more Strength you have.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FirePunch",
+        "display_name": "Fire Punch",
+        "tool_class": "fighter",
+        "icon_label": "FirePunch",
+        "resolved_icon_label": "FirePunch",
+        "main_svg_id": "824",
+        "main_svg_filename": "824.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hurl",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Toss an adjacent unit at a random unit.Upgraded: Toss an adjacent unit at a random unit. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Hurl",
+        "display_name": "Hurl",
+        "tool_class": "fighter",
+        "icon_label": "Hurl",
+        "resolved_icon_label": "Hurl",
+        "main_svg_id": "875",
+        "main_svg_filename": "875.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hurl",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Toss an adjacent unit at a random unit.Upgraded: Toss an adjacent unit at a random unit. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Hurl",
+        "display_name": "Hurl",
+        "tool_class": "fighter",
+        "icon_label": "Hurl",
+        "resolved_icon_label": "Hurl",
+        "main_svg_id": "875",
+        "main_svg_filename": "875.svg"
+      },
+      "numbers": {
+        "raw": "5 2",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ice Punch",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A melee attack that inflicts Freeze.Upgraded: A much stronger melee attack that inflicts Freeze.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "IcePunch",
+        "display_name": "Ice Punch",
+        "tool_class": "fighter",
+        "icon_label": "IcePunch",
+        "resolved_icon_label": "IcePunch",
+        "main_svg_id": "825",
+        "main_svg_filename": "825.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ice Punch",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "A melee attack that inflicts Freeze.Upgraded: A much stronger melee attack that inflicts Freeze.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "IcePunch",
+        "display_name": "Ice Punch",
+        "tool_class": "fighter",
+        "icon_label": "IcePunch",
+        "resolved_icon_label": "IcePunch",
+        "main_svg_id": "825",
+        "main_svg_filename": "825.svg"
+      },
+      "numbers": {
+        "raw": "10 7",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lacerate",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A melee attack that inflicts Bleed 2.Upgraded: A stronger melee attack that inflicts Bleed 2.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Lacerate",
+        "display_name": "Lacerate",
+        "tool_class": "fighter",
+        "icon_label": "Lacerate",
+        "resolved_icon_label": "Lacerate",
+        "main_svg_id": "862",
+        "main_svg_filename": "862.svg"
+      },
+      "numbers": {
+        "raw": "3 4",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lacerate",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "A melee attack that inflicts Bleed 2.Upgraded: A stronger melee attack that inflicts Bleed 2.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Lacerate",
+        "display_name": "Lacerate",
+        "tool_class": "fighter",
+        "icon_label": "Lacerate",
+        "resolved_icon_label": "Lacerate",
+        "main_svg_id": "862",
+        "main_svg_filename": "862.svg"
+      },
+      "numbers": {
+        "raw": "5 4",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Leap",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Jump to an open tile within range, then inflict Bruise on all adjacent units.Upgraded: Jump to an open tile within range, then damage and inflict Bruise on all adjacent units.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FighterLeap",
+        "display_name": "Leap",
+        "tool_class": "fighter",
+        "icon_label": "FighterLeap",
+        "resolved_icon_label": "FighterLeap",
+        "main_svg_id": "832",
+        "main_svg_filename": "832.svg"
+      },
+      "numbers": {
+        "raw": "N/A 6",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Leap",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Jump to an open tile within range, then inflict Bruise on all adjacent units.Upgraded: Jump to an open tile within range, then damage and inflict Bruise on all adjacent units.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FighterLeap",
+        "display_name": "Leap",
+        "tool_class": "fighter",
+        "icon_label": "FighterLeap",
+        "resolved_icon_label": "FighterLeap",
+        "main_svg_id": "832",
+        "main_svg_filename": "832.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Meteor Slam",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Jump up to 2 tiles. Damage, knockback, and inflict Burn 3 on the unit you land on and all adjacent units. (Adjacent units take half damage.) Upgraded: Jump up to 5 tiles. Damage, knockback, and inflict Burn 3 on the unit you land on and all adjacent units.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MeteorSlam",
+        "display_name": "Meteor Slam",
+        "tool_class": "fighter",
+        "icon_label": "MeteorSlam",
+        "resolved_icon_label": "MeteorSlam",
+        "main_svg_id": "859",
+        "main_svg_filename": "859.svg"
+      },
+      "numbers": {
+        "raw": "5 10",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Muscle Memory",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A melee attack that deals 8 damage. (This spell's damage is reduced by 1 and mana cost is reduced by 2 each time it's cast.) Upgraded: A melee attack that deals 8 damage and inflicts Bruise. (This spell's damage is reduced by 1 and mana cost is reduced by 2 each time it's cast.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MuscleMemory",
+        "display_name": "Muscle Memory",
+        "tool_class": "fighter",
+        "icon_label": "MuscleMemory",
+        "resolved_icon_label": "MuscleMemory",
+        "main_svg_id": "858",
+        "main_svg_filename": "858.svg"
+      },
+      "numbers": {
+        "raw": "8 8",
+        "frame_type": "Dmg_Mana",
+        "value": "8",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Muscle Memory",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "A melee attack that deals 8 damage. (This spell's damage is reduced by 1 and mana cost is reduced by 2 each time it's cast.) Upgraded: A melee attack that deals 8 damage and inflicts Bruise. (This spell's damage is reduced by 1 and mana cost is reduced by 2 each time it's cast.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MuscleMemory",
+        "display_name": "Muscle Memory",
+        "tool_class": "fighter",
+        "icon_label": "MuscleMemory",
+        "resolved_icon_label": "MuscleMemory",
+        "main_svg_id": "858",
+        "main_svg_filename": "858.svg"
+      },
+      "numbers": {
+        "raw": "8 7",
+        "frame_type": "Dmg_Mana",
+        "value": "8",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nip",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Inflict Bruise on a unit.Upgraded: Deal 1 damage and inflict Bruise on a unit.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Nip",
+        "display_name": "Nip",
+        "tool_class": "fighter",
+        "icon_label": "Nip",
+        "resolved_icon_label": "Nip",
+        "main_svg_id": "836",
+        "main_svg_filename": "836.svg"
+      },
+      "numbers": {
+        "raw": "N/A 2",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nip",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Inflict Bruise on a unit.Upgraded: Deal 1 damage and inflict Bruise on a unit.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Nip",
+        "display_name": "Nip",
+        "tool_class": "fighter",
+        "icon_label": "Nip",
+        "resolved_icon_label": "Nip",
+        "main_svg_id": "836",
+        "main_svg_filename": "836.svg"
+      },
+      "numbers": {
+        "raw": "1 2",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Paw Breaker",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A huge punch that breaks your paw... (You get -1 Strength permanently.)Upgraded: A huge punch that inflicts Bruise and Stun, and breaks your paw... (You get -1 Strength permanently.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Pawbreaker",
+        "display_name": "Paw Breaker",
+        "tool_class": "fighter",
+        "icon_label": "Pawbreaker",
+        "resolved_icon_label": "Pawbreaker",
+        "main_svg_id": "873",
+        "main_svg_filename": "873.svg"
+      },
+      "numbers": {
+        "raw": "15 5",
+        "frame_type": "Dmg_Mana",
+        "value": "15",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Poke",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A melee attack that deals 1 damage.Upgraded: A melee attack that deals 1 damage. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Poke",
+        "display_name": "Poke",
+        "tool_class": "fighter",
+        "icon_label": "Poke",
+        "resolved_icon_label": "Poke",
+        "main_svg_id": "835",
+        "main_svg_filename": "835.svg"
+      },
+      "numbers": {
+        "raw": "1 2",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Poke",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "A melee attack that deals 1 damage.Upgraded: A melee attack that deals 1 damage. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Poke",
+        "display_name": "Poke",
+        "tool_class": "fighter",
+        "icon_label": "Poke",
+        "resolved_icon_label": "Poke",
+        "main_svg_id": "835",
+        "main_svg_filename": "835.svg"
+      },
+      "numbers": {
+        "raw": "1 1",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rage Punch",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A melee attack that increases its damage by 1 each time you take damage.Upgraded: A melee attack that increases its damage by 1 each time you take damage. (This spell starts at 5 damage.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "RagePunch",
+        "display_name": "Rage Punch",
+        "tool_class": "fighter",
+        "icon_label": "RagePunch",
+        "resolved_icon_label": "RagePunch",
+        "main_svg_id": "868",
+        "main_svg_filename": "868.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rage Punch",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "A melee attack that increases its damage by 1 each time you take damage.Upgraded: A melee attack that increases its damage by 1 each time you take damage. (This spell starts at 5 damage.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "RagePunch",
+        "display_name": "Rage Punch",
+        "tool_class": "fighter",
+        "icon_label": "RagePunch",
+        "resolved_icon_label": "RagePunch",
+        "main_svg_id": "868",
+        "main_svg_filename": "868.svg"
+      },
+      "numbers": {
+        "raw": "5 4",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ram",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Knock back a unit 4 tiles, then dash forward and attack it.Upgraded: Knock back a unit 10 tiles, then dash forward and attack it.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Ram",
+        "display_name": "Ram",
+        "tool_class": "fighter",
+        "icon_label": "Ram",
+        "resolved_icon_label": "Ram",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3 6",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Side Slash",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "An attack that hits a half circle around you.Upgraded: An attack that hits a half circle around you and inflicts Bruise.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SideSlash",
+        "display_name": "Side Slash",
+        "tool_class": "fighter",
+        "icon_label": "SideSlash",
+        "resolved_icon_label": "SideSlash",
+        "main_svg_id": "541",
+        "main_svg_filename": "541.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Slap",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A weak melee attack. RELOAD: Kill something.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Slap",
+        "display_name": "Slap",
+        "tool_class": "fighter",
+        "icon_label": "Slap",
+        "resolved_icon_label": "Slap",
+        "main_svg_id": "847",
+        "main_svg_filename": "847.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tail Whip",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "An attack that hits 2 tiles in front of and behind you.Upgraded: An attack that hits 4 tiles in front of and behind you.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "TailWhip",
+        "display_name": "Tail Whip",
+        "tool_class": "fighter",
+        "icon_label": "TailWhip",
+        "resolved_icon_label": "TailWhip",
+        "main_svg_id": "830",
+        "main_svg_filename": "830.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Think Too Hard",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Take damage equal to your Intelligence. The next spell you cast this turn is free.Upgraded: Take damage equal to your Intelligence, then your Intelligence becomes 0. The next spell you cast this turn is free.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ThinkTooHard",
+        "display_name": "Think Too Hard",
+        "tool_class": "fighter",
+        "icon_label": "ThinkTooHard",
+        "resolved_icon_label": "ThinkTooHard",
+        "main_svg_id": "853",
+        "main_svg_filename": "853.svg"
+      },
+      "numbers": {
+        "raw": "5 2",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Thunder Punch",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A melee attack that has a 25% chance to inflict Stun.Upgraded: A melee attack that inflicts Stun.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ThunderPunch",
+        "display_name": "Thunder Punch",
+        "tool_class": "fighter",
+        "icon_label": "ThunderPunch",
+        "resolved_icon_label": "ThunderPunch",
+        "main_svg_id": "823",
+        "main_svg_filename": "823.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Uppercut",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Punch a unit into the air, lobbing it back 3 tiles.Upgraded: Punch a unit into the air, lobbing it back 3 tiles. Refresh your movement action.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Uppercut",
+        "display_name": "Uppercut",
+        "tool_class": "fighter",
+        "icon_label": "Uppercut",
+        "resolved_icon_label": "Uppercut",
+        "main_svg_id": "826",
+        "main_svg_filename": "826.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Hunter",
+  "frame_type": "Xdmg_Mana",
+  "count": 5,
+  "abilities": [
+    {
+      "wiki_name": "Arrow Flurry",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Shoot 5 weak shots, each one has a 50% chance to miss.Upgraded: Shoot 5 weak shots, each one has a 50% chance to miss and 50% chance to crit!",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ArrowFlurry",
+        "display_name": "Arrow Flurry",
+        "tool_class": "hunter",
+        "icon_label": "ArrowFlurry",
+        "resolved_icon_label": "ArrowFlurry",
+        "main_svg_id": "595",
+        "main_svg_filename": "595.svg"
+      },
+      "numbers": {
+        "raw": "2x5 8",
+        "frame_type": "Xdmg_Mana",
+        "value": "2x5",
+        "mana": "8",
+        "hit_count": 2,
+        "hit_value": "5"
+      }
+    },
+    {
+      "wiki_name": "Arrow Flurry",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Shoot 5 weak shots, each one has a 50% chance to miss.Upgraded: Shoot 5 weak shots, each one has a 50% chance to miss and 50% chance to crit!",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ArrowFlurry",
+        "display_name": "Arrow Flurry",
+        "tool_class": "hunter",
+        "icon_label": "ArrowFlurry",
+        "resolved_icon_label": "ArrowFlurry",
+        "main_svg_id": "595",
+        "main_svg_filename": "595.svg"
+      },
+      "numbers": {
+        "raw": "3x5 8",
+        "frame_type": "Xdmg_Mana",
+        "value": "3x5",
+        "mana": "8",
+        "hit_count": 3,
+        "hit_value": "5"
+      }
+    },
+    {
+      "wiki_name": "Chaos Shot",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Shoot a random unit within range.Upgraded: Shoot a random unit within range, twice!",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ChaosShot",
+        "display_name": "Chaos Shot",
+        "tool_class": "hunter",
+        "icon_label": "ChaosShot",
+        "resolved_icon_label": "ChaosShot",
+        "main_svg_id": "588",
+        "main_svg_filename": "588.svg"
+      },
+      "numbers": {
+        "raw": "4x2 3",
+        "frame_type": "Xdmg_Mana",
+        "value": "4x2",
+        "mana": "3",
+        "hit_count": 4,
+        "hit_value": "2"
+      }
+    },
+    {
+      "wiki_name": "Twin Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Shoot twice.Upgraded: Shoot thrice.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TwinShot",
+        "display_name": "Twin Shot",
+        "tool_class": "hunter",
+        "icon_label": "TwinShot",
+        "resolved_icon_label": "TwinShot",
+        "main_svg_id": "568",
+        "main_svg_filename": "568.svg"
+      },
+      "numbers": {
+        "raw": "4x2 9",
+        "frame_type": "Xdmg_Mana",
+        "value": "4x2",
+        "mana": "9",
+        "hit_count": 4,
+        "hit_value": "2"
+      }
+    },
+    {
+      "wiki_name": "Twin Shot",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Shoot twice.Upgraded: Shoot thrice.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TwinShot",
+        "display_name": "Twin Shot",
+        "tool_class": "hunter",
+        "icon_label": "TwinShot",
+        "resolved_icon_label": "TwinShot",
+        "main_svg_id": "568",
+        "main_svg_filename": "568.svg"
+      },
+      "numbers": {
+        "raw": "4x3 9",
+        "frame_type": "Xdmg_Mana",
+        "value": "4x3",
+        "mana": "9",
+        "hit_count": 4,
+        "hit_value": "3"
+      }
+    }
+  ]
+}

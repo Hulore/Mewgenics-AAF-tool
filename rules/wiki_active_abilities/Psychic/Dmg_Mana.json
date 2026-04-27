@@ -1,0 +1,368 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Psychic",
+  "frame_type": "Dmg_Mana",
+  "count": 15,
+  "abilities": [
+    {
+      "wiki_name": "Asteroid",
+      "class": "Psychic",
+      "variant": "normal",
+      "description": "Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage and leaves a rock.Upgraded: Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage, bruises and leaves a boulder.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Asteroid",
+        "display_name": "Asteroid",
+        "tool_class": "psychic",
+        "icon_label": "Asteroid",
+        "resolved_icon_label": "Asteroid",
+        "main_svg_id": "1147",
+        "main_svg_filename": "1147.svg"
+      },
+      "numbers": {
+        "raw": "5 9",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Asteroid",
+      "class": "Psychic",
+      "variant": "upgraded",
+      "description": "Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage and leaves a rock.Upgraded: Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage, bruises and leaves a boulder.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Asteroid",
+        "display_name": "Asteroid",
+        "tool_class": "psychic",
+        "icon_label": "Asteroid",
+        "resolved_icon_label": "Asteroid",
+        "main_svg_id": "1147",
+        "main_svg_filename": "1147.svg"
+      },
+      "numbers": {
+        "raw": "8 9",
+        "frame_type": "Dmg_Mana",
+        "value": "8",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cumulative Blast",
+      "class": "Psychic",
+      "variant": "normal",
+      "description": "Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle.Upgraded: Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CumulativeBlast",
+        "display_name": "Cumulative Blast",
+        "tool_class": "psychic",
+        "icon_label": "CumulativeBlast",
+        "resolved_icon_label": "CumulativeBlast",
+        "main_svg_id": "1144",
+        "main_svg_filename": "1144.svg"
+      },
+      "numbers": {
+        "raw": "1 6",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cumulative Blast",
+      "class": "Psychic",
+      "variant": "upgraded",
+      "description": "Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle.Upgraded: Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CumulativeBlast",
+        "display_name": "Cumulative Blast",
+        "tool_class": "psychic",
+        "icon_label": "CumulativeBlast",
+        "resolved_icon_label": "CumulativeBlast",
+        "main_svg_id": "1144",
+        "main_svg_filename": "1144.svg"
+      },
+      "numbers": {
+        "raw": "1 5",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Echo",
+      "class": "Psychic",
+      "variant": "normal",
+      "description": "Teleport to the last tile you targeted with an ability if it's empty.Upgraded: Teleport to the last tile you targeted with an ability. Displace and damage any units on that tile.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Echo",
+        "display_name": "Echo",
+        "tool_class": "psychic",
+        "icon_label": "Echo",
+        "resolved_icon_label": "Echo",
+        "main_svg_id": "1162",
+        "main_svg_filename": "1162.svg"
+      },
+      "numbers": {
+        "raw": "N/A 1",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Echo",
+      "class": "Psychic",
+      "variant": "upgraded",
+      "description": "Teleport to the last tile you targeted with an ability if it's empty.Upgraded: Teleport to the last tile you targeted with an ability. Displace and damage any units on that tile.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Echo",
+        "display_name": "Echo",
+        "tool_class": "psychic",
+        "icon_label": "Echo",
+        "resolved_icon_label": "Echo",
+        "main_svg_id": "1162",
+        "main_svg_filename": "1162.svg"
+      },
+      "numbers": {
+        "raw": "5 1",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gravity Wave",
+      "class": "Psychic",
+      "variant": "normal",
+      "description": "Deal damage with Knockback 4 and Chain Knockback in a cone.Upgraded: Deal damage with Knockback 4, Chain Knockback and inflict Bruise 1 in a cone.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ForceCone",
+        "display_name": "Gravity Wave",
+        "tool_class": "psychic",
+        "icon_label": "ForceCone",
+        "resolved_icon_label": "ForceCone",
+        "main_svg_id": "1164",
+        "main_svg_filename": "1164.svg"
+      },
+      "numbers": {
+        "raw": "2 6",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Increase Gravity",
+      "class": "Psychic",
+      "variant": "normal",
+      "description": "Inflict Slow 1 on a unit within your line of sight. If you cast this from full mana, instead inflict Immobilize 1 and deal 6 damage.Upgraded: Inflict Slow 1 on each unit in an area around a tile within your line of sight. If you cast this from full mana, instead inflict Immobilize 1 and deal 6 damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "IncreaseGravity",
+        "display_name": "Increase Gravity",
+        "tool_class": "psychic",
+        "icon_label": "IncreaseGravity",
+        "resolved_icon_label": "IncreaseGravity",
+        "main_svg_id": "1155",
+        "main_svg_filename": "1155.svg"
+      },
+      "numbers": {
+        "raw": "0 3",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Manifest",
+      "class": "Psychic",
+      "variant": "normal",
+      "description": "Teleport in a straight line into a unit within your line of sight. Deal damage and displace it.Upgraded: Teleport into a unit within your line of sight. Deal damage and displace it.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Manifest",
+        "display_name": "Manifest",
+        "tool_class": "psychic",
+        "icon_label": "Manifest",
+        "resolved_icon_label": "Manifest",
+        "main_svg_id": "1154",
+        "main_svg_filename": "1154.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Mega Grav",
+      "class": "Psychic",
+      "variant": "normal",
+      "description": "Damage and throw each unit near you to random tiles.Upgraded: Damage and throw each unit in a target area to random tiles.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MegaGrav",
+        "display_name": "Mega Grav",
+        "tool_class": "psychic",
+        "icon_label": "MegaGrav",
+        "resolved_icon_label": "MegaGrav",
+        "main_svg_id": "1116",
+        "main_svg_filename": "1116.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Mega Grav",
+      "class": "Psychic",
+      "variant": "upgraded",
+      "description": "Damage and throw each unit near you to random tiles.Upgraded: Damage and throw each unit in a target area to random tiles.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MegaGrav",
+        "display_name": "Mega Grav",
+        "tool_class": "psychic",
+        "icon_label": "MegaGrav",
+        "resolved_icon_label": "MegaGrav",
+        "main_svg_id": "1116",
+        "main_svg_filename": "1116.svg"
+      },
+      "numbers": {
+        "raw": "2 3",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ping",
+      "class": "Psychic",
+      "variant": "normal",
+      "description": "Deal 1 damage to any unit within your line of sight. RELOAD: Spend manaUpgraded: Deal 1 damage to any unit within your line of sight. RELOAD: Spend mana Bonus Passive: +2 Intelligence.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Ping",
+        "display_name": "Ping",
+        "tool_class": "psychic",
+        "icon_label": "Ping",
+        "resolved_icon_label": "Ping",
+        "main_svg_id": "1130",
+        "main_svg_filename": "1130.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Psychic Choke",
+      "class": "Psychic",
+      "variant": "normal",
+      "description": "Deal damage to and inflict Bruise on a unit within your line of sight.Upgraded: Deal damage to and inflict Bruise on a unit within your line of sight. This damage counts as physical damage and scales with Strength.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "PsychicChoke",
+        "display_name": "Psychic Choke",
+        "tool_class": "psychic",
+        "icon_label": "PsychicChoke",
+        "resolved_icon_label": "PsychicChoke",
+        "main_svg_id": "1121",
+        "main_svg_filename": "1121.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Psychic Choke",
+      "class": "Psychic",
+      "variant": "upgraded",
+      "description": "Deal damage to and inflict Bruise on a unit within your line of sight.Upgraded: Deal damage to and inflict Bruise on a unit within your line of sight. This damage counts as physical damage and scales with Strength.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "PsychicChoke",
+        "display_name": "Psychic Choke",
+        "tool_class": "psychic",
+        "icon_label": "PsychicChoke",
+        "resolved_icon_label": "PsychicChoke",
+        "main_svg_id": "1121",
+        "main_svg_filename": "1121.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Supernova",
+      "class": "Psychic",
+      "variant": "normal",
+      "description": "Deal damage to and inflict Blind on every unit within your line of sight.Upgraded: Deal damage to and inflict Blind on every unit within your line of sight, excluding your allies.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Supernova",
+        "display_name": "Supernova",
+        "tool_class": "psychic",
+        "icon_label": "Supernova",
+        "resolved_icon_label": "Supernova",
+        "main_svg_id": "1123",
+        "main_svg_filename": "1123.svg"
+      },
+      "numbers": {
+        "raw": "12 10",
+        "frame_type": "Dmg_Mana",
+        "value": "12",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

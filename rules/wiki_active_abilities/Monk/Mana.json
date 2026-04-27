@@ -1,0 +1,920 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Monk",
+  "frame_type": "Mana",
+  "count": 38,
+  "abilities": [
+    {
+      "wiki_name": "Anneal",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Gain +1 . This spell costs 0 mana the first time you cast it each turn.Upgraded: Gain +1 . This spell costs 0 mana the first time you cast it each turn, and after each time you spend mana on another spell.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Anneal",
+        "display_name": "Anneal",
+        "tool_class": "monk",
+        "icon_label": "Anneal",
+        "resolved_icon_label": "Anneal",
+        "main_svg_id": "1077",
+        "main_svg_filename": "1077.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bruise",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Your basic attack inflicts Bruise until the end of the turn. (Castable once per turn.) Upgraded: Your basic attack inflicts Bruise until the end of the turn.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Bruise",
+        "display_name": "Bruise",
+        "tool_class": "monk",
+        "icon_label": "Bruise",
+        "resolved_icon_label": "Bruise",
+        "main_svg_id": "1067",
+        "main_svg_filename": "1067.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cartwheel",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Roll up to 4 tiles diagonally.Upgraded: Roll up to 4 tiles diagonally or in a straight line.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Cartwheel",
+        "display_name": "Cartwheel",
+        "tool_class": "monk",
+        "icon_label": "Cartwheel",
+        "resolved_icon_label": "Cartwheel",
+        "main_svg_id": "1063",
+        "main_svg_filename": "1063.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Charge Fists",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Until end of turn, your basic attack emits +1 Sparkle.Upgraded: Until end of turn, your basic attack emits +1 Sparkle. Refresh your basic attack.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ChargeFists",
+        "display_name": "Charge Fists",
+        "tool_class": "monk",
+        "icon_label": "ChargeFists",
+        "resolved_icon_label": "ChargeFists",
+        "main_svg_id": "1108",
+        "main_svg_filename": "1108.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Charge Spirit Bomb",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Begin charging a spirit bomb. This ability becomes Throw Spirit Bomb. Allies gain the bonus ability Donate Energy until you throw it.Upgraded: Begin charging a spirit bomb. This ability becomes Throw Spirit Bomb. Allies gain the bonus ability Donate Energy+ until you throw it.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SpiritBomb",
+        "display_name": "Charge Spirit Bomb",
+        "tool_class": "monk",
+        "icon_label": "SpiritBomb",
+        "resolved_icon_label": "SpiritBomb",
+        "main_svg_id": "1104",
+        "main_svg_filename": "1104.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Deep Dive",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Become downed. You don't get injured. At the end of the next round, you're revived with 1 HP, 15 , and All Stats Up.Upgraded: Become downed. You don't get injured. At the end of the next round, you're revived with 50% HP, 20 , 2 , and All Stats Up 2.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DeepDive",
+        "display_name": "Deep Dive",
+        "tool_class": "monk",
+        "icon_label": "DeepDive",
+        "resolved_icon_label": "DeepDive",
+        "main_svg_id": "1078",
+        "main_svg_filename": "1078.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Donate Energy",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Give +1 damage to the Spirit Bomb!Upgraded: Give +2 damage to the Spirit Bomb!",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DonateEnergy",
+        "display_name": "Donate Energy",
+        "tool_class": "monk",
+        "icon_label": "DonateEnergy",
+        "resolved_icon_label": "DonateEnergy",
+        "main_svg_id": "1106",
+        "main_svg_filename": "1106.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Double Dragon",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Summon a 1 HP illusion of yourself within three tiles that mimics your basic attack, but in the opposite direction of you. It dies at the end of your turn.Upgraded: Summon a 1 HP illusion of yourself on any tile that mimics your basic attack, but in the opposite direction of you. It dies at the end of your turn.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DoubleDragon",
+        "display_name": "Double Dragon",
+        "tool_class": "monk",
+        "icon_label": "DoubleDragon",
+        "resolved_icon_label": "DoubleDragon",
+        "main_svg_id": "1098",
+        "main_svg_filename": "1098.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Empty Mind",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "You can't cast spells for the rest of the battle. For the rest of the battle, whenever you kill an enemy, take an extra turn.Upgraded: You can't cast spells for the rest of the battle. For the rest of the battle, whenever you kill an enemy, take an extra turn. Get an extra turn when you cast this.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "EmptyMind",
+        "display_name": "Empty Mind",
+        "tool_class": "monk",
+        "icon_label": "EmptyMind",
+        "resolved_icon_label": "EmptyMind",
+        "main_svg_id": "1110",
+        "main_svg_filename": "1110.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fist of Fate",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Teleport next to a random enemy, then switch to melee stance and automatically attack it.Upgraded: Teleport next to a random enemy, then switch to melee stance and automatically attack it. This has a chance to repeat multiple times.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FistOfFate",
+        "display_name": "Fist of Fate",
+        "tool_class": "monk",
+        "icon_label": "FistOfFate",
+        "resolved_icon_label": "FistOfFate",
+        "main_svg_id": "1112",
+        "main_svg_filename": "1112.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Five Point Palm Exploding Heart Technique",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead.Upgraded: A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DoomPunch",
+        "display_name": "Five Point Palm Exploding Heart Technique",
+        "tool_class": "monk",
+        "icon_label": "DoomPunch",
+        "resolved_icon_label": "DoomPunch",
+        "main_svg_id": "1082",
+        "main_svg_filename": "1082.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Five Point Palm Exploding Heart Technique",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead.Upgraded: A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DoomPunch",
+        "display_name": "Five Point Palm Exploding Heart Technique",
+        "tool_class": "monk",
+        "icon_label": "DoomPunch",
+        "resolved_icon_label": "DoomPunch",
+        "main_svg_id": "1082",
+        "main_svg_filename": "1082.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hop n' Block",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Jump to a tile, then gain +2 for each enemy adjacent to the tile you land on.Upgraded: Jump to any tile, then gain +2 for each enemy adjacent to the tile you land on.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "HopAndBlock",
+        "display_name": "Hop n' Block",
+        "tool_class": "monk",
+        "icon_label": "HopAndBlock",
+        "resolved_icon_label": "HopAndBlock",
+        "main_svg_id": "1079",
+        "main_svg_filename": "1079.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Kinetic Charge",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Gain +1 temporary Kinetic Spikes.Upgraded: Gain +2 temporary Kinetic Spikes.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "KineticCharge",
+        "display_name": "Kinetic Charge",
+        "tool_class": "monk",
+        "icon_label": "KineticCharge",
+        "resolved_icon_label": "KineticCharge",
+        "main_svg_id": "1089",
+        "main_svg_filename": "1089.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nirvana",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Gain +1 Intelligence and +1 . If you have 7 or more Shield, this spell costs 1 mana less.Upgraded: Gain +1 Intelligence and +2 . If you have 7 or more , this spell costs 1 mana less.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Nirvana",
+        "display_name": "Nirvana",
+        "tool_class": "monk",
+        "icon_label": "Nirvana",
+        "resolved_icon_label": "Nirvana",
+        "main_svg_id": "1111",
+        "main_svg_filename": "1111.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ocular Pat Down",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Inflict Marked and Magic Weakness 1 on a unit.Upgraded: Inflict Marked 3 and Magic Weakness 3 on a unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DetectWeakness",
+        "display_name": "Ocular Pat Down",
+        "tool_class": "monk",
+        "icon_label": "DetectWeakness",
+        "resolved_icon_label": "DetectWeakness",
+        "main_svg_id": "1087",
+        "main_svg_filename": "1087.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "One With the Wind",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Gain +20 Movement Range until the end of the turn.Upgraded: Gain +20 Movement Range until the end of the turn and refresh your movement action.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "OneWithTheWind",
+        "display_name": "One With the Wind",
+        "tool_class": "monk",
+        "icon_label": "OneWithTheWind",
+        "resolved_icon_label": "OneWithTheWind",
+        "main_svg_id": "1073",
+        "main_svg_filename": "1073.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Porcupine",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Gain +2 temporary Brace and +2 temporary Thorns until your next turn.Upgraded: Gain +2 temporary Brace and +2 temporary Thorns until your next turn. Also reflect the next projectile you're hit by.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Porcupine",
+        "display_name": "Porcupine",
+        "tool_class": "monk",
+        "icon_label": "Porcupine",
+        "resolved_icon_label": "Porcupine",
+        "main_svg_id": "1076",
+        "main_svg_filename": "1076.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Position",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Teleport exactly two tiles away, then switch stances.Upgraded: Teleport two to four tiles away, then switch stances.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Position",
+        "display_name": "Position",
+        "tool_class": "monk",
+        "icon_label": "Position",
+        "resolved_icon_label": "Position",
+        "main_svg_id": "1109",
+        "main_svg_filename": "1109.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Quick Attack",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have.Upgraded: Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "QuickAttack",
+        "display_name": "Quick Attack",
+        "tool_class": "monk",
+        "icon_label": "QuickAttack",
+        "resolved_icon_label": "QuickAttack",
+        "main_svg_id": "1094",
+        "main_svg_filename": "1094.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Quick Attack",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have.Upgraded: Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "QuickAttack",
+        "display_name": "Quick Attack",
+        "tool_class": "monk",
+        "icon_label": "QuickAttack",
+        "resolved_icon_label": "QuickAttack",
+        "main_svg_id": "1094",
+        "main_svg_filename": "1094.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Really Fast Run",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Run in a straight line up to 4 tiles, through objects. Wind blows over tiles you run through.Upgraded: Run diagonally or in a straight line any distance, through objects. Wind blows over tiles you run through.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ReallyFastRun",
+        "display_name": "Really Fast Run",
+        "tool_class": "monk",
+        "icon_label": "ReallyFastRun",
+        "resolved_icon_label": "ReallyFastRun",
+        "main_svg_id": "1086",
+        "main_svg_filename": "1086.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Release Energy",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Emit 10 Sparkles.Upgraded: Emit 10 Sparkles. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ReleaseEnergy",
+        "display_name": "Release Energy",
+        "tool_class": "monk",
+        "icon_label": "ReleaseEnergy",
+        "resolved_icon_label": "ReleaseEnergy",
+        "main_svg_id": "1096",
+        "main_svg_filename": "1096.svg"
+      },
+      "numbers": {
+        "raw": "12",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Release Energy",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Emit 10 Sparkles.Upgraded: Emit 10 Sparkles. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ReleaseEnergy",
+        "display_name": "Release Energy",
+        "tool_class": "monk",
+        "icon_label": "ReleaseEnergy",
+        "resolved_icon_label": "ReleaseEnergy",
+        "main_svg_id": "1096",
+        "main_svg_filename": "1096.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reverberate",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Gain +8 and knock back adjacent units two tiles. This spell costs 3 mana less for each action you've taken this turn. (Castable once per turn.) Upgraded: Gain +8 and knock back adjacent units two tiles. This spell costs 3 mana less and grants 1 extra for each action you've taken this turn. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Reverberate",
+        "display_name": "Reverberate",
+        "tool_class": "monk",
+        "icon_label": "Reverberate",
+        "resolved_icon_label": "Reverberate",
+        "main_svg_id": "1070",
+        "main_svg_filename": "1070.svg"
+      },
+      "numbers": {
+        "raw": "22",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "22",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sidestep",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Move one tile and gain +1 .Upgraded: Move one tile and gain +1 . This spell costs 0 mana the first time you cast it each turn.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SideStep",
+        "display_name": "Sidestep",
+        "tool_class": "monk",
+        "icon_label": "SideStep",
+        "resolved_icon_label": "SideStep",
+        "main_svg_id": "1100",
+        "main_svg_filename": "1100.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stone Fists",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Gain Strength and Dexterity equal to your until the end of your turn.Upgraded: Convert your to Strength and Dexterity for the rest of the battle.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "StoneFists",
+        "display_name": "Stone Fists",
+        "tool_class": "monk",
+        "icon_label": "StoneFists",
+        "resolved_icon_label": "StoneFists",
+        "main_svg_id": "1064",
+        "main_svg_filename": "1064.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Summon Apprentice",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Summon a half-sized copy of yourself with half your stats. It's AI-controlled and can't use spells.Upgraded: Summon a half-sized copy of yourself with half your stats. It's AI-controlled and CAN use spells.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Apprentice",
+        "display_name": "Summon Apprentice",
+        "tool_class": "monk",
+        "icon_label": "Apprentice",
+        "resolved_icon_label": "Apprentice",
+        "main_svg_id": "1107",
+        "main_svg_filename": "1107.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Transcend",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Cleanse your debuffs and gain +1 .Upgraded: Cleanse your debuffs and gain +1 . At the end of each round, automatically cast this spell for free.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Transcend",
+        "display_name": "Transcend",
+        "tool_class": "monk",
+        "icon_label": "Transcend",
+        "resolved_icon_label": "Transcend",
+        "main_svg_id": "1065",
+        "main_svg_filename": "1065.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Warm Up Stretch",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Gain +1 Dexterity, and +1 Speed. This spell costs 2 mana less for each empty armor slot you have.Upgraded: Gain +1 Dexterity, +1 Speed and +1 Strength. This spell costs 2 mana less for each empty armor slot you have.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "WarmupStretch",
+        "display_name": "Warm Up Stretch",
+        "tool_class": "monk",
+        "icon_label": "WarmupStretch",
+        "resolved_icon_label": "WarmupStretch",
+        "main_svg_id": "1092",
+        "main_svg_filename": "1092.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Way of the Hare",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "For the rest of the battle, you can move an extra time each turn.Upgraded: For the rest of the battle, you can move an extra time each turn. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TrainLegs",
+        "display_name": "Way of the Hare",
+        "tool_class": "monk",
+        "icon_label": "TrainLegs",
+        "resolved_icon_label": "TrainLegs",
+        "main_svg_id": "1085",
+        "main_svg_filename": "1085.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Way of the Hare",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "For the rest of the battle, you can move an extra time each turn.Upgraded: For the rest of the battle, you can move an extra time each turn. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TrainLegs",
+        "display_name": "Way of the Hare",
+        "tool_class": "monk",
+        "icon_label": "TrainLegs",
+        "resolved_icon_label": "TrainLegs",
+        "main_svg_id": "1085",
+        "main_svg_filename": "1085.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Way of the Mantis",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "For the rest of the battle, you can attack an extra time each turn.Upgraded: For the rest of the battle, you can attack an extra time each turn. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "TrainArms",
+        "display_name": "Way of the Mantis",
+        "tool_class": "monk",
+        "icon_label": "TrainArms",
+        "resolved_icon_label": "TrainArms",
+        "main_svg_id": "1075",
+        "main_svg_filename": "1075.svg"
+      },
+      "numbers": {
+        "raw": "12",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Way of the Mantis",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "For the rest of the battle, you can attack an extra time each turn.Upgraded: For the rest of the battle, you can attack an extra time each turn. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "TrainArms",
+        "display_name": "Way of the Mantis",
+        "tool_class": "monk",
+        "icon_label": "TrainArms",
+        "resolved_icon_label": "TrainArms",
+        "main_svg_id": "1075",
+        "main_svg_filename": "1075.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Way of the Owl",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "For the rest of the battle, the first spell you cast each turn is cast twice.Upgraded: For the rest of the battle, the first spell you cast each turn is cast twice. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TrainMind",
+        "display_name": "Way of the Owl",
+        "tool_class": "monk",
+        "icon_label": "TrainMind",
+        "resolved_icon_label": "TrainMind",
+        "main_svg_id": "1080",
+        "main_svg_filename": "1080.svg"
+      },
+      "numbers": {
+        "raw": "13",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "13",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Way of the Owl",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "For the rest of the battle, the first spell you cast each turn is cast twice.Upgraded: For the rest of the battle, the first spell you cast each turn is cast twice. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TrainMind",
+        "display_name": "Way of the Owl",
+        "tool_class": "monk",
+        "icon_label": "TrainMind",
+        "resolved_icon_label": "TrainMind",
+        "main_svg_id": "1080",
+        "main_svg_filename": "1080.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Way of the Turtle",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Gain +1 Brace.Upgraded: Gain +1 Brace. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TrainBody",
+        "display_name": "Way of the Turtle",
+        "tool_class": "monk",
+        "icon_label": "TrainBody",
+        "resolved_icon_label": "TrainBody",
+        "main_svg_id": "1097",
+        "main_svg_filename": "1097.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Way of the Turtle",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Gain +1 Brace.Upgraded: Gain +1 Brace. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TrainBody",
+        "display_name": "Way of the Turtle",
+        "tool_class": "monk",
+        "icon_label": "TrainBody",
+        "resolved_icon_label": "TrainBody",
+        "main_svg_id": "1097",
+        "main_svg_filename": "1097.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

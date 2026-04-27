@@ -1,0 +1,80 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Mage",
+  "frame_type": "Xdmg_Mana",
+  "count": 3,
+  "abilities": [
+    {
+      "wiki_name": "Homing Blasts",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Shoot 3 Magic Missiles at random enemies.Upgraded: Shoot 4 Magic Missiles at random enemies.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "HomingBlasts",
+        "display_name": "Homing Blasts",
+        "tool_class": "mage",
+        "icon_label": "HomingBlasts",
+        "resolved_icon_label": "HomingBlasts",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3x3 7",
+        "frame_type": "Xdmg_Mana",
+        "value": "3x3",
+        "mana": "7",
+        "hit_count": 3,
+        "hit_value": "3"
+      }
+    },
+    {
+      "wiki_name": "Homing Blasts",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Shoot 3 Magic Missiles at random enemies.Upgraded: Shoot 4 Magic Missiles at random enemies.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "HomingBlasts",
+        "display_name": "Homing Blasts",
+        "tool_class": "mage",
+        "icon_label": "HomingBlasts",
+        "resolved_icon_label": "HomingBlasts",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3x4 6",
+        "frame_type": "Xdmg_Mana",
+        "value": "3x4",
+        "mana": "6",
+        "hit_count": 3,
+        "hit_value": "4"
+      }
+    },
+    {
+      "wiki_name": "Icicle Zapper",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Shoot an ice/electric bolt in a straight line. It inflicts Slow 2, has a 25% chance to Stun and a 25% chance to Freeze.Upgraded: Shoot 2 ice/electric bolts in a straight line. They inflict Slow 2, have a 25% chance to Stun and a 25% chance to Freeze.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "IcicleTaser",
+        "display_name": "Icicle Zapper",
+        "tool_class": "mage",
+        "icon_label": "IcicleTaser",
+        "resolved_icon_label": "IcicleTaser",
+        "main_svg_id": "755",
+        "main_svg_filename": "755.svg"
+      },
+      "numbers": {
+        "raw": "3x2 8",
+        "frame_type": "Xdmg_Mana",
+        "value": "3x2",
+        "mana": "8",
+        "hit_count": 3,
+        "hit_value": "2"
+      }
+    }
+  ]
+}

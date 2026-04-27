@@ -1,0 +1,200 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Thief",
+  "frame_type": "Xdmg_Mana",
+  "count": 8,
+  "abilities": [
+    {
+      "wiki_name": "Cut Purse",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Throw a nail that knocks coins out of units it hits and ignores shield.Upgraded: Throw 2 nails that knock coins out of units they hit and ignore shield.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "CutPurse",
+        "display_name": "Cut Purse",
+        "tool_class": "thief",
+        "icon_label": "CutPurse",
+        "resolved_icon_label": "CutPurse",
+        "main_svg_id": "684",
+        "main_svg_filename": "684.svg"
+      },
+      "numbers": {
+        "raw": "1x2 4",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x2",
+        "mana": "4",
+        "hit_count": 1,
+        "hit_value": "2"
+      }
+    },
+    {
+      "wiki_name": "Declaw",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "A melee attack that inflicts -1 Damage and Bleed.Upgraded: A 2-hit melee attack that inflicts -1 Damage and Bleed.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Dclaude_Declaw",
+        "display_name": "Declaw",
+        "tool_class": "colorless",
+        "icon_label": "Dclaude_Declaw",
+        "resolved_icon_label": "",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "1x2 3",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x2",
+        "mana": "3",
+        "hit_count": 1,
+        "hit_value": "2"
+      }
+    },
+    {
+      "wiki_name": "Nail Flurry",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Throw 10 1-damage nails that ignore shield.Upgraded: Throw 10 1-damage nails that ignore shield. Throw extra nails equal to your Dexterity.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "NailFlurry",
+        "display_name": "Nail Flurry",
+        "tool_class": "thief",
+        "icon_label": "NailFlurry",
+        "resolved_icon_label": "NailFlurry",
+        "main_svg_id": "693",
+        "main_svg_filename": "693.svg"
+      },
+      "numbers": {
+        "raw": "1x10 10",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x10",
+        "mana": "10",
+        "hit_count": 1,
+        "hit_value": "10"
+      }
+    },
+    {
+      "wiki_name": "Poison Nail",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Throw a nail that inflicts Poison and ignores shield.Upgraded: Throw 2 nails that inflict Poison and ignore shield.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PoisonNail",
+        "display_name": "Poison Nail",
+        "tool_class": "thief",
+        "icon_label": "PoisonNail",
+        "resolved_icon_label": "PoisonNail",
+        "main_svg_id": "680",
+        "main_svg_filename": "680.svg"
+      },
+      "numbers": {
+        "raw": "1x2 3",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x2",
+        "mana": "3",
+        "hit_count": 1,
+        "hit_value": "2"
+      }
+    },
+    {
+      "wiki_name": "Sharp Nail",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Throw a nail that inflicts Bleed and ignores shield.Upgraded: Throw 2 nails that inflict Bleed and ignore shield.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SharpNail",
+        "display_name": "Sharp Nail",
+        "tool_class": "thief",
+        "icon_label": "SharpNail",
+        "resolved_icon_label": "SharpNail",
+        "main_svg_id": "681",
+        "main_svg_filename": "681.svg"
+      },
+      "numbers": {
+        "raw": "1x2 3",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x2",
+        "mana": "3",
+        "hit_count": 1,
+        "hit_value": "2"
+      }
+    },
+    {
+      "wiki_name": "Triple Nails",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Throw 3 nails straight and diagonally in front of you. These nails have the effects of your basic attack and ignore shield.Upgraded: Throw 3 nails straight and diagonally in front of you 2 times. These nails have the effects of your basic attack and ignore shield.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "TripleNails",
+        "display_name": "Triple Nails",
+        "tool_class": "thief",
+        "icon_label": "TripleNails",
+        "resolved_icon_label": "TripleNails",
+        "main_svg_id": "710",
+        "main_svg_filename": "710.svg"
+      },
+      "numbers": {
+        "raw": "1x2 4",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x2",
+        "mana": "4",
+        "hit_count": 1,
+        "hit_value": "2"
+      }
+    },
+    {
+      "wiki_name": "Venom Barrage",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Throw a nail that inflicts Poison 1 and ignores shield at each enemy in your line of sight.Upgraded: Throw 2 nails that inflict Poison 1 and ignore shield at each enemy in your line of sight.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "VenomBarrage",
+        "display_name": "Venom Barrage",
+        "tool_class": "thief",
+        "icon_label": "VenomBarrage",
+        "resolved_icon_label": "VenomBarrage",
+        "main_svg_id": "707",
+        "main_svg_filename": "707.svg"
+      },
+      "numbers": {
+        "raw": "1x2 5",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x2",
+        "mana": "5",
+        "hit_count": 1,
+        "hit_value": "2"
+      }
+    },
+    {
+      "wiki_name": "Weakening Nail",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Throw a nail that inflicts Weakness and ignores shield.Upgraded: Throw 2 nails that inflict Weakness and ignore shield.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "WeakeningNail",
+        "display_name": "Weakening Nail",
+        "tool_class": "thief",
+        "icon_label": "WeakeningNail",
+        "resolved_icon_label": "WeakeningNail",
+        "main_svg_id": "678",
+        "main_svg_filename": "678.svg"
+      },
+      "numbers": {
+        "raw": "1x2 3",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x2",
+        "mana": "3",
+        "hit_count": 1,
+        "hit_value": "2"
+      }
+    }
+  ]
+}

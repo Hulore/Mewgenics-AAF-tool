@@ -1,0 +1,1280 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Tinkerer",
+  "frame_type": "Mana",
+  "count": 53,
+  "abilities": [
+    {
+      "wiki_name": "Armor Up",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Craft a Tinkerer armor piece into one of your empty armor slots.Upgraded: Craft a Tinkerer armor piece into one of your or an adjacent unit's empty armor slots.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ArmorUp",
+        "display_name": "Armor Up",
+        "tool_class": "tinkerer",
+        "icon_label": "ArmorUp",
+        "resolved_icon_label": "ArmorUp",
+        "main_svg_id": "1182",
+        "main_svg_filename": "1182.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Autopilot",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Take an extra turn after this one. You are AI controlled on that turn.Upgraded: You or another unit takes an extra turn after this one. That unit is AI controlled on that turn. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "AutoPilot",
+        "display_name": "Autopilot",
+        "tool_class": "tinkerer",
+        "icon_label": "AutoPilot",
+        "resolved_icon_label": "AutoPilot",
+        "main_svg_id": "1176",
+        "main_svg_filename": "1176.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Autopilot",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Take an extra turn after this one. You are AI controlled on that turn.Upgraded: You or another unit takes an extra turn after this one. That unit is AI controlled on that turn. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "AutoPilot",
+        "display_name": "Autopilot",
+        "tool_class": "tinkerer",
+        "icon_label": "AutoPilot",
+        "resolved_icon_label": "AutoPilot",
+        "main_svg_id": "1176",
+        "main_svg_filename": "1176.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bombchu",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Spawn a Bombchu bot.Upgraded: Spawn a Bombchu bot in range 4. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Bombchu",
+        "display_name": "Bombchu",
+        "tool_class": "tinkerer",
+        "icon_label": "Bombchu",
+        "resolved_icon_label": "Bombchu",
+        "main_svg_id": "1191",
+        "main_svg_filename": "1191.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bombchu",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Spawn a Bombchu bot.Upgraded: Spawn a Bombchu bot in range 4. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Bombchu",
+        "display_name": "Bombchu",
+        "tool_class": "tinkerer",
+        "icon_label": "Bombchu",
+        "resolved_icon_label": "Bombchu",
+        "main_svg_id": "1191",
+        "main_svg_filename": "1191.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Build Nuke",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Spawn a mini-nuke that makes a HUGE explosion when it dies.Upgraded: Spawn a mini-nuke in range 4 that makes a HUGE explosion when it dies.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BuildNuke",
+        "display_name": "Build Nuke",
+        "tool_class": "tinkerer",
+        "icon_label": "BuildNuke",
+        "resolved_icon_label": "BuildNuke",
+        "main_svg_id": "1218",
+        "main_svg_filename": "1218.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Build Turret",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Summon a turret.Upgraded: Summon a rocket turret.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BuildTurret",
+        "display_name": "Build Turret",
+        "tool_class": "tinkerer",
+        "icon_label": "BuildTurret",
+        "resolved_icon_label": "BuildTurret",
+        "main_svg_id": "1178",
+        "main_svg_filename": "1178.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Catbot",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Spawn a Catbot and give it your current weapon. (You will not get the weapon back) Upgraded: Spawn a Catbot and give it your current weapon. Gain +1 Tech and refresh your basic action. (You will not get the weapon back)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Catbot",
+        "display_name": "Catbot",
+        "tool_class": "tinkerer",
+        "icon_label": "Catbot",
+        "resolved_icon_label": "Catbot",
+        "main_svg_id": "1190",
+        "main_svg_filename": "1190.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Craft",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Craft and equip a random temporary weapon.Upgraded: Craft and equip a random temporary weapon for yourself or an ally in range 3 (if they have an empty weapon slot).",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Craft",
+        "display_name": "Craft",
+        "tool_class": "tinkerer",
+        "icon_label": "Craft",
+        "resolved_icon_label": "Craft",
+        "main_svg_id": "1185",
+        "main_svg_filename": "1185.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Drill Down",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Dig to an open tile in a straight line.Upgraded: Dig to a tile in a straight line. If you dig into a unit, explode dealing 5 damage in an area (including to yourself).",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DrillDown",
+        "display_name": "Drill Down",
+        "tool_class": "tinkerer",
+        "icon_label": "DrillDown",
+        "resolved_icon_label": "DrillDown",
+        "main_svg_id": "1181",
+        "main_svg_filename": "1181.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Eject Button",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Explode and fly to a random tile at least four tiles away. This explosion damages you.Upgraded: Explode and fly to a random tile at least four tiles away. This explosion damages you. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "EjectButton",
+        "display_name": "Eject Button",
+        "tool_class": "tinkerer",
+        "icon_label": "EjectButton",
+        "resolved_icon_label": "EjectButton",
+        "main_svg_id": "1195",
+        "main_svg_filename": "1195.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Eject Button",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Explode and fly to a random tile at least four tiles away. This explosion damages you.Upgraded: Explode and fly to a random tile at least four tiles away. This explosion damages you. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "EjectButton",
+        "display_name": "Eject Button",
+        "tool_class": "tinkerer",
+        "icon_label": "EjectButton",
+        "resolved_icon_label": "EjectButton",
+        "main_svg_id": "1195",
+        "main_svg_filename": "1195.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Electric Nail",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana.Upgraded: Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ElectricNail",
+        "display_name": "Electric Nail",
+        "tool_class": "tinkerer",
+        "icon_label": "ElectricNail",
+        "resolved_icon_label": "ElectricNail",
+        "main_svg_id": "1184",
+        "main_svg_filename": "1184.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Electric Nail",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana.Upgraded: Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ElectricNail",
+        "display_name": "Electric Nail",
+        "tool_class": "tinkerer",
+        "icon_label": "ElectricNail",
+        "resolved_icon_label": "ElectricNail",
+        "main_svg_id": "1184",
+        "main_svg_filename": "1184.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Electrolyze",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Give your weapon +3 electric damage.Upgraded: Give your weapon +3 electric damage. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Electrolyze",
+        "display_name": "Electrolyze",
+        "tool_class": "tinkerer",
+        "icon_label": "Electrolyze",
+        "resolved_icon_label": "Electrolyze",
+        "main_svg_id": "1194",
+        "main_svg_filename": "1194.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Electrolyze",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Give your weapon +3 electric damage.Upgraded: Give your weapon +3 electric damage. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Electrolyze",
+        "display_name": "Electrolyze",
+        "tool_class": "tinkerer",
+        "icon_label": "Electrolyze",
+        "resolved_icon_label": "Electrolyze",
+        "main_svg_id": "1194",
+        "main_svg_filename": "1194.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Eureka!",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Gain +3 Tech and Madness 1. (This spell can only be cast once per battle.) Upgraded: Gain +3 Tech. (This spell can only be cast once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Eureka",
+        "display_name": "Eureka!",
+        "tool_class": "tinkerer",
+        "icon_label": "Eureka",
+        "resolved_icon_label": "Eureka",
+        "main_svg_id": "1198",
+        "main_svg_filename": "1198.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Experimental Teleporter",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces.Upgraded: Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ExperimentalTeleporter",
+        "display_name": "Experimental Teleporter",
+        "tool_class": "tinkerer",
+        "icon_label": "ExperimentalTeleporter",
+        "resolved_icon_label": "ExperimentalTeleporter",
+        "main_svg_id": "1202",
+        "main_svg_filename": "1202.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Experimental Teleporter",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces.Upgraded: Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ExperimentalTeleporter",
+        "display_name": "Experimental Teleporter",
+        "tool_class": "tinkerer",
+        "icon_label": "ExperimentalTeleporter",
+        "resolved_icon_label": "ExperimentalTeleporter",
+        "main_svg_id": "1202",
+        "main_svg_filename": "1202.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fabricate",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon.Upgraded: Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Fabricate",
+        "display_name": "Fabricate",
+        "tool_class": "tinkerer",
+        "icon_label": "Fabricate",
+        "resolved_icon_label": "Fabricate",
+        "main_svg_id": "1223",
+        "main_svg_filename": "1223.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fabricate",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon.Upgraded: Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Fabricate",
+        "display_name": "Fabricate",
+        "tool_class": "tinkerer",
+        "icon_label": "Fabricate",
+        "resolved_icon_label": "Fabricate",
+        "main_svg_id": "1223",
+        "main_svg_filename": "1223.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fast Hands",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Refresh your weapon and trinket actions (unless they gain you mana).Upgraded: Refresh your weapon and trinket actions (unless they gain you mana). Repair 1 use to all of your equipment.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FastHands",
+        "display_name": "Fast Hands",
+        "tool_class": "tinkerer",
+        "icon_label": "FastHands",
+        "resolved_icon_label": "FastHands",
+        "main_svg_id": "1200",
+        "main_svg_filename": "1200.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Firecracker",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Throw 3 small 1-damage explosives at random tiles in an area.Upgraded: Throw small 1-damage explosives at all tiles in an area.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Firecrackers",
+        "display_name": "Firecracker",
+        "tool_class": "tinkerer",
+        "icon_label": "Firecrackers",
+        "resolved_icon_label": "Firecrackers",
+        "main_svg_id": "1196",
+        "main_svg_filename": "1196.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fresh off the Forge",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Gain +7 and Burn 3.Upgraded: Give +7 and Burn 3 to yourself or an adjacent unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FreshOffTheForge",
+        "display_name": "Fresh off the Forge",
+        "tool_class": "tinkerer",
+        "icon_label": "FreshOffTheForge",
+        "resolved_icon_label": "FreshOffTheForge",
+        "main_svg_id": "1183",
+        "main_svg_filename": "1183.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Improve",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Gain +1 to a random stat.Upgraded: You or an adjacent unit gain +1 to 2 random stats.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Improve",
+        "display_name": "Improve",
+        "tool_class": "tinkerer",
+        "icon_label": "Improve",
+        "resolved_icon_label": "Improve",
+        "main_svg_id": "1189",
+        "main_svg_filename": "1189.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Instant Barrier",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Gain +6 . Castable only if you have no .Upgraded: Gain +6 . This spell's mana cost is equal to your current .",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "InstantBarrier",
+        "display_name": "Instant Barrier",
+        "tool_class": "tinkerer",
+        "icon_label": "InstantBarrier",
+        "resolved_icon_label": "InstantBarrier",
+        "main_svg_id": "1217",
+        "main_svg_filename": "1217.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Instant Barrier",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Gain +6 . Castable only if you have no .Upgraded: Gain +6 . This spell's mana cost is equal to your current .",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "InstantBarrier",
+        "display_name": "Instant Barrier",
+        "tool_class": "tinkerer",
+        "icon_label": "InstantBarrier",
+        "resolved_icon_label": "InstantBarrier",
+        "main_svg_id": "1217",
+        "main_svg_filename": "1217.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Mech Suit",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Summon a mech suit that can be piloted. (Castable once per battle.) Upgraded: Summon a mech suit that can be piloted. (Costs 0 mana. Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MechSuit",
+        "display_name": "Mech Suit",
+        "tool_class": "tinkerer",
+        "icon_label": "MechSuit",
+        "resolved_icon_label": "MechSuit",
+        "main_svg_id": "1206",
+        "main_svg_filename": "1206.svg"
+      },
+      "numbers": {
+        "raw": "15",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "15",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Mech Suit",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Summon a mech suit that can be piloted. (Castable once per battle.) Upgraded: Summon a mech suit that can be piloted. (Costs 0 mana. Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MechSuit",
+        "display_name": "Mech Suit",
+        "tool_class": "tinkerer",
+        "icon_label": "MechSuit",
+        "resolved_icon_label": "MechSuit",
+        "main_svg_id": "1206",
+        "main_svg_filename": "1206.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nurse Bot",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Spawn a nurse bot that heals allies.Upgraded: Spawn a nurse bot that heals allies. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "NurseBot",
+        "display_name": "Nurse Bot",
+        "tool_class": "tinkerer",
+        "icon_label": "NurseBot",
+        "resolved_icon_label": "NurseBot",
+        "main_svg_id": "1220",
+        "main_svg_filename": "1220.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nurse Bot",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Spawn a nurse bot that heals allies.Upgraded: Spawn a nurse bot that heals allies. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "NurseBot",
+        "display_name": "Nurse Bot",
+        "tool_class": "tinkerer",
+        "icon_label": "NurseBot",
+        "resolved_icon_label": "NurseBot",
+        "main_svg_id": "1220",
+        "main_svg_filename": "1220.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Punchbot",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Spawn a Rubber Fist Bot.Upgraded: Spawn a Rubber Fist Bot within a large range.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PunchBot",
+        "display_name": "Punchbot",
+        "tool_class": "tinkerer",
+        "icon_label": "PunchBot",
+        "resolved_icon_label": "PunchBot",
+        "main_svg_id": "1199",
+        "main_svg_filename": "1199.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Recycle",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Destroy your weapon to gain +1 Tech and refresh your basic action.Upgraded: Destroy your weapon to gain +1 Tech and refresh your basic action. This spell costs 1 mana if you haven't used your weapon this turn.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Recycle",
+        "display_name": "Recycle",
+        "tool_class": "tinkerer",
+        "icon_label": "Recycle",
+        "resolved_icon_label": "Recycle",
+        "main_svg_id": "1177",
+        "main_svg_filename": "1177.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Recycle",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Destroy your weapon to gain +1 Tech and refresh your basic action.Upgraded: Destroy your weapon to gain +1 Tech and refresh your basic action. This spell costs 1 mana if you haven't used your weapon this turn.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Recycle",
+        "display_name": "Recycle",
+        "tool_class": "tinkerer",
+        "icon_label": "Recycle",
+        "resolved_icon_label": "Recycle",
+        "main_svg_id": "1177",
+        "main_svg_filename": "1177.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Refine Materials",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech.Upgraded: Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech, +1 , and +1 to a random stat.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "RefineMaterials",
+        "display_name": "Refine Materials",
+        "tool_class": "tinkerer",
+        "icon_label": "RefineMaterials",
+        "resolved_icon_label": "RefineMaterials",
+        "main_svg_id": "1222",
+        "main_svg_filename": "1222.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Remote Detonator",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Explode a familiar, dealing 5 damage with knockback in an area.Upgraded: Explode a familiar, dealing 5 damage with knockback in an area. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "RemoteDetonator",
+        "display_name": "Remote Detonator",
+        "tool_class": "tinkerer",
+        "icon_label": "RemoteDetonator",
+        "resolved_icon_label": "RemoteDetonator",
+        "main_svg_id": "1192",
+        "main_svg_filename": "1192.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Remote Detonator",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Explode a familiar, dealing 5 damage with knockback in an area.Upgraded: Explode a familiar, dealing 5 damage with knockback in an area. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "RemoteDetonator",
+        "display_name": "Remote Detonator",
+        "tool_class": "tinkerer",
+        "icon_label": "RemoteDetonator",
+        "resolved_icon_label": "RemoteDetonator",
+        "main_svg_id": "1192",
+        "main_svg_filename": "1192.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Repair",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Repair 1 use to all of your or an adjacent unit's equipment.Upgraded: Repair all uses to all of your or an adjacent unit's equipment.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Repair",
+        "display_name": "Repair",
+        "tool_class": "tinkerer",
+        "icon_label": "Repair",
+        "resolved_icon_label": "Repair",
+        "main_svg_id": "1169",
+        "main_svg_filename": "1169.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Repair Armor",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Lose all , then gain equal to your equipment's starting .Upgraded: Lose all , then give equal to your equipment's starting to yourself or another ally.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "RepairArmor",
+        "display_name": "Repair Armor",
+        "tool_class": "tinkerer",
+        "icon_label": "RepairArmor",
+        "resolved_icon_label": "RepairArmor",
+        "main_svg_id": "1213",
+        "main_svg_filename": "1213.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reprogram",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Conjure a random spell of your class as a bonus ability.Upgraded: Conjure a random upgraded spell of your class as a bonus ability.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Reprogram",
+        "display_name": "Reprogram",
+        "tool_class": "tinkerer",
+        "icon_label": "Reprogram",
+        "resolved_icon_label": "Reprogram",
+        "main_svg_id": "1188",
+        "main_svg_filename": "1188.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Research",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Gain +1 Tech.Upgraded: Gain +1 Tech. Bonus Passive: Crafting subtracts 1 Tech instead of all of it.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Research",
+        "display_name": "Research",
+        "tool_class": "tinkerer",
+        "icon_label": "Research",
+        "resolved_icon_label": "Research",
+        "main_svg_id": "1167",
+        "main_svg_filename": "1167.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Robo-Vac",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Spawn a vacuum bot that collects pickups and shares their effects with you.Upgraded: Spawn a vacuum bot that collects pickups and shares their effects with your whole team.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "RoboVac",
+        "display_name": "Robo-Vac",
+        "tool_class": "tinkerer",
+        "icon_label": "RoboVac",
+        "resolved_icon_label": "RoboVac",
+        "main_svg_id": "1219",
+        "main_svg_filename": "1219.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shed Scrap",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Lose 1 . Spawn a junk pile.Upgraded: Lose 1 . Spawn a junk pile in range 2.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ShedScrap",
+        "display_name": "Shed Scrap",
+        "tool_class": "tinkerer",
+        "icon_label": "ShedScrap",
+        "resolved_icon_label": "ShedScrap",
+        "main_svg_id": "1214",
+        "main_svg_filename": "1214.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shoddy Jetpack",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Fly to a random tile in a large area. If you land on a unit, explode dealing 5 damage in an area (including to yourself).Upgraded: Fly to any tile. If you land on a unit, explode dealing 5 damage in an area (including to yourself).",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ShoddyJetpack",
+        "display_name": "Shoddy Jetpack",
+        "tool_class": "tinkerer",
+        "icon_label": "ShoddyJetpack",
+        "resolved_icon_label": "ShoddyJetpack",
+        "main_svg_id": "1170",
+        "main_svg_filename": "1170.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Smash",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Smash your weapon onto an adjacent unit, destroying it and dealing double its damage.Upgraded: Smash your weapon onto an adjacent unit, destroying it and dealing double its damage. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Smash",
+        "display_name": "Smash",
+        "tool_class": "tinkerer",
+        "icon_label": "Smash",
+        "resolved_icon_label": "Smash",
+        "main_svg_id": "1215",
+        "main_svg_filename": "1215.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Smash",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Smash your weapon onto an adjacent unit, destroying it and dealing double its damage.Upgraded: Smash your weapon onto an adjacent unit, destroying it and dealing double its damage. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Smash",
+        "display_name": "Smash",
+        "tool_class": "tinkerer",
+        "icon_label": "Smash",
+        "resolved_icon_label": "Smash",
+        "main_svg_id": "1215",
+        "main_svg_filename": "1215.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spare Parts",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Destroy your weapon and gain one of the following: +2 , +4 Charge, +1 Thorns, or 1 coin.Upgraded: Destroy your weapon and gain one of the following: +4 , +8 Charge, +2 Thorns, or 2 coins.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SpareParts",
+        "display_name": "Spare Parts",
+        "tool_class": "tinkerer",
+        "icon_label": "SpareParts",
+        "resolved_icon_label": "SpareParts",
+        "main_svg_id": "1204",
+        "main_svg_filename": "1204.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spawn Decoy",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Spawn a decoy that explodes when it dies.Upgraded: Spawn a decoy that explodes when it dies. When an enemy targets you, swap places with the decoy.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SpawnDecoy",
+        "display_name": "Spawn Decoy",
+        "tool_class": "tinkerer",
+        "icon_label": "SpawnDecoy",
+        "resolved_icon_label": "SpawnDecoy",
+        "main_svg_id": "1171",
+        "main_svg_filename": "1171.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spring Shoes",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Jump up to 2 tiles away.Upgraded: Jump up to 5 tiles away.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SpringShoes",
+        "display_name": "Spring Shoes",
+        "tool_class": "tinkerer",
+        "icon_label": "SpringShoes",
+        "resolved_icon_label": "SpringShoes",
+        "main_svg_id": "1173",
+        "main_svg_filename": "1173.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tesla Coil",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Spawn a tesla coil that shoots lightning bolts at random units with a small chance to inflict Stun.Upgraded: Spawn a tesla coil in range 7 that shoots lightning bolts at random units with a small chance to inflict Stun.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TeslaCoil",
+        "display_name": "Tesla Coil",
+        "tool_class": "tinkerer",
+        "icon_label": "TeslaCoil",
+        "resolved_icon_label": "TeslaCoil",
+        "main_svg_id": "1221",
+        "main_svg_filename": "1221.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Unreliable Shield Generator",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Gain +6 and +1 temporary Brace. This spell has a 75% chance to be disabled on each turn.Upgraded: Get +6 and +1 temporary Brace. This spell has a 66% chance to be disabled on each turn. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "UnreliableShield",
+        "display_name": "Unreliable Shield Generator",
+        "tool_class": "tinkerer",
+        "icon_label": "UnreliableShield",
+        "resolved_icon_label": "UnreliableShield",
+        "main_svg_id": "1211",
+        "main_svg_filename": "1211.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Unreliable Shield Generator",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Gain +6 and +1 temporary Brace. This spell has a 75% chance to be disabled on each turn.Upgraded: Get +6 and +1 temporary Brace. This spell has a 66% chance to be disabled on each turn. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "UnreliableShield",
+        "display_name": "Unreliable Shield Generator",
+        "tool_class": "tinkerer",
+        "icon_label": "UnreliableShield",
+        "resolved_icon_label": "UnreliableShield",
+        "main_svg_id": "1211",
+        "main_svg_filename": "1211.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Upgrade",
+      "class": "Tinkerer",
+      "variant": "normal",
+      "description": "Fully heal a familiar and give it All Stats Up.Upgraded: Fully heal a familiar and give it All Stats Up and +1 .",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Upgrade",
+        "display_name": "Upgrade",
+        "tool_class": "tinkerer",
+        "icon_label": "Upgrade",
+        "resolved_icon_label": "Upgrade",
+        "main_svg_id": "1197",
+        "main_svg_filename": "1197.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

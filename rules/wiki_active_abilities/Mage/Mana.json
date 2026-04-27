@@ -1,0 +1,536 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Mage",
+  "frame_type": "Mana",
+  "count": 22,
+  "abilities": [
+    {
+      "wiki_name": "Chaos Teleport",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Teleport to a random tile.Upgraded: Teleport to a random tile. Deal damage to units adjacent to the tile you teleport to.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ChaosTeleport",
+        "display_name": "Chaos Teleport",
+        "tool_class": "mage",
+        "icon_label": "ChaosTeleport",
+        "resolved_icon_label": "ChaosTeleport",
+        "main_svg_id": "744",
+        "main_svg_filename": "744.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Chill",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Inflict Slow on a unit.Upgraded: Inflict Slow on units in an area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Slow",
+        "display_name": "Chill",
+        "tool_class": "mage",
+        "icon_label": "Slow",
+        "resolved_icon_label": "Slow",
+        "main_svg_id": "736",
+        "main_svg_filename": "736.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Corrupt",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Injure yourself, then gain +3 Magic Damage.Upgraded: Injure yourself, then gain +3 Magic Damage and emit a Sparkle.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Corrupt",
+        "display_name": "Corrupt",
+        "tool_class": "mage",
+        "icon_label": "Corrupt",
+        "resolved_icon_label": "Corrupt",
+        "main_svg_id": "753",
+        "main_svg_filename": "753.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Deal with the Devil",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Injure yourself, then restore 15 mana. (Castable once per battle.) Upgraded: Injure yourself, then restore all your mana. (Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DealWithTheDevil",
+        "display_name": "Deal with the Devil",
+        "tool_class": "mage",
+        "icon_label": "DealWithTheDevil",
+        "resolved_icon_label": "DealWithTheDevil",
+        "main_svg_id": "747",
+        "main_svg_filename": "747.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Divide",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Lose Damage equal to half of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn. (This can't be cast if your basic attack's damage is 1 or less.) Upgraded: Lose Damage equal to 1/3rd of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn. (This can't be cast if your basic attack's damage is 1 or less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Divide",
+        "display_name": "Divide",
+        "tool_class": "mage",
+        "icon_label": "Divide",
+        "resolved_icon_label": "Divide",
+        "main_svg_id": "760",
+        "main_svg_filename": "760.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Frost Blast",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Shoot a blast of ice in a line that freezes the first unit it hits.Upgraded: Shoot a blast of ice in a line that freezes every unit it hits.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FreezeRay",
+        "display_name": "Frost Blast",
+        "tool_class": "mage",
+        "icon_label": "FreezeRay",
+        "resolved_icon_label": "FreezeRay",
+        "main_svg_id": "722",
+        "main_svg_filename": "722.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gust",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Knock back each unit adjacent to a chosen tile 1 space.Upgraded: Knock back each unit adjacent to a chosen tile 3 spaces, at infinite range.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Gust",
+        "display_name": "Gust",
+        "tool_class": "mage",
+        "icon_label": "Gust",
+        "resolved_icon_label": "Gust",
+        "main_svg_id": "746",
+        "main_svg_filename": "746.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Inspire",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Give 2 mana to a unit.Upgraded: Give 4 mana to a unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Inspire",
+        "display_name": "Inspire",
+        "tool_class": "mage",
+        "icon_label": "Inspire",
+        "resolved_icon_label": "Inspire",
+        "main_svg_id": "743",
+        "main_svg_filename": "743.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Magnify",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Your basic attack gains +1 range and area until the end of the turn.Upgraded: Your basic attack gains +2 range and +1 area until the end of the turn. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Magnify",
+        "display_name": "Magnify",
+        "tool_class": "mage",
+        "icon_label": "Magnify",
+        "resolved_icon_label": "Magnify",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Magnify",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Your basic attack gains +1 range and area until the end of the turn.Upgraded: Your basic attack gains +2 range and +1 area until the end of the turn. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Magnify",
+        "display_name": "Magnify",
+        "tool_class": "mage",
+        "icon_label": "Magnify",
+        "resolved_icon_label": "Magnify",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Mana Meld",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Give all of your mana to a unit in range 3.Upgraded: Give all of your mana plus 2 to a unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ManaMeld",
+        "display_name": "Mana Meld",
+        "tool_class": "mage",
+        "icon_label": "ManaMeld",
+        "resolved_icon_label": "ManaMeld",
+        "main_svg_id": "742",
+        "main_svg_filename": "742.svg"
+      },
+      "numbers": {
+        "raw": "All",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Replicate",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "The next spell you cast is cast twice.Upgraded: The next spell you or another unit casts is cast twice.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Replicate",
+        "display_name": "Replicate",
+        "tool_class": "mage",
+        "icon_label": "Replicate",
+        "resolved_icon_label": "Replicate",
+        "main_svg_id": "768",
+        "main_svg_filename": "768.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Smolder",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Inflict Burn 1 and +1 Speed to a unit in range.Upgraded: Inflict Burn 1 and +1 Speed to any unit. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Smolder",
+        "display_name": "Smolder",
+        "tool_class": "mage",
+        "icon_label": "Smolder",
+        "resolved_icon_label": "Smolder",
+        "main_svg_id": "765",
+        "main_svg_filename": "765.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Smolder",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Inflict Burn 1 and +1 Speed to a unit in range.Upgraded: Inflict Burn 1 and +1 Speed to any unit. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Smolder",
+        "display_name": "Smolder",
+        "tool_class": "mage",
+        "icon_label": "Smolder",
+        "resolved_icon_label": "Smolder",
+        "main_svg_id": "765",
+        "main_svg_filename": "765.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Switch",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Switch positions with any unit.Upgraded: Switch positions with any unit. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MageSwap",
+        "display_name": "Switch",
+        "tool_class": "mage",
+        "icon_label": "MageSwap",
+        "resolved_icon_label": "MageSwap",
+        "main_svg_id": "741",
+        "main_svg_filename": "741.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Switch",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Switch positions with any unit.Upgraded: Switch positions with any unit. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MageSwap",
+        "display_name": "Switch",
+        "tool_class": "mage",
+        "icon_label": "MageSwap",
+        "resolved_icon_label": "MageSwap",
+        "main_svg_id": "741",
+        "main_svg_filename": "741.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Teach",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Reduce the cost of another unit's spells by 1 until the end of their turn.Upgraded: Reduce the cost of a unit's spells by 1 until the end of their turn. This can target yourself.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Teach",
+        "display_name": "Teach",
+        "tool_class": "mage",
+        "icon_label": "Teach",
+        "resolved_icon_label": "Teach",
+        "main_svg_id": "770",
+        "main_svg_filename": "770.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Teleport",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Teleport to any tile.Upgraded: Teleport to any tile. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MageTeleport",
+        "display_name": "Teleport",
+        "tool_class": "mage",
+        "icon_label": "MageTeleport",
+        "resolved_icon_label": "MageTeleport",
+        "main_svg_id": "740",
+        "main_svg_filename": "740.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Teleport",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Teleport to any tile.Upgraded: Teleport to any tile. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MageTeleport",
+        "display_name": "Teleport",
+        "tool_class": "mage",
+        "icon_label": "MageTeleport",
+        "resolved_icon_label": "MageTeleport",
+        "main_svg_id": "740",
+        "main_svg_filename": "740.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Warp",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Teleport diagonally any distance.Upgraded: Teleport diagonally any distance. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Warp",
+        "display_name": "Warp",
+        "tool_class": "mage",
+        "icon_label": "Warp",
+        "resolved_icon_label": "Warp",
+        "main_svg_id": "738",
+        "main_svg_filename": "738.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Warp",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Teleport diagonally any distance.Upgraded: Teleport diagonally any distance. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Warp",
+        "display_name": "Warp",
+        "tool_class": "mage",
+        "icon_label": "Warp",
+        "resolved_icon_label": "Warp",
+        "main_svg_id": "738",
+        "main_svg_filename": "738.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Whirlpool",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Create a whirlpool that spins units and inflicts Confusion on them.Upgraded: Create a larger whirlpool that spins units and inflicts Confusion on them.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "WaterSphere",
+        "display_name": "Whirlpool",
+        "tool_class": "mage",
+        "icon_label": "WaterSphere",
+        "resolved_icon_label": "WaterSphere",
+        "main_svg_id": "772",
+        "main_svg_filename": "772.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

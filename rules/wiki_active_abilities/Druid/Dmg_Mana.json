@@ -1,0 +1,416 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Druid",
+  "frame_type": "Dmg_Mana",
+  "count": 17,
+  "abilities": [
+    {
+      "wiki_name": "Aeroblast",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "A wind gust that deals 1 damage and 1 Knockback in a line.Upgraded: A wind gust that deals 2 damage and 2 Knockback in a line.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CrowFlap",
+        "display_name": "Aeroblast",
+        "tool_class": "druid",
+        "icon_label": "CrowFlap",
+        "resolved_icon_label": "CrowFlap",
+        "main_svg_id": "992",
+        "main_svg_filename": "992.svg"
+      },
+      "numbers": {
+        "raw": "1 5",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Aeroblast",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "A wind gust that deals 1 damage and 1 Knockback in a line.Upgraded: A wind gust that deals 2 damage and 2 Knockback in a line.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CrowFlap",
+        "display_name": "Aeroblast",
+        "tool_class": "druid",
+        "icon_label": "CrowFlap",
+        "resolved_icon_label": "CrowFlap",
+        "main_svg_id": "992",
+        "main_svg_filename": "992.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bramble Burst",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Explode a familiar causing damage to all adjacent units and spawning brambles.Upgraded: Explode a familiar causing damage to all units in range 2 and spawning brambles.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BrambleBurst",
+        "display_name": "Bramble Burst",
+        "tool_class": "druid",
+        "icon_label": "BrambleBurst",
+        "resolved_icon_label": "BrambleBurst",
+        "main_svg_id": "1006",
+        "main_svg_filename": "1006.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Control Plants",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Create a tall grass tile, then all enemies on grass element tiles take 1 damage.Upgraded: Create a tall grass tile, then all enemies on grass element tiles take 1 damage and gain Poison 1.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ControlPlants",
+        "display_name": "Control Plants",
+        "tool_class": "druid",
+        "icon_label": "ControlPlants",
+        "resolved_icon_label": "ControlPlants",
+        "main_svg_id": "1032",
+        "main_svg_filename": "1032.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Control Water",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Create a water tile, then all allies on water element tiles heal 2 HP.Upgraded: Create a water tile, then all allies on water element tiles heal 2 HP and have their debuffs cleansed.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "ControlWater",
+        "display_name": "Control Water",
+        "tool_class": "druid",
+        "icon_label": "ControlWater",
+        "resolved_icon_label": "ControlWater",
+        "main_svg_id": "1031",
+        "main_svg_filename": "1031.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Feral Attack",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "A melee attack. (This spell costs 0 mana. Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FeralMelee",
+        "display_name": "Feral Attack",
+        "tool_class": "druid",
+        "icon_label": "FeralMelee",
+        "resolved_icon_label": "FeralMelee",
+        "main_svg_id": "1058",
+        "main_svg_filename": "1058.svg"
+      },
+      "numbers": {
+        "raw": "5 0",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "From the Trees!",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Summon a random animal that falls from the sky onto a random enemy, dealing damage.Upgraded: Summon a random animal that falls from the sky onto a random enemy, dealing more damage. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FromTheTrees",
+        "display_name": "From the Trees!",
+        "tool_class": "druid",
+        "icon_label": "FromTheTrees",
+        "resolved_icon_label": "FromTheTrees",
+        "main_svg_id": "1047",
+        "main_svg_filename": "1047.svg"
+      },
+      "numbers": {
+        "raw": "5 8",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "From the Trees!",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Summon a random animal that falls from the sky onto a random enemy, dealing damage.Upgraded: Summon a random animal that falls from the sky onto a random enemy, dealing more damage. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FromTheTrees",
+        "display_name": "From the Trees!",
+        "tool_class": "druid",
+        "icon_label": "FromTheTrees",
+        "resolved_icon_label": "FromTheTrees",
+        "main_svg_id": "1047",
+        "main_svg_filename": "1047.svg"
+      },
+      "numbers": {
+        "raw": "7 6",
+        "frame_type": "Dmg_Mana",
+        "value": "7",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Grant Life",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Give a unit All Stats Up. You get All Stats Down.Upgraded: Give a unit All Stats Up, Charge 2, and heal them 2. You get All Stats Down.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "GrantLife",
+        "display_name": "Grant Life",
+        "tool_class": "druid",
+        "icon_label": "GrantLife",
+        "resolved_icon_label": "GrantLife",
+        "main_svg_id": "995",
+        "main_svg_filename": "995.svg"
+      },
+      "numbers": {
+        "raw": "N/A 2",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Grant Life",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Give a unit All Stats Up. You get All Stats Down.Upgraded: Give a unit All Stats Up, Charge 2, and heal them 2. You get All Stats Down.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "GrantLife",
+        "display_name": "Grant Life",
+        "tool_class": "druid",
+        "icon_label": "GrantLife",
+        "resolved_icon_label": "GrantLife",
+        "main_svg_id": "995",
+        "main_svg_filename": "995.svg"
+      },
+      "numbers": {
+        "raw": "2 2",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Inspirational Song",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Heal all allies and give them +1 Temporary Damage.Upgraded: Heal all allies and give them +2 Temporary Damage.",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "InspirationalSong",
+        "display_name": "Inspirational Song",
+        "tool_class": "druid",
+        "icon_label": "InspirationalSong",
+        "resolved_icon_label": "InspirationalSong",
+        "main_svg_id": "1060",
+        "main_svg_filename": "1060.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Inspirational Song",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Heal all allies and give them +1 Temporary Damage.Upgraded: Heal all allies and give them +2 Temporary Damage.",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "InspirationalSong",
+        "display_name": "Inspirational Song",
+        "tool_class": "druid",
+        "icon_label": "InspirationalSong",
+        "resolved_icon_label": "InspirationalSong",
+        "main_svg_id": "1060",
+        "main_svg_filename": "1060.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pounce",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Jump on a unit, damaging and displacing it.Upgraded: Jump on a unit, damaging, displacing and inflicting Bleed 1 to it.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Pounce",
+        "display_name": "Pounce",
+        "tool_class": "druid",
+        "icon_label": "Pounce",
+        "resolved_icon_label": "Pounce",
+        "main_svg_id": "1015",
+        "main_svg_filename": "1015.svg"
+      },
+      "numbers": {
+        "raw": "2 6",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Self-destruct",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Explode.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FamiliarSelfDestruct",
+        "display_name": "Self-destruct",
+        "tool_class": "druid",
+        "icon_label": "FamiliarSelfDestruct",
+        "resolved_icon_label": "FamiliarSelfDestruct",
+        "main_svg_id": "1059",
+        "main_svg_filename": "1059.svg"
+      },
+      "numbers": {
+        "raw": "7 0",
+        "frame_type": "Dmg_Mana",
+        "value": "7",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Self-destruct",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Explode.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FamiliarSelfDestruct",
+        "display_name": "Self-destruct",
+        "tool_class": "druid",
+        "icon_label": "FamiliarSelfDestruct",
+        "resolved_icon_label": "FamiliarSelfDestruct",
+        "main_svg_id": "1059",
+        "main_svg_filename": "1059.svg"
+      },
+      "numbers": {
+        "raw": "12 0",
+        "frame_type": "Dmg_Mana",
+        "value": "12",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Synthesize",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Heal 2 HP and gain Charge 2.Upgraded: You and allies within 3 tiles gain 2 HP and 2 Charge.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Synthesize",
+        "display_name": "Synthesize",
+        "tool_class": "druid",
+        "icon_label": "Synthesize",
+        "resolved_icon_label": "Synthesize",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "2 3",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Throw Egg",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its second turn.Upgraded: Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its first turn.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ThrowEgg",
+        "display_name": "Throw Egg",
+        "tool_class": "druid",
+        "icon_label": "ThrowEgg",
+        "resolved_icon_label": "ThrowEgg",
+        "main_svg_id": "1042",
+        "main_svg_filename": "1042.svg"
+      },
+      "numbers": {
+        "raw": "4 7",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

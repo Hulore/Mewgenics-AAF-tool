@@ -1,0 +1,80 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Jester",
+  "frame_type": "Mana",
+  "count": 3,
+  "abilities": [
+    {
+      "wiki_name": "Power Up",
+      "class": "Jester",
+      "variant": "normal",
+      "description": "Spend all of your mana and gain that many random buffs.Upgraded: Spend all of your mana and give that many random buffs to yourself or another unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PowerUp",
+        "display_name": "Power Up",
+        "tool_class": "jester",
+        "icon_label": "PowerUp",
+        "resolved_icon_label": "PowerUp",
+        "main_svg_id": "1341",
+        "main_svg_filename": "1341.svg"
+      },
+      "numbers": {
+        "raw": "All",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "RNG Cannon",
+      "class": "Jester",
+      "variant": "normal",
+      "description": "Deals a random amount of damage. Requires line of sightUpgraded: Deals a random amount of damage and inflicts random debuffs. Requires line of sight",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "RNGCannon",
+        "display_name": "RNG Cannon",
+        "tool_class": "jester",
+        "icon_label": "RNGCannon",
+        "resolved_icon_label": "RNGCannon",
+        "main_svg_id": "1339",
+        "main_svg_filename": "1339.svg"
+      },
+      "numbers": {
+        "raw": "? 10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Smart Metronome",
+      "class": "Jester",
+      "variant": "normal",
+      "description": "Cast any random spell. The spell is usually good.Upgraded: Cast any random upgraded spell. The spell is usually good.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SmartMetronome",
+        "display_name": "Smart Metronome",
+        "tool_class": "jester",
+        "icon_label": "SmartMetronome",
+        "resolved_icon_label": "SmartMetronome",
+        "main_svg_id": "1338",
+        "main_svg_filename": "1338.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,776 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Butcher",
+  "frame_type": "Mana",
+  "count": 32,
+  "abilities": [
+    {
+      "wiki_name": "Bad Gas",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Fart on a unit, inflicting Poison 3 and propelling yourself 3 tiles.Upgraded: Fart on a unit, inflicting Poison 3 and propelling yourself ten tiles. Units in your path get trampled over.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BadGas",
+        "display_name": "Bad Gas",
+        "tool_class": "butcher",
+        "icon_label": "BadGas",
+        "resolved_icon_label": "BadGas",
+        "main_svg_id": "968",
+        "main_svg_filename": "968.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bad Gas",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Fart on a unit, inflicting Poison 3 and propelling yourself 3 tiles.Upgraded: Fart on a unit, inflicting Poison 3 and propelling yourself ten tiles. Units in your path get trampled over.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BadGas",
+        "display_name": "Bad Gas",
+        "tool_class": "butcher",
+        "icon_label": "BadGas",
+        "resolved_icon_label": "BadGas",
+        "main_svg_id": "968",
+        "main_svg_filename": "968.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bowl",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Roll the bowling ball cat. If it hits something, deal 10 damage in a large cone with knockback.Upgraded: Roll the bowling ball cat. If it hits something, deal 15 damage and inflict Bruise in a large cone with knockback.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Bowl",
+        "display_name": "Bowl",
+        "tool_class": "butcher",
+        "icon_label": "Bowl",
+        "resolved_icon_label": "Bowl",
+        "main_svg_id": "984",
+        "main_svg_filename": "984.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Burp",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Inflict Rot on a unit and it moves away from you.Upgraded: Inflict Rot 2 and Poison 2 on a unit and it moves away from you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Burp",
+        "display_name": "Burp",
+        "tool_class": "butcher",
+        "icon_label": "Burp",
+        "resolved_icon_label": "Burp",
+        "main_svg_id": "942",
+        "main_svg_filename": "942.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Butcher",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Kill every unit with 3 or less health. They become meat.Upgraded: Kill every unit with 3 or less health. They become meat. Gain 5 health for each unit killed.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Butcher",
+        "display_name": "Butcher",
+        "tool_class": "butcher",
+        "icon_label": "Butcher",
+        "resolved_icon_label": "Butcher",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Consume",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Collect all pickups, then become drowsy.Upgraded: Collect all pickups, then become drowsy. Gain double the effects of these pickups.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Consume",
+        "display_name": "Consume",
+        "tool_class": "butcher",
+        "icon_label": "Consume",
+        "resolved_icon_label": "Consume",
+        "main_svg_id": "951",
+        "main_svg_filename": "951.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Contaminate",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Collect an adjacent pickup. Instead of that pickup's normal effects, add Poison 1 to your weapon for the rest of the battle.Upgraded: Collect a pickup in range 5. Instead of that pickup's normal effects, add Poison 1 to your weapon for the rest of the battle.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Contaminate",
+        "display_name": "Contaminate",
+        "tool_class": "butcher",
+        "icon_label": "Contaminate",
+        "resolved_icon_label": "Contaminate",
+        "main_svg_id": "988",
+        "main_svg_filename": "988.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cough",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Take 2 damage. Summon a Rot Fly.Upgraded: Take 2 damage. Summon a Rot Fly.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Cough",
+        "display_name": "Cough",
+        "tool_class": "butcher",
+        "icon_label": "Cough",
+        "resolved_icon_label": "Cough",
+        "main_svg_id": "981",
+        "main_svg_filename": "981.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Death Wind",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have.Upgraded: Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "DeathWind",
+        "display_name": "Death Wind",
+        "tool_class": "butcher",
+        "icon_label": "DeathWind",
+        "resolved_icon_label": "DeathWind",
+        "main_svg_id": "964",
+        "main_svg_filename": "964.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Death Wind",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have.Upgraded: Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "DeathWind",
+        "display_name": "Death Wind",
+        "tool_class": "butcher",
+        "icon_label": "DeathWind",
+        "resolved_icon_label": "DeathWind",
+        "main_svg_id": "964",
+        "main_svg_filename": "964.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Delicious Scent",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Inflict Attraction on all enemies within range 4.Upgraded: Jump to a tile, then inflict Attraction on all enemies within range 4.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DeliciousScent",
+        "display_name": "Delicious Scent",
+        "tool_class": "butcher",
+        "icon_label": "DeliciousScent",
+        "resolved_icon_label": "DeliciousScent",
+        "main_svg_id": "982",
+        "main_svg_filename": "982.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fire Fart",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Inflict Poison 2 and Burn 2 on a unit in melee range.Upgraded: Inflict Poison 2 and Burn 2 in a small cone.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FireFart",
+        "display_name": "Fire Fart",
+        "tool_class": "butcher",
+        "icon_label": "FireFart",
+        "resolved_icon_label": "FireFart",
+        "main_svg_id": "972",
+        "main_svg_filename": "972.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Grapnel",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Lob a hook at an object and pull yourself to it. Trample over tiles in your path.Upgraded: Lob a hook at an object and pull yourself to it. Trample over tiles in your path. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Grapnel",
+        "display_name": "Grapnel",
+        "tool_class": "butcher",
+        "icon_label": "Grapnel",
+        "resolved_icon_label": "Grapnel",
+        "main_svg_id": "990",
+        "main_svg_filename": "990.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Grapnel",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Lob a hook at an object and pull yourself to it. Trample over tiles in your path.Upgraded: Lob a hook at an object and pull yourself to it. Trample over tiles in your path. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Grapnel",
+        "display_name": "Grapnel",
+        "tool_class": "butcher",
+        "icon_label": "Grapnel",
+        "resolved_icon_label": "Grapnel",
+        "main_svg_id": "990",
+        "main_svg_filename": "990.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Grill",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Light a fire under a food pickup on any tile.Upgraded: Light a fire under any tile.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Grill",
+        "display_name": "Grill",
+        "tool_class": "butcher",
+        "icon_label": "Grill",
+        "resolved_icon_label": "Grill",
+        "main_svg_id": "966",
+        "main_svg_filename": "966.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lodge Hook",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Inflict Bleed 10 on an adjacent unit. You can't use your weapon for the rest of the battle. (Castable once per battle.) Upgraded: Inflict Bleed 10, Immobilize 2, and Bruise 2 on an adjacent unit. You can't use your weapon for the rest of the battle. (Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "LodgeHook",
+        "display_name": "Lodge Hook",
+        "tool_class": "butcher",
+        "icon_label": "LodgeHook",
+        "resolved_icon_label": "LodgeHook",
+        "main_svg_id": "987",
+        "main_svg_filename": "987.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "My Turn!",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Steal an allied cat's next turn for yourself.Upgraded: Steal an allied cat's next turn for yourself. (This spell costs 1 mana.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MyTurn",
+        "display_name": "My Turn!",
+        "tool_class": "butcher",
+        "icon_label": "MyTurn",
+        "resolved_icon_label": "MyTurn",
+        "main_svg_id": "977",
+        "main_svg_filename": "977.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "My Turn!",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Steal an allied cat's next turn for yourself.Upgraded: Steal an allied cat's next turn for yourself. (This spell costs 1 mana.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MyTurn",
+        "display_name": "My Turn!",
+        "tool_class": "butcher",
+        "icon_label": "MyTurn",
+        "resolved_icon_label": "MyTurn",
+        "main_svg_id": "977",
+        "main_svg_filename": "977.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Regurge",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Take 2 damage and spawn a food pickup.Upgraded: Take 2 damage and spawn a big food pickup.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Regurge",
+        "display_name": "Regurge",
+        "tool_class": "butcher",
+        "icon_label": "Regurge",
+        "resolved_icon_label": "Regurge",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rehook",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Refresh your weapon ability.Upgraded: Refresh your weapon and movement action.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Rehook",
+        "display_name": "Rehook",
+        "tool_class": "butcher",
+        "icon_label": "Rehook",
+        "resolved_icon_label": "Rehook",
+        "main_svg_id": "989",
+        "main_svg_filename": "989.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sharpen",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Your weapon gains +1 damage for the rest of the battle.Upgraded: Your weapon gains +1 damage for the rest of the battle and you gain +1 Damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Sharpen",
+        "display_name": "Sharpen",
+        "tool_class": "butcher",
+        "icon_label": "Sharpen",
+        "resolved_icon_label": "Sharpen",
+        "main_svg_id": "973",
+        "main_svg_filename": "973.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Smell Blood",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit.Upgraded: Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SmellBlood",
+        "display_name": "Smell Blood",
+        "tool_class": "butcher",
+        "icon_label": "SmellBlood",
+        "resolved_icon_label": "SmellBlood",
+        "main_svg_id": "955",
+        "main_svg_filename": "955.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Smell Blood",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit.Upgraded: Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SmellBlood",
+        "display_name": "Smell Blood",
+        "tool_class": "butcher",
+        "icon_label": "SmellBlood",
+        "resolved_icon_label": "SmellBlood",
+        "main_svg_id": "955",
+        "main_svg_filename": "955.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spoil",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Turn all food pickups into Rot Flies.Upgraded: Turn all food pickups into Rot Flies. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Spoil",
+        "display_name": "Spoil",
+        "tool_class": "butcher",
+        "icon_label": "Spoil",
+        "resolved_icon_label": "Spoil",
+        "main_svg_id": "965",
+        "main_svg_filename": "965.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spoil",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Turn all food pickups into Rot Flies.Upgraded: Turn all food pickups into Rot Flies. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Spoil",
+        "display_name": "Spoil",
+        "tool_class": "butcher",
+        "icon_label": "Spoil",
+        "resolved_icon_label": "Spoil",
+        "main_svg_id": "965",
+        "main_svg_filename": "965.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "SUCC",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Collect a pickup within two tiles of you.Upgraded: Collect all pickups within two tiles of you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Succ",
+        "display_name": "SUCC",
+        "tool_class": "butcher",
+        "icon_label": "Succ",
+        "resolved_icon_label": "Succ",
+        "main_svg_id": "950",
+        "main_svg_filename": "950.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Swallow",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Eat a unit and take damage equal to that unit's remaining HP. You can't swallow bosses or large units.Upgraded: Eat a unit within range 2 and take damage equal to half of that unit's remaining HP. You can't swallow bosses or large units.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Swallow",
+        "display_name": "Swallow",
+        "tool_class": "butcher",
+        "icon_label": "Swallow",
+        "resolved_icon_label": "Swallow",
+        "main_svg_id": "975",
+        "main_svg_filename": "975.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tainted Offering",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Jump to any open tile and fall asleep. While asleep, inflict Rot 1 and Poison 1 on units that contact you.Upgraded: Jump to any open tile and fall asleep. While asleep, inflict Rot 2 and Poison 2 on units that contact you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TaintedOffering",
+        "display_name": "Tainted Offering",
+        "tool_class": "butcher",
+        "icon_label": "TaintedOffering",
+        "resolved_icon_label": "TaintedOffering",
+        "main_svg_id": "983",
+        "main_svg_filename": "983.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Track",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Trample one tile toward the nearest food pickup.Upgraded: Trample two tiles toward the nearest food pickup.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Track",
+        "display_name": "Track",
+        "tool_class": "butcher",
+        "icon_label": "Track",
+        "resolved_icon_label": "Track",
+        "main_svg_id": "974",
+        "main_svg_filename": "974.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Trudge",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Move four tiles. Costs less mana the lower your HP is.Upgraded: Trample over four tiles. Costs less mana the lower your HP is.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Trudge",
+        "display_name": "Trudge",
+        "tool_class": "butcher",
+        "icon_label": "Trudge",
+        "resolved_icon_label": "Trudge",
+        "main_svg_id": "952",
+        "main_svg_filename": "952.svg"
+      },
+      "numbers": {
+        "raw": "1-12",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1-12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Vurp",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Vomit up the last consumable you ate this battle and equip it. (Castable once per battle.) Upgraded: Vomit up the last consumable you ate this battle and equip it. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Vurp",
+        "display_name": "Vurp",
+        "tool_class": "butcher",
+        "icon_label": "Vurp",
+        "resolved_icon_label": "Vurp",
+        "main_svg_id": "956",
+        "main_svg_filename": "956.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Yawn",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "You and adjacent units fall asleepUpgraded: You and adjacent units fall asleep. You gain all stats up and heal 4.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Tryptophan",
+        "display_name": "Yawn",
+        "tool_class": "butcher",
+        "icon_label": "Tryptophan",
+        "resolved_icon_label": "Tryptophan",
+        "main_svg_id": "979",
+        "main_svg_filename": "979.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,1184 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Necromancer",
+  "frame_type": "Mana",
+  "count": 49,
+  "abilities": [
+    {
+      "wiki_name": "Absorb Soul",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Down an ally in range 5 and steal their mana. It doesn't get injured. (Castable once per turn.) Upgraded: Down any ally and steal their mana. It doesn't get injured. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "AbsorbSoul",
+        "display_name": "Absorb Soul",
+        "tool_class": "necromancer",
+        "icon_label": "AbsorbSoul",
+        "resolved_icon_label": "AbsorbSoul",
+        "main_svg_id": "938",
+        "main_svg_filename": "938.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bloodletting",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Remove all status effects from another unit, then inflict Bleed 5 on it.Upgraded: Remove all status effects from another unit, then inflict Bleed 5 on it. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Bloodletting",
+        "display_name": "Bloodletting",
+        "tool_class": "necromancer",
+        "icon_label": "Bloodletting",
+        "resolved_icon_label": "Bloodletting",
+        "main_svg_id": "909",
+        "main_svg_filename": "909.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bloodletting",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Remove all status effects from another unit, then inflict Bleed 5 on it.Upgraded: Remove all status effects from another unit, then inflict Bleed 5 on it. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Bloodletting",
+        "display_name": "Bloodletting",
+        "tool_class": "necromancer",
+        "icon_label": "Bloodletting",
+        "resolved_icon_label": "Bloodletting",
+        "main_svg_id": "909",
+        "main_svg_filename": "909.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Clew of Leeches",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Surround a unit with leeches.Upgraded: Surround a unit with beefy leeches.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ClewOfLeeches",
+        "display_name": "Clew of Leeches",
+        "tool_class": "necromancer",
+        "icon_label": "ClewOfLeeches",
+        "resolved_icon_label": "ClewOfLeeches",
+        "main_svg_id": "934",
+        "main_svg_filename": "934.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Coffin Flop",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Jump to an open tile in range 2. This spell is stronger and castable while you're downed. When downed you can land on units dealing damage and inflicting Madness. Upgraded: Jump to an open tile in range 3. This spell is stronger and castable while you're downed. When downed you can land on units anywhere dealing damage and inflicting Madness 2.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CoffinFlop",
+        "display_name": "Coffin Flop",
+        "tool_class": "necromancer",
+        "icon_label": "CoffinFlop",
+        "resolved_icon_label": "CoffinFlop",
+        "main_svg_id": "919",
+        "main_svg_filename": "919.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Curse",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Give a unit -4 Luck.Upgraded: Give a unit -4 Luck. (This spell has increased range)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Curse",
+        "display_name": "Curse",
+        "tool_class": "necromancer",
+        "icon_label": "Curse",
+        "resolved_icon_label": "Curse",
+        "main_svg_id": "933",
+        "main_svg_filename": "933.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dark Ritual",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Destroy an adjacent body. The next spell you cast costs 0 mana.Upgraded: Destroy an adjacent body. The next 2 spells you cast cost 0 mana.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SoulSuck",
+        "display_name": "Dark Ritual",
+        "tool_class": "necromancer",
+        "icon_label": "SoulSuck",
+        "resolved_icon_label": "SoulSuck",
+        "main_svg_id": "883",
+        "main_svg_filename": "883.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Death Bloom",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Explode a body, dealing damage and Knockback to adjacent units.Upgraded: Explode a body, dealing damage and Knockback to units in a large area.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DeathBloom",
+        "display_name": "Death Bloom",
+        "tool_class": "necromancer",
+        "icon_label": "DeathBloom",
+        "resolved_icon_label": "DeathBloom",
+        "main_svg_id": "889",
+        "main_svg_filename": "889.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Decompose",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Explode a body and spawn 3 Leeches.Upgraded: Explode a body and spawn 5 Leeches.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MaggotArmy",
+        "display_name": "Decompose",
+        "tool_class": "necromancer",
+        "icon_label": "MaggotArmy",
+        "resolved_icon_label": "MaggotArmy",
+        "main_svg_id": "878",
+        "main_svg_filename": "878.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Demonic Pact",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Injure yourself and take an extra turn. (This spell can't be cast on extra turns.) Upgraded: Injure yourself and take an extra turn. (This spell costs less. This spell can't be cast on extra turns.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DemonicPact",
+        "display_name": "Demonic Pact",
+        "tool_class": "necromancer",
+        "icon_label": "DemonicPact",
+        "resolved_icon_label": "DemonicPact",
+        "main_svg_id": "913",
+        "main_svg_filename": "913.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Demonic Pact",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Injure yourself and take an extra turn. (This spell can't be cast on extra turns.) Upgraded: Injure yourself and take an extra turn. (This spell costs less. This spell can't be cast on extra turns.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DemonicPact",
+        "display_name": "Demonic Pact",
+        "tool_class": "necromancer",
+        "icon_label": "DemonicPact",
+        "resolved_icon_label": "DemonicPact",
+        "main_svg_id": "913",
+        "main_svg_filename": "913.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dig Up the Dead",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Dig to any tile and unearth 4 zombies.Upgraded: Dig to any tile and unearth 4 zombies. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DigUpTheDead",
+        "display_name": "Dig Up the Dead",
+        "tool_class": "necromancer",
+        "icon_label": "DigUpTheDead",
+        "resolved_icon_label": "DigUpTheDead",
+        "main_svg_id": "937",
+        "main_svg_filename": "937.svg"
+      },
+      "numbers": {
+        "raw": "16",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "16",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dig Up the Dead",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Dig to any tile and unearth 4 zombies.Upgraded: Dig to any tile and unearth 4 zombies. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DigUpTheDead",
+        "display_name": "Dig Up the Dead",
+        "tool_class": "necromancer",
+        "icon_label": "DigUpTheDead",
+        "resolved_icon_label": "DigUpTheDead",
+        "main_svg_id": "937",
+        "main_svg_filename": "937.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Eternal Servitude",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Resurrect an enemy body to full HP. It joins your team.Upgraded: Resurrect an enemy body to full HP. It joins your team and takes an extra turn after this one.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "AnimateDead",
+        "display_name": "Eternal Servitude",
+        "tool_class": "necromancer",
+        "icon_label": "AnimateDead",
+        "resolved_icon_label": "AnimateDead",
+        "main_svg_id": "888",
+        "main_svg_filename": "888.svg"
+      },
+      "numbers": {
+        "raw": "12",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Evil Incarnate",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Fear on all enemies.Upgraded: Inflict Fear 1 and Weakness 2 on all enemies.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "wp_TinaScream",
+        "display_name": "",
+        "tool_class": "colorless",
+        "icon_label": "wp_TinaScream",
+        "resolved_icon_label": "EvilIncarnate",
+        "main_svg_id": "884",
+        "main_svg_filename": "884.svg"
+      },
+      "numbers": {
+        "raw": "15",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "15",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Evil Incarnate",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Inflict Fear on all enemies.Upgraded: Inflict Fear 1 and Weakness 2 on all enemies.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "wp_TinaScream",
+        "display_name": "",
+        "tool_class": "colorless",
+        "icon_label": "wp_TinaScream",
+        "resolved_icon_label": "EvilIncarnate",
+        "main_svg_id": "884",
+        "main_svg_filename": "884.svg"
+      },
+      "numbers": {
+        "raw": "12",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Feed",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Destroy an adjacent body. Your basic attack inflicts +1 Leech for the rest of the battle.Upgraded: Destroy a body at range. Your basic attack inflicts +1 Leech for the rest of the battle.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Feed",
+        "display_name": "Feed",
+        "tool_class": "necromancer",
+        "icon_label": "Feed",
+        "resolved_icon_label": "Feed",
+        "main_svg_id": "931",
+        "main_svg_filename": "931.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flatline",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn. The copy can't cast this ability or give extra turns to units. Upgraded: Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn. The copy can't cast this ability or give extra turns to units. (This spell costs 0 mana.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Flatline",
+        "display_name": "Flatline",
+        "tool_class": "necromancer",
+        "icon_label": "Flatline",
+        "resolved_icon_label": "Flatline",
+        "main_svg_id": "905",
+        "main_svg_filename": "905.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flatline",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn. The copy can't cast this ability or give extra turns to units. Upgraded: Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn. The copy can't cast this ability or give extra turns to units. (This spell costs 0 mana.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Flatline",
+        "display_name": "Flatline",
+        "tool_class": "necromancer",
+        "icon_label": "Flatline",
+        "resolved_icon_label": "Flatline",
+        "main_svg_id": "905",
+        "main_svg_filename": "905.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flesh Golem",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "You and all allies lose 10 HP. Summon a flesh golem with one random spell from each of those units. (Castable once per battle.) Upgraded: You and all allies lose 10 HP. Summon a flesh golem with one random spell and random passives from each of those units. (Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FleshGolem",
+        "display_name": "Flesh Golem",
+        "tool_class": "necromancer",
+        "icon_label": "FleshGolem",
+        "resolved_icon_label": "FleshGolem",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Forbidden Famine",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Weakness 5, Poison 2, and Madness 2 on all enemies. There are permanent consequences for casting this spell… but maybe not for you. (Castable once per battle.) Upgraded: Inflict Leech 2, Weakness 5, Poison 2, and Madness 2 on all enemies. There are permanent consequences for casting this spell… but maybe not for you. (Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ForbiddenFamine",
+        "display_name": "Forbidden Famine",
+        "tool_class": "necromancer",
+        "icon_label": "ForbiddenFamine",
+        "resolved_icon_label": "ForbiddenFamine",
+        "main_svg_id": "928",
+        "main_svg_filename": "928.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Full Moon",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Give Lifesteal 1 to units in an area.Upgraded: Give Lifesteal 3 to units in an area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FullMoon",
+        "display_name": "Full Moon",
+        "tool_class": "necromancer",
+        "icon_label": "FullMoon",
+        "resolved_icon_label": "FullMoon",
+        "main_svg_id": "902",
+        "main_svg_filename": "902.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Go Limp",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Until your next turn, you won't get injured if you're downed.Upgraded: Until your next turn, you won't get injured if you're downed. When downed, inflict Confusion 10 on the unit that downed you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "GoLimp",
+        "display_name": "Go Limp",
+        "tool_class": "necromancer",
+        "icon_label": "GoLimp",
+        "resolved_icon_label": "GoLimp",
+        "main_svg_id": "914",
+        "main_svg_filename": "914.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gravecrawl",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Dig to any tile and unearth a body.Upgraded: Dig to any tile and unearth 1-3 bodies. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Gravecrawl",
+        "display_name": "Gravecrawl",
+        "tool_class": "necromancer",
+        "icon_label": "Gravecrawl",
+        "resolved_icon_label": "Gravecrawl",
+        "main_svg_id": "936",
+        "main_svg_filename": "936.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gravecrawl",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Dig to any tile and unearth a body.Upgraded: Dig to any tile and unearth 1-3 bodies. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Gravecrawl",
+        "display_name": "Gravecrawl",
+        "tool_class": "necromancer",
+        "icon_label": "Gravecrawl",
+        "resolved_icon_label": "Gravecrawl",
+        "main_svg_id": "936",
+        "main_svg_filename": "936.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hush",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Sleep 1 on an adjacent unit.Upgraded: Inflict Sleep 1 on a unit in range 4.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Hush",
+        "display_name": "Hush",
+        "tool_class": "necromancer",
+        "icon_label": "Hush",
+        "resolved_icon_label": "Hush",
+        "main_svg_id": "930",
+        "main_svg_filename": "930.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Leech Swarm",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Leech 3 on all units, except yourself.Upgraded: Inflict Leech 1 on each allied unit and Leech 3 on all other units, except yourself.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "LeechSwarm",
+        "display_name": "Leech Swarm",
+        "tool_class": "necromancer",
+        "icon_label": "LeechSwarm",
+        "resolved_icon_label": "LeechSwarm",
+        "main_svg_id": "932",
+        "main_svg_filename": "932.svg"
+      },
+      "numbers": {
+        "raw": "12",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Leeches",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Leech 1 on a unit.Upgraded: Inflict Leech 1 and Mana Leech 1 on a unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Leeches",
+        "display_name": "Leeches",
+        "tool_class": "necromancer",
+        "icon_label": "Leeches",
+        "resolved_icon_label": "Leeches",
+        "main_svg_id": "897",
+        "main_svg_filename": "897.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Mass Psychosis",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Madness on all enemies.Upgraded: Inflict Madness on all enemies. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MassPsychosis",
+        "display_name": "Mass Psychosis",
+        "tool_class": "necromancer",
+        "icon_label": "MassPsychosis",
+        "resolved_icon_label": "MassPsychosis",
+        "main_svg_id": "910",
+        "main_svg_filename": "910.svg"
+      },
+      "numbers": {
+        "raw": "15",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "15",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Mass Psychosis",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Inflict Madness on all enemies.Upgraded: Inflict Madness on all enemies. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MassPsychosis",
+        "display_name": "Mass Psychosis",
+        "tool_class": "necromancer",
+        "icon_label": "MassPsychosis",
+        "resolved_icon_label": "MassPsychosis",
+        "main_svg_id": "910",
+        "main_svg_filename": "910.svg"
+      },
+      "numbers": {
+        "raw": "11",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "11",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reanimate",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Resurrect a body to half HP. It becomes a Zombie and joins your team.Upgraded: Resurrect a body to full HP. It becomes a Zombie and joins your team.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Reanimate",
+        "display_name": "Reanimate",
+        "tool_class": "necromancer",
+        "icon_label": "Reanimate",
+        "resolved_icon_label": "Reanimate",
+        "main_svg_id": "879",
+        "main_svg_filename": "879.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reap",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Teleport into a unit with 5 or less health and destroy it.Upgraded: Teleport into a unit with 10 or less health and destroy it. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Reap",
+        "display_name": "Reap",
+        "tool_class": "necromancer",
+        "icon_label": "Reap",
+        "resolved_icon_label": "Reap",
+        "main_svg_id": "912",
+        "main_svg_filename": "912.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reap",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Teleport into a unit with 5 or less health and destroy it.Upgraded: Teleport into a unit with 10 or less health and destroy it. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Reap",
+        "display_name": "Reap",
+        "tool_class": "necromancer",
+        "icon_label": "Reap",
+        "resolved_icon_label": "Reap",
+        "main_svg_id": "912",
+        "main_svg_filename": "912.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rebirth",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Teleport into a body, destroying it to heal 4 HP, gain +1 Intelligence and +1 Constitution.Upgraded: Teleport into a body, destroying it to heal 4 HP and gain All Stats Up.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Rebirth",
+        "display_name": "Rebirth",
+        "tool_class": "necromancer",
+        "icon_label": "Rebirth",
+        "resolved_icon_label": "Rebirth",
+        "main_svg_id": "880",
+        "main_svg_filename": "880.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rebirth",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Teleport into a body, destroying it to heal 4 HP, gain +1 Intelligence and +1 Constitution.Upgraded: Teleport into a body, destroying it to heal 4 HP and gain All Stats Up.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Rebirth",
+        "display_name": "Rebirth",
+        "tool_class": "necromancer",
+        "icon_label": "Rebirth",
+        "resolved_icon_label": "Rebirth",
+        "main_svg_id": "880",
+        "main_svg_filename": "880.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Replace",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Teleport into a familiar and destroy it. Refresh your basic attack.Upgraded: Teleport into a familiar and destroy it. Refresh your basic attack and heal 5 HP.",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "Replace",
+        "display_name": "Replace",
+        "tool_class": "necromancer",
+        "icon_label": "Replace",
+        "resolved_icon_label": "Replace",
+        "main_svg_id": "906",
+        "main_svg_filename": "906.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Scare",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Teleport in front of an enemy then Knockback each adjacent unit 4 tiles.Upgraded: Teleport in front of an enemy then inflict Knockback 4 and Fear on each adjacent unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Scare",
+        "display_name": "Scare",
+        "tool_class": "necromancer",
+        "icon_label": "Scare",
+        "resolved_icon_label": "Scare",
+        "main_svg_id": "890",
+        "main_svg_filename": "890.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Seance",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Spawn a ghost Familiar that fades after its first turn. Castable while you're downed. If you do, spawn a shadow copy of yourself instead. Upgraded: Spawn a ghost Familiar that fades after its second turn. Castable while you're downed. If you do, spawn a shadow copy of yourself instead.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Seance",
+        "display_name": "Seance",
+        "tool_class": "necromancer",
+        "icon_label": "Seance",
+        "resolved_icon_label": "Seance",
+        "main_svg_id": "915",
+        "main_svg_filename": "915.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Seppuku",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Down yourself.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Seppuku",
+        "display_name": "Seppuku",
+        "tool_class": "necromancer",
+        "icon_label": "Seppuku",
+        "resolved_icon_label": "Seppuku",
+        "main_svg_id": "900",
+        "main_svg_filename": "900.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Soul Link",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Soul Link on units in an area.Upgraded: Inflict Soul Link on units in a large area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SoulLink",
+        "display_name": "Soul Link",
+        "tool_class": "necromancer",
+        "icon_label": "SoulLink",
+        "resolved_icon_label": "SoulLink",
+        "main_svg_id": "885",
+        "main_svg_filename": "885.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Summon Bones",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Summon a skeleton from a body.Upgraded: Summon a skeleton from a body, anywhere. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SummonBones",
+        "display_name": "Summon Bones",
+        "tool_class": "necromancer",
+        "icon_label": "SummonBones",
+        "resolved_icon_label": "SummonBones",
+        "main_svg_id": "907",
+        "main_svg_filename": "907.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Summon Bones",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Summon a skeleton from a body.Upgraded: Summon a skeleton from a body, anywhere. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SummonBones",
+        "display_name": "Summon Bones",
+        "tool_class": "necromancer",
+        "icon_label": "SummonBones",
+        "resolved_icon_label": "SummonBones",
+        "main_svg_id": "907",
+        "main_svg_filename": "907.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Summon Shade",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Spawn a shadow copy of yourself that fades after its first turn. (The copy can't cast this ability or give extra turns to units.) Upgraded: Spawn a shadow copy of yourself that fades after its second turn. (The copy can't cast this ability or give extra turns to units.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SummonShade",
+        "display_name": "Summon Shade",
+        "tool_class": "necromancer",
+        "icon_label": "SummonShade",
+        "resolved_icon_label": "SummonShade",
+        "main_svg_id": "895",
+        "main_svg_filename": "895.svg"
+      },
+      "numbers": {
+        "raw": "13",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "13",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Trade Life",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Swap HP with an ally in range 3. Castable while you're downed. If this spell downs you or the ally, neither are injured. Upgraded: Swap HP with any ally. Castable while you're downed. If this spell downs you or the ally, neither are injured.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TradeLife",
+        "display_name": "Trade Life",
+        "tool_class": "necromancer",
+        "icon_label": "TradeLife",
+        "resolved_icon_label": "TradeLife",
+        "main_svg_id": "939",
+        "main_svg_filename": "939.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Unearth",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Dig up a body. It reanimates at the end of the round.Upgraded: Dig up a body. It reanimates at the end of the round. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Unearth",
+        "display_name": "Unearth",
+        "tool_class": "necromancer",
+        "icon_label": "Unearth",
+        "resolved_icon_label": "Unearth",
+        "main_svg_id": "903",
+        "main_svg_filename": "903.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Unearth",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Dig up a body. It reanimates at the end of the round.Upgraded: Dig up a body. It reanimates at the end of the round. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Unearth",
+        "display_name": "Unearth",
+        "tool_class": "necromancer",
+        "icon_label": "Unearth",
+        "resolved_icon_label": "Unearth",
+        "main_svg_id": "903",
+        "main_svg_filename": "903.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "We Are One",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Soul Link on yourself and every enemy.Upgraded: Inflict Soul Link on yourself and every enemy. Gain +2 Constitution and heal 8 HP.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "WeAreOne",
+        "display_name": "We Are One",
+        "tool_class": "necromancer",
+        "icon_label": "WeAreOne",
+        "resolved_icon_label": "WeAreOne",
+        "main_svg_id": "886",
+        "main_svg_filename": "886.svg"
+      },
+      "numbers": {
+        "raw": "15",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "15",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Weakness",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Weakness 5 on a unit.Upgraded: Give a unit Weakness 5 and All Stats Down.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Weakness",
+        "display_name": "Weakness",
+        "tool_class": "necromancer",
+        "icon_label": "Weakness",
+        "resolved_icon_label": "Weakness",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Whisper",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Fear and Madness on an adjacent unit.Upgraded: Inflict Fear 1 and Madness 2 on a unit in range 4.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Whisper",
+        "display_name": "Whisper",
+        "tool_class": "necromancer",
+        "icon_label": "Whisper",
+        "resolved_icon_label": "Whisper",
+        "main_svg_id": "894",
+        "main_svg_filename": "894.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,1352 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Collarless",
+  "frame_type": "Dmg_Mana",
+  "count": 56,
+  "abilities": [
+    {
+      "wiki_name": "Barf Ball",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "A ranged attack that deals damage equal to half your Constitution, rounded up.Upgraded: A ranged attack that deals damage equal to half your Constitution, rounded up. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BarfBall",
+        "display_name": "Barf Ball",
+        "tool_class": "colorless",
+        "icon_label": "BarfBall",
+        "resolved_icon_label": "BarfBall",
+        "main_svg_id": "1290",
+        "main_svg_filename": "1290.svg"
+      },
+      "numbers": {
+        "raw": "3 6",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Barf Ball",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "A ranged attack that deals damage equal to half your Constitution, rounded up.Upgraded: A ranged attack that deals damage equal to half your Constitution, rounded up. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BarfBall",
+        "display_name": "Barf Ball",
+        "tool_class": "colorless",
+        "icon_label": "BarfBall",
+        "resolved_icon_label": "BarfBall",
+        "main_svg_id": "1290",
+        "main_svg_filename": "1290.svg"
+      },
+      "numbers": {
+        "raw": "3 4",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Barrage",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Fire the machine guns!",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MechSuitBarrage",
+        "display_name": "Barrage",
+        "tool_class": "colorless",
+        "icon_label": "MechSuitBarrage",
+        "resolved_icon_label": "MechSuitBarrage",
+        "main_svg_id": "1208",
+        "main_svg_filename": "1208.svg"
+      },
+      "numbers": {
+        "raw": "4 x 6 5",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Blow Kiss",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Heal another unit by 1 HP at infinite range.Upgraded: Heal another unit by 2 HP at infinite range.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "BlowKiss",
+        "display_name": "Blow Kiss",
+        "tool_class": "colorless",
+        "icon_label": "BlowKiss",
+        "resolved_icon_label": "BlowKiss",
+        "main_svg_id": "1299",
+        "main_svg_filename": "1299.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Blow Kiss",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Heal another unit by 1 HP at infinite range.Upgraded: Heal another unit by 2 HP at infinite range.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "BlowKiss",
+        "display_name": "Blow Kiss",
+        "tool_class": "colorless",
+        "icon_label": "BlowKiss",
+        "resolved_icon_label": "BlowKiss",
+        "main_svg_id": "1299",
+        "main_svg_filename": "1299.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Burgeoning Blast",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "A spell that deals 0 damage. Increase this spell's damage by 2 at the end of each turn. (Castable once per battle.) Upgraded: A spell that deals 0 damage. Increase this spell's damage by 3 at the end of each turn. (Castable once per battle.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BurgeoningBlast",
+        "display_name": "Burgeoning Blast",
+        "tool_class": "colorless",
+        "icon_label": "BurgeoningBlast",
+        "resolved_icon_label": "BurgeoningBlast",
+        "main_svg_id": "1286",
+        "main_svg_filename": "1286.svg"
+      },
+      "numbers": {
+        "raw": "0 0",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Burst",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Fire a magical blast. (Castable once per battle.) Upgraded: Fire a magical blast. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Burst",
+        "display_name": "Burst",
+        "tool_class": "colorless",
+        "icon_label": "Burst",
+        "resolved_icon_label": "Burst",
+        "main_svg_id": "1269",
+        "main_svg_filename": "1269.svg"
+      },
+      "numbers": {
+        "raw": "10 7",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Burst",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Fire a magical blast. (Castable once per battle.) Upgraded: Fire a magical blast. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Burst",
+        "display_name": "Burst",
+        "tool_class": "colorless",
+        "icon_label": "Burst",
+        "resolved_icon_label": "Burst",
+        "main_svg_id": "1269",
+        "main_svg_filename": "1269.svg"
+      },
+      "numbers": {
+        "raw": "10 0",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cold Shoulder",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Deal 1 ice damage and inflict Slow 1 at infinite range.Upgraded: Deal 1 ice damage and inflict Slow 1 at infinite range. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ColdShoulder",
+        "display_name": "Cold Shoulder",
+        "tool_class": "colorless",
+        "icon_label": "ColdShoulder",
+        "resolved_icon_label": "ColdShoulder",
+        "main_svg_id": "1300",
+        "main_svg_filename": "1300.svg"
+      },
+      "numbers": {
+        "raw": "1 6",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cold Shoulder",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Deal 1 ice damage and inflict Slow 1 at infinite range.Upgraded: Deal 1 ice damage and inflict Slow 1 at infinite range. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ColdShoulder",
+        "display_name": "Cold Shoulder",
+        "tool_class": "colorless",
+        "icon_label": "ColdShoulder",
+        "resolved_icon_label": "ColdShoulder",
+        "main_svg_id": "1300",
+        "main_svg_filename": "1300.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "CPR",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Revive an adjacent body to 1 HP.Upgraded: Revive an adjacent body to 5 HP. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "CPR",
+        "display_name": "CPR",
+        "tool_class": "colorless",
+        "icon_label": "CPR",
+        "resolved_icon_label": "CPR",
+        "main_svg_id": "1306",
+        "main_svg_filename": "1306.svg"
+      },
+      "numbers": {
+        "raw": "1 6",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "CPR",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Revive an adjacent body to 1 HP.Upgraded: Revive an adjacent body to 5 HP. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "CPR",
+        "display_name": "CPR",
+        "tool_class": "colorless",
+        "icon_label": "CPR",
+        "resolved_icon_label": "CPR",
+        "main_svg_id": "1306",
+        "main_svg_filename": "1306.svg"
+      },
+      "numbers": {
+        "raw": "5 2",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dart",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Throw a nail that ignores shield.Upgraded: Throw a stronger nail that ignores shield. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Dart",
+        "display_name": "Dart",
+        "tool_class": "colorless",
+        "icon_label": "Dart",
+        "resolved_icon_label": "Dart",
+        "main_svg_id": "1247",
+        "main_svg_filename": "1247.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dart",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Throw a nail that ignores shield.Upgraded: Throw a stronger nail that ignores shield. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Dart",
+        "display_name": "Dart",
+        "tool_class": "colorless",
+        "icon_label": "Dart",
+        "resolved_icon_label": "Dart",
+        "main_svg_id": "1247",
+        "main_svg_filename": "1247.svg"
+      },
+      "numbers": {
+        "raw": "4 4",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dexterous Hit",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "A melee attack that deals damage equal to half your Dexterity, rounded up.Upgraded: A melee attack that deals damage equal to half your Dexterity, rounded up. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DexterousHit",
+        "display_name": "Dexterous Hit",
+        "tool_class": "colorless",
+        "icon_label": "DexterousHit",
+        "resolved_icon_label": "DexterousHit",
+        "main_svg_id": "1289",
+        "main_svg_filename": "1289.svg"
+      },
+      "numbers": {
+        "raw": "3 6",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dexterous Hit",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "A melee attack that deals damage equal to half your Dexterity, rounded up.Upgraded: A melee attack that deals damage equal to half your Dexterity, rounded up. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DexterousHit",
+        "display_name": "Dexterous Hit",
+        "tool_class": "colorless",
+        "icon_label": "DexterousHit",
+        "resolved_icon_label": "DexterousHit",
+        "main_svg_id": "1289",
+        "main_svg_filename": "1289.svg"
+      },
+      "numbers": {
+        "raw": "3 4",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Eject!",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Launch yourself out of the mech. Deal damage to units you land on and yourself.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MechSuitEject",
+        "display_name": "Eject!",
+        "tool_class": "colorless",
+        "icon_label": "MechSuitEject",
+        "resolved_icon_label": "MechSuitEject",
+        "main_svg_id": "1209",
+        "main_svg_filename": "1209.svg"
+      },
+      "numbers": {
+        "raw": "5 3",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Forbidden Fart",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Damage, Inflict Poison 4 and Knock Up nearby units. There will be permanent consequences for casting this spell… (Castable once per turn.) Upgraded: Damage, Inflict Poison 6 and Knock Up nearby units in a larger area. There will be permanent consequences for casting this spell… (Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ForbiddenFart",
+        "display_name": "Forbidden Fart",
+        "tool_class": "colorless",
+        "icon_label": "ForbiddenFart",
+        "resolved_icon_label": "ForbiddenFart",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "4 0",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Forbidden Fart",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Damage, Inflict Poison 4 and Knock Up nearby units. There will be permanent consequences for casting this spell… (Castable once per turn.) Upgraded: Damage, Inflict Poison 6 and Knock Up nearby units in a larger area. There will be permanent consequences for casting this spell… (Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ForbiddenFart",
+        "display_name": "Forbidden Fart",
+        "tool_class": "colorless",
+        "icon_label": "ForbiddenFart",
+        "resolved_icon_label": "ForbiddenFart",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "6 0",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Groom",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Remove all of the debuffs on yourself or an adjacent unit.Upgraded: Remove all of the debuffs and heal a little HP to yourself or an adjacent unit.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Groom",
+        "display_name": "Groom",
+        "tool_class": "colorless",
+        "icon_label": "Groom",
+        "resolved_icon_label": "Groom",
+        "main_svg_id": "1229",
+        "main_svg_filename": "1229.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Healing Bolt",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "A lightning bolt that heals and has a chance to Stun.Upgraded: A lightning bolt that heals allies and has a chance to Stun enemies.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "HealBolt",
+        "display_name": "Healing Bolt",
+        "tool_class": "colorless",
+        "icon_label": "HealBolt",
+        "resolved_icon_label": "HealBolt",
+        "main_svg_id": "1256",
+        "main_svg_filename": "1256.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hunt",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "A ranged attack that turns anything it kills into meat.Upgraded: A stronger ranged attack that turns anything it kills into meat.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Hunt",
+        "display_name": "Hunt",
+        "tool_class": "colorless",
+        "icon_label": "Hunt",
+        "resolved_icon_label": "Hunt",
+        "main_svg_id": "1245",
+        "main_svg_filename": "1245.svg"
+      },
+      "numbers": {
+        "raw": "2 6",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hunt",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "A ranged attack that turns anything it kills into meat.Upgraded: A stronger ranged attack that turns anything it kills into meat.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Hunt",
+        "display_name": "Hunt",
+        "tool_class": "colorless",
+        "icon_label": "Hunt",
+        "resolved_icon_label": "Hunt",
+        "main_svg_id": "1245",
+        "main_svg_filename": "1245.svg"
+      },
+      "numbers": {
+        "raw": "4 6",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Itch",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Deal 1 damage to yourself. 50% chance to spawn a friendly flea.Upgraded: Deal 1 damage to yourself. Spawn a friendly flea.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Itch",
+        "display_name": "Itch",
+        "tool_class": "colorless",
+        "icon_label": "Itch",
+        "resolved_icon_label": "Itch",
+        "main_svg_id": "1320",
+        "main_svg_filename": "1320.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lick",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Heal an adjacent unit by 2 HP.Upgraded: Heal an adjacent unit by 2 HP. Healed enemies gain Confusion 3.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "LickHeal",
+        "display_name": "Lick",
+        "tool_class": "colorless",
+        "icon_label": "LickHeal",
+        "resolved_icon_label": "LickHeal",
+        "main_svg_id": "1317",
+        "main_svg_filename": "1317.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Minihook",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Pull a unit towards you.Upgraded: Pull a unit towards you. Deal 1 damage and inflict 1 Bleed on them.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MiniHook",
+        "display_name": "Minihook",
+        "tool_class": "colorless",
+        "icon_label": "MiniHook",
+        "resolved_icon_label": "MiniHook",
+        "main_svg_id": "1250",
+        "main_svg_filename": "1250.svg"
+      },
+      "numbers": {
+        "raw": "N/A 3",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Minihook",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Pull a unit towards you.Upgraded: Pull a unit towards you. Deal 1 damage and inflict 1 Bleed on them.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MiniHook",
+        "display_name": "Minihook",
+        "tool_class": "colorless",
+        "icon_label": "MiniHook",
+        "resolved_icon_label": "MiniHook",
+        "main_svg_id": "1250",
+        "main_svg_filename": "1250.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Hunter",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "A lobbed attack that deals 1 damage. If this kills an enemy, this spell becomes a random Hunter spell permanently.Upgraded: Transform this spell into a random upgraded Hunter spell permanently.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "PathOfTheHunter",
+        "display_name": "Path of the Hunter",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheHunter",
+        "resolved_icon_label": "PathOfTheHunter",
+        "main_svg_id": "1332",
+        "main_svg_filename": "1332.svg"
+      },
+      "numbers": {
+        "raw": "1 5",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Hunter",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "A lobbed attack that deals 1 damage. If this kills an enemy, this spell becomes a random Hunter spell permanently.Upgraded: Transform this spell into a random upgraded Hunter spell permanently.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "PathOfTheHunter",
+        "display_name": "Path of the Hunter",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheHunter",
+        "resolved_icon_label": "PathOfTheHunter",
+        "main_svg_id": "1332",
+        "main_svg_filename": "1332.svg"
+      },
+      "numbers": {
+        "raw": "N/A 0",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Thief",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "A straight shot attack that deals 1 damage. If this makes a critical hit, this spell becomes a random Thief spell permanently.Upgraded: Transform this spell into a random upgraded Thief spell permanently.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "PathOfTheThief",
+        "display_name": "Path of the Thief",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheThief",
+        "resolved_icon_label": "PathOfTheThief",
+        "main_svg_id": "1331",
+        "main_svg_filename": "1331.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Thief",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "A straight shot attack that deals 1 damage. If this makes a critical hit, this spell becomes a random Thief spell permanently.Upgraded: Transform this spell into a random upgraded Thief spell permanently.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "PathOfTheThief",
+        "display_name": "Path of the Thief",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheThief",
+        "resolved_icon_label": "PathOfTheThief",
+        "main_svg_id": "1331",
+        "main_svg_filename": "1331.svg"
+      },
+      "numbers": {
+        "raw": "N/A 0",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Purr",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Remove 1 stack of a random debuff from yourself and all adjacent units.Upgraded: Remove 1 stack of a random debuff from and heal 1 HP to yourself and all adjacent units.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Purr",
+        "display_name": "Purr",
+        "tool_class": "colorless",
+        "icon_label": "Purr",
+        "resolved_icon_label": "Purr",
+        "main_svg_id": "1316",
+        "main_svg_filename": "1316.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rat Roulette",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Deal 1 damage to a random unit. If you kill that unit, take an extra turn.Upgraded: Deal 2 damage to a random unit. If you kill that unit, take an extra turn. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "LotteryShottery",
+        "display_name": "Rat Roulette",
+        "tool_class": "colorless",
+        "icon_label": "LotteryShottery",
+        "resolved_icon_label": "LotteryShottery",
+        "main_svg_id": "1272",
+        "main_svg_filename": "1272.svg"
+      },
+      "numbers": {
+        "raw": "1 6",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rat Roulette",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Deal 1 damage to a random unit. If you kill that unit, take an extra turn.Upgraded: Deal 2 damage to a random unit. If you kill that unit, take an extra turn. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "LotteryShottery",
+        "display_name": "Rat Roulette",
+        "tool_class": "colorless",
+        "icon_label": "LotteryShottery",
+        "resolved_icon_label": "LotteryShottery",
+        "main_svg_id": "1272",
+        "main_svg_filename": "1272.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rest",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Heal some HP, then fall asleep.Upgraded: Heal a lot of HP, then fall asleep.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Rest",
+        "display_name": "Rest",
+        "tool_class": "colorless",
+        "icon_label": "Rest",
+        "resolved_icon_label": "Rest",
+        "main_svg_id": "1227",
+        "main_svg_filename": "1227.svg"
+      },
+      "numbers": {
+        "raw": "10 2",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rest",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Heal some HP, then fall asleep.Upgraded: Heal a lot of HP, then fall asleep.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Rest",
+        "display_name": "Rest",
+        "tool_class": "colorless",
+        "icon_label": "Rest",
+        "resolved_icon_label": "Rest",
+        "main_svg_id": "1227",
+        "main_svg_filename": "1227.svg"
+      },
+      "numbers": {
+        "raw": "20 2",
+        "frame_type": "Dmg_Mana",
+        "value": "20",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shrug It Off",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Heal yourself HP equal to half your Strength, rounded up.Upgraded: Heal yourself HP equal to half your Strength, rounded up. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "ScuffItOff",
+        "display_name": "Shrug It Off",
+        "tool_class": "colorless",
+        "icon_label": "ScuffItOff",
+        "resolved_icon_label": "ScuffItOff",
+        "main_svg_id": "1291",
+        "main_svg_filename": "1291.svg"
+      },
+      "numbers": {
+        "raw": "3 6",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shrug It Off",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Heal yourself HP equal to half your Strength, rounded up.Upgraded: Heal yourself HP equal to half your Strength, rounded up. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "ScuffItOff",
+        "display_name": "Shrug It Off",
+        "tool_class": "colorless",
+        "icon_label": "ScuffItOff",
+        "resolved_icon_label": "ScuffItOff",
+        "main_svg_id": "1291",
+        "main_svg_filename": "1291.svg"
+      },
+      "numbers": {
+        "raw": "3 4",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Smack",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "A weak melee attack.Upgraded: A weak melee attack with a chance to repeat.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Smack",
+        "display_name": "Smack",
+        "tool_class": "colorless",
+        "icon_label": "Smack",
+        "resolved_icon_label": "Smack",
+        "main_svg_id": "1248",
+        "main_svg_filename": "1248.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Snacks",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Heal yourself or another unit within four tiles 1 HP.Upgraded: Heal yourself or another unit 1 HP. 50% chance to also give +1 Constitution.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Snacks",
+        "display_name": "Snacks",
+        "tool_class": "colorless",
+        "icon_label": "Snacks",
+        "resolved_icon_label": "Snacks",
+        "main_svg_id": "1259",
+        "main_svg_filename": "1259.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Soothing Glow",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Heal yourself 1.Upgraded: Heal yourself 1 and gain +1 to a random stat.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "SoothingGlow",
+        "display_name": "Soothing Glow",
+        "tool_class": "colorless",
+        "icon_label": "SoothingGlow",
+        "resolved_icon_label": "SoothingGlow",
+        "main_svg_id": "1234",
+        "main_svg_filename": "1234.svg"
+      },
+      "numbers": {
+        "raw": "1 2",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Soul Reap",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Deal 1 damage to a unit within five tiles. If this kills it, gain 5 mana.Upgraded: Deal 1 damage to any unit. If this kills it, gain 5 mana.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SoulReap",
+        "display_name": "Soul Reap",
+        "tool_class": "colorless",
+        "icon_label": "SoulReap",
+        "resolved_icon_label": "SoulReap",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spit",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spit attack with infinite range that deals 1 damage.Upgraded: Spit attack with infinite range that deals 2 damage in an area.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Spit",
+        "display_name": "Spit",
+        "tool_class": "colorless",
+        "icon_label": "Spit",
+        "resolved_icon_label": "Spit",
+        "main_svg_id": "1249",
+        "main_svg_filename": "1249.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spit",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Spit attack with infinite range that deals 1 damage.Upgraded: Spit attack with infinite range that deals 2 damage in an area.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Spit",
+        "display_name": "Spit",
+        "tool_class": "colorless",
+        "icon_label": "Spit",
+        "resolved_icon_label": "Spit",
+        "main_svg_id": "1249",
+        "main_svg_filename": "1249.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spook",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Deal damage to any unit. This has a 25% chance to inflict Fear. Castable while downed.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Spook",
+        "display_name": "Spook",
+        "tool_class": "colorless",
+        "icon_label": "Spook",
+        "resolved_icon_label": "Spook",
+        "main_svg_id": "925",
+        "main_svg_filename": "925.svg"
+      },
+      "numbers": {
+        "raw": "3 0",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Steam Roller",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Trample over 1 tile.Upgraded: Trample over 3 tiles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PushMove",
+        "display_name": "Steam Roller",
+        "tool_class": "colorless",
+        "icon_label": "PushMove",
+        "resolved_icon_label": "PushMove",
+        "main_svg_id": "1242",
+        "main_svg_filename": "1242.svg"
+      },
+      "numbers": {
+        "raw": "3 4",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stun",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Chuck a rock at a unit, inflicting Stun on that unit. (Castable once per battle.) Upgraded: Chuck a rock at a unit, inflicting Stun on that unit. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Suppress",
+        "display_name": "Stun",
+        "tool_class": "colorless",
+        "icon_label": "Suppress",
+        "resolved_icon_label": "Suppress",
+        "main_svg_id": "1270",
+        "main_svg_filename": "1270.svg"
+      },
+      "numbers": {
+        "raw": "1 5",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stun",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Chuck a rock at a unit, inflicting Stun on that unit. (Castable once per battle.) Upgraded: Chuck a rock at a unit, inflicting Stun on that unit. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Suppress",
+        "display_name": "Stun",
+        "tool_class": "colorless",
+        "icon_label": "Suppress",
+        "resolved_icon_label": "Suppress",
+        "main_svg_id": "1270",
+        "main_svg_filename": "1270.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Throw Weapon (Bonus)",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Throw your weapon at a unit. The weapon breaks. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FighterBonusThrow",
+        "display_name": "Throw Weapon",
+        "tool_class": "colorless",
+        "icon_label": "FighterBonusThrow",
+        "resolved_icon_label": "FighterBonusThrow",
+        "main_svg_id": "864",
+        "main_svg_filename": "864.svg"
+      },
+      "numbers": {
+        "raw": "5 0",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Thrusters",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Dash forward and light fires in your path.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MechSuitDash",
+        "display_name": "Thrusters",
+        "tool_class": "colorless",
+        "icon_label": "MechSuitDash",
+        "resolved_icon_label": "MechSuitDash",
+        "main_svg_id": "1207",
+        "main_svg_filename": "1207.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Trigger the Nuke",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Explode the nuke and mass damage everything.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "",
+        "display_name": "",
+        "tool_class": "",
+        "icon_label": "",
+        "resolved_icon_label": "",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "50 0",
+        "frame_type": "Dmg_Mana",
+        "value": "50",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Vet Visit",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spend 5 coins, heal 10 HP. (Castable once per turn.) Upgraded: Spend 5 coins, heal 15 HP. (Castable once per turn.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "VetVisit",
+        "display_name": "Vet Visit",
+        "tool_class": "colorless",
+        "icon_label": "VetVisit",
+        "resolved_icon_label": "VetVisit",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "10 0",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Vet Visit",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Spend 5 coins, heal 10 HP. (Castable once per turn.) Upgraded: Spend 5 coins, heal 15 HP. (Castable once per turn.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "VetVisit",
+        "display_name": "Vet Visit",
+        "tool_class": "colorless",
+        "icon_label": "VetVisit",
+        "resolved_icon_label": "VetVisit",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "15 0",
+        "frame_type": "Dmg_Mana",
+        "value": "15",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Wet Hairball",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Shoot a wet hairball that deals damage in an area.Upgraded: Shoot a wet hairball that deals more damage in an area.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "WetHairball",
+        "display_name": "Wet Hairball",
+        "tool_class": "colorless",
+        "icon_label": "WetHairball",
+        "resolved_icon_label": "WetHairball",
+        "main_svg_id": "1334",
+        "main_svg_filename": "1334.svg"
+      },
+      "numbers": {
+        "raw": "2 7",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Wet Hairball",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Shoot a wet hairball that deals damage in an area.Upgraded: Shoot a wet hairball that deals more damage in an area.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "WetHairball",
+        "display_name": "Wet Hairball",
+        "tool_class": "colorless",
+        "icon_label": "WetHairball",
+        "resolved_icon_label": "WetHairball",
+        "main_svg_id": "1334",
+        "main_svg_filename": "1334.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Zap",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Deal 1 electric damage at infinite range.Upgraded: Deal 1 electric damage with a 25% chance to Stun at infinite range.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Zap",
+        "display_name": "Zap",
+        "tool_class": "colorless",
+        "icon_label": "Zap",
+        "resolved_icon_label": "Zap",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Cleric",
+  "frame_type": "Dmg_Mana",
+  "count": 28,
+  "abilities": [
+    {
+      "wiki_name": "Adoubment",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Heal a unit and remove its debuffs. That unit gets +1 to a random stat and becomes the Alpha. If there is an Alpha, this spell has infinite range and must target it.Upgraded: Heal or revive a unit and remove its debuffs. That unit gets +1 to 3 random stats and becomes the Alpha. If there is an Alpha, this spell has infinite range and must target it.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Adoubement",
+        "display_name": "Adoubment",
+        "tool_class": "cleric",
+        "icon_label": "Adoubement",
+        "resolved_icon_label": "Adoubement",
+        "main_svg_id": "809",
+        "main_svg_filename": "809.svg"
+      },
+      "numbers": {
+        "raw": "4 5",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Adoubment",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Heal a unit and remove its debuffs. That unit gets +1 to a random stat and becomes the Alpha. If there is an Alpha, this spell has infinite range and must target it.Upgraded: Heal or revive a unit and remove its debuffs. That unit gets +1 to 3 random stats and becomes the Alpha. If there is an Alpha, this spell has infinite range and must target it.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Adoubement",
+        "display_name": "Adoubment",
+        "tool_class": "cleric",
+        "icon_label": "Adoubement",
+        "resolved_icon_label": "Adoubement",
+        "main_svg_id": "809",
+        "main_svg_filename": "809.svg"
+      },
+      "numbers": {
+        "raw": "6 5",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "An Eye for an Eye",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "A melee attack that inflicts Blind 5 and Bleed 1.Upgraded: A melee attack that inflicts Blind 5, Bleed 1, and Madness 1.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "EyeForAnEye",
+        "display_name": "An Eye for an Eye",
+        "tool_class": "cleric",
+        "icon_label": "EyeForAnEye",
+        "resolved_icon_label": "EyeForAnEye",
+        "main_svg_id": "801",
+        "main_svg_filename": "801.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "An Eye for an Eye",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "A melee attack that inflicts Blind 5 and Bleed 1.Upgraded: A melee attack that inflicts Blind 5, Bleed 1, and Madness 1.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "EyeForAnEye",
+        "display_name": "An Eye for an Eye",
+        "tool_class": "cleric",
+        "icon_label": "EyeForAnEye",
+        "resolved_icon_label": "EyeForAnEye",
+        "main_svg_id": "801",
+        "main_svg_filename": "801.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Awaken",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Revive a body to 1 HP.Upgraded: Revive a body to 1 HP. Give that unit +1 and All Stats Up.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Awaken",
+        "display_name": "Awaken",
+        "tool_class": "cleric",
+        "icon_label": "Awaken",
+        "resolved_icon_label": "Awaken",
+        "main_svg_id": "816",
+        "main_svg_filename": "816.svg"
+      },
+      "numbers": {
+        "raw": "1 1",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Benediction",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Heal EVERYTHING for 2 HP.Upgraded: Heal EVERYTHING for 2 HP. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Benediction",
+        "display_name": "Benediction",
+        "tool_class": "cleric",
+        "icon_label": "Benediction",
+        "resolved_icon_label": "Benediction",
+        "main_svg_id": "797",
+        "main_svg_filename": "797.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Benediction",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Heal EVERYTHING for 2 HP.Upgraded: Heal EVERYTHING for 2 HP. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Benediction",
+        "display_name": "Benediction",
+        "tool_class": "cleric",
+        "icon_label": "Benediction",
+        "resolved_icon_label": "Benediction",
+        "main_svg_id": "797",
+        "main_svg_filename": "797.svg"
+      },
+      "numbers": {
+        "raw": "2 3",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Booster",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Heal an adjacent unit. Excess healing is converted to an equal amount of random stat ups.Upgraded: Heal a unit at range. Excess healing is converted to an equal amount of random stat ups.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Booster",
+        "display_name": "Booster",
+        "tool_class": "cleric",
+        "icon_label": "Booster",
+        "resolved_icon_label": "Booster",
+        "main_svg_id": "811",
+        "main_svg_filename": "811.svg"
+      },
+      "numbers": {
+        "raw": "4 6",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Booster",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Heal an adjacent unit. Excess healing is converted to an equal amount of random stat ups.Upgraded: Heal a unit at range. Excess healing is converted to an equal amount of random stat ups.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Booster",
+        "display_name": "Booster",
+        "tool_class": "cleric",
+        "icon_label": "Booster",
+        "resolved_icon_label": "Booster",
+        "main_svg_id": "811",
+        "main_svg_filename": "811.svg"
+      },
+      "numbers": {
+        "raw": "4 5",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cure Wounds",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Heal an adjacent unit.Upgraded: Heal all adjacent units.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "MeleeHeal",
+        "display_name": "Cure Wounds",
+        "tool_class": "cleric",
+        "icon_label": "MeleeHeal",
+        "resolved_icon_label": "MeleeHeal",
+        "main_svg_id": "773",
+        "main_svg_filename": "773.svg"
+      },
+      "numbers": {
+        "raw": "10 5",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ethereal",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Gain 4 , 3 , heal 2 HP, and Brace 1.Upgraded: Gain Thorns 6, Reflect 5, 4 , 3 , heal 2 HP and Brace 1.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Ethereal",
+        "display_name": "Ethereal",
+        "tool_class": "cleric",
+        "icon_label": "Ethereal",
+        "resolved_icon_label": "Ethereal",
+        "main_svg_id": "793",
+        "main_svg_filename": "793.svg"
+      },
+      "numbers": {
+        "raw": "2 16",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "16",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Friend or Foe",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "A ranged spell that heals allies and damages enemies.Upgraded: An infinitely ranged spell that heals allies and damages enemies.",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "FriendOrFoe",
+        "display_name": "Friend or Foe",
+        "tool_class": "cleric",
+        "icon_label": "FriendOrFoe",
+        "resolved_icon_label": "FriendOrFoe",
+        "main_svg_id": "791",
+        "main_svg_filename": "791.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Grace",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "You or an adjacent unit gains a random positive effect.Upgraded: You or an adjacent unit heals a random amount of HP, gains +1 to a random stat, and gains a random positive effect.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Grace",
+        "display_name": "Grace",
+        "tool_class": "cleric",
+        "icon_label": "Grace",
+        "resolved_icon_label": "Grace",
+        "main_svg_id": "819",
+        "main_svg_filename": "819.svg"
+      },
+      "numbers": {
+        "raw": "N/A 3",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Grace",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "You or an adjacent unit gains a random positive effect.Upgraded: You or an adjacent unit heals a random amount of HP, gains +1 to a random stat, and gains a random positive effect.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Grace",
+        "display_name": "Grace",
+        "tool_class": "cleric",
+        "icon_label": "Grace",
+        "resolved_icon_label": "Grace",
+        "main_svg_id": "819",
+        "main_svg_filename": "819.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Healing Fall",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Jump to an open tile, then heal each adjacent unit.Upgraded: Jump to an open tile, then heal each adjacent unit. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "HealingFall",
+        "display_name": "Healing Fall",
+        "tool_class": "cleric",
+        "icon_label": "HealingFall",
+        "resolved_icon_label": "HealingFall",
+        "main_svg_id": "788",
+        "main_svg_filename": "788.svg"
+      },
+      "numbers": {
+        "raw": "5 8",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Healing Fall",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Jump to an open tile, then heal each adjacent unit.Upgraded: Jump to an open tile, then heal each adjacent unit. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "HealingFall",
+        "display_name": "Healing Fall",
+        "tool_class": "cleric",
+        "icon_label": "HealingFall",
+        "resolved_icon_label": "HealingFall",
+        "main_svg_id": "788",
+        "main_svg_filename": "788.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Healing Word",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Heal a unit at range.Upgraded: Heal other units in an area at range.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "RangedHeal",
+        "display_name": "Healing Word",
+        "tool_class": "cleric",
+        "icon_label": "RangedHeal",
+        "resolved_icon_label": "RangedHeal",
+        "main_svg_id": "774",
+        "main_svg_filename": "774.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Holy Dash",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Dash forward, heal a unit and give it a random stat up.Upgraded: Dash forward, heal a unit and give it 3 random stat ups.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "RallyCharge",
+        "display_name": "Holy Dash",
+        "tool_class": "cleric",
+        "icon_label": "RallyCharge",
+        "resolved_icon_label": "RallyCharge",
+        "main_svg_id": "789",
+        "main_svg_filename": "789.svg"
+      },
+      "numbers": {
+        "raw": "5 8",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Holy Dash",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Dash forward, heal a unit and give it a random stat up.Upgraded: Dash forward, heal a unit and give it 3 random stat ups.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "RallyCharge",
+        "display_name": "Holy Dash",
+        "tool_class": "cleric",
+        "icon_label": "RallyCharge",
+        "resolved_icon_label": "RallyCharge",
+        "main_svg_id": "789",
+        "main_svg_filename": "789.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Holy Light",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Heal allies and damage enemies in an area. This spell has half effect outside its center.Upgraded: Heal allies and damage enemies in an area. This spell has half effect outside its center. (This spell costs less.)",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "HolyLight",
+        "display_name": "Holy Light",
+        "tool_class": "cleric",
+        "icon_label": "HolyLight",
+        "resolved_icon_label": "HolyLight",
+        "main_svg_id": "792",
+        "main_svg_filename": "792.svg"
+      },
+      "numbers": {
+        "raw": "10 12",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Holy Light",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Heal allies and damage enemies in an area. This spell has half effect outside its center.Upgraded: Heal allies and damage enemies in an area. This spell has half effect outside its center. (This spell costs less.)",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "HolyLight",
+        "display_name": "Holy Light",
+        "tool_class": "cleric",
+        "icon_label": "HolyLight",
+        "resolved_icon_label": "HolyLight",
+        "main_svg_id": "792",
+        "main_svg_filename": "792.svg"
+      },
+      "numbers": {
+        "raw": "10 8",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Holy Weapon",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "A dash attack with range, damage, and knockback equal to the amount of HP you healed other units this turn. (Castable once per turn.) Upgraded: A dash attack with range, damage, and knockback equal to twice the amount of HP you healed other units this turn. (Castable once per turn.)",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "HolyWeapon",
+        "display_name": "Holy Weapon",
+        "tool_class": "cleric",
+        "icon_label": "HolyWeapon",
+        "resolved_icon_label": "HolyWeapon",
+        "main_svg_id": "804",
+        "main_svg_filename": "804.svg"
+      },
+      "numbers": {
+        "raw": "0 0",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Open Wounds",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "An attack that deals more damage the less health the target unit has. (based on their health percent) Upgraded: An attack that deals even more damage the less health the target unit has. (based on their health percent)",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "OpenWounds",
+        "display_name": "Open Wounds",
+        "tool_class": "cleric",
+        "icon_label": "OpenWounds",
+        "resolved_icon_label": "OpenWounds",
+        "main_svg_id": "782",
+        "main_svg_filename": "782.svg"
+      },
+      "numbers": {
+        "raw": "0 8",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Prayer",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Heal units in an area.Upgraded: Heal units in a larger area. Infinite range.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Prayer",
+        "display_name": "Prayer",
+        "tool_class": "cleric",
+        "icon_label": "Prayer",
+        "resolved_icon_label": "Prayer",
+        "main_svg_id": "776",
+        "main_svg_filename": "776.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stand In",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Swap positions with any unit. That unit becomes the Alpha. If there is an Alpha, this spell must target it.Upgraded: Swap positions with any unit and heal it by 1 HP. That unit becomes the Alpha. If there is an Alpha, this spell must target it.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "GetDown",
+        "display_name": "Stand In",
+        "tool_class": "cleric",
+        "icon_label": "GetDown",
+        "resolved_icon_label": "GetDown",
+        "main_svg_id": "803",
+        "main_svg_filename": "803.svg"
+      },
+      "numbers": {
+        "raw": "N/A 2",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stand In",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Swap positions with any unit. That unit becomes the Alpha. If there is an Alpha, this spell must target it.Upgraded: Swap positions with any unit and heal it by 1 HP. That unit becomes the Alpha. If there is an Alpha, this spell must target it.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "GetDown",
+        "display_name": "Stand In",
+        "tool_class": "cleric",
+        "icon_label": "GetDown",
+        "resolved_icon_label": "GetDown",
+        "main_svg_id": "803",
+        "main_svg_filename": "803.svg"
+      },
+      "numbers": {
+        "raw": "1 2",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Wish",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Target an area. At the beginning of your next turn, heal all units in that area. (Castable once per turn.) Upgraded: Target an area. At the beginning of your next turn, heal all units in that area. This spell tracks its target if you directly targeted a unit. (Castable once per turn.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Wish",
+        "display_name": "Wish",
+        "tool_class": "cleric",
+        "icon_label": "Wish",
+        "resolved_icon_label": "Wish",
+        "main_svg_id": "790",
+        "main_svg_filename": "790.svg"
+      },
+      "numbers": {
+        "raw": "10 3",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Wrath of God",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Deal holy damage and inflict Blind to everything except for a safe circle around you. This vaporizes units it kills.Upgraded: Deal holy damage and inflict Blind to all enemies. This vaporizes units it kills.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "WrathOfGod",
+        "display_name": "Wrath of God",
+        "tool_class": "cleric",
+        "icon_label": "WrathOfGod",
+        "resolved_icon_label": "WrathOfGod",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "6 10",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

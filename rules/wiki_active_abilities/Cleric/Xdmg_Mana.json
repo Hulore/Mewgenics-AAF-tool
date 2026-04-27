@@ -1,0 +1,32 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Cleric",
+  "frame_type": "Xdmg_Mana",
+  "count": 1,
+  "abilities": [
+    {
+      "wiki_name": "Fury Heal",
+      "class": "Cleric",
+      "variant": "normal",
+      "description": "Heal an adjacent unit 2 to 6 times.Upgraded: Heal an adjacent unit 2 to 6 times. Each heal gives +1 to a random stat.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Baptism",
+        "display_name": "Fury Heal",
+        "tool_class": "cleric",
+        "icon_label": "Baptism",
+        "resolved_icon_label": "Baptism",
+        "main_svg_id": "815",
+        "main_svg_filename": "815.svg"
+      },
+      "numbers": {
+        "raw": "2x? 5",
+        "frame_type": "Xdmg_Mana",
+        "value": "2x?",
+        "mana": "5",
+        "hit_count": 2,
+        "hit_value": "?"
+      }
+    }
+  ]
+}

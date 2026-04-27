@@ -1,0 +1,776 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Monk",
+  "frame_type": "Dmg_Mana",
+  "count": 32,
+  "abilities": [
+    {
+      "wiki_name": "Air Burst",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "A burst of air that knocks back units diagonally from the target.Upgraded: A large burst of air that knocks back units diagonally from the target.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "AirBurst",
+        "display_name": "Air Burst",
+        "tool_class": "monk",
+        "icon_label": "AirBurst",
+        "resolved_icon_label": "AirBurst",
+        "main_svg_id": "1090",
+        "main_svg_filename": "1090.svg"
+      },
+      "numbers": {
+        "raw": "N/A 3",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Air Burst",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "A burst of air that knocks back units diagonally from the target.Upgraded: A large burst of air that knocks back units diagonally from the target.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "AirBurst",
+        "display_name": "Air Burst",
+        "tool_class": "monk",
+        "icon_label": "AirBurst",
+        "resolved_icon_label": "AirBurst",
+        "main_svg_id": "1090",
+        "main_svg_filename": "1090.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Combo Pull",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.Upgraded: A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ComboPull",
+        "display_name": "Combo Pull",
+        "tool_class": "monk",
+        "icon_label": "ComboPull",
+        "resolved_icon_label": "ComboPull",
+        "main_svg_id": "1072",
+        "main_svg_filename": "1072.svg"
+      },
+      "numbers": {
+        "raw": "1 6",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Combo Pull",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.Upgraded: A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ComboPull",
+        "display_name": "Combo Pull",
+        "tool_class": "monk",
+        "icon_label": "ComboPull",
+        "resolved_icon_label": "ComboPull",
+        "main_svg_id": "1072",
+        "main_svg_filename": "1072.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Combo Throw",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack.Upgraded: A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ComboThrow",
+        "display_name": "Combo Throw",
+        "tool_class": "monk",
+        "icon_label": "ComboThrow",
+        "resolved_icon_label": "ComboThrow",
+        "main_svg_id": "1071",
+        "main_svg_filename": "1071.svg"
+      },
+      "numbers": {
+        "raw": "2 6",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Combo Throw",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack.Upgraded: A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ComboThrow",
+        "display_name": "Combo Throw",
+        "tool_class": "monk",
+        "icon_label": "ComboThrow",
+        "resolved_icon_label": "ComboThrow",
+        "main_svg_id": "1071",
+        "main_svg_filename": "1071.svg"
+      },
+      "numbers": {
+        "raw": "2 3",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dragon Punch",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "A magic damage melee attack with knockback 3 that inflicts Confusion.Upgraded: A strong magic damage melee attack with knockback 10 that inflicts Confusion.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DragonPunch",
+        "display_name": "Dragon Punch",
+        "tool_class": "monk",
+        "icon_label": "DragonPunch",
+        "resolved_icon_label": "DragonPunch",
+        "main_svg_id": "1084",
+        "main_svg_filename": "1084.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dragon Punch",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "A magic damage melee attack with knockback 3 that inflicts Confusion.Upgraded: A strong magic damage melee attack with knockback 10 that inflicts Confusion.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DragonPunch",
+        "display_name": "Dragon Punch",
+        "tool_class": "monk",
+        "icon_label": "DragonPunch",
+        "resolved_icon_label": "DragonPunch",
+        "main_svg_id": "1084",
+        "main_svg_filename": "1084.svg"
+      },
+      "numbers": {
+        "raw": "8 7",
+        "frame_type": "Dmg_Mana",
+        "value": "8",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Finisher",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn. (Castable once per turn.) Upgraded: Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn. (This spell costs 0 mana. Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Finisher",
+        "display_name": "Finisher",
+        "tool_class": "monk",
+        "icon_label": "Finisher",
+        "resolved_icon_label": "Finisher",
+        "main_svg_id": "1069",
+        "main_svg_filename": "1069.svg"
+      },
+      "numbers": {
+        "raw": "0 6",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Finisher",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn. (Castable once per turn.) Upgraded: Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn. (This spell costs 0 mana. Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Finisher",
+        "display_name": "Finisher",
+        "tool_class": "monk",
+        "icon_label": "Finisher",
+        "resolved_icon_label": "Finisher",
+        "main_svg_id": "1069",
+        "main_svg_filename": "1069.svg"
+      },
+      "numbers": {
+        "raw": "0 0",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flying Fist",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 each time you use it on the same turn.Upgraded: A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 and mana cost decreased by 1 each time you use it on the same turn.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FlyingFist",
+        "display_name": "Flying Fist",
+        "tool_class": "monk",
+        "icon_label": "FlyingFist",
+        "resolved_icon_label": "FlyingFist",
+        "main_svg_id": "1091",
+        "main_svg_filename": "1091.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flying Fist",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 each time you use it on the same turn.Upgraded: A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 and mana cost decreased by 1 each time you use it on the same turn.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FlyingFist",
+        "display_name": "Flying Fist",
+        "tool_class": "monk",
+        "icon_label": "FlyingFist",
+        "resolved_icon_label": "FlyingFist",
+        "main_svg_id": "1091",
+        "main_svg_filename": "1091.svg"
+      },
+      "numbers": {
+        "raw": "5 4",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hadouken",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Shoot an energy blast in a straight line.Upgraded: Shoot a high damage energy blast in a straight line.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Hadouken",
+        "display_name": "Hadouken",
+        "tool_class": "monk",
+        "icon_label": "Hadouken",
+        "resolved_icon_label": "Hadouken",
+        "main_svg_id": "1062",
+        "main_svg_filename": "1062.svg"
+      },
+      "numbers": {
+        "raw": "10 9",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hadouken",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Shoot an energy blast in a straight line.Upgraded: Shoot a high damage energy blast in a straight line.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Hadouken",
+        "display_name": "Hadouken",
+        "tool_class": "monk",
+        "icon_label": "Hadouken",
+        "resolved_icon_label": "Hadouken",
+        "main_svg_id": "1062",
+        "main_svg_filename": "1062.svg"
+      },
+      "numbers": {
+        "raw": "15 9",
+        "frame_type": "Dmg_Mana",
+        "value": "15",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hip Toss",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Throw a random adjacent unit two tiles away, dealing damage to it.Upgraded: Throw a random adjacent unit two tiles away, dealing damage to it. This deals double damage if it's thrown onto another unit.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "HipToss",
+        "display_name": "Hip Toss",
+        "tool_class": "monk",
+        "icon_label": "HipToss",
+        "resolved_icon_label": "HipToss",
+        "main_svg_id": "1066",
+        "main_svg_filename": "1066.svg"
+      },
+      "numbers": {
+        "raw": "3 3",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Kamehameha",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Fire a magic blast at a unit within 5 tiles. Requires line of sight. (Castable once per battle. If all your armor slots are empty, castable once per turn.) Upgraded: Fire a magic blast at a unit anywhere within your line of sight. (Castable once per battle. If all your armor slots are empty, castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Kamehameha",
+        "display_name": "Kamehameha",
+        "tool_class": "monk",
+        "icon_label": "Kamehameha",
+        "resolved_icon_label": "Kamehameha",
+        "main_svg_id": "1101",
+        "main_svg_filename": "1101.svg"
+      },
+      "numbers": {
+        "raw": "14 0",
+        "frame_type": "Dmg_Mana",
+        "value": "14",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Kamehameha",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Fire a magic blast at a unit within 5 tiles. Requires line of sight. (Castable once per battle. If all your armor slots are empty, castable once per turn.) Upgraded: Fire a magic blast at a unit anywhere within your line of sight. (Castable once per battle. If all your armor slots are empty, castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Kamehameha",
+        "display_name": "Kamehameha",
+        "tool_class": "monk",
+        "icon_label": "Kamehameha",
+        "resolved_icon_label": "Kamehameha",
+        "main_svg_id": "1101",
+        "main_svg_filename": "1101.svg"
+      },
+      "numbers": {
+        "raw": "20 0",
+        "frame_type": "Dmg_Mana",
+        "value": "20",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ki Burst",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Deal 1 damage and knockback adjacent units. Gain +1 .Upgraded: Deal 2 damage and knockback adjacent units 2 tiles. Gain +2 .",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "KiBurst",
+        "display_name": "Ki Burst",
+        "tool_class": "monk",
+        "icon_label": "KiBurst",
+        "resolved_icon_label": "KiBurst",
+        "main_svg_id": "1083",
+        "main_svg_filename": "1083.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ki Burst",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Deal 1 damage and knockback adjacent units. Gain +1 .Upgraded: Deal 2 damage and knockback adjacent units 2 tiles. Gain +2 .",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "KiBurst",
+        "display_name": "Ki Burst",
+        "tool_class": "monk",
+        "icon_label": "KiBurst",
+        "resolved_icon_label": "KiBurst",
+        "main_svg_id": "1083",
+        "main_svg_filename": "1083.svg"
+      },
+      "numbers": {
+        "raw": "2 3",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Meditate",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Sleep 8.Upgraded: Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Drowsy 8. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Meditate",
+        "display_name": "Meditate",
+        "tool_class": "monk",
+        "icon_label": "Meditate",
+        "resolved_icon_label": "Meditate",
+        "main_svg_id": "1081",
+        "main_svg_filename": "1081.svg"
+      },
+      "numbers": {
+        "raw": "8 8",
+        "frame_type": "Dmg_Mana",
+        "value": "8",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Meditate",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Sleep 8.Upgraded: Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Drowsy 8. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Meditate",
+        "display_name": "Meditate",
+        "tool_class": "monk",
+        "icon_label": "Meditate",
+        "resolved_icon_label": "Meditate",
+        "main_svg_id": "1081",
+        "main_svg_filename": "1081.svg"
+      },
+      "numbers": {
+        "raw": "8 6",
+        "frame_type": "Dmg_Mana",
+        "value": "8",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "One Punch",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "A one-hit kill punch. Gain All Stats Down on use. This deals 25 damage to bosses instead of killing them. (Castable once per battle.) Upgraded: A one-hit kill punch. It causes a cone of wind that deals 5 damage. Gain All Stats Down on use. This deals 25 damage to bosses instead of killing them. (Castable once per battle.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "OnePunch",
+        "display_name": "One Punch",
+        "tool_class": "monk",
+        "icon_label": "OnePunch",
+        "resolved_icon_label": "OnePunch",
+        "main_svg_id": "1103",
+        "main_svg_filename": "1103.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Perfect Form",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Gain +1 for each empty armor slot you have, then switch stances.Upgraded: Gain +1 and heal 1 HP for each empty armor slot you have, then switch stances.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "PerfectForm",
+        "display_name": "Perfect Form",
+        "tool_class": "monk",
+        "icon_label": "PerfectForm",
+        "resolved_icon_label": "PerfectForm",
+        "main_svg_id": "1093",
+        "main_svg_filename": "1093.svg"
+      },
+      "numbers": {
+        "raw": "N/A 4",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Perfect Form",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Gain +1 for each empty armor slot you have, then switch stances.Upgraded: Gain +1 and heal 1 HP for each empty armor slot you have, then switch stances.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "PerfectForm",
+        "display_name": "Perfect Form",
+        "tool_class": "monk",
+        "icon_label": "PerfectForm",
+        "resolved_icon_label": "PerfectForm",
+        "main_svg_id": "1093",
+        "main_svg_filename": "1093.svg"
+      },
+      "numbers": {
+        "raw": "0 4",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pogo",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Jump to a tile. Bounce off any unit you land on, damaging that unit.Upgraded: Jump to a tile. Bounce off any unit you land on, damaging and Bruising that unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Pogo",
+        "display_name": "Pogo",
+        "tool_class": "monk",
+        "icon_label": "Pogo",
+        "resolved_icon_label": "Pogo",
+        "main_svg_id": "1074",
+        "main_svg_filename": "1074.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Propel",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Dash forward one tile and attack.Upgraded: Dash forward one tile and attack, twice!",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Propell",
+        "display_name": "Propel",
+        "tool_class": "monk",
+        "icon_label": "Propell",
+        "resolved_icon_label": "Propell",
+        "main_svg_id": "1061",
+        "main_svg_filename": "1061.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pummel",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "A melee attack that does 3 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does.Upgraded: A melee attack that does 4 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Pummel",
+        "display_name": "Pummel",
+        "tool_class": "monk",
+        "icon_label": "Pummel",
+        "resolved_icon_label": "Pummel",
+        "main_svg_id": "1095",
+        "main_svg_filename": "1095.svg"
+      },
+      "numbers": {
+        "raw": "1 5",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pummel",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "A melee attack that does 3 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does.Upgraded: A melee attack that does 4 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Pummel",
+        "display_name": "Pummel",
+        "tool_class": "monk",
+        "icon_label": "Pummel",
+        "resolved_icon_label": "Pummel",
+        "main_svg_id": "1095",
+        "main_svg_filename": "1095.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Slapback",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "A melee attack with a high critical hit chance. RELOAD: Take damage.Upgraded: A melee attack with a 100% critical hit chance. RELOAD: Take damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Slapback",
+        "display_name": "Slapback",
+        "tool_class": "monk",
+        "icon_label": "Slapback",
+        "resolved_icon_label": "Slapback",
+        "main_svg_id": "1068",
+        "main_svg_filename": "1068.svg"
+      },
+      "numbers": {
+        "raw": "2 0",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Throw Spirit Bomb",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Throw the Spirit Bomb, then this ability becomes Charge Spirit Bomb. (Cannot be thrown with 0 charges.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ThrowSpiritBomb",
+        "display_name": "Throw Spirit Bomb",
+        "tool_class": "monk",
+        "icon_label": "ThrowSpiritBomb",
+        "resolved_icon_label": "ThrowSpiritBomb",
+        "main_svg_id": "1105",
+        "main_svg_filename": "1105.svg"
+      },
+      "numbers": {
+        "raw": "0 0",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Unimpeded Lunge",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "Dash forward X spaces, gain +X , deal X damage, and deal X knockback. X is equal to the number of empty armor slots you have plus one.Upgraded: Dash forward X spaces, gain +X , deal X damage, and deal X knockback. X is equal to twice the number of empty armor slots you have.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "UnimpededLunge",
+        "display_name": "Unimpeded Lunge",
+        "tool_class": "monk",
+        "icon_label": "UnimpededLunge",
+        "resolved_icon_label": "UnimpededLunge",
+        "main_svg_id": "1099",
+        "main_svg_filename": "1099.svg"
+      },
+      "numbers": {
+        "raw": "1 7",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Unimpeded Lunge",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Dash forward X spaces, gain +X , deal X damage, and deal X knockback. X is equal to the number of empty armor slots you have plus one.Upgraded: Dash forward X spaces, gain +X , deal X damage, and deal X knockback. X is equal to twice the number of empty armor slots you have.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "UnimpededLunge",
+        "display_name": "Unimpeded Lunge",
+        "tool_class": "monk",
+        "icon_label": "UnimpededLunge",
+        "resolved_icon_label": "UnimpededLunge",
+        "main_svg_id": "1099",
+        "main_svg_filename": "1099.svg"
+      },
+      "numbers": {
+        "raw": "0 7",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

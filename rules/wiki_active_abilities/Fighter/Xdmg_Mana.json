@@ -1,0 +1,200 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Fighter",
+  "frame_type": "Xdmg_Mana",
+  "count": 8,
+  "abilities": [
+    {
+      "wiki_name": "Fury Swipes",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A weak melee attack that has a chance to hit multiple times.Upgraded: A melee attack that has a chance to hit multiple times.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FurySwipes",
+        "display_name": "Fury Swipes",
+        "tool_class": "fighter",
+        "icon_label": "FurySwipes",
+        "resolved_icon_label": "FurySwipes",
+        "main_svg_id": "828",
+        "main_svg_filename": "828.svg"
+      },
+      "numbers": {
+        "raw": "2x? 6",
+        "frame_type": "Xdmg_Mana",
+        "value": "2x?",
+        "mana": "6",
+        "hit_count": 2,
+        "hit_value": "?"
+      }
+    },
+    {
+      "wiki_name": "Fury Swipes",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "A weak melee attack that has a chance to hit multiple times.Upgraded: A melee attack that has a chance to hit multiple times.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FurySwipes",
+        "display_name": "Fury Swipes",
+        "tool_class": "fighter",
+        "icon_label": "FurySwipes",
+        "resolved_icon_label": "FurySwipes",
+        "main_svg_id": "828",
+        "main_svg_filename": "828.svg"
+      },
+      "numbers": {
+        "raw": "5x? 6",
+        "frame_type": "Xdmg_Mana",
+        "value": "5x?",
+        "mana": "6",
+        "hit_count": 5,
+        "hit_value": "?"
+      }
+    },
+    {
+      "wiki_name": "One-Two Punch",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "A melee attack that hits twice. Each punch inflicts Bruise 1.Upgraded: A melee attack that hits thrice! Each punch inflicts Bruise 1.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "OneTwoPunch",
+        "display_name": "One-Two Punch",
+        "tool_class": "fighter",
+        "icon_label": "OneTwoPunch",
+        "resolved_icon_label": "OneTwoPunch",
+        "main_svg_id": "856",
+        "main_svg_filename": "856.svg"
+      },
+      "numbers": {
+        "raw": "2x2 8",
+        "frame_type": "Xdmg_Mana",
+        "value": "2x2",
+        "mana": "8",
+        "hit_count": 2,
+        "hit_value": "2"
+      }
+    },
+    {
+      "wiki_name": "One-Two Punch",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "A melee attack that hits twice. Each punch inflicts Bruise 1.Upgraded: A melee attack that hits thrice! Each punch inflicts Bruise 1.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "OneTwoPunch",
+        "display_name": "One-Two Punch",
+        "tool_class": "fighter",
+        "icon_label": "OneTwoPunch",
+        "resolved_icon_label": "OneTwoPunch",
+        "main_svg_id": "856",
+        "main_svg_filename": "856.svg"
+      },
+      "numbers": {
+        "raw": "2x3 8",
+        "frame_type": "Xdmg_Mana",
+        "value": "2x3",
+        "mana": "8",
+        "hit_count": 2,
+        "hit_value": "3"
+      }
+    },
+    {
+      "wiki_name": "Ram",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Knock back a unit 4 tiles, then dash forward and attack it.Upgraded: Knock back a unit 10 tiles, then dash forward and attack it.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Ram",
+        "display_name": "Ram",
+        "tool_class": "fighter",
+        "icon_label": "Ram",
+        "resolved_icon_label": "Ram",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3x2 6",
+        "frame_type": "Xdmg_Mana",
+        "value": "3x2",
+        "mana": "6",
+        "hit_count": 3,
+        "hit_value": "2"
+      }
+    },
+    {
+      "wiki_name": "Spin",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Attack everything around you 3 times.Upgraded: Attack everything around you in a wide area 3 times.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Spin",
+        "display_name": "Spin",
+        "tool_class": "fighter",
+        "icon_label": "Spin",
+        "resolved_icon_label": "Spin",
+        "main_svg_id": "829",
+        "main_svg_filename": "829.svg"
+      },
+      "numbers": {
+        "raw": "1x3 6",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x3",
+        "mana": "6",
+        "hit_count": 1,
+        "hit_value": "3"
+      }
+    },
+    {
+      "wiki_name": "Synchro Spin",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "You and each allied cat do a spin attack at the same time.Upgraded: You and each allied cat do a spin attack at the same time. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "TeamSpin",
+        "display_name": "Synchro Spin",
+        "tool_class": "fighter",
+        "icon_label": "TeamSpin",
+        "resolved_icon_label": "TeamSpin",
+        "main_svg_id": "871",
+        "main_svg_filename": "871.svg"
+      },
+      "numbers": {
+        "raw": "1x3 8",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x3",
+        "mana": "8",
+        "hit_count": 1,
+        "hit_value": "3"
+      }
+    },
+    {
+      "wiki_name": "Synchro Spin",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "You and each allied cat do a spin attack at the same time.Upgraded: You and each allied cat do a spin attack at the same time. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "TeamSpin",
+        "display_name": "Synchro Spin",
+        "tool_class": "fighter",
+        "icon_label": "TeamSpin",
+        "resolved_icon_label": "TeamSpin",
+        "main_svg_id": "871",
+        "main_svg_filename": "871.svg"
+      },
+      "numbers": {
+        "raw": "1x3 4",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x3",
+        "mana": "4",
+        "hit_count": 1,
+        "hit_value": "3"
+      }
+    }
+  ]
+}

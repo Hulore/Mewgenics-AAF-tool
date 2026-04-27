@@ -1,0 +1,2360 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Collarless",
+  "frame_type": "Mana",
+  "count": 98,
+  "abilities": [
+    {
+      "wiki_name": "BBQ",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spawn a cooked meat pickup.Upgraded: Spawn a big cooked meat pickup.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BBQ",
+        "display_name": "BBQ",
+        "tool_class": "colorless",
+        "icon_label": "BBQ",
+        "resolved_icon_label": "BBQ",
+        "main_svg_id": "1307",
+        "main_svg_filename": "1307.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Block",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +2 .Upgraded: Gain +5 .",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Block",
+        "display_name": "Block",
+        "tool_class": "colorless",
+        "icon_label": "Block",
+        "resolved_icon_label": "Block",
+        "main_svg_id": "1226",
+        "main_svg_filename": "1226.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Blow",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Blow units in a cone back 1 tile.Upgraded: Blow units in a larger cone back 1 tile.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Blow",
+        "display_name": "Blow",
+        "tool_class": "colorless",
+        "icon_label": "Blow",
+        "resolved_icon_label": "Blow",
+        "main_svg_id": "1305",
+        "main_svg_filename": "1305.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Boost",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +1 Magic Damage until end of turn.Upgraded: Gain +1 Magic Damage until end of turn. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BoostSpellRange",
+        "display_name": "Boost",
+        "tool_class": "colorless",
+        "icon_label": "BoostSpellRange",
+        "resolved_icon_label": "BoostSpellRange",
+        "main_svg_id": "1241",
+        "main_svg_filename": "1241.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Boost",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Gain +1 Magic Damage until end of turn.Upgraded: Gain +1 Magic Damage until end of turn. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BoostSpellRange",
+        "display_name": "Boost",
+        "tool_class": "colorless",
+        "icon_label": "BoostSpellRange",
+        "resolved_icon_label": "BoostSpellRange",
+        "main_svg_id": "1241",
+        "main_svg_filename": "1241.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Borrow Mana",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Steal up to 5 mana from an ally. (Castable once per turn.) Upgraded: Steal all of an ally's mana. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ManaDrain",
+        "display_name": "Borrow Mana",
+        "tool_class": "colorless",
+        "icon_label": "ManaDrain",
+        "resolved_icon_label": "ManaDrain",
+        "main_svg_id": "1233",
+        "main_svg_filename": "1233.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Brace",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +1 temporary Brace until your next turn.Upgraded: Gain +1 temporary Brace and +1 temporary Thorns until your next turn.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Brace",
+        "display_name": "Brace",
+        "tool_class": "colorless",
+        "icon_label": "Brace",
+        "resolved_icon_label": "Brace",
+        "main_svg_id": "1228",
+        "main_svg_filename": "1228.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Brace",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Gain +1 temporary Brace until your next turn.Upgraded: Gain +1 temporary Brace and +1 temporary Thorns until your next turn.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Brace",
+        "display_name": "Brace",
+        "tool_class": "colorless",
+        "icon_label": "Brace",
+        "resolved_icon_label": "Brace",
+        "main_svg_id": "1228",
+        "main_svg_filename": "1228.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Brainstorm",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Reduce the costs of your other spells by 1 mana.Upgraded: Reduce the cost of ALL of your spells by 1 mana.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Brainstorm",
+        "display_name": "Brainstorm",
+        "tool_class": "colorless",
+        "icon_label": "Brainstorm",
+        "resolved_icon_label": "Brainstorm",
+        "main_svg_id": "1238",
+        "main_svg_filename": "1238.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Break Circuit",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Break out of short circuit",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BreakShortCircuit",
+        "display_name": "Break Circuit",
+        "tool_class": "colorless",
+        "icon_label": "BreakShortCircuit",
+        "resolved_icon_label": "BreakShortCircuit",
+        "main_svg_id": "1344",
+        "main_svg_filename": "1344.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Burgeoning Barrier",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain 0 . Increase this spell's by 2 at the end of each turn. (Castable once per battle.) Upgraded: Gain 0 . Increase this spell's by 3 at the end of each turn. (Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BurgeoningBarrier",
+        "display_name": "Burgeoning Barrier",
+        "tool_class": "colorless",
+        "icon_label": "BurgeoningBarrier",
+        "resolved_icon_label": "BurgeoningBarrier",
+        "main_svg_id": "1285",
+        "main_svg_filename": "1285.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Burgeoning Battery",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain 0 mana. Increase this spell's mana gain by 2 at the end of each turn. (Castable once per battle.) Upgraded: Gain 0 mana. Increase this spell's mana gain by 3 at the end of each turn. (Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BurgeoningBattery",
+        "display_name": "Burgeoning Battery",
+        "tool_class": "colorless",
+        "icon_label": "BurgeoningBattery",
+        "resolved_icon_label": "BurgeoningBattery",
+        "main_svg_id": "1284",
+        "main_svg_filename": "1284.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Butt Scoot",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Move 1 tile, leaving a maggot familiar behind you.Upgraded: Move up to 3 tiles, leaving a maggot familiar behind you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ButtScoot",
+        "display_name": "Butt Scoot",
+        "tool_class": "colorless",
+        "icon_label": "ButtScoot",
+        "resolved_icon_label": "ButtScoot",
+        "main_svg_id": "1252",
+        "main_svg_filename": "1252.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Butt Scoot",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Move 1 tile, leaving a maggot familiar behind you.Upgraded: Move up to 3 tiles, leaving a maggot familiar behind you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ButtScoot",
+        "display_name": "Butt Scoot",
+        "tool_class": "colorless",
+        "icon_label": "ButtScoot",
+        "resolved_icon_label": "ButtScoot",
+        "main_svg_id": "1252",
+        "main_svg_filename": "1252.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Buy Catnip",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spend 5 coins, gain 10 mana. (Castable once per turn.) Upgraded: Spend 5 coins, gain 15 mana. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BuyCatnip",
+        "display_name": "Buy Catnip",
+        "tool_class": "colorless",
+        "icon_label": "BuyCatnip",
+        "resolved_icon_label": "BuyCatnip",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cat Nap",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Remove all of your debuffs, then fall asleep.Upgraded: Remove all of your debuffs, gain All Stats Up, then fall asleep.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "CatNap",
+        "display_name": "Cat Nap",
+        "tool_class": "colorless",
+        "icon_label": "CatNap",
+        "resolved_icon_label": "CatNap",
+        "main_svg_id": "1273",
+        "main_svg_filename": "1273.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Claws Out",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +1 Thorns.Upgraded: Gain +1 Thorns. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "GainThorns",
+        "display_name": "Claws Out",
+        "tool_class": "colorless",
+        "icon_label": "GainThorns",
+        "resolved_icon_label": "GainThorns",
+        "main_svg_id": "1239",
+        "main_svg_filename": "1239.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Claws Out",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Gain +1 Thorns.Upgraded: Gain +1 Thorns. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "GainThorns",
+        "display_name": "Claws Out",
+        "tool_class": "colorless",
+        "icon_label": "GainThorns",
+        "resolved_icon_label": "GainThorns",
+        "main_svg_id": "1239",
+        "main_svg_filename": "1239.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Confusion",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Inflict Confusion 2 on a unit.Upgraded: Inflict Confusion 4 on units in an area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Confusion",
+        "display_name": "Confusion",
+        "tool_class": "colorless",
+        "icon_label": "Confusion",
+        "resolved_icon_label": "Confusion",
+        "main_svg_id": "1253",
+        "main_svg_filename": "1253.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Copycat",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "This spell is a copy of the most recent spell an allied cat cast.Upgraded: This spell is an upgraded copy of the most recent spell an allied cat cast.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Copycat",
+        "display_name": "Copycat",
+        "tool_class": "colorless",
+        "icon_label": "Copycat",
+        "resolved_icon_label": "Copycat",
+        "main_svg_id": "553",
+        "main_svg_filename": "553.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Desecrate",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Destroy a body.Upgraded: Destroy a body and gain 2 mana.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Desecrate",
+        "display_name": "Desecrate",
+        "tool_class": "colorless",
+        "icon_label": "Desecrate",
+        "resolved_icon_label": "Desecrate",
+        "main_svg_id": "1279",
+        "main_svg_filename": "1279.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Doll Up",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +1 Charisma.Upgraded: Gain +1 Charisma. Bonus Passive: You have a chance to inflict Charm on units that contact or attack you. This chance increases with your Charisma.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DollUp",
+        "display_name": "Doll Up",
+        "tool_class": "colorless",
+        "icon_label": "DollUp",
+        "resolved_icon_label": "DollUp",
+        "main_svg_id": "1266",
+        "main_svg_filename": "1266.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dump",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spawn a poop on an adjacent tile.Upgraded: Spawn a poop on an adjacent tile. Inflict Poison 3 and a 15% chance to Stun if you poop on a unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Dump",
+        "display_name": "Dump",
+        "tool_class": "colorless",
+        "icon_label": "Dump",
+        "resolved_icon_label": "Dump",
+        "main_svg_id": "1257",
+        "main_svg_filename": "1257.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Feather Feet",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +1 Speed.Upgraded: Gain +1 Speed. Bonus Passive: You're unaffected by tile effects.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FeatherFeet",
+        "display_name": "Feather Feet",
+        "tool_class": "colorless",
+        "icon_label": "FeatherFeet",
+        "resolved_icon_label": "FeatherFeet",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Find a Rock",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Dig up a small rock.Upgraded: Dig up a small rock. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FindARock",
+        "display_name": "Find a Rock",
+        "tool_class": "colorless",
+        "icon_label": "FindARock",
+        "resolved_icon_label": "FindARock",
+        "main_svg_id": "1275",
+        "main_svg_filename": "1275.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Find a Rock",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Dig up a small rock.Upgraded: Dig up a small rock. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FindARock",
+        "display_name": "Find a Rock",
+        "tool_class": "colorless",
+        "icon_label": "FindARock",
+        "resolved_icon_label": "FindARock",
+        "main_svg_id": "1275",
+        "main_svg_filename": "1275.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flex",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +1 temporary Brace until your next turn and deal 1 knockback to each adjacent unit.Upgraded: Gain +1 temporary Brace until your next turn and deal 3 knockback to each adjacent unit. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Flex",
+        "display_name": "Flex",
+        "tool_class": "colorless",
+        "icon_label": "Flex",
+        "resolved_icon_label": "Flex",
+        "main_svg_id": "1246",
+        "main_svg_filename": "1246.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flex",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Gain +1 temporary Brace until your next turn and deal 1 knockback to each adjacent unit.Upgraded: Gain +1 temporary Brace until your next turn and deal 3 knockback to each adjacent unit. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Flex",
+        "display_name": "Flex",
+        "tool_class": "colorless",
+        "icon_label": "Flex",
+        "resolved_icon_label": "Flex",
+        "main_svg_id": "1246",
+        "main_svg_filename": "1246.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Focus",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +1 Dexterity.Upgraded: Gain +1 Dexterity. Bonus Passive: +25% critical hit chance.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Focus",
+        "display_name": "Focus",
+        "tool_class": "colorless",
+        "icon_label": "Focus",
+        "resolved_icon_label": "Focus",
+        "main_svg_id": "1236",
+        "main_svg_filename": "1236.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gamble",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +2% critical hit chance. If your next attack is critical, deal +100% more damage and spawn coins.Upgraded: Gain +2% critical hit chance. If your next attack is critical, deal +200% more damage and spawn more coins.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Gamble",
+        "display_name": "Gamble",
+        "tool_class": "colorless",
+        "icon_label": "Gamble",
+        "resolved_icon_label": "Gamble",
+        "main_svg_id": "1243",
+        "main_svg_filename": "1243.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Groom",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Remove all of the debuffs on yourself or an adjacent unit.Upgraded: Remove all of the debuffs and heal a little HP to yourself or an adjacent unit.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Groom",
+        "display_name": "Groom",
+        "tool_class": "colorless",
+        "icon_label": "Groom",
+        "resolved_icon_label": "Groom",
+        "main_svg_id": "1229",
+        "main_svg_filename": "1229.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gym Membership",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spend 5 coins, gain All Stats Up. (Castable once per turn.) Upgraded: Spend 5 coins, gain All Stats Up and refresh your basic attack and movement actions. (Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "GymMembership",
+        "display_name": "Gym Membership",
+        "tool_class": "colorless",
+        "icon_label": "GymMembership",
+        "resolved_icon_label": "GymMembership",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hire Hitman",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spend 7 coins, summon a bounty hunter. (Castable once per turn.) Upgraded: Spend 7 coins, summon a bounty hunter with All Stats Up 2. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "HireHitman",
+        "display_name": "Hire Hitman",
+        "tool_class": "colorless",
+        "icon_label": "HireHitman",
+        "resolved_icon_label": "HireHitman",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hiss",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Adjacent units move away from you. You have a 25% chance to inflict Fear on them.Upgraded: Adjacent units move away from you. Inflict fear on them.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Hiss",
+        "display_name": "Hiss",
+        "tool_class": "colorless",
+        "icon_label": "Hiss",
+        "resolved_icon_label": "Hiss",
+        "main_svg_id": "1315",
+        "main_svg_filename": "1315.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hop",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Hop up to 2 tiles away.Upgraded: Hop up to 4 tiles away.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PrepareToJump",
+        "display_name": "Hop",
+        "tool_class": "colorless",
+        "icon_label": "PrepareToJump",
+        "resolved_icon_label": "PrepareToJump",
+        "main_svg_id": "1240",
+        "main_svg_filename": "1240.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hose Off",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spray a unit with water, cleansing its debuffs and making a puddle. (Castable once per battle.) Upgraded: Spray a unit with water, cleansing its debuffs and making a puddle. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "HoseOff",
+        "display_name": "Hose Off",
+        "tool_class": "colorless",
+        "icon_label": "HoseOff",
+        "resolved_icon_label": "HoseOff",
+        "main_svg_id": "1283",
+        "main_svg_filename": "1283.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hose Off",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Spray a unit with water, cleansing its debuffs and making a puddle. (Castable once per battle.) Upgraded: Spray a unit with water, cleansing its debuffs and making a puddle. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "HoseOff",
+        "display_name": "Hose Off",
+        "tool_class": "colorless",
+        "icon_label": "HoseOff",
+        "resolved_icon_label": "HoseOff",
+        "main_svg_id": "1283",
+        "main_svg_filename": "1283.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Interchange",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Exchange your movement action for an additional basic attack, and vice versa.Upgraded: Exchange your movement action for an additional basic attack, and vice versa. (This spell costs 0 mana the first time you cast it each turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Interchange",
+        "display_name": "Interchange",
+        "tool_class": "colorless",
+        "icon_label": "Interchange",
+        "resolved_icon_label": "Interchange",
+        "main_svg_id": "1297",
+        "main_svg_filename": "1297.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Invert",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Swap your highest and lowest stats. (Ties are chosen at random) Upgraded: Swap a unit's highest and lowest stats. (Ties are chosen at random)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Contort",
+        "display_name": "Invert",
+        "tool_class": "colorless",
+        "icon_label": "Contort",
+        "resolved_icon_label": "Contort",
+        "main_svg_id": "1278",
+        "main_svg_filename": "1278.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Knead",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Knead another unit. Allies gain +1 Damage, enemies gain Weakness 1.Upgraded: Knead another unit. Allies gain +2 Damage, enemies gain Weakness 2.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Knead",
+        "display_name": "Knead",
+        "tool_class": "colorless",
+        "icon_label": "Knead",
+        "resolved_icon_label": "Knead",
+        "main_svg_id": "1314",
+        "main_svg_filename": "1314.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Landscape",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Turn an adjacent tile into a small grass tile.Upgraded: Turn any tile into a small grass tile.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Landscape",
+        "display_name": "Landscape",
+        "tool_class": "colorless",
+        "icon_label": "Landscape",
+        "resolved_icon_label": "Landscape",
+        "main_svg_id": "1303",
+        "main_svg_filename": "1303.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Look at me!",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Each unit turns to face you.Upgraded: Each unit turns to face you. 20% chance to Confuse enemies.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "LookAtMe",
+        "display_name": "Look at me!",
+        "tool_class": "colorless",
+        "icon_label": "LookAtMe",
+        "resolved_icon_label": "LookAtMe",
+        "main_svg_id": "1296",
+        "main_svg_filename": "1296.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Magnet",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Pull a pickup one tile toward you. (Castable once per turn.) Upgraded: Pull a pickup all the way toward you. (Castable once per turn)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Magnet",
+        "display_name": "Magnet",
+        "tool_class": "colorless",
+        "icon_label": "Magnet",
+        "resolved_icon_label": "Magnet",
+        "main_svg_id": "1292",
+        "main_svg_filename": "1292.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Make a Wish",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spend a coin to spawn a random pickup on a random tile. (Castable once per turn.) Upgraded: Spend a coin to spawn a random pickup on an empty tile of your choice. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Donate",
+        "display_name": "Make a Wish",
+        "tool_class": "colorless",
+        "icon_label": "Donate",
+        "resolved_icon_label": "Donate",
+        "main_svg_id": "1293",
+        "main_svg_filename": "1293.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Meow",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Your closest ally moves toward you.Upgraded: A target ally moves toward you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Meow",
+        "display_name": "Meow",
+        "tool_class": "colorless",
+        "icon_label": "Meow",
+        "resolved_icon_label": "Meow",
+        "main_svg_id": "1319",
+        "main_svg_filename": "1319.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Metabolize",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +1 Constitution.Upgraded: Gain +1 Constitution. Bonus Passive: +3 Health Regeneration.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Metabolize",
+        "display_name": "Metabolize",
+        "tool_class": "colorless",
+        "icon_label": "Metabolize",
+        "resolved_icon_label": "Metabolize",
+        "main_svg_id": "1237",
+        "main_svg_filename": "1237.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Metronome",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Cast a random spell.Upgraded: Cast a random upgraded spell.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Metronome",
+        "display_name": "Metronome",
+        "tool_class": "colorless",
+        "icon_label": "Metronome",
+        "resolved_icon_label": "Metronome",
+        "main_svg_id": "1260",
+        "main_svg_filename": "1260.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nerf",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Inflict -1 Damage on a unit.Upgraded: Inflict -1 Damage and -1 Constitution on a unit.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Nerf",
+        "display_name": "Nerf",
+        "tool_class": "colorless",
+        "icon_label": "Nerf",
+        "resolved_icon_label": "Nerf",
+        "main_svg_id": "1263",
+        "main_svg_filename": "1263.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Number One",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spawn \"water\" tiles in an area around yourself.Upgraded: Spawn \"water\" tiles in a larger area around yourself.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PissYourself",
+        "display_name": "Number One",
+        "tool_class": "colorless",
+        "icon_label": "PissYourself",
+        "resolved_icon_label": "PissYourself",
+        "main_svg_id": "1274",
+        "main_svg_filename": "1274.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Over There!",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Adjacent units turn away from you.Upgraded: Units within three tiles of you turn away from you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MiniDistract",
+        "display_name": "Over There!",
+        "tool_class": "colorless",
+        "icon_label": "MiniDistract",
+        "resolved_icon_label": "MiniDistract",
+        "main_svg_id": "1251",
+        "main_svg_filename": "1251.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Butcher",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Collect an adjacent food pickup, then this spell becomes a random Butcher spell permanently.Upgraded: Transform this spell into a random upgraded Butcher spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheButcher",
+        "display_name": "Path of the Butcher",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheButcher",
+        "resolved_icon_label": "PathOfTheButcher",
+        "main_svg_id": "1327",
+        "main_svg_filename": "1327.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Butcher",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Collect an adjacent food pickup, then this spell becomes a random Butcher spell permanently.Upgraded: Transform this spell into a random upgraded Butcher spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheButcher",
+        "display_name": "Path of the Butcher",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheButcher",
+        "resolved_icon_label": "PathOfTheButcher",
+        "main_svg_id": "1327",
+        "main_svg_filename": "1327.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Cleric",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Give an enemy All Stats Up and fully heal it, then this spell becomes a random Cleric spell permanently.Upgraded: Transform this spell into a random upgraded Cleric spell permanently.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "PathOfTheCleric",
+        "display_name": "Path of the Cleric",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheCleric",
+        "resolved_icon_label": "PathOfTheCleric",
+        "main_svg_id": "1328",
+        "main_svg_filename": "1328.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Druid",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Plant flowers on the tile you're standing on, then this spell becomes a random Druid spell permanently. Castable only if you're standing on a grass tile.Upgraded: Transform this spell into a random upgraded Druid spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheDruid",
+        "display_name": "Path of the Druid",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheDruid",
+        "resolved_icon_label": "PathOfTheDruid",
+        "main_svg_id": "1323",
+        "main_svg_filename": "1323.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Druid",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Plant flowers on the tile you're standing on, then this spell becomes a random Druid spell permanently. Castable only if you're standing on a grass tile.Upgraded: Transform this spell into a random upgraded Druid spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheDruid",
+        "display_name": "Path of the Druid",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheDruid",
+        "resolved_icon_label": "PathOfTheDruid",
+        "main_svg_id": "1323",
+        "main_svg_filename": "1323.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Fighter",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Your Intelligence becomes 0 until the end of the battle, then this spell becomes a random Fighter spell permanently.Upgraded: Transform this spell into a random upgraded Fighter spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheFighter",
+        "display_name": "Path of the Fighter",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheFighter",
+        "resolved_icon_label": "PathOfTheFighter",
+        "main_svg_id": "1330",
+        "main_svg_filename": "1330.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Jester",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain 10 random stat ups and 5 random stat downs, then transform this spell into a random class spell permanently.Upgraded: Gain 10 random stat ups, then transform this spell into a random upgraded class spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheJester",
+        "display_name": "Path of the Jester",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheJester",
+        "resolved_icon_label": "PathOfTheJester",
+        "main_svg_id": "379",
+        "main_svg_filename": "379.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Mage",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Transform this spell into a random Mage spell permanently.Upgraded: Transform this spell into a random upgraded Mage spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheMage",
+        "display_name": "Path of the Mage",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheMage",
+        "resolved_icon_label": "PathOfTheMage",
+        "main_svg_id": "1333",
+        "main_svg_filename": "1333.svg"
+      },
+      "numbers": {
+        "raw": "12",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Mage",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Transform this spell into a random Mage spell permanently.Upgraded: Transform this spell into a random upgraded Mage spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheMage",
+        "display_name": "Path of the Mage",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheMage",
+        "resolved_icon_label": "PathOfTheMage",
+        "main_svg_id": "1333",
+        "main_svg_filename": "1333.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Monk",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain All Stats Down, then this spell becomes a random Monk spell permanently.Upgraded: This spell becomes a random upgraded Monk spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheMonk",
+        "display_name": "Path of the Monk",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheMonk",
+        "resolved_icon_label": "PathOfTheMonk",
+        "main_svg_id": "1324",
+        "main_svg_filename": "1324.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Necromancer",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Destroy a corpse, then this spell becomes a random Necromancer spell permanently.Upgraded: Transform this spell into a random Necromancer spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheNecromancer",
+        "display_name": "Path of the Necromancer",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheNecromancer",
+        "resolved_icon_label": "PathOfTheNecromancer",
+        "main_svg_id": "1322",
+        "main_svg_filename": "1322.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Psychic",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "This spell becomes a random Psychic spell permanently. Castable only if you have full mana.Upgraded: Transform this spell into a random upgraded Psychic spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfThePsychic",
+        "display_name": "Path of the Psychic",
+        "tool_class": "colorless",
+        "icon_label": "PathOfThePsychic",
+        "resolved_icon_label": "PathOfThePsychic",
+        "main_svg_id": "1326",
+        "main_svg_filename": "1326.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Tank",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Transform this spell into a random Tank spell permanently. Castable only if you have 5 or less health.Upgraded: Transform this spell into a random upgraded Tank spell permanently.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "PathOfTheTank",
+        "display_name": "Path of the Tank",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheTank",
+        "resolved_icon_label": "PathOfTheTank",
+        "main_svg_id": "1329",
+        "main_svg_filename": "1329.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path of the Tinkerer",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Destroy your weapon, then this spell becomes a random Tinkerer spell permanently.Upgraded: Transform this spell into a random upgraded Tinkerer spell permanently.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheTinkerer",
+        "display_name": "Path of the Tinkerer",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheTinkerer",
+        "resolved_icon_label": "PathOfTheTinkerer",
+        "main_svg_id": "1325",
+        "main_svg_filename": "1325.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Path Of The Void",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Conjure a random Collarless spell into your bonus spell slot.Upgraded: Conjure a random upgraded Collarless spell into your bonus spell slot.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PathOfTheVoid",
+        "display_name": "Path Of The Void",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheVoid",
+        "resolved_icon_label": "PathOfTheVoid",
+        "main_svg_id": "1336",
+        "main_svg_filename": "1336.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Play Dead",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Down yourself. You don't get injured.Upgraded: Down yourself. You don't get injured. Revive at the end of the next round at full HP.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PlayDead",
+        "display_name": "Play Dead",
+        "tool_class": "colorless",
+        "icon_label": "PlayDead",
+        "resolved_icon_label": "PlayDead",
+        "main_svg_id": "1254",
+        "main_svg_filename": "1254.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ponder",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +1 Intelligence.Upgraded: Gain +1 Intelligence and conjure a random bonus ability.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Ponder",
+        "display_name": "Ponder",
+        "tool_class": "colorless",
+        "icon_label": "Ponder",
+        "resolved_icon_label": "Ponder",
+        "main_svg_id": "1235",
+        "main_svg_filename": "1235.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Proliferate",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Double a unit's Poison, Bleed, and Burn. (Castable once per battle.) Upgraded: Double a unit's Poison, Bleed, and Burn. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Taint",
+        "display_name": "Proliferate",
+        "tool_class": "colorless",
+        "icon_label": "Taint",
+        "resolved_icon_label": "Taint",
+        "main_svg_id": "1282",
+        "main_svg_filename": "1282.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Proliferate",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Double a unit's Poison, Bleed, and Burn. (Castable once per battle.) Upgraded: Double a unit's Poison, Bleed, and Burn. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Taint",
+        "display_name": "Proliferate",
+        "tool_class": "colorless",
+        "icon_label": "Taint",
+        "resolved_icon_label": "Taint",
+        "main_svg_id": "1282",
+        "main_svg_filename": "1282.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Purr",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Remove 1 stack of a random debuff from yourself and all adjacent units.Upgraded: Remove 1 stack of a random debuff from and heal 1 HP to yourself and all adjacent units.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Purr",
+        "display_name": "Purr",
+        "tool_class": "colorless",
+        "icon_label": "Purr",
+        "resolved_icon_label": "Purr",
+        "main_svg_id": "1316",
+        "main_svg_filename": "1316.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Randomize",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spawn a random tile anywhere.Upgraded: Tiles in an area become random tiles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Till",
+        "display_name": "Randomize",
+        "tool_class": "colorless",
+        "icon_label": "Till",
+        "resolved_icon_label": "Till",
+        "main_svg_id": "1288",
+        "main_svg_filename": "1288.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reach",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Your next basic attack has +1 range.Upgraded: Your next basic attack has +3 range.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Reach",
+        "display_name": "Reach",
+        "tool_class": "colorless",
+        "icon_label": "Reach",
+        "resolved_icon_label": "Reach",
+        "main_svg_id": "1232",
+        "main_svg_filename": "1232.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reduce",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +20% dodge chance, +4 Speed, and -2 Damage. (Castable once per battle.) Upgraded: Gain +20% dodge chance, +4 Speed, and -2 Damage. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Reduce",
+        "display_name": "Reduce",
+        "tool_class": "colorless",
+        "icon_label": "Reduce",
+        "resolved_icon_label": "Reduce",
+        "main_svg_id": "1262",
+        "main_svg_filename": "1262.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reduce",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Gain +20% dodge chance, +4 Speed, and -2 Damage. (Castable once per battle.) Upgraded: Gain +20% dodge chance, +4 Speed, and -2 Damage. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Reduce",
+        "display_name": "Reduce",
+        "tool_class": "colorless",
+        "icon_label": "Reduce",
+        "resolved_icon_label": "Reduce",
+        "main_svg_id": "1262",
+        "main_svg_filename": "1262.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reflect",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Reflect the next projectile that hits you back at the attacker.Upgraded: You or another unit reflects the next projectile that hits them back at the attacker.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Reflect",
+        "display_name": "Reflect",
+        "tool_class": "colorless",
+        "icon_label": "Reflect",
+        "resolved_icon_label": "Reflect",
+        "main_svg_id": "1255",
+        "main_svg_filename": "1255.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reflect",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Reflect the next projectile that hits you back at the attacker.Upgraded: You or another unit reflects the next projectile that hits them back at the attacker.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Reflect",
+        "display_name": "Reflect",
+        "tool_class": "colorless",
+        "icon_label": "Reflect",
+        "resolved_icon_label": "Reflect",
+        "main_svg_id": "1255",
+        "main_svg_filename": "1255.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Roll",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Roll up to three tiles in a straight line.Upgraded: Roll up to ten tiles in a straight line.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Roll",
+        "display_name": "Roll",
+        "tool_class": "colorless",
+        "icon_label": "Roll",
+        "resolved_icon_label": "Roll",
+        "main_svg_id": "1230",
+        "main_svg_filename": "1230.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rouse",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Give an adjacent unit +2 Charge. (Castable once per turn.) Upgraded: Give any unit +2 Charge. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Rouse",
+        "display_name": "Rouse",
+        "tool_class": "colorless",
+        "icon_label": "Rouse",
+        "resolved_icon_label": "Rouse",
+        "main_svg_id": "1295",
+        "main_svg_filename": "1295.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Russian Shorthair Roulette",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "There is a 1 in 6 chance this will kill you. If it doesn't, gain +1 to a random stat and 1-2 coins.Upgraded: There is a 1 in 6 chance this will kill you. If it doesn't, gain +2 to a random stat and 2-4 coins.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "RussianRoulette",
+        "display_name": "Russian Shorthair Roulette",
+        "tool_class": "colorless",
+        "icon_label": "RussianRoulette",
+        "resolved_icon_label": "RussianRoulette",
+        "main_svg_id": "1277",
+        "main_svg_filename": "1277.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Second Wind",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Refresh your basic attack, movement, weapon, and trinket action. (Castable once per battle.) Upgraded: Refresh your basic attack, movement, weapon, and trinket action. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Endeavor",
+        "display_name": "Second Wind",
+        "tool_class": "colorless",
+        "icon_label": "Endeavor",
+        "resolved_icon_label": "Endeavor",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Second Wind",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Refresh your basic attack, movement, weapon, and trinket action. (Castable once per battle.) Upgraded: Refresh your basic attack, movement, weapon, and trinket action. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Endeavor",
+        "display_name": "Second Wind",
+        "tool_class": "colorless",
+        "icon_label": "Endeavor",
+        "resolved_icon_label": "Endeavor",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sharpen Claws",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +1 Strength.Upgraded: Gain +1 Strength. Bonus Passive: Your basic attack inflicts Bleed.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SharpenClaws",
+        "display_name": "Sharpen Claws",
+        "tool_class": "colorless",
+        "icon_label": "SharpenClaws",
+        "resolved_icon_label": "SharpenClaws",
+        "main_svg_id": "1231",
+        "main_svg_filename": "1231.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shift",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Swap positions with an adjacent unit. (Castable once per turn.) Upgraded: Swap positions with any unit. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Shift",
+        "display_name": "Shift",
+        "tool_class": "colorless",
+        "icon_label": "Shift",
+        "resolved_icon_label": "Shift",
+        "main_svg_id": "1294",
+        "main_svg_filename": "1294.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Slip Through",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Roll up to two tiles in a diagonal line.Upgraded: Roll any number of tiles in a diagonal line.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SlipThrough",
+        "display_name": "Slip Through",
+        "tool_class": "colorless",
+        "icon_label": "SlipThrough",
+        "resolved_icon_label": "SlipThrough",
+        "main_svg_id": "582",
+        "main_svg_filename": "582.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stack the Deck",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Gain +1 Luck.Upgraded: Gain +1 Luck. You have +99 Luck during your next action.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "StackTheDeck",
+        "display_name": "Stack the Deck",
+        "tool_class": "colorless",
+        "icon_label": "StackTheDeck",
+        "resolved_icon_label": "StackTheDeck",
+        "main_svg_id": "1267",
+        "main_svg_filename": "1267.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Step",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Move one tile. (Castable once per turn.) Upgraded: Move two tiles. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Step",
+        "display_name": "Step",
+        "tool_class": "colorless",
+        "icon_label": "Step",
+        "resolved_icon_label": "Step",
+        "main_svg_id": "1287",
+        "main_svg_filename": "1287.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stop Hitting Yourself",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Command all the moon hands to attack the face.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MoonHeadCommandStopHittingYourself",
+        "display_name": "Stop Hitting Yourself",
+        "tool_class": "colorless",
+        "icon_label": "MoonHeadCommandStopHittingYourself",
+        "resolved_icon_label": "MoonHeadCommandStopHittingYourself",
+        "main_svg_id": "1343",
+        "main_svg_filename": "1343.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Subway Ride",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spend 5 coins, teleport to any tile. (Castable once per turn.) Upgraded: Spend 2 coins, teleport to any tile. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SubwayRide",
+        "display_name": "Subway Ride",
+        "tool_class": "colorless",
+        "icon_label": "SubwayRide",
+        "resolved_icon_label": "SubwayRide",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sudden Affliction",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Trigger the Poison, Bleed, and Burn effects on a unit.Upgraded: Trigger the Poison, Bleed, and Burn effects on a unit. If that unit isn't Poisoned, Bleeding, or Burning, they gain 1 of each.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PokeWound",
+        "display_name": "Sudden Affliction",
+        "tool_class": "colorless",
+        "icon_label": "PokeWound",
+        "resolved_icon_label": "PokeWound",
+        "main_svg_id": "1281",
+        "main_svg_filename": "1281.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sunburn",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Inflicts Burn 1 and Blind 1 at infinite range.Upgraded: Inflict Burn 1 and Blind 1 in an area at infinite range.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Sunburn",
+        "display_name": "Sunburn",
+        "tool_class": "colorless",
+        "icon_label": "Sunburn",
+        "resolved_icon_label": "Sunburn",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Super Crate Box",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Spawn a crate on an adjacent tile.Upgraded: Spawn a crate within range 5.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SuperCrateBox",
+        "display_name": "Super Crate Box",
+        "tool_class": "colorless",
+        "icon_label": "SuperCrateBox",
+        "resolved_icon_label": "SuperCrateBox",
+        "main_svg_id": "1308",
+        "main_svg_filename": "1308.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Swat",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Knockback a unit 3 tiles.Upgraded: Knockback a unit 10 tiles. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Swat",
+        "display_name": "Swat",
+        "tool_class": "colorless",
+        "icon_label": "Swat",
+        "resolved_icon_label": "Swat",
+        "main_svg_id": "1318",
+        "main_svg_filename": "1318.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Swat",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Knockback a unit 3 tiles.Upgraded: Knockback a unit 10 tiles. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Swat",
+        "display_name": "Swat",
+        "tool_class": "colorless",
+        "icon_label": "Swat",
+        "resolved_icon_label": "Swat",
+        "main_svg_id": "1318",
+        "main_svg_filename": "1318.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Toast",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Inflict Burn 1 on an adjacent unit.Upgraded: Inflict Burn 1 on a unit in range 5.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Toast",
+        "display_name": "Toast",
+        "tool_class": "colorless",
+        "icon_label": "Toast",
+        "resolved_icon_label": "Toast",
+        "main_svg_id": "1304",
+        "main_svg_filename": "1304.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Trip",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Immobilize an adjacent unit. This only has a 25% chance to work on boss units and large enemies. Upgraded: Immobilize a unit in range 4. This only has a 25% chance to work on boss units and large enemies.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Trip",
+        "display_name": "Trip",
+        "tool_class": "colorless",
+        "icon_label": "Trip",
+        "resolved_icon_label": "Trip",
+        "main_svg_id": "1264",
+        "main_svg_filename": "1264.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tunnel",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Dig to any open tile. (Castable once per battle.) Upgraded: Dig to any open tile. (Castable once per battle. This spell costs 0 mana.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Infiltrate",
+        "display_name": "Tunnel",
+        "tool_class": "colorless",
+        "icon_label": "Infiltrate",
+        "resolved_icon_label": "Infiltrate",
+        "main_svg_id": "1268",
+        "main_svg_filename": "1268.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tunnel",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Dig to any open tile. (Castable once per battle.) Upgraded: Dig to any open tile. (Castable once per battle. This spell costs 0 mana.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Infiltrate",
+        "display_name": "Tunnel",
+        "tool_class": "colorless",
+        "icon_label": "Infiltrate",
+        "resolved_icon_label": "Infiltrate",
+        "main_svg_id": "1268",
+        "main_svg_filename": "1268.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Waste Time",
+      "class": "Collarless",
+      "variant": "normal",
+      "description": "Do nothing.Upgraded: Gain 1 Charge.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "WasteTime",
+        "display_name": "Waste Time",
+        "tool_class": "colorless",
+        "icon_label": "WasteTime",
+        "resolved_icon_label": "WasteTime",
+        "main_svg_id": "1280",
+        "main_svg_filename": "1280.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

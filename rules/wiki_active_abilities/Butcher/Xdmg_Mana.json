@@ -1,0 +1,104 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Butcher",
+  "frame_type": "Xdmg_Mana",
+  "count": 4,
+  "abilities": [
+    {
+      "wiki_name": "Mutilate",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Attack 3-5 times for 1 damage each. These attacks inflict Bleed.Upgraded: Attack 3-10 times for 1 damage each. These attacks inflict Bleed.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Mutilate",
+        "display_name": "Mutilate",
+        "tool_class": "butcher",
+        "icon_label": "Mutilate",
+        "resolved_icon_label": "Mutilate",
+        "main_svg_id": "946",
+        "main_svg_filename": "946.svg"
+      },
+      "numbers": {
+        "raw": "1x? 8",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x?",
+        "mana": "8",
+        "hit_count": 1,
+        "hit_value": "?"
+      }
+    },
+    {
+      "wiki_name": "Shred",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Attack five times for 1 damage each. These attacks inflict all status effects your basic attack does.Upgraded: Attack five times with damage that scales with Strength. These attacks inflict all status effects your basic attack does.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Shred",
+        "display_name": "Shred",
+        "tool_class": "butcher",
+        "icon_label": "Shred",
+        "resolved_icon_label": "Shred",
+        "main_svg_id": "948",
+        "main_svg_filename": "948.svg"
+      },
+      "numbers": {
+        "raw": "1x5 12",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x5",
+        "mana": "12",
+        "hit_count": 1,
+        "hit_value": "5"
+      }
+    },
+    {
+      "wiki_name": "Slice and Dice",
+      "class": "Butcher",
+      "variant": "normal",
+      "description": "Dash forward one tile and do a spin attack with Cleave, then repeat twice more.Upgraded: Dash forward one tile and do a spin attack with Cleave, then repeat four more times.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SliceAndDice",
+        "display_name": "Slice and Dice",
+        "tool_class": "butcher",
+        "icon_label": "SliceAndDice",
+        "resolved_icon_label": "SliceAndDice",
+        "main_svg_id": "957",
+        "main_svg_filename": "957.svg"
+      },
+      "numbers": {
+        "raw": "2x3 9",
+        "frame_type": "Xdmg_Mana",
+        "value": "2x3",
+        "mana": "9",
+        "hit_count": 2,
+        "hit_value": "3"
+      }
+    },
+    {
+      "wiki_name": "Slice and Dice",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Dash forward one tile and do a spin attack with Cleave, then repeat twice more.Upgraded: Dash forward one tile and do a spin attack with Cleave, then repeat four more times.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SliceAndDice",
+        "display_name": "Slice and Dice",
+        "tool_class": "butcher",
+        "icon_label": "SliceAndDice",
+        "resolved_icon_label": "SliceAndDice",
+        "main_svg_id": "957",
+        "main_svg_filename": "957.svg"
+      },
+      "numbers": {
+        "raw": "2x5 9",
+        "frame_type": "Xdmg_Mana",
+        "value": "2x5",
+        "mana": "9",
+        "hit_count": 2,
+        "hit_value": "5"
+      }
+    }
+  ]
+}

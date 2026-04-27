@@ -1,0 +1,920 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Tank",
+  "frame_type": "Dmg_Mana",
+  "count": 38,
+  "abilities": [
+    {
+      "wiki_name": "Aftershock",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "All units on dirt tiles get tossed to random nearby tiles and take damage when they land.Upgraded: All units on dirt tiles get tossed to random tiles and take damage when they land. Bonus Passive: All of your spells have Earth element.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Aftershock",
+        "display_name": "Aftershock",
+        "tool_class": "tank",
+        "icon_label": "Aftershock",
+        "resolved_icon_label": "Aftershock",
+        "main_svg_id": "665",
+        "main_svg_filename": "665.svg"
+      },
+      "numbers": {
+        "raw": "5 4",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Backbreaker",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "A melee attack that Immobilizes.Upgraded: A melee attack that Immobilizes and gives -2 Speed.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BackBreaker",
+        "display_name": "Backbreaker",
+        "tool_class": "tank",
+        "icon_label": "BackBreaker",
+        "resolved_icon_label": "BackBreaker",
+        "main_svg_id": "628",
+        "main_svg_filename": "628.svg"
+      },
+      "numbers": {
+        "raw": "3 6",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Batter Up",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Knock a unit back 10 tiles.Upgraded: Knock a unit back 10 tiles with Chain Knockback.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BatterUp",
+        "display_name": "Batter Up",
+        "tool_class": "tank",
+        "icon_label": "BatterUp",
+        "resolved_icon_label": "BatterUp",
+        "main_svg_id": "622",
+        "main_svg_filename": "622.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Batter Up",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Knock a unit back 10 tiles.Upgraded: Knock a unit back 10 tiles with Chain Knockback.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BatterUp",
+        "display_name": "Batter Up",
+        "tool_class": "tank",
+        "icon_label": "BatterUp",
+        "resolved_icon_label": "BatterUp",
+        "main_svg_id": "622",
+        "main_svg_filename": "622.svg"
+      },
+      "numbers": {
+        "raw": "N/A 5",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Belly Flop",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Jump to a tile and Immobilize anything you land on.Upgraded: Jump to a tile and Immobilize units in an area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BellyFlop",
+        "display_name": "Belly Flop",
+        "tool_class": "tank",
+        "icon_label": "BellyFlop",
+        "resolved_icon_label": "BellyFlop",
+        "main_svg_id": "631",
+        "main_svg_filename": "631.svg"
+      },
+      "numbers": {
+        "raw": "1 6",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Big Rock",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Drop a boulder on an adjacent tile, damaging and displacing units it lands on.Upgraded: Drop a boulder on an adjacent tile, damaging, Stunning and displacing units it lands on.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BigRock",
+        "display_name": "Big Rock",
+        "tool_class": "tank",
+        "icon_label": "BigRock",
+        "resolved_icon_label": "BigRock",
+        "main_svg_id": "650",
+        "main_svg_filename": "650.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bowl Over",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Trample over one tile diagonally.Upgraded: Trample over two tiles diagonally with a 10% chance to inflict Stun.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BowlOver",
+        "display_name": "Bowl Over",
+        "tool_class": "tank",
+        "icon_label": "BowlOver",
+        "resolved_icon_label": "BowlOver",
+        "main_svg_id": "637",
+        "main_svg_filename": "637.svg"
+      },
+      "numbers": {
+        "raw": "3 2",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Chew",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "A melee attack with Lifesteal.Upgraded: A melee attack with Lifesteal that inflicts Bleed 2 and ignores shield.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Chew",
+        "display_name": "Chew",
+        "tool_class": "tank",
+        "icon_label": "Chew",
+        "resolved_icon_label": "Chew",
+        "main_svg_id": "626",
+        "main_svg_filename": "626.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Chew Cud",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Heal yourself.Upgraded: Heal yourself more.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "ChewCud",
+        "display_name": "Chew Cud",
+        "tool_class": "tank",
+        "icon_label": "ChewCud",
+        "resolved_icon_label": "ChewCud",
+        "main_svg_id": "625",
+        "main_svg_filename": "625.svg"
+      },
+      "numbers": {
+        "raw": "3 3",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Chew Cud",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Heal yourself.Upgraded: Heal yourself more.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "ChewCud",
+        "display_name": "Chew Cud",
+        "tool_class": "tank",
+        "icon_label": "ChewCud",
+        "resolved_icon_label": "ChewCud",
+        "main_svg_id": "625",
+        "main_svg_filename": "625.svg"
+      },
+      "numbers": {
+        "raw": "6 3",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Earthquake",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Deal damage in a cone with a 10% chance to Petrify. Has a chance to spawn rocks. (This spell spawns rocks.) Upgraded: Deal more damage in a cone with a 20% chance to Petrify. Has a chance to spawn rocks. (This spell spawns rocks.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Earthquake",
+        "display_name": "Earthquake",
+        "tool_class": "tank",
+        "icon_label": "Earthquake",
+        "resolved_icon_label": "Earthquake",
+        "main_svg_id": "635",
+        "main_svg_filename": "635.svg"
+      },
+      "numbers": {
+        "raw": "2 7",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Earthquake",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Deal damage in a cone with a 10% chance to Petrify. Has a chance to spawn rocks. (This spell spawns rocks.) Upgraded: Deal more damage in a cone with a 20% chance to Petrify. Has a chance to spawn rocks. (This spell spawns rocks.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Earthquake",
+        "display_name": "Earthquake",
+        "tool_class": "tank",
+        "icon_label": "Earthquake",
+        "resolved_icon_label": "Earthquake",
+        "main_svg_id": "635",
+        "main_svg_filename": "635.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fault Line",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Fling all units in a straight line onto nearby tiles.Upgraded: Fling all units in a straight line onto nearby tiles, dealing more damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FaultLine",
+        "display_name": "Fault Line",
+        "tool_class": "tank",
+        "icon_label": "FaultLine",
+        "resolved_icon_label": "FaultLine",
+        "main_svg_id": "660",
+        "main_svg_filename": "660.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fault Line",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Fling all units in a straight line onto nearby tiles.Upgraded: Fling all units in a straight line onto nearby tiles, dealing more damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FaultLine",
+        "display_name": "Fault Line",
+        "tool_class": "tank",
+        "icon_label": "FaultLine",
+        "resolved_icon_label": "FaultLine",
+        "main_svg_id": "660",
+        "main_svg_filename": "660.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flip Flop",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Jump up to 3 tiles away, damage units you land on, then gain -1 Speed. (This spell's mana cost is equal to your Speed. At 0 Speed, this spell is Castable once per turn.) Upgraded: Jump up to 4 tiles away, damage units you land on, then gain -1 Speed. If your Speed is 0, this has increased range and damage. (This spell's mana cost is equal to your Speed. At 0 Speed, this spell is Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FlipFlop",
+        "display_name": "Flip Flop",
+        "tool_class": "tank",
+        "icon_label": "FlipFlop",
+        "resolved_icon_label": "FlipFlop",
+        "main_svg_id": "657",
+        "main_svg_filename": "657.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flip Flop",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Jump up to 3 tiles away, damage units you land on, then gain -1 Speed. (This spell's mana cost is equal to your Speed. At 0 Speed, this spell is Castable once per turn.) Upgraded: Jump up to 4 tiles away, damage units you land on, then gain -1 Speed. If your Speed is 0, this has increased range and damage. (This spell's mana cost is equal to your Speed. At 0 Speed, this spell is Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FlipFlop",
+        "display_name": "Flip Flop",
+        "tool_class": "tank",
+        "icon_label": "FlipFlop",
+        "resolved_icon_label": "FlipFlop",
+        "main_svg_id": "657",
+        "main_svg_filename": "657.svg"
+      },
+      "numbers": {
+        "raw": "4 5",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Full Force",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Deal damage equal to your Constitution and inflict Stun. Also stuns yourself.Upgraded: Deal damage equal to your Constitution and inflict Stun and Bruise 4. Also stuns yourself.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FullForce",
+        "display_name": "Full Force",
+        "tool_class": "tank",
+        "icon_label": "FullForce",
+        "resolved_icon_label": "FullForce",
+        "main_svg_id": "668",
+        "main_svg_filename": "668.svg"
+      },
+      "numbers": {
+        "raw": "5 8",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gore",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Dash 3 tiles, damage, inflict Bruise and throw what you hit towards your original tile.Upgraded: Dash 10 tiles, damage, inflict Bruise and throw what you hit towards your original tile.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Gore",
+        "display_name": "Gore",
+        "tool_class": "tank",
+        "icon_label": "Gore",
+        "resolved_icon_label": "Gore",
+        "main_svg_id": "641",
+        "main_svg_filename": "641.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gore",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Dash 3 tiles, damage, inflict Bruise and throw what you hit towards your original tile.Upgraded: Dash 10 tiles, damage, inflict Bruise and throw what you hit towards your original tile.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Gore",
+        "display_name": "Gore",
+        "tool_class": "tank",
+        "icon_label": "Gore",
+        "resolved_icon_label": "Gore",
+        "main_svg_id": "641",
+        "main_svg_filename": "641.svg"
+      },
+      "numbers": {
+        "raw": "4 5",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Headbutt",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "A melee attack that inflicts Stun.Upgraded: A melee attack that inflicts Stun. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "HeadButt",
+        "display_name": "Headbutt",
+        "tool_class": "tank",
+        "icon_label": "HeadButt",
+        "resolved_icon_label": "HeadButt",
+        "main_svg_id": "627",
+        "main_svg_filename": "627.svg"
+      },
+      "numbers": {
+        "raw": "1 8",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Headbutt",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "A melee attack that inflicts Stun.Upgraded: A melee attack that inflicts Stun. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "HeadButt",
+        "display_name": "Headbutt",
+        "tool_class": "tank",
+        "icon_label": "HeadButt",
+        "resolved_icon_label": "HeadButt",
+        "main_svg_id": "627",
+        "main_svg_filename": "627.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lunge",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Dash forward one tile and attack with Knockback. This spell uses up your movement action.Upgraded: Dash forward one tile, attack with Knockback and inflict Stun. This spell uses up your movement action.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Lunge",
+        "display_name": "Lunge",
+        "tool_class": "tank",
+        "icon_label": "Lunge",
+        "resolved_icon_label": "Lunge",
+        "main_svg_id": "656",
+        "main_svg_filename": "656.svg"
+      },
+      "numbers": {
+        "raw": "5 0",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Push Through",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Trample over 2 tiles in a straight line destroying any inanimate objects.Upgraded: Trample over 4 tiles in a straight line destroying any inanimate objects and inflicting Bruise 1 on units you trample.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PushThrough",
+        "display_name": "Push Through",
+        "tool_class": "tank",
+        "icon_label": "PushThrough",
+        "resolved_icon_label": "PushThrough",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3 4",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rock Tomb",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Damage and Petrify a unit within 3 tiles of you.Upgraded: Damage and Petrify a unit within 5 tiles of you. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "RockTomb",
+        "display_name": "Rock Tomb",
+        "tool_class": "tank",
+        "icon_label": "RockTomb",
+        "resolved_icon_label": "RockTomb",
+        "main_svg_id": "647",
+        "main_svg_filename": "647.svg"
+      },
+      "numbers": {
+        "raw": "3 8",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rock Tomb",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Damage and Petrify a unit within 3 tiles of you.Upgraded: Damage and Petrify a unit within 5 tiles of you. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "RockTomb",
+        "display_name": "Rock Tomb",
+        "tool_class": "tank",
+        "icon_label": "RockTomb",
+        "resolved_icon_label": "RockTomb",
+        "main_svg_id": "647",
+        "main_svg_filename": "647.svg"
+      },
+      "numbers": {
+        "raw": "3 6",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rock Toss",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Throw a rock with a 10% chance to Stun.Upgraded: Throw a rock with a 33% chance to Stun.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "RockToss",
+        "display_name": "Rock Toss",
+        "tool_class": "tank",
+        "icon_label": "RockToss",
+        "resolved_icon_label": "RockToss",
+        "main_svg_id": "636",
+        "main_svg_filename": "636.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rock Toss",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Throw a rock with a 10% chance to Stun.Upgraded: Throw a rock with a 33% chance to Stun.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "RockToss",
+        "display_name": "Rock Toss",
+        "tool_class": "tank",
+        "icon_label": "RockToss",
+        "resolved_icon_label": "RockToss",
+        "main_svg_id": "636",
+        "main_svg_filename": "636.svg"
+      },
+      "numbers": {
+        "raw": "4 5",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Suplex",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Grab a unit in front of you and slam it into the tile behind you.Upgraded: Grab a unit in front of you and slam it into the tile behind you, inflicting Bruise 3 and Immobile.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Suplex",
+        "display_name": "Suplex",
+        "tool_class": "tank",
+        "icon_label": "Suplex",
+        "resolved_icon_label": "Suplex",
+        "main_svg_id": "539",
+        "main_svg_filename": "539.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Supper",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Heal 15 HP and gain -2 Speed. (Castable once per battle.) Upgraded: Heal 15 HP, gain -2 Speed and +5 Health Regeneration. (Castable once per battle.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Supper",
+        "display_name": "Supper",
+        "tool_class": "tank",
+        "icon_label": "Supper",
+        "resolved_icon_label": "Supper",
+        "main_svg_id": "669",
+        "main_svg_filename": "669.svg"
+      },
+      "numbers": {
+        "raw": "15 0",
+        "frame_type": "Dmg_Mana",
+        "value": "15",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tantrum",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Hit all adjacent units, then spawn a rock.Upgraded: Hit all adjacent and diagonally adjacent units, then spawn a rock.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TankTantrum",
+        "display_name": "Tantrum",
+        "tool_class": "tank",
+        "icon_label": "TankTantrum",
+        "resolved_icon_label": "TankTantrum",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tantrum",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Hit all adjacent units, then spawn a rock.Upgraded: Hit all adjacent and diagonally adjacent units, then spawn a rock.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TankTantrum",
+        "display_name": "Tantrum",
+        "tool_class": "tank",
+        "icon_label": "TankTantrum",
+        "resolved_icon_label": "TankTantrum",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3 3",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "To the Rescue!",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Jump to a tile adjacent to an ally. Damage and displace any units you land on.Upgraded: Jump to a tile adjacent to an ally. Damage and displace any units you land on, or are adjacent to.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ToTheRescue",
+        "display_name": "To the Rescue!",
+        "tool_class": "tank",
+        "icon_label": "ToTheRescue",
+        "resolved_icon_label": "ToTheRescue",
+        "main_svg_id": "630",
+        "main_svg_filename": "630.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "To the Rescue!",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Jump to a tile adjacent to an ally. Damage and displace any units you land on.Upgraded: Jump to a tile adjacent to an ally. Damage and displace any units you land on, or are adjacent to.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ToTheRescue",
+        "display_name": "To the Rescue!",
+        "tool_class": "tank",
+        "icon_label": "ToTheRescue",
+        "resolved_icon_label": "ToTheRescue",
+        "main_svg_id": "630",
+        "main_svg_filename": "630.svg"
+      },
+      "numbers": {
+        "raw": "5 3",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Toss",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Throw an adjacent unit to an open tile.Upgraded: Throw an adjacent unit to a tile, dealing bonus damage if it collides with something.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Toss",
+        "display_name": "Toss",
+        "tool_class": "tank",
+        "icon_label": "Toss",
+        "resolved_icon_label": "Toss",
+        "main_svg_id": "623",
+        "main_svg_filename": "623.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Toss (My Leg!)",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Throw your crippled friend to any tile. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Toss",
+        "display_name": "Toss",
+        "tool_class": "tank",
+        "icon_label": "Toss",
+        "resolved_icon_label": "Toss",
+        "main_svg_id": "623",
+        "main_svg_filename": "623.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Toss (Wrestlemaniac)",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Throw an adjacent unit to an open tile. (Castable once per turn.) Upgraded: Throw an adjacent unit to a tile, dealing bonus damage if it collides with something. (Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Toss",
+        "display_name": "Toss",
+        "tool_class": "tank",
+        "icon_label": "Toss",
+        "resolved_icon_label": "Toss",
+        "main_svg_id": "623",
+        "main_svg_filename": "623.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Trample Dash",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Dash forward with Trample, then spawn a rock.Upgraded: Dash forward with Trample, then spawn a rock. Deals more damage and has a 20% chance to inflict Stun.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "TrampleDash",
+        "display_name": "",
+        "tool_class": "colorless",
+        "icon_label": "TrampleDash",
+        "resolved_icon_label": "",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3 6",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Trample Dash",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Dash forward with Trample, then spawn a rock.Upgraded: Dash forward with Trample, then spawn a rock. Deals more damage and has a 20% chance to inflict Stun.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "TrampleDash",
+        "display_name": "",
+        "tool_class": "colorless",
+        "icon_label": "TrampleDash",
+        "resolved_icon_label": "",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

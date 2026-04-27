@@ -1,0 +1,56 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Jester",
+  "frame_type": "Dmg_Mana",
+  "count": 2,
+  "abilities": [
+    {
+      "wiki_name": "Bump",
+      "class": "Jester",
+      "variant": "normal",
+      "description": "Displace a target unit to a random location.Upgraded: Displace a target unit to a random location. If it's an enemy, deal 1 damage to it.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Bump",
+        "display_name": "Bump",
+        "tool_class": "jester",
+        "icon_label": "Bump",
+        "resolved_icon_label": "Bump",
+        "main_svg_id": "1340",
+        "main_svg_filename": "1340.svg"
+      },
+      "numbers": {
+        "raw": "N/A 1",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bump",
+      "class": "Jester",
+      "variant": "upgraded",
+      "description": "Displace a target unit to a random location.Upgraded: Displace a target unit to a random location. If it's an enemy, deal 1 damage to it.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Bump",
+        "display_name": "Bump",
+        "tool_class": "jester",
+        "icon_label": "Bump",
+        "resolved_icon_label": "Bump",
+        "main_svg_id": "1340",
+        "main_svg_filename": "1340.svg"
+      },
+      "numbers": {
+        "raw": "1 1",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

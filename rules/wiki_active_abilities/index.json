@@ -1,0 +1,7780 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "layout": "rules/wiki_active_abilities/<Class>/<FrameType>.json",
+  "classes": {
+    "Butcher": {
+      "Dmg_Mana": {
+        "file": "Butcher/Dmg_Mana.json",
+        "count": 34
+      },
+      "Mana": {
+        "file": "Butcher/Mana.json",
+        "count": 32
+      },
+      "Xdmg_Mana": {
+        "file": "Butcher/Xdmg_Mana.json",
+        "count": 4
+      }
+    },
+    "Cleric": {
+      "Dmg_Mana": {
+        "file": "Cleric/Dmg_Mana.json",
+        "count": 28
+      },
+      "Mana": {
+        "file": "Cleric/Mana.json",
+        "count": 39
+      },
+      "Xdmg_Mana": {
+        "file": "Cleric/Xdmg_Mana.json",
+        "count": 1
+      }
+    },
+    "Collarless": {
+      "Dmg_Mana": {
+        "file": "Collarless/Dmg_Mana.json",
+        "count": 56
+      },
+      "Mana": {
+        "file": "Collarless/Mana.json",
+        "count": 98
+      },
+      "Xdmg_Mana": {
+        "file": "Collarless/Xdmg_Mana.json",
+        "count": 1
+      }
+    },
+    "Druid": {
+      "Dmg_Mana": {
+        "file": "Druid/Dmg_Mana.json",
+        "count": 17
+      },
+      "Mana": {
+        "file": "Druid/Mana.json",
+        "count": 64
+      }
+    },
+    "Fighter": {
+      "Dmg_Mana": {
+        "file": "Fighter/Dmg_Mana.json",
+        "count": 35
+      },
+      "Mana": {
+        "file": "Fighter/Mana.json",
+        "count": 36
+      },
+      "Xdmg_Mana": {
+        "file": "Fighter/Xdmg_Mana.json",
+        "count": 8
+      }
+    },
+    "Hunter": {
+      "Dmg_Mana": {
+        "file": "Hunter/Dmg_Mana.json",
+        "count": 37
+      },
+      "Mana": {
+        "file": "Hunter/Mana.json",
+        "count": 27
+      },
+      "Xdmg_Mana": {
+        "file": "Hunter/Xdmg_Mana.json",
+        "count": 5
+      }
+    },
+    "Jester": {
+      "Dmg_Mana": {
+        "file": "Jester/Dmg_Mana.json",
+        "count": 2
+      },
+      "Mana": {
+        "file": "Jester/Mana.json",
+        "count": 3
+      }
+    },
+    "Mage": {
+      "Dmg_Mana": {
+        "file": "Mage/Dmg_Mana.json",
+        "count": 51
+      },
+      "Mana": {
+        "file": "Mage/Mana.json",
+        "count": 22
+      },
+      "Xdmg_Mana": {
+        "file": "Mage/Xdmg_Mana.json",
+        "count": 3
+      }
+    },
+    "Monk": {
+      "Dmg_Mana": {
+        "file": "Monk/Dmg_Mana.json",
+        "count": 32
+      },
+      "Mana": {
+        "file": "Monk/Mana.json",
+        "count": 38
+      },
+      "Xdmg_Mana": {
+        "file": "Monk/Xdmg_Mana.json",
+        "count": 4
+      }
+    },
+    "Necromancer": {
+      "Dmg_Mana": {
+        "file": "Necromancer/Dmg_Mana.json",
+        "count": 20
+      },
+      "Mana": {
+        "file": "Necromancer/Mana.json",
+        "count": 49
+      }
+    },
+    "Psychic": {
+      "Dmg_Mana": {
+        "file": "Psychic/Dmg_Mana.json",
+        "count": 15
+      },
+      "Mana": {
+        "file": "Psychic/Mana.json",
+        "count": 49
+      }
+    },
+    "Tank": {
+      "Dmg_Mana": {
+        "file": "Tank/Dmg_Mana.json",
+        "count": 38
+      },
+      "Mana": {
+        "file": "Tank/Mana.json",
+        "count": 32
+      }
+    },
+    "Thief": {
+      "Dmg_Mana": {
+        "file": "Thief/Dmg_Mana.json",
+        "count": 18
+      },
+      "Mana": {
+        "file": "Thief/Mana.json",
+        "count": 43
+      },
+      "Xdmg_Mana": {
+        "file": "Thief/Xdmg_Mana.json",
+        "count": 8
+      }
+    },
+    "Tinkerer": {
+      "Dmg_Mana": {
+        "file": "Tinkerer/Dmg_Mana.json",
+        "count": 16
+      },
+      "Mana": {
+        "file": "Tinkerer/Mana.json",
+        "count": 53
+      }
+    }
+  },
+  "ability_lookup": {
+    "DumbMove": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Absorb": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "AbsorbSoul": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Adoubement": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "CrowFlap": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "Aftershock": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "AirBurst": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "AlterDNA": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "EyeForAnEye": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "AncestralRecall": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "Anchor": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Anneal": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "Anoint": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "ArmorUp": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "ArrowFlurry": [
+      {
+        "class": "Hunter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Xdmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Xdmg_Mana.json"
+      }
+    ],
+    "ArrowSmith": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "Gassy_AssBlast": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Assassinate": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Thief/Dmg_Mana.json"
+      }
+    ],
+    "AssertDominance": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Asteroid": [
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Psychic/Dmg_Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Dmg_Mana.json"
+      }
+    ],
+    "AutoPilot": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Awaken": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "BBQ": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "BackBreaker": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "Backflip": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "BadGas": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "SpawnBaitTrap": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "BallOfSpiders": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "BarbedWire": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "BarfBall": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "MechSuitBarrage": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "BatterUp": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "BattleCry": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "BearTrap": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "BecomeEntropy": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "BellyFlop": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "Benediction": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "Berserk": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "BerserkDash": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "BestowWisdom": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "BigPunch": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "BigRock": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "Binge": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "BirthSquirrel": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "BlackMagic": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "BlindingFlash": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "BlindingLight": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Blizzard": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "Block": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "BloodGeyser": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "BloodMagic": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "BloodRain": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "Bloodletting": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Bloodzerk": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "ManaBomb": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Blow": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "BlowKiss": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Blur": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "BodyGuard": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "BodySlam": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "Bolt": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "BombShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "Bombchu": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "BoostSpellRange": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "BoostBackstab": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Booster": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "BornAgain": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "ManaDrain": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "BounceShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "Bowl": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "BowlOver": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "Brace": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Brainstorm": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "BrambleBurst": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "BrambleShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "BreakShortCircuit": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "BreakingPoint": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Bruise": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "BuddyUp": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "BuildNuke": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "BuildTurret": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Dash": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Bump": [
+      {
+        "class": "Jester",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Jester/Dmg_Mana.json"
+      },
+      {
+        "class": "Jester",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Jester/Dmg_Mana.json"
+      }
+    ],
+    "BurgeoningBarrier": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "BurgeoningBattery": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "BurgeoningBlast": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Burp": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Burst": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Butcher": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "ButtScoot": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "BuyCatnip": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "CPR": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "CallOver": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "SpawnTomTomFriend": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "CallTheWind": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Caltrops": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "CannonBall": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "CarrionShot": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "Cartwheel": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "CatNap": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Catbot": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "ChaChaSlide": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "ChainLightning": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "Chakram": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      }
+    ],
+    "ChaosRampage": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "ChaosShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Xdmg_Mana.json"
+      }
+    ],
+    "ChaosSwap": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "ChaosTeleport": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "ChargeFists": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "SpiritBomb": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "CharmTrap": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "Cheat": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Cheerlead": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Chew": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "ChewCud": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "Slow": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "Chomp": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "Chonkwalk": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "ChosenWarrior": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "CircleOfProtection": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Clap": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "GainThorns": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Cleanse": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "ClewOfLeeches": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "CoffinFlop": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "CoinToss": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      }
+    ],
+    "ColdShoulder": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "CollectPelt": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "ComboPull": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "ComboThrow": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "Confront": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Confusion": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Consume": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Contaminate": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "ControlAir": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "ControlPlants": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "ControlWater": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "Convert": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Copycat": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Corrupt": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "CosmicPunch": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Cough": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Counter": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Craft": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "CraftArrow": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "Creshendo": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "CrossShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "Crusade": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Crushinator": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "CryoHeal": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "CumulativeBlast": [
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Psychic/Dmg_Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Dmg_Mana.json"
+      }
+    ],
+    "CupidsArrow": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "MeleeHeal": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "Curse": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "CutPurse": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Thief/Xdmg_Mana.json"
+      }
+    ],
+    "SoulSuck": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "DarkStep": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "Dart": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "DealWithTheDevil": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "DeathBloom": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "DeathMetal": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "DeathWind": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Debone": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "Dclaude_Declaw": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Thief/Xdmg_Mana.json"
+      }
+    ],
+    "MaggotArmy": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "DeepDive": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "DeliciousScent": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Demolish": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "DemonicPact": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Desecrate": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "DexterousHit": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "DigUpTheDead": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Discharge": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Dmg_Mana.json"
+      }
+    ],
+    "Distract": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Diversion": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "Divide": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "DivineGift": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "DivineProtection": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "DollUp": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "DonateBlood": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "DonateEnergy": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "DoubleDragon": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "DragonPunch": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "DrillDown": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Dump": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "EagleEye": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Earthquake": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "EatRock": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Echo": [
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Psychic/Dmg_Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Dmg_Mana.json"
+      }
+    ],
+    "SpiderInjector": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "EjectButton": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "MechSuitEject": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "ElectricNail": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Electrolyze": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Emergency": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "EmptyMind": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "Encourage": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Blast": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "Enlighten": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Enrage": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Entangle": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "AnimateDead": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Ethereal": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "Eureka": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "wp_TinaScream": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Exert": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "ExhaustingBlow": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "ExperimentalTeleporter": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Extend": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "ExtraTurnQuestion": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "Fabricate": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Fade": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "FalconPunch": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Fartoom": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "FastForward": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "FastHands": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "FaultLine": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "FeatherFeet": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Feed": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "FeralMelee": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "FindARock": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Finisher": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "Fireball": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "FireFart": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "FirePunch": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "FireShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "FireSurge": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "FireBolt": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "Firecrackers": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Fissure": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "FistOfFate": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "DoomPunch": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "FlashForward": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "Flatline": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "FleaShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "FleshGolem": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Flex": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "TeamFlex": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Flicker": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "Flip": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "FlipFlop": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "FlowerFeet": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "CrowFlutter": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "FlyingFist": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "Focus": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "FocusShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "ForbiddenFamine": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "ForbiddenFart": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "ForbiddenFlame": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "ForbiddenFlood": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "ForbiddenFrost": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "ForbiddenFulmination": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "ForceFeed": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "ElkForm": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "MockingbirdForm": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "MonkeyForm": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "RaccoonForm": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "SquirrelForm": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "TreeForm": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "RhinoForm": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "TigerForm": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "FreezerBurn": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "FreshOffTheForge": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "FriendOrFoe": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "FromTheTrees": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "FreezeRay": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "FullForce": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "FullMoon": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Baptism": [
+      {
+        "class": "Cleric",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Xdmg_Mana.json"
+      }
+    ],
+    "FurySwipes": [
+      {
+        "class": "Fighter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Xdmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Xdmg_Mana.json"
+      }
+    ],
+    "FutureSight": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "Gamble": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "GangUp": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Gib": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "GigaDrain": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "Glare": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "GoLimp": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "DrawAttention": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Gore": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "Medusa": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "BearHug": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Grace": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "GrantLife": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "Grapnel": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Grapple": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Gravecrawl": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "ForceBlast": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "MagnetPull": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "GravitySlam": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "ForceCone": [
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Psychic/Dmg_Mana.json"
+      }
+    ],
+    "GreedStep": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Grill": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Groom": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "GrowHead": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "GuardianAngel": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Gust": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "GymMembership": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Hadouken": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "HailOfNails": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "HallowedGround": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Hallucinate": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "HardenSkin": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Haste": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "HeadButt": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "HealBolt": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "HealingFall": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "HealingSalve": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "RangedHeal": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "HeavyShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "Bunker": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "HereticMark": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "HipToss": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "HireHitman": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Hiss": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "HogRush": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "RallyCharge": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "HolyLight": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "HolyWeapon": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "HomingBlasts": [
+      {
+        "class": "Mage",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Xdmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Xdmg_Mana.json"
+      }
+    ],
+    "HookBind": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "PrepareToJump": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "HopAndBlock": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "HoseOff": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Huddle": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "HundredHandSlap": [
+      {
+        "class": "Monk",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Xdmg_Mana.json"
+      }
+    ],
+    "Hunt": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Hurl": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Hush": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "HydroPump": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "HyperBeam": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "IcePunch": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "IceSurge": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "IcicleTaser": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Xdmg_Mana.json"
+      }
+    ],
+    "Improve": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "IncreaseGravity": [
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Psychic/Dmg_Mana.json"
+      }
+    ],
+    "Inferno": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "Infest": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "Inhale": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "InspirationalSong": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "Inspire": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "InstantBarrier": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Interchange": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Intimidate": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Inversion": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "Contort": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "IronHead": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Itch": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Jitter": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Jolt": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "Juiced": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Kamehameha": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "KiBurst": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "KineticCharge": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "Knead": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Lacerate": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Landscape": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "LastHit": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "FighterLeap": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "LeechSwarm": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Leeches": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "LickHeal": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "LifeDrain": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "LightenTheLoad": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "LightningSurge": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "LineShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "LodgeHook": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "YouSeeNothing": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "LookAtMe": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "LootCorpse": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "LuckyPenny": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Lullaby": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "LunchTime": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "Lunge": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "LastThought": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "MagicMissile": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "Magnet": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Magnify": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "Donate": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Malaise": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "ManaMeld": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "Manifest": [
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Psychic/Dmg_Mana.json"
+      }
+    ],
+    "Marked": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "MassHysteria": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "MassManaLeech": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "MassPsychosis": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Math": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Dmg_Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Dmg_Mana.json"
+      }
+    ],
+    "MechSuit": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Meditate": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "MegaBlast": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "MegaGrav": [
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Psychic/Dmg_Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Dmg_Mana.json"
+      }
+    ],
+    "Meow": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Metabolize": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "MeteorSlam": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "MeteorStorm": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "Metronome": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Mimic": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "MindControl": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "MindMeld": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "MindBlast": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "MindCrack": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "MiniHook": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Challenge": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Monch": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "MonkeyThrow": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "MoveAgain": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "MuscleMemory": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Mutilate": [
+      {
+        "class": "Butcher",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Xdmg_Mana.json"
+      }
+    ],
+    "MyTurn": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "NailFlurry": [
+      {
+        "class": "Thief",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Xdmg_Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "NaturesBlessing": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "NeedleShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "Nerf": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Nightshade": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Nip": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Nirvana": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "Nudge": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "PissYourself": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "NurseBot": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "DetectWeakness": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "OnePunch": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "OneWithTheWind": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "OneTwoPunch": [
+      {
+        "class": "Fighter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Xdmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Xdmg_Mana.json"
+      }
+    ],
+    "OpenWounds": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "Order": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "Outskirts": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "ThiefSwap": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "MiniDistract": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Pass": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "PathOfTheVoid": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PathOfTheButcher": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PathOfTheCleric": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PathOfTheDruid": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PathOfTheFighter": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PathOfTheHunter": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "PathOfTheJester": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PathOfTheMage": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PathOfTheMonk": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PathOfTheNecromancer": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PathOfThePsychic": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PathOfTheTank": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PathOfTheThief": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "PathOfTheTinkerer": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Pawbreaker": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "PerfectForm": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "PersistentHunt": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "head_Pestilence": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "Pheromones": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "PickPocket": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Picnic": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "Pierce": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "PierceShot": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      }
+    ],
+    "Spur": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Ping": [
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Psychic/Dmg_Mana.json"
+      }
+    ],
+    "PlantMushroom": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "PlantFeet": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "PlayDead": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "PocketSand": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Pogo": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "PoisonDip": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "PoisonGas": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "PoisonLace": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "PoisonNail": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Thief/Xdmg_Mana.json"
+      }
+    ],
+    "Poke": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Ponder": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Porcupine": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "Position": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "Pounce": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "PowerUp": [
+      {
+        "class": "Jester",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Jester/Mana.json"
+      }
+    ],
+    "Prance": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Pray": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Prayer": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "Taint": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Promote": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Propell": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Xdmg_Mana.json"
+      }
+    ],
+    "Protection": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "PsychicChoke": [
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Psychic/Dmg_Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Dmg_Mana.json"
+      }
+    ],
+    "PsyFlutter": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "Pummel": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "PunchBot": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Puppet": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "ButcherPurge": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "Purr": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Push": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "PushThrough": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "QuickAttack": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "QuickRoll": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "RNGCannon": [
+      {
+        "class": "Jester",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Jester/Mana.json"
+      }
+    ],
+    "RagePunch": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Rally": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Ram": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Xdmg_Mana.json"
+      }
+    ],
+    "Till": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "LotteryShottery": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Reach": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "RealityScramble": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "ReallyFastRun": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "Reanimate": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Reap": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "ReaperStep": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "AttackAgain": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Rebirth": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Rebound": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      }
+    ],
+    "Rebuke": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Recycle": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Reduce": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "RefineMaterials": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Reflect": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Reflux": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "Regurge": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Rehook": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "ReleaseEnergy": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "RemoteDetonator": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Repair": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "RepairArmor": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Replace": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Replicate": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "Reposition": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Reprogram": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Research": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "tk_Reset": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "Rest": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "SummonCrow": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Reverberate": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "ReverseDamage": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Revive": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Roast": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "RoboVac": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "RockBlast": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "RockCrusher": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "RockSong": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "RockTomb": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "RockToss": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "RocketRide": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Dmg_Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Dmg_Mana.json"
+      }
+    ],
+    "RocketSkates": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Dmg_Mana.json"
+      }
+    ],
+    "Roll": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "RoughToss": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "Rouse": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "RussianRoulette": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Succ": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "SafetyDance": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Sandstorm": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Scare": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "ScatterShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "Scavenge": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "ScoutMe": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "Seance": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Endeavor": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "SelfMutilate": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "FamiliarSelfDestruct": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "SentryMode": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "Seppuku": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "Serenade": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "SeverArtery": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      }
+    ],
+    "Shadow": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Shadowshift": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Shards": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "SharpNail": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Thief/Xdmg_Mana.json"
+      }
+    ],
+    "Sharpen": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "SharpenClaws": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "SharpenNail": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Shatter": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "SkyShatter": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "ShedScrap": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Shift": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "ShockTherapy": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Dmg_Mana.json"
+      }
+    ],
+    "Shockwave": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Dmg_Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Dmg_Mana.json"
+      }
+    ],
+    "ShoddyJetpack": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "ShootHere": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "ShortCircuit": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Dmg_Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Dmg_Mana.json"
+      }
+    ],
+    "Shred": [
+      {
+        "class": "Butcher",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Xdmg_Mana.json"
+      }
+    ],
+    "Shriek": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "ScuffItOff": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "SideSlash": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "SideStep": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "SkinDisguise": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "SkullBash": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "Slap": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Slapback": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "SleepPowder": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "SleeperHold": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Slice": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      }
+    ],
+    "SliceAndDice": [
+      {
+        "class": "Butcher",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Xdmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Xdmg_Mana.json"
+      }
+    ],
+    "SlingShade": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "SlipThrough": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Slipstream": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "SlitWrists": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "SlopThePigs": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "Smack": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Xdmg_Mana.json"
+      }
+    ],
+    "SmartMetronome": [
+      {
+        "class": "Jester",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Jester/Mana.json"
+      }
+    ],
+    "Smash": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "SmellBlood": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Smolder": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "Snacks": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Snatch": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "SneakUp": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "Snipe": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "SongOfSpring": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "SoothingGlow": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "SoothingShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "SoulLink": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "SoulReap": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "SoulTransfer": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "SpareParts": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Sparks": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Dmg_Mana.json"
+      }
+    ],
+    "SpawnDecoy": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "SpawnMaggotFriend": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "SpawnPooterFriend": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "SpiderEgg": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Necromancer/Dmg_Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Dmg_Mana.json"
+      }
+    ],
+    "SpikeTrap": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "Spin": [
+      {
+        "class": "Fighter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Xdmg_Mana.json"
+      }
+    ],
+    "Spit": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "BatteryNuke": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Dmg_Mana.json"
+      }
+    ],
+    "Spoil": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Spook": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "SpringShoes": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "SquirrelSquad": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "StackTheDeck": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "StakeOut": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "Stalk": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "PullToSafety": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "GetDown": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "Stasis": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "StealKidney": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      }
+    ],
+    "StealLuck": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      }
+    ],
+    "StealTime": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      }
+    ],
+    "PushMove": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "SteelSkin": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Step": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "DruidSwap": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Stick": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Stimulants": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "StoneGaze": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "StoneFists": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "Stoopzerk": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "MoonHeadCommandStopHittingYourself": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Suppress": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "SubwayRide": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "SuckerPunch": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "PokeWound": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Suggestion": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "Apprentice": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "SummonBear": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "SummonBones": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "SummonBrambles": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "SummonCatepillar": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "SummonShade": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "SummonSnake": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "SummonSquirrel": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "SummonToad": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "SummonTurtle": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Sunburn": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "SuperCrateBox": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Supernova": [
+      {
+        "class": "Psychic",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Psychic/Dmg_Mana.json"
+      }
+    ],
+    "Suplex": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "Supper": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "Surf": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "Swallow": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "TankSwap": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "Swat": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "SwiftSanctify": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "MageSwap": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "TeamSpin": [
+      {
+        "class": "Fighter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Xdmg_Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Xdmg_Mana.json"
+      }
+    ],
+    "Synthesize": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "TacticalRetreat": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "TailWhip": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "TaintedOffering": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "TankTantrum": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "FighterTaunt": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      },
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Teach": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "Tease": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Telefrag": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "Telekinesis": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "MageTeleport": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "TemporalShards": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "TerrainWalk": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "TeslaCoil": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Thicken": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "ThinkDeep": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "ThinkTooHard": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "ThornyFeet": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "ThrowEgg": [
+      {
+        "class": "Druid",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Druid/Dmg_Mana.json"
+      }
+    ],
+    "ThrowShield": [
+      {
+        "class": "Tank",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tank/Mana.json"
+      }
+    ],
+    "ThrowSpiritBomb": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "FighterBonusThrow": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "MechSuitDash": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "ThunderPunch": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Thunderburst": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "TimeWalk": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "ToTheRescue": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "Toast": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "Toss": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "Track": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "TradeLife": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "TrampleDash": [
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tank/Dmg_Mana.json"
+      },
+      {
+        "class": "Tank",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tank/Dmg_Mana.json"
+      }
+    ],
+    "Transcend": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "TriAttack": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "triggerthenuke": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Trip": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "TripleNails": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Thief/Xdmg_Mana.json"
+      }
+    ],
+    "Tromp": [
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Butcher/Dmg_Mana.json"
+      },
+      {
+        "class": "Butcher",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Butcher/Dmg_Mana.json"
+      }
+    ],
+    "Trudge": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Tumble": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ],
+    "Infiltrate": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "TurnFoe": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "TwinShot": [
+      {
+        "class": "Hunter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Xdmg_Mana.json"
+      },
+      {
+        "class": "Hunter",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Hunter/Xdmg_Mana.json"
+      }
+    ],
+    "UnbridledHits": [
+      {
+        "class": "Monk",
+        "frame_type": "Xdmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Xdmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Xdmg_Mana.json"
+      }
+    ],
+    "Unearth": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      },
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "UnimpededLunge": [
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Monk/Dmg_Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Monk/Dmg_Mana.json"
+      }
+    ],
+    "UnreliableMissile": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Dmg_Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Dmg_Mana.json"
+      }
+    ],
+    "UnreliableShield": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      },
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Upgrade": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Mana.json"
+      }
+    ],
+    "Uppercut": [
+      {
+        "class": "Fighter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Fighter/Dmg_Mana.json"
+      }
+    ],
+    "Vaccuum": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "VenomBarrage": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Thief/Xdmg_Mana.json"
+      }
+    ],
+    "VetVisit": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Vivisect": [
+      {
+        "class": "Hunter",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Hunter/Dmg_Mana.json"
+      }
+    ],
+    "VoltTackle": [
+      {
+        "class": "Tinkerer",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Tinkerer/Dmg_Mana.json"
+      }
+    ],
+    "Vurp": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "WallOfFire": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "WarCry": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "WarmupStretch": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "Warp": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "WasteTime": [
+      {
+        "class": "Collarless",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Collarless/Mana.json"
+      }
+    ],
+    "TrainLegs": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "TrainArms": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "TrainMind": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "TrainBody": [
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Monk/Mana.json"
+      },
+      {
+        "class": "Monk",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Monk/Mana.json"
+      }
+    ],
+    "WeAreOne": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "WeAreTheChampions": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      },
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "WeWillRockYou": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "WeakeningNail": [
+      {
+        "class": "Thief",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Thief/Dmg_Mana.json"
+      },
+      {
+        "class": "Thief",
+        "frame_type": "Xdmg_Mana",
+        "variant": "upgraded",
+        "file": "Thief/Xdmg_Mana.json"
+      }
+    ],
+    "Weakness": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "WebTrap": [
+      {
+        "class": "Hunter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Hunter/Mana.json"
+      }
+    ],
+    "WetHairball": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      },
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "WaterSphere": [
+      {
+        "class": "Mage",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Mage/Mana.json"
+      }
+    ],
+    "Whisper": [
+      {
+        "class": "Necromancer",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Necromancer/Mana.json"
+      }
+    ],
+    "WindSlash": [
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Mage/Dmg_Mana.json"
+      },
+      {
+        "class": "Mage",
+        "frame_type": "Dmg_Mana",
+        "variant": "upgraded",
+        "file": "Mage/Dmg_Mana.json"
+      }
+    ],
+    "WindUp": [
+      {
+        "class": "Thief",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Thief/Mana.json"
+      }
+    ],
+    "WindyStep": [
+      {
+        "class": "Druid",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Druid/Mana.json"
+      }
+    ],
+    "Wish": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "WitchHunt": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Withdraw": [
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Psychic/Mana.json"
+      },
+      {
+        "class": "Psychic",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Psychic/Mana.json"
+      }
+    ],
+    "WrathOfGod": [
+      {
+        "class": "Cleric",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Cleric/Dmg_Mana.json"
+      }
+    ],
+    "Tryptophan": [
+      {
+        "class": "Butcher",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Butcher/Mana.json"
+      }
+    ],
+    "Zap": [
+      {
+        "class": "Collarless",
+        "frame_type": "Dmg_Mana",
+        "variant": "normal",
+        "file": "Collarless/Dmg_Mana.json"
+      }
+    ],
+    "Zealot": [
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Cleric/Mana.json"
+      },
+      {
+        "class": "Cleric",
+        "frame_type": "Mana",
+        "variant": "upgraded",
+        "file": "Cleric/Mana.json"
+      }
+    ],
+    "Zoomzerk": [
+      {
+        "class": "Fighter",
+        "frame_type": "Mana",
+        "variant": "normal",
+        "file": "Fighter/Mana.json"
+      }
+    ]
+  }
+}

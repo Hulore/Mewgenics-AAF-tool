@@ -1,0 +1,1040 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Thief",
+  "frame_type": "Mana",
+  "count": 43,
+  "abilities": [
+    {
+      "wiki_name": "Backflip",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Backflip out of the way the next time you're targeted by an enemy.Upgraded: Backflip out of the way the next time you're targeted by an enemy. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Backflip",
+        "display_name": "Backflip",
+        "tool_class": "thief",
+        "icon_label": "Backflip",
+        "resolved_icon_label": "Backflip",
+        "main_svg_id": "686",
+        "main_svg_filename": "686.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Backflip",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Backflip out of the way the next time you're targeted by an enemy.Upgraded: Backflip out of the way the next time you're targeted by an enemy. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Backflip",
+        "display_name": "Backflip",
+        "tool_class": "thief",
+        "icon_label": "Backflip",
+        "resolved_icon_label": "Backflip",
+        "main_svg_id": "686",
+        "main_svg_filename": "686.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Blur",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Gain +10% dodge chance. Disable this spell if you have more than 65% dodge chance.Upgraded: Gain +15% dodge chance. Disable this spell if you have more than 80% dodge chance.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Blur",
+        "display_name": "Blur",
+        "tool_class": "thief",
+        "icon_label": "Blur",
+        "resolved_icon_label": "Blur",
+        "main_svg_id": "687",
+        "main_svg_filename": "687.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Boost Backstab",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Until end of turn, your backstabs do +75% more damage and ignore shield.Upgraded: Until end of turn, your backstabs do +75% more damage, ignore shield, and inflict Bleed and Poison.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BoostBackstab",
+        "display_name": "Boost Backstab",
+        "tool_class": "thief",
+        "icon_label": "BoostBackstab",
+        "resolved_icon_label": "BoostBackstab",
+        "main_svg_id": "682",
+        "main_svg_filename": "682.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Caltrops",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Move up to 3 tiles, spreading glass shards on the tiles you walk through.Upgraded: Move up to 5 tiles, spreading glass shards on the tiles you walk through.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Caltrops",
+        "display_name": "Caltrops",
+        "tool_class": "thief",
+        "icon_label": "Caltrops",
+        "resolved_icon_label": "Caltrops",
+        "main_svg_id": "700",
+        "main_svg_filename": "700.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cheat",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Gain temporary +5 Luck until your next turn.Upgraded: Gain temporary +10 Luck until your next turn.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Cheat",
+        "display_name": "Cheat",
+        "tool_class": "thief",
+        "icon_label": "Cheat",
+        "resolved_icon_label": "Cheat",
+        "main_svg_id": "708",
+        "main_svg_filename": "708.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Distract",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Make a unit face away from you.Upgraded: Make any unit look away from you. This has a 33% chance to inflict Confusion.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Distract",
+        "display_name": "Distract",
+        "tool_class": "thief",
+        "icon_label": "Distract",
+        "resolved_icon_label": "Distract",
+        "main_svg_id": "674",
+        "main_svg_filename": "674.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Eagle Eye",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Spawn 2-3 coins on random tiles.Upgraded: Spawn 3-7 coins on random tiles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "EagleEye",
+        "display_name": "Eagle Eye",
+        "tool_class": "thief",
+        "icon_label": "EagleEye",
+        "resolved_icon_label": "EagleEye",
+        "main_svg_id": "685",
+        "main_svg_filename": "685.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fade",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Gain Stealth 1.Upgraded: Gain Stealth 2.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Fade",
+        "display_name": "Fade",
+        "tool_class": "thief",
+        "icon_label": "Fade",
+        "resolved_icon_label": "Fade",
+        "main_svg_id": "704",
+        "main_svg_filename": "704.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Greedstep",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Teleport to a tile with coins on it.Upgraded: Teleport to a tile with coins on it, then spawn 1-2 coins on random tiles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "GreedStep",
+        "display_name": "Greedstep",
+        "tool_class": "thief",
+        "icon_label": "GreedStep",
+        "resolved_icon_label": "GreedStep",
+        "main_svg_id": "688",
+        "main_svg_filename": "688.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Jitter",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Inflict Confusion 1 on each adjacent unit.Upgraded: Inflict Confusion 1 on each unit within 3 tiles of you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Jitter",
+        "display_name": "Jitter",
+        "tool_class": "thief",
+        "icon_label": "Jitter",
+        "resolved_icon_label": "Jitter",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Loot Corpse",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Loot 1-3 coins from a body... and possibly something else? (This might destroy the body) Upgraded: Loot 1-3 coins from a body... and possibly something else? (This might not destroy the body) (Your chance of finding \"something else\" is significantly increased.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "LootCorpse",
+        "display_name": "Loot Corpse",
+        "tool_class": "thief",
+        "icon_label": "LootCorpse",
+        "resolved_icon_label": "LootCorpse",
+        "main_svg_id": "706",
+        "main_svg_filename": "706.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lucky Penny",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Collect an adjacent pickup and gain +2 Luck instead of its normal effects.Upgraded: Collect a pickup within four tiles of you. Gain +2 Luck instead of its normal effects.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "LuckyPenny",
+        "display_name": "Lucky Penny",
+        "tool_class": "thief",
+        "icon_label": "LuckyPenny",
+        "resolved_icon_label": "LuckyPenny",
+        "main_svg_id": "716",
+        "main_svg_filename": "716.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Move Again",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Refresh your movement action.Upgraded: Refresh your movement action. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MoveAgain",
+        "display_name": "Move Again",
+        "tool_class": "thief",
+        "icon_label": "MoveAgain",
+        "resolved_icon_label": "MoveAgain",
+        "main_svg_id": "673",
+        "main_svg_filename": "673.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Move Again",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Refresh your movement action.Upgraded: Refresh your movement action. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MoveAgain",
+        "display_name": "Move Again",
+        "tool_class": "thief",
+        "icon_label": "MoveAgain",
+        "resolved_icon_label": "MoveAgain",
+        "main_svg_id": "673",
+        "main_svg_filename": "673.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nail Flurry",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Throw 10 1-damage nails that ignore shield.Upgraded: Throw 10 1-damage nails that ignore shield. Throw extra nails equal to your Dexterity.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "NailFlurry",
+        "display_name": "Nail Flurry",
+        "tool_class": "thief",
+        "icon_label": "NailFlurry",
+        "resolved_icon_label": "NailFlurry",
+        "main_svg_id": "693",
+        "main_svg_filename": "693.svg"
+      },
+      "numbers": {
+        "raw": "1x (10+ 10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nightshade",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Inflict Poison 4 on an adjacent unit.Upgraded: Inflict Poison 4 on an adjacent unit. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Nightshade",
+        "display_name": "Nightshade",
+        "tool_class": "thief",
+        "icon_label": "Nightshade",
+        "resolved_icon_label": "Nightshade",
+        "main_svg_id": "697",
+        "main_svg_filename": "697.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nightshade",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Inflict Poison 4 on an adjacent unit.Upgraded: Inflict Poison 4 on an adjacent unit. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Nightshade",
+        "display_name": "Nightshade",
+        "tool_class": "thief",
+        "icon_label": "Nightshade",
+        "resolved_icon_label": "Nightshade",
+        "main_svg_id": "697",
+        "main_svg_filename": "697.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Outskirts",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Teleport to a tile on the edge of the map.Upgraded: Teleport to a tile on the edge of the map. Gain +2 Damage for the rest of the turn.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Outskirts",
+        "display_name": "Outskirts",
+        "tool_class": "thief",
+        "icon_label": "Outskirts",
+        "resolved_icon_label": "Outskirts",
+        "main_svg_id": "718",
+        "main_svg_filename": "718.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Over Here, Over There",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Swap positions with an ally. Swap back at the end of your turn. (Castable once per turn.) Upgraded: Swap positions with any unit. Swap back at the end of your turn. If the unit was an enemy, inflict Confusion 1. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ThiefSwap",
+        "display_name": "Over Here, Over There",
+        "tool_class": "thief",
+        "icon_label": "ThiefSwap",
+        "resolved_icon_label": "ThiefSwap",
+        "main_svg_id": "713",
+        "main_svg_filename": "713.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pickpocket",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Steal 1-3 coins from a unit and give it -1 Damage.Upgraded: Steal 3-5 coins from a unit, give it -1 Damage, and apply some extra debuffs at random.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "PickPocket",
+        "display_name": "Pickpocket",
+        "tool_class": "thief",
+        "icon_label": "PickPocket",
+        "resolved_icon_label": "PickPocket",
+        "main_svg_id": "683",
+        "main_svg_filename": "683.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pierce",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Gain +2 Range. Your attacks pass through units and ignore shield for the rest of the turn.Upgraded: Gain +4 Range. Your attacks pass through units and ignore shield for the rest of the turn. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Pierce",
+        "display_name": "Pierce",
+        "tool_class": "thief",
+        "icon_label": "Pierce",
+        "resolved_icon_label": "Pierce",
+        "main_svg_id": "712",
+        "main_svg_filename": "712.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pierce",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Gain +2 Range. Your attacks pass through units and ignore shield for the rest of the turn.Upgraded: Gain +4 Range. Your attacks pass through units and ignore shield for the rest of the turn. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Pierce",
+        "display_name": "Pierce",
+        "tool_class": "thief",
+        "icon_label": "Pierce",
+        "resolved_icon_label": "Pierce",
+        "main_svg_id": "712",
+        "main_svg_filename": "712.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pocket Sand",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Inflict Blind on all units in a small cone.Upgraded: Inflict Blind 2 on all units in a larger cone.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PocketSand",
+        "display_name": "Pocket Sand",
+        "tool_class": "thief",
+        "icon_label": "PocketSand",
+        "resolved_icon_label": "PocketSand",
+        "main_svg_id": "696",
+        "main_svg_filename": "696.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Poison Dip",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Spend all your mana. For every 5 mana spent, your basic attack inflicts +1 Poison. (Castable once per battle.) Upgraded: Spend all your mana. For every 3 mana spent, your basic attack inflicts +1 Poison. (Castable once per battle.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "PoisonDip",
+        "display_name": "Poison Dip",
+        "tool_class": "thief",
+        "icon_label": "PoisonDip",
+        "resolved_icon_label": "PoisonDip",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "All",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Poison Gas",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Inflict Poison 1 on all units adjacent to you.Upgraded: Inflict Poison 2 on all units adjacent to you (even diagonally).",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PoisonGas",
+        "display_name": "Poison Gas",
+        "tool_class": "thief",
+        "icon_label": "PoisonGas",
+        "resolved_icon_label": "PoisonGas",
+        "main_svg_id": "679",
+        "main_svg_filename": "679.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Quick Roll",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Roll in a straight line up to three tiles. RELOAD: Backstab a unit.Upgraded: Roll in a straight or diagonal line up to five tiles. RELOAD: Backstab a unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "QuickRoll",
+        "display_name": "Quick Roll",
+        "tool_class": "thief",
+        "icon_label": "QuickRoll",
+        "resolved_icon_label": "QuickRoll",
+        "main_svg_id": "695",
+        "main_svg_filename": "695.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rearm",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Refresh your basic attack.Upgraded: Refresh your basic attack. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "AttackAgain",
+        "display_name": "Rearm",
+        "tool_class": "thief",
+        "icon_label": "AttackAgain",
+        "resolved_icon_label": "AttackAgain",
+        "main_svg_id": "692",
+        "main_svg_filename": "692.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rearm",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Refresh your basic attack.Upgraded: Refresh your basic attack. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "AttackAgain",
+        "display_name": "Rearm",
+        "tool_class": "thief",
+        "icon_label": "AttackAgain",
+        "resolved_icon_label": "AttackAgain",
+        "main_svg_id": "692",
+        "main_svg_filename": "692.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shadow",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Teleport behind a unit. Nothin' personnel, kid. Upgraded: Teleport behind a unit. Your next action has +100% crit chance. Nothin' personnel, kid.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Shadow",
+        "display_name": "Shadow",
+        "tool_class": "thief",
+        "icon_label": "Shadow",
+        "resolved_icon_label": "Shadow",
+        "main_svg_id": "689",
+        "main_svg_filename": "689.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shadow Shift",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Teleport exactly 2 tiles away, leaving behind a shadow that mimics your basic attack. (The shadow fades at the end of your turn.) Upgraded: Teleport up to 3 tiles away, leaving behind a shadow that mimics your basic attack. (The shadow fades at the end of your turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Shadowshift",
+        "display_name": "Shadow Shift",
+        "tool_class": "thief",
+        "icon_label": "Shadowshift",
+        "resolved_icon_label": "Shadowshift",
+        "main_svg_id": "698",
+        "main_svg_filename": "698.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sharpen Nail",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Gain +1 Dexterity and +1 Range until the end of the battle.Upgraded: Gain +1 Dexterity and +1 Range until the end of the battle. Automatically cast this spell at the end of each round for free.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SharpenNail",
+        "display_name": "Sharpen Nail",
+        "tool_class": "thief",
+        "icon_label": "SharpenNail",
+        "resolved_icon_label": "SharpenNail",
+        "main_svg_id": "703",
+        "main_svg_filename": "703.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Skin Disguise",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Destroy an adjacent body. Enemies won't attack you until your next turn. (Castable once per turn.) Upgraded: Destroy a body in range 3. Enemies won't attack you until your next turn. (This spell is free. Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SkinDisguise",
+        "display_name": "Skin Disguise",
+        "tool_class": "thief",
+        "icon_label": "SkinDisguise",
+        "resolved_icon_label": "SkinDisguise",
+        "main_svg_id": "709",
+        "main_svg_filename": "709.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Skin Disguise",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Destroy an adjacent body. Enemies won't attack you until your next turn. (Castable once per turn.) Upgraded: Destroy a body in range 3. Enemies won't attack you until your next turn. (This spell is free. Castable once per turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SkinDisguise",
+        "display_name": "Skin Disguise",
+        "tool_class": "thief",
+        "icon_label": "SkinDisguise",
+        "resolved_icon_label": "SkinDisguise",
+        "main_svg_id": "709",
+        "main_svg_filename": "709.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Slingshade",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Spawn a shadow up to 3 tiles away that mimics your basic attack. (The shadow fades at the end of your turn.) Upgraded: Spawn a shadow up to 5 tiles away that mimics your basic attack. (The shadow fades at the end of your turn.) (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SlingShade",
+        "display_name": "Slingshade",
+        "tool_class": "thief",
+        "icon_label": "SlingShade",
+        "resolved_icon_label": "SlingShade",
+        "main_svg_id": "699",
+        "main_svg_filename": "699.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Slingshade",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Spawn a shadow up to 3 tiles away that mimics your basic attack. (The shadow fades at the end of your turn.) Upgraded: Spawn a shadow up to 5 tiles away that mimics your basic attack. (The shadow fades at the end of your turn.) (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SlingShade",
+        "display_name": "Slingshade",
+        "tool_class": "thief",
+        "icon_label": "SlingShade",
+        "resolved_icon_label": "SlingShade",
+        "main_svg_id": "699",
+        "main_svg_filename": "699.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sneak Up",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Teleport directly behind a random enemy.Upgraded: Teleport directly behind a random enemy. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SneakUp",
+        "display_name": "Sneak Up",
+        "tool_class": "thief",
+        "icon_label": "SneakUp",
+        "resolved_icon_label": "SneakUp",
+        "main_svg_id": "702",
+        "main_svg_filename": "702.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sneak Up",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Teleport directly behind a random enemy.Upgraded: Teleport directly behind a random enemy. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SneakUp",
+        "display_name": "Sneak Up",
+        "tool_class": "thief",
+        "icon_label": "SneakUp",
+        "resolved_icon_label": "SneakUp",
+        "main_svg_id": "702",
+        "main_svg_filename": "702.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stalk",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Target any enemy. Teleport behind it at the start of your next turn. (Castable once per turn.) Upgraded: Target any enemy. Teleport behind it at the start of your next turn. (Castable once per turn. Costs 0 mana.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Stalk",
+        "display_name": "Stalk",
+        "tool_class": "thief",
+        "icon_label": "Stalk",
+        "resolved_icon_label": "Stalk",
+        "main_svg_id": "690",
+        "main_svg_filename": "690.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stalk",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Target any enemy. Teleport behind it at the start of your next turn. (Castable once per turn.) Upgraded: Target any enemy. Teleport behind it at the start of your next turn. (Castable once per turn. Costs 0 mana.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Stalk",
+        "display_name": "Stalk",
+        "tool_class": "thief",
+        "icon_label": "Stalk",
+        "resolved_icon_label": "Stalk",
+        "main_svg_id": "690",
+        "main_svg_filename": "690.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Time Walk",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Take an extra turn at the end of the round. (This spell can't be cast on extra turns.) Upgraded: Take an extra turn at the end of the round. (This spell can't be cast on extra turns. This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TimeWalk",
+        "display_name": "Time Walk",
+        "tool_class": "thief",
+        "icon_label": "TimeWalk",
+        "resolved_icon_label": "TimeWalk",
+        "main_svg_id": "672",
+        "main_svg_filename": "672.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Time Walk",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Take an extra turn at the end of the round. (This spell can't be cast on extra turns.) Upgraded: Take an extra turn at the end of the round. (This spell can't be cast on extra turns. This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TimeWalk",
+        "display_name": "Time Walk",
+        "tool_class": "thief",
+        "icon_label": "TimeWalk",
+        "resolved_icon_label": "TimeWalk",
+        "main_svg_id": "672",
+        "main_svg_filename": "672.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Wind Up",
+      "class": "Thief",
+      "variant": "normal",
+      "description": "Gain +1 Range for the rest of the turn.Upgraded: Gain +1 Range.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "WindUp",
+        "display_name": "Wind Up",
+        "tool_class": "thief",
+        "icon_label": "WindUp",
+        "resolved_icon_label": "WindUp",
+        "main_svg_id": "711",
+        "main_svg_filename": "711.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

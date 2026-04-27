@@ -1,0 +1,776 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Tank",
+  "frame_type": "Mana",
+  "count": 32,
+  "abilities": [
+    {
+      "wiki_name": "Anchor",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Gain +4 Brace until the next time you move.Upgraded: Gain +4 Brace until the next time you move. Bonus Passive: Knockback immunity.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Anchor",
+        "display_name": "Anchor",
+        "tool_class": "tank",
+        "icon_label": "Anchor",
+        "resolved_icon_label": "Anchor",
+        "main_svg_id": "652",
+        "main_svg_filename": "652.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ass Blast",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Knock back units in an area near you 2 tiles.Upgraded: Knock back units in a larger area near you 10 tiles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Gassy_AssBlast",
+        "display_name": "Ass Blast",
+        "tool_class": "colorless",
+        "icon_label": "Gassy_AssBlast",
+        "resolved_icon_label": "Gassy_AssBlast",
+        "main_svg_id": "1276",
+        "main_svg_filename": "1276.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Barbed Wire",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Give a unit +5 Thorns until your next turn. (You can target yourself.) Upgraded: Give a unit or object +5 Thorns until your next turn. (You can target yourself.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BarbedWire",
+        "display_name": "Barbed Wire",
+        "tool_class": "tank",
+        "icon_label": "BarbedWire",
+        "resolved_icon_label": "BarbedWire",
+        "main_svg_id": "642",
+        "main_svg_filename": "642.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Body Guard",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "The next time an ally is targeted by an enemy, switch places with that ally.Upgraded: The next time an ally is targeted by an enemy, switch places with that ally and gain +4 .",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BodyGuard",
+        "display_name": "Body Guard",
+        "tool_class": "tank",
+        "icon_label": "BodyGuard",
+        "resolved_icon_label": "BodyGuard",
+        "main_svg_id": "643",
+        "main_svg_filename": "643.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Clap",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Knock 2 enemies in front of you together.Upgraded: Knock 2 enemies in front of you together with +2 knockback damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Clap",
+        "display_name": "Clap",
+        "tool_class": "tank",
+        "icon_label": "Clap",
+        "resolved_icon_label": "Clap",
+        "main_svg_id": "640",
+        "main_svg_filename": "640.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Demolish",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Turn a tile into a dirt tile, smashing any inanimate objects into rocks.Upgraded: Turn 3 tiles into dirt tiles, smashing any inanimate objects into rocks.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Demolish",
+        "display_name": "Demolish",
+        "tool_class": "tank",
+        "icon_label": "Demolish",
+        "resolved_icon_label": "Demolish",
+        "main_svg_id": "659",
+        "main_svg_filename": "659.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Eat Rock",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Eat a rock to gain +5 and +1 Strength.Upgraded: Eat a rock to gain +5 and All Stats Up.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "EatRock",
+        "display_name": "Eat Rock",
+        "tool_class": "tank",
+        "icon_label": "EatRock",
+        "resolved_icon_label": "EatRock",
+        "main_svg_id": "651",
+        "main_svg_filename": "651.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fissure",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Pull all units in a wide line towards the center of that line. This has a 10% chance to Petrify.Upgraded: Pull all units in a wide line towards the center of that line. This has a 15% chance to Petrify and spawns rocks.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Fissure",
+        "display_name": "Fissure",
+        "tool_class": "tank",
+        "icon_label": "Fissure",
+        "resolved_icon_label": "Fissure",
+        "main_svg_id": "649",
+        "main_svg_filename": "649.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gang Up",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Toss a unit to an empty tile within 3 tiles of you, then your allies attack it if they can.Upgraded: Toss a unit to an empty tile within 6 tiles of you and inflict Bruise, then your allies attack it if they can.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "GangUp",
+        "display_name": "Gang Up",
+        "tool_class": "tank",
+        "icon_label": "GangUp",
+        "resolved_icon_label": "GangUp",
+        "main_svg_id": "662",
+        "main_svg_filename": "662.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Goad",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Force an enemy to move towards you.Upgraded: Force an enemy anywhere to move towards you. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DrawAttention",
+        "display_name": "Goad",
+        "tool_class": "tank",
+        "icon_label": "DrawAttention",
+        "resolved_icon_label": "DrawAttention",
+        "main_svg_id": "639",
+        "main_svg_filename": "639.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Goad",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Force an enemy to move towards you.Upgraded: Force an enemy anywhere to move towards you. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DrawAttention",
+        "display_name": "Goad",
+        "tool_class": "tank",
+        "icon_label": "DrawAttention",
+        "resolved_icon_label": "DrawAttention",
+        "main_svg_id": "639",
+        "main_svg_filename": "639.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gorgon Glare",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Inflict Petrify on all units in your line of sight.Upgraded: Inflict Petrify on all units in your line of sight. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Medusa",
+        "display_name": "Gorgon Glare",
+        "tool_class": "tank",
+        "icon_label": "Medusa",
+        "resolved_icon_label": "Medusa",
+        "main_svg_id": "653",
+        "main_svg_filename": "653.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gorgon Glare",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Inflict Petrify on all units in your line of sight.Upgraded: Inflict Petrify on all units in your line of sight. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Medusa",
+        "display_name": "Gorgon Glare",
+        "tool_class": "tank",
+        "icon_label": "Medusa",
+        "resolved_icon_label": "Medusa",
+        "main_svg_id": "653",
+        "main_svg_filename": "653.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Grab",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Pull a unit within 2 tiles towards you, knocking it into you.Upgraded: Pull a unit within 4 tiles towards you, knocking it into you and inflicting Grappled.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BearHug",
+        "display_name": "Grab",
+        "tool_class": "tank",
+        "icon_label": "BearHug",
+        "resolved_icon_label": "BearHug",
+        "main_svg_id": "648",
+        "main_svg_filename": "648.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Intimidate",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Inflict Fear on an adjacent unit.Upgraded: Inflict Fear on a unit up to five tiles away.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Intimidate",
+        "display_name": "Intimidate",
+        "tool_class": "tank",
+        "icon_label": "Intimidate",
+        "resolved_icon_label": "Intimidate",
+        "main_svg_id": "624",
+        "main_svg_filename": "624.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Iron Head",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Dash forward up to 3 tiles, gain +4 then damage and knock back adjacent units.Upgraded: Dash forward up to 10 tiles, gain +4 then damage and knock back adjacent units with +5 knockback damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "IronHead",
+        "display_name": "Iron Head",
+        "tool_class": "tank",
+        "icon_label": "IronHead",
+        "resolved_icon_label": "IronHead",
+        "main_svg_id": "663",
+        "main_svg_filename": "663.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nudge",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Push a unit back 1 tile. (This spell costs 0 mana the first time it's used each turn.) Upgraded: Push a unit back 10 tiles. (This spell costs 0 mana the first time it's used each turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Nudge",
+        "display_name": "Nudge",
+        "tool_class": "tank",
+        "icon_label": "Nudge",
+        "resolved_icon_label": "Nudge",
+        "main_svg_id": "655",
+        "main_svg_filename": "655.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pincushion",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Gain +3 Thorns. This spell uses up your movement action.Upgraded: Gain +3 Thorns and +1 Brace. This spell uses up your movement action.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Spur",
+        "display_name": "Pincushion",
+        "tool_class": "tank",
+        "icon_label": "Spur",
+        "resolved_icon_label": "Spur",
+        "main_svg_id": "670",
+        "main_svg_filename": "670.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Plant Your Feet",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Gain +5 and -1 Speed. If you are at 0 Speed, instead cleanse all of your debuffs. (Castable once per turn.) Upgraded: Gain +6 and -1 Speed. If you are at 0 Speed, instead cleanse all of your debuffs and gain All Stats Up. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PlantFeet",
+        "display_name": "Plant Your Feet",
+        "tool_class": "tank",
+        "icon_label": "PlantFeet",
+        "resolved_icon_label": "PlantFeet",
+        "main_svg_id": "664",
+        "main_svg_filename": "664.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rock Blast",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Shoot a rock forward.Upgraded: Shoot a rock forward with Chain Knockback. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "RockBlast",
+        "display_name": "Rock Blast",
+        "tool_class": "tank",
+        "icon_label": "RockBlast",
+        "resolved_icon_label": "RockBlast",
+        "main_svg_id": "646",
+        "main_svg_filename": "646.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rock Blast",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Shoot a rock forward.Upgraded: Shoot a rock forward with Chain Knockback. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "RockBlast",
+        "display_name": "Rock Blast",
+        "tool_class": "tank",
+        "icon_label": "RockBlast",
+        "resolved_icon_label": "RockBlast",
+        "main_svg_id": "646",
+        "main_svg_filename": "646.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rock Crusher",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Jump on top of a rock, exploding it. Deal damage and knock back all adjacent units.Upgraded: Jump on top of a rock, exploding it. Deal high damage and knock back all adjacent units.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "RockCrusher",
+        "display_name": "Rock Crusher",
+        "tool_class": "tank",
+        "icon_label": "RockCrusher",
+        "resolved_icon_label": "RockCrusher",
+        "main_svg_id": "645",
+        "main_svg_filename": "645.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rock Song",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Levitate all rocks. They will automatically fling towards enemies that end movement in line with them.Upgraded: Levitate all rocks. They will automatically fling towards enemies that end movement in line with them. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "RockSong",
+        "display_name": "",
+        "tool_class": "colorless",
+        "icon_label": "RockSong",
+        "resolved_icon_label": "",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Rock Song",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Levitate all rocks. They will automatically fling towards enemies that end movement in line with them.Upgraded: Levitate all rocks. They will automatically fling towards enemies that end movement in line with them. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "RockSong",
+        "display_name": "",
+        "tool_class": "colorless",
+        "icon_label": "RockSong",
+        "resolved_icon_label": "",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sandstorm",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Start a sandstorm. (Sandstorm deals 1 damage to all units at the end of round.) If a sandstorm was already active, increase its damage by 1.Upgraded: Start a sandstorm. (Sandstorm deals 1 damage to all units at the end of round.) If a sandstorm was already active, increase its damage by 1. (This spell costs 0 mana the first time you cast it each turn.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Sandstorm",
+        "display_name": "Sandstorm",
+        "tool_class": "tank",
+        "icon_label": "Sandstorm",
+        "resolved_icon_label": "Sandstorm",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Steelskin",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Gain +99 Brace until your next turn, then disable this spell until you take a total of 25 damage.Upgraded: Gain +99 Brace until your next turn, then disable this spell until you take a total of 15 damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SteelSkin",
+        "display_name": "Steelskin",
+        "tool_class": "tank",
+        "icon_label": "SteelSkin",
+        "resolved_icon_label": "SteelSkin",
+        "main_svg_id": "661",
+        "main_svg_filename": "661.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stone Breath",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Inflict Petrify on the first unit in a line.Upgraded: Inflict Petrify and Knockback on the first unit in a line. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "StoneGaze",
+        "display_name": "Stone Breath",
+        "tool_class": "tank",
+        "icon_label": "StoneGaze",
+        "resolved_icon_label": "StoneGaze",
+        "main_svg_id": "654",
+        "main_svg_filename": "654.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stone Breath",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Inflict Petrify on the first unit in a line.Upgraded: Inflict Petrify and Knockback on the first unit in a line. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "StoneGaze",
+        "display_name": "Stone Breath",
+        "tool_class": "tank",
+        "icon_label": "StoneGaze",
+        "resolved_icon_label": "StoneGaze",
+        "main_svg_id": "654",
+        "main_svg_filename": "654.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Swap",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Swap positions with any ally.Upgraded: Swap positions with any unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TankSwap",
+        "display_name": "Swap",
+        "tool_class": "tank",
+        "icon_label": "TankSwap",
+        "resolved_icon_label": "TankSwap",
+        "main_svg_id": "632",
+        "main_svg_filename": "632.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Swap",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Swap positions with any ally.Upgraded: Swap positions with any unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TankSwap",
+        "display_name": "Swap",
+        "tool_class": "tank",
+        "icon_label": "TankSwap",
+        "resolved_icon_label": "TankSwap",
+        "main_svg_id": "632",
+        "main_svg_filename": "632.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Thicken",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Gain +1 knockback damage and +1 knockback range until the end of the turn.Upgraded: Gain +1 Constitution. Gain +1 knockback damage and +1 knockback range until the end of the turn.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Thicken",
+        "display_name": "Thicken",
+        "tool_class": "tank",
+        "icon_label": "Thicken",
+        "resolved_icon_label": "Thicken",
+        "main_svg_id": "666",
+        "main_svg_filename": "666.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Throw Scrap",
+      "class": "Tank",
+      "variant": "normal",
+      "description": "Give +3 to a unit or spawn a scrap pickup on an empty tile.Upgraded: Give +3 to units in an area and spawn scrap pickups on the empty tiles in that area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ThrowShield",
+        "display_name": "Throw Scrap",
+        "tool_class": "tank",
+        "icon_label": "ThrowShield",
+        "resolved_icon_label": "ThrowShield",
+        "main_svg_id": "629",
+        "main_svg_filename": "629.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

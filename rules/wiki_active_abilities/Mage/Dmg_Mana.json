@@ -1,0 +1,1232 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Mage",
+  "frame_type": "Dmg_Mana",
+  "count": 51,
+  "abilities": [
+    {
+      "wiki_name": "Absorb",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Spend all of your mana and heal that much HP.Upgraded: Spend all of your mana and heal that much HP. Excess healing is converted into .",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Absorb",
+        "display_name": "Absorb",
+        "tool_class": "mage",
+        "icon_label": "Absorb",
+        "resolved_icon_label": "Absorb",
+        "main_svg_id": "735",
+        "main_svg_filename": "735.svg"
+      },
+      "numbers": {
+        "raw": "0 All",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Black Magic",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Drop to 1 HP. Gain mana equal to the HP lost. (Castable once per turn.) Upgraded: Drop to 1 HP. Gain mana equal to the HP lost and gain All Stats Up 2. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BlackMagic",
+        "display_name": "Black Magic",
+        "tool_class": "mage",
+        "icon_label": "BlackMagic",
+        "resolved_icon_label": "BlackMagic",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Blizzard",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Deal ice damage in a wide line with Knockback 1 that inflicts Slow and has a 15% chance to freeze.Upgraded: Deal more ice damage in a wide line with Knockback 10 that inflicts Slow and has a 25% chance to freeze.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Blizzard",
+        "display_name": "Blizzard",
+        "tool_class": "mage",
+        "icon_label": "Blizzard",
+        "resolved_icon_label": "Blizzard",
+        "main_svg_id": "732",
+        "main_svg_filename": "732.svg"
+      },
+      "numbers": {
+        "raw": "6 12",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Blizzard",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Deal ice damage in a wide line with Knockback 1 that inflicts Slow and has a 15% chance to freeze.Upgraded: Deal more ice damage in a wide line with Knockback 10 that inflicts Slow and has a 25% chance to freeze.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Blizzard",
+        "display_name": "Blizzard",
+        "tool_class": "mage",
+        "icon_label": "Blizzard",
+        "resolved_icon_label": "Blizzard",
+        "main_svg_id": "732",
+        "main_svg_filename": "732.svg"
+      },
+      "numbers": {
+        "raw": "8 12",
+        "frame_type": "Dmg_Mana",
+        "value": "8",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bolt",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "A lightning bolt that has a 25% chance to Stun.Upgraded: A stronger lightning bolt that has a 50% chance to Stun.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Bolt",
+        "display_name": "Bolt",
+        "tool_class": "mage",
+        "icon_label": "Bolt",
+        "resolved_icon_label": "Bolt",
+        "main_svg_id": "724",
+        "main_svg_filename": "724.svg"
+      },
+      "numbers": {
+        "raw": "3 7",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bolt",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "A lightning bolt that has a 25% chance to Stun.Upgraded: A stronger lightning bolt that has a 50% chance to Stun.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Bolt",
+        "display_name": "Bolt",
+        "tool_class": "mage",
+        "icon_label": "Bolt",
+        "resolved_icon_label": "Bolt",
+        "main_svg_id": "724",
+        "main_svg_filename": "724.svg"
+      },
+      "numbers": {
+        "raw": "6 7",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Chain Lightning",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Shoot lightning that chains randomly to other nearby units up to 2 tiles away.Upgraded: Shoot lightning that chains randomly to other nearby enemies up to 3 tiles away.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ChainLightning",
+        "display_name": "Chain Lightning",
+        "tool_class": "mage",
+        "icon_label": "ChainLightning",
+        "resolved_icon_label": "ChainLightning",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "4 7",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Crescendo",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell. This spell resets after you cast it.Upgraded: This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell. This spell loses half its boosts after you cast it.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Creshendo",
+        "display_name": "Crescendo",
+        "tool_class": "mage",
+        "icon_label": "Creshendo",
+        "resolved_icon_label": "Creshendo",
+        "main_svg_id": "761",
+        "main_svg_filename": "761.svg"
+      },
+      "numbers": {
+        "raw": "0 6",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cryo-Heal",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Heal and inflict Freeze 1 on a unit in range 3.Upgraded: Heal and inflict Freeze 1 on any unit. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "CryoHeal",
+        "display_name": "Cryo-Heal",
+        "tool_class": "mage",
+        "icon_label": "CryoHeal",
+        "resolved_icon_label": "CryoHeal",
+        "main_svg_id": "745",
+        "main_svg_filename": "745.svg"
+      },
+      "numbers": {
+        "raw": "10 8",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cryo-Heal",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Heal and inflict Freeze 1 on a unit in range 3.Upgraded: Heal and inflict Freeze 1 on any unit. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "CryoHeal",
+        "display_name": "Cryo-Heal",
+        "tool_class": "mage",
+        "icon_label": "CryoHeal",
+        "resolved_icon_label": "CryoHeal",
+        "main_svg_id": "745",
+        "main_svg_filename": "745.svg"
+      },
+      "numbers": {
+        "raw": "10 6",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Energy Blast",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "A high damage spell that hits a single target.Upgraded: A high damage spell that hits a single target and deals extra damage equal to your Intelligence.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Blast",
+        "display_name": "Energy Blast",
+        "tool_class": "mage",
+        "icon_label": "Blast",
+        "resolved_icon_label": "Blast",
+        "main_svg_id": "727",
+        "main_svg_filename": "727.svg"
+      },
+      "numbers": {
+        "raw": "10 7",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Energy Blast",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "A high damage spell that hits a single target.Upgraded: A high damage spell that hits a single target and deals extra damage equal to your Intelligence.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Blast",
+        "display_name": "Energy Blast",
+        "tool_class": "mage",
+        "icon_label": "Blast",
+        "resolved_icon_label": "Blast",
+        "main_svg_id": "727",
+        "main_svg_filename": "727.svg"
+      },
+      "numbers": {
+        "raw": "15 7",
+        "frame_type": "Dmg_Mana",
+        "value": "15",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fire Blast",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "A fireblast that inflicts Burn 2 in an area.Upgraded: A more damaging fireblast that inflicts Burn 3 in an area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Fireball",
+        "display_name": "Fire Blast",
+        "tool_class": "mage",
+        "icon_label": "Fireball",
+        "resolved_icon_label": "Fireball",
+        "main_svg_id": "723",
+        "main_svg_filename": "723.svg"
+      },
+      "numbers": {
+        "raw": "3 7",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fire Blast",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "A fireblast that inflicts Burn 2 in an area.Upgraded: A more damaging fireblast that inflicts Burn 3 in an area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Fireball",
+        "display_name": "Fire Blast",
+        "tool_class": "mage",
+        "icon_label": "Fireball",
+        "resolved_icon_label": "Fireball",
+        "main_svg_id": "723",
+        "main_svg_filename": "723.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fire Surge",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "A fire spell that increases its range, area, damage, and Burn by 1 every turn.Upgraded: A fire spell that increases its range, area, damage, and Burn by 1 every turn. Starts stronger.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FireSurge",
+        "display_name": "Fire Surge",
+        "tool_class": "mage",
+        "icon_label": "FireSurge",
+        "resolved_icon_label": "FireSurge",
+        "main_svg_id": "764",
+        "main_svg_filename": "764.svg"
+      },
+      "numbers": {
+        "raw": "1 5",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fire Surge",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "A fire spell that increases its range, area, damage, and Burn by 1 every turn.Upgraded: A fire spell that increases its range, area, damage, and Burn by 1 every turn. Starts stronger.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "FireSurge",
+        "display_name": "Fire Surge",
+        "tool_class": "mage",
+        "icon_label": "FireSurge",
+        "resolved_icon_label": "FireSurge",
+        "main_svg_id": "764",
+        "main_svg_filename": "764.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Firebolt",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Cast a fire/electric spell that inflicts Burn 1 and has a 15% chance to inflict Stun in an X shaped area.Upgraded: Cast a fire/electric spell that inflicts Burn 2 and has a 30% chance to inflict Stun in an X shaped area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FireBolt",
+        "display_name": "Firebolt",
+        "tool_class": "mage",
+        "icon_label": "FireBolt",
+        "resolved_icon_label": "FireBolt",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3 8",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Firebolt",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Cast a fire/electric spell that inflicts Burn 1 and has a 15% chance to inflict Stun in an X shaped area.Upgraded: Cast a fire/electric spell that inflicts Burn 2 and has a 30% chance to inflict Stun in an X shaped area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FireBolt",
+        "display_name": "Firebolt",
+        "tool_class": "mage",
+        "icon_label": "FireBolt",
+        "resolved_icon_label": "FireBolt",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "5 8",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Forbidden Flame",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Damage all enemies and burn the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Heavily damage all enemies and burn the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ForbiddenFlame",
+        "display_name": "Forbidden Flame",
+        "tool_class": "mage",
+        "icon_label": "ForbiddenFlame",
+        "resolved_icon_label": "ForbiddenFlame",
+        "main_svg_id": "748",
+        "main_svg_filename": "748.svg"
+      },
+      "numbers": {
+        "raw": "7 0",
+        "frame_type": "Dmg_Mana",
+        "value": "7",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Forbidden Flame",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Damage all enemies and burn the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Heavily damage all enemies and burn the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ForbiddenFlame",
+        "display_name": "Forbidden Flame",
+        "tool_class": "mage",
+        "icon_label": "ForbiddenFlame",
+        "resolved_icon_label": "ForbiddenFlame",
+        "main_svg_id": "748",
+        "main_svg_filename": "748.svg"
+      },
+      "numbers": {
+        "raw": "15 0",
+        "frame_type": "Dmg_Mana",
+        "value": "15",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Forbidden Flood",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Knock back and damage all enemies, then flood the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Knock back and damage all enemies, heal all allies, then flood the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.)",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "ForbiddenFlood",
+        "display_name": "Forbidden Flood",
+        "tool_class": "mage",
+        "icon_label": "ForbiddenFlood",
+        "resolved_icon_label": "ForbiddenFlood",
+        "main_svg_id": "749",
+        "main_svg_filename": "749.svg"
+      },
+      "numbers": {
+        "raw": "10 0",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Forbidden Frost",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Apply Freeze 2 to each unit except for yourself and 1 other chosen unit. Deal 5 Damage to enemies and heal each ally 5 HP. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Apply Freeze 2 to each unit except for yourself and 1 other chosen unit. Deal 10 Damage to enemies and fully heal each ally. There will be permanent consequences for casting this spell… (Castable once per battle.)",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "ForbiddenFrost",
+        "display_name": "Forbidden Frost",
+        "tool_class": "mage",
+        "icon_label": "ForbiddenFrost",
+        "resolved_icon_label": "ForbiddenFrost",
+        "main_svg_id": "759",
+        "main_svg_filename": "759.svg"
+      },
+      "numbers": {
+        "raw": "5 0",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Forbidden Frost",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Apply Freeze 2 to each unit except for yourself and 1 other chosen unit. Deal 5 Damage to enemies and heal each ally 5 HP. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Apply Freeze 2 to each unit except for yourself and 1 other chosen unit. Deal 10 Damage to enemies and fully heal each ally. There will be permanent consequences for casting this spell… (Castable once per battle.)",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "ForbiddenFrost",
+        "display_name": "Forbidden Frost",
+        "tool_class": "mage",
+        "icon_label": "ForbiddenFrost",
+        "resolved_icon_label": "ForbiddenFrost",
+        "main_svg_id": "759",
+        "main_svg_filename": "759.svg"
+      },
+      "numbers": {
+        "raw": "10 0",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Forbidden Fulmination",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Strike all enemies with lightning, inflicting Stun. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Strike all enemies with lightning, inflicting Stun 2. There will be permanent consequences for casting this spell… (Castable once per battle.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ForbiddenFulmination",
+        "display_name": "Forbidden Fulmination",
+        "tool_class": "mage",
+        "icon_label": "ForbiddenFulmination",
+        "resolved_icon_label": "ForbiddenFulmination",
+        "main_svg_id": "757",
+        "main_svg_filename": "757.svg"
+      },
+      "numbers": {
+        "raw": "6 0",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Freezer Burn",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Cast a fire/ice spell that inflicts Burn 2, Slow 2 and Knockback 2 on all units around you.Upgraded: Cast a fire/ice spell that inflicts Burn 3, Slow 3 and Knockback 3 on all units around you in a larger area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FreezerBurn",
+        "display_name": "Freezer Burn",
+        "tool_class": "mage",
+        "icon_label": "FreezerBurn",
+        "resolved_icon_label": "FreezerBurn",
+        "main_svg_id": "754",
+        "main_svg_filename": "754.svg"
+      },
+      "numbers": {
+        "raw": "2 8",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Freezer Burn",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Cast a fire/ice spell that inflicts Burn 2, Slow 2 and Knockback 2 on all units around you.Upgraded: Cast a fire/ice spell that inflicts Burn 3, Slow 3 and Knockback 3 on all units around you in a larger area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FreezerBurn",
+        "display_name": "Freezer Burn",
+        "tool_class": "mage",
+        "icon_label": "FreezerBurn",
+        "resolved_icon_label": "FreezerBurn",
+        "main_svg_id": "754",
+        "main_svg_filename": "754.svg"
+      },
+      "numbers": {
+        "raw": "3 8",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hyper Beam",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile. (Castable once per turn.) Upgraded: Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "HyperBeam",
+        "display_name": "Hyper Beam",
+        "tool_class": "mage",
+        "icon_label": "HyperBeam",
+        "resolved_icon_label": "HyperBeam",
+        "main_svg_id": "730",
+        "main_svg_filename": "730.svg"
+      },
+      "numbers": {
+        "raw": "25 3",
+        "frame_type": "Dmg_Mana",
+        "value": "25",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ice Surge",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "An ice spell that increases its range and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1. (Current turns: 0) Upgraded: An ice spell that increases its range, damage, and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1. (Current turns: 0)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "IceSurge",
+        "display_name": "Ice Surge",
+        "tool_class": "mage",
+        "icon_label": "IceSurge",
+        "resolved_icon_label": "IceSurge",
+        "main_svg_id": "763",
+        "main_svg_filename": "763.svg"
+      },
+      "numbers": {
+        "raw": "N/A 5",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ice Surge",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "An ice spell that increases its range and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1. (Current turns: 0) Upgraded: An ice spell that increases its range, damage, and Slow every turn. At 2 turns, it gains Immobilize 1. At 3 turns, it gains Freeze 1. (Current turns: 0)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "IceSurge",
+        "display_name": "Ice Surge",
+        "tool_class": "mage",
+        "icon_label": "IceSurge",
+        "resolved_icon_label": "IceSurge",
+        "main_svg_id": "763",
+        "main_svg_filename": "763.svg"
+      },
+      "numbers": {
+        "raw": "1 5",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Icicle Zapper",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Shoot an ice/electric bolt in a straight line. It inflicts Slow 2, has a 25% chance to Stun and a 25% chance to Freeze.Upgraded: Shoot 2 ice/electric bolts in a straight line. They inflict Slow 2, have a 25% chance to Stun and a 25% chance to Freeze.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "IcicleTaser",
+        "display_name": "Icicle Zapper",
+        "tool_class": "mage",
+        "icon_label": "IcicleTaser",
+        "resolved_icon_label": "IcicleTaser",
+        "main_svg_id": "755",
+        "main_svg_filename": "755.svg"
+      },
+      "numbers": {
+        "raw": "3 8",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Inferno",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Deal fire damage and inflict Burn 3 to all units in a large circle around you.Upgraded: Deal more fire damage and inflict Burn 5 to all units in a large circle around you.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Inferno",
+        "display_name": "Inferno",
+        "tool_class": "mage",
+        "icon_label": "Inferno",
+        "resolved_icon_label": "Inferno",
+        "main_svg_id": "733",
+        "main_svg_filename": "733.svg"
+      },
+      "numbers": {
+        "raw": "6 12",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Inferno",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Deal fire damage and inflict Burn 3 to all units in a large circle around you.Upgraded: Deal more fire damage and inflict Burn 5 to all units in a large circle around you.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Inferno",
+        "display_name": "Inferno",
+        "tool_class": "mage",
+        "icon_label": "Inferno",
+        "resolved_icon_label": "Inferno",
+        "main_svg_id": "733",
+        "main_svg_filename": "733.svg"
+      },
+      "numbers": {
+        "raw": "8 12",
+        "frame_type": "Dmg_Mana",
+        "value": "8",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Jolt",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Shoot a lightning bolt that deals 1 damage and knocks the unit it hits 3 tiles in the direction it's facing.Upgraded: Shoot a lightning bolt that deals 2 damage and knocks the unit it hits 6 tiles in the direction it's facing.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Jolt",
+        "display_name": "Jolt",
+        "tool_class": "mage",
+        "icon_label": "Jolt",
+        "resolved_icon_label": "Jolt",
+        "main_svg_id": "752",
+        "main_svg_filename": "752.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Jolt",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Shoot a lightning bolt that deals 1 damage and knocks the unit it hits 3 tiles in the direction it's facing.Upgraded: Shoot a lightning bolt that deals 2 damage and knocks the unit it hits 6 tiles in the direction it's facing.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Jolt",
+        "display_name": "Jolt",
+        "tool_class": "mage",
+        "icon_label": "Jolt",
+        "resolved_icon_label": "Jolt",
+        "main_svg_id": "752",
+        "main_svg_filename": "752.svg"
+      },
+      "numbers": {
+        "raw": "2 3",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lightning Surge",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "An electric spell that increases its range and damage by 2 every turn, and its stun chance by 10%.Upgraded: An electric spell that increases its range and damage by 3 every turn, and its stun chance by 10%.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "LightningSurge",
+        "display_name": "Lightning Surge",
+        "tool_class": "mage",
+        "icon_label": "LightningSurge",
+        "resolved_icon_label": "LightningSurge",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lightning Surge",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "An electric spell that increases its range and damage by 2 every turn, and its stun chance by 10%.Upgraded: An electric spell that increases its range and damage by 3 every turn, and its stun chance by 10%.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "LightningSurge",
+        "display_name": "Lightning Surge",
+        "tool_class": "mage",
+        "icon_label": "LightningSurge",
+        "resolved_icon_label": "LightningSurge",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Magic Missile",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Shoot an infinite-range projectile that can't miss.Upgraded: Shoot an infinite-range projectile that can't miss. Emit 3 Sparkles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MagicMissile",
+        "display_name": "Magic Missile",
+        "tool_class": "mage",
+        "icon_label": "MagicMissile",
+        "resolved_icon_label": "MagicMissile",
+        "main_svg_id": "728",
+        "main_svg_filename": "728.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Mega Blast",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Deal high damage in a cone.Upgraded: Deal high damage in a larger cone.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MegaBlast",
+        "display_name": "Mega Blast",
+        "tool_class": "mage",
+        "icon_label": "MegaBlast",
+        "resolved_icon_label": "MegaBlast",
+        "main_svg_id": "729",
+        "main_svg_filename": "729.svg"
+      },
+      "numbers": {
+        "raw": "15 13",
+        "frame_type": "Dmg_Mana",
+        "value": "15",
+        "mana": "13",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Meteor Storm",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Summon meteors that hit random tiles in a large area. These meteors have a chance to stun, spawn fires, or leave rocks behind.Upgraded: Summon meteors that hit random tiles in a larger area. These meteors have a chance to stun, spawn fires, or leave rocks behind.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "MeteorStorm",
+        "display_name": "Meteor Storm",
+        "tool_class": "mage",
+        "icon_label": "MeteorStorm",
+        "resolved_icon_label": "MeteorStorm",
+        "main_svg_id": "726",
+        "main_svg_filename": "726.svg"
+      },
+      "numbers": {
+        "raw": "10 10",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shatter",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "A melee attack that instantly kills frozen units. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2.Upgraded: A spell that instantly kills frozen units in an area. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Shatter",
+        "display_name": "Shatter",
+        "tool_class": "mage",
+        "icon_label": "Shatter",
+        "resolved_icon_label": "Shatter",
+        "main_svg_id": "758",
+        "main_svg_filename": "758.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shatter",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "A melee attack that instantly kills frozen units. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2.Upgraded: A spell that instantly kills frozen units in an area. If used on a boss, it instead removes Frozen to deal 15 damage and inflict Slow 2.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Shatter",
+        "display_name": "Shatter",
+        "tool_class": "mage",
+        "icon_label": "Shatter",
+        "resolved_icon_label": "Shatter",
+        "main_svg_id": "758",
+        "main_svg_filename": "758.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Surf",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "A water spell that deals damage and knockback in a large area.Upgraded: A water spell that deals more damage and knockback in a larger area.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Surf",
+        "display_name": "Surf",
+        "tool_class": "mage",
+        "icon_label": "Surf",
+        "resolved_icon_label": "Surf",
+        "main_svg_id": "725",
+        "main_svg_filename": "725.svg"
+      },
+      "numbers": {
+        "raw": "3 7",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Surf",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "A water spell that deals damage and knockback in a large area.Upgraded: A water spell that deals more damage and knockback in a larger area.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Surf",
+        "display_name": "Surf",
+        "tool_class": "mage",
+        "icon_label": "Surf",
+        "resolved_icon_label": "Surf",
+        "main_svg_id": "725",
+        "main_svg_filename": "725.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Telefrag",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Teleport onto a unit, dealing damage to yourself and that unit.Upgraded: Teleport onto a unit, dealing damage to that unit.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Telefrag",
+        "display_name": "Telefrag",
+        "tool_class": "mage",
+        "icon_label": "Telefrag",
+        "resolved_icon_label": "Telefrag",
+        "main_svg_id": "739",
+        "main_svg_filename": "739.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Thunderburst",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "Shoot lightning bolts in eight directions with a 15% chance to Stun.Upgraded: Shoot stronger lightning bolts in eight directions with a 25% chance to Stun.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Thunderburst",
+        "display_name": "Thunderburst",
+        "tool_class": "mage",
+        "icon_label": "Thunderburst",
+        "resolved_icon_label": "Thunderburst",
+        "main_svg_id": "734",
+        "main_svg_filename": "734.svg"
+      },
+      "numbers": {
+        "raw": "7 12",
+        "frame_type": "Dmg_Mana",
+        "value": "7",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Thunderburst",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Shoot lightning bolts in eight directions with a 15% chance to Stun.Upgraded: Shoot stronger lightning bolts in eight directions with a 25% chance to Stun.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Thunderburst",
+        "display_name": "Thunderburst",
+        "tool_class": "mage",
+        "icon_label": "Thunderburst",
+        "resolved_icon_label": "Thunderburst",
+        "main_svg_id": "734",
+        "main_svg_filename": "734.svg"
+      },
+      "numbers": {
+        "raw": "10 12",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tri-Attack",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun.Upgraded: A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun in an area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TriAttack",
+        "display_name": "Tri-Attack",
+        "tool_class": "mage",
+        "icon_label": "TriAttack",
+        "resolved_icon_label": "TriAttack",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3 7",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Wall of Fire",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "A fire spell that inflicts Burn 1 and spawns fires in a perpendicular line.Upgraded: A fire spell that damages, inflicts Burn 3 and spawns fires in a perpendicular line.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "WallOfFire",
+        "display_name": "Wall of Fire",
+        "tool_class": "mage",
+        "icon_label": "WallOfFire",
+        "resolved_icon_label": "WallOfFire",
+        "main_svg_id": "737",
+        "main_svg_filename": "737.svg"
+      },
+      "numbers": {
+        "raw": "N/A 8",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Wall of Fire",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "A fire spell that inflicts Burn 1 and spawns fires in a perpendicular line.Upgraded: A fire spell that damages, inflicts Burn 3 and spawns fires in a perpendicular line.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "WallOfFire",
+        "display_name": "Wall of Fire",
+        "tool_class": "mage",
+        "icon_label": "WallOfFire",
+        "resolved_icon_label": "WallOfFire",
+        "main_svg_id": "737",
+        "main_svg_filename": "737.svg"
+      },
+      "numbers": {
+        "raw": "2 8",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Wind Slash",
+      "class": "Mage",
+      "variant": "normal",
+      "description": "A wind spell that hits an entire line with Knockback 1.Upgraded: A wind spell that hits a wide line with Knockback 2.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "WindSlash",
+        "display_name": "Wind Slash",
+        "tool_class": "mage",
+        "icon_label": "WindSlash",
+        "resolved_icon_label": "WindSlash",
+        "main_svg_id": "731",
+        "main_svg_filename": "731.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Wind Slash",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "A wind spell that hits an entire line with Knockback 1.Upgraded: A wind spell that hits a wide line with Knockback 2.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "WindSlash",
+        "display_name": "Wind Slash",
+        "tool_class": "mage",
+        "icon_label": "WindSlash",
+        "resolved_icon_label": "WindSlash",
+        "main_svg_id": "731",
+        "main_svg_filename": "731.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

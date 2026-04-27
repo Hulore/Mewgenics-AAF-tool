@@ -1,0 +1,872 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Fighter",
+  "frame_type": "Mana",
+  "count": 36,
+  "abilities": [
+    {
+      "wiki_name": "1D Chess",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Move toward the closest enemy. The dumber you are, the farther you move.Upgraded: Move toward the closest enemy. The dumber you are, the farther you move. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DumbMove",
+        "display_name": "1D Chess",
+        "tool_class": "fighter",
+        "icon_label": "DumbMove",
+        "resolved_icon_label": "DumbMove",
+        "main_svg_id": "865",
+        "main_svg_filename": "865.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "1D Chess",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Move toward the closest enemy. The dumber you are, the farther you move.Upgraded: Move toward the closest enemy. The dumber you are, the farther you move. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DumbMove",
+        "display_name": "1D Chess",
+        "tool_class": "fighter",
+        "icon_label": "DumbMove",
+        "resolved_icon_label": "DumbMove",
+        "main_svg_id": "865",
+        "main_svg_filename": "865.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Berserk",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Gain +5 Strength and Bruise 5. This ability becomes Berserker Dash.Upgraded: Gain +7 Strength and Bruise 3. This ability becomes Berserker Dash+.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Berserk",
+        "display_name": "Berserk",
+        "tool_class": "fighter",
+        "icon_label": "Berserk",
+        "resolved_icon_label": "Berserk",
+        "main_svg_id": "833",
+        "main_svg_filename": "833.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bloodzerk",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Drop to 1 HP. Damage you deal to bleeding units has Lifesteal. This spell becomes Lacerate.Upgraded: Drop to 1 HP. Damage you deal to bleeding units has Lifesteal. This spell becomes Lacerate+. (This spell costs 0 mana.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Bloodzerk",
+        "display_name": "Bloodzerk",
+        "tool_class": "fighter",
+        "icon_label": "Bloodzerk",
+        "resolved_icon_label": "Bloodzerk",
+        "main_svg_id": "863",
+        "main_svg_filename": "863.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bloodzerk",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Drop to 1 HP. Damage you deal to bleeding units has Lifesteal. This spell becomes Lacerate.Upgraded: Drop to 1 HP. Damage you deal to bleeding units has Lifesteal. This spell becomes Lacerate+. (This spell costs 0 mana.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Bloodzerk",
+        "display_name": "Bloodzerk",
+        "tool_class": "fighter",
+        "icon_label": "Bloodzerk",
+        "resolved_icon_label": "Bloodzerk",
+        "main_svg_id": "863",
+        "main_svg_filename": "863.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Chaos Rampage",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Take an extra turn. You have Madness 1 and Confusion 1 on that turn. (This spell can't be cast on extra turns.) Upgraded: Take an extra turn. You have Madness 1 on that turn. (This spell can't be cast on extra turns.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ChaosRampage",
+        "display_name": "Chaos Rampage",
+        "tool_class": "fighter",
+        "icon_label": "ChaosRampage",
+        "resolved_icon_label": "ChaosRampage",
+        "main_svg_id": "860",
+        "main_svg_filename": "860.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Confront",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Move in front of an enemy.Upgraded: Move in front of an enemy. Your next action has +30% critical chance. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Confront",
+        "display_name": "Confront",
+        "tool_class": "fighter",
+        "icon_label": "Confront",
+        "resolved_icon_label": "Confront",
+        "main_svg_id": "839",
+        "main_svg_filename": "839.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Confront",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Move in front of an enemy.Upgraded: Move in front of an enemy. Your next action has +30% critical chance. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Confront",
+        "display_name": "Confront",
+        "tool_class": "fighter",
+        "icon_label": "Confront",
+        "resolved_icon_label": "Confront",
+        "main_svg_id": "839",
+        "main_svg_filename": "839.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Counter",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Counterattack all attacks until your next turn.Upgraded: Preemptively counterattack all attacks until your next turn.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Counter",
+        "display_name": "Counter",
+        "tool_class": "fighter",
+        "icon_label": "Counter",
+        "resolved_icon_label": "Counter",
+        "main_svg_id": "827",
+        "main_svg_filename": "827.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Enrage",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Give a unit +4 Strength and Confusion 2.Upgraded: Give a unit on any tile +4 Strength and Confusion 2.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Enrage",
+        "display_name": "Enrage",
+        "tool_class": "fighter",
+        "icon_label": "Enrage",
+        "resolved_icon_label": "Enrage",
+        "main_svg_id": "843",
+        "main_svg_filename": "843.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Exert",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Refresh your basic attack and movement action. Fall asleep at the end of the turn.Upgraded: Refresh your basic attack and movement action. Gain +2 Strength and +4 Speed until end of turn. Fall asleep at the end of the turn.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Exert",
+        "display_name": "Exert",
+        "tool_class": "fighter",
+        "icon_label": "Exert",
+        "resolved_icon_label": "Exert",
+        "main_svg_id": "842",
+        "main_svg_filename": "842.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Exert",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Refresh your basic attack and movement action. Fall asleep at the end of the turn.Upgraded: Refresh your basic attack and movement action. Gain +2 Strength and +4 Speed until end of turn. Fall asleep at the end of the turn.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Exert",
+        "display_name": "Exert",
+        "tool_class": "fighter",
+        "icon_label": "Exert",
+        "resolved_icon_label": "Exert",
+        "main_svg_id": "842",
+        "main_svg_filename": "842.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flex Off",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "You and each allied cat gain +2 and knockback adjacent units 2 tiles.Upgraded: You and each allied cat gain +2 , +2 temporary Brace, and knockback adjacent units 2 tiles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TeamFlex",
+        "display_name": "Flex Off",
+        "tool_class": "fighter",
+        "icon_label": "TeamFlex",
+        "resolved_icon_label": "TeamFlex",
+        "main_svg_id": "870",
+        "main_svg_filename": "870.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Grapple",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Immobilize an adjacent unit for as long as you remain adjacent.Upgraded: Immobilize an adjacent unit for as long as you remain adjacent. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Grapple",
+        "display_name": "Grapple",
+        "tool_class": "fighter",
+        "icon_label": "Grapple",
+        "resolved_icon_label": "Grapple",
+        "main_svg_id": "852",
+        "main_svg_filename": "852.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Grapple",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Immobilize an adjacent unit for as long as you remain adjacent.Upgraded: Immobilize an adjacent unit for as long as you remain adjacent. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Grapple",
+        "display_name": "Grapple",
+        "tool_class": "fighter",
+        "icon_label": "Grapple",
+        "resolved_icon_label": "Grapple",
+        "main_svg_id": "852",
+        "main_svg_filename": "852.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gravity Slam",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Jump to a tile and pull enemies toward you when you land.Upgraded: Jump to a tile and pull enemies toward you when you land. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "GravitySlam",
+        "display_name": "Gravity Slam",
+        "tool_class": "fighter",
+        "icon_label": "GravitySlam",
+        "resolved_icon_label": "GravitySlam",
+        "main_svg_id": "848",
+        "main_svg_filename": "848.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Gravity Slam",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Jump to a tile and pull enemies toward you when you land.Upgraded: Jump to a tile and pull enemies toward you when you land. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "GravitySlam",
+        "display_name": "Gravity Slam",
+        "tool_class": "fighter",
+        "icon_label": "GravitySlam",
+        "resolved_icon_label": "GravitySlam",
+        "main_svg_id": "848",
+        "main_svg_filename": "848.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Huddle",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "You and each allied cat give adjacent units +1 Damage and +2 Speed.Upgraded: You and each allied cat give adjacent units +1 Damage and +2 Speed. (This spell is free the first time it's cast each battle.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Huddle",
+        "display_name": "Huddle",
+        "tool_class": "fighter",
+        "icon_label": "Huddle",
+        "resolved_icon_label": "Huddle",
+        "main_svg_id": "869",
+        "main_svg_filename": "869.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Inhale",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Suck all units in a straight line 1 tile toward you.Upgraded: Suck all units in a straight line 3 tiles toward you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Inhale",
+        "display_name": "Inhale",
+        "tool_class": "fighter",
+        "icon_label": "Inhale",
+        "resolved_icon_label": "Inhale",
+        "main_svg_id": "857",
+        "main_svg_filename": "857.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Juiced",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Your movement range is doubled until the end of the turn.Upgraded: Your movement range is doubled and you get +4 Strength until the end of the turn.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Juiced",
+        "display_name": "Juiced",
+        "tool_class": "fighter",
+        "icon_label": "Juiced",
+        "resolved_icon_label": "Juiced",
+        "main_svg_id": "841",
+        "main_svg_filename": "841.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Mock",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Force a unit to move towards you. RELOAD: Kill something.Upgraded: Force a unit to move towards you. RELOAD: Kill something. Bonus Ability: Slap.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Challenge",
+        "display_name": "Mock",
+        "tool_class": "fighter",
+        "icon_label": "Challenge",
+        "resolved_icon_label": "Challenge",
+        "main_svg_id": "846",
+        "main_svg_filename": "846.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "MORE ANGRIER!!!",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Lose all of your mana and gain that much Strength until the end of the turn.Upgraded: Lose all of your mana and gain that much Strength, Dexterity, and Speed until the end of the turn.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "LastThought",
+        "display_name": "MORE ANGRIER!!!",
+        "tool_class": "fighter",
+        "icon_label": "LastThought",
+        "resolved_icon_label": "LastThought",
+        "main_svg_id": "850",
+        "main_svg_filename": "850.svg"
+      },
+      "numbers": {
+        "raw": "All",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Push",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Knockback a unit 2 tiles.Upgraded: Turn an adjacent unit around and knock it back 2 tiles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Push",
+        "display_name": "Push",
+        "tool_class": "fighter",
+        "icon_label": "Push",
+        "resolved_icon_label": "Push",
+        "main_svg_id": "837",
+        "main_svg_filename": "837.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reposition",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Move up to two tiles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Reposition",
+        "display_name": "Reposition",
+        "tool_class": "fighter",
+        "icon_label": "Reposition",
+        "resolved_icon_label": "Reposition",
+        "main_svg_id": "855",
+        "main_svg_filename": "855.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reposition",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Move up to two tiles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Reposition",
+        "display_name": "Reposition",
+        "tool_class": "fighter",
+        "icon_label": "Reposition",
+        "resolved_icon_label": "Reposition",
+        "main_svg_id": "855",
+        "main_svg_filename": "855.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sleeper Hold",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Inflict Sleep on an adjacent unit.Upgraded: Inflict Sleep and Bruise on an adjacent unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SleeperHold",
+        "display_name": "Sleeper Hold",
+        "tool_class": "fighter",
+        "icon_label": "SleeperHold",
+        "resolved_icon_label": "SleeperHold",
+        "main_svg_id": "851",
+        "main_svg_filename": "851.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sleeper Hold",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Inflict Sleep on an adjacent unit.Upgraded: Inflict Sleep and Bruise on an adjacent unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SleeperHold",
+        "display_name": "Sleeper Hold",
+        "tool_class": "fighter",
+        "icon_label": "SleeperHold",
+        "resolved_icon_label": "SleeperHold",
+        "main_svg_id": "851",
+        "main_svg_filename": "851.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stick!",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Equip a temporary Stick! (Your weapon slot must be empty.) Upgraded: Equip a temporary Stick! Maybe even a big one? (Your weapon slot must be empty.) (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Stick",
+        "display_name": "Stick!",
+        "tool_class": "fighter",
+        "icon_label": "Stick",
+        "resolved_icon_label": "Stick",
+        "main_svg_id": "876",
+        "main_svg_filename": "876.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stick!",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Equip a temporary Stick! (Your weapon slot must be empty.) Upgraded: Equip a temporary Stick! Maybe even a big one? (Your weapon slot must be empty.) (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Stick",
+        "display_name": "Stick!",
+        "tool_class": "fighter",
+        "icon_label": "Stick",
+        "resolved_icon_label": "Stick",
+        "main_svg_id": "876",
+        "main_svg_filename": "876.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stoopzerk",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Your Intelligence becomes 0. You can attack an extra time each turn for the rest of the battle. This ability becomes MORE ANGRIER!!!Upgraded: Your Intelligence becomes 0. You can attack an extra time each turn for the rest of the battle. This ability becomes MORE ANGRIER!!!+",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Stoopzerk",
+        "display_name": "Stoopzerk",
+        "tool_class": "fighter",
+        "icon_label": "Stoopzerk",
+        "resolved_icon_label": "Stoopzerk",
+        "main_svg_id": "849",
+        "main_svg_filename": "849.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stoopzerk",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Your Intelligence becomes 0. You can attack an extra time each turn for the rest of the battle. This ability becomes MORE ANGRIER!!!Upgraded: Your Intelligence becomes 0. You can attack an extra time each turn for the rest of the battle. This ability becomes MORE ANGRIER!!!+",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Stoopzerk",
+        "display_name": "Stoopzerk",
+        "tool_class": "fighter",
+        "icon_label": "Stoopzerk",
+        "resolved_icon_label": "Stoopzerk",
+        "main_svg_id": "849",
+        "main_svg_filename": "849.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sucker Punch",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "The next time an enemy moves through an adjacent tile, cancel its movement and attack it.Upgraded: The next time an enemy moves through an adjacent tile, cancel its movement and attack it. Bonus Passive: While it's not your turn, your basic attack inflicts Bruise 2.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SuckerPunch",
+        "display_name": "Sucker Punch",
+        "tool_class": "fighter",
+        "icon_label": "SuckerPunch",
+        "resolved_icon_label": "SuckerPunch",
+        "main_svg_id": "877",
+        "main_svg_filename": "877.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Taunt!",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "All enemies within 3 tiles move toward you.Upgraded: All enemies within 5 tiles move toward you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FighterTaunt",
+        "display_name": "Taunt!",
+        "tool_class": "fighter",
+        "icon_label": "FighterTaunt",
+        "resolved_icon_label": "FighterTaunt",
+        "main_svg_id": "845",
+        "main_svg_filename": "845.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Taunt!",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "All enemies within 3 tiles move toward you.Upgraded: All enemies within 5 tiles move toward you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FighterTaunt",
+        "display_name": "Taunt!",
+        "tool_class": "fighter",
+        "icon_label": "FighterTaunt",
+        "resolved_icon_label": "FighterTaunt",
+        "main_svg_id": "845",
+        "main_svg_filename": "845.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tumble",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Move one tile diagonally.Upgraded: Move two tiles diagonally.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Tumble",
+        "display_name": "Tumble",
+        "tool_class": "fighter",
+        "icon_label": "Tumble",
+        "resolved_icon_label": "Tumble",
+        "main_svg_id": "840",
+        "main_svg_filename": "840.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Zoomzerk",
+      "class": "Fighter",
+      "variant": "normal",
+      "description": "Your movement action becomes a dash attack. This ability becomes Reposition.Upgraded: Your movement action becomes a dash attack. Restore all your mana. This ability becomes Reposition+.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Zoomzerk",
+        "display_name": "Zoomzerk",
+        "tool_class": "fighter",
+        "icon_label": "Zoomzerk",
+        "resolved_icon_label": "Zoomzerk",
+        "main_svg_id": "854",
+        "main_svg_filename": "854.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Hunter",
+  "frame_type": "Mana",
+  "count": 27,
+  "abilities": [
+    {
+      "wiki_name": "Arrowsmith",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Gain +1 Bonus Attack at the start of your next turn.Upgraded: You or another unit gains +1 Bonus Attack at the start of their next turn.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ArrowSmith",
+        "display_name": "Arrowsmith",
+        "tool_class": "hunter",
+        "icon_label": "ArrowSmith",
+        "resolved_icon_label": "ArrowSmith",
+        "main_svg_id": "604",
+        "main_svg_filename": "604.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bait Trap",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Set a bait trap that attracts enemies.Upgraded: Set a bait trap that attracts enemies and inflicts Poison and Slow when eaten.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SpawnBaitTrap",
+        "display_name": "Bait Trap",
+        "tool_class": "hunter",
+        "icon_label": "SpawnBaitTrap",
+        "resolved_icon_label": "SpawnBaitTrap",
+        "main_svg_id": "573",
+        "main_svg_filename": "573.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bear Trap",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Set a trap within 5 tiles that damages and immobilizes units that walk over it.Upgraded: Set a trap on any tile that damages and immobilizes units that walk over it.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BearTrap",
+        "display_name": "Bear Trap",
+        "tool_class": "hunter",
+        "icon_label": "BearTrap",
+        "resolved_icon_label": "BearTrap",
+        "main_svg_id": "579",
+        "main_svg_filename": "579.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bounce Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Shoot a projectile that bounces everything adjacent to it back 3 tiles.Upgraded: Shoot a projectile that bounces everything adjacent to it back 3 tiles. They take 5 damage if they collide with something.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BounceShot",
+        "display_name": "Bounce Shot",
+        "tool_class": "hunter",
+        "icon_label": "BounceShot",
+        "resolved_icon_label": "BounceShot",
+        "main_svg_id": "612",
+        "main_svg_filename": "612.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Call of the Wild",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Spawn a charmed Tom Tom.Upgraded: Spawn a charmed Tom Tom on any tile.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SpawnTomTomFriend",
+        "display_name": "Call of the Wild",
+        "tool_class": "hunter",
+        "icon_label": "SpawnTomTomFriend",
+        "resolved_icon_label": "SpawnTomTomFriend",
+        "main_svg_id": "607",
+        "main_svg_filename": "607.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Collect Pelt",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Destroy a body. Equip a piece of Cat Hide armor to an empty armor slot.Upgraded: Destroy a body. Create a big food pickup and equip a piece of Cat Hide armor to an empty armor slot.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "CollectPelt",
+        "display_name": "Collect Pelt",
+        "tool_class": "hunter",
+        "icon_label": "CollectPelt",
+        "resolved_icon_label": "CollectPelt",
+        "main_svg_id": "601",
+        "main_svg_filename": "601.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Collect Pelt",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Destroy a body. Equip a piece of Cat Hide armor to an empty armor slot.Upgraded: Destroy a body. Create a big food pickup and equip a piece of Cat Hide armor to an empty armor slot.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "CollectPelt",
+        "display_name": "Collect Pelt",
+        "tool_class": "hunter",
+        "icon_label": "CollectPelt",
+        "resolved_icon_label": "CollectPelt",
+        "main_svg_id": "601",
+        "main_svg_filename": "601.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Craft Arrow",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Collect an adjacent pickup and gain +1 Bonus Attack instead of its normal effects.Upgraded: Collect all pickups within two tiles of you. Gain +1 Bonus Attack for each pickup instead of their normal effects. (This spell costs 1 mana.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CraftArrow",
+        "display_name": "Craft Arrow",
+        "tool_class": "hunter",
+        "icon_label": "CraftArrow",
+        "resolved_icon_label": "CraftArrow",
+        "main_svg_id": "610",
+        "main_svg_filename": "610.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Craft Arrow",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Collect an adjacent pickup and gain +1 Bonus Attack instead of its normal effects.Upgraded: Collect all pickups within two tiles of you. Gain +1 Bonus Attack for each pickup instead of their normal effects. (This spell costs 1 mana.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CraftArrow",
+        "display_name": "Craft Arrow",
+        "tool_class": "hunter",
+        "icon_label": "CraftArrow",
+        "resolved_icon_label": "CraftArrow",
+        "main_svg_id": "610",
+        "main_svg_filename": "610.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Extend",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Give a unit +3 range and reach until the end of their next turn.Upgraded: Give a unit +20 range and reach until the end of their next turn.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Extend",
+        "display_name": "Extend",
+        "tool_class": "hunter",
+        "icon_label": "Extend",
+        "resolved_icon_label": "Extend",
+        "main_svg_id": "586",
+        "main_svg_filename": "586.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hedge In",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Spawn bear traps on each adjacent tile.Upgraded: Spawn bear traps on each tile exactly 2 tiles away.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Bunker",
+        "display_name": "Hedge In",
+        "tool_class": "hunter",
+        "icon_label": "Bunker",
+        "resolved_icon_label": "Bunker",
+        "main_svg_id": "615",
+        "main_svg_filename": "615.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Marked",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Inflict Marked on a unit.Upgraded: Inflict Marked on a unit and all other units of the same type.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Marked",
+        "display_name": "Marked",
+        "tool_class": "hunter",
+        "icon_label": "Marked",
+        "resolved_icon_label": "Marked",
+        "main_svg_id": "572",
+        "main_svg_filename": "572.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Persistent Hunt",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Inflict Marked 5 on a unit. RELOAD: Kill an enemy.Upgraded: Inflict Marked 5 on a unit. RELOAD: Kill an enemy. This spell starts reloaded.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PersistentHunt",
+        "display_name": "Persistent Hunt",
+        "tool_class": "hunter",
+        "icon_label": "PersistentHunt",
+        "resolved_icon_label": "PersistentHunt",
+        "main_svg_id": "616",
+        "main_svg_filename": "616.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pheromones",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Inflict Charm on a unit. If it's an enemy, it takes an extra turn immediately.Upgraded: Inflict Charm on a unit. It takes an extra turn immediately.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Pheromones",
+        "display_name": "Pheromones",
+        "tool_class": "hunter",
+        "icon_label": "Pheromones",
+        "resolved_icon_label": "Pheromones",
+        "main_svg_id": "600",
+        "main_svg_filename": "600.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Poison Lace",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Give yourself or an adjacent unit +1 Poison Lace.Upgraded: Give yourself or any other unit +1 Poison Lace.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PoisonLace",
+        "display_name": "Poison Lace",
+        "tool_class": "hunter",
+        "icon_label": "PoisonLace",
+        "resolved_icon_label": "PoisonLace",
+        "main_svg_id": "619",
+        "main_svg_filename": "619.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Scout Me",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice. (Castable once per turn.) Upgraded: Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice. (Castable once per turn. This spell costs 0 mana.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ScoutMe",
+        "display_name": "Scout Me",
+        "tool_class": "hunter",
+        "icon_label": "ScoutMe",
+        "resolved_icon_label": "ScoutMe",
+        "main_svg_id": "608",
+        "main_svg_filename": "608.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Scout Me",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice. (Castable once per turn.) Upgraded: Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice. (Castable once per turn. This spell costs 0 mana.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ScoutMe",
+        "display_name": "Scout Me",
+        "tool_class": "hunter",
+        "icon_label": "ScoutMe",
+        "resolved_icon_label": "ScoutMe",
+        "main_svg_id": "608",
+        "main_svg_filename": "608.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sentry Mode",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "The next time an enemy ends movement in your basic attack range, attack it.Upgraded: Until your next turn, whenever an enemy ends movement in your basic attack range, attack it.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SentryMode",
+        "display_name": "Sentry Mode",
+        "tool_class": "hunter",
+        "icon_label": "SentryMode",
+        "resolved_icon_label": "SentryMode",
+        "main_svg_id": "606",
+        "main_svg_filename": "606.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shoot Here!",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Instructs your friend to shoot an adjacent tile! (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ShootHere",
+        "display_name": "Shoot Here!",
+        "tool_class": "hunter",
+        "icon_label": "ShootHere",
+        "resolved_icon_label": "ShootHere",
+        "main_svg_id": "609",
+        "main_svg_filename": "609.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spawn Maggot Friend",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Spawn a maggot familiar.Upgraded: Spawn a maggot familiar.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SpawnMaggotFriend",
+        "display_name": "Spawn Maggot Friend",
+        "tool_class": "hunter",
+        "icon_label": "SpawnMaggotFriend",
+        "resolved_icon_label": "SpawnMaggotFriend",
+        "main_svg_id": "575",
+        "main_svg_filename": "575.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spawn Pooter Friend",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Spawn a pooter familiar.Upgraded: Spawn 2 pooter familiars.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SpawnPooterFriend",
+        "display_name": "Spawn Pooter Friend",
+        "tool_class": "hunter",
+        "icon_label": "SpawnPooterFriend",
+        "resolved_icon_label": "SpawnPooterFriend",
+        "main_svg_id": "576",
+        "main_svg_filename": "576.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stake Out",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "End your turn. On your next turn, your ranged abilities deal double damage. (Castable only if you haven't taken any other actions this turn.) Upgraded: End your turn. On your next turn, your ranged abilities deal double damage. (Costs 0 mana. Castable only if you haven't taken any other actions this turn other than your movement action.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "StakeOut",
+        "display_name": "Stake Out",
+        "tool_class": "hunter",
+        "icon_label": "StakeOut",
+        "resolved_icon_label": "StakeOut",
+        "main_svg_id": "597",
+        "main_svg_filename": "597.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stake Out",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "End your turn. On your next turn, your ranged abilities deal double damage. (Castable only if you haven't taken any other actions this turn.) Upgraded: End your turn. On your next turn, your ranged abilities deal double damage. (Costs 0 mana. Castable only if you haven't taken any other actions this turn other than your movement action.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "StakeOut",
+        "display_name": "Stake Out",
+        "tool_class": "hunter",
+        "icon_label": "StakeOut",
+        "resolved_icon_label": "StakeOut",
+        "main_svg_id": "597",
+        "main_svg_filename": "597.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Summon Brambles",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Spawn brambles on any tile.Upgraded: Spawn brambles in an area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SummonBrambles",
+        "display_name": "Summon Brambles",
+        "tool_class": "hunter",
+        "icon_label": "SummonBrambles",
+        "resolved_icon_label": "SummonBrambles",
+        "main_svg_id": "577",
+        "main_svg_filename": "577.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tactical Retreat",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Teleport up to 5 tiles away. Set a bear trap on the tile you teleported from.Upgraded: Teleport up to 5 tiles away. Set a baited bear trap on the tile you teleported from.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TacticalRetreat",
+        "display_name": "Tactical Retreat",
+        "tool_class": "hunter",
+        "icon_label": "TacticalRetreat",
+        "resolved_icon_label": "TacticalRetreat",
+        "main_svg_id": "603",
+        "main_svg_filename": "603.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Terrain Walk",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Teleport to any grass or water tile.Upgraded: Teleport to any grass or water tile. Gain Stealth.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "TerrainWalk",
+        "display_name": "Terrain Walk",
+        "tool_class": "hunter",
+        "icon_label": "TerrainWalk",
+        "resolved_icon_label": "TerrainWalk",
+        "main_svg_id": "584",
+        "main_svg_filename": "584.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Web Trap",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Set a trap that webs non-bug units that walk through it.Upgraded: Set a web trap on any tile that webs non-bug units that walk through it.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "WebTrap",
+        "display_name": "Web Trap",
+        "tool_class": "hunter",
+        "icon_label": "WebTrap",
+        "resolved_icon_label": "WebTrap",
+        "main_svg_id": "592",
+        "main_svg_filename": "592.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

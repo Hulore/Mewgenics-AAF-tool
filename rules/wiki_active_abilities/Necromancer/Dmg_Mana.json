@@ -1,0 +1,488 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Necromancer",
+  "frame_type": "Dmg_Mana",
+  "count": 20,
+  "abilities": [
+    {
+      "wiki_name": "Blood Geyser",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Take damage equal to half of your max HP, then deal that much damage and inflict Fear 2 on another unit.Upgraded: Take damage equal to half of your max HP, then deal that much damage and inflict Fear 2 on units in an area.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BloodGeyser",
+        "display_name": "Blood Geyser",
+        "tool_class": "necromancer",
+        "icon_label": "BloodGeyser",
+        "resolved_icon_label": "BloodGeyser",
+        "main_svg_id": "904",
+        "main_svg_filename": "904.svg"
+      },
+      "numbers": {
+        "raw": "10 6",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Blood Rain",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Take 1 damage and heal all allies 1 HP.Upgraded: Take 1 damage, heal all allies 1 HP and give them +1 mana.",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "BloodRain",
+        "display_name": "Blood Rain",
+        "tool_class": "necromancer",
+        "icon_label": "BloodRain",
+        "resolved_icon_label": "BloodRain",
+        "main_svg_id": "887",
+        "main_svg_filename": "887.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Carrion Shot",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Deal 1 damage and inflict Leech 1. This spell is stronger and castable while you're downed. Upgraded: Deal 2 damage and inflict Leech 2. This spell is stronger and castable while you're downed.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CarrionShot",
+        "display_name": "Carrion Shot",
+        "tool_class": "necromancer",
+        "icon_label": "CarrionShot",
+        "resolved_icon_label": "CarrionShot",
+        "main_svg_id": "923",
+        "main_svg_filename": "923.svg"
+      },
+      "numbers": {
+        "raw": "1 6",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Carrion Shot",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Deal 1 damage and inflict Leech 1. This spell is stronger and castable while you're downed. Upgraded: Deal 2 damage and inflict Leech 2. This spell is stronger and castable while you're downed.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CarrionShot",
+        "display_name": "Carrion Shot",
+        "tool_class": "necromancer",
+        "icon_label": "CarrionShot",
+        "resolved_icon_label": "CarrionShot",
+        "main_svg_id": "923",
+        "main_svg_filename": "923.svg"
+      },
+      "numbers": {
+        "raw": "2 6",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dark Step",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Teleport to an open tile.Upgraded: Teleport to a tile. If you teleport into a unit you both take 5 damage, then inflict Fear on it.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DarkStep",
+        "display_name": "Dark Step",
+        "tool_class": "necromancer",
+        "icon_label": "DarkStep",
+        "resolved_icon_label": "DarkStep",
+        "main_svg_id": "896",
+        "main_svg_filename": "896.svg"
+      },
+      "numbers": {
+        "raw": "N/A 4",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Dark Step",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Teleport to an open tile.Upgraded: Teleport to a tile. If you teleport into a unit you both take 5 damage, then inflict Fear on it.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "DarkStep",
+        "display_name": "Dark Step",
+        "tool_class": "necromancer",
+        "icon_label": "DarkStep",
+        "resolved_icon_label": "DarkStep",
+        "main_svg_id": "896",
+        "main_svg_filename": "896.svg"
+      },
+      "numbers": {
+        "raw": "5 4",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Debone",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Deal damage and inflict Weakness on an adjacent unit. If you have no weapon, equip a bone.Upgraded: Deal damage, inflict Weakness and Immobile on an adjacent unit. If you have no weapon, equip a bone.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Debone",
+        "display_name": "Debone",
+        "tool_class": "necromancer",
+        "icon_label": "Debone",
+        "resolved_icon_label": "Debone",
+        "main_svg_id": "911",
+        "main_svg_filename": "911.svg"
+      },
+      "numbers": {
+        "raw": "2 7",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Donate Blood",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Heal a unit 5 HP, then take 10 damage. Castable while you're downed. If you do, take no damage and give what you heal All Stats Up. Upgraded: Heal all units in an area 5 HP, then take 10 damage. Castable while you're downed. If you do, take no damage and give what you heal All Stats Up.",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "DonateBlood",
+        "display_name": "Donate Blood",
+        "tool_class": "necromancer",
+        "icon_label": "DonateBlood",
+        "resolved_icon_label": "DonateBlood",
+        "main_svg_id": "917",
+        "main_svg_filename": "917.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Giga Drain",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Spend all of your mana, then drain that much HP from an adjacent unit. Ignores shield.Upgraded: Spend all of your mana, then drain that much HP from a unit in range 3. Ignores shield.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "GigaDrain",
+        "display_name": "Giga Drain",
+        "tool_class": "necromancer",
+        "icon_label": "GigaDrain",
+        "resolved_icon_label": "GigaDrain",
+        "main_svg_id": "908",
+        "main_svg_filename": "908.svg"
+      },
+      "numbers": {
+        "raw": "0 All",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lifedrain",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Drain 2 HP at melee range. This spell is much stronger and castable while you're downed. If this kills a unit, revive with 50% hp. Upgraded: Drain 2 HP at melee range. This spell is much stronger and castable while you're downed. If this kills a unit, revive with max hp.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "LifeDrain",
+        "display_name": "Lifedrain",
+        "tool_class": "necromancer",
+        "icon_label": "LifeDrain",
+        "resolved_icon_label": "LifeDrain",
+        "main_svg_id": "921",
+        "main_svg_filename": "921.svg"
+      },
+      "numbers": {
+        "raw": "2 6",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pestilence",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Deal 1 damage to all units.Upgraded: Deal 1 damage to all units. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "head_Pestilence",
+        "display_name": "",
+        "tool_class": "colorless",
+        "icon_label": "Pestilence",
+        "resolved_icon_label": "Pestilence",
+        "main_svg_id": "881",
+        "main_svg_filename": "881.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Pestilence",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Deal 1 damage to all units.Upgraded: Deal 1 damage to all units. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "head_Pestilence",
+        "display_name": "",
+        "tool_class": "colorless",
+        "icon_label": "Pestilence",
+        "resolved_icon_label": "Pestilence",
+        "main_svg_id": "881",
+        "main_svg_filename": "881.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reaper Step",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Teleport to an open tile in range 1. Whenever a unit dies, this spell's range increases by 1.Upgraded: Teleport to a tile in range 1, dealing damage to units you land on. Whenever a unit dies, this spell's range and damage increase by 1.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ReaperStep",
+        "display_name": "Reaper Step",
+        "tool_class": "necromancer",
+        "icon_label": "ReaperStep",
+        "resolved_icon_label": "ReaperStep",
+        "main_svg_id": "929",
+        "main_svg_filename": "929.svg"
+      },
+      "numbers": {
+        "raw": "N/A 6",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Reaper Step",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Teleport to an open tile in range 1. Whenever a unit dies, this spell's range increases by 1.Upgraded: Teleport to a tile in range 1, dealing damage to units you land on. Whenever a unit dies, this spell's range and damage increase by 1.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ReaperStep",
+        "display_name": "Reaper Step",
+        "tool_class": "necromancer",
+        "icon_label": "ReaperStep",
+        "resolved_icon_label": "ReaperStep",
+        "main_svg_id": "929",
+        "main_svg_filename": "929.svg"
+      },
+      "numbers": {
+        "raw": "1 + X 6",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shriek",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Fear 1, Confusion 2, and Madness 2 on units within a cone.Upgraded: Inflict Fear 1, Confusion 2, Madness 2 and drain 2 HP from units within a cone.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Shriek",
+        "display_name": "Shriek",
+        "tool_class": "necromancer",
+        "icon_label": "Shriek",
+        "resolved_icon_label": "Shriek",
+        "main_svg_id": "898",
+        "main_svg_filename": "898.svg"
+      },
+      "numbers": {
+        "raw": "N/A 9",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shriek",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Inflict Fear 1, Confusion 2, and Madness 2 on units within a cone.Upgraded: Inflict Fear 1, Confusion 2, Madness 2 and drain 2 HP from units within a cone.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Shriek",
+        "display_name": "Shriek",
+        "tool_class": "necromancer",
+        "icon_label": "Shriek",
+        "resolved_icon_label": "Shriek",
+        "main_svg_id": "898",
+        "main_svg_filename": "898.svg"
+      },
+      "numbers": {
+        "raw": "2 9",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Slit Wrists",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Deal 2 damage to yourself.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SlitWrists",
+        "display_name": "Slit Wrists",
+        "tool_class": "necromancer",
+        "icon_label": "SlitWrists",
+        "resolved_icon_label": "SlitWrists",
+        "main_svg_id": "893",
+        "main_svg_filename": "893.svg"
+      },
+      "numbers": {
+        "raw": "2 1",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Soul Transfer",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Give a unit +1 Constitution and heal it 4 HP. You gain -1 Constitution and lose 4 health.Upgraded: Give a unit +1 Constitution and heal it 4 HP. You gain -1 Constitution and lose 4 health. This spell can revive units. If the unit revived was an enemy it gets charmed for the battle.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "SoulTransfer",
+        "display_name": "Soul Transfer",
+        "tool_class": "necromancer",
+        "icon_label": "SoulTransfer",
+        "resolved_icon_label": "SoulTransfer",
+        "main_svg_id": "891",
+        "main_svg_filename": "891.svg"
+      },
+      "numbers": {
+        "raw": "4 1",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spider Egg",
+      "class": "Necromancer",
+      "variant": "normal",
+      "description": "Inflict Infested 1 on a unit in range 3.Upgraded: Deal 1 damage and inflict Infested 1 on any unit.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SpiderEgg",
+        "display_name": "Spider Egg",
+        "tool_class": "necromancer",
+        "icon_label": "SpiderEgg",
+        "resolved_icon_label": "SpiderEgg",
+        "main_svg_id": "935",
+        "main_svg_filename": "935.svg"
+      },
+      "numbers": {
+        "raw": "N/A 3",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spider Egg",
+      "class": "Necromancer",
+      "variant": "upgraded",
+      "description": "Inflict Infested 1 on a unit in range 3.Upgraded: Deal 1 damage and inflict Infested 1 on any unit.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SpiderEgg",
+        "display_name": "Spider Egg",
+        "tool_class": "necromancer",
+        "icon_label": "SpiderEgg",
+        "resolved_icon_label": "SpiderEgg",
+        "main_svg_id": "935",
+        "main_svg_filename": "935.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

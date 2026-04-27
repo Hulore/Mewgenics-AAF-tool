@@ -1,0 +1,32 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Collarless",
+  "frame_type": "Xdmg_Mana",
+  "count": 1,
+  "abilities": [
+    {
+      "wiki_name": "Smack",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "A weak melee attack.Upgraded: A weak melee attack with a chance to repeat.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Smack",
+        "display_name": "Smack",
+        "tool_class": "colorless",
+        "icon_label": "Smack",
+        "resolved_icon_label": "Smack",
+        "main_svg_id": "1248",
+        "main_svg_filename": "1248.svg"
+      },
+      "numbers": {
+        "raw": "2x? 4",
+        "frame_type": "Xdmg_Mana",
+        "value": "2x?",
+        "mana": "4",
+        "hit_count": 2,
+        "hit_value": "?"
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Monk",
+  "frame_type": "Xdmg_Mana",
+  "count": 4,
+  "abilities": [
+    {
+      "wiki_name": "Hundred Hand Slap",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo.Upgraded: A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo. Each hit has a 10% chance to inflict Bruise. The final hit deals extra damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "HundredHandSlap",
+        "display_name": "Hundred Hand Slap",
+        "tool_class": "monk",
+        "icon_label": "HundredHandSlap",
+        "resolved_icon_label": "HundredHandSlap",
+        "main_svg_id": "1088",
+        "main_svg_filename": "1088.svg"
+      },
+      "numbers": {
+        "raw": "1x10 15",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x10",
+        "mana": "15",
+        "hit_count": 1,
+        "hit_value": "10"
+      }
+    },
+    {
+      "wiki_name": "Propel",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Dash forward one tile and attack.Upgraded: Dash forward one tile and attack, twice!",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Propell",
+        "display_name": "Propel",
+        "tool_class": "monk",
+        "icon_label": "Propell",
+        "resolved_icon_label": "Propell",
+        "main_svg_id": "1061",
+        "main_svg_filename": "1061.svg"
+      },
+      "numbers": {
+        "raw": "3x2 5",
+        "frame_type": "Xdmg_Mana",
+        "value": "3x2",
+        "mana": "5",
+        "hit_count": 3,
+        "hit_value": "2"
+      }
+    },
+    {
+      "wiki_name": "Unbridled Hits",
+      "class": "Monk",
+      "variant": "normal",
+      "description": "A weak melee attack that hits an extra time for each empty armor slot you have.Upgraded: A weak melee attack that hits two extra times for each empty armor slot you have.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "UnbridledHits",
+        "display_name": "Unbridled Hits",
+        "tool_class": "monk",
+        "icon_label": "UnbridledHits",
+        "resolved_icon_label": "UnbridledHits",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "2x4 5",
+        "frame_type": "Xdmg_Mana",
+        "value": "2x4",
+        "mana": "5",
+        "hit_count": 2,
+        "hit_value": "4"
+      }
+    },
+    {
+      "wiki_name": "Unbridled Hits",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "A weak melee attack that hits an extra time for each empty armor slot you have.Upgraded: A weak melee attack that hits two extra times for each empty armor slot you have.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "UnbridledHits",
+        "display_name": "Unbridled Hits",
+        "tool_class": "monk",
+        "icon_label": "UnbridledHits",
+        "resolved_icon_label": "UnbridledHits",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "2x7 5",
+        "frame_type": "Xdmg_Mana",
+        "value": "2x7",
+        "mana": "5",
+        "hit_count": 2,
+        "hit_value": "7"
+      }
+    }
+  ]
+}

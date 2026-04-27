@@ -1,0 +1,1544 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Druid",
+  "frame_type": "Mana",
+  "count": 64,
+  "abilities": [
+    {
+      "wiki_name": "Battle Cry",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Give all familiars in an area +2 Damage.Upgraded: Give all familiars +3 Damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "BattleCry",
+        "display_name": "Battle Cry",
+        "tool_class": "druid",
+        "icon_label": "BattleCry",
+        "resolved_icon_label": "BattleCry",
+        "main_svg_id": "1004",
+        "main_svg_filename": "1004.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bestow Wisdom",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Give +1 Intelligence to a unit.Upgraded: Give +1 Intelligence and +2 mana to a unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BestowWisdom",
+        "display_name": "Bestow Wisdom",
+        "tool_class": "druid",
+        "icon_label": "BestowWisdom",
+        "resolved_icon_label": "BestowWisdom",
+        "main_svg_id": "1026",
+        "main_svg_filename": "1026.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Birth Squirrel",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Summon a squirrel. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BirthSquirrel",
+        "display_name": "Birth Squirrel",
+        "tool_class": "druid",
+        "icon_label": "BirthSquirrel",
+        "resolved_icon_label": "BirthSquirrel",
+        "main_svg_id": "1041",
+        "main_svg_filename": "1041.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Birth Squirrel",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Summon a squirrel. (Castable once per turn.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BirthSquirrel",
+        "display_name": "Birth Squirrel",
+        "tool_class": "druid",
+        "icon_label": "BirthSquirrel",
+        "resolved_icon_label": "BirthSquirrel",
+        "main_svg_id": "1041",
+        "main_svg_filename": "1041.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bloom",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Give 5 mana to allies in an area.Upgraded: Give 5 mana to allies in a large area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ManaBomb",
+        "display_name": "Bloom",
+        "tool_class": "druid",
+        "icon_label": "ManaBomb",
+        "resolved_icon_label": "ManaBomb",
+        "main_svg_id": "993",
+        "main_svg_filename": "993.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Call the Wind",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Blow all units back one tile.Upgraded: Blow all units back three tiles. Allies are immune to knockback damage during this.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CallTheWind",
+        "display_name": "Call the Wind",
+        "tool_class": "druid",
+        "icon_label": "CallTheWind",
+        "resolved_icon_label": "CallTheWind",
+        "main_svg_id": "1023",
+        "main_svg_filename": "1023.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cha Cha Slide",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Deal 10 Knockback to all units in a random direction. Allies are immune to Thorns, tile and Knockback damage during this effect.Upgraded: Deal 10 Knockback to all units in a random direction. Allies gain +3 temporary Thorns and are immune to Thorns, tile and Knockback damage during this effect.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ChaChaSlide",
+        "display_name": "Cha Cha Slide",
+        "tool_class": "druid",
+        "icon_label": "ChaChaSlide",
+        "resolved_icon_label": "ChaChaSlide",
+        "main_svg_id": "1025",
+        "main_svg_filename": "1025.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cheerlead",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Make a target unit The Alpha. PASSIVE: The first spell the Alpha casts each turn is cast twice.Upgraded: Make a target unit The Alpha. PASSIVE: The first spell the Alpha casts each turn is cast twice. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Cheerlead",
+        "display_name": "Cheerlead",
+        "tool_class": "druid",
+        "icon_label": "Cheerlead",
+        "resolved_icon_label": "Cheerlead",
+        "main_svg_id": "1044",
+        "main_svg_filename": "1044.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cheerlead",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Make a target unit The Alpha. PASSIVE: The first spell the Alpha casts each turn is cast twice.Upgraded: Make a target unit The Alpha. PASSIVE: The first spell the Alpha casts each turn is cast twice. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Cheerlead",
+        "display_name": "Cheerlead",
+        "tool_class": "druid",
+        "icon_label": "Cheerlead",
+        "resolved_icon_label": "Cheerlead",
+        "main_svg_id": "1044",
+        "main_svg_filename": "1044.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Control Air",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Blow a unit ten tiles away from you. This doesn't deal Knockback damage.Upgraded: Blow a unit ten tiles away from you. This doesn't deal Knockback damage. (This spell costs less and has infinite range.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ControlAir",
+        "display_name": "Control Air",
+        "tool_class": "druid",
+        "icon_label": "ControlAir",
+        "resolved_icon_label": "ControlAir",
+        "main_svg_id": "1030",
+        "main_svg_filename": "1030.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Control Air",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Blow a unit ten tiles away from you. This doesn't deal Knockback damage.Upgraded: Blow a unit ten tiles away from you. This doesn't deal Knockback damage. (This spell costs less and has infinite range.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ControlAir",
+        "display_name": "Control Air",
+        "tool_class": "druid",
+        "icon_label": "ControlAir",
+        "resolved_icon_label": "ControlAir",
+        "main_svg_id": "1030",
+        "main_svg_filename": "1030.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Death Metal",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "A song that explodes a random enemy. If this hits a boss, it instead inflicts Fear.Upgraded: A song that explodes a random enemy. If this hits a boss, it instead inflicts Fear. Inflict Madness on each other enemy.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DeathMetal",
+        "display_name": "Death Metal",
+        "tool_class": "druid",
+        "icon_label": "DeathMetal",
+        "resolved_icon_label": "DeathMetal",
+        "main_svg_id": "1024",
+        "main_svg_filename": "1024.svg"
+      },
+      "numbers": {
+        "raw": "13",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "13",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Encourage",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Give a familiar an extra turn after this one.Upgraded: Give a familiar an extra turn after this one. (This spell costs less and has increased range.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Encourage",
+        "display_name": "Encourage",
+        "tool_class": "druid",
+        "icon_label": "Encourage",
+        "resolved_icon_label": "Encourage",
+        "main_svg_id": "1009",
+        "main_svg_filename": "1009.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Encourage",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Give a familiar an extra turn after this one.Upgraded: Give a familiar an extra turn after this one. (This spell costs less and has increased range.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Encourage",
+        "display_name": "Encourage",
+        "tool_class": "druid",
+        "icon_label": "Encourage",
+        "resolved_icon_label": "Encourage",
+        "main_svg_id": "1009",
+        "main_svg_filename": "1009.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Entangle",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Entangle units in an area.Upgraded: Entangle units in an area and spawn bramble tiles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Entangle",
+        "display_name": "Entangle",
+        "tool_class": "druid",
+        "icon_label": "Entangle",
+        "resolved_icon_label": "Entangle",
+        "main_svg_id": "1057",
+        "main_svg_filename": "1057.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flower Feet",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Move 3 tiles. Plant flowers as you move.Upgraded: Move 5 tiles. Plant flowers as you move and where you end up.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FlowerFeet",
+        "display_name": "Flower Feet",
+        "tool_class": "druid",
+        "icon_label": "FlowerFeet",
+        "resolved_icon_label": "FlowerFeet",
+        "main_svg_id": "1007",
+        "main_svg_filename": "1007.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flutter",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Fly over 3 tiles.Upgraded: Fly over 3-4 tiles.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "CrowFlutter",
+        "display_name": "Flutter",
+        "tool_class": "druid",
+        "icon_label": "CrowFlutter",
+        "resolved_icon_label": "CrowFlutter",
+        "main_svg_id": "991",
+        "main_svg_filename": "991.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Form of the Elk",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Enter Elk Form, gaining +8 Speed, -2 Intelligence, -2 Constitution, and Trample 3. You ignore tile effects while moving. Your basic attack becomes Antler Swipe and this becomes Prance.Upgraded: Enter Elk Form, gaining +8 Speed and Trample 3. You ignore tile effects while moving. Your basic attack becomes Antler Swipe+ and this becomes Prance+.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "ElkForm",
+        "display_name": "Form of the Elk",
+        "tool_class": "druid",
+        "icon_label": "ElkForm",
+        "resolved_icon_label": "ElkForm",
+        "main_svg_id": "1051",
+        "main_svg_filename": "1051.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Form of the Mockingbird",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Enter Mockingbird Form, gaining flying movement, +2 Luck, and -2 Strength. Your basic attack becomes Mock Song and this becomes Tease.Upgraded: Enter Mockingbird Form, gaining flying movement and +2 Luck. Your basic attack becomes Mock Song+ and this becomes Tease+.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MockingbirdForm",
+        "display_name": "Form of the Mockingbird",
+        "tool_class": "druid",
+        "icon_label": "MockingbirdForm",
+        "resolved_icon_label": "MockingbirdForm",
+        "main_svg_id": "1050",
+        "main_svg_filename": "1050.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Form of the Monkey",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Enter Monkey Form, gaining +2 Dexterity, +2 Luck, -2 Constitution, and -2 Charisma. Your basic attack becomes Throw Poop and this becomes Monkey Toss.Upgraded: Enter Monkey Form, gaining +2 Dexterity and +2 Luck. Your basic attack becomes Throw Poop and this becomes Monkey Toss+.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MonkeyForm",
+        "display_name": "Form of the Monkey",
+        "tool_class": "druid",
+        "icon_label": "MonkeyForm",
+        "resolved_icon_label": "MonkeyForm",
+        "main_svg_id": "1016",
+        "main_svg_filename": "1016.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Form of the Raccoon",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Enter Raccoon Form, gaining +2 Intelligence, and -2 Strength. Your basic attack becomes Pilfer and this becomes Scavenge.Upgraded: Enter Raccoon Form, gaining +2 Intelligence, and +2 Luck. Your basic attack becomes Pilfer and this becomes Scavenge+.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "RaccoonForm",
+        "display_name": "Form of the Raccoon",
+        "tool_class": "druid",
+        "icon_label": "RaccoonForm",
+        "resolved_icon_label": "RaccoonForm",
+        "main_svg_id": "1027",
+        "main_svg_filename": "1027.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Form of the Squirrel",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Spawn squirrels on each adjacent tile, then enter Squirrel Form. Your basic attack becomes Chitter and this becomes Birth Squirrel.Upgraded: Spawn squirrels on each adjacent tile, then enter Squirrel Form. Your basic attack becomes Chitter and this becomes Birth Squirrel+. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SquirrelForm",
+        "display_name": "Form of the Squirrel",
+        "tool_class": "druid",
+        "icon_label": "SquirrelForm",
+        "resolved_icon_label": "SquirrelForm",
+        "main_svg_id": "1039",
+        "main_svg_filename": "1039.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Form of the Squirrel",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Spawn squirrels on each adjacent tile, then enter Squirrel Form. Your basic attack becomes Chitter and this becomes Birth Squirrel.Upgraded: Spawn squirrels on each adjacent tile, then enter Squirrel Form. Your basic attack becomes Chitter and this becomes Birth Squirrel+. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SquirrelForm",
+        "display_name": "Form of the Squirrel",
+        "tool_class": "druid",
+        "icon_label": "SquirrelForm",
+        "resolved_icon_label": "SquirrelForm",
+        "main_svg_id": "1039",
+        "main_svg_filename": "1039.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Form of the Tree",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Enter Tree Form, gaining -2 Intelligence, +5 , and Brace 2. You become immobile and immune to Knockback. Your basic attack becomes Timber and this becomes Synthesize.Upgraded: Enter Tree Form, gaining -2 Intelligence, +5 , and Brace 4. You become immobile and immune to Knockback. Your basic attack becomes Timber and this becomes Synthesize+.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "TreeForm",
+        "display_name": "Form of the Tree",
+        "tool_class": "druid",
+        "icon_label": "TreeForm",
+        "resolved_icon_label": "TreeForm",
+        "main_svg_id": "1035",
+        "main_svg_filename": "1035.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Form of the Turtle",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Enter Turtle Form, getting +2 Constitution, +10 , -2 Intelligence, and -2 Speed. Your basic attack becomes Head Bash and this becomes Harden Shell.Upgraded: Enter Turtle Form, getting +2 Constitution, +10 , and -2 Intelligence. Your basic attack becomes Head Bash and this becomes Harden Shell+.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "RhinoForm",
+        "display_name": "Form of the Turtle",
+        "tool_class": "druid",
+        "icon_label": "RhinoForm",
+        "resolved_icon_label": "RhinoForm",
+        "main_svg_id": "1018",
+        "main_svg_filename": "1018.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Form of the Wolf",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Enter Wolf Form, gaining +2 Strength, +2 Speed, -2 Luck, and -2 Intelligence. Your basic attack becomes Wolf Claws and this becomes Pounce.Upgraded: Enter Wolf Form, gaining +2 Strength, +2 Speed, -2 Luck, and -2 Intelligence. Your basic attack becomes Wolf Claws+ and this becomes Pounce+.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "TigerForm",
+        "display_name": "Form of the Wolf",
+        "tool_class": "druid",
+        "icon_label": "TigerForm",
+        "resolved_icon_label": "TigerForm",
+        "main_svg_id": "1014",
+        "main_svg_filename": "1014.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Harden Shell",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Gain +1 , +1 Thorns, and +1 temporary Brace.Upgraded: Gain +1 , +1 Thorns, and +1 temporary Brace. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "HardenSkin",
+        "display_name": "Harden Shell",
+        "tool_class": "druid",
+        "icon_label": "HardenSkin",
+        "resolved_icon_label": "HardenSkin",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Harden Shell",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Gain +1 , +1 Thorns, and +1 temporary Brace.Upgraded: Gain +1 , +1 Thorns, and +1 temporary Brace. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "HardenSkin",
+        "display_name": "Harden Shell",
+        "tool_class": "druid",
+        "icon_label": "HardenSkin",
+        "resolved_icon_label": "HardenSkin",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hydro Pump",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Shoot a blast of water that deals 3 Knockback. This spell has recoil.Upgraded: Shoot a long blast of water that deals 10 Knockback. This spell has recoil.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "HydroPump",
+        "display_name": "Hydro Pump",
+        "tool_class": "druid",
+        "icon_label": "HydroPump",
+        "resolved_icon_label": "HydroPump",
+        "main_svg_id": "",
+        "main_svg_filename": ""
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lullaby",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Inflicts Sleep on units in an area.Upgraded: Inflicts Sleep on units in an area. (This spell costs less and has increased range.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Lullaby",
+        "display_name": "Lullaby",
+        "tool_class": "druid",
+        "icon_label": "Lullaby",
+        "resolved_icon_label": "Lullaby",
+        "main_svg_id": "1046",
+        "main_svg_filename": "1046.svg"
+      },
+      "numbers": {
+        "raw": "12",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Lullaby",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Inflicts Sleep on units in an area.Upgraded: Inflicts Sleep on units in an area. (This spell costs less and has increased range.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Lullaby",
+        "display_name": "Lullaby",
+        "tool_class": "druid",
+        "icon_label": "Lullaby",
+        "resolved_icon_label": "Lullaby",
+        "main_svg_id": "1046",
+        "main_svg_filename": "1046.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Monkey Toss",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Throw an adjacent unit to another tile. It takes damage if it's thrown onto something.Upgraded: Throw an adjacent unit to another tile. It takes damage if it's thrown onto something. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MonkeyThrow",
+        "display_name": "Monkey Toss",
+        "tool_class": "druid",
+        "icon_label": "MonkeyThrow",
+        "resolved_icon_label": "MonkeyThrow",
+        "main_svg_id": "547",
+        "main_svg_filename": "547.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Monkey Toss",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Throw an adjacent unit to another tile. It takes damage if it's thrown onto something.Upgraded: Throw an adjacent unit to another tile. It takes damage if it's thrown onto something. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "MonkeyThrow",
+        "display_name": "Monkey Toss",
+        "tool_class": "druid",
+        "icon_label": "MonkeyThrow",
+        "resolved_icon_label": "MonkeyThrow",
+        "main_svg_id": "547",
+        "main_svg_filename": "547.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nature's Blessing",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Grow tall grass tiles in an area and give units in that area +3 Diminishing Health RegenerationUpgraded: Grow tall grass tiles in an area and give units in that area +3 Diminishing Health Regeneration (This spell costs less and has infinite range.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "NaturesBlessing",
+        "display_name": "Nature's Blessing",
+        "tool_class": "druid",
+        "icon_label": "NaturesBlessing",
+        "resolved_icon_label": "NaturesBlessing",
+        "main_svg_id": "1043",
+        "main_svg_filename": "1043.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Nature's Blessing",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Grow tall grass tiles in an area and give units in that area +3 Diminishing Health RegenerationUpgraded: Grow tall grass tiles in an area and give units in that area +3 Diminishing Health Regeneration (This spell costs less and has infinite range.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "NaturesBlessing",
+        "display_name": "Nature's Blessing",
+        "tool_class": "druid",
+        "icon_label": "NaturesBlessing",
+        "resolved_icon_label": "NaturesBlessing",
+        "main_svg_id": "1043",
+        "main_svg_filename": "1043.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Plant Mushroom",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Spawn a glowing mushroom that restores mana to nearby units on its turn.Upgraded: Spawn a glowing mushroom anywhere that restores mana and health to nearby units on its turn.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "PlantMushroom",
+        "display_name": "Plant Mushroom",
+        "tool_class": "druid",
+        "icon_label": "PlantMushroom",
+        "resolved_icon_label": "PlantMushroom",
+        "main_svg_id": "1056",
+        "main_svg_filename": "1056.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Prance",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Refresh your movement action.Upgraded: Refresh your movement action. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Prance",
+        "display_name": "Prance",
+        "tool_class": "druid",
+        "icon_label": "Prance",
+        "resolved_icon_label": "Prance",
+        "main_svg_id": "1053",
+        "main_svg_filename": "1053.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Prance",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Refresh your movement action.Upgraded: Refresh your movement action. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Prance",
+        "display_name": "Prance",
+        "tool_class": "druid",
+        "icon_label": "Prance",
+        "resolved_icon_label": "Prance",
+        "main_svg_id": "1053",
+        "main_svg_filename": "1053.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Promote",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "The next familiar you spawn becomes a champion.Upgraded: The next familiar you spawn becomes an elite.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Promote",
+        "display_name": "Promote",
+        "tool_class": "druid",
+        "icon_label": "Promote",
+        "resolved_icon_label": "Promote",
+        "main_svg_id": "1011",
+        "main_svg_filename": "1011.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Protection",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Give a familiar +1 .Upgraded: Give familiars in a large area +1 .",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Protection",
+        "display_name": "Protection",
+        "tool_class": "druid",
+        "icon_label": "Protection",
+        "resolved_icon_label": "Protection",
+        "main_svg_id": "1010",
+        "main_svg_filename": "1010.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Resummon Crow",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Summon a new crow. Castable only if your crow is dead.Upgraded: Summon a crow.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SummonCrow",
+        "display_name": "Resummon Crow",
+        "tool_class": "druid",
+        "icon_label": "SummonCrow",
+        "resolved_icon_label": "SummonCrow",
+        "main_svg_id": "1038",
+        "main_svg_filename": "1038.svg"
+      },
+      "numbers": {
+        "raw": "11",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "11",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Safety Dance",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Give all allies +1 .Upgraded: Give all allies +2 .",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SafetyDance",
+        "display_name": "Safety Dance",
+        "tool_class": "druid",
+        "icon_label": "SafetyDance",
+        "resolved_icon_label": "SafetyDance",
+        "main_svg_id": "1012",
+        "main_svg_filename": "1012.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Scavenge",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Run to any pickup and collect it.Upgraded: Run to any pickup and collect it. The effects of that pickup are doubled.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Scavenge",
+        "display_name": "Scavenge",
+        "tool_class": "druid",
+        "icon_label": "Scavenge",
+        "resolved_icon_label": "Scavenge",
+        "main_svg_id": "1029",
+        "main_svg_filename": "1029.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Serenade",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Give Health Regeneration 1 to units in an area.Upgraded: Give Health Regeneration 1 to units in a larger area. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Serenade",
+        "display_name": "Serenade",
+        "tool_class": "druid",
+        "icon_label": "Serenade",
+        "resolved_icon_label": "Serenade",
+        "main_svg_id": "1055",
+        "main_svg_filename": "1055.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Serenade",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Give Health Regeneration 1 to units in an area.Upgraded: Give Health Regeneration 1 to units in a larger area. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "Serenade",
+        "display_name": "Serenade",
+        "tool_class": "druid",
+        "icon_label": "Serenade",
+        "resolved_icon_label": "Serenade",
+        "main_svg_id": "1055",
+        "main_svg_filename": "1055.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Sleep Powder",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Inflict Sleep on a unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SleepPowder",
+        "display_name": "Sleep Powder",
+        "tool_class": "druid",
+        "icon_label": "SleepPowder",
+        "resolved_icon_label": "SleepPowder",
+        "main_svg_id": "1022",
+        "main_svg_filename": "1022.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Song of Spring",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Spawn flower tiles in an area.Upgraded: Spawn flower tiles in a large area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SongOfSpring",
+        "display_name": "Song of Spring",
+        "tool_class": "druid",
+        "icon_label": "SongOfSpring",
+        "resolved_icon_label": "SongOfSpring",
+        "main_svg_id": "994",
+        "main_svg_filename": "994.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Squirrel Squad",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Summon 5 baby squirrels.Upgraded: Summon 5 adult squirrels.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SquirrelSquad",
+        "display_name": "Squirrel Squad",
+        "tool_class": "druid",
+        "icon_label": "SquirrelSquad",
+        "resolved_icon_label": "SquirrelSquad",
+        "main_svg_id": "996",
+        "main_svg_filename": "996.svg"
+      },
+      "numbers": {
+        "raw": "13",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "13",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Stand By Me",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Teleport an ally to you.Upgraded: Teleport any unit to you.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "PullToSafety",
+        "display_name": "Stand By Me",
+        "tool_class": "druid",
+        "icon_label": "PullToSafety",
+        "resolved_icon_label": "PullToSafety",
+        "main_svg_id": "1005",
+        "main_svg_filename": "1005.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Step In",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Swap positions with a familiar.Upgraded: Swap positions with any unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "DruidSwap",
+        "display_name": "Step In",
+        "tool_class": "druid",
+        "icon_label": "DruidSwap",
+        "resolved_icon_label": "DruidSwap",
+        "main_svg_id": "1003",
+        "main_svg_filename": "1003.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Summon Bear",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Summon a bear.Upgraded: Summon a furious bear! (It has Fury Swipes.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SummonBear",
+        "display_name": "Summon Bear",
+        "tool_class": "druid",
+        "icon_label": "SummonBear",
+        "resolved_icon_label": "SummonBear",
+        "main_svg_id": "1002",
+        "main_svg_filename": "1002.svg"
+      },
+      "numbers": {
+        "raw": "12",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Summon Caterpillar",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Summon a caterpillar. It gains All Stats Up at the end of each turn. It becomes a moth at All Stats Up 5.Upgraded: Summon a caterpillar with All Stats Up 2. It gains All Stats Up at the end of each turn. It becomes a moth at All Stats Up 5.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SummonCatepillar",
+        "display_name": "Summon Caterpillar",
+        "tool_class": "druid",
+        "icon_label": "SummonCatepillar",
+        "resolved_icon_label": "SummonCatepillar",
+        "main_svg_id": "1021",
+        "main_svg_filename": "1021.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Summon Snake",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Summon a snake.Upgraded: Summon a slippery snake! (It has a 66% dodge chance.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SummonSnake",
+        "display_name": "Summon Snake",
+        "tool_class": "druid",
+        "icon_label": "SummonSnake",
+        "resolved_icon_label": "SummonSnake",
+        "main_svg_id": "999",
+        "main_svg_filename": "999.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Summon Squirrel",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Summon a squirrel.Upgraded: Summon a squirrel to any tile.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SummonSquirrel",
+        "display_name": "Summon Squirrel",
+        "tool_class": "druid",
+        "icon_label": "SummonSquirrel",
+        "resolved_icon_label": "SummonSquirrel",
+        "main_svg_id": "998",
+        "main_svg_filename": "998.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Summon Toad",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Summon a toad.Upgraded: Summon a super toad! (It has more damage, health, and can move an extra time each turn)",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "SummonToad",
+        "display_name": "Summon Toad",
+        "tool_class": "druid",
+        "icon_label": "SummonToad",
+        "resolved_icon_label": "SummonToad",
+        "main_svg_id": "1001",
+        "main_svg_filename": "1001.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Summon Turtle",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Summon a turtle.Upgraded: Summon a turtle to any tile in range 6.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "SummonTurtle",
+        "display_name": "Summon Turtle",
+        "tool_class": "druid",
+        "icon_label": "SummonTurtle",
+        "resolved_icon_label": "SummonTurtle",
+        "main_svg_id": "1000",
+        "main_svg_filename": "1000.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Tease",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Inflict Madness 1 on a unit.Upgraded: Inflict Madness 1 on a unit. It immediately attacks a unit if it can.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Tease",
+        "display_name": "Tease",
+        "tool_class": "druid",
+        "icon_label": "Tease",
+        "resolved_icon_label": "Tease",
+        "main_svg_id": "1048",
+        "main_svg_filename": "1048.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Thorny Feet",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Move 3 tiles. Plant brambles as you move.Upgraded: Move 3 tiles. Plant brambles as you move. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ThornyFeet",
+        "display_name": "Thorny Feet",
+        "tool_class": "druid",
+        "icon_label": "ThornyFeet",
+        "resolved_icon_label": "ThornyFeet",
+        "main_svg_id": "1008",
+        "main_svg_filename": "1008.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Thorny Feet",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Move 3 tiles. Plant brambles as you move.Upgraded: Move 3 tiles. Plant brambles as you move. (This spell costs less.)",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ThornyFeet",
+        "display_name": "Thorny Feet",
+        "tool_class": "druid",
+        "icon_label": "ThornyFeet",
+        "resolved_icon_label": "ThornyFeet",
+        "main_svg_id": "1008",
+        "main_svg_filename": "1008.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "War Cry",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Each familiar attacks their closest enemy immediately if they can.Upgraded: Your allies and familiars all attack their closest enemy immediately if they can.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "WarCry",
+        "display_name": "War Cry",
+        "tool_class": "druid",
+        "icon_label": "WarCry",
+        "resolved_icon_label": "WarCry",
+        "main_svg_id": "1013",
+        "main_svg_filename": "1013.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "We Are the Champions",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Each familiar gains All Stats Up 2 and heals to full. (Castable once per battle.) Upgraded: Each familiar gains All Stats Up 2 and heals to full. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "WeAreTheChampions",
+        "display_name": "We Are the Champions",
+        "tool_class": "druid",
+        "icon_label": "WeAreTheChampions",
+        "resolved_icon_label": "WeAreTheChampions",
+        "main_svg_id": "1045",
+        "main_svg_filename": "1045.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "We Are the Champions",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Each familiar gains All Stats Up 2 and heals to full. (Castable once per battle.) Upgraded: Each familiar gains All Stats Up 2 and heals to full. (This spell costs 0 mana. Castable once per battle.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "WeAreTheChampions",
+        "display_name": "We Are the Champions",
+        "tool_class": "druid",
+        "icon_label": "WeAreTheChampions",
+        "resolved_icon_label": "WeAreTheChampions",
+        "main_svg_id": "1045",
+        "main_svg_filename": "1045.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "We Will Rock You",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Inflict Petrify on a familiar and give it +6 .Upgraded: Inflict Petrify on a familiar and give it +6 and +2 Thorns.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "WeWillRockYou",
+        "display_name": "We Will Rock You",
+        "tool_class": "druid",
+        "icon_label": "WeWillRockYou",
+        "resolved_icon_label": "WeWillRockYou",
+        "main_svg_id": "1037",
+        "main_svg_filename": "1037.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Windy Step",
+      "class": "Druid",
+      "variant": "normal",
+      "description": "Give a unit +1 Bonus Move.Upgraded: Give a unit +1 Bonus Move and +1 Speed. They take their next turn earlier.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "WindyStep",
+        "display_name": "Windy Step",
+        "tool_class": "druid",
+        "icon_label": "WindyStep",
+        "resolved_icon_label": "WindyStep",
+        "main_svg_id": "1054",
+        "main_svg_filename": "1054.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,896 @@
+{
+  "source": "https://mewgenics.wiki.gg/wiki/Abilities",
+  "class": "Hunter",
+  "frame_type": "Dmg_Mana",
+  "count": 37,
+  "abilities": [
+    {
+      "wiki_name": "Ball of Spiders",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Throw a spider egg that spawns 3 spiderlings on impact.Upgraded: Throw a stronger spider egg that spawns 3 spiderlings on impact.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BallOfSpiders",
+        "display_name": "Ball of Spiders",
+        "tool_class": "hunter",
+        "icon_label": "BallOfSpiders",
+        "resolved_icon_label": "BallOfSpiders",
+        "main_svg_id": "598",
+        "main_svg_filename": "598.svg"
+      },
+      "numbers": {
+        "raw": "2 9",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Ball of Spiders",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Throw a spider egg that spawns 3 spiderlings on impact.Upgraded: Throw a stronger spider egg that spawns 3 spiderlings on impact.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BallOfSpiders",
+        "display_name": "Ball of Spiders",
+        "tool_class": "hunter",
+        "icon_label": "BallOfSpiders",
+        "resolved_icon_label": "BallOfSpiders",
+        "main_svg_id": "598",
+        "main_svg_filename": "598.svg"
+      },
+      "numbers": {
+        "raw": "6 9",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bomb Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Toss a bomb that explodes and knocks units away.Upgraded: Toss a large bomb that explodes and knocks units away.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BombShot",
+        "display_name": "Bomb Shot",
+        "tool_class": "hunter",
+        "icon_label": "BombShot",
+        "resolved_icon_label": "BombShot",
+        "main_svg_id": "574",
+        "main_svg_filename": "574.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Bramble Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Fire a shot that spawns brambles in an area.Upgraded: Fire a shot that spawns brambles in a large area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "BrambleShot",
+        "display_name": "Bramble Shot",
+        "tool_class": "hunter",
+        "icon_label": "BrambleShot",
+        "resolved_icon_label": "BrambleShot",
+        "main_svg_id": "578",
+        "main_svg_filename": "578.svg"
+      },
+      "numbers": {
+        "raw": "2 7",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Chaos Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Shoot a random unit within range.Upgraded: Shoot a random unit within range, twice!",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ChaosShot",
+        "display_name": "Chaos Shot",
+        "tool_class": "hunter",
+        "icon_label": "ChaosShot",
+        "resolved_icon_label": "ChaosShot",
+        "main_svg_id": "588",
+        "main_svg_filename": "588.svg"
+      },
+      "numbers": {
+        "raw": "4 3",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Charm Trap",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Spawn a trap that deals damage and inflicts Charm 1.Upgraded: Spawn a trap that deals damage and inflicts Charm 1. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CharmTrap",
+        "display_name": "Charm Trap",
+        "tool_class": "hunter",
+        "icon_label": "CharmTrap",
+        "resolved_icon_label": "CharmTrap",
+        "main_svg_id": "611",
+        "main_svg_filename": "611.svg"
+      },
+      "numbers": {
+        "raw": "2 6",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Charm Trap",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Spawn a trap that deals damage and inflicts Charm 1.Upgraded: Spawn a trap that deals damage and inflicts Charm 1. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CharmTrap",
+        "display_name": "Charm Trap",
+        "tool_class": "hunter",
+        "icon_label": "CharmTrap",
+        "resolved_icon_label": "CharmTrap",
+        "main_svg_id": "611",
+        "main_svg_filename": "611.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cross Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Shoot four projectiles in an X shape.Upgraded: Shoot four penetrating projectiles in an X shape.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "CrossShot",
+        "display_name": "Cross Shot",
+        "tool_class": "hunter",
+        "icon_label": "CrossShot",
+        "resolved_icon_label": "CrossShot",
+        "main_svg_id": "569",
+        "main_svg_filename": "569.svg"
+      },
+      "numbers": {
+        "raw": "4 7",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cupid's Arrow",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "A shot that damages and inflicts Charm.Upgraded: A shot that damages and inflicts Charm 2. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CupidsArrow",
+        "display_name": "Cupid's Arrow",
+        "tool_class": "hunter",
+        "icon_label": "CupidsArrow",
+        "resolved_icon_label": "CupidsArrow",
+        "main_svg_id": "594",
+        "main_svg_filename": "594.svg"
+      },
+      "numbers": {
+        "raw": "6 12",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Cupid's Arrow",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "A shot that damages and inflicts Charm.Upgraded: A shot that damages and inflicts Charm 2. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "CupidsArrow",
+        "display_name": "Cupid's Arrow",
+        "tool_class": "hunter",
+        "icon_label": "CupidsArrow",
+        "resolved_icon_label": "CupidsArrow",
+        "main_svg_id": "594",
+        "main_svg_filename": "594.svg"
+      },
+      "numbers": {
+        "raw": "6 8",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Diversion",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Shoot a pebble. All enemies within 3 tiles move toward it.Upgraded: Shoot a pebble. All enemies within 3 tiles move toward it and gain Confusion.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Diversion",
+        "display_name": "Diversion",
+        "tool_class": "hunter",
+        "icon_label": "Diversion",
+        "resolved_icon_label": "Diversion",
+        "main_svg_id": "605",
+        "main_svg_filename": "605.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Egg Sac Trap",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Spawn a spider egg trap that inflicts Infested 4.Upgraded: Spawn a spider egg trap that deals damage and inflicts Infested 4.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SpiderInjector",
+        "display_name": "Egg Sac Trap",
+        "tool_class": "hunter",
+        "icon_label": "SpiderInjector",
+        "resolved_icon_label": "SpiderInjector",
+        "main_svg_id": "617",
+        "main_svg_filename": "617.svg"
+      },
+      "numbers": {
+        "raw": "N/A 5",
+        "frame_type": "Dmg_Mana",
+        "value": "N/A",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Egg Sac Trap",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Spawn a spider egg trap that inflicts Infested 4.Upgraded: Spawn a spider egg trap that deals damage and inflicts Infested 4.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SpiderInjector",
+        "display_name": "Egg Sac Trap",
+        "tool_class": "hunter",
+        "icon_label": "SpiderInjector",
+        "resolved_icon_label": "SpiderInjector",
+        "main_svg_id": "617",
+        "main_svg_filename": "617.svg"
+      },
+      "numbers": {
+        "raw": "4 5",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Fire Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Shoot a projectile that inflicts Burn 2 and lights fires.Upgraded: Shoot a projectile with infinite range that inflicts Burn 4 and lights fires.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FireShot",
+        "display_name": "Fire Shot",
+        "tool_class": "hunter",
+        "icon_label": "FireShot",
+        "resolved_icon_label": "FireShot",
+        "main_svg_id": "580",
+        "main_svg_filename": "580.svg"
+      },
+      "numbers": {
+        "raw": "2 7",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flea Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Shoot a flea at a unit.Upgraded: Shoot a flea at a unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FleaShot",
+        "display_name": "Flea Shot",
+        "tool_class": "hunter",
+        "icon_label": "FleaShot",
+        "resolved_icon_label": "FleaShot",
+        "main_svg_id": "590",
+        "main_svg_filename": "590.svg"
+      },
+      "numbers": {
+        "raw": "2 6",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Flea Shot",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Shoot a flea at a unit.Upgraded: Shoot a flea at a unit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FleaShot",
+        "display_name": "Flea Shot",
+        "tool_class": "hunter",
+        "icon_label": "FleaShot",
+        "resolved_icon_label": "FleaShot",
+        "main_svg_id": "590",
+        "main_svg_filename": "590.svg"
+      },
+      "numbers": {
+        "raw": "4 6",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Focus Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Aim at a unit. On your next turn, shoot a projectile that always crits and ignores shield at that unit.Upgraded: Shoot a projectile that always crits and ignores shield.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "FocusShot",
+        "display_name": "Focus Shot",
+        "tool_class": "hunter",
+        "icon_label": "FocusShot",
+        "resolved_icon_label": "FocusShot",
+        "main_svg_id": "585",
+        "main_svg_filename": "585.svg"
+      },
+      "numbers": {
+        "raw": "4 7",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Hail of Nails",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "An attack that hits all units in a perpendicular line.Upgraded: An attack that hits and Immobilizes all units in a perpendicular line.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "HailOfNails",
+        "display_name": "Hail of Nails",
+        "tool_class": "hunter",
+        "icon_label": "HailOfNails",
+        "resolved_icon_label": "HailOfNails",
+        "main_svg_id": "570",
+        "main_svg_filename": "570.svg"
+      },
+      "numbers": {
+        "raw": "5 9",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Heavy Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Shoot a high damage shot with a 70% chance to miss.Upgraded: Shoot a high damage shot with a 70% chance to miss and a 50% chance to crit. (This spell has increased range.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "HeavyShot",
+        "display_name": "Heavy Shot",
+        "tool_class": "hunter",
+        "icon_label": "HeavyShot",
+        "resolved_icon_label": "HeavyShot",
+        "main_svg_id": "596",
+        "main_svg_filename": "596.svg"
+      },
+      "numbers": {
+        "raw": "10 4",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Infest",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Toss a spider egg that deals low damage and inflicts Infested.Upgraded: Toss a spider egg that deals low damage and inflicts Infested 2.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Infest",
+        "display_name": "Infest",
+        "tool_class": "hunter",
+        "icon_label": "Infest",
+        "resolved_icon_label": "Infest",
+        "main_svg_id": "602",
+        "main_svg_filename": "602.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Last Hit",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Deal 1 damage to a unit. If this kills it, refresh your basic attack.Upgraded: Deal 1 damage to a unit. If this kills it, refresh your basic attack. This ignores shield and can't miss. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "LastHit",
+        "display_name": "Last Hit",
+        "tool_class": "hunter",
+        "icon_label": "LastHit",
+        "resolved_icon_label": "LastHit",
+        "main_svg_id": "593",
+        "main_svg_filename": "593.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Last Hit",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Deal 1 damage to a unit. If this kills it, refresh your basic attack.Upgraded: Deal 1 damage to a unit. If this kills it, refresh your basic attack. This ignores shield and can't miss. (This spell costs less.)",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "LastHit",
+        "display_name": "Last Hit",
+        "tool_class": "hunter",
+        "icon_label": "LastHit",
+        "resolved_icon_label": "LastHit",
+        "main_svg_id": "593",
+        "main_svg_filename": "593.svg"
+      },
+      "numbers": {
+        "raw": "1 2",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Line Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "An attack that hits all units in a straight line.Upgraded: A stronger attack that hits all units in a straight line.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "LineShot",
+        "display_name": "Line Shot",
+        "tool_class": "hunter",
+        "icon_label": "LineShot",
+        "resolved_icon_label": "LineShot",
+        "main_svg_id": "571",
+        "main_svg_filename": "571.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Line Shot",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "An attack that hits all units in a straight line.Upgraded: A stronger attack that hits all units in a straight line.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "LineShot",
+        "display_name": "Line Shot",
+        "tool_class": "hunter",
+        "icon_label": "LineShot",
+        "resolved_icon_label": "LineShot",
+        "main_svg_id": "571",
+        "main_svg_filename": "571.svg"
+      },
+      "numbers": {
+        "raw": "9 7",
+        "frame_type": "Dmg_Mana",
+        "value": "9",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Needle Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Shoot a needle that deals damage, gives Thorns, and ignores shield.Upgraded: Shoot a needle that deals damage, gives Thorns, and ignores shield. This deals extra damage to enemies and gives extra Thorns to allies.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "NeedleShot",
+        "display_name": "Needle Shot",
+        "tool_class": "hunter",
+        "icon_label": "NeedleShot",
+        "resolved_icon_label": "NeedleShot",
+        "main_svg_id": "589",
+        "main_svg_filename": "589.svg"
+      },
+      "numbers": {
+        "raw": "1 2",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Picnic",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "You and adjacent units each heal 5 HP.Upgraded: You and adjacent units each heal 5 HP and gain +1 Damage.",
+      "value_kind": "damage_or_heal",
+      "manifest": {
+        "ability_id": "Picnic",
+        "display_name": "Picnic",
+        "tool_class": "hunter",
+        "icon_label": "Picnic",
+        "resolved_icon_label": "Picnic",
+        "main_svg_id": "613",
+        "main_svg_filename": "613.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Scatter Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Fire a bunch of shots randomly in an area.Upgraded: Fire a bunch of shots randomly in a large area.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "ScatterShot",
+        "display_name": "Scatter Shot",
+        "tool_class": "hunter",
+        "icon_label": "ScatterShot",
+        "resolved_icon_label": "ScatterShot",
+        "main_svg_id": "567",
+        "main_svg_filename": "567.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shards",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Shoot a projectile that spawns glass.Upgraded: Shoot a projectile that spawns glass in an area and inflicts Bleed 2.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Shards",
+        "display_name": "Shards",
+        "tool_class": "hunter",
+        "icon_label": "Shards",
+        "resolved_icon_label": "Shards",
+        "main_svg_id": "587",
+        "main_svg_filename": "587.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Shards",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Shoot a projectile that spawns glass.Upgraded: Shoot a projectile that spawns glass in an area and inflicts Bleed 2.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Shards",
+        "display_name": "Shards",
+        "tool_class": "hunter",
+        "icon_label": "Shards",
+        "resolved_icon_label": "Shards",
+        "main_svg_id": "587",
+        "main_svg_filename": "587.svg"
+      },
+      "numbers": {
+        "raw": "2 3",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Slop the Pigs",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 Constitution and heal 2 HP.Upgraded: Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 Constitution and heal 2 HP. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "SlopThePigs",
+        "display_name": "Slop the Pigs",
+        "tool_class": "hunter",
+        "icon_label": "SlopThePigs",
+        "resolved_icon_label": "SlopThePigs",
+        "main_svg_id": "618",
+        "main_svg_filename": "618.svg"
+      },
+      "numbers": {
+        "raw": "2 6",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Slop the Pigs",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 Constitution and heal 2 HP.Upgraded: Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 Constitution and heal 2 HP. (This spell costs less.)",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "SlopThePigs",
+        "display_name": "Slop the Pigs",
+        "tool_class": "hunter",
+        "icon_label": "SlopThePigs",
+        "resolved_icon_label": "SlopThePigs",
+        "main_svg_id": "618",
+        "main_svg_filename": "618.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Snipe",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Fire a shot exactly 6 tiles away that ignores shield and can't miss.Upgraded: Fire a stronger shot exactly 6 tiles away that ignores shield, can't miss, and has a 50% chance to crit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Snipe",
+        "display_name": "Snipe",
+        "tool_class": "hunter",
+        "icon_label": "Snipe",
+        "resolved_icon_label": "Snipe",
+        "main_svg_id": "599",
+        "main_svg_filename": "599.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Snipe",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Fire a shot exactly 6 tiles away that ignores shield and can't miss.Upgraded: Fire a stronger shot exactly 6 tiles away that ignores shield, can't miss, and has a 50% chance to crit.",
+      "value_kind": "none",
+      "manifest": {
+        "ability_id": "Snipe",
+        "display_name": "Snipe",
+        "tool_class": "hunter",
+        "icon_label": "Snipe",
+        "resolved_icon_label": "Snipe",
+        "main_svg_id": "599",
+        "main_svg_filename": "599.svg"
+      },
+      "numbers": {
+        "raw": "8 6",
+        "frame_type": "Dmg_Mana",
+        "value": "8",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Soothing Shot",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "A ranged shot that heals and inflicts Charmed 1.Upgraded: A ranged shot that heals and inflicts Charmed 2. Against allies this cleanses debuffs and inflicts Charmed 1 instead.",
+      "value_kind": "heal",
+      "manifest": {
+        "ability_id": "SoothingShot",
+        "display_name": "Soothing Shot",
+        "tool_class": "hunter",
+        "icon_label": "SoothingShot",
+        "resolved_icon_label": "SoothingShot",
+        "main_svg_id": "614",
+        "main_svg_filename": "614.svg"
+      },
+      "numbers": {
+        "raw": "10 7",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spike Trap",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "Set a trap that deals 8 damage.Upgraded: Set a trap that deals 13 damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SpikeTrap",
+        "display_name": "Spike Trap",
+        "tool_class": "hunter",
+        "icon_label": "SpikeTrap",
+        "resolved_icon_label": "SpikeTrap",
+        "main_svg_id": "591",
+        "main_svg_filename": "591.svg"
+      },
+      "numbers": {
+        "raw": "8 6",
+        "frame_type": "Dmg_Mana",
+        "value": "8",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Spike Trap",
+      "class": "Hunter",
+      "variant": "upgraded",
+      "description": "Set a trap that deals 8 damage.Upgraded: Set a trap that deals 13 damage.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "SpikeTrap",
+        "display_name": "Spike Trap",
+        "tool_class": "hunter",
+        "icon_label": "SpikeTrap",
+        "resolved_icon_label": "SpikeTrap",
+        "main_svg_id": "591",
+        "main_svg_filename": "591.svg"
+      },
+      "numbers": {
+        "raw": "13 6",
+        "frame_type": "Dmg_Mana",
+        "value": "13",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Vivisect",
+      "class": "Hunter",
+      "variant": "normal",
+      "description": "A melee attack that spawns a baited bear trap if it kills a unit or destroys a body.Upgraded: A lobbed attack that spawns a baited bear trap if it kills a unit or destroys a body.",
+      "value_kind": "damage",
+      "manifest": {
+        "ability_id": "Vivisect",
+        "display_name": "Vivisect",
+        "tool_class": "hunter",
+        "icon_label": "Vivisect",
+        "resolved_icon_label": "Vivisect",
+        "main_svg_id": "620",
+        "main_svg_filename": "620.svg"
+      },
+      "numbers": {
+        "raw": "5 4",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    }
+  ]
+}
