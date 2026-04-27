@@ -243,7 +243,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Generate framed active ability SVGs from wiki ability rule JSON.")
     parser.add_argument("--rules-dir", type=Path, default=Path("rules") / "wiki_active_abilities")
     parser.add_argument("--shapes-dir", type=Path, default=DEFAULT_SHAPES_DIR)
-    parser.add_argument("--output-dir", type=Path, default=Path("output") / "wiki_active_frames_framed")
+    parser.add_argument("--output-dir", type=Path, default=Path("output") / "Active Abilities")
     parser.add_argument("--dmg-mana-rules", type=Path, default=DEFAULT_FRAME_RULES["Dmg_Mana"])
     parser.add_argument("--xdmg-mana-rules", type=Path, default=DEFAULT_FRAME_RULES["Xdmg_Mana"])
     parser.add_argument("--mana-rules", type=Path, default=DEFAULT_FRAME_RULES["Mana"])
