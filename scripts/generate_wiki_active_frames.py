@@ -26,6 +26,7 @@ DEFAULT_FRAME_RULES = {
 
 DEFAULT_TOP_ICON_RULES = Path("rules") / "active_type_icons.json"
 DEFAULT_CLASS_COLORS = Path("rules") / "wiki_active_abilities" / "classes.txt"
+DEFAULT_EMPTY_MAIN_SVG = Path("assets") / "empty_main.svg"
 DEFAULT_TOP_ICON_SHAPES_DIR = Path(
     r"H:\Mewgenics Projects\Active Abilities Frame\SVG Important\Svg Up Active Icons\shapes"
 )
@@ -146,11 +147,13 @@ def generate(
     top_icon_rules_path: Path,
     top_icon_shapes_dir: Path,
     class_colors_path: Path | None,
-) -> tuple[int, list[str], dict[str, int]]:
+    empty_main_svg: Path,
+) -> tuple[int, list[str], list[str], dict[str, int]]:
     loaded_rules = load_frame_rules(frame_rules, class_colors_path)
     top_icon_rules = load_top_icon_rules(top_icon_rules_path)
     generated = 0
     errors: list[str] = []
+    warnings: list[str] = []
     rows: list[dict[str, str]] = []
     counts: dict[str, int] = {}
 
@@ -166,14 +169,18 @@ def generate(
             manifest = ability.get("manifest") or {}
             main_svg_id = manifest.get("main_svg_id")
             ability_id = manifest.get("ability_id") or ability.get("wiki_name") or "ability"
+            main_svg_status = "ok"
             if not main_svg_id:
-                errors.append(f"{ability_id}: missing main_svg_id")
-                continue
-
-            main_svg = shapes_dir / f"{main_svg_id}.svg"
-            if not main_svg.exists():
-                errors.append(f"{ability_id}: missing {main_svg}")
-                continue
+                main_svg = empty_main_svg
+                main_svg_id = ""
+                main_svg_status = "placeholder_missing_id"
+                warnings.append(f"{ability_id}: missing main_svg_id; generated with empty main picture")
+            else:
+                main_svg = shapes_dir / f"{main_svg_id}.svg"
+                if not main_svg.exists():
+                    main_svg_status = "placeholder_missing_file"
+                    warnings.append(f"{ability_id}: missing {main_svg}; generated with empty main picture")
+                    main_svg = empty_main_svg
 
             class_name = (manifest.get("tool_class") or ability.get("class") or "colorless").lower()
             wiki_class = safe_name(ability.get("class") or class_name)
@@ -204,6 +211,7 @@ def generate(
                     "wiki_name": ability.get("wiki_name") or "",
                     "ability_id": ability_id,
                     "main_svg_id": main_svg_id,
+                    "main_svg_status": main_svg_status,
                     "value_kind": ability.get("value_kind") or "",
                     "value": str((ability.get("numbers") or {}).get("value") or ""),
                     "mana": str((ability.get("numbers") or {}).get("mana") or ""),
@@ -223,6 +231,7 @@ def generate(
             "wiki_name",
             "ability_id",
             "main_svg_id",
+            "main_svg_status",
             "value_kind",
             "value",
             "mana",
@@ -236,7 +245,9 @@ def generate(
 
     errors_path = output_dir / "generation_errors.txt"
     errors_path.write_text("\n".join(errors) + ("\n" if errors else ""), encoding="utf-8")
-    return generated, errors, counts
+    warnings_path = output_dir / "generation_warnings.txt"
+    warnings_path.write_text("\n".join(warnings) + ("\n" if warnings else ""), encoding="utf-8")
+    return generated, errors, warnings, counts
 
 
 def main() -> None:
@@ -250,9 +261,10 @@ def main() -> None:
     parser.add_argument("--top-icon-rules", type=Path, default=DEFAULT_TOP_ICON_RULES)
     parser.add_argument("--top-icon-shapes-dir", type=Path, default=DEFAULT_TOP_ICON_SHAPES_DIR)
     parser.add_argument("--class-colors", type=Path, default=DEFAULT_CLASS_COLORS)
+    parser.add_argument("--empty-main-svg", type=Path, default=DEFAULT_EMPTY_MAIN_SVG)
     args = parser.parse_args()
 
-    generated, errors, counts = generate(
+    generated, errors, warnings, counts = generate(
         rules_dir=args.rules_dir.resolve(),
         shapes_dir=args.shapes_dir.resolve(),
         output_dir=args.output_dir.resolve(),
@@ -264,9 +276,10 @@ def main() -> None:
         top_icon_rules_path=args.top_icon_rules.resolve(),
         top_icon_shapes_dir=args.top_icon_shapes_dir.resolve(),
         class_colors_path=args.class_colors.resolve(),
+        empty_main_svg=args.empty_main_svg.resolve(),
     )
 
-    print(f"generated={generated} errors={len(errors)}")
+    print(f"generated={generated} errors={len(errors)} warnings={len(warnings)}")
     print(f"output={args.output_dir.resolve()}")
     for frame_type, count in sorted(counts.items()):
         print(f"{frame_type}={count}")
@@ -274,6 +287,10 @@ def main() -> None:
         print("errors:")
         for error in errors[:50]:
             print(error)
+    if warnings:
+        print("warnings:")
+        for warning in warnings[:50]:
+            print(warning)
 
 
 if __name__ == "__main__":
