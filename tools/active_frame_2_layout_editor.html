@@ -724,6 +724,8 @@
         layer.boxHeight = Number(fields.boxHeight.value || layer.boxHeight || 52.35);
         layer.fitMode = layer.fitMode || "contain";
         layer.anchor = "center";
+        layer.anchorX = layer.boxWidth / 2;
+        layer.anchorY = layer.boxHeight / 2;
       }
       render();
     }
