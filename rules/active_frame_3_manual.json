@@ -134,13 +134,13 @@
       "fontFamily": "MewgenicsNumber",
       "fontSize": 12,
       "fill": "#ffffff",
-      "x": 54.0,
-      "y": 101.25,
+      "x": 51.75,
+      "y": 102.75,
       "scaleX": 1.3,
       "scaleY": 1.3,
       "rotation": 0,
       "visible": true,
-      "boxWidth": 22,
+      "boxWidth": 19.25,
       "boxHeight": 13,
       "minFontSize": 4
     }
