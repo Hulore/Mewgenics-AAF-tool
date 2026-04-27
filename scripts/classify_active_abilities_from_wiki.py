@@ -226,9 +226,16 @@ def prepare_frame_rules(rules_path: Path, class_colors_path: Path | None = None)
         name: data if isinstance(data, dict) else {"color": data}
         for name, data in class_colors.items()
     }
+    rules["classes"].setdefault("colorless", {"color": "#817b77"})
+    colorless_hidden = rules["classes"]["colorless"].setdefault("hide_layers", [])
+    if "bottom_slots" not in colorless_hidden:
+        colorless_hidden.append("bottom_slots")
+
     for layer in rules.get("layers", []):
         if layer.get("source") != "$main":
             layer["recolor"] = {"#111111": "$classColor"}
+        if layer.get("id") == "upgraded_overlay":
+            layer["recolor"] = {"#666666": "$classColor"}
     return rules
 
 
