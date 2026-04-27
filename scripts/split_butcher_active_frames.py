@@ -131,13 +131,16 @@ def prepare_frame_rules(rules_path: Path, main_layer: dict, class_color: str) ->
 
     layers = []
     inserted_main = False
+    has_manual_main = any(layer.get("source") == "$main" for layer in rules["layers"])
     for layer in rules["layers"]:
         layer = dict(layer)
-        if layer["source"] != "$main":
+        if layer["source"] == "$main":
+            inserted_main = True
+        else:
             layer["recolor"] = {"#111111": "$classColor"}
         layers.append(layer)
 
-        if layer["id"] == "class_body":
+        if layer["id"] == "class_body" and not has_manual_main:
             layers.append(dict(main_layer))
             inserted_main = True
 

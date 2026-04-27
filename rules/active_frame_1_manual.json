@@ -32,6 +32,17 @@
       "visible": true
     },
     {
+      "id": "main_picture",
+      "label": "Main picture sample",
+      "source": "$main",
+      "x": 24,
+      "y": 22,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "visible": true
+    },
+    {
       "id": "black_outline",
       "label": "2776 black outline",
       "source": "../../SVG Important/shapes/Atcive Frame 1/2776.svg",

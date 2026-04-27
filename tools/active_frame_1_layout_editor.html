@@ -200,6 +200,7 @@
   <script>
     const stageScale = 4;
     const previewRecolor = { "#111111": "#8a3746" };
+    const sampleMainSource = "../output/butcher_active_split/damage_or_heal_and_mana/source_svgs/Burp_Burp.svg";
     const stage = document.querySelector("#stage");
     const layerSelect = document.querySelector("#layerSelect");
     const layerList = document.querySelector("#layerList");
@@ -223,9 +224,10 @@
       preview_recolor: previewRecolor,
       layers: [
         { id: "base_white", label: "2760 base white", source: "../../SVG Important/shapes/Atcive Frame 1/2760.svg", x: 16, y: 10, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
-        { id: "class_body", label: "2763 class body", source: "../../SVG Important/shapes/Atcive Frame 1/2763.svg", x: 16, y: 10, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
+        { id: "class_body", label: "2763 class body", source: "../../SVG Important/shapes/Atcive Frame 1/2763.svg", x: 12.25, y: 12.75, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
+        { id: "main_picture", label: "Main picture sample", source: "$main", x: 24, y: 22, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
         { id: "black_outline", label: "2776 black outline", source: "../../SVG Important/shapes/Atcive Frame 1/2776.svg", x: 14, y: 8, scaleX: 1, scaleY: 1, rotation: 0, visible: true },
-        { id: "bottom_slots", label: "2817 bottom slots", source: "../../SVG Important/shapes/Atcive Frame 1/2817.svg", x: 7, y: 105, scaleX: 1, scaleY: 1, rotation: 0, visible: true }
+        { id: "bottom_slots", label: "2817 bottom slots", source: "../../SVG Important/shapes/Atcive Frame 1/2817.svg", x: 8.25, y: 36.5, scaleX: 0.994, scaleY: 1, rotation: 0, visible: true }
       ]
     };
 
@@ -243,15 +245,16 @@
 
     async function previewSource(source) {
       if (objectUrls.has(source)) return objectUrls.get(source);
+      const previewPath = source === "$main" ? sampleMainSource : source;
       try {
-        const response = await fetch(source);
-        if (!response.ok) return source;
+        const response = await fetch(previewPath);
+        if (!response.ok) return previewPath;
         const text = recolorSvgText(await response.text());
         const url = URL.createObjectURL(new Blob([text], { type: "image/svg+xml" }));
         objectUrls.set(source, url);
         return url;
       } catch (_error) {
-        return source;
+        return previewPath;
       }
     }
 
