@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Druid",
   "frame_type": "Dmg_Mana",
-  "count": 17,
+  "count": 24,
   "abilities": [
     {
       "wiki_name": "Aeroblast",
@@ -122,9 +122,87 @@
       }
     },
     {
+      "wiki_name": "Bramble Burst",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Explode a familiar causing damage to all adjacent units and spawning brambles.Upgraded: Explode a familiar causing damage to all units in range 2 and spawning brambles.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BRAMBLEBURST_NAME",
+        "ru_name": "Взрыв терновника",
+        "ru_description": "Взорвите фамильяра: урон соседям и создание терновника.",
+        "ru_upgraded_description": "Взорвите фамильяра: урон в радиусе 2 и создание терновника.",
+        "en_name": "Bramble Burst",
+        "en_description": "Explode a familiar causing damage to all adjacent units and spawning brambles.",
+        "en_upgraded_description": "Explode a familiar causing damage to all units in range 2 and spawning brambles."
+      },
+      "manifest": {
+        "ability_id": "BrambleBurst",
+        "display_name": "Bramble Burst",
+        "tool_class": "druid",
+        "icon_label": "BrambleBurst",
+        "resolved_icon_label": "BrambleBurst",
+        "main_svg_id": "1006",
+        "main_svg_filename": "1006.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Control Plants",
       "class": "Druid",
       "variant": "normal",
+      "description": "Create a tall grass tile, then all enemies on grass element tiles take 1 damage.Upgraded: Create a tall grass tile, then all enemies on grass element tiles take 1 damage and gain Poison 1.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CONTROLPLANTS_NAME",
+        "ru_name": "Контроль растений",
+        "ru_description": "Создайте клетку с высокой травой, затем все враги, находящиеся на клетках с высокой травой, получают 1 урон.",
+        "ru_upgraded_description": "Создайте клетку с высокой травой, затем все враги, находящиеся на клетках с высокой травой, получают 1 урон и получают эффект «Яд 1».",
+        "en_name": "Control Plants",
+        "en_description": "Create a tall grass tile, then all enemies on grass element tiles take 1 damage.",
+        "en_upgraded_description": "Create a tall grass tile, then all enemies on grass element tiles take 1 damage and gain Poison 1."
+      },
+      "manifest": {
+        "ability_id": "ControlPlants",
+        "display_name": "Control Plants",
+        "tool_class": "druid",
+        "icon_label": "ControlPlants",
+        "resolved_icon_label": "ControlPlants",
+        "main_svg_id": "1032",
+        "main_svg_filename": "1032.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Control Plants",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Create a tall grass tile, then all enemies on grass element tiles take 1 damage.Upgraded: Create a tall grass tile, then all enemies on grass element tiles take 1 damage and gain Poison 1.",
       "value_kind": "damage",
       "translation": {
@@ -200,6 +278,45 @@
       }
     },
     {
+      "wiki_name": "Control Water",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Create a water tile, then all allies on water element tiles heal 2 HP.Upgraded: Create a water tile, then all allies on water element tiles heal 2 HP and have their debuffs cleansed.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CONTROLWATER_NAME",
+        "ru_name": "Контроль воды",
+        "ru_description": "Создайте воду, затем все союзники на воде лечатся на 2 ОЗ.",
+        "ru_upgraded_description": "Создайте воду, затем все союзники на воде лечатся на 2 ОЗ и очищаются от дебаффов.",
+        "en_name": "Control Water",
+        "en_description": "Create a water tile, then all allies on water element tiles heal 2 HP.",
+        "en_upgraded_description": "Create a water tile, then all allies on water element tiles heal 2 HP and have their debuffs cleansed."
+      },
+      "manifest": {
+        "ability_id": "ControlWater",
+        "display_name": "Control Water",
+        "tool_class": "druid",
+        "icon_label": "ControlWater",
+        "resolved_icon_label": "ControlWater",
+        "main_svg_id": "1031",
+        "main_svg_filename": "1031.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Feral Attack",
       "class": "Druid",
       "variant": "normal",
@@ -209,10 +326,49 @@
         "text_key": "ABILITY_FERALMELEE_NAME",
         "ru_name": "Дикая атака",
         "ru_description": "Ближняя атака.\n[s:.7](Стоит 0 маны. Раз за ход.)[/s]",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Ближняя атака.\n[s:.7](Стоит 0 маны. Раз за ход.)[/s]",
         "en_name": "Feral Attack",
         "en_description": "A melee attack.\r\n[s:.7](This spell costs 0 mana. Castable once per turn.)[/s]",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "A melee attack.\r\n[s:.7](This spell costs 0 mana. Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "FeralMelee",
+        "display_name": "Feral Attack",
+        "tool_class": "druid",
+        "icon_label": "FeralMelee",
+        "resolved_icon_label": "FeralMelee",
+        "main_svg_id": "1058",
+        "main_svg_filename": "1058.svg"
+      },
+      "numbers": {
+        "raw": "5 0",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Feral Attack",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "A melee attack. (This spell costs 0 mana. Castable once per turn.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FERALMELEE_NAME",
+        "ru_name": "Дикая атака",
+        "ru_description": "Ближняя атака.\n[s:.7](Стоит 0 маны. Раз за ход.)[/s]",
+        "ru_upgraded_description": "Ближняя атака.\n[s:.7](Стоит 0 маны. Раз за ход.)[/s]",
+        "en_name": "Feral Attack",
+        "en_description": "A melee attack.\r\n[s:.7](This spell costs 0 mana. Castable once per turn.)[/s]",
+        "en_upgraded_description": "A melee attack.\r\n[s:.7](This spell costs 0 mana. Castable once per turn.)[/s]"
       },
       "manifest": {
         "ability_id": "FeralMelee",
@@ -512,6 +668,45 @@
       }
     },
     {
+      "wiki_name": "Pounce",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Jump on a unit, damaging and displacing it.Upgraded: Jump on a unit, damaging, displacing and inflicting Bleed 1 to it.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WOLFPOUNCE_NAME",
+        "ru_name": "Наброс",
+        "ru_description": "Прыгните на юнита, нанося урон и смещая его.",
+        "ru_upgraded_description": "Прыгните на юнита, нанося урон, смещая и накладывая Кровотечение 1.",
+        "en_name": "Pounce",
+        "en_description": "Jump on a unit, damaging and displacing it.",
+        "en_upgraded_description": "Jump on a unit, damaging, displacing and inflicting Bleed 1 to it."
+      },
+      "manifest": {
+        "ability_id": "Pounce",
+        "display_name": "Pounce",
+        "tool_class": "druid",
+        "icon_label": "Pounce",
+        "resolved_icon_label": "Pounce",
+        "main_svg_id": "1015",
+        "main_svg_filename": "1015.svg"
+      },
+      "numbers": {
+        "raw": "2 6",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Self-destruct",
       "class": "Druid",
       "variant": "normal",
@@ -521,10 +716,10 @@
         "text_key": "ABILITY_SELFDESTRUCTFAMILIAR_NAME",
         "ru_name": "Самоуничтожение",
         "ru_description": "Взорваться.",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Взорваться.",
         "en_name": "Self-destruct",
         "en_description": "Explode.",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Explode."
       },
       "manifest": {
         "ability_id": "FamiliarSelfDestruct",
@@ -560,10 +755,10 @@
         "text_key": "ABILITY_SELFDESTRUCTFAMILIAR_NAME",
         "ru_name": "Самоуничтожение",
         "ru_description": "Взорваться.",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Взорваться.",
         "en_name": "Self-destruct",
         "en_description": "Explode.",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Explode."
       },
       "manifest": {
         "ability_id": "FamiliarSelfDestruct",
@@ -629,9 +824,87 @@
       }
     },
     {
+      "wiki_name": "Synthesize",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Heal 2 HP and gain Charge 2.Upgraded: You and allies within 3 tiles gain 2 HP and 2 Charge.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SYNTHESIZE_NAME",
+        "ru_name": "Синтез",
+        "ru_description": "Исцелите 2 ОЗ и получите Заряд 2.",
+        "ru_upgraded_description": "Вы и союзники в радиусе 3 получаете 2 ОЗ и 2 Заряда.",
+        "en_name": "Synthesize",
+        "en_description": "Heal 2 HP and gain Charge 2.",
+        "en_upgraded_description": "You and allies within 3 tiles gain 2 HP and 2 Charge."
+      },
+      "manifest": {
+        "ability_id": "Synthesize",
+        "display_name": "Synthesize",
+        "tool_class": "druid",
+        "icon_label": "Synthesize",
+        "resolved_icon_label": "Synthesize",
+        "main_svg_id": "1034",
+        "main_svg_filename": "1034.svg"
+      },
+      "numbers": {
+        "raw": "2 3",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Throw Egg",
       "class": "Druid",
       "variant": "normal",
+      "description": "Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its second turn.Upgraded: Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its first turn.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THROWEGGDRUID_NAME",
+        "ru_name": "Бросок яйца",
+        "ru_description": "Бросьте яйцо. Если попадет в пустую клетку, оно вылупится в случайного зверя в начале своего 2 хода.",
+        "ru_upgraded_description": "Бросьте яйцо. Если попадет в пустую клетку, оно вылупится в случайного зверя в начале своего 1 хода.",
+        "en_name": "Throw Egg",
+        "en_description": "Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its second turn.",
+        "en_upgraded_description": "Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its first turn."
+      },
+      "manifest": {
+        "ability_id": "ThrowEgg",
+        "display_name": "Throw Egg",
+        "tool_class": "druid",
+        "icon_label": "ThrowEgg",
+        "resolved_icon_label": "ThrowEgg",
+        "main_svg_id": "1042",
+        "main_svg_filename": "1042.svg"
+      },
+      "numbers": {
+        "raw": "4 7",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Throw Egg",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its second turn.Upgraded: Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its first turn.",
       "value_kind": "none",
       "translation": {

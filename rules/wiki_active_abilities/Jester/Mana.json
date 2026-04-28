@@ -2,12 +2,51 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Jester",
   "frame_type": "Mana",
-  "count": 3,
+  "count": 6,
   "abilities": [
     {
       "wiki_name": "Power Up",
       "class": "Jester",
       "variant": "normal",
+      "description": "Spend all of your mana and gain that many random buffs.Upgraded: Spend all of your mana and give that many random buffs to yourself or another unit.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_POWERUP_NAME",
+        "ru_name": "Павер-ап",
+        "ru_description": "Потратьте всю ману. Получите столько же случайных баффов.",
+        "ru_upgraded_description": "Потратьте всю ману. Раздайте столько же случайных баффов себе или другому.",
+        "en_name": "Power Up",
+        "en_description": "Spend all of your mana and gain that many random buffs.",
+        "en_upgraded_description": "Spend all of your mana and give that many random buffs to yourself or another unit."
+      },
+      "manifest": {
+        "ability_id": "PowerUp",
+        "display_name": "Power Up",
+        "tool_class": "jester",
+        "icon_label": "PowerUp",
+        "resolved_icon_label": "PowerUp",
+        "main_svg_id": "1341",
+        "main_svg_filename": "1341.svg"
+      },
+      "numbers": {
+        "raw": "All",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\jester_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Power Up",
+      "class": "Jester",
+      "variant": "upgraded",
       "description": "Spend all of your mana and gain that many random buffs.Upgraded: Spend all of your mana and give that many random buffs to yourself or another unit.",
       "value_kind": "none",
       "translation": {
@@ -83,9 +122,87 @@
       }
     },
     {
+      "wiki_name": "RNG Cannon",
+      "class": "Jester",
+      "variant": "upgraded",
+      "description": "Deals a random amount of damage. Requires line of sightUpgraded: Deals a random amount of damage and inflicts random debuffs. Requires line of sight",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_RNGCANNON_NAME",
+        "ru_name": "ГСЧ-Пушка",
+        "ru_description": "Наносит случайный урон. Нужна видимость.",
+        "ru_upgraded_description": "Наносит случайный урон и вешает случайные дебаффы. Нужна видимость.",
+        "en_name": "RNG Cannon",
+        "en_description": "Deals a random amount of damage. Requires line of sight",
+        "en_upgraded_description": "Deals a random amount of damage and inflicts random debuffs. Requires line of sight"
+      },
+      "manifest": {
+        "ability_id": "RNGCannon",
+        "display_name": "RNG Cannon",
+        "tool_class": "jester",
+        "icon_label": "RNGCannon",
+        "resolved_icon_label": "RNGCannon",
+        "main_svg_id": "1339",
+        "main_svg_filename": "1339.svg"
+      },
+      "numbers": {
+        "raw": "? 10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\jester_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Smart Metronome",
       "class": "Jester",
       "variant": "normal",
+      "description": "Cast any random spell. The spell is usually good.Upgraded: Cast any random upgraded spell. The spell is usually good.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SMARTMETRONOME_NAME",
+        "ru_name": "Умный метроном",
+        "ru_description": "Применяет случайное заклинание. Оно обычно хорошее.",
+        "ru_upgraded_description": "Применяет случайное УЛУЧШЕННОЕ заклинание. Оно обычно хорошее.",
+        "en_name": "Smart Metronome",
+        "en_description": "Cast any random spell. The spell is usually good.",
+        "en_upgraded_description": "Cast any random upgraded spell. The spell is usually good."
+      },
+      "manifest": {
+        "ability_id": "SmartMetronome",
+        "display_name": "Smart Metronome",
+        "tool_class": "jester",
+        "icon_label": "SmartMetronome",
+        "resolved_icon_label": "SmartMetronome",
+        "main_svg_id": "1338",
+        "main_svg_filename": "1338.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "unknown",
+        "top_icon_svg_id": "2797",
+        "top_icon_svg": "2797.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\jester_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Smart Metronome",
+      "class": "Jester",
+      "variant": "upgraded",
       "description": "Cast any random spell. The spell is usually good.Upgraded: Cast any random upgraded spell. The spell is usually good.",
       "value_kind": "none",
       "translation": {

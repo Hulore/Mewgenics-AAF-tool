@@ -6,6 +6,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
+from build_wiki_active_ability_rules import read_translations, translation_block
 from classify_active_abilities_from_wiki import normalize_name
 from extract_active_manifest import normalize_tool_class
 
@@ -89,13 +90,66 @@ def update_rules(rules_dir: Path, manifest_path: Path) -> tuple[int, int]:
     return touched_files, updated_abilities
 
 
+def update_rules_with_translations(
+    rules_dir: Path,
+    manifest_path: Path,
+    translations_path: Path | None,
+) -> tuple[int, int]:
+    rows = read_manifest_rows(manifest_path)
+    index = build_index(rows)
+    translations = read_translations(translations_path)
+    touched_files = 0
+    updated_abilities = 0
+
+    for path in sorted(rules_dir.glob("*/*.json")):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        changed = False
+        class_name = data.get("class") or path.parent.name
+
+        for ability in data.get("abilities", []):
+            keys = [
+                normalize_name(ability.get("wiki_name", "")),
+                normalize_name(ability.get("manifest", {}).get("ability_id", "")),
+            ]
+            row = None
+            for key in keys:
+                row = pick_manifest_row(index.get(key, []), class_name)
+                if row:
+                    break
+            if not row:
+                continue
+
+            current = ability.setdefault("manifest", {})
+            replacement = {field: row.get(field, "") for field in MANIFEST_FIELDS}
+            new_translation = translation_block(row, translations)
+            if (
+                any(current.get(field, "") != replacement[field] for field in MANIFEST_FIELDS)
+                or ability.get("translation") != new_translation
+            ):
+                current.update(replacement)
+                ability["translation"] = new_translation
+                changed = True
+                updated_abilities += 1
+
+        if changed:
+            path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            touched_files += 1
+
+    return touched_files, updated_abilities
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Refresh wiki rule manifest fields from active_manifest.csv.")
     parser.add_argument("--rules-dir", type=Path, default=Path("rules") / "wiki_active_abilities")
     parser.add_argument("--manifest", type=Path, default=Path("output") / "active_manifest.csv")
+    parser.add_argument("--translations", type=Path, default=Path(r"H:\YouTube\Download\combined.csv"))
     args = parser.parse_args()
 
-    touched_files, updated_abilities = update_rules(args.rules_dir.resolve(), args.manifest.resolve())
+    touched_files, updated_abilities = update_rules_with_translations(
+        args.rules_dir.resolve(),
+        args.manifest.resolve(),
+        args.translations.resolve(),
+    )
     print(f"touched_files={touched_files} updated_abilities={updated_abilities}")
 
 

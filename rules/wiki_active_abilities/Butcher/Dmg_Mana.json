@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Butcher",
   "frame_type": "Dmg_Mana",
-  "count": 34,
+  "count": 44,
   "abilities": [
     {
       "wiki_name": "Binge",
@@ -122,9 +122,87 @@
       }
     },
     {
+      "wiki_name": "Blood Magic",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Take 5 damage and gain 5 mana. (Castable once per turn.) Upgraded: Take 5 damage and gain 10 mana. (Castable once per turn.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BLOODMAGIC_NAME",
+        "ru_name": "Магия крови",
+        "ru_description": "Получите 5 урона и восстановите 5 маны.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Получите 5 урона и восстановите 10 маны.\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Blood Magic",
+        "en_description": "Take 5 damage and gain 5 mana.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Take 5 damage and gain 10 mana.\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "BloodMagic",
+        "display_name": "Blood Magic",
+        "tool_class": "butcher",
+        "icon_label": "BloodMagic",
+        "resolved_icon_label": "BloodMagic",
+        "main_svg_id": "954",
+        "main_svg_filename": "954.svg"
+      },
+      "numbers": {
+        "raw": "5 0",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Body Slam",
       "class": "Butcher",
       "variant": "normal",
+      "description": "Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP.Upgraded: Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP. This attack inflicts Bruise and has a chance to Stun.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BODYSLAM_NAME",
+        "ru_name": "Слэм телом",
+        "ru_description": "Прыгните в радиусе 2. Урон себе и тем, на кого упали (25% от ваших текущих ОЗ).",
+        "ru_upgraded_description": "Прыгните в радиусе 2. Урон себе и тем, на кого упали (25% от ОЗ). Накладывает Ушиб и может Оглушить.",
+        "en_name": "Body Slam",
+        "en_description": "Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP.",
+        "en_upgraded_description": "Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP. This attack inflicts Bruise and has a chance to Stun."
+      },
+      "manifest": {
+        "ability_id": "BodySlam",
+        "display_name": "Body Slam",
+        "tool_class": "butcher",
+        "icon_label": "BodySlam",
+        "resolved_icon_label": "BodySlam",
+        "main_svg_id": "953",
+        "main_svg_filename": "953.svg"
+      },
+      "numbers": {
+        "raw": "1 6",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Body Slam",
+      "class": "Butcher",
+      "variant": "upgraded",
       "description": "Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP.Upgraded: Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP. This attack inflicts Bruise and has a chance to Stun.",
       "value_kind": "damage",
       "translation": {
@@ -278,9 +356,87 @@
       }
     },
     {
+      "wiki_name": "Chomp",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "A melee attack with Life Steal. If used on an ally, gain +1 Strength. If used on a pickup, gain double that pickup's effects.Upgraded: A wide melee attack with Life Steal. If used on an ally, gain +1 Strength. If used on a pickup, gain double that pickup's effects.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHOMP_NAME",
+        "ru_name": "Кусь",
+        "ru_description": "Ближняя атака с Вампиризмом. Если на союзника — дает +1[img:str]. Если на лут — дает двойной эффект лута.",
+        "ru_upgraded_description": "Широкая ближняя атака с Вампиризмом. Если на союзника — дает +1[img:str]. Если на лут — дает двойной эффект.",
+        "en_name": "Chomp",
+        "en_description": "A melee attack with Life Steal. If used on an ally, gain +1[img:str]. If used on a pickup, gain double that pickup's effects.",
+        "en_upgraded_description": "A wide melee attack with Life Steal. If used on an ally, gain +1[img:str]. If used on a pickup, gain double that pickup's effects."
+      },
+      "manifest": {
+        "ability_id": "Chomp",
+        "display_name": "Chomp",
+        "tool_class": "butcher",
+        "icon_label": "Chomp",
+        "resolved_icon_label": "Chomp",
+        "main_svg_id": "949",
+        "main_svg_filename": "949.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Chonkwalk",
       "class": "Butcher",
       "variant": "normal",
+      "description": "Deal 5 damage to yourself. Refresh your movement action.Upgraded: Deal 5 damage to yourself. Refresh your movement action. PASSIVE: You have Trample.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHONKWALK_NAME",
+        "ru_name": "Тяжолая Походка",
+        "ru_description": "Нанесите себе 5 урона. Обновите действие движения.",
+        "ru_upgraded_description": "Нанесите себе 5 урона. Обновите действие движения.\nПАССИВНО: У вас есть Растаптывание.",
+        "en_name": "Chonkwalk",
+        "en_description": "Deal 5 damage to yourself. Refresh your movement action.",
+        "en_upgraded_description": "Deal 5 damage to yourself. Refresh your movement action.\nPASSIVE: You have Trample."
+      },
+      "manifest": {
+        "ability_id": "Chonkwalk",
+        "display_name": "Chonkwalk",
+        "tool_class": "butcher",
+        "icon_label": "Chonkwalk",
+        "resolved_icon_label": "Chonkwalk",
+        "main_svg_id": "985",
+        "main_svg_filename": "985.svg"
+      },
+      "numbers": {
+        "raw": "5 2",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Chonkwalk",
+      "class": "Butcher",
+      "variant": "upgraded",
       "description": "Deal 5 damage to yourself. Refresh your movement action.Upgraded: Deal 5 damage to yourself. Refresh your movement action. PASSIVE: You have Trample.",
       "value_kind": "damage",
       "translation": {
@@ -512,6 +668,45 @@
       }
     },
     {
+      "wiki_name": "Force Feed",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Heal an adjacent unit and give that unit +1 Constitution and -1 Speed.Upgraded: Heal a unit within range and give that unit +1 Constitution and -1 Speed.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_FORCEFEED_NAME",
+        "ru_name": "Насильное кормление",
+        "ru_description": "Исцелите соседа и дайте ему +1 [img:con] и -1 [img:spd].",
+        "ru_upgraded_description": "Исцелите юнита в радиусе и дайте ему +1 [img:con] и -1 [img:spd].",
+        "en_name": "Force Feed",
+        "en_description": "Heal an adjacent unit and give that unit +1 [img:con] and -1 [img:spd].",
+        "en_upgraded_description": "Heal a unit within range and give that unit +1 [img:con] and -1 [img:spd]."
+      },
+      "manifest": {
+        "ability_id": "ForceFeed",
+        "display_name": "Force Feed",
+        "tool_class": "butcher",
+        "icon_label": "ForceFeed",
+        "resolved_icon_label": "ForceFeed",
+        "main_svg_id": "944",
+        "main_svg_filename": "944.svg"
+      },
+      "numbers": {
+        "raw": "4 3",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Gib",
       "class": "Butcher",
       "variant": "normal",
@@ -707,6 +902,45 @@
       }
     },
     {
+      "wiki_name": "Hook Bind",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Melee attack that immobilizes.Upgraded: Melee attack that immobilizes and inflicts Bleed 2.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HOOKBIND_NAME",
+        "ru_name": "Зацеп",
+        "ru_description": "Ближняя атака, которая Обездвиживает.",
+        "ru_upgraded_description": "Ближняя атака: Обездвиживание и Кровотечение 2.",
+        "en_name": "Hook Bind",
+        "en_description": "Melee attack that immobilizes.",
+        "en_upgraded_description": "Melee attack that immobilizes and inflicts Bleed 2."
+      },
+      "manifest": {
+        "ability_id": "HookBind",
+        "display_name": "Hook Bind",
+        "tool_class": "butcher",
+        "icon_label": "HookBind",
+        "resolved_icon_label": "HookBind",
+        "main_svg_id": "978",
+        "main_svg_filename": "978.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Lighten the Load",
       "class": "Butcher",
       "variant": "normal",
@@ -788,6 +1022,45 @@
       "wiki_name": "Lunch Time",
       "class": "Butcher",
       "variant": "normal",
+      "description": "Jump to a food pickup in range 4.Upgraded: Jump to any food pickup.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LUNCHTIME_NAME",
+        "ru_name": "Время обеда",
+        "ru_description": "Прыгните к еде в радиусе 4.",
+        "ru_upgraded_description": "Прыгните к любой еде.",
+        "en_name": "Lunch Time",
+        "en_description": "Jump to a food pickup in range 4.",
+        "en_upgraded_description": "Jump to any food pickup."
+      },
+      "manifest": {
+        "ability_id": "LunchTime",
+        "display_name": "Lunch Time",
+        "tool_class": "butcher",
+        "icon_label": "LunchTime",
+        "resolved_icon_label": "LunchTime",
+        "main_svg_id": "958",
+        "main_svg_filename": "958.svg"
+      },
+      "numbers": {
+        "raw": "5 3",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Lunch Time",
+      "class": "Butcher",
+      "variant": "upgraded",
       "description": "Jump to a food pickup in range 4.Upgraded: Jump to any food pickup.",
       "value_kind": "none",
       "translation": {
@@ -1019,6 +1292,45 @@
       }
     },
     {
+      "wiki_name": "Reflux",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Take 2 damage and gain Burn 2, then fire a projectile that spawns a lava tile at short range.Upgraded: Take 2 damage and gain Burn 2, then fire a projectile that spawns a lava tile at long range.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REFLUX_NAME",
+        "ru_name": "Рефлюкс",
+        "ru_description": "Получите 2 урона и Горение 2, затем выстрелите снарядом, создающим лаву вблизи.",
+        "ru_upgraded_description": "Получите 2 урона и Горение 2, затем выстрелите снарядом, создающим лаву далеко.",
+        "en_name": "Reflux",
+        "en_description": "Take 2 damage and gain Burn 2, then fire a projectile that spawns a lava tile at short range.",
+        "en_upgraded_description": "Take 2 damage and gain Burn 2, then fire a projectile that spawns a lava tile at long range."
+      },
+      "manifest": {
+        "ability_id": "Reflux",
+        "display_name": "Reflux",
+        "tool_class": "butcher",
+        "icon_label": "Reflux",
+        "resolved_icon_label": "Reflux",
+        "main_svg_id": "980",
+        "main_svg_filename": "980.svg"
+      },
+      "numbers": {
+        "raw": "1 7",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Roast",
       "class": "Butcher",
       "variant": "normal",
@@ -1136,6 +1448,45 @@
       }
     },
     {
+      "wiki_name": "Rough Toss",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Throw an adjacent unit to an empty tile, dealing a lot of damage to that unit.Upgraded: Throw an adjacent unit to another tile (even if it isnt empty), dealing a lot of damage to that unit and whatever it lands on.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ROUGHTOSS_NAME",
+        "ru_name": "Грубый бросок",
+        "ru_description": "Бросьте соседа на пустую клетку, нанося ему кучу урона.",
+        "ru_upgraded_description": "Бросьте соседа на любую клетку (даже занятую), нанося кучу урона ему и тому, на кого он упадет.",
+        "en_name": "Rough Toss",
+        "en_description": "Throw an adjacent unit to an empty tile, dealing a lot of damage to that unit.",
+        "en_upgraded_description": "Throw an adjacent unit to another tile (even if it isnt empty), dealing a lot of damage to that unit and whatever it lands on."
+      },
+      "manifest": {
+        "ability_id": "RoughToss",
+        "display_name": "Rough Toss",
+        "tool_class": "butcher",
+        "icon_label": "RoughToss",
+        "resolved_icon_label": "RoughToss",
+        "main_svg_id": "971",
+        "main_svg_filename": "971.svg"
+      },
+      "numbers": {
+        "raw": "7 6",
+        "frame_type": "Dmg_Mana",
+        "value": "7",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Self Harm",
       "class": "Butcher",
       "variant": "normal",
@@ -1217,6 +1568,45 @@
       "wiki_name": "Skull Bash",
       "class": "Butcher",
       "variant": "normal",
+      "description": "A range 1 dash attack that inflicts Stun and knockback. Also stuns yourself.Upgraded: A range 4 dash attack that inflicts Stun and knockback. Has a 50% chance to stun yourself.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SKULLBASH_NAME",
+        "ru_name": "Пролом черепа",
+        "ru_description": "Рывок на 1 клетку: Оглушение и отбрасывание. Оглушает и вас.",
+        "ru_upgraded_description": "Рывок на 4 клетки: Оглушение и отбрасывание. 50% шанс оглушить себя.",
+        "en_name": "Skull Bash",
+        "en_description": "A range 1 dash attack that inflicts Stun and knockback. Also stuns yourself. ",
+        "en_upgraded_description": "A range 4 dash attack that inflicts Stun and knockback. Has a 50% chance to stun yourself."
+      },
+      "manifest": {
+        "ability_id": "SkullBash",
+        "display_name": "Skull Bash",
+        "tool_class": "butcher",
+        "icon_label": "SkullBash",
+        "resolved_icon_label": "SkullBash",
+        "main_svg_id": "947",
+        "main_svg_filename": "947.svg"
+      },
+      "numbers": {
+        "raw": "2 5",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Skull Bash",
+      "class": "Butcher",
+      "variant": "upgraded",
       "description": "A range 1 dash attack that inflicts Stun and knockback. Also stuns yourself.Upgraded: A range 4 dash attack that inflicts Stun and knockback. Has a 50% chance to stun yourself.",
       "value_kind": "damage",
       "translation": {

@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Fighter",
   "frame_type": "Mana",
-  "count": 36,
+  "count": 50,
   "abilities": [
     {
       "wiki_name": "1D Chess",
@@ -86,6 +86,45 @@
       "wiki_name": "Berserk",
       "class": "Fighter",
       "variant": "normal",
+      "description": "Gain +5 Strength and Bruise 5. This ability becomes Berserker Dash.Upgraded: Gain +7 Strength and Bruise 3. This ability becomes Berserker Dash+.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BERSERK_NAME",
+        "ru_name": "Берсерк",
+        "ru_description": "Получите +5 [img:str] и Ушиб 5. Способность станет Рывком Берсерка.",
+        "ru_upgraded_description": "Получите +7 [img:str] и Ушиб 3. Способность станет Рывком Берсерка+.",
+        "en_name": "Berserk",
+        "en_description": "Gain +5 [img:str] and Bruise 5. This ability becomes Berserker Dash.",
+        "en_upgraded_description": "Gain +7 [img:str] and Bruise 3. This ability becomes Berserker Dash+."
+      },
+      "manifest": {
+        "ability_id": "Berserk",
+        "display_name": "Berserk",
+        "tool_class": "fighter",
+        "icon_label": "Berserk",
+        "resolved_icon_label": "Berserk",
+        "main_svg_id": "833",
+        "main_svg_filename": "833.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Berserk",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "Gain +5 Strength and Bruise 5. This ability becomes Berserker Dash.Upgraded: Gain +7 Strength and Bruise 3. This ability becomes Berserker Dash+.",
       "value_kind": "none",
       "translation": {
@@ -239,6 +278,45 @@
       }
     },
     {
+      "wiki_name": "Chaos Rampage",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Take an extra turn. You have Madness 1 and Confusion 1 on that turn. (This spell can't be cast on extra turns.) Upgraded: Take an extra turn. You have Madness 1 on that turn. (This spell can't be cast on extra turns.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHAOSRAMPAGE_NAME",
+        "ru_name": "Буйство Хаоса",
+        "ru_description": "Дополнительный ход. В этот ход у вас Безумие 1 и Замешательство 1.\n[s:.7](Нельзя в доп. ходы.)[/s]",
+        "ru_upgraded_description": "Дополнительный ход. В этот ход у вас Безумие 1.\n[s:.7](Нельзя в доп. ходы.)[/s]",
+        "en_name": "Chaos Rampage",
+        "en_description": "Take an extra turn. You have Madness 1 and Confusion 1 on that turn.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]",
+        "en_upgraded_description": "Take an extra turn. You have Madness 1 on that turn.\r\n[s:.7](This spell can't be cast on extra turns.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "ChaosRampage",
+        "display_name": "Chaos Rampage",
+        "tool_class": "fighter",
+        "icon_label": "ChaosRampage",
+        "resolved_icon_label": "ChaosRampage",
+        "main_svg_id": "860",
+        "main_svg_filename": "860.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Confront",
       "class": "Fighter",
       "variant": "normal",
@@ -356,9 +434,87 @@
       }
     },
     {
+      "wiki_name": "Counter",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Counterattack all attacks until your next turn.Upgraded: Preemptively counterattack all attacks until your next turn.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COUNTER_NAME",
+        "ru_name": "Контрудар",
+        "ru_description": "Контратакуйте все атаки до вашего след. хода.",
+        "ru_upgraded_description": "Превентивно контратакуйте все атаки до вашего след. хода.",
+        "en_name": "Counter",
+        "en_description": "Counterattack all attacks until your next turn.",
+        "en_upgraded_description": "Preemptively counterattack all attacks until your next turn."
+      },
+      "manifest": {
+        "ability_id": "Counter",
+        "display_name": "Counter",
+        "tool_class": "fighter",
+        "icon_label": "Counter",
+        "resolved_icon_label": "Counter",
+        "main_svg_id": "827",
+        "main_svg_filename": "827.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Enrage",
       "class": "Fighter",
       "variant": "normal",
+      "description": "Give a unit +4 Strength and Confusion 2.Upgraded: Give a unit on any tile +4 Strength and Confusion 2.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ENRAGE_NAME",
+        "ru_name": "Бешенство",
+        "ru_description": "Дайте юниту +4 [img:str] и Замешательство 2.",
+        "ru_upgraded_description": "Дайте любому юниту +4 [img:str] и Замешательство 2.",
+        "en_name": "Enrage",
+        "en_description": "Give a unit +4 [img:str] and Confusion 2.",
+        "en_upgraded_description": "Give a unit on any tile +4 [img:str] and Confusion 2."
+      },
+      "manifest": {
+        "ability_id": "Enrage",
+        "display_name": "Enrage",
+        "tool_class": "fighter",
+        "icon_label": "Enrage",
+        "resolved_icon_label": "Enrage",
+        "main_svg_id": "843",
+        "main_svg_filename": "843.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Enrage",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "Give a unit +4 Strength and Confusion 2.Upgraded: Give a unit on any tile +4 Strength and Confusion 2.",
       "value_kind": "none",
       "translation": {
@@ -476,6 +632,45 @@
       "wiki_name": "Flex Off",
       "class": "Fighter",
       "variant": "normal",
+      "description": "You and each allied cat gain +2 and knockback adjacent units 2 tiles.Upgraded: You and each allied cat gain +2 , +2 temporary Brace, and knockback adjacent units 2 tiles.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FLEXOFF_NAME",
+        "ru_name": "Группа мышц",
+        "ru_description": "Вы и все союзные кошки получаете +2 [img:shield] и отбрасываете соседних юнитов на 2 клетки.",
+        "ru_upgraded_description": "Вы и все союзные кошки получаете +2 [img:shield], +2 врем. Стойкость и отбрасываете соседних юнитов на 2 клетки.",
+        "en_name": "Flex Off",
+        "en_description": "You and each allied cat gain +2 [img:shield] and knockback adjacent units 2 tiles.",
+        "en_upgraded_description": "You and each allied cat gain +2 [img:shield], +2 temporary Brace, and knockback adjacent units 2 tiles."
+      },
+      "manifest": {
+        "ability_id": "TeamFlex",
+        "display_name": "Flex Off",
+        "tool_class": "fighter",
+        "icon_label": "TeamFlex",
+        "resolved_icon_label": "TeamFlex",
+        "main_svg_id": "870",
+        "main_svg_filename": "870.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Flex Off",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "You and each allied cat gain +2 and knockback adjacent units 2 tiles.Upgraded: You and each allied cat gain +2 , +2 temporary Brace, and knockback adjacent units 2 tiles.",
       "value_kind": "none",
       "translation": {
@@ -707,9 +902,87 @@
       }
     },
     {
+      "wiki_name": "Huddle",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "You and each allied cat give adjacent units +1 Damage and +2 Speed.Upgraded: You and each allied cat give adjacent units +1 Damage and +2 Speed. (This spell is free the first time it's cast each battle.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HUDDLE_NAME",
+        "ru_name": "Куча-мала",
+        "ru_description": "Вы и союзники даете соседям +1 Урон и +2 [img:spd].",
+        "ru_upgraded_description": "Вы и союзники даете соседям +1 Урон и +2 [img:spd].\n[s:.7](Бесплатно первый раз за бой.)[/s]",
+        "en_name": "Huddle",
+        "en_description": "You and each allied cat give adjacent units +1 Damage and +2 [img:spd].",
+        "en_upgraded_description": "You and each allied cat give adjacent units +1 Damage and +2 [img:spd].\n[s:.7](This spell is free the first time it's cast each battle.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Huddle",
+        "display_name": "Huddle",
+        "tool_class": "fighter",
+        "icon_label": "Huddle",
+        "resolved_icon_label": "Huddle",
+        "main_svg_id": "869",
+        "main_svg_filename": "869.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Inhale",
       "class": "Fighter",
       "variant": "normal",
+      "description": "Suck all units in a straight line 1 tile toward you.Upgraded: Suck all units in a straight line 3 tiles toward you.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_INHALE_NAME",
+        "ru_name": "Вдох",
+        "ru_description": "Всосите всех на линии на 1 клетку к себе.",
+        "ru_upgraded_description": "Всосите всех на линии на 3 клетки к себе.",
+        "en_name": "Inhale",
+        "en_description": "Suck all units in a straight line 1 tile toward you.",
+        "en_upgraded_description": "Suck all units in a straight line 3 tiles toward you."
+      },
+      "manifest": {
+        "ability_id": "Inhale",
+        "display_name": "Inhale",
+        "tool_class": "fighter",
+        "icon_label": "Inhale",
+        "resolved_icon_label": "Inhale",
+        "main_svg_id": "857",
+        "main_svg_filename": "857.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Inhale",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "Suck all units in a straight line 1 tile toward you.Upgraded: Suck all units in a straight line 3 tiles toward you.",
       "value_kind": "none",
       "translation": {
@@ -785,9 +1058,87 @@
       }
     },
     {
+      "wiki_name": "Juiced",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Your movement range is doubled until the end of the turn.Upgraded: Your movement range is doubled and you get +4 Strength until the end of the turn.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_JUICED_NAME",
+        "ru_name": "На стероидах",
+        "ru_description": "Дальность движения удвоена до конца хода.",
+        "ru_upgraded_description": "Дальность движения удвоена и вы получаете +4 [img:str] до конца хода.",
+        "en_name": "Juiced",
+        "en_description": "Your movement range is doubled until the end of the turn.",
+        "en_upgraded_description": "Your movement range is doubled and you get +4 [img:str] until the end of the turn."
+      },
+      "manifest": {
+        "ability_id": "Juiced",
+        "display_name": "Juiced",
+        "tool_class": "fighter",
+        "icon_label": "Juiced",
+        "resolved_icon_label": "Juiced",
+        "main_svg_id": "841",
+        "main_svg_filename": "841.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Mock",
       "class": "Fighter",
       "variant": "normal",
+      "description": "Force a unit to move towards you. RELOAD: Kill something.Upgraded: Force a unit to move towards you. RELOAD: Kill something. Bonus Ability: Slap.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MOCK_NAME",
+        "ru_name": "Издевка",
+        "ru_description": "Заставьте юнита идти к вам.\nПЕРЕЗАРЯДКА: Убейте кого-то.",
+        "ru_upgraded_description": "Заставьте юнита идти к вам.\nПЕРЕЗАРЯДКА: Убейте кого-то.\nБонус: Пощечина.",
+        "en_name": "Mock",
+        "en_description": "Force a unit to move towards you.\nRELOAD: Kill something.",
+        "en_upgraded_description": "Force a unit to move towards you.\nRELOAD: Kill something.\nBonus Ability: Slap."
+      },
+      "manifest": {
+        "ability_id": "Challenge",
+        "display_name": "Mock",
+        "tool_class": "fighter",
+        "icon_label": "Challenge",
+        "resolved_icon_label": "Challenge",
+        "main_svg_id": "846",
+        "main_svg_filename": "846.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Mock",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "Force a unit to move towards you. RELOAD: Kill something.Upgraded: Force a unit to move towards you. RELOAD: Kill something. Bonus Ability: Slap.",
       "value_kind": "none",
       "translation": {
@@ -863,9 +1214,87 @@
       }
     },
     {
+      "wiki_name": "MORE ANGRIER!!!",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Lose all of your mana and gain that much Strength until the end of the turn.Upgraded: Lose all of your mana and gain that much Strength, Dexterity, and Speed until the end of the turn.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MOREANGRIER_NAME",
+        "ru_name": "БОЛЬШЕ ЗЛЕЕ!!!",
+        "ru_description": "Потеряйте всю ману. Получите столько же [img:str] до конца хода.",
+        "ru_upgraded_description": "Потеряйте всю ману. Получите столько же [img:str], [img:dex] и [img:spd] до конца хода.",
+        "en_name": "MORE ANGRIER!!!",
+        "en_description": "Lose all of your mana and gain that much [img:str] until the end of the turn.",
+        "en_upgraded_description": "Lose all of your mana and gain that much [img:str], [img:dex], and [img:spd] until the end of the turn."
+      },
+      "manifest": {
+        "ability_id": "LastThought",
+        "display_name": "MORE ANGRIER!!!",
+        "tool_class": "fighter",
+        "icon_label": "LastThought",
+        "resolved_icon_label": "LastThought",
+        "main_svg_id": "850",
+        "main_svg_filename": "850.svg"
+      },
+      "numbers": {
+        "raw": "All",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Push",
       "class": "Fighter",
       "variant": "normal",
+      "description": "Knockback a unit 2 tiles.Upgraded: Turn an adjacent unit around and knock it back 2 tiles.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PUSH_NAME",
+        "ru_name": "Толчок",
+        "ru_description": "Отбросьте юнита на 2 клетки.",
+        "ru_upgraded_description": "Разверните соседа спиной и отбросьте на 2 клетки.",
+        "en_name": "Push",
+        "en_description": "Knockback a unit 2 tiles.",
+        "en_upgraded_description": "Turn an adjacent unit around and knock it back 2 tiles."
+      },
+      "manifest": {
+        "ability_id": "Push",
+        "display_name": "Push",
+        "tool_class": "fighter",
+        "icon_label": "Push",
+        "resolved_icon_label": "Push",
+        "main_svg_id": "837",
+        "main_svg_filename": "837.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Push",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "Knockback a unit 2 tiles.Upgraded: Turn an adjacent unit around and knock it back 2 tiles.",
       "value_kind": "none",
       "translation": {
@@ -1253,6 +1682,45 @@
       }
     },
     {
+      "wiki_name": "Sucker Punch",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "The next time an enemy moves through an adjacent tile, cancel its movement and attack it.Upgraded: The next time an enemy moves through an adjacent tile, cancel its movement and attack it. Bonus Passive: While it's not your turn, your basic attack inflicts Bruise 2.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SUCKERPUNCH_NAME",
+        "ru_name": "Подлый удар",
+        "ru_description": "Когда враг пройдет мимо вас, прервите его движение и атакуйте.",
+        "ru_upgraded_description": "Когда враг пройдет мимо вас, прервите его движение и атакуйте.\nПассивно: Вне вашего хода базовая атака дает Ушиб 2.",
+        "en_name": "Sucker Punch",
+        "en_description": "The next time an enemy moves through an adjacent tile, cancel its movement and attack it.",
+        "en_upgraded_description": "The next time an enemy moves through an adjacent tile, cancel its movement and attack it.\nBonus Passive: While it's not your turn, your basic attack inflicts Bruise 2."
+      },
+      "manifest": {
+        "ability_id": "SuckerPunch",
+        "display_name": "Sucker Punch",
+        "tool_class": "fighter",
+        "icon_label": "SuckerPunch",
+        "resolved_icon_label": "SuckerPunch",
+        "main_svg_id": "877",
+        "main_svg_filename": "877.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Taunt!",
       "class": "Fighter",
       "variant": "normal",
@@ -1370,9 +1838,87 @@
       }
     },
     {
+      "wiki_name": "Tumble",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Move one tile diagonally.Upgraded: Move two tiles diagonally.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TUMBLE_NAME",
+        "ru_name": "Кувырок",
+        "ru_description": "Переместитесь на 1 клетку по диагонали.",
+        "ru_upgraded_description": "Переместитесь на 2 клетки по диагонали.",
+        "en_name": "Tumble",
+        "en_description": "Move one tile diagonally.",
+        "en_upgraded_description": "Move two tiles diagonally."
+      },
+      "manifest": {
+        "ability_id": "Tumble",
+        "display_name": "Tumble",
+        "tool_class": "fighter",
+        "icon_label": "Tumble",
+        "resolved_icon_label": "Tumble",
+        "main_svg_id": "840",
+        "main_svg_filename": "840.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Zoomzerk",
       "class": "Fighter",
       "variant": "normal",
+      "description": "Your movement action becomes a dash attack. This ability becomes Reposition.Upgraded: Your movement action becomes a dash attack. Restore all your mana. This ability becomes Reposition+.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ZOOMZERK_NAME",
+        "ru_name": "Зум-зерк",
+        "ru_description": "Ваше движение превращается в рывок-атаку.\nСпособность меняется на Смену Позиции.",
+        "ru_upgraded_description": "Ваше движение превращается в рывок-атаку. Восстановите всю ману.\nСпособность меняется на Смену Позиции+.",
+        "en_name": "Zoomzerk",
+        "en_description": "Your movement action becomes a dash attack.\nThis ability becomes Reposition.",
+        "en_upgraded_description": "Your movement action becomes a dash attack. Restore all your mana.\nThis ability becomes Reposition+."
+      },
+      "manifest": {
+        "ability_id": "Zoomzerk",
+        "display_name": "Zoomzerk",
+        "tool_class": "fighter",
+        "icon_label": "Zoomzerk",
+        "resolved_icon_label": "Zoomzerk",
+        "main_svg_id": "854",
+        "main_svg_filename": "854.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Zoomzerk",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "Your movement action becomes a dash attack. This ability becomes Reposition.Upgraded: Your movement action becomes a dash attack. Restore all your mana. This ability becomes Reposition+.",
       "value_kind": "damage",
       "translation": {

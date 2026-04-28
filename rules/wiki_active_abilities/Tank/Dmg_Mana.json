@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Tank",
   "frame_type": "Dmg_Mana",
-  "count": 38,
+  "count": 52,
   "abilities": [
     {
       "wiki_name": "Aftershock",
@@ -44,9 +44,87 @@
       }
     },
     {
+      "wiki_name": "Aftershock",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "All units on dirt tiles get tossed to random nearby tiles and take damage when they land.Upgraded: All units on dirt tiles get tossed to random tiles and take damage when they land. Bonus Passive: All of your spells have Earth element.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_AFTERSHOCK_NAME",
+        "ru_name": "Афтершок",
+        "ru_description": "Всех на клетках грязи подкидывает на случайные клетки с уроном.",
+        "ru_upgraded_description": "Всех на клетках грязи подкидывает на случайные клетки с уроном.\nПассивно: Все ваши заклинания имеют элемент Земли.",
+        "en_name": "Aftershock",
+        "en_description": "All units on dirt tiles get tossed to random nearby tiles and take damage when they land.",
+        "en_upgraded_description": "All units on dirt tiles get tossed to random tiles and take damage when they land.\nBonus Passive: All of your spells have Earth element."
+      },
+      "manifest": {
+        "ability_id": "Aftershock",
+        "display_name": "Aftershock",
+        "tool_class": "tank",
+        "icon_label": "Aftershock",
+        "resolved_icon_label": "Aftershock",
+        "main_svg_id": "665",
+        "main_svg_filename": "665.svg"
+      },
+      "numbers": {
+        "raw": "5 4",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Backbreaker",
       "class": "Tank",
       "variant": "normal",
+      "description": "A melee attack that Immobilizes.Upgraded: A melee attack that Immobilizes and gives -2 Speed.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BACKBREAKER_NAME",
+        "ru_name": "Ломатель спин",
+        "ru_description": "Ближняя атака: Обездвиживание.",
+        "ru_upgraded_description": "Ближняя атака: Обездвиживание и -2 [img:spd].",
+        "en_name": "Backbreaker",
+        "en_description": "A melee attack that Immobilizes.",
+        "en_upgraded_description": "A melee attack that Immobilizes and gives -2 [img:spd]."
+      },
+      "manifest": {
+        "ability_id": "BackBreaker",
+        "display_name": "Backbreaker",
+        "tool_class": "tank",
+        "icon_label": "BackBreaker",
+        "resolved_icon_label": "BackBreaker",
+        "main_svg_id": "628",
+        "main_svg_filename": "628.svg"
+      },
+      "numbers": {
+        "raw": "3 6",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Backbreaker",
+      "class": "Tank",
+      "variant": "upgraded",
       "description": "A melee attack that Immobilizes.Upgraded: A melee attack that Immobilizes and gives -2 Speed.",
       "value_kind": "damage",
       "translation": {
@@ -200,9 +278,87 @@
       }
     },
     {
+      "wiki_name": "Belly Flop",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Jump to a tile and Immobilize anything you land on.Upgraded: Jump to a tile and Immobilize units in an area.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BELLYFLOP_NAME",
+        "ru_name": "Плюх пузом",
+        "ru_description": "Прыгните на клетку и Обездвижьте всё, на что упали.",
+        "ru_upgraded_description": "Прыгните на клетку и Обездвижьте юнитов в области.",
+        "en_name": "Belly Flop",
+        "en_description": "Jump to a tile and Immobilize anything you land on.",
+        "en_upgraded_description": "Jump to a tile and Immobilize units in an area."
+      },
+      "manifest": {
+        "ability_id": "BellyFlop",
+        "display_name": "Belly Flop",
+        "tool_class": "tank",
+        "icon_label": "BellyFlop",
+        "resolved_icon_label": "BellyFlop",
+        "main_svg_id": "631",
+        "main_svg_filename": "631.svg"
+      },
+      "numbers": {
+        "raw": "1 6",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Big Rock",
       "class": "Tank",
       "variant": "normal",
+      "description": "Drop a boulder on an adjacent tile, damaging and displacing units it lands on.Upgraded: Drop a boulder on an adjacent tile, damaging, Stunning and displacing units it lands on.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BIGROCK_NAME",
+        "ru_name": "Валун",
+        "ru_description": "Сбросьте валун на соседнюю клетку. Урон и смещение.",
+        "ru_upgraded_description": "Сбросьте валун на соседнюю клетку. Урон, Оглушение и смещение.",
+        "en_name": "Big Rock",
+        "en_description": "Drop a boulder on an adjacent tile, damaging and displacing units it lands on.",
+        "en_upgraded_description": "Drop a boulder on an adjacent tile, damaging, Stunning and displacing units it lands on."
+      },
+      "manifest": {
+        "ability_id": "BigRock",
+        "display_name": "Big Rock",
+        "tool_class": "tank",
+        "icon_label": "BigRock",
+        "resolved_icon_label": "BigRock",
+        "main_svg_id": "650",
+        "main_svg_filename": "650.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Big Rock",
+      "class": "Tank",
+      "variant": "upgraded",
       "description": "Drop a boulder on an adjacent tile, damaging and displacing units it lands on.Upgraded: Drop a boulder on an adjacent tile, damaging, Stunning and displacing units it lands on.",
       "value_kind": "none",
       "translation": {
@@ -278,9 +434,87 @@
       }
     },
     {
+      "wiki_name": "Bowl Over",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Trample over one tile diagonally.Upgraded: Trample over two tiles diagonally with a 10% chance to inflict Stun.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BOWLOVER_NAME",
+        "ru_name": "Сбивание с ног",
+        "ru_description": "Растопчите одну клетку по диагонали.",
+        "ru_upgraded_description": "Растопчите две клетки по диагонали с 10% шансом Оглушения.",
+        "en_name": "Bowl Over",
+        "en_description": "Trample over one tile diagonally.",
+        "en_upgraded_description": "Trample over two tiles diagonally with a 10% chance to inflict Stun."
+      },
+      "manifest": {
+        "ability_id": "BowlOver",
+        "display_name": "Bowl Over",
+        "tool_class": "tank",
+        "icon_label": "BowlOver",
+        "resolved_icon_label": "BowlOver",
+        "main_svg_id": "637",
+        "main_svg_filename": "637.svg"
+      },
+      "numbers": {
+        "raw": "3 2",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Chew",
       "class": "Tank",
       "variant": "normal",
+      "description": "A melee attack with Lifesteal.Upgraded: A melee attack with Lifesteal that inflicts Bleed 2 and ignores shield.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHEW_NAME",
+        "ru_name": "Пожуй",
+        "ru_description": "Ближняя атака с Вампиризмом.",
+        "ru_upgraded_description": "Ближняя атака с Вампиризмом, Кровотечением 2 и игнором щита.",
+        "en_name": "Chew",
+        "en_description": "A melee attack with Lifesteal.",
+        "en_upgraded_description": "A melee attack with Lifesteal that inflicts Bleed 2 and ignores shield."
+      },
+      "manifest": {
+        "ability_id": "Chew",
+        "display_name": "Chew",
+        "tool_class": "tank",
+        "icon_label": "Chew",
+        "resolved_icon_label": "Chew",
+        "main_svg_id": "626",
+        "main_svg_filename": "626.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Chew",
+      "class": "Tank",
+      "variant": "upgraded",
       "description": "A melee attack with Lifesteal.Upgraded: A melee attack with Lifesteal that inflicts Bleed 2 and ignores shield.",
       "value_kind": "damage",
       "translation": {
@@ -668,6 +902,45 @@
       }
     },
     {
+      "wiki_name": "Full Force",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Deal damage equal to your Constitution and inflict Stun. Also stuns yourself.Upgraded: Deal damage equal to your Constitution and inflict Stun and Bruise 4. Also stuns yourself.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FULLFORCE_NAME",
+        "ru_name": "Полная сила",
+        "ru_description": "Нанесите урон (равный [img:con]) и Оглушите цель. Оглушает вас тоже.",
+        "ru_upgraded_description": "Нанесите урон (равный [img:con]), Оглушите и наложите Ушиб 4. Оглушает вас.",
+        "en_name": "Full Force",
+        "en_description": "Deal damage equal to your [img:con] and inflict Stun. Also stuns yourself.",
+        "en_upgraded_description": "Deal damage equal to your [img:con] and inflict Stun and Bruise 4. Also stuns yourself."
+      },
+      "manifest": {
+        "ability_id": "FullForce",
+        "display_name": "Full Force",
+        "tool_class": "tank",
+        "icon_label": "FullForce",
+        "resolved_icon_label": "FullForce",
+        "main_svg_id": "668",
+        "main_svg_filename": "668.svg"
+      },
+      "numbers": {
+        "raw": "5 8",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Gore",
       "class": "Tank",
       "variant": "normal",
@@ -863,9 +1136,87 @@
       }
     },
     {
+      "wiki_name": "Lunge",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Dash forward one tile and attack with Knockback. This spell uses up your movement action.Upgraded: Dash forward one tile, attack with Knockback and inflict Stun. This spell uses up your movement action.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_LUNGE_NAME",
+        "ru_name": "Выпад",
+        "ru_description": "Рывок на 1 клетку и атака с Отбрасыванием.\nТратит действие движения.",
+        "ru_upgraded_description": "Рывок на 1 клетку, атака с Отбрасыванием и Оглушением.\nТратит действие движения.",
+        "en_name": "Lunge",
+        "en_description": "Dash forward one tile and attack with Knockback.\nThis spell uses up your movement action.",
+        "en_upgraded_description": "Dash forward one tile, attack with Knockback and inflict Stun.\nThis spell uses up your movement action."
+      },
+      "manifest": {
+        "ability_id": "Lunge",
+        "display_name": "Lunge",
+        "tool_class": "tank",
+        "icon_label": "Lunge",
+        "resolved_icon_label": "Lunge",
+        "main_svg_id": "656",
+        "main_svg_filename": "656.svg"
+      },
+      "numbers": {
+        "raw": "5 0",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Push Through",
       "class": "Tank",
       "variant": "normal",
+      "description": "Trample over 2 tiles in a straight line destroying any inanimate objects.Upgraded: Trample over 4 tiles in a straight line destroying any inanimate objects and inflicting Bruise 1 on units you trample.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PUSHTHROUGH_NAME",
+        "ru_name": "Продавливание",
+        "ru_description": "Растопчите 2 клетки по прямой, ломая объекты.",
+        "ru_upgraded_description": "Растопчите 4 клетки по прямой, ломая объекты и накладывая Ушиб 1.",
+        "en_name": "Push Through",
+        "en_description": "Trample over 2 tiles in a straight line destroying any inanimate objects.",
+        "en_upgraded_description": "Trample over 4 tiles in a straight line destroying any inanimate objects and inflicting Bruise 1 on units you trample."
+      },
+      "manifest": {
+        "ability_id": "PushThrough",
+        "display_name": "Push Through",
+        "tool_class": "tank",
+        "icon_label": "PushThrough",
+        "resolved_icon_label": "PushThrough",
+        "main_svg_id": "671",
+        "main_svg_filename": "671.svg"
+      },
+      "numbers": {
+        "raw": "3 4",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Push Through",
+      "class": "Tank",
+      "variant": "upgraded",
       "description": "Trample over 2 tiles in a straight line destroying any inanimate objects.Upgraded: Trample over 4 tiles in a straight line destroying any inanimate objects and inflicting Bruise 1 on units you trample.",
       "value_kind": "none",
       "translation": {
@@ -1097,9 +1448,87 @@
       }
     },
     {
+      "wiki_name": "Suplex",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Grab a unit in front of you and slam it into the tile behind you.Upgraded: Grab a unit in front of you and slam it into the tile behind you, inflicting Bruise 3 and Immobile.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUPLEX_NAME",
+        "ru_name": "Суплекс",
+        "ru_description": "Схватите юнита спереди и впечатайте в клетку сзади.",
+        "ru_upgraded_description": "Схватите юнита спереди и впечатайте сзади (Ушиб 3, Обездвиживание).",
+        "en_name": "Suplex",
+        "en_description": "Grab a unit in front of you and slam it into the tile behind you.",
+        "en_upgraded_description": "Grab a unit in front of you and slam it into the tile behind you, inflicting Bruise 3 and Immobile."
+      },
+      "manifest": {
+        "ability_id": "Suplex",
+        "display_name": "Suplex",
+        "tool_class": "tank",
+        "icon_label": "Suplex",
+        "resolved_icon_label": "Suplex",
+        "main_svg_id": "539",
+        "main_svg_filename": "539.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Supper",
       "class": "Tank",
       "variant": "normal",
+      "description": "Heal 15 HP and gain -2 Speed. (Castable once per battle.) Upgraded: Heal 15 HP, gain -2 Speed and +5 Health Regeneration. (Castable once per battle.)",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SUPPER_NAME",
+        "ru_name": "Ужин",
+        "ru_description": "Исцелите 15 ОЗ и получите -2 [img:spd].\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Исцелите 15 ОЗ, получите -2 [img:spd] и +5 Регенерации Здоровья.\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Supper",
+        "en_description": "Heal 15 HP and gain -2 [img:spd].\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Heal 15 HP, gain -2 [img:spd] and +5 Health Regeneration.\n[s:.7](Castable once per battle.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Supper",
+        "display_name": "Supper",
+        "tool_class": "tank",
+        "icon_label": "Supper",
+        "resolved_icon_label": "Supper",
+        "main_svg_id": "669",
+        "main_svg_filename": "669.svg"
+      },
+      "numbers": {
+        "raw": "15 0",
+        "frame_type": "Dmg_Mana",
+        "value": "15",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Supper",
+      "class": "Tank",
+      "variant": "upgraded",
       "description": "Heal 15 HP and gain -2 Speed. (Castable once per battle.) Upgraded: Heal 15 HP, gain -2 Speed and +5 Health Regeneration. (Castable once per battle.)",
       "value_kind": "heal",
       "translation": {
@@ -1331,9 +1760,87 @@
       }
     },
     {
+      "wiki_name": "Toss",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Throw an adjacent unit to an open tile.Upgraded: Throw an adjacent unit to a tile, dealing bonus damage if it collides with something.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TOSS_NAME",
+        "ru_name": "Бросок",
+        "ru_description": "Бросьте соседа на свободную клетку.",
+        "ru_upgraded_description": "Бросьте соседа на клетку. Бонус урон при столкновении.",
+        "en_name": "Toss",
+        "en_description": "Throw an adjacent unit to an open tile.",
+        "en_upgraded_description": "Throw an adjacent unit to a tile, dealing bonus damage if it collides with something."
+      },
+      "manifest": {
+        "ability_id": "Toss",
+        "display_name": "Toss",
+        "tool_class": "tank",
+        "icon_label": "Toss",
+        "resolved_icon_label": "Toss",
+        "main_svg_id": "623",
+        "main_svg_filename": "623.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Toss (My Leg!)",
       "class": "Tank",
       "variant": "normal",
+      "description": "Throw your crippled friend to any tile. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TOSS_NAME",
+        "ru_name": "Бросок",
+        "ru_description": "Бросьте соседа на свободную клетку.",
+        "ru_upgraded_description": "Бросьте соседа на клетку. Бонус урон при столкновении.",
+        "en_name": "Toss",
+        "en_description": "Throw an adjacent unit to an open tile.",
+        "en_upgraded_description": "Throw an adjacent unit to a tile, dealing bonus damage if it collides with something."
+      },
+      "manifest": {
+        "ability_id": "Toss",
+        "display_name": "Toss",
+        "tool_class": "tank",
+        "icon_label": "Toss",
+        "resolved_icon_label": "Toss",
+        "main_svg_id": "623",
+        "main_svg_filename": "623.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Toss (My Leg!)",
+      "class": "Tank",
+      "variant": "upgraded",
       "description": "Throw your crippled friend to any tile. (Castable once per turn.)",
       "value_kind": "none",
       "translation": {
@@ -1409,19 +1916,58 @@
       }
     },
     {
+      "wiki_name": "Toss (Wrestlemaniac)",
+      "class": "Tank",
+      "variant": "upgraded",
+      "description": "Throw an adjacent unit to an open tile. (Castable once per turn.) Upgraded: Throw an adjacent unit to a tile, dealing bonus damage if it collides with something. (Castable once per turn.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TOSS_NAME",
+        "ru_name": "Бросок",
+        "ru_description": "Бросьте соседа на свободную клетку.",
+        "ru_upgraded_description": "Бросьте соседа на клетку. Бонус урон при столкновении.",
+        "en_name": "Toss",
+        "en_description": "Throw an adjacent unit to an open tile.",
+        "en_upgraded_description": "Throw an adjacent unit to a tile, dealing bonus damage if it collides with something."
+      },
+      "manifest": {
+        "ability_id": "Toss",
+        "display_name": "Toss",
+        "tool_class": "tank",
+        "icon_label": "Toss",
+        "resolved_icon_label": "Toss",
+        "main_svg_id": "623",
+        "main_svg_filename": "623.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tank_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Trample Dash",
       "class": "Tank",
       "variant": "normal",
       "description": "Dash forward with Trample, then spawn a rock.Upgraded: Dash forward with Trample, then spawn a rock. Deals more damage and has a 20% chance to inflict Stun.",
       "value_kind": "damage",
       "translation": {
-        "text_key": "EABILITY_TRAMPLEDASH_NAME",
+        "text_key": "ABILITY_TRAMPLEDASH_NAME",
         "ru_name": "Растаптывающий Рывок",
-        "ru_description": "",
-        "ru_upgraded_description": "",
+        "ru_description": "Рывок с Растаптыванием, создает камень.",
+        "ru_upgraded_description": "Рывок с Растаптыванием, создает камень. Больше урона и 20% шанс Оглушения.",
         "en_name": "Trample Dash",
-        "en_description": "",
-        "en_upgraded_description": ""
+        "en_description": "Dash forward with Trample, then spawn a rock.",
+        "en_upgraded_description": "Dash forward with Trample, then spawn a rock. Deals more damage and has a 20% chance to inflict Stun."
       },
       "manifest": {
         "ability_id": "TankTrample",
@@ -1454,13 +2000,13 @@
       "description": "Dash forward with Trample, then spawn a rock.Upgraded: Dash forward with Trample, then spawn a rock. Deals more damage and has a 20% chance to inflict Stun.",
       "value_kind": "damage",
       "translation": {
-        "text_key": "EABILITY_TRAMPLEDASH_NAME",
+        "text_key": "ABILITY_TRAMPLEDASH_NAME",
         "ru_name": "Растаптывающий Рывок",
-        "ru_description": "",
-        "ru_upgraded_description": "",
+        "ru_description": "Рывок с Растаптыванием, создает камень.",
+        "ru_upgraded_description": "Рывок с Растаптыванием, создает камень. Больше урона и 20% шанс Оглушения.",
         "en_name": "Trample Dash",
-        "en_description": "",
-        "en_upgraded_description": ""
+        "en_description": "Dash forward with Trample, then spawn a rock.",
+        "en_upgraded_description": "Dash forward with Trample, then spawn a rock. Deals more damage and has a 20% chance to inflict Stun."
       },
       "manifest": {
         "ability_id": "TankTrample",

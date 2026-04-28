@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Fighter",
   "frame_type": "Xdmg_Mana",
-  "count": 8,
+  "count": 9,
   "abilities": [
     {
       "wiki_name": "Fury Swipes",
@@ -203,6 +203,45 @@
       "wiki_name": "Spin",
       "class": "Fighter",
       "variant": "normal",
+      "description": "Attack everything around you 3 times.Upgraded: Attack everything around you in a wide area 3 times.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPIN_NAME",
+        "ru_name": "Вращение",
+        "ru_description": "Атакуйте всё вокруг 3 раза.",
+        "ru_upgraded_description": "Атакуйте всё вокруг в широкой области 3 раза.",
+        "en_name": "Spin",
+        "en_description": "Attack everything around you 3 times.",
+        "en_upgraded_description": "Attack everything around you in a wide area 3 times."
+      },
+      "manifest": {
+        "ability_id": "Spin",
+        "display_name": "Spin",
+        "tool_class": "fighter",
+        "icon_label": "Spin",
+        "resolved_icon_label": "Spin",
+        "main_svg_id": "829",
+        "main_svg_filename": "829.svg"
+      },
+      "numbers": {
+        "raw": "1x3 6",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x3",
+        "mana": "6",
+        "hit_count": 1,
+        "hit_value": "3"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Spin",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "Attack everything around you 3 times.Upgraded: Attack everything around you in a wide area 3 times.",
       "value_kind": "damage",
       "translation": {

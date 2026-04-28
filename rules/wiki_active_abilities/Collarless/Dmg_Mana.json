@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Collarless",
   "frame_type": "Dmg_Mana",
-  "count": 56,
+  "count": 71,
   "abilities": [
     {
       "wiki_name": "Barf Ball",
@@ -92,10 +92,49 @@
         "text_key": "ABILITY_MECHSUITBARRAGE_NAME",
         "ru_name": "Шквал",
         "ru_description": "Огонь из пулеметов!",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Огонь из пулеметов!",
         "en_name": "Barrage",
         "en_description": "Fire the machine guns!",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Fire the machine guns!"
+      },
+      "manifest": {
+        "ability_id": "MechSuitBarrage",
+        "display_name": "Barrage",
+        "tool_class": "colorless",
+        "icon_label": "MechSuitBarrage",
+        "resolved_icon_label": "MechSuitBarrage",
+        "main_svg_id": "1208",
+        "main_svg_filename": "1208.svg"
+      },
+      "numbers": {
+        "raw": "4 x 6 5",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Barrage",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Fire the machine guns!",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MECHSUITBARRAGE_NAME",
+        "ru_name": "Шквал",
+        "ru_description": "Огонь из пулеметов!",
+        "ru_upgraded_description": "Огонь из пулеметов!",
+        "en_name": "Barrage",
+        "en_description": "Fire the machine guns!",
+        "en_upgraded_description": "Fire the machine guns!"
       },
       "manifest": {
         "ability_id": "MechSuitBarrage",
@@ -203,6 +242,45 @@
       "wiki_name": "Burgeoning Blast",
       "class": "Collarless",
       "variant": "normal",
+      "description": "A spell that deals 0 damage. Increase this spell's damage by 2 at the end of each turn. (Castable once per battle.) Upgraded: A spell that deals 0 damage. Increase this spell's damage by 3 at the end of each turn. (Castable once per battle.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BURGEONINGBLAST_NAME",
+        "ru_name": "Растущий взрыв",
+        "ru_description": "Заклинание, наносящее {v0} урона. Увеличивает урон этого заклинания на 2 в конце каждого хода.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "ru_upgraded_description": "Заклинание, наносящее {v0} урона. Увеличивает урон этого заклинания на 3 в конце каждого хода.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "en_name": "Burgeoning Blast",
+        "en_description": "A spell that deals {v0} damage. Increase this spell's damage by 2 at the end of each turn.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "A spell that deals {v0} damage. Increase this spell's damage by 3 at the end of each turn.\n[s:.7](Castable once per battle.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "BurgeoningBlast",
+        "display_name": "Burgeoning Blast",
+        "tool_class": "colorless",
+        "icon_label": "BurgeoningBlast",
+        "resolved_icon_label": "BurgeoningBlast",
+        "main_svg_id": "1286",
+        "main_svg_filename": "1286.svg"
+      },
+      "numbers": {
+        "raw": "0 0",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Burgeoning Blast",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "A spell that deals 0 damage. Increase this spell's damage by 2 at the end of each turn. (Castable once per battle.) Upgraded: A spell that deals 0 damage. Increase this spell's damage by 3 at the end of each turn. (Castable once per battle.)",
       "value_kind": "damage",
       "translation": {
@@ -638,10 +716,49 @@
         "text_key": "ABILITY_MECHSUITEJECT_NAME",
         "ru_name": "Катапультирование!",
         "ru_description": "Выстрелите собой из меха. Урон вам и тому, на кого упадете.",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Выстрелите собой из меха. Урон вам и тому, на кого упадете.",
         "en_name": "Eject!",
         "en_description": "Launch yourself out of the mech. Deal damage to units you land on and yourself.",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Launch yourself out of the mech. Deal damage to units you land on and yourself."
+      },
+      "manifest": {
+        "ability_id": "MechSuitEject",
+        "display_name": "Eject!",
+        "tool_class": "colorless",
+        "icon_label": "MechSuitEject",
+        "resolved_icon_label": "MechSuitEject",
+        "main_svg_id": "1209",
+        "main_svg_filename": "1209.svg"
+      },
+      "numbers": {
+        "raw": "5 3",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Eject!",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Launch yourself out of the mech. Deal damage to units you land on and yourself.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MECHSUITEJECT_NAME",
+        "ru_name": "Катапультирование!",
+        "ru_description": "Выстрелите собой из меха. Урон вам и тому, на кого упадете.",
+        "ru_upgraded_description": "Выстрелите собой из меха. Урон вам и тому, на кого упадете.",
+        "en_name": "Eject!",
+        "en_description": "Launch yourself out of the mech. Deal damage to units you land on and yourself.",
+        "en_upgraded_description": "Launch yourself out of the mech. Deal damage to units you land on and yourself."
       },
       "manifest": {
         "ability_id": "MechSuitEject",
@@ -824,6 +941,45 @@
       }
     },
     {
+      "wiki_name": "Healing Bolt",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "A lightning bolt that heals and has a chance to Stun.Upgraded: A lightning bolt that heals allies and has a chance to Stun enemies.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_HEALINGBOLT_NAME",
+        "ru_name": "Целительный разряд",
+        "ru_description": "Молния, которая лечит и имеет шанс Оглушить.",
+        "ru_upgraded_description": "Молния, которая лечит союзников и имеет шанс Оглушить врагов.",
+        "en_name": "Healing Bolt",
+        "en_description": "A lightning bolt that heals and has a chance to Stun.",
+        "en_upgraded_description": "A lightning bolt that heals allies and has a chance to Stun enemies."
+      },
+      "manifest": {
+        "ability_id": "HealBolt",
+        "display_name": "Healing Bolt",
+        "tool_class": "colorless",
+        "icon_label": "HealBolt",
+        "resolved_icon_label": "HealBolt",
+        "main_svg_id": "1256",
+        "main_svg_filename": "1256.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Hunt",
       "class": "Collarless",
       "variant": "normal",
@@ -941,9 +1097,87 @@
       }
     },
     {
+      "wiki_name": "Itch",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Deal 1 damage to yourself. 50% chance to spawn a friendly flea.Upgraded: Deal 1 damage to yourself. Spawn a friendly flea.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ITCH_NAME",
+        "ru_name": "Зуд",
+        "ru_description": "Нанесите 1 урон себе. 50% шанс призвать дружественную блоху.",
+        "ru_upgraded_description": "Нанесите 1 урон себе. Призовите дружественную блоху.",
+        "en_name": "Itch",
+        "en_description": "Deal 1 damage to yourself. 50% chance to spawn a friendly flea.",
+        "en_upgraded_description": "Deal 1 damage to yourself. Spawn a friendly flea."
+      },
+      "manifest": {
+        "ability_id": "Itch",
+        "display_name": "Itch",
+        "tool_class": "colorless",
+        "icon_label": "Itch",
+        "resolved_icon_label": "Itch",
+        "main_svg_id": "1320",
+        "main_svg_filename": "1320.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Lick",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Heal an adjacent unit by 2 HP.Upgraded: Heal an adjacent unit by 2 HP. Healed enemies gain Confusion 3.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_LICK_NAME",
+        "ru_name": "Лизь",
+        "ru_description": "Исцелите соседнего юнита на 2 ОЗ.",
+        "ru_upgraded_description": "Исцелите соседнего юнита на 2 ОЗ. Исцеленные враги получают Замешательство 3.",
+        "en_name": "Lick",
+        "en_description": "Heal an adjacent unit by 2 HP.",
+        "en_upgraded_description": "Heal an adjacent unit by 2 HP. Healed enemies gain Confusion 3."
+      },
+      "manifest": {
+        "ability_id": "LickHeal",
+        "display_name": "Lick",
+        "tool_class": "colorless",
+        "icon_label": "LickHeal",
+        "resolved_icon_label": "LickHeal",
+        "main_svg_id": "1317",
+        "main_svg_filename": "1317.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Lick",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Heal an adjacent unit by 2 HP.Upgraded: Heal an adjacent unit by 2 HP. Healed enemies gain Confusion 3.",
       "value_kind": "heal",
       "translation": {
@@ -1565,6 +1799,45 @@
       }
     },
     {
+      "wiki_name": "Snacks",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Heal yourself or another unit within four tiles 1 HP.Upgraded: Heal yourself or another unit 1 HP. 50% chance to also give +1 Constitution.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SNACK_NAME",
+        "ru_name": "Вкусняшка",
+        "ru_description": "Исцелите себя или другого юнита в радиусе четырех клеток на 1 ОЗ.",
+        "ru_upgraded_description": "Исцелите себя или другого юнита на 1 ОЗ. 50% шанс также дать +1 [img:con].",
+        "en_name": "Snacks",
+        "en_description": "Heal yourself or another unit within four tiles 1 HP.",
+        "en_upgraded_description": "Heal yourself or another unit 1 HP. 50% chance to also give +1 [img:con]."
+      },
+      "manifest": {
+        "ability_id": "Snacks",
+        "display_name": "Snacks",
+        "tool_class": "colorless",
+        "icon_label": "Snacks",
+        "resolved_icon_label": "Snacks",
+        "main_svg_id": "1259",
+        "main_svg_filename": "1259.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Soothing Glow",
       "class": "Collarless",
       "variant": "normal",
@@ -1604,9 +1877,87 @@
       }
     },
     {
+      "wiki_name": "Soothing Glow",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Heal yourself 1.Upgraded: Heal yourself 1 and gain +1 to a random stat.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_SOOTHINGGLOW_NAME",
+        "ru_name": "Успокаивающее сияние",
+        "ru_description": "Исцелите себя на 1.",
+        "ru_upgraded_description": "Исцелите себя на 1 и получите +1 к случайной характеристике.",
+        "en_name": "Soothing Glow",
+        "en_description": "Heal yourself 1.",
+        "en_upgraded_description": "Heal yourself 1 and gain +1 to a random stat."
+      },
+      "manifest": {
+        "ability_id": "SoothingGlow",
+        "display_name": "Soothing Glow",
+        "tool_class": "colorless",
+        "icon_label": "SoothingGlow",
+        "resolved_icon_label": "SoothingGlow",
+        "main_svg_id": "1234",
+        "main_svg_filename": "1234.svg"
+      },
+      "numbers": {
+        "raw": "1 2",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Soul Reap",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Deal 1 damage to a unit within five tiles. If this kills it, gain 5 mana.Upgraded: Deal 1 damage to any unit. If this kills it, gain 5 mana.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SOULREAP_NAME",
+        "ru_name": "Жатва душ",
+        "ru_description": "Нанесите 1 урон юниту в радиусе пяти клеток. Если это убьет его, получите 5 маны.",
+        "ru_upgraded_description": "Нанесите 1 урон любому юниту. Если это убьет его, получите 5 маны.",
+        "en_name": "Soul Reap",
+        "en_description": "Deal 1 damage to a unit within five tiles. If this kills it, gain 5 mana.",
+        "en_upgraded_description": "Deal 1 damage to any unit. If this kills it, gain 5 mana."
+      },
+      "manifest": {
+        "ability_id": "SoulReap",
+        "display_name": "Soul Reap",
+        "tool_class": "colorless",
+        "icon_label": "SoulReap",
+        "resolved_icon_label": "SoulReap",
+        "main_svg_id": "1244",
+        "main_svg_filename": "1244.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Soul Reap",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Deal 1 damage to a unit within five tiles. If this kills it, gain 5 mana.Upgraded: Deal 1 damage to any unit. If this kills it, gain 5 mana.",
       "value_kind": "damage",
       "translation": {
@@ -1730,10 +2081,49 @@
         "text_key": "ABILITY_SPOOK_NAME",
         "ru_name": "Испуг",
         "ru_description": "Урон любому юниту. 25% шанс наложить Страх.\n[s:.7]Можно использовать, пока вы вырублены.[/s]",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Урон любому юниту. 25% шанс наложить Страх.\n[s:.7]Можно использовать, пока вы вырублены.[/s]",
         "en_name": "Spook",
         "en_description": "Deal damage to any unit. This has a 25% chance to inflict Fear.\n[s:.7]Castable while downed.[/s]",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Deal damage to any unit. This has a 25% chance to inflict Fear.\n[s:.7]Castable while downed.[/s]"
+      },
+      "manifest": {
+        "ability_id": "Spook",
+        "display_name": "Spook",
+        "tool_class": "colorless",
+        "icon_label": "Spook",
+        "resolved_icon_label": "Spook",
+        "main_svg_id": "925",
+        "main_svg_filename": "925.svg"
+      },
+      "numbers": {
+        "raw": "3 0",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\necromancer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Spook",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Deal damage to any unit. This has a 25% chance to inflict Fear. Castable while downed.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPOOK_NAME",
+        "ru_name": "Испуг",
+        "ru_description": "Урон любому юниту. 25% шанс наложить Страх.\n[s:.7]Можно использовать, пока вы вырублены.[/s]",
+        "ru_upgraded_description": "Урон любому юниту. 25% шанс наложить Страх.\n[s:.7]Можно использовать, пока вы вырублены.[/s]",
+        "en_name": "Spook",
+        "en_description": "Deal damage to any unit. This has a 25% chance to inflict Fear.\n[s:.7]Castable while downed.[/s]",
+        "en_upgraded_description": "Deal damage to any unit. This has a 25% chance to inflict Fear.\n[s:.7]Castable while downed.[/s]"
       },
       "manifest": {
         "ability_id": "Spook",
@@ -1763,6 +2153,45 @@
       "wiki_name": "Steam Roller",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Trample over 1 tile.Upgraded: Trample over 3 tiles.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STEAMROLLER_NAME",
+        "ru_name": "Паровой каток",
+        "ru_description": "Растопчите врага, проходя через 1 клетку.",
+        "ru_upgraded_description": "Растопчите врагов, проходя через 3 клетки.",
+        "en_name": "Steam Roller",
+        "en_description": "Trample over 1 tile.",
+        "en_upgraded_description": "Trample over 3 tiles."
+      },
+      "manifest": {
+        "ability_id": "PushMove",
+        "display_name": "Steam Roller",
+        "tool_class": "colorless",
+        "icon_label": "PushMove",
+        "resolved_icon_label": "PushMove",
+        "main_svg_id": "1242",
+        "main_svg_filename": "1242.svg"
+      },
+      "numbers": {
+        "raw": "3 4",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Steam Roller",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Trample over 1 tile.Upgraded: Trample over 3 tiles.",
       "value_kind": "none",
       "translation": {
@@ -1886,10 +2315,49 @@
         "text_key": "ABILITY_FIGHTERTHROW_NAME",
         "ru_name": "Бросок оружия",
         "ru_description": "Бросьте свое оружие в юнита. Оружие ломается.\n[s:.7](Раз за ход.)[/s]",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Бросьте свое оружие в юнита. Оружие ломается.\n[s:.7](Раз за ход.)[/s]",
         "en_name": "Throw Weapon",
         "en_description": "Throw your weapon at a unit. The weapon breaks.\r\n[s:.7](Castable once per turn.)[/s]",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Throw your weapon at a unit. The weapon breaks.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "FighterBonusThrow",
+        "display_name": "Throw Weapon",
+        "tool_class": "colorless",
+        "icon_label": "FighterBonusThrow",
+        "resolved_icon_label": "FighterBonusThrow",
+        "main_svg_id": "864",
+        "main_svg_filename": "864.svg"
+      },
+      "numbers": {
+        "raw": "5 0",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Throw Weapon (Bonus)",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Throw your weapon at a unit. The weapon breaks. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FIGHTERTHROW_NAME",
+        "ru_name": "Бросок оружия",
+        "ru_description": "Бросьте свое оружие в юнита. Оружие ломается.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Бросьте свое оружие в юнита. Оружие ломается.\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Throw Weapon",
+        "en_description": "Throw your weapon at a unit. The weapon breaks.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Throw your weapon at a unit. The weapon breaks.\r\n[s:.7](Castable once per turn.)[/s]"
       },
       "manifest": {
         "ability_id": "FighterBonusThrow",
@@ -1925,10 +2393,49 @@
         "text_key": "ABILITY_MECHDASH_NAME",
         "ru_name": "Двигатели",
         "ru_description": "Рывок вперед, поджигающий путь.",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Рывок вперед, поджигающий путь.",
         "en_name": "Thrusters",
         "en_description": "Dash forward and light fires in your path.",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Dash forward and light fires in your path."
+      },
+      "manifest": {
+        "ability_id": "MechSuitDash",
+        "display_name": "Thrusters",
+        "tool_class": "colorless",
+        "icon_label": "MechSuitDash",
+        "resolved_icon_label": "MechSuitDash",
+        "main_svg_id": "1207",
+        "main_svg_filename": "1207.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Thrusters",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Dash forward and light fires in your path.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MECHDASH_NAME",
+        "ru_name": "Двигатели",
+        "ru_description": "Рывок вперед, поджигающий путь.",
+        "ru_upgraded_description": "Рывок вперед, поджигающий путь.",
+        "en_name": "Thrusters",
+        "en_description": "Dash forward and light fires in your path.",
+        "en_upgraded_description": "Dash forward and light fires in your path."
       },
       "manifest": {
         "ability_id": "MechSuitDash",
@@ -1961,13 +2468,46 @@
       "description": "Explode the nuke and mass damage everything.",
       "value_kind": "damage",
       "translation": {
-        "text_key": "",
-        "ru_name": "",
-        "ru_description": "",
-        "ru_upgraded_description": "",
-        "en_name": "",
-        "en_description": "",
-        "en_upgraded_description": ""
+        "text_key": "ABILITY_NUKEBONUS_NAME",
+        "ru_name": "Активировать Ядерку",
+        "ru_description": "Взорвите бомбу и нанесите массивный урон всему.",
+        "ru_upgraded_description": "Взорвите бомбу и нанесите массивный урон всему.",
+        "en_name": "Trigger the Nuke",
+        "en_description": "Explode the nuke and mass damage everything.",
+        "en_upgraded_description": "Explode the nuke and mass damage everything."
+      },
+      "manifest": {
+        "ability_id": "neck_NukeBonus",
+        "display_name": "Trigger the Nuke",
+        "tool_class": "colorless",
+        "icon_label": "neck_NukeBonus",
+        "resolved_icon_label": "neck_NukeBonus",
+        "main_svg_id": "1345",
+        "main_svg_filename": "1345.svg"
+      },
+      "numbers": {
+        "raw": "50 0",
+        "frame_type": "Dmg_Mana",
+        "value": "50",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      }
+    },
+    {
+      "wiki_name": "Trigger the Nuke",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Explode the nuke and mass damage everything.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_NUKEBONUS_NAME",
+        "ru_name": "Активировать Ядерку",
+        "ru_description": "Взорвите бомбу и нанесите массивный урон всему.",
+        "ru_upgraded_description": "Взорвите бомбу и нанесите массивный урон всему.",
+        "en_name": "Trigger the Nuke",
+        "en_description": "Explode the nuke and mass damage everything.",
+        "en_upgraded_description": "Explode the nuke and mass damage everything."
       },
       "manifest": {
         "ability_id": "neck_NukeBonus",
@@ -2147,6 +2687,45 @@
       "wiki_name": "Zap",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Deal 1 electric damage at infinite range.Upgraded: Deal 1 electric damage with a 25% chance to Stun at infinite range.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ZAP_NAME",
+        "ru_name": "Разряд",
+        "ru_description": "Нанесите 1 урон электричеством на бесконечном расстоянии.",
+        "ru_upgraded_description": "Нанесите 1 урон электричеством с 25% шансом Оглушить на бесконечном расстоянии.",
+        "en_name": "Zap",
+        "en_description": "Deal 1 electric damage at infinite range.",
+        "en_upgraded_description": "Deal 1 electric damage with a 25% chance to Stun at infinite range."
+      },
+      "manifest": {
+        "ability_id": "Zap",
+        "display_name": "Zap",
+        "tool_class": "colorless",
+        "icon_label": "Zap",
+        "resolved_icon_label": "Zap",
+        "main_svg_id": "1302",
+        "main_svg_filename": "1302.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Zap",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Deal 1 electric damage at infinite range.Upgraded: Deal 1 electric damage with a 25% chance to Stun at infinite range.",
       "value_kind": "damage",
       "translation": {

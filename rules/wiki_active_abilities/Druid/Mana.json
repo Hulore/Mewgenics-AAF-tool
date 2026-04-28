@@ -2,12 +2,51 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Druid",
   "frame_type": "Mana",
-  "count": 64,
+  "count": 102,
   "abilities": [
     {
       "wiki_name": "Battle Cry",
       "class": "Druid",
       "variant": "normal",
+      "description": "Give all familiars in an area +2 Damage.Upgraded: Give all familiars +3 Damage.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BATTLECRY_NAME",
+        "ru_name": "Боевой клич",
+        "ru_description": "Дайте всем фамильярам в области +2 Урон.",
+        "ru_upgraded_description": "Дайте всем фамильярам +3 Урон.",
+        "en_name": "Battle Cry",
+        "en_description": "Give all familiars in an area +2 Damage. ",
+        "en_upgraded_description": "Give all familiars +3 Damage."
+      },
+      "manifest": {
+        "ability_id": "BattleCry",
+        "display_name": "Battle Cry",
+        "tool_class": "druid",
+        "icon_label": "BattleCry",
+        "resolved_icon_label": "BattleCry",
+        "main_svg_id": "1004",
+        "main_svg_filename": "1004.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Battle Cry",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Give all familiars in an area +2 Damage.Upgraded: Give all familiars +3 Damage.",
       "value_kind": "damage",
       "translation": {
@@ -83,6 +122,45 @@
       }
     },
     {
+      "wiki_name": "Bestow Wisdom",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Give +1 Intelligence to a unit.Upgraded: Give +1 Intelligence and +2 mana to a unit.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BESTOWWISDOM_NAME",
+        "ru_name": "Дарование мудрости",
+        "ru_description": "Дайте +1 [img:int] юниту.",
+        "ru_upgraded_description": "Дайте +1 [img:int] и +2 маны юниту.",
+        "en_name": "Bestow Wisdom",
+        "en_description": "Give +1 [img:int] to a unit.",
+        "en_upgraded_description": "Give +1 [img:int] and +2 mana to a unit."
+      },
+      "manifest": {
+        "ability_id": "BestowWisdom",
+        "display_name": "Bestow Wisdom",
+        "tool_class": "druid",
+        "icon_label": "BestowWisdom",
+        "resolved_icon_label": "BestowWisdom",
+        "main_svg_id": "1026",
+        "main_svg_filename": "1026.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Birth Squirrel",
       "class": "Druid",
       "variant": "normal",
@@ -92,10 +170,10 @@
         "text_key": "ABILITY_BIRTHSQUIRREL_NAME",
         "ru_name": "Рождение Белки",
         "ru_description": "Призовите белку.\n[s:.7](Раз за ход.)[/s]",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Призовите белку.\n[s:.7](Раз за ход.)[/s]",
         "en_name": "Birth Squirrel",
         "en_description": "Summon a squirrel.\r\n[s:.7](Castable once per turn.)[/s]",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Summon a squirrel.\r\n[s:.7](Castable once per turn.)[/s]"
       },
       "manifest": {
         "ability_id": "BirthSquirrel",
@@ -131,10 +209,10 @@
         "text_key": "ABILITY_BIRTHSQUIRREL_NAME",
         "ru_name": "Рождение Белки",
         "ru_description": "Призовите белку.\n[s:.7](Раз за ход.)[/s]",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Призовите белку.\n[s:.7](Раз за ход.)[/s]",
         "en_name": "Birth Squirrel",
         "en_description": "Summon a squirrel.\r\n[s:.7](Castable once per turn.)[/s]",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Summon a squirrel.\r\n[s:.7](Castable once per turn.)[/s]"
       },
       "manifest": {
         "ability_id": "BirthSquirrel",
@@ -164,6 +242,45 @@
       "wiki_name": "Bloom",
       "class": "Druid",
       "variant": "normal",
+      "description": "Give 5 mana to allies in an area.Upgraded: Give 5 mana to allies in a large area.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLOOM_NAME",
+        "ru_name": "Цветение",
+        "ru_description": "Дайте 5 маны союзникам в области.",
+        "ru_upgraded_description": "Дайте 5 маны союзникам в большой области.",
+        "en_name": "Bloom",
+        "en_description": "Give 5 mana to allies in an area.",
+        "en_upgraded_description": "Give 5 mana to allies in a large area."
+      },
+      "manifest": {
+        "ability_id": "ManaBomb",
+        "display_name": "Bloom",
+        "tool_class": "druid",
+        "icon_label": "ManaBomb",
+        "resolved_icon_label": "ManaBomb",
+        "main_svg_id": "993",
+        "main_svg_filename": "993.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Bloom",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Give 5 mana to allies in an area.Upgraded: Give 5 mana to allies in a large area.",
       "value_kind": "none",
       "translation": {
@@ -239,9 +356,87 @@
       }
     },
     {
+      "wiki_name": "Call the Wind",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Blow all units back one tile.Upgraded: Blow all units back three tiles. Allies are immune to knockback damage during this.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CALLTHEWIND_NAME",
+        "ru_name": "Призыв ветра",
+        "ru_description": "Сдуйте всех юнитов на 1 клетку назад.",
+        "ru_upgraded_description": "Сдуйте всех юнитов на 3 клетки назад.\nСоюзники имунны к урону от отбрасывания.",
+        "en_name": "Call the Wind",
+        "en_description": "Blow all units back one tile.",
+        "en_upgraded_description": "Blow all units back three tiles.\nAllies are immune to knockback damage during this."
+      },
+      "manifest": {
+        "ability_id": "CallTheWind",
+        "display_name": "Call the Wind",
+        "tool_class": "druid",
+        "icon_label": "CallTheWind",
+        "resolved_icon_label": "CallTheWind",
+        "main_svg_id": "1023",
+        "main_svg_filename": "1023.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Cha Cha Slide",
       "class": "Druid",
       "variant": "normal",
+      "description": "Deal 10 Knockback to all units in a random direction. Allies are immune to Thorns, tile and Knockback damage during this effect.Upgraded: Deal 10 Knockback to all units in a random direction. Allies gain +3 temporary Thorns and are immune to Thorns, tile and Knockback damage during this effect.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHACHASLIDE_NAME",
+        "ru_name": "Ча-Ча-Слайд",
+        "ru_description": "Наносит 10 урона с отталкиванием всем юнитам в случайном направлении. Союзники на время действия не получают урона от «Шипов», от клеток и отталкивания.",
+        "ru_upgraded_description": "Наносит 10 урона с отталкиванием всем юнитам в случайном направлении. Союзники на время действия не получают урона от «Шипов», от клеток и отталкивания и «Шипоы +3». ",
+        "en_name": "Cha Cha Slide",
+        "en_description": "Deal 10 Knockback to all units in a random direction. Allies are immune to Thorns, tile and Knockback damage during this effect.",
+        "en_upgraded_description": "Deal 10 Knockback to all units in a random direction. Allies gain +3 temporary Thorns and are immune to Thorns, tile and Knockback damage during this effect."
+      },
+      "manifest": {
+        "ability_id": "ChaChaSlide",
+        "display_name": "Cha Cha Slide",
+        "tool_class": "druid",
+        "icon_label": "ChaChaSlide",
+        "resolved_icon_label": "ChaChaSlide",
+        "main_svg_id": "1025",
+        "main_svg_filename": "1025.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Cha Cha Slide",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Deal 10 Knockback to all units in a random direction. Allies are immune to Thorns, tile and Knockback damage during this effect.Upgraded: Deal 10 Knockback to all units in a random direction. Allies gain +3 temporary Thorns and are immune to Thorns, tile and Knockback damage during this effect.",
       "value_kind": "damage",
       "translation": {
@@ -473,6 +668,45 @@
       }
     },
     {
+      "wiki_name": "Death Metal",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "A song that explodes a random enemy. If this hits a boss, it instead inflicts Fear.Upgraded: A song that explodes a random enemy. If this hits a boss, it instead inflicts Fear. Inflict Madness on each other enemy.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DEATHMETAL_NAME",
+        "ru_name": "Дэт-метал",
+        "ru_description": "Песня, взрывающая случайного врага. Боссам внушает Страх.",
+        "ru_upgraded_description": "Песня, взрывающая случайного врага. Боссам внушает Страх. Всех остальных сводит с ума (Безумие).",
+        "en_name": "Death Metal",
+        "en_description": "A song that explodes a random enemy. If this hits a boss, it instead inflicts Fear.",
+        "en_upgraded_description": "A song that explodes a random enemy. If this hits a boss, it instead inflicts Fear. Inflict Madness on each other enemy."
+      },
+      "manifest": {
+        "ability_id": "DeathMetal",
+        "display_name": "Death Metal",
+        "tool_class": "druid",
+        "icon_label": "DeathMetal",
+        "resolved_icon_label": "DeathMetal",
+        "main_svg_id": "1024",
+        "main_svg_filename": "1024.svg"
+      },
+      "numbers": {
+        "raw": "13",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "13",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Encourage",
       "class": "Druid",
       "variant": "normal",
@@ -590,9 +824,87 @@
       }
     },
     {
+      "wiki_name": "Entangle",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Entangle units in an area.Upgraded: Entangle units in an area and spawn bramble tiles.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ENTANGLE_NAME",
+        "ru_name": "Опутывание",
+        "ru_description": "Опутайте юнитов в области.",
+        "ru_upgraded_description": "Опутайте юнитов в области и создайте терновник.",
+        "en_name": "Entangle",
+        "en_description": "Entangle units in an area.",
+        "en_upgraded_description": "Entangle units in an area and spawn bramble tiles."
+      },
+      "manifest": {
+        "ability_id": "Entangle",
+        "display_name": "Entangle",
+        "tool_class": "druid",
+        "icon_label": "Entangle",
+        "resolved_icon_label": "Entangle",
+        "main_svg_id": "1057",
+        "main_svg_filename": "1057.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Flower Feet",
       "class": "Druid",
       "variant": "normal",
+      "description": "Move 3 tiles. Plant flowers as you move.Upgraded: Move 5 tiles. Plant flowers as you move and where you end up.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FLOWERFEET_NAME",
+        "ru_name": "Цветочные лапки",
+        "ru_description": "Пройдите 3 клетки. Сажайте цветы по пути.",
+        "ru_upgraded_description": "Пройдите 5 клеток. Сажайте цветы по пути и в конце.",
+        "en_name": "Flower Feet",
+        "en_description": "Move 3 tiles. Plant flowers as you move.",
+        "en_upgraded_description": "Move 5 tiles. Plant flowers as you move and where you end up."
+      },
+      "manifest": {
+        "ability_id": "FlowerFeet",
+        "display_name": "Flower Feet",
+        "tool_class": "druid",
+        "icon_label": "FlowerFeet",
+        "resolved_icon_label": "FlowerFeet",
+        "main_svg_id": "1007",
+        "main_svg_filename": "1007.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Flower Feet",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Move 3 tiles. Plant flowers as you move.Upgraded: Move 5 tiles. Plant flowers as you move and where you end up.",
       "value_kind": "none",
       "translation": {
@@ -668,9 +980,87 @@
       }
     },
     {
+      "wiki_name": "Flutter",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Fly over 3 tiles.Upgraded: Fly over 3-4 tiles.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CROWFLUTTER_NAME",
+        "ru_name": "Вспорхнуть",
+        "ru_description": "Пролетите над 3 клетками.",
+        "ru_upgraded_description": "Пролетите над 3-4 клетками.",
+        "en_name": "Flutter",
+        "en_description": "Fly over 3 tiles.",
+        "en_upgraded_description": "Fly over 3-4 tiles."
+      },
+      "manifest": {
+        "ability_id": "CrowFlutter",
+        "display_name": "Flutter",
+        "tool_class": "druid",
+        "icon_label": "CrowFlutter",
+        "resolved_icon_label": "CrowFlutter",
+        "main_svg_id": "991",
+        "main_svg_filename": "991.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Form of the Elk",
       "class": "Druid",
       "variant": "normal",
+      "description": "Enter Elk Form, gaining +8 Speed, -2 Intelligence, -2 Constitution, and Trample 3. You ignore tile effects while moving. Your basic attack becomes Antler Swipe and this becomes Prance.Upgraded: Enter Elk Form, gaining +8 Speed and Trample 3. You ignore tile effects while moving. Your basic attack becomes Antler Swipe+ and this becomes Prance+.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ELKFORM_NAME",
+        "ru_name": "Облик Лося",
+        "ru_description": "Станьте Лосем: +8 [img:spd], -2 [img:int], -2 [img:con], Растаптывание 3. Игнор эффектов клеток при движении.\nАтака: Удар Рогами, Это: Гарцевание.",
+        "ru_upgraded_description": "Станьте Лосем: +8 [img:spd], Растаптывание 3. Игнор эффектов клеток.\nАтака: Удар Рогами+, Это: Гарцевание+.",
+        "en_name": "Form of the Elk",
+        "en_description": "Enter Elk Form, gaining +8 [img:spd], -2 [img:int], -2 [img:con], and Trample 3. You ignore tile effects while moving.\nYour basic attack becomes Antler Swipe and this becomes Prance.",
+        "en_upgraded_description": "Enter Elk Form, gaining +8 [img:spd] and Trample 3. You ignore tile effects while moving.\nYour basic attack becomes Antler Swipe+ and this becomes Prance+."
+      },
+      "manifest": {
+        "ability_id": "ElkForm",
+        "display_name": "Form of the Elk",
+        "tool_class": "druid",
+        "icon_label": "ElkForm",
+        "resolved_icon_label": "ElkForm",
+        "main_svg_id": "1051",
+        "main_svg_filename": "1051.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Form of the Elk",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Enter Elk Form, gaining +8 Speed, -2 Intelligence, -2 Constitution, and Trample 3. You ignore tile effects while moving. Your basic attack becomes Antler Swipe and this becomes Prance.Upgraded: Enter Elk Form, gaining +8 Speed and Trample 3. You ignore tile effects while moving. Your basic attack becomes Antler Swipe+ and this becomes Prance+.",
       "value_kind": "damage",
       "translation": {
@@ -746,6 +1136,45 @@
       }
     },
     {
+      "wiki_name": "Form of the Mockingbird",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Enter Mockingbird Form, gaining flying movement, +2 Luck, and -2 Strength. Your basic attack becomes Mock Song and this becomes Tease.Upgraded: Enter Mockingbird Form, gaining flying movement and +2 Luck. Your basic attack becomes Mock Song+ and this becomes Tease+.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MOCKINGBIRDFORM_NAME",
+        "ru_name": "Облик Пересмешника",
+        "ru_description": "Станьте Пересмешником: полет, +2 [img:lck], -2 [img:str].\nАтака: Насмешливая Песнь, Это: Дразнилка.",
+        "ru_upgraded_description": "Станьте Пересмешником: полет, +2 [img:lck].\nАтака: Насмешливая Песнь+, Это: Дразнилка+.",
+        "en_name": "Form of the Mockingbird",
+        "en_description": "Enter Mockingbird Form, gaining flying movement, +2 [img:lck], and -2 [img:str].\nYour basic attack becomes Mock Song and this becomes Tease.",
+        "en_upgraded_description": "Enter Mockingbird Form, gaining flying movement and +2 [img:lck].\nYour basic attack becomes Mock Song+ and this becomes Tease+."
+      },
+      "manifest": {
+        "ability_id": "MockingbirdForm",
+        "display_name": "Form of the Mockingbird",
+        "tool_class": "druid",
+        "icon_label": "MockingbirdForm",
+        "resolved_icon_label": "MockingbirdForm",
+        "main_svg_id": "1050",
+        "main_svg_filename": "1050.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Form of the Monkey",
       "class": "Druid",
       "variant": "normal",
@@ -785,9 +1214,87 @@
       }
     },
     {
+      "wiki_name": "Form of the Monkey",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Enter Monkey Form, gaining +2 Dexterity, +2 Luck, -2 Constitution, and -2 Charisma. Your basic attack becomes Throw Poop and this becomes Monkey Toss.Upgraded: Enter Monkey Form, gaining +2 Dexterity and +2 Luck. Your basic attack becomes Throw Poop and this becomes Monkey Toss+.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORMOFTHEMONKEY_NAME",
+        "ru_name": "Облик Обезьяны",
+        "ru_description": "Станьте Обезьяной: +2 [img:dex], +2 [img:lck], -2 [img:con], -2 [img:cha]. Базовая атака станет Броском Какашки, а это — Швырком Обезьяны.",
+        "ru_upgraded_description": "Станьте Обезьяной: +2 [img:dex] и +2 [img:lck]. Базовая атака станет Броском Какашки, а это — Швырком Обезьяны+.",
+        "en_name": "Form of the Monkey",
+        "en_description": "Enter Monkey Form, gaining +2 [img:dex], +2 [img:lck], -2 [img:con], and -2 [img:cha]. Your basic attack becomes Throw Poop and this becomes Monkey Toss.",
+        "en_upgraded_description": "Enter Monkey Form, gaining +2 [img:dex] and +2 [img:lck]. Your basic attack becomes Throw Poop and this becomes Monkey Toss+."
+      },
+      "manifest": {
+        "ability_id": "MonkeyForm",
+        "display_name": "Form of the Monkey",
+        "tool_class": "druid",
+        "icon_label": "MonkeyForm",
+        "resolved_icon_label": "MonkeyForm",
+        "main_svg_id": "1016",
+        "main_svg_filename": "1016.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Form of the Raccoon",
       "class": "Druid",
       "variant": "normal",
+      "description": "Enter Raccoon Form, gaining +2 Intelligence, and -2 Strength. Your basic attack becomes Pilfer and this becomes Scavenge.Upgraded: Enter Raccoon Form, gaining +2 Intelligence, and +2 Luck. Your basic attack becomes Pilfer and this becomes Scavenge+.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORMOFTHERACCOON_NAME",
+        "ru_name": "Облик Енота",
+        "ru_description": "Станьте Енотом: +2 [img:int], -2 [img:str]. Базовая атака станет Кражей, а это — Собирательством.",
+        "ru_upgraded_description": "Станьте Енотом: +2 [img:int], +2 [img:lck]. Базовая атака станет Кражей, а это — Собирательством+.",
+        "en_name": "Form of the Raccoon",
+        "en_description": "Enter Raccoon Form, gaining +2 [img:int], and -2 [img:str]. Your basic attack becomes Pilfer and this becomes Scavenge.",
+        "en_upgraded_description": "Enter Raccoon Form, gaining +2 [img:int], and +2 [img:lck]. Your basic attack becomes Pilfer and this becomes Scavenge+."
+      },
+      "manifest": {
+        "ability_id": "RaccoonForm",
+        "display_name": "Form of the Raccoon",
+        "tool_class": "druid",
+        "icon_label": "RaccoonForm",
+        "resolved_icon_label": "RaccoonForm",
+        "main_svg_id": "1027",
+        "main_svg_filename": "1027.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Form of the Raccoon",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Enter Raccoon Form, gaining +2 Intelligence, and -2 Strength. Your basic attack becomes Pilfer and this becomes Scavenge.Upgraded: Enter Raccoon Form, gaining +2 Intelligence, and +2 Luck. Your basic attack becomes Pilfer and this becomes Scavenge+.",
       "value_kind": "damage",
       "translation": {
@@ -941,6 +1448,45 @@
       }
     },
     {
+      "wiki_name": "Form of the Tree",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Enter Tree Form, gaining -2 Intelligence, +5 , and Brace 2. You become immobile and immune to Knockback. Your basic attack becomes Timber and this becomes Synthesize.Upgraded: Enter Tree Form, gaining -2 Intelligence, +5 , and Brace 4. You become immobile and immune to Knockback. Your basic attack becomes Timber and this becomes Synthesize+.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORMOFTHETREE_NAME",
+        "ru_name": "Облик Дерева",
+        "ru_description": "Станьте Деревом: -2 [img:int], +5 [img:shield], Стойкость 2. Вы неподвижны и имунны к Отбрасыванию. Атака: Лесоповал, Это: Синтез.",
+        "ru_upgraded_description": "Станьте Деревом: -2 [img:int], +5 [img:shield], Стойкость 4. Вы неподвижны и имунны к Отбрасыванию. Атака: Лесоповал, Это: Синтез+.",
+        "en_name": "Form of the Tree",
+        "en_description": "Enter Tree Form, gaining -2 [img:int], +5 [img:shield], and Brace 2. You become immobile and immune to Knockback. Your basic attack becomes Timber and this becomes Synthesize.",
+        "en_upgraded_description": "Enter Tree Form, gaining -2 [img:int], +5 [img:shield], and Brace 4. You become immobile and immune to Knockback. Your basic attack becomes Timber and this becomes Synthesize+."
+      },
+      "manifest": {
+        "ability_id": "TreeForm",
+        "display_name": "Form of the Tree",
+        "tool_class": "druid",
+        "icon_label": "TreeForm",
+        "resolved_icon_label": "TreeForm",
+        "main_svg_id": "1035",
+        "main_svg_filename": "1035.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Form of the Turtle",
       "class": "Druid",
       "variant": "normal",
@@ -980,9 +1526,87 @@
       }
     },
     {
+      "wiki_name": "Form of the Turtle",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Enter Turtle Form, getting +2 Constitution, +10 , -2 Intelligence, and -2 Speed. Your basic attack becomes Head Bash and this becomes Harden Shell.Upgraded: Enter Turtle Form, getting +2 Constitution, +10 , and -2 Intelligence. Your basic attack becomes Head Bash and this becomes Harden Shell+.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORMOFTHETURTLE_NAME",
+        "ru_name": "Облик Черепахи",
+        "ru_description": "Станьте Черепахой: +2 [img:con], +10 [img:shield], -2 [img:int], -2 [img:spd]. Базовая атака станет Ударом Головой, а это — Укреплением Панциря.",
+        "ru_upgraded_description": "Станьте Черепахой: +2 [img:con], +10 [img:shield], -2 [img:int]. Базовая атака станет Ударом Головой, а это — Укреплением Панциря+.",
+        "en_name": "Form of the Turtle",
+        "en_description": "Enter Turtle Form, getting +2 [img:con], +10 [img:shield], -2 [img:int], and -2 [img:spd]. Your basic attack becomes Head Bash and this becomes Harden Shell.",
+        "en_upgraded_description": "Enter Turtle Form, getting +2 [img:con], +10 [img:shield], and -2 [img:int]. Your basic attack becomes Head Bash and this becomes Harden Shell+."
+      },
+      "manifest": {
+        "ability_id": "RhinoForm",
+        "display_name": "Form of the Turtle",
+        "tool_class": "druid",
+        "icon_label": "RhinoForm",
+        "resolved_icon_label": "RhinoForm",
+        "main_svg_id": "1018",
+        "main_svg_filename": "1018.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Form of the Wolf",
       "class": "Druid",
       "variant": "normal",
+      "description": "Enter Wolf Form, gaining +2 Strength, +2 Speed, -2 Luck, and -2 Intelligence. Your basic attack becomes Wolf Claws and this becomes Pounce.Upgraded: Enter Wolf Form, gaining +2 Strength, +2 Speed, -2 Luck, and -2 Intelligence. Your basic attack becomes Wolf Claws+ and this becomes Pounce+.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FORMOFTHEWOLF_NAME",
+        "ru_name": "Облик Волка",
+        "ru_description": "Станьте Волком: +2 [img:str], +2 [img:spd], -2 [img:lck], -2 [img:int]. Базовая атака станет Волчьими Когтями, а это — Набросом.",
+        "ru_upgraded_description": "Станьте Волком: +2 [img:str], +2 [img:spd], -2 [img:lck], -2 [img:int]. Базовая атака станет Волчьими Когтями+, а это — Набросом+.",
+        "en_name": "Form of the Wolf",
+        "en_description": "Enter Wolf Form, gaining +2 [img:str], +2 [img:spd], -2 [img:lck], and -2 [img:int]. Your basic attack becomes Wolf Claws and this becomes Pounce.",
+        "en_upgraded_description": "Enter Wolf Form, gaining +2 [img:str], +2 [img:spd], -2 [img:lck], and -2 [img:int]. Your basic attack becomes Wolf Claws+ and this becomes Pounce+."
+      },
+      "manifest": {
+        "ability_id": "TigerForm",
+        "display_name": "Form of the Wolf",
+        "tool_class": "druid",
+        "icon_label": "TigerForm",
+        "resolved_icon_label": "TigerForm",
+        "main_svg_id": "1014",
+        "main_svg_filename": "1014.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Form of the Wolf",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Enter Wolf Form, gaining +2 Strength, +2 Speed, -2 Luck, and -2 Intelligence. Your basic attack becomes Wolf Claws and this becomes Pounce.Upgraded: Enter Wolf Form, gaining +2 Strength, +2 Speed, -2 Luck, and -2 Intelligence. Your basic attack becomes Wolf Claws+ and this becomes Pounce+.",
       "value_kind": "damage",
       "translation": {
@@ -1100,6 +1724,45 @@
       "wiki_name": "Hydro Pump",
       "class": "Druid",
       "variant": "normal",
+      "description": "Shoot a blast of water that deals 3 Knockback. This spell has recoil.Upgraded: Shoot a long blast of water that deals 10 Knockback. This spell has recoil.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HYDROPUMP_NAME",
+        "ru_name": "Гидронасос",
+        "ru_description": "Выстрел водой: 3 Отбрасывания. Заклинание имеет отдачу.",
+        "ru_upgraded_description": "Длинный выстрел водой: 10 Отбрасывания. Заклинание имеет отдачу.",
+        "en_name": "Hydro Pump",
+        "en_description": "Shoot a blast of water that deals 3 Knockback. This spell has recoil.",
+        "en_upgraded_description": "Shoot a long blast of water that deals 10 Knockback. This spell has recoil."
+      },
+      "manifest": {
+        "ability_id": "HydroPump",
+        "display_name": "Hydro Pump",
+        "tool_class": "druid",
+        "icon_label": "HydroPump",
+        "resolved_icon_label": "HydroPump",
+        "main_svg_id": "1033",
+        "main_svg_filename": "1033.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Hydro Pump",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Shoot a blast of water that deals 3 Knockback. This spell has recoil.Upgraded: Shoot a long blast of water that deals 10 Knockback. This spell has recoil.",
       "value_kind": "none",
       "translation": {
@@ -1409,6 +2072,45 @@
       }
     },
     {
+      "wiki_name": "Plant Mushroom",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Spawn a glowing mushroom that restores mana to nearby units on its turn.Upgraded: Spawn a glowing mushroom anywhere that restores mana and health to nearby units on its turn.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_PLANTMUSHROOM_NAME",
+        "ru_name": "Посадить гриб",
+        "ru_description": "Создайте светящийся гриб, который восстанавливает ману соседям в свой ход.",
+        "ru_upgraded_description": "Создайте гриб где угодно, который лечит и восстанавливает ману соседям.",
+        "en_name": "Plant Mushroom",
+        "en_description": "Spawn a glowing mushroom that restores mana to nearby units on its turn.",
+        "en_upgraded_description": "Spawn a glowing mushroom anywhere that restores mana and health to nearby units on its turn."
+      },
+      "manifest": {
+        "ability_id": "PlantMushroom",
+        "display_name": "Plant Mushroom",
+        "tool_class": "druid",
+        "icon_label": "PlantMushroom",
+        "resolved_icon_label": "PlantMushroom",
+        "main_svg_id": "1056",
+        "main_svg_filename": "1056.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Prance",
       "class": "Druid",
       "variant": "normal",
@@ -1526,9 +2228,87 @@
       }
     },
     {
+      "wiki_name": "Promote",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "The next familiar you spawn becomes a champion.Upgraded: The next familiar you spawn becomes an elite.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PROMOTE_NAME",
+        "ru_name": "Повышение",
+        "ru_description": "Следующий призванный фамильяр станет [img:champion] чемпионом.",
+        "ru_upgraded_description": "Следующий призванный фамильяр станет [img:elite] элитой.",
+        "en_name": "Promote",
+        "en_description": "The next familiar you spawn becomes a [img:champion] champion.",
+        "en_upgraded_description": "The next familiar you spawn becomes an [img:elite] elite."
+      },
+      "manifest": {
+        "ability_id": "Promote",
+        "display_name": "Promote",
+        "tool_class": "druid",
+        "icon_label": "Promote",
+        "resolved_icon_label": "Promote",
+        "main_svg_id": "1011",
+        "main_svg_filename": "1011.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Protection",
       "class": "Druid",
       "variant": "normal",
+      "description": "Give a familiar +1 .Upgraded: Give familiars in a large area +1 .",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PROTECTION_NAME",
+        "ru_name": "Защита",
+        "ru_description": "Дайте фамильяру +1 [img:divineshield].",
+        "ru_upgraded_description": "Дайте фамильярам в большой области +1 [img:divineshield].",
+        "en_name": "Protection",
+        "en_description": "Give a familiar +1 [img:divineshield].",
+        "en_upgraded_description": "Give familiars in a large area +1 [img:divineshield]."
+      },
+      "manifest": {
+        "ability_id": "Protection",
+        "display_name": "Protection",
+        "tool_class": "druid",
+        "icon_label": "Protection",
+        "resolved_icon_label": "Protection",
+        "main_svg_id": "1010",
+        "main_svg_filename": "1010.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Protection",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Give a familiar +1 .Upgraded: Give familiars in a large area +1 .",
       "value_kind": "none",
       "translation": {
@@ -1604,6 +2384,45 @@
       }
     },
     {
+      "wiki_name": "Resummon Crow",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Summon a new crow. Castable only if your crow is dead.Upgraded: Summon a crow.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONCROW_NAME",
+        "ru_name": "Перепризыв Вороны",
+        "ru_description": "Призовите новую Ворону. Только если старая мертва.",
+        "ru_upgraded_description": "Призовите Ворону.",
+        "en_name": "Resummon Crow",
+        "en_description": "Summon a new crow. Castable only if your crow is dead.",
+        "en_upgraded_description": "Summon a crow."
+      },
+      "manifest": {
+        "ability_id": "SummonCrow",
+        "display_name": "Resummon Crow",
+        "tool_class": "druid",
+        "icon_label": "SummonCrow",
+        "resolved_icon_label": "SummonCrow",
+        "main_svg_id": "1038",
+        "main_svg_filename": "1038.svg"
+      },
+      "numbers": {
+        "raw": "11",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "11",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Safety Dance",
       "class": "Druid",
       "variant": "normal",
@@ -1643,9 +2462,87 @@
       }
     },
     {
+      "wiki_name": "Safety Dance",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Give all allies +1 .Upgraded: Give all allies +2 .",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SAFETYDANCE_NAME",
+        "ru_name": "Танец безопасности",
+        "ru_description": "Дайте всем союзникам +1 [img:shield].",
+        "ru_upgraded_description": "Дайте всем союзникам +2 [img:shield].",
+        "en_name": "Safety Dance",
+        "en_description": "Give all allies +1 [img:shield].",
+        "en_upgraded_description": "Give all allies +2 [img:shield]."
+      },
+      "manifest": {
+        "ability_id": "SafetyDance",
+        "display_name": "Safety Dance",
+        "tool_class": "druid",
+        "icon_label": "SafetyDance",
+        "resolved_icon_label": "SafetyDance",
+        "main_svg_id": "1012",
+        "main_svg_filename": "1012.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Scavenge",
       "class": "Druid",
       "variant": "normal",
+      "description": "Run to any pickup and collect it.Upgraded: Run to any pickup and collect it. The effects of that pickup are doubled.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SCAVENGE_NAME",
+        "ru_name": "Собирательство",
+        "ru_description": "Бегите к любому предмету и подберите его.",
+        "ru_upgraded_description": "Бегите к любому предмету и подберите его. Эффект предмета удваивается.",
+        "en_name": "Scavenge",
+        "en_description": "Run to any pickup and collect it.",
+        "en_upgraded_description": "Run to any pickup and collect it. The effects of that pickup are doubled."
+      },
+      "manifest": {
+        "ability_id": "Scavenge",
+        "display_name": "Scavenge",
+        "tool_class": "druid",
+        "icon_label": "Scavenge",
+        "resolved_icon_label": "Scavenge",
+        "main_svg_id": "1029",
+        "main_svg_filename": "1029.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Scavenge",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Run to any pickup and collect it.Upgraded: Run to any pickup and collect it. The effects of that pickup are doubled.",
       "value_kind": "none",
       "translation": {
@@ -1769,10 +2666,49 @@
         "text_key": "ABILITY_SLEEPPOWDER_NAME",
         "ru_name": "Сонная пыльца",
         "ru_description": "Усыпите юнита.",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Усыпите юнита.",
         "en_name": "Sleep Powder",
         "en_description": "Inflict Sleep on a unit.",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Inflict Sleep on a unit."
+      },
+      "manifest": {
+        "ability_id": "SleepPowder",
+        "display_name": "Sleep Powder",
+        "tool_class": "druid",
+        "icon_label": "SleepPowder",
+        "resolved_icon_label": "SleepPowder",
+        "main_svg_id": "1022",
+        "main_svg_filename": "1022.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Sleep Powder",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Inflict Sleep on a unit.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SLEEPPOWDER_NAME",
+        "ru_name": "Сонная пыльца",
+        "ru_description": "Усыпите юнита.",
+        "ru_upgraded_description": "Усыпите юнита.",
+        "en_name": "Sleep Powder",
+        "en_description": "Inflict Sleep on a unit.",
+        "en_upgraded_description": "Inflict Sleep on a unit."
       },
       "manifest": {
         "ability_id": "SleepPowder",
@@ -1802,6 +2738,45 @@
       "wiki_name": "Song of Spring",
       "class": "Druid",
       "variant": "normal",
+      "description": "Spawn flower tiles in an area.Upgraded: Spawn flower tiles in a large area.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SONGOFSPRING_NAME",
+        "ru_name": "Песнь весны",
+        "ru_description": "Создайте клетки с цветами в области.",
+        "ru_upgraded_description": "Создайте клетки с цветами в большой области.",
+        "en_name": "Song of Spring",
+        "en_description": "Spawn flower tiles in an area.",
+        "en_upgraded_description": "Spawn flower tiles in a large area."
+      },
+      "manifest": {
+        "ability_id": "SongOfSpring",
+        "display_name": "Song of Spring",
+        "tool_class": "druid",
+        "icon_label": "SongOfSpring",
+        "resolved_icon_label": "SongOfSpring",
+        "main_svg_id": "994",
+        "main_svg_filename": "994.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Song of Spring",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Spawn flower tiles in an area.Upgraded: Spawn flower tiles in a large area.",
       "value_kind": "none",
       "translation": {
@@ -1877,9 +2852,87 @@
       }
     },
     {
+      "wiki_name": "Squirrel Squad",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Summon 5 baby squirrels.Upgraded: Summon 5 adult squirrels.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SQUIRRELSQUAD_NAME",
+        "ru_name": "Беличий отряд",
+        "ru_description": "Призовите 5 бельчат.",
+        "ru_upgraded_description": "Призовите 5 взрослых белок.",
+        "en_name": "Squirrel Squad",
+        "en_description": "Summon 5 baby squirrels.",
+        "en_upgraded_description": "Summon 5 adult squirrels."
+      },
+      "manifest": {
+        "ability_id": "SquirrelSquad",
+        "display_name": "Squirrel Squad",
+        "tool_class": "druid",
+        "icon_label": "SquirrelSquad",
+        "resolved_icon_label": "SquirrelSquad",
+        "main_svg_id": "996",
+        "main_svg_filename": "996.svg"
+      },
+      "numbers": {
+        "raw": "13",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "13",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Stand By Me",
       "class": "Druid",
       "variant": "normal",
+      "description": "Teleport an ally to you.Upgraded: Teleport any unit to you.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STANDBYME_NAME",
+        "ru_name": "Останься со мной",
+        "ru_description": "Телепортируйте союзника к себе.",
+        "ru_upgraded_description": "Телепортируйте любого юнита к себе.",
+        "en_name": "Stand By Me",
+        "en_description": "Teleport an ally to you.",
+        "en_upgraded_description": "Teleport any unit to you."
+      },
+      "manifest": {
+        "ability_id": "PullToSafety",
+        "display_name": "Stand By Me",
+        "tool_class": "druid",
+        "icon_label": "PullToSafety",
+        "resolved_icon_label": "PullToSafety",
+        "main_svg_id": "1005",
+        "main_svg_filename": "1005.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Stand By Me",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Teleport an ally to you.Upgraded: Teleport any unit to you.",
       "value_kind": "none",
       "translation": {
@@ -1955,9 +3008,87 @@
       }
     },
     {
+      "wiki_name": "Step In",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Swap positions with a familiar.Upgraded: Swap positions with any unit.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STEPIN_NAME",
+        "ru_name": "Вмешательство",
+        "ru_description": "Поменяйтесь местами с фамильяром.",
+        "ru_upgraded_description": "Поменяйтесь местами с любым юнитом.",
+        "en_name": "Step In",
+        "en_description": "Swap positions with a familiar.",
+        "en_upgraded_description": "Swap positions with any unit."
+      },
+      "manifest": {
+        "ability_id": "DruidSwap",
+        "display_name": "Step In",
+        "tool_class": "druid",
+        "icon_label": "DruidSwap",
+        "resolved_icon_label": "DruidSwap",
+        "main_svg_id": "1003",
+        "main_svg_filename": "1003.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Summon Bear",
       "class": "Druid",
       "variant": "normal",
+      "description": "Summon a bear.Upgraded: Summon a furious bear! (It has Fury Swipes.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONBEAR_NAME",
+        "ru_name": "Призыв Медведя",
+        "ru_description": "Призовите медведя.",
+        "ru_upgraded_description": "Призовите яростного медведя!\n(У него есть Яростные Когти.)",
+        "en_name": "Summon Bear",
+        "en_description": "Summon a bear.",
+        "en_upgraded_description": "Summon a furious bear!\n(It has Fury Swipes.)"
+      },
+      "manifest": {
+        "ability_id": "SummonBear",
+        "display_name": "Summon Bear",
+        "tool_class": "druid",
+        "icon_label": "SummonBear",
+        "resolved_icon_label": "SummonBear",
+        "main_svg_id": "1002",
+        "main_svg_filename": "1002.svg"
+      },
+      "numbers": {
+        "raw": "12",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "12",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Summon Bear",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Summon a bear.Upgraded: Summon a furious bear! (It has Fury Swipes.)",
       "value_kind": "none",
       "translation": {
@@ -2033,9 +3164,87 @@
       }
     },
     {
+      "wiki_name": "Summon Caterpillar",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Summon a caterpillar. It gains All Stats Up at the end of each turn. It becomes a moth at All Stats Up 5.Upgraded: Summon a caterpillar with All Stats Up 2. It gains All Stats Up at the end of each turn. It becomes a moth at All Stats Up 5.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONCATERPILLAR_NAME",
+        "ru_name": "Призыв Гусеницы",
+        "ru_description": "Призовите гусеницу. Она получает Повышение Хар-к каждый ход. Станет молью при 5 стаках.",
+        "ru_upgraded_description": "Призовите гусеницу с Повышением 2. Она растет каждый ход. Станет молью при 5 стаках.",
+        "en_name": "Summon Caterpillar",
+        "en_description": "Summon a caterpillar. It gains All Stats Up at the end of each turn. It becomes a moth at All Stats Up 5.",
+        "en_upgraded_description": "Summon a caterpillar with All Stats Up 2. It gains All Stats Up at the end of each turn. It becomes a moth at All Stats Up 5."
+      },
+      "manifest": {
+        "ability_id": "SummonCatepillar",
+        "display_name": "Summon Caterpillar",
+        "tool_class": "druid",
+        "icon_label": "SummonCatepillar",
+        "resolved_icon_label": "SummonCatepillar",
+        "main_svg_id": "1021",
+        "main_svg_filename": "1021.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Summon Snake",
       "class": "Druid",
       "variant": "normal",
+      "description": "Summon a snake.Upgraded: Summon a slippery snake! (It has a 66% dodge chance.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONSNAKE_NAME",
+        "ru_name": "Призыв Змеи",
+        "ru_description": "Призовите змею.",
+        "ru_upgraded_description": "Призовите скользкую змею!\n(У нее 66% шанс уклонения.)",
+        "en_name": "Summon Snake",
+        "en_description": "Summon a snake.",
+        "en_upgraded_description": "Summon a slippery snake!\n(It has a 66% dodge chance.)"
+      },
+      "manifest": {
+        "ability_id": "SummonSnake",
+        "display_name": "Summon Snake",
+        "tool_class": "druid",
+        "icon_label": "SummonSnake",
+        "resolved_icon_label": "SummonSnake",
+        "main_svg_id": "999",
+        "main_svg_filename": "999.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Summon Snake",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Summon a snake.Upgraded: Summon a slippery snake! (It has a 66% dodge chance.)",
       "value_kind": "none",
       "translation": {
@@ -2111,9 +3320,87 @@
       }
     },
     {
+      "wiki_name": "Summon Squirrel",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Summon a squirrel.Upgraded: Summon a squirrel to any tile.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONSQUIRREL_NAME",
+        "ru_name": "Призыв Белки",
+        "ru_description": "Призовите белку.",
+        "ru_upgraded_description": "Призовите белку на любую клетку.",
+        "en_name": "Summon Squirrel",
+        "en_description": "Summon a squirrel.",
+        "en_upgraded_description": "Summon a squirrel to any tile."
+      },
+      "manifest": {
+        "ability_id": "SummonSquirrel",
+        "display_name": "Summon Squirrel",
+        "tool_class": "druid",
+        "icon_label": "SummonSquirrel",
+        "resolved_icon_label": "SummonSquirrel",
+        "main_svg_id": "998",
+        "main_svg_filename": "998.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Summon Toad",
       "class": "Druid",
       "variant": "normal",
+      "description": "Summon a toad.Upgraded: Summon a super toad! (It has more damage, health, and can move an extra time each turn)",
+      "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_SUMMONTOAD_NAME",
+        "ru_name": "Призыв Жабы",
+        "ru_description": "Призовите жабу.",
+        "ru_upgraded_description": "Призовите супер-жабу!\n(У нее больше урона, здоровья и доп. движение каждый ход)",
+        "en_name": "Summon Toad",
+        "en_description": "Summon a toad.",
+        "en_upgraded_description": "Summon a super toad!\n(It has more damage, health, and can move an extra time each turn)"
+      },
+      "manifest": {
+        "ability_id": "SummonToad",
+        "display_name": "Summon Toad",
+        "tool_class": "druid",
+        "icon_label": "SummonToad",
+        "resolved_icon_label": "SummonToad",
+        "main_svg_id": "1001",
+        "main_svg_filename": "1001.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Summon Toad",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Summon a toad.Upgraded: Summon a super toad! (It has more damage, health, and can move an extra time each turn)",
       "value_kind": "damage_or_heal",
       "translation": {
@@ -2189,9 +3476,87 @@
       }
     },
     {
+      "wiki_name": "Summon Turtle",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Summon a turtle.Upgraded: Summon a turtle to any tile in range 6.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUMMONTURTLE_NAME",
+        "ru_name": "Призыв Черепахи",
+        "ru_description": "Призовите черепаху.",
+        "ru_upgraded_description": "Призовите черепаху на клетку в радиусе 6.",
+        "en_name": "Summon Turtle",
+        "en_description": "Summon a turtle.",
+        "en_upgraded_description": "Summon a turtle to any tile in range 6."
+      },
+      "manifest": {
+        "ability_id": "SummonTurtle",
+        "display_name": "Summon Turtle",
+        "tool_class": "druid",
+        "icon_label": "SummonTurtle",
+        "resolved_icon_label": "SummonTurtle",
+        "main_svg_id": "1000",
+        "main_svg_filename": "1000.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Tease",
       "class": "Druid",
       "variant": "normal",
+      "description": "Inflict Madness 1 on a unit.Upgraded: Inflict Madness 1 on a unit. It immediately attacks a unit if it can.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TEASE_NAME",
+        "ru_name": "Дразнилка",
+        "ru_description": "Наложите Безумие 1 на юнита.",
+        "ru_upgraded_description": "Наложите Безумие 1 на юнита. Он сразу атакует кого-нибудь, если может.",
+        "en_name": "Tease",
+        "en_description": "Inflict Madness 1 on a unit.",
+        "en_upgraded_description": "Inflict Madness 1 on a unit. It immediately attacks a unit if it can."
+      },
+      "manifest": {
+        "ability_id": "Tease",
+        "display_name": "Tease",
+        "tool_class": "druid",
+        "icon_label": "Tease",
+        "resolved_icon_label": "Tease",
+        "main_svg_id": "1048",
+        "main_svg_filename": "1048.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Tease",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Inflict Madness 1 on a unit.Upgraded: Inflict Madness 1 on a unit. It immediately attacks a unit if it can.",
       "value_kind": "damage",
       "translation": {
@@ -2345,6 +3710,45 @@
       }
     },
     {
+      "wiki_name": "War Cry",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Each familiar attacks their closest enemy immediately if they can.Upgraded: Your allies and familiars all attack their closest enemy immediately if they can.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_WARCRY_NAME",
+        "ru_name": "Вопль войны",
+        "ru_description": "Каждый фамильяр немедленно атакует ближайшего врага.",
+        "ru_upgraded_description": "Ваши союзники и фамильяры немедленно атакуют ближайшего врага.",
+        "en_name": "War Cry",
+        "en_description": "Each familiar attacks their closest enemy immediately if they can.",
+        "en_upgraded_description": "Your allies and familiars all attack their closest enemy immediately if they can."
+      },
+      "manifest": {
+        "ability_id": "WarCry",
+        "display_name": "War Cry",
+        "tool_class": "druid",
+        "icon_label": "WarCry",
+        "resolved_icon_label": "WarCry",
+        "main_svg_id": "1013",
+        "main_svg_filename": "1013.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "We Are the Champions",
       "class": "Druid",
       "variant": "normal",
@@ -2462,9 +3866,87 @@
       }
     },
     {
+      "wiki_name": "We Will Rock You",
+      "class": "Druid",
+      "variant": "upgraded",
+      "description": "Inflict Petrify on a familiar and give it +6 .Upgraded: Inflict Petrify on a familiar and give it +6 and +2 Thorns.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WEWILLROCKYOU_NAME",
+        "ru_name": "Мы Вас Поразим",
+        "ru_description": "Наложить на питомца эффект «Окаменение» и дать ему +6 [img:shield].",
+        "ru_upgraded_description": "Наложить на питомца эффект «Окаменение» и дать ему +6 [img:shield] и +2 Шипы.",
+        "en_name": "We Will Rock You",
+        "en_description": "Inflict Petrify on a familiar and give it +6 [img:shield].",
+        "en_upgraded_description": "Inflict Petrify on a familiar and give it +6 [img:shield] and +2 Thorns."
+      },
+      "manifest": {
+        "ability_id": "WeWillRockYou",
+        "display_name": "We Will Rock You",
+        "tool_class": "druid",
+        "icon_label": "WeWillRockYou",
+        "resolved_icon_label": "WeWillRockYou",
+        "main_svg_id": "1037",
+        "main_svg_filename": "1037.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Windy Step",
       "class": "Druid",
       "variant": "normal",
+      "description": "Give a unit +1 Bonus Move.Upgraded: Give a unit +1 Bonus Move and +1 Speed. They take their next turn earlier.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WINDYSTEP_NAME",
+        "ru_name": "Ветряной шаг",
+        "ru_description": "Дайте юниту +1 Бонусное Движение.",
+        "ru_upgraded_description": "Дайте юниту +1 Бонусное Движение и +1 [img:spd]. Он походит раньше.",
+        "en_name": "Windy Step",
+        "en_description": "Give a unit +1 Bonus Move.",
+        "en_upgraded_description": "Give a unit +1 Bonus Move and +1 [img:spd]. They take their next turn earlier."
+      },
+      "manifest": {
+        "ability_id": "WindyStep",
+        "display_name": "Windy Step",
+        "tool_class": "druid",
+        "icon_label": "WindyStep",
+        "resolved_icon_label": "WindyStep",
+        "main_svg_id": "1054",
+        "main_svg_filename": "1054.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\druid_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Windy Step",
+      "class": "Druid",
+      "variant": "upgraded",
       "description": "Give a unit +1 Bonus Move.Upgraded: Give a unit +1 Bonus Move and +1 Speed. They take their next turn earlier.",
       "value_kind": "none",
       "translation": {

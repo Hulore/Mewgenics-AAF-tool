@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Cleric",
   "frame_type": "Dmg_Mana",
-  "count": 28,
+  "count": 38,
   "abilities": [
     {
       "wiki_name": "Adoubment",
@@ -164,6 +164,45 @@
       "wiki_name": "Awaken",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Revive a body to 1 HP.Upgraded: Revive a body to 1 HP. Give that unit +1 and All Stats Up.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_AWAKEN_NAME",
+        "ru_name": "Пробуждение",
+        "ru_description": "Воскресите тело с 1 ОЗ.",
+        "ru_upgraded_description": "Воскресите тело с 1 ОЗ. Дайте ему +1 [img:divineshield] и Повышение Всех Характеристик.",
+        "en_name": "Awaken",
+        "en_description": "Revive a body to 1 HP.",
+        "en_upgraded_description": "Revive a body to 1 HP. Give that unit +1 [img:divineshield] and All Stats Up."
+      },
+      "manifest": {
+        "ability_id": "Awaken",
+        "display_name": "Awaken",
+        "tool_class": "cleric",
+        "icon_label": "Awaken",
+        "resolved_icon_label": "Awaken",
+        "main_svg_id": "816",
+        "main_svg_filename": "816.svg"
+      },
+      "numbers": {
+        "raw": "1 1",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Awaken",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Revive a body to 1 HP.Upgraded: Revive a body to 1 HP. Give that unit +1 and All Stats Up.",
       "value_kind": "none",
       "translation": {
@@ -395,6 +434,45 @@
       }
     },
     {
+      "wiki_name": "Cure Wounds",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Heal an adjacent unit.Upgraded: Heal all adjacent units.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CUREWOUNDS_NAME",
+        "ru_name": "Лечение ран",
+        "ru_description": "Исцелите соседнего юнита.",
+        "ru_upgraded_description": "Исцелите всех соседних юнитов.",
+        "en_name": "Cure Wounds",
+        "en_description": "Heal an adjacent unit.",
+        "en_upgraded_description": "Heal all adjacent units."
+      },
+      "manifest": {
+        "ability_id": "MeleeHeal",
+        "display_name": "Cure Wounds",
+        "tool_class": "cleric",
+        "icon_label": "MeleeHeal",
+        "resolved_icon_label": "MeleeHeal",
+        "main_svg_id": "773",
+        "main_svg_filename": "773.svg"
+      },
+      "numbers": {
+        "raw": "10 5",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Ethereal",
       "class": "Cleric",
       "variant": "normal",
@@ -434,9 +512,87 @@
       }
     },
     {
+      "wiki_name": "Ethereal",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Gain 4 , 3 , heal 2 HP, and Brace 1.Upgraded: Gain Thorns 6, Reflect 5, 4 , 3 , heal 2 HP and Brace 1.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_ETHEREAL_NAME",
+        "ru_name": "Эфирность",
+        "ru_description": "Получите 4 [img:divineshield], 3 [img:shield], восстановите 2 ОЗ и Стойкость 1.",
+        "ru_upgraded_description": "Получите Шипы 6, Отражение 5, 4 [img:divineshield],\n3 [img:shield], восстановите 2 ОЗ и Стойкость 1.",
+        "en_name": "Ethereal",
+        "en_description": "Gain 4 [img:divineshield], 3 [img:shield], heal 2 HP, and Brace 1.",
+        "en_upgraded_description": "Gain Thorns 6, Reflect 5, 4 [img:divineshield],\n3 [img:shield], heal 2 HP and Brace 1."
+      },
+      "manifest": {
+        "ability_id": "Ethereal",
+        "display_name": "Ethereal",
+        "tool_class": "cleric",
+        "icon_label": "Ethereal",
+        "resolved_icon_label": "Ethereal",
+        "main_svg_id": "793",
+        "main_svg_filename": "793.svg"
+      },
+      "numbers": {
+        "raw": "2 16",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "16",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Friend or Foe",
       "class": "Cleric",
       "variant": "normal",
+      "description": "A ranged spell that heals allies and damages enemies.Upgraded: An infinitely ranged spell that heals allies and damages enemies.",
+      "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABIITY_FRIENDORFOE_NAME",
+        "ru_name": "Друг или враг",
+        "ru_description": "Дальнее заклинание: лечит союзников и калечит врагов.",
+        "ru_upgraded_description": "Заклинание с бесконечной дальностью: лечит союзников и калечит врагов.",
+        "en_name": "Friend or Foe",
+        "en_description": "A ranged spell that heals allies and damages enemies.",
+        "en_upgraded_description": "An infinitely ranged spell that heals allies and damages enemies."
+      },
+      "manifest": {
+        "ability_id": "FriendOrFoe",
+        "display_name": "Friend or Foe",
+        "tool_class": "cleric",
+        "icon_label": "FriendOrFoe",
+        "resolved_icon_label": "FriendOrFoe",
+        "main_svg_id": "791",
+        "main_svg_filename": "791.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Friend or Foe",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "A ranged spell that heals allies and damages enemies.Upgraded: An infinitely ranged spell that heals allies and damages enemies.",
       "value_kind": "damage_or_heal",
       "translation": {
@@ -668,6 +824,45 @@
       }
     },
     {
+      "wiki_name": "Healing Word",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Heal a unit at range.Upgraded: Heal other units in an area at range.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_HEALINGWORD_NAME",
+        "ru_name": "Лечащее Слово",
+        "ru_description": "Исцелите юнита на расстоянии.",
+        "ru_upgraded_description": "Исцелите юнитов в области на расстоянии.",
+        "en_name": "Healing Word",
+        "en_description": "Heal a unit at range.",
+        "en_upgraded_description": "Heal other units in an area at range."
+      },
+      "manifest": {
+        "ability_id": "RangedHeal",
+        "display_name": "Healing Word",
+        "tool_class": "cleric",
+        "icon_label": "RangedHeal",
+        "resolved_icon_label": "RangedHeal",
+        "main_svg_id": "774",
+        "main_svg_filename": "774.svg"
+      },
+      "numbers": {
+        "raw": "5 5",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Holy Dash",
       "class": "Cleric",
       "variant": "normal",
@@ -863,6 +1058,45 @@
       }
     },
     {
+      "wiki_name": "Holy Weapon",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "A dash attack with range, damage, and knockback equal to the amount of HP you healed other units this turn. (Castable once per turn.) Upgraded: A dash attack with range, damage, and knockback equal to twice the amount of HP you healed other units this turn. (Castable once per turn.)",
+      "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_HOLYWEAPON_NAME",
+        "ru_name": "Святое оружие",
+        "ru_description": "Рывок-атака: дальность, урон и отбрасывание равны кол-ву ОЗ, которое вы восстановили другим в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Рывок-атака: дальность, урон и отбрасывание равны ДВОЙНОМУ кол-ву ОЗ, которое вы восстановили другим в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Holy Weapon",
+        "en_description": "A dash attack with range, damage, and knockback equal to the amount of HP you healed other units this turn.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "A dash attack with range, damage, and knockback equal to twice the amount of HP you healed other units this turn.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "HolyWeapon",
+        "display_name": "Holy Weapon",
+        "tool_class": "cleric",
+        "icon_label": "HolyWeapon",
+        "resolved_icon_label": "HolyWeapon",
+        "main_svg_id": "804",
+        "main_svg_filename": "804.svg"
+      },
+      "numbers": {
+        "raw": "0 0",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Open Wounds",
       "class": "Cleric",
       "variant": "normal",
@@ -902,9 +1136,87 @@
       }
     },
     {
+      "wiki_name": "Open Wounds",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "An attack that deals more damage the less health the target unit has. (based on their health percent) Upgraded: An attack that deals even more damage the less health the target unit has. (based on their health percent)",
+      "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_OPENWOUNDS_NAME",
+        "ru_name": "Открытые раны",
+        "ru_description": "Атака, которая наносит тем больше урона, чем меньше здоровья у цели.\n[s:.7](зависит от процента их здоровья)[/s]",
+        "ru_upgraded_description": "Атака, которая наносит ЗНАЧИТЕЛЬНО больше урона, чем меньше здоровья у цели.\n[s:.7](зависит от процента их здоровья)[/s]",
+        "en_name": "Open Wounds",
+        "en_description": "An attack that deals more damage the less health the target unit has.\n[s:.7](based on their health percent)[/s]",
+        "en_upgraded_description": "An attack that deals even more damage the less health the target unit has.\n[s:.7](based on their health percent)[/s]"
+      },
+      "manifest": {
+        "ability_id": "OpenWounds",
+        "display_name": "Open Wounds",
+        "tool_class": "cleric",
+        "icon_label": "OpenWounds",
+        "resolved_icon_label": "OpenWounds",
+        "main_svg_id": "782",
+        "main_svg_filename": "782.svg"
+      },
+      "numbers": {
+        "raw": "0 8",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Prayer",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Heal units in an area.Upgraded: Heal units in a larger area. Infinite range.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_PRAYER_NAME",
+        "ru_name": "Молитва",
+        "ru_description": "Исцелите юнитов в области.",
+        "ru_upgraded_description": "Исцелите юнитов в большей области. Бесконечная дальность.",
+        "en_name": "Prayer",
+        "en_description": "Heal units in an area.",
+        "en_upgraded_description": "Heal units in a larger area. Infinite range."
+      },
+      "manifest": {
+        "ability_id": "Prayer",
+        "display_name": "Prayer",
+        "tool_class": "cleric",
+        "icon_label": "Prayer",
+        "resolved_icon_label": "Prayer",
+        "main_svg_id": "776",
+        "main_svg_filename": "776.svg"
+      },
+      "numbers": {
+        "raw": "2 4",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Prayer",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Heal units in an area.Upgraded: Heal units in a larger area. Infinite range.",
       "value_kind": "heal",
       "translation": {
@@ -1058,9 +1370,87 @@
       }
     },
     {
+      "wiki_name": "Wish",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Target an area. At the beginning of your next turn, heal all units in that area. (Castable once per turn.) Upgraded: Target an area. At the beginning of your next turn, heal all units in that area. This spell tracks its target if you directly targeted a unit. (Castable once per turn.)",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_WISH_NAME",
+        "ru_name": "Желание",
+        "ru_description": "Выберите область. В начале вашего следующего хода все юниты там исцелятся.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Выберите область. В начале вашего следующего хода все юниты там исцелятся. Заклинание отслеживает цель, если вы выбрали конкретного юнита.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Wish",
+        "en_description": "Target an area. At the beginning of your next turn, heal all units in that area.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Target an area. At the beginning of your next turn, heal all units in that area. This spell tracks its target if you directly targeted a unit.\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Wish",
+        "display_name": "Wish",
+        "tool_class": "cleric",
+        "icon_label": "Wish",
+        "resolved_icon_label": "Wish",
+        "main_svg_id": "790",
+        "main_svg_filename": "790.svg"
+      },
+      "numbers": {
+        "raw": "10 3",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Wrath of God",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Deal holy damage and inflict Blind to everything except for a safe circle around you. This vaporizes units it kills.Upgraded: Deal holy damage and inflict Blind to all enemies. This vaporizes units it kills.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_WRATHOFGOD_NAME",
+        "ru_name": "Гнев Божий",
+        "ru_description": "Нанесите святой урон и Слепоту всему, кроме безопасного круга вокруг вас. Это испаряет убитых.",
+        "ru_upgraded_description": "Нанесите святой урон и Слепоту всем врагам. Это испаряет убитых.",
+        "en_name": "Wrath of God",
+        "en_description": "Deal holy damage and inflict Blind to everything except for a safe circle around you. This vaporizes units it kills.",
+        "en_upgraded_description": "Deal holy damage and inflict Blind to all enemies. This vaporizes units it kills."
+      },
+      "manifest": {
+        "ability_id": "WrathOfGod",
+        "display_name": "Wrath of God",
+        "tool_class": "cleric",
+        "icon_label": "WrathOfGod",
+        "resolved_icon_label": "WrathOfGod",
+        "main_svg_id": "802",
+        "main_svg_filename": "802.svg"
+      },
+      "numbers": {
+        "raw": "6 10",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Wrath of God",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Deal holy damage and inflict Blind to everything except for a safe circle around you. This vaporizes units it kills.Upgraded: Deal holy damage and inflict Blind to all enemies. This vaporizes units it kills.",
       "value_kind": "damage",
       "translation": {

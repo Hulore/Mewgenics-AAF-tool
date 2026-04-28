@@ -2,12 +2,51 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Cleric",
   "frame_type": "Mana",
-  "count": 39,
+  "count": 60,
   "abilities": [
     {
       "wiki_name": "Anoint",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Give +2 Diminishing Health Regeneration and +1 to a random stat to an adjacent unit.Upgraded: Give +2 Diminishing Health Regeneration and +1 to 2 random stats to any unit.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_ANOINT_NAME",
+        "ru_name": "Помазание",
+        "ru_description": "Дайте соседнему юниту +2 Угасающей Регенерации и +1 к случайной хар-ке.",
+        "ru_upgraded_description": "Дайте любому юниту +2 Угасающей Регенерации и +1 к 2 случайным хар-кам.",
+        "en_name": "Anoint",
+        "en_description": "Give +2 Diminishing Health Regeneration and +1 to a random stat to an adjacent unit.",
+        "en_upgraded_description": "Give +2 Diminishing Health Regeneration and +1 to 2 random stats to any unit."
+      },
+      "manifest": {
+        "ability_id": "Anoint",
+        "display_name": "Anoint",
+        "tool_class": "cleric",
+        "icon_label": "Anoint",
+        "resolved_icon_label": "Anoint",
+        "main_svg_id": "800",
+        "main_svg_filename": "800.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Anoint",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Give +2 Diminishing Health Regeneration and +1 to a random stat to an adjacent unit.Upgraded: Give +2 Diminishing Health Regeneration and +1 to 2 random stats to any unit.",
       "value_kind": "heal",
       "translation": {
@@ -83,9 +122,87 @@
       }
     },
     {
+      "wiki_name": "Blinding Lights",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Inflict Blind 1 on each unit in an area.Upgraded: Inflict Blind 2 on each unit in a larger area.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLINDINGLIGHT_NAME",
+        "ru_name": "Ослепительный свет",
+        "ru_description": "Наложите Слепоту 1 на всех в области.",
+        "ru_upgraded_description": "Наложите Слепоту 2 на всех в большей области.",
+        "en_name": "Blinding Lights",
+        "en_description": "Inflict Blind 1 on each unit in an area.",
+        "en_upgraded_description": "Inflict Blind 2 on each unit in a larger area."
+      },
+      "manifest": {
+        "ability_id": "BlindingLight",
+        "display_name": "Blinding Lights",
+        "tool_class": "cleric",
+        "icon_label": "BlindingLight",
+        "resolved_icon_label": "BlindingLight",
+        "main_svg_id": "822",
+        "main_svg_filename": "822.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Born Again",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Revive a body to 100% HP and give it All Stats Up, then you fall asleep.Upgraded: Revive a body to 100% HP and give it All Stats Up.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BORNAGAIN_NAME",
+        "ru_name": "Рожденный заново",
+        "ru_description": "Воскресите тело с 100% ОЗ, дайте ему Повышение Всех Характеристик, затем вы засыпаете.",
+        "ru_upgraded_description": "Воскресите тело с 100% ОЗ и дайте ему Повышение Всех Характеристик.",
+        "en_name": "Born Again",
+        "en_description": "Revive a body to 100% HP and give it All Stats Up, then you fall asleep.",
+        "en_upgraded_description": "Revive a body to 100% HP and give it All Stats Up."
+      },
+      "manifest": {
+        "ability_id": "BornAgain",
+        "display_name": "Born Again",
+        "tool_class": "cleric",
+        "icon_label": "BornAgain",
+        "resolved_icon_label": "BornAgain",
+        "main_svg_id": "796",
+        "main_svg_filename": "796.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Born Again",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Revive a body to 100% HP and give it All Stats Up, then you fall asleep.Upgraded: Revive a body to 100% HP and give it All Stats Up.",
       "value_kind": "none",
       "translation": {
@@ -203,6 +320,45 @@
       "wiki_name": "Call Over",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Make an ally move toward you.Upgraded: Make an ally move toward you. Infinite range.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CALLOVER_NAME",
+        "ru_name": "Подозвать",
+        "ru_description": "Заставьте союзника идти к вам.",
+        "ru_upgraded_description": "Заставьте союзника идти к вам. Бесконечная дальность.",
+        "en_name": "Call Over",
+        "en_description": "Make an ally move toward you.",
+        "en_upgraded_description": "Make an ally move toward you. Infinite range."
+      },
+      "manifest": {
+        "ability_id": "CallOver",
+        "display_name": "Call Over",
+        "tool_class": "cleric",
+        "icon_label": "CallOver",
+        "resolved_icon_label": "CallOver",
+        "main_svg_id": "820",
+        "main_svg_filename": "820.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Call Over",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Make an ally move toward you.Upgraded: Make an ally move toward you. Infinite range.",
       "value_kind": "none",
       "translation": {
@@ -434,9 +590,87 @@
       }
     },
     {
+      "wiki_name": "Cleanse",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Remove all debuffs from units in an area.Upgraded: Remove all debuffs from units in an area. Those units get +1 for each debuff removed.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CLEANSE_NAME",
+        "ru_name": "Очищение",
+        "ru_description": "Снимите все дебаффы с юнитов в области.",
+        "ru_upgraded_description": "Снимите все дебаффы с юнитов в области. Эти юниты получают +1 [img:divineshield] за каждый снятый дебафф.",
+        "en_name": "Cleanse",
+        "en_description": "Remove all debuffs from units in an area.",
+        "en_upgraded_description": "Remove all debuffs from units in an area. Those units get +1 [img:divineshield] for each debuff removed."
+      },
+      "manifest": {
+        "ability_id": "Cleanse",
+        "display_name": "Cleanse",
+        "tool_class": "cleric",
+        "icon_label": "Cleanse",
+        "resolved_icon_label": "Cleanse",
+        "main_svg_id": "786",
+        "main_svg_filename": "786.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Convert",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Inflict Charm 2 on an adjacent unit.Upgraded: Inflict Charm 2 on an adjacent unit. Non-boss enemies with less than 25% health join your party.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_CONVERT_NAME",
+        "ru_name": "Обращение",
+        "ru_description": "Наложите Очарование 2 на соседнего юнита.",
+        "ru_upgraded_description": "Наложите Очарование 2 на соседнего юнита. Обычные враги (не боссы) с <25% ОЗ переходят на вашу сторону.",
+        "en_name": "Convert",
+        "en_description": "Inflict Charm 2 on an adjacent unit.",
+        "en_upgraded_description": "Inflict Charm 2 on an adjacent unit. Non-boss enemies with less than 25% health join your party."
+      },
+      "manifest": {
+        "ability_id": "Convert",
+        "display_name": "Convert",
+        "tool_class": "cleric",
+        "icon_label": "Convert",
+        "resolved_icon_label": "Convert",
+        "main_svg_id": "778",
+        "main_svg_filename": "778.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Convert",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Inflict Charm 2 on an adjacent unit.Upgraded: Inflict Charm 2 on an adjacent unit. Non-boss enemies with less than 25% health join your party.",
       "value_kind": "heal",
       "translation": {
@@ -512,6 +746,45 @@
       }
     },
     {
+      "wiki_name": "Crusade",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "You and your allies move toward the nearest enemy.Upgraded: You and your allies move toward the nearest enemy and gain +1 Strength.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CRUSADE_NAME",
+        "ru_name": "Крестовый поход",
+        "ru_description": "Вы и ваши союзники движетесь к ближайшему врагу.",
+        "ru_upgraded_description": "Вы и ваши союзники движетесь к ближайшему врагу и получаете +1 [img:str].",
+        "en_name": "Crusade",
+        "en_description": "You and your allies move toward the nearest enemy.",
+        "en_upgraded_description": "You and your allies move toward the nearest enemy and gain +1 [img:str]."
+      },
+      "manifest": {
+        "ability_id": "Crusade",
+        "display_name": "Crusade",
+        "tool_class": "cleric",
+        "icon_label": "Crusade",
+        "resolved_icon_label": "Crusade",
+        "main_svg_id": "795",
+        "main_svg_filename": "795.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Divine Gift",
       "class": "Cleric",
       "variant": "normal",
@@ -551,9 +824,87 @@
       }
     },
     {
+      "wiki_name": "Divine Gift",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Gain All Stats Up. This spell costs 1 mana less for each HP you healed other units this turn. (Castable once per turn.) Upgraded: Gain All Stats Up and +1 . This spell costs 1 mana less for each HP you healed other units this turn. (Castable once per turn.)",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_DIVINEGIFT_NAME",
+        "ru_name": "Божий дар",
+        "ru_description": "Получите Повышение Всех Характеристик. Стоит на 1 ману меньше за каждое ОЗ, которое вы восстановили другим в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Получите Повышение Всех Характеристик и +1 [img:divineshield]. Стоит на 1 ману меньше за каждое ОЗ, которое вы восстановили другим в этот ход.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Divine Gift",
+        "en_description": "Gain All Stats Up. This spell costs 1 mana less for each HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Gain All Stats Up and +1 [img:divineshield]. This spell costs 1 mana less for each HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "DivineGift",
+        "display_name": "Divine Gift",
+        "tool_class": "cleric",
+        "icon_label": "DivineGift",
+        "resolved_icon_label": "DivineGift",
+        "main_svg_id": "805",
+        "main_svg_filename": "805.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Divine Protection",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Give a unit +1 and +1 Kinetic Spikes. That unit becomes the Alpha. If there is an Alpha, this spell costs less and must target it.Upgraded: Give a unit anywhere +1 and +2 Kinetic Spikes. That unit becomes the Alpha. If there is an Alpha, this spell costs less and must target it.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DIVINEPROTECTION_NAME",
+        "ru_name": "Божественная защита",
+        "ru_description": "Дайте юниту +1 [img:divineshield] и +1 Кинетические Шипы. Он становится Альфой.\nЕсли Альфа уже есть, заклинание стоит дешевле и бьет только в него.",
+        "ru_upgraded_description": "Дайте любому юниту +1 [img:divineshield] и +2 Кинетические Шипы. Он становится Альфой.\nЕсли Альфа уже есть, заклинание стоит дешевле и бьет только в него.",
+        "en_name": "Divine Protection",
+        "en_description": "Give a unit +1 [img:divineshield] and +1 Kinetic Spikes. That unit becomes the Alpha.\r\nIf there is an Alpha, this spell costs less and must target it.",
+        "en_upgraded_description": "Give a unit anywhere +1 [img:divineshield] and +2 Kinetic Spikes. That unit becomes the Alpha.\nIf there is an Alpha, this spell costs less and must target it."
+      },
+      "manifest": {
+        "ability_id": "DivineProtection",
+        "display_name": "Divine Protection",
+        "tool_class": "cleric",
+        "icon_label": "DivineProtection",
+        "resolved_icon_label": "DivineProtection",
+        "main_svg_id": "808",
+        "main_svg_filename": "808.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Divine Protection",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Give a unit +1 and +1 Kinetic Spikes. That unit becomes the Alpha. If there is an Alpha, this spell costs less and must target it.Upgraded: Give a unit anywhere +1 and +2 Kinetic Spikes. That unit becomes the Alpha. If there is an Alpha, this spell costs less and must target it.",
       "value_kind": "none",
       "translation": {
@@ -941,9 +1292,87 @@
       }
     },
     {
+      "wiki_name": "Haste",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Give a unit +10 Speed until the end of its next turn.Upgraded: Give units in an area +10 Speed until the end of their next turns.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HASTE_NAME",
+        "ru_name": "Ускорение",
+        "ru_description": "Дайте юниту +10 [img:spd] до конца его следующего хода.",
+        "ru_upgraded_description": "Дайте юнитам в области +10 [img:spd] до конца их следующих ходов.",
+        "en_name": "Haste",
+        "en_description": "Give a unit +10 [img:spd] until the end of its next turn.",
+        "en_upgraded_description": "Give units in an area +10 [img:spd] until the end of their next turns."
+      },
+      "manifest": {
+        "ability_id": "Haste",
+        "display_name": "Haste",
+        "tool_class": "cleric",
+        "icon_label": "Haste",
+        "resolved_icon_label": "Haste",
+        "main_svg_id": "784",
+        "main_svg_filename": "784.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Healing Salve",
       "class": "Cleric",
       "variant": "normal",
+      "description": "You or an adjacent unit gains +1 Health Regeneration.Upgraded: You or an adjacent unit gains +2 Health Regeneration.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_HEALINGSALVE_NAME",
+        "ru_name": "Лечебная мазь",
+        "ru_description": "Вы или сосед получаете +1 Регенерацию Здоровья.",
+        "ru_upgraded_description": "Вы или сосед получаете +2 Регенерацию Здоровья.",
+        "en_name": "Healing Salve",
+        "en_description": "You or an adjacent unit gains +1 Health Regeneration.",
+        "en_upgraded_description": "You or an adjacent unit gains +2 Health Regeneration."
+      },
+      "manifest": {
+        "ability_id": "HealingSalve",
+        "display_name": "Healing Salve",
+        "tool_class": "cleric",
+        "icon_label": "HealingSalve",
+        "resolved_icon_label": "HealingSalve",
+        "main_svg_id": "817",
+        "main_svg_filename": "817.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Healing Salve",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "You or an adjacent unit gains +1 Health Regeneration.Upgraded: You or an adjacent unit gains +2 Health Regeneration.",
       "value_kind": "heal",
       "translation": {
@@ -1019,9 +1448,87 @@
       }
     },
     {
+      "wiki_name": "Heretic Mark",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Inflict Ostracized 2 on a unit.Upgraded: Inflict Ostracized 4 on a unit.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HERETICMARK_NAME",
+        "ru_name": "Метка Еретика",
+        "ru_description": "Наложите Изгнание 2 на юнита.",
+        "ru_upgraded_description": "Наложите Изгнание 4 на юнита.",
+        "en_name": "Heretic Mark",
+        "en_description": "Inflict Ostracized 2 on a unit.",
+        "en_upgraded_description": "Inflict Ostracized 4 on a unit."
+      },
+      "manifest": {
+        "ability_id": "HereticMark",
+        "display_name": "Heretic Mark",
+        "tool_class": "cleric",
+        "icon_label": "HereticMark",
+        "resolved_icon_label": "HereticMark",
+        "main_svg_id": "781",
+        "main_svg_filename": "781.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Malaise",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Inflict Weakness on units in an area.Upgraded: Inflict Weakness and Poison on units in an area.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MALAISE_NAME",
+        "ru_name": "Недомогание",
+        "ru_description": "Наложите Слабость на юнитов в области.",
+        "ru_upgraded_description": "Наложите Слабость и Яд на юнитов в области.",
+        "en_name": "Malaise",
+        "en_description": "Inflict Weakness on units in an area.",
+        "en_upgraded_description": "Inflict Weakness and Poison on units in an area."
+      },
+      "manifest": {
+        "ability_id": "Malaise",
+        "display_name": "Malaise",
+        "tool_class": "cleric",
+        "icon_label": "Malaise",
+        "resolved_icon_label": "Malaise",
+        "main_svg_id": "777",
+        "main_svg_filename": "777.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Malaise",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Inflict Weakness on units in an area.Upgraded: Inflict Weakness and Poison on units in an area.",
       "value_kind": "none",
       "translation": {
@@ -1097,9 +1604,87 @@
       }
     },
     {
+      "wiki_name": "Pray",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Give another unit +5 Luck until the end of its next turn.Upgraded: Give allies +5 Luck and enemies -5 Luck until the end of their next turns, in an area.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PRAY_NAME",
+        "ru_name": "Мольба",
+        "ru_description": "Дайте другому юниту +5 [img:lck] до конца его следующего хода.",
+        "ru_upgraded_description": "Дайте союзникам +5 [img:lck], а врагам -5 [img:lck] до конца их следующих ходов (в области).",
+        "en_name": "Pray",
+        "en_description": "Give another unit +5 [img:lck] until the end of its next turn.",
+        "en_upgraded_description": "Give allies +5 [img:lck] and enemies -5 [img:lck] until the end of their next turns, in an area."
+      },
+      "manifest": {
+        "ability_id": "Pray",
+        "display_name": "Pray",
+        "tool_class": "cleric",
+        "icon_label": "Pray",
+        "resolved_icon_label": "Pray",
+        "main_svg_id": "814",
+        "main_svg_filename": "814.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Rally",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Force a unit to attack one of its enemies.Upgraded: Force units in an area to each attack one of their enemies.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_RALLY_NAME",
+        "ru_name": "Клич",
+        "ru_description": "Заставьте юнита атаковать одного из своих врагов.",
+        "ru_upgraded_description": "Заставьте юнитов в области атаковать одного из своих врагов.",
+        "en_name": "Rally",
+        "en_description": "Force a unit to attack one of its enemies.",
+        "en_upgraded_description": "Force units in an area to each attack one of their enemies."
+      },
+      "manifest": {
+        "ability_id": "Rally",
+        "display_name": "Rally",
+        "tool_class": "cleric",
+        "icon_label": "Rally",
+        "resolved_icon_label": "Rally",
+        "main_svg_id": "785",
+        "main_svg_filename": "785.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Rally",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Force a unit to attack one of its enemies.Upgraded: Force units in an area to each attack one of their enemies.",
       "value_kind": "damage",
       "translation": {
@@ -1175,9 +1760,87 @@
       }
     },
     {
+      "wiki_name": "Rebuke",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Deal damage to a unit equal to the damage that unit last dealt.Upgraded: Deal damage to a unit equal to twice the damage that unit last dealt.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REBUKE_NAME",
+        "ru_name": "Упрек",
+        "ru_description": "Нанесите юниту урон, равный урону, который он нанес последним.",
+        "ru_upgraded_description": "Нанесите юниту урон, равный двойному урону, который он нанес последним.",
+        "en_name": "Rebuke",
+        "en_description": "Deal damage to a unit equal to the damage that unit last dealt.",
+        "en_upgraded_description": "Deal damage to a unit equal to twice the damage that unit last dealt."
+      },
+      "manifest": {
+        "ability_id": "Rebuke",
+        "display_name": "Rebuke",
+        "tool_class": "cleric",
+        "icon_label": "Rebuke",
+        "resolved_icon_label": "Rebuke",
+        "main_svg_id": "779",
+        "main_svg_filename": "779.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Reverse Damage",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Reverse the last damage an adjacent unit took.Upgraded: Reverse the last damage a unit within range took.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REVERSEDAMAGE_NAME",
+        "ru_name": "Возврат урона",
+        "ru_description": "Отмените последний урон, полученный соседним юнитом.",
+        "ru_upgraded_description": "Отмените последний урон, полученный юнитом в радиусе досягаемости.",
+        "en_name": "Reverse Damage",
+        "en_description": "Reverse the last damage an adjacent unit took.",
+        "en_upgraded_description": "Reverse the last damage a unit within range took."
+      },
+      "manifest": {
+        "ability_id": "ReverseDamage",
+        "display_name": "Reverse Damage",
+        "tool_class": "cleric",
+        "icon_label": "ReverseDamage",
+        "resolved_icon_label": "ReverseDamage",
+        "main_svg_id": "775",
+        "main_svg_filename": "775.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Reverse Damage",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Reverse the last damage an adjacent unit took.Upgraded: Reverse the last damage a unit within range took.",
       "value_kind": "damage",
       "translation": {
@@ -1253,9 +1916,87 @@
       }
     },
     {
+      "wiki_name": "Revive",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Revive a body to 50% HP and cure one of its injuries.Upgraded: Revive a body to 100% HP and cure one of its injuries. If it was an enemy, it gets charmed.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REVIVE_NAME",
+        "ru_name": "Воскрешение",
+        "ru_description": "Воскресите тело с 50% ОЗ и вылечите одну травму.",
+        "ru_upgraded_description": "Воскресите тело с 100% ОЗ и вылечите одну травму. Если это был враг, он очаровывается.",
+        "en_name": "Revive",
+        "en_description": "Revive a body to 50% HP and cure one of its injuries.",
+        "en_upgraded_description": "Revive a body to 100% HP and cure one of its injuries. If it was an enemy, it gets charmed."
+      },
+      "manifest": {
+        "ability_id": "Revive",
+        "display_name": "Revive",
+        "tool_class": "cleric",
+        "icon_label": "Revive",
+        "resolved_icon_label": "Revive",
+        "main_svg_id": "794",
+        "main_svg_filename": "794.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Stimulants",
       "class": "Cleric",
       "variant": "normal",
+      "description": "You and adjacent units gain +2 Speed.Upgraded: You and adjacent units gain +2 Speed and +1 Intelligence.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STIMULANTS_NAME",
+        "ru_name": "Стимуляторы",
+        "ru_description": "Вы и соседи получаете +2 [img:spd].",
+        "ru_upgraded_description": "Вы и соседи получаете +2 [img:spd] и +1 [img:int].",
+        "en_name": "Stimulants",
+        "en_description": "You and adjacent units gain +2 [img:spd].",
+        "en_upgraded_description": "You and adjacent units gain +2 [img:spd] and +1 [img:int]."
+      },
+      "manifest": {
+        "ability_id": "Stimulants",
+        "display_name": "Stimulants",
+        "tool_class": "cleric",
+        "icon_label": "Stimulants",
+        "resolved_icon_label": "Stimulants",
+        "main_svg_id": "810",
+        "main_svg_filename": "810.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Stimulants",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "You and adjacent units gain +2 Speed.Upgraded: You and adjacent units gain +2 Speed and +1 Intelligence.",
       "value_kind": "none",
       "translation": {
@@ -1331,9 +2072,87 @@
       }
     },
     {
+      "wiki_name": "Swift Servant",
+      "class": "Cleric",
+      "variant": "upgraded",
+      "description": "Give a unit +1 Bonus Move. That unit becomes the Alpha. If there is an Alpha, this spell must target it and it gives you +1 Bonus Move too.Upgraded: Give a unit +1 Bonus Move. That unit becomes the Alpha. If there is an Alpha, this spell has infinite range, costs less and must target it, and it gives you +1 Bonus Move too.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SWIFTSERVANT_NAME",
+        "ru_name": "Быстрый слуга",
+        "ru_description": "Дайте юниту +1 Бонусное Движение. Он становится Альфой.\nЕсли Альфа уже есть, заклинание бьет в него и дает вам +1 Бонусное Движение тоже.",
+        "ru_upgraded_description": "Дайте юниту +1 Бонусное Движение. Он становится Альфой.\nЕсли Альфа уже есть, заклинание бьет через всю карту, стоит дешевле и дает вам +1 Бонусное Движение.",
+        "en_name": "Swift Servant",
+        "en_description": "Give a unit +1 Bonus Move. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives you +1 Bonus Move too.",
+        "en_upgraded_description": "Give a unit +1 Bonus Move. That unit becomes the Alpha.\nIf there is an Alpha, this spell has infinite range, costs less and must target it, and it gives you +1 Bonus Move too."
+      },
+      "manifest": {
+        "ability_id": "SwiftSanctify",
+        "display_name": "Swift Servant",
+        "tool_class": "cleric",
+        "icon_label": "SwiftSanctify",
+        "resolved_icon_label": "SwiftSanctify",
+        "main_svg_id": "806",
+        "main_svg_filename": "806.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Turn Foe",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Force a nearby unit to move away from you.Upgraded: Force a nearby unit to move away from you. If it was an enemy, inflict Madness 1 and Confusion 1.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TURNFOE_NAME",
+        "ru_name": "Изгнание врага",
+        "ru_description": "Заставьте ближайшего юнита убегать от вас.",
+        "ru_upgraded_description": "Заставьте ближайшего юнита убегать. Если это враг, наложите Безумие 1 и Замешательство 1.",
+        "en_name": "Turn Foe",
+        "en_description": "Force a nearby unit to move away from you.",
+        "en_upgraded_description": "Force a nearby unit to move away from you. If it was an enemy, inflict Madness 1 and Confusion 1."
+      },
+      "manifest": {
+        "ability_id": "TurnFoe",
+        "display_name": "Turn Foe",
+        "tool_class": "cleric",
+        "icon_label": "TurnFoe",
+        "resolved_icon_label": "TurnFoe",
+        "main_svg_id": "818",
+        "main_svg_filename": "818.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Turn Foe",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Force a nearby unit to move away from you.Upgraded: Force a nearby unit to move away from you. If it was an enemy, inflict Madness 1 and Confusion 1.",
       "value_kind": "none",
       "translation": {

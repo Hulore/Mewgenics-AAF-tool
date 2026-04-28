@@ -2,12 +2,51 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Tinkerer",
   "frame_type": "Mana",
-  "count": 53,
+  "count": 78,
   "abilities": [
     {
       "wiki_name": "Armor Up",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Craft a Tinkerer armor piece into one of your empty armor slots.Upgraded: Craft a Tinkerer armor piece into one of your or an adjacent unit's empty armor slots.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ARMORUP_NAME",
+        "ru_name": "Броня вверх!",
+        "ru_description": "Создайте броню Изобретателя в пустой слот.",
+        "ru_upgraded_description": "Создайте броню Изобретателя в свой (или соседа) пустой слот.",
+        "en_name": "Armor Up",
+        "en_description": "Craft a Tinkerer armor piece into one of your empty armor slots.",
+        "en_upgraded_description": "Craft a Tinkerer armor piece into one of your or an adjacent unit's empty armor slots."
+      },
+      "manifest": {
+        "ability_id": "ArmorUp",
+        "display_name": "Armor Up",
+        "tool_class": "tinkerer",
+        "icon_label": "ArmorUp",
+        "resolved_icon_label": "ArmorUp",
+        "main_svg_id": "1182",
+        "main_svg_filename": "1182.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Armor Up",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Craft a Tinkerer armor piece into one of your empty armor slots.Upgraded: Craft a Tinkerer armor piece into one of your or an adjacent unit's empty armor slots.",
       "value_kind": "none",
       "translation": {
@@ -239,9 +278,87 @@
       }
     },
     {
+      "wiki_name": "Build Nuke",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Spawn a mini-nuke that makes a HUGE explosion when it dies.Upgraded: Spawn a mini-nuke in range 4 that makes a HUGE explosion when it dies.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BUILDNUKE_NAME",
+        "ru_name": "Ядерный заряд",
+        "ru_description": "Создайте мини-ядерку, которая при смерти делает ОГРОМНЫЙ взрыв.",
+        "ru_upgraded_description": "Создайте мини-ядерку в радиусе 4, делающую ОГРОМНЫЙ взрыв.",
+        "en_name": "Build Nuke",
+        "en_description": "Spawn a mini-nuke that makes a HUGE explosion when it dies.",
+        "en_upgraded_description": "Spawn a mini-nuke in range 4 that makes a HUGE explosion when it dies."
+      },
+      "manifest": {
+        "ability_id": "BuildNuke",
+        "display_name": "Build Nuke",
+        "tool_class": "tinkerer",
+        "icon_label": "BuildNuke",
+        "resolved_icon_label": "BuildNuke",
+        "main_svg_id": "1218",
+        "main_svg_filename": "1218.svg"
+      },
+      "numbers": {
+        "raw": "9",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "9",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Build Turret",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Summon a turret.Upgraded: Summon a rocket turret.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BUILDTURRET_NAME",
+        "ru_name": "Турель",
+        "ru_description": "Постройте турель.",
+        "ru_upgraded_description": "Постройте ракетную турель.",
+        "en_name": "Build Turret",
+        "en_description": "Summon a turret.",
+        "en_upgraded_description": "Summon a rocket turret."
+      },
+      "manifest": {
+        "ability_id": "BuildTurret",
+        "display_name": "Build Turret",
+        "tool_class": "tinkerer",
+        "icon_label": "BuildTurret",
+        "resolved_icon_label": "BuildTurret",
+        "main_svg_id": "1178",
+        "main_svg_filename": "1178.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Build Turret",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Summon a turret.Upgraded: Summon a rocket turret.",
       "value_kind": "none",
       "translation": {
@@ -317,6 +434,45 @@
       }
     },
     {
+      "wiki_name": "Catbot",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Spawn a Catbot and give it your current weapon. (You will not get the weapon back) Upgraded: Spawn a Catbot and give it your current weapon. Gain +1 Tech and refresh your basic action. (You will not get the weapon back)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CATBOT_NAME",
+        "ru_name": "Кот-бот",
+        "ru_description": "Призовите Кота-бота и отдайте ему свое оружие.\n[s:.7](Вы не получите оружие назад)[/s]",
+        "ru_upgraded_description": "Призовите Кота-бота и отдайте оружие. +1 Технология и обновление базового действия.\n[s:.7](Вы не получите оружие назад)[/s]",
+        "en_name": "Catbot",
+        "en_description": "Spawn a Catbot and give it your current weapon.\n[s:.7](You will not get the weapon back)[/s]",
+        "en_upgraded_description": "Spawn a Catbot and give it your current weapon. Gain +1 Tech and refresh your basic action.\n[s:.7](You will not get the weapon back)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Catbot",
+        "display_name": "Catbot",
+        "tool_class": "tinkerer",
+        "icon_label": "Catbot",
+        "resolved_icon_label": "Catbot",
+        "main_svg_id": "1190",
+        "main_svg_filename": "1190.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Craft",
       "class": "Tinkerer",
       "variant": "normal",
@@ -356,9 +512,87 @@
       }
     },
     {
+      "wiki_name": "Craft",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Craft and equip a random temporary weapon.Upgraded: Craft and equip a random temporary weapon for yourself or an ally in range 3 (if they have an empty weapon slot).",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CRAFT_NAME",
+        "ru_name": "Ремесло",
+        "ru_description": "Изготовьте и экипируйте случайное временное оружие.",
+        "ru_upgraded_description": "Изготовьте и экипируйте случайное временное оружие для себя или союзника в радиусе 3 (если есть место для оружия).",
+        "en_name": "Craft",
+        "en_description": "Craft and equip a random temporary weapon.",
+        "en_upgraded_description": "Craft and equip a random temporary weapon for yourself or an ally in range 3 (if they have an empty weapon slot)."
+      },
+      "manifest": {
+        "ability_id": "Craft",
+        "display_name": "Craft",
+        "tool_class": "tinkerer",
+        "icon_label": "Craft",
+        "resolved_icon_label": "Craft",
+        "main_svg_id": "1185",
+        "main_svg_filename": "1185.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Drill Down",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Dig to an open tile in a straight line.Upgraded: Dig to a tile in a straight line. If you dig into a unit, explode dealing 5 damage in an area (including to yourself).",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DRILLDOWN_NAME",
+        "ru_name": "Бурение",
+        "ru_description": "Прокопайте путь к свободной клетке по прямой.",
+        "ru_upgraded_description": "Прокопайте путь. Если вкопаетесь в юнита — взрыв (5 урона в области, вам тоже).",
+        "en_name": "Drill Down",
+        "en_description": "Dig to an open tile in a straight line.",
+        "en_upgraded_description": "Dig to a tile in a straight line. If you dig into a unit, explode dealing 5 damage in an area (including to yourself)."
+      },
+      "manifest": {
+        "ability_id": "DrillDown",
+        "display_name": "Drill Down",
+        "tool_class": "tinkerer",
+        "icon_label": "DrillDown",
+        "resolved_icon_label": "DrillDown",
+        "main_svg_id": "1181",
+        "main_svg_filename": "1181.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Drill Down",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Dig to an open tile in a straight line.Upgraded: Dig to a tile in a straight line. If you dig into a unit, explode dealing 5 damage in an area (including to yourself).",
       "value_kind": "damage",
       "translation": {
@@ -668,6 +902,45 @@
       }
     },
     {
+      "wiki_name": "Eureka!",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Gain +3 Tech and Madness 1. (This spell can only be cast once per battle.) Upgraded: Gain +3 Tech. (This spell can only be cast once per battle.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_EUREKA_NAME",
+        "ru_name": "Эврика!",
+        "ru_description": "+3 Технологии и Безумие 1.\n[s:.7](Только раз за бой.)[/s]",
+        "ru_upgraded_description": "+3 Технологии.\n[s:.7](Только раз за бой.)[/s]",
+        "en_name": "Eureka!",
+        "en_description": "Gain +3 Tech and Madness 1.\r\n[s:.7](This spell can only be cast once per battle.)[/s]",
+        "en_upgraded_description": "Gain +3 Tech.\r\n[s:.7](This spell can only be cast once per battle.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Eureka",
+        "display_name": "Eureka!",
+        "tool_class": "tinkerer",
+        "icon_label": "Eureka",
+        "resolved_icon_label": "Eureka",
+        "main_svg_id": "1198",
+        "main_svg_filename": "1198.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Experimental Teleporter",
       "class": "Tinkerer",
       "variant": "normal",
@@ -863,9 +1136,87 @@
       }
     },
     {
+      "wiki_name": "Fast Hands",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Refresh your weapon and trinket actions (unless they gain you mana).Upgraded: Refresh your weapon and trinket actions (unless they gain you mana). Repair 1 use to all of your equipment.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FASTHANDS_NAME",
+        "ru_name": "Ловкость рук",
+        "ru_description": "Обновите оружие и брелок (если они не дают ману).",
+        "ru_upgraded_description": "Обновите оружие и брелок (если они не дают ману). Восстановите 1 прочность всего своего снаряжения.",
+        "en_name": "Fast Hands",
+        "en_description": "Refresh your weapon and trinket actions (unless they gain you mana).",
+        "en_upgraded_description": "Refresh your weapon and trinket actions (unless they gain you mana). Repair 1 use to all of your equipment."
+      },
+      "manifest": {
+        "ability_id": "FastHands",
+        "display_name": "Fast Hands",
+        "tool_class": "tinkerer",
+        "icon_label": "FastHands",
+        "resolved_icon_label": "FastHands",
+        "main_svg_id": "1200",
+        "main_svg_filename": "1200.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Firecracker",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Throw 3 small 1-damage explosives at random tiles in an area.Upgraded: Throw small 1-damage explosives at all tiles in an area.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FIRECRACKERS_NAME",
+        "ru_name": "Петарда",
+        "ru_description": "Бросьте 3 малых бомбочки (1 урон) случайно в области.",
+        "ru_upgraded_description": "Бросьте малые бомбочки (1 урон) на ВСЕ клетки в области.",
+        "en_name": "Firecracker",
+        "en_description": "Throw 3 small 1-damage explosives at random tiles in an area.",
+        "en_upgraded_description": "Throw small 1-damage explosives at all tiles in an area."
+      },
+      "manifest": {
+        "ability_id": "Firecrackers",
+        "display_name": "Firecracker",
+        "tool_class": "tinkerer",
+        "icon_label": "Firecrackers",
+        "resolved_icon_label": "Firecrackers",
+        "main_svg_id": "1196",
+        "main_svg_filename": "1196.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Firecracker",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Throw 3 small 1-damage explosives at random tiles in an area.Upgraded: Throw small 1-damage explosives at all tiles in an area.",
       "value_kind": "damage",
       "translation": {
@@ -941,9 +1292,87 @@
       }
     },
     {
+      "wiki_name": "Fresh off the Forge",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Gain +7 and Burn 3.Upgraded: Give +7 and Burn 3 to yourself or an adjacent unit.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FRESHOFFTHEFORGE_NAME",
+        "ru_name": "С пылу с жару",
+        "ru_description": "Получите +7 [img:shield] и Горение 3.",
+        "ru_upgraded_description": "Дайте +7 [img:shield] и Горение 3 себе или соседу.",
+        "en_name": "Fresh off the Forge",
+        "en_description": "Gain +7 [img:shield] and Burn 3.",
+        "en_upgraded_description": "Give +7 [img:shield] and Burn 3 to yourself or an adjacent unit. "
+      },
+      "manifest": {
+        "ability_id": "FreshOffTheForge",
+        "display_name": "Fresh off the Forge",
+        "tool_class": "tinkerer",
+        "icon_label": "FreshOffTheForge",
+        "resolved_icon_label": "FreshOffTheForge",
+        "main_svg_id": "1183",
+        "main_svg_filename": "1183.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Improve",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Gain +1 to a random stat.Upgraded: You or an adjacent unit gain +1 to 2 random stats.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_IMPROVE_NAME",
+        "ru_name": "Улучшение",
+        "ru_description": "Получите +1 к случайной характеристике.",
+        "ru_upgraded_description": "Вы или сосед получаете +1 к 2 случайным характеристикам.",
+        "en_name": "Improve",
+        "en_description": "Gain +1 to a random stat.",
+        "en_upgraded_description": "You or an adjacent unit gain +1 to 2 random stats."
+      },
+      "manifest": {
+        "ability_id": "Improve",
+        "display_name": "Improve",
+        "tool_class": "tinkerer",
+        "icon_label": "Improve",
+        "resolved_icon_label": "Improve",
+        "main_svg_id": "1189",
+        "main_svg_filename": "1189.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Improve",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Gain +1 to a random stat.Upgraded: You or an adjacent unit gain +1 to 2 random stats.",
       "value_kind": "none",
       "translation": {
@@ -1253,6 +1682,45 @@
       }
     },
     {
+      "wiki_name": "Punchbot",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Spawn a Rubber Fist Bot.Upgraded: Spawn a Rubber Fist Bot within a large range.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PUNCHBOT_NAME",
+        "ru_name": "Панч-бот",
+        "ru_description": "Призовите Бота-Резиновый Кулак.",
+        "ru_upgraded_description": "Призовите Бота-Резиновый Кулак (большая дальность).",
+        "en_name": "Punchbot",
+        "en_description": "Spawn a Rubber Fist Bot.",
+        "en_upgraded_description": "Spawn a Rubber Fist Bot within a large range."
+      },
+      "manifest": {
+        "ability_id": "PunchBot",
+        "display_name": "Punchbot",
+        "tool_class": "tinkerer",
+        "icon_label": "PunchBot",
+        "resolved_icon_label": "PunchBot",
+        "main_svg_id": "1199",
+        "main_svg_filename": "1199.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Recycle",
       "class": "Tinkerer",
       "variant": "normal",
@@ -1334,6 +1802,45 @@
       "wiki_name": "Refine Materials",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech.Upgraded: Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech, +1 , and +1 to a random stat.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REFINEMATERIALS_NAME",
+        "ru_name": "Переработка сырья",
+        "ru_description": "Соберите лут в радиусе 3. Вместо эффекта: +1 Технология.",
+        "ru_upgraded_description": "Соберите лут в радиусе 3. Вместо эффекта: +1 Технология, +1 [img:shield] и +1 стат.",
+        "en_name": "Refine Materials",
+        "en_description": "Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech.",
+        "en_upgraded_description": "Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech, +1 [img:shield], and +1 to a random stat."
+      },
+      "manifest": {
+        "ability_id": "RefineMaterials",
+        "display_name": "Refine Materials",
+        "tool_class": "tinkerer",
+        "icon_label": "RefineMaterials",
+        "resolved_icon_label": "RefineMaterials",
+        "main_svg_id": "1222",
+        "main_svg_filename": "1222.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Refine Materials",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech.Upgraded: Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech, +1 , and +1 to a random stat.",
       "value_kind": "none",
       "translation": {
@@ -1487,9 +1994,87 @@
       }
     },
     {
+      "wiki_name": "Repair",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Repair 1 use to all of your or an adjacent unit's equipment.Upgraded: Repair all uses to all of your or an adjacent unit's equipment.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REPAIR_NAME",
+        "ru_name": "Починка",
+        "ru_description": "Восстановите 1 прочность всему своему оборудованию (или соседа).",
+        "ru_upgraded_description": "Восстановите ВСЮ прочность всему своему оборудованию (или соседа).",
+        "en_name": "Repair",
+        "en_description": "Repair 1 use to all of your or an adjacent unit's equipment.",
+        "en_upgraded_description": "Repair all uses to all of your or an adjacent unit's equipment."
+      },
+      "manifest": {
+        "ability_id": "Repair",
+        "display_name": "Repair",
+        "tool_class": "tinkerer",
+        "icon_label": "Repair",
+        "resolved_icon_label": "Repair",
+        "main_svg_id": "1169",
+        "main_svg_filename": "1169.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Repair Armor",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Lose all , then gain equal to your equipment's starting .Upgraded: Lose all , then give equal to your equipment's starting to yourself or another ally.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REPAIRARMOR_NAME",
+        "ru_name": "Ремонт брони",
+        "ru_description": "Сбросьте [img:shield], затем получите [img:shield], равный стартовому щиту вашей экипировки.",
+        "ru_upgraded_description": "Сбросьте [img:shield], затем дайте себе или союзнику [img:shield], равный стартовому.",
+        "en_name": "Repair Armor",
+        "en_description": "Lose all [img:shield], then gain [img:shield] equal to your equipment's starting [img:shield].",
+        "en_upgraded_description": "Lose all [img:shield], then give [img:shield] equal to your equipment's starting [img:shield] to yourself or another ally. "
+      },
+      "manifest": {
+        "ability_id": "RepairArmor",
+        "display_name": "Repair Armor",
+        "tool_class": "tinkerer",
+        "icon_label": "RepairArmor",
+        "resolved_icon_label": "RepairArmor",
+        "main_svg_id": "1213",
+        "main_svg_filename": "1213.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Repair Armor",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Lose all , then gain equal to your equipment's starting .Upgraded: Lose all , then give equal to your equipment's starting to yourself or another ally.",
       "value_kind": "none",
       "translation": {
@@ -1565,9 +2150,87 @@
       }
     },
     {
+      "wiki_name": "Reprogram",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Conjure a random spell of your class as a bonus ability.Upgraded: Conjure a random upgraded spell of your class as a bonus ability.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REPROGRAM_NAME",
+        "ru_name": "Перепрограммирование",
+        "ru_description": "Получите случайное заклинание класса как бонусную способность.",
+        "ru_upgraded_description": "Получите случайное УЛУЧШЕННОЕ заклинание класса как бонусную способность.",
+        "en_name": "Reprogram",
+        "en_description": "Conjure a random spell of your class as a bonus ability.",
+        "en_upgraded_description": "Conjure a random upgraded spell of your class as a bonus ability."
+      },
+      "manifest": {
+        "ability_id": "Reprogram",
+        "display_name": "Reprogram",
+        "tool_class": "tinkerer",
+        "icon_label": "Reprogram",
+        "resolved_icon_label": "Reprogram",
+        "main_svg_id": "1188",
+        "main_svg_filename": "1188.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Research",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Gain +1 Tech.Upgraded: Gain +1 Tech. Bonus Passive: Crafting subtracts 1 Tech instead of all of it.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_RESEARCH_NAME",
+        "ru_name": "Исследование",
+        "ru_description": "Получите +1 Технологии.",
+        "ru_upgraded_description": "Получите +1 Технологии.\nПассивно: Крафт тратит 1 Технологию вместо всех.",
+        "en_name": "Research",
+        "en_description": "Gain +1 Tech.",
+        "en_upgraded_description": "Gain +1 Tech.\nBonus Passive: Crafting subtracts 1 Tech instead of all of it."
+      },
+      "manifest": {
+        "ability_id": "Research",
+        "display_name": "Research",
+        "tool_class": "tinkerer",
+        "icon_label": "Research",
+        "resolved_icon_label": "Research",
+        "main_svg_id": "1167",
+        "main_svg_filename": "1167.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Research",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Gain +1 Tech.Upgraded: Gain +1 Tech. Bonus Passive: Crafting subtracts 1 Tech instead of all of it.",
       "value_kind": "none",
       "translation": {
@@ -1643,6 +2306,45 @@
       }
     },
     {
+      "wiki_name": "Robo-Vac",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Spawn a vacuum bot that collects pickups and shares their effects with you.Upgraded: Spawn a vacuum bot that collects pickups and shares their effects with your whole team.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ROBOVAC_NAME",
+        "ru_name": "Робо-пылесос",
+        "ru_description": "Призовите робота-пылесоса. Он собирает лут и делится эффектами с вами.",
+        "ru_upgraded_description": "Призовите робота-пылесоса. Он собирает лут и делится эффектами со всей командой.",
+        "en_name": "Robo-Vac",
+        "en_description": "Spawn a vacuum bot that collects pickups and shares their effects with you.",
+        "en_upgraded_description": "Spawn a vacuum bot that collects pickups and shares their effects with your whole team."
+      },
+      "manifest": {
+        "ability_id": "RoboVac",
+        "display_name": "Robo-Vac",
+        "tool_class": "tinkerer",
+        "icon_label": "RoboVac",
+        "resolved_icon_label": "RoboVac",
+        "main_svg_id": "1219",
+        "main_svg_filename": "1219.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Shed Scrap",
       "class": "Tinkerer",
       "variant": "normal",
@@ -1682,9 +2384,87 @@
       }
     },
     {
+      "wiki_name": "Shed Scrap",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Lose 1 . Spawn a junk pile.Upgraded: Lose 1 . Spawn a junk pile in range 2.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHEDSCRAP_NAME",
+        "ru_name": "Сброс лома",
+        "ru_description": "Потеряйте 1 [img:shield]. Создайте кучу мусора.",
+        "ru_upgraded_description": "Потеряйте 1 [img:shield]. Создайте кучу мусора в радиусе 2.",
+        "en_name": "Shed Scrap",
+        "en_description": "Lose 1 [img:shield]. Spawn a junk pile.",
+        "en_upgraded_description": "Lose 1 [img:shield]. Spawn a junk pile in range 2."
+      },
+      "manifest": {
+        "ability_id": "ShedScrap",
+        "display_name": "Shed Scrap",
+        "tool_class": "tinkerer",
+        "icon_label": "ShedScrap",
+        "resolved_icon_label": "ShedScrap",
+        "main_svg_id": "1214",
+        "main_svg_filename": "1214.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Shoddy Jetpack",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Fly to a random tile in a large area. If you land on a unit, explode dealing 5 damage in an area (including to yourself).Upgraded: Fly to any tile. If you land on a unit, explode dealing 5 damage in an area (including to yourself).",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHODDYJETPACK_NAME",
+        "ru_name": "Хлипкий джетпак",
+        "ru_description": "Летите на случайную клетку. Если влетите в юнита — взрыв (5 урона в области, вам тоже).",
+        "ru_upgraded_description": "Летите на любую клетку. Если влетите в юнита — взрыв (5 урона в области, вам тоже).",
+        "en_name": "Shoddy Jetpack",
+        "en_description": "Fly to a random tile in a large area. If you land on a unit, explode dealing 5 damage in an area (including to yourself).",
+        "en_upgraded_description": "Fly to any tile. If you land on a unit, explode dealing 5 damage in an area (including to yourself)."
+      },
+      "manifest": {
+        "ability_id": "ShoddyJetpack",
+        "display_name": "Shoddy Jetpack",
+        "tool_class": "tinkerer",
+        "icon_label": "ShoddyJetpack",
+        "resolved_icon_label": "ShoddyJetpack",
+        "main_svg_id": "1170",
+        "main_svg_filename": "1170.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Shoddy Jetpack",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Fly to a random tile in a large area. If you land on a unit, explode dealing 5 damage in an area (including to yourself).Upgraded: Fly to any tile. If you land on a unit, explode dealing 5 damage in an area (including to yourself).",
       "value_kind": "damage",
       "translation": {
@@ -1838,9 +2618,87 @@
       }
     },
     {
+      "wiki_name": "Spare Parts",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Destroy your weapon and gain one of the following: +2 , +4 Charge, +1 Thorns, or 1 coin.Upgraded: Destroy your weapon and gain one of the following: +4 , +8 Charge, +2 Thorns, or 2 coins.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPAREPARTS_NAME",
+        "ru_name": "Запчасти",
+        "ru_description": "Уничтожьте оружие и получите: +2 [img:shield], +4 Заряда, +1 Шипы ИЛИ 1 монету.",
+        "ru_upgraded_description": "Уничтожьте оружие и получите: +4 [img:shield], +8 Зарядов, +2 Шипы ИЛИ 2 монеты.",
+        "en_name": "Spare Parts",
+        "en_description": "Destroy your weapon and gain one of the following: +2 [img:shield], +4 Charge, +1 Thorns, or 1 coin.",
+        "en_upgraded_description": "Destroy your weapon and gain one of the following: +4 [img:shield], +8 Charge, +2 Thorns, or 2 coins."
+      },
+      "manifest": {
+        "ability_id": "SpareParts",
+        "display_name": "Spare Parts",
+        "tool_class": "tinkerer",
+        "icon_label": "SpareParts",
+        "resolved_icon_label": "SpareParts",
+        "main_svg_id": "1204",
+        "main_svg_filename": "1204.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Spawn Decoy",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Spawn a decoy that explodes when it dies.Upgraded: Spawn a decoy that explodes when it dies. When an enemy targets you, swap places with the decoy.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPAWNDECOY_NAME",
+        "ru_name": "Приманка",
+        "ru_description": "Создайте приманку, взрывающуюся при смерти.",
+        "ru_upgraded_description": "Создайте приманку. Когда враг целится в вас, вы меняетесь местами с приманкой.",
+        "en_name": "Spawn Decoy",
+        "en_description": "Spawn a decoy that explodes when it dies.",
+        "en_upgraded_description": "Spawn a decoy that explodes when it dies. When an enemy targets you, swap places with the decoy."
+      },
+      "manifest": {
+        "ability_id": "SpawnDecoy",
+        "display_name": "Spawn Decoy",
+        "tool_class": "tinkerer",
+        "icon_label": "SpawnDecoy",
+        "resolved_icon_label": "SpawnDecoy",
+        "main_svg_id": "1171",
+        "main_svg_filename": "1171.svg"
+      },
+      "numbers": {
+        "raw": "8",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "8",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Spawn Decoy",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Spawn a decoy that explodes when it dies.Upgraded: Spawn a decoy that explodes when it dies. When an enemy targets you, swap places with the decoy.",
       "value_kind": "none",
       "translation": {
@@ -1916,9 +2774,87 @@
       }
     },
     {
+      "wiki_name": "Spring Shoes",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Jump up to 2 tiles away.Upgraded: Jump up to 5 tiles away.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPRINGSHOES_NAME",
+        "ru_name": "Пружинные ботинки",
+        "ru_description": "Прыжок до 2 клеток.",
+        "ru_upgraded_description": "Прыжок до 5 клеток.",
+        "en_name": "Spring Shoes",
+        "en_description": "Jump up to 2 tiles away.",
+        "en_upgraded_description": "Jump up to 5 tiles away."
+      },
+      "manifest": {
+        "ability_id": "SpringShoes",
+        "display_name": "Spring Shoes",
+        "tool_class": "tinkerer",
+        "icon_label": "SpringShoes",
+        "resolved_icon_label": "SpringShoes",
+        "main_svg_id": "1173",
+        "main_svg_filename": "1173.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Tesla Coil",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Spawn a tesla coil that shoots lightning bolts at random units with a small chance to inflict Stun.Upgraded: Spawn a tesla coil in range 7 that shoots lightning bolts at random units with a small chance to inflict Stun.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TESLACOIL_NAME",
+        "ru_name": "Катушка Теслы",
+        "ru_description": "Призовите катушку, стреляющую молниями случайно (шанс Оглушения).",
+        "ru_upgraded_description": "Призовите катушку (радиус 7), стреляющую молниями случайно (шанс Оглушения).",
+        "en_name": "Tesla Coil",
+        "en_description": "Spawn a tesla coil that shoots lightning bolts at random units with a small chance to inflict Stun.",
+        "en_upgraded_description": "Spawn a tesla coil in range 7 that shoots lightning bolts at random units with a small chance to inflict Stun."
+      },
+      "manifest": {
+        "ability_id": "TeslaCoil",
+        "display_name": "Tesla Coil",
+        "tool_class": "tinkerer",
+        "icon_label": "TeslaCoil",
+        "resolved_icon_label": "TeslaCoil",
+        "main_svg_id": "1221",
+        "main_svg_filename": "1221.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Tesla Coil",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Spawn a tesla coil that shoots lightning bolts at random units with a small chance to inflict Stun.Upgraded: Spawn a tesla coil in range 7 that shoots lightning bolts at random units with a small chance to inflict Stun.",
       "value_kind": "none",
       "translation": {
@@ -2036,6 +2972,45 @@
       "wiki_name": "Upgrade",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Fully heal a familiar and give it All Stats Up.Upgraded: Fully heal a familiar and give it All Stats Up and +1 .",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_UPGRADE_NAME",
+        "ru_name": "Апгрейд",
+        "ru_description": "Полностью почините фамильяра и дайте ему Повышение Всех Хар-к.",
+        "ru_upgraded_description": "Полностью почините фамильяра, дайте Повышение Всех Хар-к и +1 [img:divineshield].",
+        "en_name": "Upgrade",
+        "en_description": "Fully heal a familiar and give it All Stats Up.",
+        "en_upgraded_description": "Fully heal a familiar and give it All Stats Up and +1 [img:divineshield]."
+      },
+      "manifest": {
+        "ability_id": "Upgrade",
+        "display_name": "Upgrade",
+        "tool_class": "tinkerer",
+        "icon_label": "Upgrade",
+        "resolved_icon_label": "Upgrade",
+        "main_svg_id": "1197",
+        "main_svg_filename": "1197.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Upgrade",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Fully heal a familiar and give it All Stats Up.Upgraded: Fully heal a familiar and give it All Stats Up and +1 .",
       "value_kind": "heal",
       "translation": {

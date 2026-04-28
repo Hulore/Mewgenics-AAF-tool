@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Thief",
   "frame_type": "Mana",
-  "count": 43,
+  "count": 65,
   "abilities": [
     {
       "wiki_name": "Backflip",
@@ -122,9 +122,87 @@
       }
     },
     {
+      "wiki_name": "Blur",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Gain +10% dodge chance. Disable this spell if you have more than 65% dodge chance.Upgraded: Gain +15% dodge chance. Disable this spell if you have more than 80% dodge chance.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLUR_NAME",
+        "ru_name": "Размытие",
+        "ru_description": "+10% Уклонения.\nОтключается, если уклонение выше 65%.",
+        "ru_upgraded_description": "+15% Уклонения.\nОтключается, если уклонение выше 80%.",
+        "en_name": "Blur",
+        "en_description": "Gain +10% dodge chance.\nDisable this spell if you have more than 65% dodge chance.",
+        "en_upgraded_description": "Gain +15% dodge chance. \nDisable this spell if you have more than 80% dodge chance."
+      },
+      "manifest": {
+        "ability_id": "Blur",
+        "display_name": "Blur",
+        "tool_class": "thief",
+        "icon_label": "Blur",
+        "resolved_icon_label": "Blur",
+        "main_svg_id": "687",
+        "main_svg_filename": "687.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Boost Backstab",
       "class": "Thief",
       "variant": "normal",
+      "description": "Until end of turn, your backstabs do +75% more damage and ignore shield.Upgraded: Until end of turn, your backstabs do +75% more damage, ignore shield, and inflict Bleed and Poison.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BOOSTBACKSTAB_NAME",
+        "ru_name": "Усиление бэкстаба",
+        "ru_description": "До конца хода удары в спину на 75% сильнее и игнорируют щит.",
+        "ru_upgraded_description": "До конца хода удары в спину на 75% сильнее, игнорируют щит, дают Кровотечение и Яд.",
+        "en_name": "Boost Backstab",
+        "en_description": "Until end of turn, your backstabs do +75% more damage and ignore shield.",
+        "en_upgraded_description": "Until end of turn, your backstabs do +75% more damage, ignore shield, and inflict Bleed and Poison."
+      },
+      "manifest": {
+        "ability_id": "BoostBackstab",
+        "display_name": "Boost Backstab",
+        "tool_class": "thief",
+        "icon_label": "BoostBackstab",
+        "resolved_icon_label": "BoostBackstab",
+        "main_svg_id": "682",
+        "main_svg_filename": "682.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Boost Backstab",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "Until end of turn, your backstabs do +75% more damage and ignore shield.Upgraded: Until end of turn, your backstabs do +75% more damage, ignore shield, and inflict Bleed and Poison.",
       "value_kind": "damage",
       "translation": {
@@ -200,9 +278,87 @@
       }
     },
     {
+      "wiki_name": "Caltrops",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Move up to 3 tiles, spreading glass shards on the tiles you walk through.Upgraded: Move up to 5 tiles, spreading glass shards on the tiles you walk through.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CALTROPS_NAME",
+        "ru_name": "Шипы-ловушки",
+        "ru_description": "Пройдите до 3 клеток, рассыпая битое стекло по пути.",
+        "ru_upgraded_description": "Пройдите до 5 клеток, рассыпая битое стекло по пути.",
+        "en_name": "Caltrops",
+        "en_description": "Move up to 3 tiles, spreading glass shards on the tiles you walk through.",
+        "en_upgraded_description": "Move up to 5 tiles, spreading glass shards on the tiles you walk through."
+      },
+      "manifest": {
+        "ability_id": "Caltrops",
+        "display_name": "Caltrops",
+        "tool_class": "thief",
+        "icon_label": "Caltrops",
+        "resolved_icon_label": "Caltrops",
+        "main_svg_id": "700",
+        "main_svg_filename": "700.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Cheat",
       "class": "Thief",
       "variant": "normal",
+      "description": "Gain temporary +5 Luck until your next turn.Upgraded: Gain temporary +10 Luck until your next turn.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHEAT_NAME",
+        "ru_name": "Жульничество",
+        "ru_description": "Временно получите +5 [img:lck] до след. хода.",
+        "ru_upgraded_description": "Временно получите +10 [img:lck] до след. хода.",
+        "en_name": "Cheat",
+        "en_description": "Gain temporary +5 [img:lck] until your next turn.",
+        "en_upgraded_description": "Gain temporary +10 [img:lck] until your next turn."
+      },
+      "manifest": {
+        "ability_id": "Cheat",
+        "display_name": "Cheat",
+        "tool_class": "thief",
+        "icon_label": "Cheat",
+        "resolved_icon_label": "Cheat",
+        "main_svg_id": "708",
+        "main_svg_filename": "708.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Cheat",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "Gain temporary +5 Luck until your next turn.Upgraded: Gain temporary +10 Luck until your next turn.",
       "value_kind": "none",
       "translation": {
@@ -278,9 +434,87 @@
       }
     },
     {
+      "wiki_name": "Distract",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Make a unit face away from you.Upgraded: Make any unit look away from you. This has a 33% chance to inflict Confusion.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DISTRACT_NAME",
+        "ru_name": "Отвлечение",
+        "ru_description": "Заставьте юнита отвернуться от вас.",
+        "ru_upgraded_description": "Заставьте любого юнита отвернуться. 33% шанс Замешательства.",
+        "en_name": "Distract",
+        "en_description": "Make a unit face away from you.",
+        "en_upgraded_description": "Make any unit look away from you. This has a 33% chance to inflict Confusion.\n"
+      },
+      "manifest": {
+        "ability_id": "Distract",
+        "display_name": "Distract",
+        "tool_class": "thief",
+        "icon_label": "Distract",
+        "resolved_icon_label": "Distract",
+        "main_svg_id": "674",
+        "main_svg_filename": "674.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Eagle Eye",
       "class": "Thief",
       "variant": "normal",
+      "description": "Spawn 2-3 coins on random tiles.Upgraded: Spawn 3-7 coins on random tiles.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_EAGLEEYE_NAME",
+        "ru_name": "Орлиный глаз",
+        "ru_description": "Создайте 2-3 монеты на случайных клетках.",
+        "ru_upgraded_description": "Создайте 3-7 монет на случайных клетках.",
+        "en_name": "Eagle Eye",
+        "en_description": "Spawn 2-3 coins on random tiles.",
+        "en_upgraded_description": "Spawn 3-7 coins on random tiles."
+      },
+      "manifest": {
+        "ability_id": "EagleEye",
+        "display_name": "Eagle Eye",
+        "tool_class": "thief",
+        "icon_label": "EagleEye",
+        "resolved_icon_label": "EagleEye",
+        "main_svg_id": "685",
+        "main_svg_filename": "685.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Eagle Eye",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "Spawn 2-3 coins on random tiles.Upgraded: Spawn 3-7 coins on random tiles.",
       "value_kind": "none",
       "translation": {
@@ -356,9 +590,87 @@
       }
     },
     {
+      "wiki_name": "Fade",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Gain Stealth 1.Upgraded: Gain Stealth 2.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FADE_NAME",
+        "ru_name": "Растворение",
+        "ru_description": "Получите Скрытность 1.",
+        "ru_upgraded_description": "Получите Скрытность 2.",
+        "en_name": "Fade",
+        "en_description": "Gain Stealth 1.",
+        "en_upgraded_description": "Gain Stealth 2."
+      },
+      "manifest": {
+        "ability_id": "Fade",
+        "display_name": "Fade",
+        "tool_class": "thief",
+        "icon_label": "Fade",
+        "resolved_icon_label": "Fade",
+        "main_svg_id": "704",
+        "main_svg_filename": "704.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Greedstep",
       "class": "Thief",
       "variant": "normal",
+      "description": "Teleport to a tile with coins on it.Upgraded: Teleport to a tile with coins on it, then spawn 1-2 coins on random tiles.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GREEDSTEP_NAME",
+        "ru_name": "Алчный шаг",
+        "ru_description": "Телепортируйтесь на клетку с монетами.",
+        "ru_upgraded_description": "Телепортируйтесь на клетку с монетами, создайте 1-2 монеты случайно.",
+        "en_name": "Greedstep",
+        "en_description": "Teleport to a tile with coins on it.",
+        "en_upgraded_description": "Teleport to a tile with coins on it, then spawn 1-2 coins on random tiles."
+      },
+      "manifest": {
+        "ability_id": "GreedStep",
+        "display_name": "Greedstep",
+        "tool_class": "thief",
+        "icon_label": "GreedStep",
+        "resolved_icon_label": "GreedStep",
+        "main_svg_id": "688",
+        "main_svg_filename": "688.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Greedstep",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "Teleport to a tile with coins on it.Upgraded: Teleport to a tile with coins on it, then spawn 1-2 coins on random tiles.",
       "value_kind": "none",
       "translation": {
@@ -434,6 +746,45 @@
       }
     },
     {
+      "wiki_name": "Jitter",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Inflict Confusion 1 on each adjacent unit.Upgraded: Inflict Confusion 1 on each unit within 3 tiles of you.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_JITTER_NAME",
+        "ru_name": "Дрожь",
+        "ru_description": "Замешательство 1 всем соседям.",
+        "ru_upgraded_description": "Замешательство 1 всем в радиусе 3.",
+        "en_name": "Jitter",
+        "en_description": "Inflict Confusion 1 on each adjacent unit.",
+        "en_upgraded_description": "Inflict Confusion 1 on each unit within 3 tiles of you."
+      },
+      "manifest": {
+        "ability_id": "Jitter",
+        "display_name": "Jitter",
+        "tool_class": "thief",
+        "icon_label": "Jitter",
+        "resolved_icon_label": "Jitter",
+        "main_svg_id": "720",
+        "main_svg_filename": "720.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Loot Corpse",
       "class": "Thief",
       "variant": "normal",
@@ -473,9 +824,87 @@
       }
     },
     {
+      "wiki_name": "Loot Corpse",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Loot 1-3 coins from a body... and possibly something else? (This might destroy the body) Upgraded: Loot 1-3 coins from a body... and possibly something else? (This might not destroy the body) (Your chance of finding \"something else\" is significantly increased.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LOOTCORPSE_NAME",
+        "ru_name": "Обыск трупа",
+        "ru_description": "Снимите 1-3 монеты с трупа... и может что-то еще?\n[s:.7](Это может уничтожить тело)[/s]",
+        "ru_upgraded_description": "Снимите 1-3 монеты с трупа... и может что-то еще?\n[s:.7](Это может не уничтожить тело)[/s]\n[s:.7](Шанс найти \"что-то еще\" повышен.)[/s]",
+        "en_name": "Loot Corpse",
+        "en_description": "Loot 1-3 coins from a body... and possibly something else?\n[s:.7](This might destroy the body)[/s]",
+        "en_upgraded_description": "Loot 1-3 coins from a body... and possibly something else?\n[s:.7](This might not destroy the body)[/s]\n[s:.7](Your chance of finding \"something else\" is significantly increased.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "LootCorpse",
+        "display_name": "Loot Corpse",
+        "tool_class": "thief",
+        "icon_label": "LootCorpse",
+        "resolved_icon_label": "LootCorpse",
+        "main_svg_id": "706",
+        "main_svg_filename": "706.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Lucky Penny",
       "class": "Thief",
       "variant": "normal",
+      "description": "Collect an adjacent pickup and gain +2 Luck instead of its normal effects.Upgraded: Collect a pickup within four tiles of you. Gain +2 Luck instead of its normal effects.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LUCKYPENNY_NAME",
+        "ru_name": "Счастливая монетка",
+        "ru_description": "Подберите соседний лут и получите +2 [img:lck] вместо обычного эффекта.",
+        "ru_upgraded_description": "Подберите лут в радиусе 4. Получите +2 [img:lck] вместо обычного эффекта.",
+        "en_name": "Lucky Penny",
+        "en_description": "Collect an adjacent pickup and gain +2 [img:lck] instead of its normal effects.",
+        "en_upgraded_description": "Collect a pickup within four tiles of you. Gain +2 [img:lck] instead of its normal effects."
+      },
+      "manifest": {
+        "ability_id": "LuckyPenny",
+        "display_name": "Lucky Penny",
+        "tool_class": "thief",
+        "icon_label": "LuckyPenny",
+        "resolved_icon_label": "LuckyPenny",
+        "main_svg_id": "716",
+        "main_svg_filename": "716.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Lucky Penny",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "Collect an adjacent pickup and gain +2 Luck instead of its normal effects.Upgraded: Collect a pickup within four tiles of you. Gain +2 Luck instead of its normal effects.",
       "value_kind": "none",
       "translation": {
@@ -746,6 +1175,45 @@
       }
     },
     {
+      "wiki_name": "Outskirts",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Teleport to a tile on the edge of the map.Upgraded: Teleport to a tile on the edge of the map. Gain +2 Damage for the rest of the turn.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_OUTSKIRTS_NAME",
+        "ru_name": "Окраина",
+        "ru_description": "Телепортируйтесь на клетку на краю карты.",
+        "ru_upgraded_description": "Телепортируйтесь на край карты. +2 Урон до конца хода.",
+        "en_name": "Outskirts",
+        "en_description": "Teleport to a tile on the edge of the map.",
+        "en_upgraded_description": "Teleport to a tile on the edge of the map. Gain +2 Damage for the rest of the turn."
+      },
+      "manifest": {
+        "ability_id": "Outskirts",
+        "display_name": "Outskirts",
+        "tool_class": "thief",
+        "icon_label": "Outskirts",
+        "resolved_icon_label": "Outskirts",
+        "main_svg_id": "718",
+        "main_svg_filename": "718.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Over Here, Over There",
       "class": "Thief",
       "variant": "normal",
@@ -785,9 +1253,87 @@
       }
     },
     {
+      "wiki_name": "Over Here, Over There",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Swap positions with an ally. Swap back at the end of your turn. (Castable once per turn.) Upgraded: Swap positions with any unit. Swap back at the end of your turn. If the unit was an enemy, inflict Confusion 1. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THIEFSWAP_NAME",
+        "ru_name": "Там и здесь",
+        "ru_description": "Поменяйтесь местами с союзником. В конце хода вернитесь обратно.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Поменяйтесь с любым юнитом. В конце хода вернитесь. Если это враг — Замешательство 1.\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Over Here, Over There",
+        "en_description": "Swap positions with an ally. Swap back at the end of your turn.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Swap positions with any unit. Swap back at the end of your turn. If the unit was an enemy, inflict Confusion 1.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "ThiefSwap",
+        "display_name": "Over Here, Over There",
+        "tool_class": "thief",
+        "icon_label": "ThiefSwap",
+        "resolved_icon_label": "ThiefSwap",
+        "main_svg_id": "713",
+        "main_svg_filename": "713.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Pickpocket",
       "class": "Thief",
       "variant": "normal",
+      "description": "Steal 1-3 coins from a unit and give it -1 Damage.Upgraded: Steal 3-5 coins from a unit, give it -1 Damage, and apply some extra debuffs at random.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PICKPOCKET_NAME",
+        "ru_name": "Кража",
+        "ru_description": "Украдите 1-3 монеты у юнита и дайте ему -1 Урон.",
+        "ru_upgraded_description": "Украдите 3-5 монет у юнита, дайте -1 Урон и случайные дебаффы.",
+        "en_name": "Pickpocket",
+        "en_description": "Steal 1-3 coins from a unit and give it -1 Damage.",
+        "en_upgraded_description": "Steal 3-5 coins from a unit, give it -1 Damage, and apply some extra debuffs at random."
+      },
+      "manifest": {
+        "ability_id": "PickPocket",
+        "display_name": "Pickpocket",
+        "tool_class": "thief",
+        "icon_label": "PickPocket",
+        "resolved_icon_label": "PickPocket",
+        "main_svg_id": "683",
+        "main_svg_filename": "683.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Pickpocket",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "Steal 1-3 coins from a unit and give it -1 Damage.Upgraded: Steal 3-5 coins from a unit, give it -1 Damage, and apply some extra debuffs at random.",
       "value_kind": "damage",
       "translation": {
@@ -941,9 +1487,87 @@
       }
     },
     {
+      "wiki_name": "Pocket Sand",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Inflict Blind on all units in a small cone.Upgraded: Inflict Blind 2 on all units in a larger cone.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_POCKETSAND_NAME",
+        "ru_name": "Песок в глаза",
+        "ru_description": "Слепота всем в малом конусе.",
+        "ru_upgraded_description": "Слепота 2 всем в большем конусе.",
+        "en_name": "Pocket Sand",
+        "en_description": "Inflict Blind on all units in a small cone.",
+        "en_upgraded_description": "Inflict Blind 2 on all units in a larger cone."
+      },
+      "manifest": {
+        "ability_id": "PocketSand",
+        "display_name": "Pocket Sand",
+        "tool_class": "thief",
+        "icon_label": "PocketSand",
+        "resolved_icon_label": "PocketSand",
+        "main_svg_id": "696",
+        "main_svg_filename": "696.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Poison Dip",
       "class": "Thief",
       "variant": "normal",
+      "description": "Spend all your mana. For every 5 mana spent, your basic attack inflicts +1 Poison. (Castable once per battle.) Upgraded: Spend all your mana. For every 3 mana spent, your basic attack inflicts +1 Poison. (Castable once per battle.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_POISONDIP_NAME",
+        "ru_name": "Ядовитая смазка",
+        "ru_description": "Потратьте всю ману. За каждые 5 маны: +1 Яд к базовой атаке.\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Потратьте всю ману. За каждые 3 маны: +1 Яд к базовой атаке.\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Poison Dip",
+        "en_description": "Spend all your mana. For every 5 mana spent, your basic attack inflicts +1 Poison.\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Spend all your mana. For every 3 mana spent, your basic attack inflicts +1 Poison.\r\n[s:.7](Castable once per battle.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "PoisonDip",
+        "display_name": "Poison Dip",
+        "tool_class": "thief",
+        "icon_label": "PoisonDip",
+        "resolved_icon_label": "PoisonDip",
+        "main_svg_id": "717",
+        "main_svg_filename": "717.svg"
+      },
+      "numbers": {
+        "raw": "All",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Poison Dip",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "Spend all your mana. For every 5 mana spent, your basic attack inflicts +1 Poison. (Castable once per battle.) Upgraded: Spend all your mana. For every 3 mana spent, your basic attack inflicts +1 Poison. (Castable once per battle.)",
       "value_kind": "damage",
       "translation": {
@@ -1019,9 +1643,87 @@
       }
     },
     {
+      "wiki_name": "Poison Gas",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Inflict Poison 1 on all units adjacent to you.Upgraded: Inflict Poison 2 on all units adjacent to you (even diagonally).",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_POISONGAS_NAME",
+        "ru_name": "Ядовитый газ",
+        "ru_description": "Яд 1 всем соседям.",
+        "ru_upgraded_description": "Яд 2 всем соседям (даже по диагонали).",
+        "en_name": "Poison Gas",
+        "en_description": "Inflict Poison 1 on all units adjacent to you.",
+        "en_upgraded_description": "Inflict Poison 2 on all units adjacent to you (even diagonally)."
+      },
+      "manifest": {
+        "ability_id": "PoisonGas",
+        "display_name": "Poison Gas",
+        "tool_class": "thief",
+        "icon_label": "PoisonGas",
+        "resolved_icon_label": "PoisonGas",
+        "main_svg_id": "679",
+        "main_svg_filename": "679.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Quick Roll",
       "class": "Thief",
       "variant": "normal",
+      "description": "Roll in a straight line up to three tiles. RELOAD: Backstab a unit.Upgraded: Roll in a straight or diagonal line up to five tiles. RELOAD: Backstab a unit.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_QUICKROLL_NAME",
+        "ru_name": "Быстрый перекат",
+        "ru_description": "Перекат на 3 клетки по прямой.\nПЕРЕЗАРЯДКА: Ударьте в спину.",
+        "ru_upgraded_description": "Перекат на 5 клеток по прямой или диагонали.\nПЕРЕЗАРЯДКА: Ударьте в спину.",
+        "en_name": "Quick Roll",
+        "en_description": "Roll in a straight line up to three tiles.\nRELOAD: Backstab a unit.",
+        "en_upgraded_description": "Roll in a straight or diagonal line up to five tiles.\nRELOAD: Backstab a unit."
+      },
+      "manifest": {
+        "ability_id": "QuickRoll",
+        "display_name": "Quick Roll",
+        "tool_class": "thief",
+        "icon_label": "QuickRoll",
+        "resolved_icon_label": "QuickRoll",
+        "main_svg_id": "695",
+        "main_svg_filename": "695.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Quick Roll",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "Roll in a straight line up to three tiles. RELOAD: Backstab a unit.Upgraded: Roll in a straight or diagonal line up to five tiles. RELOAD: Backstab a unit.",
       "value_kind": "none",
       "translation": {
@@ -1175,6 +1877,45 @@
       }
     },
     {
+      "wiki_name": "Shadow",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Teleport behind a unit. Nothin' personnel, kid. Upgraded: Teleport behind a unit. Your next action has +100% crit chance. Nothin' personnel, kid.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHADOW_NAME",
+        "ru_name": "Тень",
+        "ru_description": "Телепортируйтесь за спину.\n[s:.7]Ничего личного, малыш.[/s]",
+        "ru_upgraded_description": "Телепортируйтесь за спину. След. действие +100% шанс крита.\n[s:.7]Ничего личного, малыш.[/s]",
+        "en_name": "Shadow",
+        "en_description": "Teleport behind a unit.\n[s:.7]Nothin' personnel, kid.[/s]",
+        "en_upgraded_description": "Teleport behind a unit. Your next action has +100% crit chance.\n[s:.7]Nothin' personnel, kid.[/s]"
+      },
+      "manifest": {
+        "ability_id": "Shadow",
+        "display_name": "Shadow",
+        "tool_class": "thief",
+        "icon_label": "Shadow",
+        "resolved_icon_label": "Shadow",
+        "main_svg_id": "689",
+        "main_svg_filename": "689.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Shadow Shift",
       "class": "Thief",
       "variant": "normal",
@@ -1214,9 +1955,87 @@
       }
     },
     {
+      "wiki_name": "Shadow Shift",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Teleport exactly 2 tiles away, leaving behind a shadow that mimics your basic attack. (The shadow fades at the end of your turn.) Upgraded: Teleport up to 3 tiles away, leaving behind a shadow that mimics your basic attack. (The shadow fades at the end of your turn.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHADOWSHIFT_NAME",
+        "ru_name": "Теневой сдвиг",
+        "ru_description": "Телепорт на 2 клетки. Оставляет тень, повторяющую вашу базовую атаку.\n[s:.7](Тень исчезнет в конце хода.)[/s]",
+        "ru_upgraded_description": "Телепорт на 3 клетки. Оставляет тень, повторяющую вашу базовую атаку.\n[s:.7](Тень исчезнет в конце хода.)[/s]",
+        "en_name": "Shadow Shift",
+        "en_description": "Teleport exactly 2 tiles away, leaving behind a shadow that mimics your basic attack.\n[s:.7](The shadow fades at the end of your turn.)[/s]",
+        "en_upgraded_description": "Teleport up to 3 tiles away, leaving behind a shadow that mimics your basic attack.\n[s:.7](The shadow fades at the end of your turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Shadowshift",
+        "display_name": "Shadow Shift",
+        "tool_class": "thief",
+        "icon_label": "Shadowshift",
+        "resolved_icon_label": "Shadowshift",
+        "main_svg_id": "698",
+        "main_svg_filename": "698.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Sharpen Nail",
       "class": "Thief",
       "variant": "normal",
+      "description": "Gain +1 Dexterity and +1 Range until the end of the battle.Upgraded: Gain +1 Dexterity and +1 Range until the end of the battle. Automatically cast this spell at the end of each round for free.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHARPENNAIL_NAME",
+        "ru_name": "Подточка гвоздя",
+        "ru_description": "Получите +1 [img:dex] и +1 Дальность до конца битвы.",
+        "ru_upgraded_description": "Получите +1 [img:dex] и +1 Дальность до конца битвы.\n[s:.7]Авто-применение бесплатно в конце каждого раунда.[/s]",
+        "en_name": "Sharpen Nail",
+        "en_description": "Gain +1 [img:dex] and +1 Range until the end of the battle.",
+        "en_upgraded_description": "Gain +1 [img:dex] and +1 Range until the end of the battle.\r\n[s:.7]Automatically cast this spell at the end of each round for free.[/s]"
+      },
+      "manifest": {
+        "ability_id": "SharpenNail",
+        "display_name": "Sharpen Nail",
+        "tool_class": "thief",
+        "icon_label": "SharpenNail",
+        "resolved_icon_label": "SharpenNail",
+        "main_svg_id": "703",
+        "main_svg_filename": "703.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Sharpen Nail",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "Gain +1 Dexterity and +1 Range until the end of the battle.Upgraded: Gain +1 Dexterity and +1 Range until the end of the battle. Automatically cast this spell at the end of each round for free.",
       "value_kind": "none",
       "translation": {
@@ -1646,6 +2465,45 @@
       "wiki_name": "Wind Up",
       "class": "Thief",
       "variant": "normal",
+      "description": "Gain +1 Range for the rest of the turn.Upgraded: Gain +1 Range.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WINDUP_NAME",
+        "ru_name": "Замах",
+        "ru_description": "+1 Дальность до конца хода.",
+        "ru_upgraded_description": "Получите +1 Дальность.",
+        "en_name": "Wind Up",
+        "en_description": "Gain +1 Range for the rest of the turn.",
+        "en_upgraded_description": "Gain +1 Range."
+      },
+      "manifest": {
+        "ability_id": "WindUp",
+        "display_name": "Wind Up",
+        "tool_class": "thief",
+        "icon_label": "WindUp",
+        "resolved_icon_label": "WindUp",
+        "main_svg_id": "711",
+        "main_svg_filename": "711.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Wind Up",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "Gain +1 Range for the rest of the turn.Upgraded: Gain +1 Range.",
       "value_kind": "none",
       "translation": {

@@ -2,12 +2,51 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Tinkerer",
   "frame_type": "Dmg_Mana",
-  "count": 16,
+  "count": 22,
   "abilities": [
     {
       "wiki_name": "Discharge",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Spend all of your mana, then deal that much electric damage to an adjacent unit.Upgraded: Spend all of your mana, then deal that much electric damage to an adjacent unit with a 10% Stun chance for each point of mana spent.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DISCHARGE_NAME",
+        "ru_name": "Разряд",
+        "ru_description": "Потратьте всю ману, нанесите столько же электр. урона соседу.",
+        "ru_upgraded_description": "Потратьте всю ману, нанесите столько же электр. урона соседу. 10% шанс Оглушения за очко маны.",
+        "en_name": "Discharge",
+        "en_description": "Spend all of your mana, then deal that much electric damage to an adjacent unit.",
+        "en_upgraded_description": "Spend all of your mana, then deal that much electric damage to an adjacent unit with a 10% Stun chance for each point of mana spent."
+      },
+      "manifest": {
+        "ability_id": "Discharge",
+        "display_name": "Discharge",
+        "tool_class": "tinkerer",
+        "icon_label": "Discharge",
+        "resolved_icon_label": "Discharge",
+        "main_svg_id": "1168",
+        "main_svg_filename": "1168.svg"
+      },
+      "numbers": {
+        "raw": "0 All",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Discharge",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Spend all of your mana, then deal that much electric damage to an adjacent unit.Upgraded: Spend all of your mana, then deal that much electric damage to an adjacent unit with a 10% Stun chance for each point of mana spent.",
       "value_kind": "damage",
       "translation": {
@@ -239,9 +278,87 @@
       }
     },
     {
+      "wiki_name": "Rocket Skates",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Dash forward in a straight line then explode dealing damage in an area (including to yourself).Upgraded: Dash forward in a straight line then explode dealing damage in an larger area (including to yourself).",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ROCKETSKATES_NAME",
+        "ru_name": "Ракетные коньки",
+        "ru_description": "Рывок по прямой, затем взрыв (урон в области, вам тоже).",
+        "ru_upgraded_description": "Рывок по прямой, затем взрыв (урон в большей области, вам тоже).",
+        "en_name": "Rocket Skates",
+        "en_description": "Dash forward in a straight line then explode dealing damage in an area (including to yourself).",
+        "en_upgraded_description": "Dash forward in a straight line then explode dealing damage in an larger area (including to yourself)."
+      },
+      "manifest": {
+        "ability_id": "RocketSkates",
+        "display_name": "Rocket Skates",
+        "tool_class": "tinkerer",
+        "icon_label": "RocketSkates",
+        "resolved_icon_label": "RocketSkates",
+        "main_svg_id": "1179",
+        "main_svg_filename": "1179.svg"
+      },
+      "numbers": {
+        "raw": "5 3",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Shock Therapy",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Deal 1 electric damage to yourself or an adjacent unit. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned.Upgraded: Deal 1 electric damage to yourself or a unit in range 5. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHOCKTHERAPY_NAME",
+        "ru_name": "Шоковая терапия",
+        "ru_description": "1 электр. урон себе или соседу. Снимает дебаффы, дает бафф стата, 25% шанс Оглушения.",
+        "ru_upgraded_description": "1 электр. урон себе или юниту (радиус 5). Снимает дебаффы, дает бафф стата, 25% шанс Оглушения.",
+        "en_name": "Shock Therapy",
+        "en_description": "Deal 1 electric damage to yourself or an adjacent unit. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned.",
+        "en_upgraded_description": "Deal 1 electric damage to yourself or a unit in range 5. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned."
+      },
+      "manifest": {
+        "ability_id": "ShockTherapy",
+        "display_name": "Shock Therapy",
+        "tool_class": "tinkerer",
+        "icon_label": "ShockTherapy",
+        "resolved_icon_label": "ShockTherapy",
+        "main_svg_id": "1201",
+        "main_svg_filename": "1201.svg"
+      },
+      "numbers": {
+        "raw": "1 5",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Shock Therapy",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Deal 1 electric damage to yourself or an adjacent unit. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned.Upgraded: Deal 1 electric damage to yourself or a unit in range 5. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned.",
       "value_kind": "damage",
       "translation": {
@@ -473,9 +590,87 @@
       }
     },
     {
+      "wiki_name": "Sparks",
+      "class": "Tinkerer",
+      "variant": "upgraded",
+      "description": "Shoot electric bolts at up to 3 random enemies or robots.Upgraded: Shoot electric bolts at up to 5 random enemies or robots.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SPARKS_NAME",
+        "ru_name": "Искры",
+        "ru_description": "Выстрелите током в 3 случайных врагов или роботов.",
+        "ru_upgraded_description": "Выстрелите током в 5 случайных врагов или роботов.",
+        "en_name": "Sparks",
+        "en_description": "Shoot electric bolts at up to 3 random enemies or robots.",
+        "en_upgraded_description": "Shoot electric bolts at up to 5 random enemies or robots."
+      },
+      "manifest": {
+        "ability_id": "Sparks",
+        "display_name": "Sparks",
+        "tool_class": "tinkerer",
+        "icon_label": "Sparks",
+        "resolved_icon_label": "Sparks",
+        "main_svg_id": "1224",
+        "main_svg_filename": "1224.svg"
+      },
+      "numbers": {
+        "raw": "3 7",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Split the Atom",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns. (This spell's mana cost can't be modified.) Upgraded: Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns. This spell absorbs the mana you spend casting other spells. (This spell's mana cost can't be modified.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SPLITTHEATOM_NAME",
+        "ru_name": "Расщепление атома",
+        "ru_description": "50 урона и Горение 10 ВСЕМ врагам. Ману можно платить частями несколько ходов.\n[s:.7](Цена маны фиксирована.)[/s]",
+        "ru_upgraded_description": "50 урона и Горение 10 ВСЕМ врагам. Платите частями.\nПоглощает ману, потраченную на другие заклинания.\n[s:.7](Цена маны фиксирована.)[/s]",
+        "en_name": "Split the Atom",
+        "en_description": "Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns.\n[s:.7](This spell's mana cost can't be modified.)[/s]",
+        "en_upgraded_description": "Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns.\nThis spell absorbs the mana you spend casting other spells.\n[s:.7](This spell's mana cost can't be modified.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "BatteryNuke",
+        "display_name": "Split the Atom",
+        "tool_class": "tinkerer",
+        "icon_label": "BatteryNuke",
+        "resolved_icon_label": "BatteryNuke",
+        "main_svg_id": "1203",
+        "main_svg_filename": "1203.svg"
+      },
+      "numbers": {
+        "raw": "50 50",
+        "frame_type": "Dmg_Mana",
+        "value": "50",
+        "mana": "50",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Split the Atom",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns. (This spell's mana cost can't be modified.) Upgraded: Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns. This spell absorbs the mana you spend casting other spells. (This spell's mana cost can't be modified.)",
       "value_kind": "damage",
       "translation": {
@@ -593,6 +788,45 @@
       "wiki_name": "Volt Tackle",
       "class": "Tinkerer",
       "variant": "normal",
+      "description": "Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them.Upgraded: Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them with a 50% chance to inflict Stun.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_VOLTTACKLE_NAME",
+        "ru_name": "Вольт-удар",
+        "ru_description": "Телепорт к любому проводнику тока. Смещает и бьет током того, на кого прыгнули.",
+        "ru_upgraded_description": "Телепорт к проводнику. Смещает и бьет током (50% шанс Оглушения) того, на кого прыгнули.",
+        "en_name": "Volt Tackle",
+        "en_description": "Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them.",
+        "en_upgraded_description": "Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them with a 50% chance to inflict Stun."
+      },
+      "manifest": {
+        "ability_id": "VoltTackle",
+        "display_name": "Volt Tackle",
+        "tool_class": "tinkerer",
+        "icon_label": "VoltTackle",
+        "resolved_icon_label": "VoltTackle",
+        "main_svg_id": "1216",
+        "main_svg_filename": "1216.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\tinkerer_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Volt Tackle",
+      "class": "Tinkerer",
+      "variant": "upgraded",
       "description": "Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them.Upgraded: Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them with a 50% chance to inflict Stun.",
       "value_kind": "damage",
       "translation": {

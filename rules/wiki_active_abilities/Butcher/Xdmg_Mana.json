@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Butcher",
   "frame_type": "Xdmg_Mana",
-  "count": 4,
+  "count": 6,
   "abilities": [
     {
       "wiki_name": "Mutilate",
@@ -44,9 +44,87 @@
       }
     },
     {
+      "wiki_name": "Mutilate",
+      "class": "Butcher",
+      "variant": "upgraded",
+      "description": "Attack 3-5 times for 1 damage each. These attacks inflict Bleed.Upgraded: Attack 3-10 times for 1 damage each. These attacks inflict Bleed.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MUTILATE_NAME",
+        "ru_name": "Увечье",
+        "ru_description": "Атакуйте 3-5 раз по 1 урону. Эти атаки вызывают Кровотечение.",
+        "ru_upgraded_description": "Атакуйте 3-10 раз по 1 урону. Эти атаки вызывают Кровотечение.",
+        "en_name": "Mutilate",
+        "en_description": "Attack 3-5 times for 1 damage each. These attacks inflict Bleed.",
+        "en_upgraded_description": "Attack 3-10 times for 1 damage each. These attacks inflict Bleed."
+      },
+      "manifest": {
+        "ability_id": "Mutilate",
+        "display_name": "Mutilate",
+        "tool_class": "butcher",
+        "icon_label": "Mutilate",
+        "resolved_icon_label": "Mutilate",
+        "main_svg_id": "946",
+        "main_svg_filename": "946.svg"
+      },
+      "numbers": {
+        "raw": "1x? 8",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x?",
+        "mana": "8",
+        "hit_count": 1,
+        "hit_value": "?"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Shred",
       "class": "Butcher",
       "variant": "normal",
+      "description": "Attack five times for 1 damage each. These attacks inflict all status effects your basic attack does.Upgraded: Attack five times with damage that scales with Strength. These attacks inflict all status effects your basic attack does.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHRED_NAME",
+        "ru_name": "Шинковка",
+        "ru_description": "Атакуйте пять раз по 1 урону. Накладывает эффекты базовой атаки.",
+        "ru_upgraded_description": "Атакуйте пять раз (урон зависит от [img:str]). Накладывает эффекты базовой атаки.",
+        "en_name": "Shred",
+        "en_description": "Attack five times for 1 damage each. These attacks inflict all status effects your basic attack does.",
+        "en_upgraded_description": "Attack five times with damage that scales with [img:str]. These attacks inflict all status effects your basic attack does."
+      },
+      "manifest": {
+        "ability_id": "Shred",
+        "display_name": "Shred",
+        "tool_class": "butcher",
+        "icon_label": "Shred",
+        "resolved_icon_label": "Shred",
+        "main_svg_id": "948",
+        "main_svg_filename": "948.svg"
+      },
+      "numbers": {
+        "raw": "1x5 12",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x5",
+        "mana": "12",
+        "hit_count": 1,
+        "hit_value": "5"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\butcher_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Shred",
+      "class": "Butcher",
+      "variant": "upgraded",
       "description": "Attack five times for 1 damage each. These attacks inflict all status effects your basic attack does.Upgraded: Attack five times with damage that scales with Strength. These attacks inflict all status effects your basic attack does.",
       "value_kind": "damage",
       "translation": {

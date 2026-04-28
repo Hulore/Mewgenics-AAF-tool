@@ -108,10 +108,10 @@ def translation_block(manifest_row: dict[str, str] | None, translations: dict[st
         "text_key": text_key,
         "ru_name": name_row.get("ru", ""),
         "ru_description": desc_row.get("ru", ""),
-        "ru_upgraded_description": desc2_row.get("ru", ""),
+        "ru_upgraded_description": desc2_row.get("ru") or desc_row.get("ru", ""),
         "en_name": name_row.get("en", ""),
         "en_description": desc_row.get("en", ""),
-        "en_upgraded_description": desc2_row.get("en", ""),
+        "en_upgraded_description": desc2_row.get("en") or desc_row.get("en", ""),
     }
 
 
@@ -120,8 +120,7 @@ def build_rule_entry(wiki_ability, manifest_row: dict[str, str] | None) -> dict:
     kind = value_kind(wiki_ability.description)
 
     variants = {"normal": parse_attributes(normal_attrs)}
-    if upgraded_attrs:
-        variants["upgraded"] = parse_attributes(upgraded_attrs)
+    variants["upgraded"] = parse_attributes(upgraded_attrs or normal_attrs)
 
     return {
         "wiki_name": wiki_ability.name,

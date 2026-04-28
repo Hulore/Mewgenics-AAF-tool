@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Psychic",
   "frame_type": "Dmg_Mana",
-  "count": 15,
+  "count": 20,
   "abilities": [
     {
       "wiki_name": "Asteroid",
@@ -278,6 +278,45 @@
       }
     },
     {
+      "wiki_name": "Gravity Wave",
+      "class": "Psychic",
+      "variant": "upgraded",
+      "description": "Deal damage with Knockback 4 and Chain Knockback in a cone.Upgraded: Deal damage with Knockback 4, Chain Knockback and inflict Bruise 1 in a cone.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_GRAVITYWAVE_NAME",
+        "ru_name": "Грави-волна",
+        "ru_description": "Урон, Отбрасывание 4 и Цепное отбрасывание в конусе.",
+        "ru_upgraded_description": "Урон, Отбрасывание 4, Цепное отбрасывание и Ушиб 1 в конусе.",
+        "en_name": "Gravity Wave",
+        "en_description": "Deal damage with Knockback 4 and Chain Knockback in a cone.",
+        "en_upgraded_description": "Deal damage with Knockback 4, Chain Knockback and inflict Bruise 1 in a cone."
+      },
+      "manifest": {
+        "ability_id": "ForceCone",
+        "display_name": "Gravity Wave",
+        "tool_class": "psychic",
+        "icon_label": "ForceCone",
+        "resolved_icon_label": "ForceCone",
+        "main_svg_id": "1164",
+        "main_svg_filename": "1164.svg"
+      },
+      "numbers": {
+        "raw": "2 6",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\psychic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Increase Gravity",
       "class": "Psychic",
       "variant": "normal",
@@ -317,9 +356,87 @@
       }
     },
     {
+      "wiki_name": "Increase Gravity",
+      "class": "Psychic",
+      "variant": "upgraded",
+      "description": "Inflict Slow 1 on a unit within your line of sight. If you cast this from full mana, instead inflict Immobilize 1 and deal 6 damage.Upgraded: Inflict Slow 1 on each unit in an area around a tile within your line of sight. If you cast this from full mana, instead inflict Immobilize 1 and deal 6 damage.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_INCREASEGRAVITY_NAME",
+        "ru_name": "Усиление гравитации",
+        "ru_description": "Замедление 1 видимому юниту. При полной мане: вместо этого Обездвиживание 1 и 6 урона.",
+        "ru_upgraded_description": "Замедление 1 в видимой области. При полной мане: Обездвиживание 1 и 6 урона.",
+        "en_name": "Increase Gravity",
+        "en_description": "Inflict Slow 1 on a unit within your line of sight. If you cast this from full mana, instead inflict Immobilize 1 and deal 6 damage.",
+        "en_upgraded_description": "Inflict Slow 1 on each unit in an area around a tile within your line of sight. If you cast this from full mana, instead inflict Immobilize 1 and deal 6 damage."
+      },
+      "manifest": {
+        "ability_id": "IncreaseGravity",
+        "display_name": "Increase Gravity",
+        "tool_class": "psychic",
+        "icon_label": "IncreaseGravity",
+        "resolved_icon_label": "IncreaseGravity",
+        "main_svg_id": "1155",
+        "main_svg_filename": "1155.svg"
+      },
+      "numbers": {
+        "raw": "0 3",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\psychic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Manifest",
       "class": "Psychic",
       "variant": "normal",
+      "description": "Teleport in a straight line into a unit within your line of sight. Deal damage and displace it.Upgraded: Teleport into a unit within your line of sight. Deal damage and displace it.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MANIFEST_NAME",
+        "ru_name": "Манифестация",
+        "ru_description": "Телепортируйтесь по прямой ПРЯМО В видимого юнита. Урон и смещение.",
+        "ru_upgraded_description": "Телепортируйтесь ПРЯМО В видимого юнита. Урон и смещение.",
+        "en_name": "Manifest",
+        "en_description": "Teleport in a straight line into a unit within your line of sight. Deal damage and displace it.",
+        "en_upgraded_description": "Teleport into a unit within your line of sight. Deal damage and displace it."
+      },
+      "manifest": {
+        "ability_id": "Manifest",
+        "display_name": "Manifest",
+        "tool_class": "psychic",
+        "icon_label": "Manifest",
+        "resolved_icon_label": "Manifest",
+        "main_svg_id": "1154",
+        "main_svg_filename": "1154.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\psychic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Manifest",
+      "class": "Psychic",
+      "variant": "upgraded",
       "description": "Teleport in a straight line into a unit within your line of sight. Deal damage and displace it.Upgraded: Teleport into a unit within your line of sight. Deal damage and displace it.",
       "value_kind": "damage",
       "translation": {
@@ -473,6 +590,45 @@
       }
     },
     {
+      "wiki_name": "Ping",
+      "class": "Psychic",
+      "variant": "upgraded",
+      "description": "Deal 1 damage to any unit within your line of sight. RELOAD: Spend manaUpgraded: Deal 1 damage to any unit within your line of sight. RELOAD: Spend mana Bonus Passive: +2 Intelligence.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_PING_NAME",
+        "ru_name": "Пинг",
+        "ru_description": "Нанесите 1 урон любому видимому юниту.\nПЕРЕЗАРЯДКА: Потратьте ману",
+        "ru_upgraded_description": "Нанесите 1 урон любому видимому юниту.\nПЕРЕЗАРЯДКА: Потратьте ману\nПассивно: +2 [img:int].",
+        "en_name": "Ping",
+        "en_description": "Deal 1 damage to any unit within your line of sight.\r\nRELOAD: Spend mana",
+        "en_upgraded_description": "Deal 1 damage to any unit within your line of sight.\nRELOAD: Spend mana\nBonus Passive: +2 [img:int]."
+      },
+      "manifest": {
+        "ability_id": "Ping",
+        "display_name": "Ping",
+        "tool_class": "psychic",
+        "icon_label": "Ping",
+        "resolved_icon_label": "Ping",
+        "main_svg_id": "1130",
+        "main_svg_filename": "1130.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\psychic_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Psychic Choke",
       "class": "Psychic",
       "variant": "normal",
@@ -554,6 +710,45 @@
       "wiki_name": "Supernova",
       "class": "Psychic",
       "variant": "normal",
+      "description": "Deal damage to and inflict Blind on every unit within your line of sight.Upgraded: Deal damage to and inflict Blind on every unit within your line of sight, excluding your allies.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SUPERNOVA_NAME",
+        "ru_name": "Сверхновая",
+        "ru_description": "Урон и Слепота всем юнитам в поле зрения.",
+        "ru_upgraded_description": "Урон и Слепота всем юнитам в поле зрения, кроме союзников.",
+        "en_name": "Supernova",
+        "en_description": "Deal damage to and inflict Blind on every unit within your line of sight.",
+        "en_upgraded_description": "Deal damage to and inflict Blind on every unit within your line of sight, excluding your allies."
+      },
+      "manifest": {
+        "ability_id": "Supernova",
+        "display_name": "Supernova",
+        "tool_class": "psychic",
+        "icon_label": "Supernova",
+        "resolved_icon_label": "Supernova",
+        "main_svg_id": "1123",
+        "main_svg_filename": "1123.svg"
+      },
+      "numbers": {
+        "raw": "12 10",
+        "frame_type": "Dmg_Mana",
+        "value": "12",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\psychic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Supernova",
+      "class": "Psychic",
+      "variant": "upgraded",
       "description": "Deal damage to and inflict Blind on every unit within your line of sight.Upgraded: Deal damage to and inflict Blind on every unit within your line of sight, excluding your allies.",
       "value_kind": "damage",
       "translation": {

@@ -2,12 +2,51 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Fighter",
   "frame_type": "Dmg_Mana",
-  "count": 35,
+  "count": 51,
   "abilities": [
     {
       "wiki_name": "Assert Dominance",
       "class": "Fighter",
       "variant": "normal",
+      "description": "A weak melee attack. If this kills anything, you become the Alpha. If you are the Alpha, this spell deals 5 additional damage and inflicts Bruise.Upgraded: A weak melee attack. If this kills anything, you become the Alpha and gain +2 Strength. If you are the Alpha, this spell deals 5 additional damage and inflicts Bruise.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ASSERTDOMINANCE_NAME",
+        "ru_name": "Доминирование",
+        "ru_description": "Слабая атака. При убийстве: вы становитесь Альфой. Если вы Альфа: +5 урона и Ушиб.",
+        "ru_upgraded_description": "Слабая атака. При убийстве: вы Альфа и +2 [img:str]. Если вы Альфа: +5 урона и Ушиб.",
+        "en_name": "Assert Dominance",
+        "en_description": "A weak melee attack. If this kills anything, you become the Alpha. If you are the Alpha, this spell deals 5 additional damage and inflicts Bruise.",
+        "en_upgraded_description": "A weak melee attack. If this kills anything, you become the Alpha and gain +2 [img:str]. If you are the Alpha, this spell deals 5 additional damage and inflicts Bruise."
+      },
+      "manifest": {
+        "ability_id": "AssertDominance",
+        "display_name": "Assert Dominance",
+        "tool_class": "fighter",
+        "icon_label": "AssertDominance",
+        "resolved_icon_label": "AssertDominance",
+        "main_svg_id": "866",
+        "main_svg_filename": "866.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Assert Dominance",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "A weak melee attack. If this kills anything, you become the Alpha. If you are the Alpha, this spell deals 5 additional damage and inflicts Bruise.Upgraded: A weak melee attack. If this kills anything, you become the Alpha and gain +2 Strength. If you are the Alpha, this spell deals 5 additional damage and inflicts Bruise.",
       "value_kind": "damage",
       "translation": {
@@ -83,9 +122,87 @@
       }
     },
     {
+      "wiki_name": "Berserker Dash",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "A short range dash attack.Upgraded: A dash attack with infinite range.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BERSERKERDASH_NAME",
+        "ru_name": "Рывок Берсерка",
+        "ru_description": "Рывок-атака ближнего действия.",
+        "ru_upgraded_description": "Рывок-атака бесконечной дальности.",
+        "en_name": "Berserker Dash",
+        "en_description": "A short range dash attack.",
+        "en_upgraded_description": "A dash attack with infinite range."
+      },
+      "manifest": {
+        "ability_id": "BerserkDash",
+        "display_name": "Berserker Dash",
+        "tool_class": "fighter",
+        "icon_label": "BerserkDash",
+        "resolved_icon_label": "BerserkDash",
+        "main_svg_id": "834",
+        "main_svg_filename": "834.svg"
+      },
+      "numbers": {
+        "raw": "1 2",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Big Punch",
       "class": "Fighter",
       "variant": "normal",
+      "description": "A melee attack. This spell's mana cost increases by 2 each time it's cast.Upgraded: A melee attack. This spell's mana cost increases by 1 each time it's cast.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BIGPUNCH_NAME",
+        "ru_name": "Большой Удар",
+        "ru_description": "Ближняя атака.\nЦена растет на 2 с каждым применением.",
+        "ru_upgraded_description": "Ближняя атака.\nЦена растет на 1 с каждым применением.",
+        "en_name": "Big Punch",
+        "en_description": "A melee attack.\r\nThis spell's mana cost increases by 2 each time it's cast.",
+        "en_upgraded_description": "A melee attack.\r\nThis spell's mana cost increases by 1 each time it's cast."
+      },
+      "manifest": {
+        "ability_id": "BigPunch",
+        "display_name": "Big Punch",
+        "tool_class": "fighter",
+        "icon_label": "BigPunch",
+        "resolved_icon_label": "BigPunch",
+        "main_svg_id": "874",
+        "main_svg_filename": "874.svg"
+      },
+      "numbers": {
+        "raw": "10 3",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Big Punch",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "A melee attack. This spell's mana cost increases by 2 each time it's cast.Upgraded: A melee attack. This spell's mana cost increases by 1 each time it's cast.",
       "value_kind": "damage",
       "translation": {
@@ -161,9 +278,87 @@
       }
     },
     {
+      "wiki_name": "Breaking Point",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Deal damage, knockback, and knockback damage equal to your Strength. Reduce this spell's mana cost by 1 each time you take damage. (Castable once per turn.) Upgraded: Deal damage, knockback, and knockback damage equal to your Strength. Reduce this spell's mana cost by 2 each time you take damage. (Castable once per turn.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BREAKINGPOINT_NAME",
+        "ru_name": "Точка кипения",
+        "ru_description": "Урон, отбрасывание и урон от толчка равны [img:str].\nЦена падает на 1 каждый раз, когда вас бьют.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Урон, отбрасывание и урон от толчка равны [img:str].\nЦена падает на 2 каждый раз, когда вас бьют.\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Breaking Point",
+        "en_description": "Deal damage, knockback, and knockback damage equal to your [img:str].\nReduce this spell's mana cost by 1 each time you take damage.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Deal damage, knockback, and knockback damage equal to your [img:str].\nReduce this spell's mana cost by 2 each time you take damage.\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "BreakingPoint",
+        "display_name": "Breaking Point",
+        "tool_class": "fighter",
+        "icon_label": "BreakingPoint",
+        "resolved_icon_label": "BreakingPoint",
+        "main_svg_id": "867",
+        "main_svg_filename": "867.svg"
+      },
+      "numbers": {
+        "raw": "5 15",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "15",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Bull Rush",
       "class": "Fighter",
       "variant": "normal",
+      "description": "Dash forward and attack with knockback.Upgraded: Dash forward and attack with knockback. Repeat this if you hit something.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_BULLRUSH_NAME",
+        "ru_name": "Бычий атиск",
+        "ru_description": "Рывок вперед и атака с отбрасыванием.",
+        "ru_upgraded_description": "Рывок вперед и атака с отбрасыванием. Повторяется при попадании.",
+        "en_name": "Bull Rush",
+        "en_description": "Dash forward and attack with knockback.",
+        "en_upgraded_description": "Dash forward and attack with knockback. Repeat this if you hit something."
+      },
+      "manifest": {
+        "ability_id": "Dash",
+        "display_name": "Bull Rush",
+        "tool_class": "fighter",
+        "icon_label": "Dash",
+        "resolved_icon_label": "Dash",
+        "main_svg_id": "831",
+        "main_svg_filename": "831.svg"
+      },
+      "numbers": {
+        "raw": "3 6",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Bull Rush",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "Dash forward and attack with knockback.Upgraded: Dash forward and attack with knockback. Repeat this if you hit something.",
       "value_kind": "damage",
       "translation": {
@@ -317,6 +512,45 @@
       }
     },
     {
+      "wiki_name": "Exhausting Blow",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Dash forward one tile and attack with knockback. (This spell's mana cost increases by 2 at the end of each of your turns.) Upgraded: Dash forward any number of tiles and attack with knockback. (This spell's mana cost increases by 2 at the end of each of your turns.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_EXHAUSTINGBLOW_NAME",
+        "ru_name": "Изнуряющий удар",
+        "ru_description": "Рывок на 1 клетку и атака с отбрасыванием.\n[s:.7](Цена маны растет на 2 в конце каждого вашего хода.)[/s]",
+        "ru_upgraded_description": "Рывок на любое расстояние и атака с отбрасыванием.\n[s:.7](Цена маны растет на 2 в конце каждого вашего хода.)[/s]",
+        "en_name": "Exhausting Blow",
+        "en_description": "Dash forward one tile and attack with knockback.\n[s:.7](This spell's mana cost increases by 2 at the end of each of your turns.)[/s]",
+        "en_upgraded_description": "Dash forward any number of tiles and attack with knockback.\n[s:.7](This spell's mana cost increases by 2 at the end of each of your turns.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "ExhaustingBlow",
+        "display_name": "Exhausting Blow",
+        "tool_class": "fighter",
+        "icon_label": "ExhaustingBlow",
+        "resolved_icon_label": "ExhaustingBlow",
+        "main_svg_id": "861",
+        "main_svg_filename": "861.svg"
+      },
+      "numbers": {
+        "raw": "5 2",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Falcon Punch",
       "class": "Fighter",
       "variant": "normal",
@@ -356,9 +590,87 @@
       }
     },
     {
+      "wiki_name": "Falcon Punch",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Charge up a mega punch. (This punch will be unleashed on your next turn.) (Castable once per turn.) Upgraded: Charge up a mega dash attack. (This punch will be unleashed on your next turn.) (Castable once per turn.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FALCONPUNCH_NAME",
+        "ru_name": "Соколиный Удар",
+        "ru_description": "Зарядите мега-удар.\n[s:.7](Удар случится на вашем следующем ходу.)[/s]\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Зарядите мега-рывок-атаку.\n[s:.7](Удар случится на вашем следующем ходу.)[/s]\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Falcon Punch",
+        "en_description": "Charge up a mega punch.\n[s:.7](This punch will be unleashed on your next turn.)[/s]\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Charge up a mega dash attack.\n[s:.7](This punch will be unleashed on your next turn.)[/s]\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "FalconPunch",
+        "display_name": "Falcon Punch",
+        "tool_class": "fighter",
+        "icon_label": "FalconPunch",
+        "resolved_icon_label": "FalconPunch",
+        "main_svg_id": "838",
+        "main_svg_filename": "838.svg"
+      },
+      "numbers": {
+        "raw": "25 2",
+        "frame_type": "Dmg_Mana",
+        "value": "25",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Fire Punch",
       "class": "Fighter",
       "variant": "normal",
+      "description": "A melee attack that inflicts Burn 3.Upgraded: A melee attack that inflicts more Burn the more Strength you have.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_FIREPUNCH_NAME",
+        "ru_name": "Огненный кулак",
+        "ru_description": "Ближняя атака: Горение 3.",
+        "ru_upgraded_description": "Ближняя атака: Горение сильнее с ростом [img:str].",
+        "en_name": "Fire Punch",
+        "en_description": "A melee attack that inflicts Burn 3.",
+        "en_upgraded_description": "A melee attack that inflicts more Burn the more [img:str] you have."
+      },
+      "manifest": {
+        "ability_id": "FirePunch",
+        "display_name": "Fire Punch",
+        "tool_class": "fighter",
+        "icon_label": "FirePunch",
+        "resolved_icon_label": "FirePunch",
+        "main_svg_id": "824",
+        "main_svg_filename": "824.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Fire Punch",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "A melee attack that inflicts Burn 3.Upgraded: A melee attack that inflicts more Burn the more Strength you have.",
       "value_kind": "damage",
       "translation": {
@@ -746,6 +1058,45 @@
       }
     },
     {
+      "wiki_name": "Meteor Slam",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Jump up to 2 tiles. Damage, knockback, and inflict Burn 3 on the unit you land on and all adjacent units. (Adjacent units take half damage.) Upgraded: Jump up to 5 tiles. Damage, knockback, and inflict Burn 3 on the unit you land on and all adjacent units.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_METEORSLAM_NAME",
+        "ru_name": "Метеор-слэм",
+        "ru_description": "Прыгните до 2 клеток.\nУрон, отбрасывание и Горение 3 цели и соседям.\n[s:.7](Соседи получают половину урона.)[/s]",
+        "ru_upgraded_description": "Прыгните до 5 клеток.\nУрон, отбрасывание и Горение 3 цели и соседям.",
+        "en_name": "Meteor Slam",
+        "en_description": "Jump up to 2 tiles.\r\nDamage, knockback, and inflict Burn 3 on the unit you land on and all adjacent units.\r\n[s:.7](Adjacent units take half damage.)[/s]",
+        "en_upgraded_description": "Jump up to 5 tiles.\nDamage, knockback, and inflict Burn 3 on the unit you land on and all adjacent units."
+      },
+      "manifest": {
+        "ability_id": "MeteorSlam",
+        "display_name": "Meteor Slam",
+        "tool_class": "fighter",
+        "icon_label": "MeteorSlam",
+        "resolved_icon_label": "MeteorSlam",
+        "main_svg_id": "859",
+        "main_svg_filename": "859.svg"
+      },
+      "numbers": {
+        "raw": "5 10",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Muscle Memory",
       "class": "Fighter",
       "variant": "normal",
@@ -905,6 +1256,45 @@
       "wiki_name": "Paw Breaker",
       "class": "Fighter",
       "variant": "normal",
+      "description": "A huge punch that breaks your paw... (You get -1 Strength permanently.)Upgraded: A huge punch that inflicts Bruise and Stun, and breaks your paw... (You get -1 Strength permanently.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PAWBREAKER_NAME",
+        "ru_name": "Лаполом",
+        "ru_description": "Мощный удар, ломающий вам лапу... (Вы получаете -1 [img:str] навсегда.)",
+        "ru_upgraded_description": "Мощный удар (Ушиб и Оглушение), ломающий вам лапу... (-1 [img:str] навсегда.)",
+        "en_name": "Paw Breaker",
+        "en_description": "A huge punch that breaks your paw... (You get -1 [img:str] permanently.)",
+        "en_upgraded_description": "A huge punch that inflicts Bruise and Stun, and breaks your paw... (You get -1 [img:str] permanently.)"
+      },
+      "manifest": {
+        "ability_id": "Pawbreaker",
+        "display_name": "Paw Breaker",
+        "tool_class": "fighter",
+        "icon_label": "Pawbreaker",
+        "resolved_icon_label": "Pawbreaker",
+        "main_svg_id": "873",
+        "main_svg_filename": "873.svg"
+      },
+      "numbers": {
+        "raw": "15 5",
+        "frame_type": "Dmg_Mana",
+        "value": "15",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Paw Breaker",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "A huge punch that breaks your paw... (You get -1 Strength permanently.)Upgraded: A huge punch that inflicts Bruise and Stun, and breaks your paw... (You get -1 Strength permanently.)",
       "value_kind": "none",
       "translation": {
@@ -1175,6 +1565,45 @@
       }
     },
     {
+      "wiki_name": "Side Slash",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "An attack that hits a half circle around you.Upgraded: An attack that hits a half circle around you and inflicts Bruise.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SIDESLASH_NAME",
+        "ru_name": "Боковой удар",
+        "ru_description": "Атака по полукругу вокруг вас.",
+        "ru_upgraded_description": "Атака по полукругу вокруг вас, накладывает Ушиб.",
+        "en_name": "Side Slash",
+        "en_description": "An attack that hits a half circle around you.",
+        "en_upgraded_description": "An attack that hits a half circle around you and inflicts Bruise."
+      },
+      "manifest": {
+        "ability_id": "SideSlash",
+        "display_name": "Side Slash",
+        "tool_class": "fighter",
+        "icon_label": "SideSlash",
+        "resolved_icon_label": "SideSlash",
+        "main_svg_id": "541",
+        "main_svg_filename": "541.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Slap",
       "class": "Fighter",
       "variant": "normal",
@@ -1184,10 +1613,49 @@
         "text_key": "ABILITY_SLAP_NAME",
         "ru_name": "Пощечина",
         "ru_description": "Слабая ближняя атака.\nПЕРЕЗАРЯДКА: Убейте кого-то.",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Слабая ближняя атака.\nПЕРЕЗАРЯДКА: Убейте кого-то.",
         "en_name": "Slap",
         "en_description": "A weak melee attack.\r\nRELOAD: Kill something.",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "A weak melee attack.\r\nRELOAD: Kill something."
+      },
+      "manifest": {
+        "ability_id": "Slap",
+        "display_name": "Slap",
+        "tool_class": "fighter",
+        "icon_label": "Slap",
+        "resolved_icon_label": "Slap",
+        "main_svg_id": "847",
+        "main_svg_filename": "847.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Slap",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "A weak melee attack. RELOAD: Kill something.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SLAP_NAME",
+        "ru_name": "Пощечина",
+        "ru_description": "Слабая ближняя атака.\nПЕРЕЗАРЯДКА: Убейте кого-то.",
+        "ru_upgraded_description": "Слабая ближняя атака.\nПЕРЕЗАРЯДКА: Убейте кого-то.",
+        "en_name": "Slap",
+        "en_description": "A weak melee attack.\r\nRELOAD: Kill something.",
+        "en_upgraded_description": "A weak melee attack.\r\nRELOAD: Kill something."
       },
       "manifest": {
         "ability_id": "Slap",
@@ -1217,6 +1685,45 @@
       "wiki_name": "Tail Whip",
       "class": "Fighter",
       "variant": "normal",
+      "description": "An attack that hits 2 tiles in front of and behind you.Upgraded: An attack that hits 4 tiles in front of and behind you.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TAILWHIP_NAME",
+        "ru_name": "Удар хвостом",
+        "ru_description": "Атака, бьющая 2 клетки спереди и сзади.",
+        "ru_upgraded_description": "Атака, бьющая 4 клетки спереди и сзади.",
+        "en_name": "Tail Whip",
+        "en_description": "An attack that hits 2 tiles in front of and behind you.",
+        "en_upgraded_description": "An attack that hits 4 tiles in front of and behind you."
+      },
+      "manifest": {
+        "ability_id": "TailWhip",
+        "display_name": "Tail Whip",
+        "tool_class": "fighter",
+        "icon_label": "TailWhip",
+        "resolved_icon_label": "TailWhip",
+        "main_svg_id": "830",
+        "main_svg_filename": "830.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Tail Whip",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "An attack that hits 2 tiles in front of and behind you.Upgraded: An attack that hits 4 tiles in front of and behind you.",
       "value_kind": "damage",
       "translation": {
@@ -1292,6 +1799,45 @@
       }
     },
     {
+      "wiki_name": "Think Too Hard",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "Take damage equal to your Intelligence. The next spell you cast this turn is free.Upgraded: Take damage equal to your Intelligence, then your Intelligence becomes 0. The next spell you cast this turn is free.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_THINKTOOHARD_NAME",
+        "ru_name": "Думать слишком сильно",
+        "ru_description": "Получите урон, равный вашему [img:int].\nСлед. заклинание в этот ход бесплатно.",
+        "ru_upgraded_description": "Получите урон, равный [img:int], затем [img:int] станет 0.\nСлед. заклинание в этот ход бесплатно.",
+        "en_name": "Think Too Hard",
+        "en_description": "Take damage equal to your [img:int].\r\nThe next spell you cast this turn is free.",
+        "en_upgraded_description": "Take damage equal to your [img:int], then your [img:int] becomes 0.\r\nThe next spell you cast this turn is free."
+      },
+      "manifest": {
+        "ability_id": "ThinkTooHard",
+        "display_name": "Think Too Hard",
+        "tool_class": "fighter",
+        "icon_label": "ThinkTooHard",
+        "resolved_icon_label": "ThinkTooHard",
+        "main_svg_id": "853",
+        "main_svg_filename": "853.svg"
+      },
+      "numbers": {
+        "raw": "5 2",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Thunder Punch",
       "class": "Fighter",
       "variant": "normal",
@@ -1331,9 +1877,87 @@
       }
     },
     {
+      "wiki_name": "Thunder Punch",
+      "class": "Fighter",
+      "variant": "upgraded",
+      "description": "A melee attack that has a 25% chance to inflict Stun.Upgraded: A melee attack that inflicts Stun.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_THUNDERPUNCH_NAME",
+        "ru_name": "Громовой кулак",
+        "ru_description": "Ближняя атака: 25% шанс Оглушения.",
+        "ru_upgraded_description": "Ближняя атака: Оглушение.",
+        "en_name": "Thunder Punch",
+        "en_description": "A melee attack that has a 25% chance to inflict Stun.",
+        "en_upgraded_description": "A melee attack that inflicts Stun."
+      },
+      "manifest": {
+        "ability_id": "ThunderPunch",
+        "display_name": "Thunder Punch",
+        "tool_class": "fighter",
+        "icon_label": "ThunderPunch",
+        "resolved_icon_label": "ThunderPunch",
+        "main_svg_id": "823",
+        "main_svg_filename": "823.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Uppercut",
       "class": "Fighter",
       "variant": "normal",
+      "description": "Punch a unit into the air, lobbing it back 3 tiles.Upgraded: Punch a unit into the air, lobbing it back 3 tiles. Refresh your movement action.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_UPPERCUT_NAME",
+        "ru_name": "Апперкот",
+        "ru_description": "Подбросьте юнита в воздух, отшвыривая его на 3 клетки назад.",
+        "ru_upgraded_description": "Подбросьте юнита в воздух, отшвыривая на 3 клетки назад.\nОбновите действие движения.",
+        "en_name": "Uppercut",
+        "en_description": "Punch a unit into the air, lobbing it back 3 tiles.",
+        "en_upgraded_description": "Punch a unit into the air, lobbing it back 3 tiles.\nRefresh your movement action."
+      },
+      "manifest": {
+        "ability_id": "Uppercut",
+        "display_name": "Uppercut",
+        "tool_class": "fighter",
+        "icon_label": "Uppercut",
+        "resolved_icon_label": "Uppercut",
+        "main_svg_id": "826",
+        "main_svg_filename": "826.svg"
+      },
+      "numbers": {
+        "raw": "5 7",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\fighter_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Uppercut",
+      "class": "Fighter",
+      "variant": "upgraded",
       "description": "Punch a unit into the air, lobbing it back 3 tiles.Upgraded: Punch a unit into the air, lobbing it back 3 tiles. Refresh your movement action.",
       "value_kind": "none",
       "translation": {

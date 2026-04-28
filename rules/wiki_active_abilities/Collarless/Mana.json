@@ -2,12 +2,51 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Collarless",
   "frame_type": "Mana",
-  "count": 98,
+  "count": 162,
   "abilities": [
     {
       "wiki_name": "BBQ",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Spawn a cooked meat pickup.Upgraded: Spawn a big cooked meat pickup.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BBQ_NAME",
+        "ru_name": "Барбекю",
+        "ru_description": "Создайте жареное мясо (еда).",
+        "ru_upgraded_description": "Создайте большое жареное мясо.",
+        "en_name": "BBQ",
+        "en_description": "Spawn a cooked meat pickup.",
+        "en_upgraded_description": "Spawn a big cooked meat pickup."
+      },
+      "manifest": {
+        "ability_id": "BBQ",
+        "display_name": "BBQ",
+        "tool_class": "colorless",
+        "icon_label": "BBQ",
+        "resolved_icon_label": "BBQ",
+        "main_svg_id": "1307",
+        "main_svg_filename": "1307.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "BBQ",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Spawn a cooked meat pickup.Upgraded: Spawn a big cooked meat pickup.",
       "value_kind": "none",
       "translation": {
@@ -83,9 +122,87 @@
       }
     },
     {
+      "wiki_name": "Block",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Gain +2 .Upgraded: Gain +5 .",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLOCK_NAME",
+        "ru_name": "Блок",
+        "ru_description": "Получите +2 [img:shield].",
+        "ru_upgraded_description": "Получите +5 [img:shield].",
+        "en_name": "Block",
+        "en_description": "Gain +2 [img:shield].",
+        "en_upgraded_description": "Gain +5 [img:shield]."
+      },
+      "manifest": {
+        "ability_id": "Block",
+        "display_name": "Block",
+        "tool_class": "colorless",
+        "icon_label": "Block",
+        "resolved_icon_label": "Block",
+        "main_svg_id": "1226",
+        "main_svg_filename": "1226.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Blow",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Blow units in a cone back 1 tile.Upgraded: Blow units in a larger cone back 1 tile.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLOW_NAME",
+        "ru_name": "Сдув",
+        "ru_description": "Сдуйте юнитов в конусе на 1 клетку назад.",
+        "ru_upgraded_description": "Сдуйте юнитов в большем конусе на 1 клетку назад.",
+        "en_name": "Blow",
+        "en_description": "Blow units in a cone back 1 tile.",
+        "en_upgraded_description": "Blow units in a larger cone back 1 tile."
+      },
+      "manifest": {
+        "ability_id": "Blow",
+        "display_name": "Blow",
+        "tool_class": "colorless",
+        "icon_label": "Blow",
+        "resolved_icon_label": "Blow",
+        "main_svg_id": "1305",
+        "main_svg_filename": "1305.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Blow",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Blow units in a cone back 1 tile.Upgraded: Blow units in a larger cone back 1 tile.",
       "value_kind": "none",
       "translation": {
@@ -239,6 +356,45 @@
       }
     },
     {
+      "wiki_name": "Borrow Mana",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Steal up to 5 mana from an ally. (Castable once per turn.) Upgraded: Steal all of an ally's mana. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BORROWMANA_NAME",
+        "ru_name": "Одолжить ману",
+        "ru_description": "Украдите до 5 маны у союзника.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Украдите ВСЮ ману у союзника.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Borrow Mana",
+        "en_description": "Steal up to 5 mana from an ally.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Steal all of an ally's mana.\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "ManaDrain",
+        "display_name": "Borrow Mana",
+        "tool_class": "colorless",
+        "icon_label": "ManaDrain",
+        "resolved_icon_label": "ManaDrain",
+        "main_svg_id": "1233",
+        "main_svg_filename": "1233.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Brace",
       "class": "Collarless",
       "variant": "normal",
@@ -356,6 +512,45 @@
       }
     },
     {
+      "wiki_name": "Brainstorm",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Reduce the costs of your other spells by 1 mana.Upgraded: Reduce the cost of ALL of your spells by 1 mana.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BRAINSTORM_NAME",
+        "ru_name": "Мозговой штурм",
+        "ru_description": "Снижает стоимость других ваших заклинаний на 1 ману.",
+        "ru_upgraded_description": "Снижает стоимость ВСЕХ ваших заклинаний на 1 ману.",
+        "en_name": "Brainstorm",
+        "en_description": "Reduce the costs of your other spells by 1 mana.",
+        "en_upgraded_description": "Reduce the cost of ALL of your spells by 1 mana."
+      },
+      "manifest": {
+        "ability_id": "Brainstorm",
+        "display_name": "Brainstorm",
+        "tool_class": "colorless",
+        "icon_label": "Brainstorm",
+        "resolved_icon_label": "Brainstorm",
+        "main_svg_id": "1238",
+        "main_svg_filename": "1238.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Break Circuit",
       "class": "Collarless",
       "variant": "normal",
@@ -365,10 +560,49 @@
         "text_key": "ABILITY_BREAKSHORTCIRCUIT_NAME",
         "ru_name": "Разомкнуть цепь",
         "ru_description": "Прервать короткое замыкание.",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Прервать короткое замыкание.",
         "en_name": "Break Circuit",
         "en_description": "Break out of short circuit",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Break out of short circuit"
+      },
+      "manifest": {
+        "ability_id": "BreakShortCircuit",
+        "display_name": "Break Circuit",
+        "tool_class": "colorless",
+        "icon_label": "BreakShortCircuit",
+        "resolved_icon_label": "BreakShortCircuit",
+        "main_svg_id": "1344",
+        "main_svg_filename": "1344.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\contextual_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Break Circuit",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Break out of short circuit",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BREAKSHORTCIRCUIT_NAME",
+        "ru_name": "Разомкнуть цепь",
+        "ru_description": "Прервать короткое замыкание.",
+        "ru_upgraded_description": "Прервать короткое замыкание.",
+        "en_name": "Break Circuit",
+        "en_description": "Break out of short circuit",
+        "en_upgraded_description": "Break out of short circuit"
       },
       "manifest": {
         "ability_id": "BreakShortCircuit",
@@ -434,9 +668,87 @@
       }
     },
     {
+      "wiki_name": "Burgeoning Barrier",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Gain 0 . Increase this spell's by 2 at the end of each turn. (Castable once per battle.) Upgraded: Gain 0 . Increase this spell's by 3 at the end of each turn. (Castable once per battle.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BURGEONINGBARRIER_NAME",
+        "ru_name": "Растущий барьер",
+        "ru_description": "Получите {v0} [img:shield]. Увеличивает [img:shield] этого заклинания на 2 в конце каждого хода.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "ru_upgraded_description": "Получите {v0} [img:shield]. Увеличивает [img:shield] этого заклинания на 3 в конце каждого хода.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "en_name": "Burgeoning Barrier",
+        "en_description": "Gain {v0} [img:shield]. Increase this spell's [img:shield] by 2 at the end of each turn.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Gain {v0} [img:shield]. Increase this spell's [img:shield] by 3 at the end of each turn.\n[s:.7](Castable once per battle.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "BurgeoningBarrier",
+        "display_name": "Burgeoning Barrier",
+        "tool_class": "colorless",
+        "icon_label": "BurgeoningBarrier",
+        "resolved_icon_label": "BurgeoningBarrier",
+        "main_svg_id": "1285",
+        "main_svg_filename": "1285.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Burgeoning Battery",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Gain 0 mana. Increase this spell's mana gain by 2 at the end of each turn. (Castable once per battle.) Upgraded: Gain 0 mana. Increase this spell's mana gain by 3 at the end of each turn. (Castable once per battle.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BURGEONINGBATTERY_NAME",
+        "ru_name": "Растущая батарейка",
+        "ru_description": "Получите {v0} маны. Увеличивает получение маны этим заклинанием на 2 в конце каждого хода.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "ru_upgraded_description": "Получите {v0} маны. Увеличивает получение маны этим заклинанием на 3 в конце каждого хода.\n[s:.7](Можно использовать раз за битву.)[/s]",
+        "en_name": "Burgeoning Battery",
+        "en_description": "Gain {v0} mana. Increase this spell's mana gain by 2 at the end of each turn.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Gain {v0} mana. Increase this spell's mana gain by 3 at the end of each turn.\n[s:.7](Castable once per battle.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "BurgeoningBattery",
+        "display_name": "Burgeoning Battery",
+        "tool_class": "colorless",
+        "icon_label": "BurgeoningBattery",
+        "resolved_icon_label": "BurgeoningBattery",
+        "main_svg_id": "1284",
+        "main_svg_filename": "1284.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Burgeoning Battery",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Gain 0 mana. Increase this spell's mana gain by 2 at the end of each turn. (Castable once per battle.) Upgraded: Gain 0 mana. Increase this spell's mana gain by 3 at the end of each turn. (Castable once per battle.)",
       "value_kind": "none",
       "translation": {
@@ -590,9 +902,87 @@
       }
     },
     {
+      "wiki_name": "Buy Catnip",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Spend 5 coins, gain 10 mana. (Castable once per turn.) Upgraded: Spend 5 coins, gain 15 mana. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BUYCATNIP_NAME",
+        "ru_name": "Купить мяту",
+        "ru_description": "Потратьте 5 монет, получите 10 маны.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Потратьте 5 монет, получите 15 маны.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Buy Catnip",
+        "en_description": "Spend 5 coins, gain 10 mana.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Spend 5 coins, gain 15 mana.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "BuyCatnip",
+        "display_name": "Buy Catnip",
+        "tool_class": "colorless",
+        "icon_label": "BuyCatnip",
+        "resolved_icon_label": "BuyCatnip",
+        "main_svg_id": "1313",
+        "main_svg_filename": "1313.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Cat Nap",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Remove all of your debuffs, then fall asleep.Upgraded: Remove all of your debuffs, gain All Stats Up, then fall asleep.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CATNAP_NAME",
+        "ru_name": "Кошачий сон",
+        "ru_description": "Снимите все свои ослабления, затем засните.",
+        "ru_upgraded_description": "Снимите все свои ослабления, получите Повышение Всех Характеристик, затем засните.",
+        "en_name": "Cat Nap",
+        "en_description": "Remove all of your debuffs, then fall asleep.",
+        "en_upgraded_description": "Remove all of your debuffs, gain All Stats Up, then fall asleep."
+      },
+      "manifest": {
+        "ability_id": "CatNap",
+        "display_name": "Cat Nap",
+        "tool_class": "colorless",
+        "icon_label": "CatNap",
+        "resolved_icon_label": "CatNap",
+        "main_svg_id": "1273",
+        "main_svg_filename": "1273.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Cat Nap",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Remove all of your debuffs, then fall asleep.Upgraded: Remove all of your debuffs, gain All Stats Up, then fall asleep.",
       "value_kind": "none",
       "translation": {
@@ -746,9 +1136,87 @@
       }
     },
     {
+      "wiki_name": "Confusion",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Inflict Confusion 2 on a unit.Upgraded: Inflict Confusion 4 on units in an area.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CONFUSION_NAME",
+        "ru_name": "Замешательство",
+        "ru_description": "Наложите Замешательство 2 на юнита.",
+        "ru_upgraded_description": "Наложите Замешательство 4 на юнитов в области.",
+        "en_name": "Confusion",
+        "en_description": "Inflict Confusion 2 on a unit.",
+        "en_upgraded_description": "Inflict Confusion 4 on units in an area."
+      },
+      "manifest": {
+        "ability_id": "Confusion",
+        "display_name": "Confusion",
+        "tool_class": "colorless",
+        "icon_label": "Confusion",
+        "resolved_icon_label": "Confusion",
+        "main_svg_id": "1253",
+        "main_svg_filename": "1253.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Copycat",
       "class": "Collarless",
       "variant": "normal",
+      "description": "This spell is a copy of the most recent spell an allied cat cast.Upgraded: This spell is an upgraded copy of the most recent spell an allied cat cast.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_COPYCAT_NAME",
+        "ru_name": "Повторюшка",
+        "ru_description": "Это заклинание становится копией последнего заклинания, использованного союзным котом.",
+        "ru_upgraded_description": "Это заклинание становится улучшенной копией последнего заклинания, использованного союзным котом.",
+        "en_name": "Copycat",
+        "en_description": "This spell is a copy of the most recent spell an allied cat cast.",
+        "en_upgraded_description": "This spell is an upgraded copy of the most recent spell an allied cat cast."
+      },
+      "manifest": {
+        "ability_id": "Copycat",
+        "display_name": "Copycat",
+        "tool_class": "colorless",
+        "icon_label": "Copycat",
+        "resolved_icon_label": "Copycat",
+        "main_svg_id": "553",
+        "main_svg_filename": "553.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Copycat",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "This spell is a copy of the most recent spell an allied cat cast.Upgraded: This spell is an upgraded copy of the most recent spell an allied cat cast.",
       "value_kind": "none",
       "translation": {
@@ -824,9 +1292,87 @@
       }
     },
     {
+      "wiki_name": "Desecrate",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Destroy a body.Upgraded: Destroy a body and gain 2 mana.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DESECRATE_NAME",
+        "ru_name": "Осквернение",
+        "ru_description": "Уничтожьте труп.",
+        "ru_upgraded_description": "Уничтожьте труп и получите 2 маны.",
+        "en_name": "Desecrate",
+        "en_description": "Destroy a body.",
+        "en_upgraded_description": "Destroy a body and gain 2 mana."
+      },
+      "manifest": {
+        "ability_id": "Desecrate",
+        "display_name": "Desecrate",
+        "tool_class": "colorless",
+        "icon_label": "Desecrate",
+        "resolved_icon_label": "Desecrate",
+        "main_svg_id": "1279",
+        "main_svg_filename": "1279.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Doll Up",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Gain +1 Charisma.Upgraded: Gain +1 Charisma. Bonus Passive: You have a chance to inflict Charm on units that contact or attack you. This chance increases with your Charisma.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DOLLUP_NAME",
+        "ru_name": "Прихорашивание",
+        "ru_description": "Получите +1 [img:cha].",
+        "ru_upgraded_description": "Получите +1 [img:cha].\nБонус пассивки: У вас есть шанс Очаровать юнитов, которые касаются или атакуют вас. Шанс растет с вашей [img:cha].",
+        "en_name": "Doll Up",
+        "en_description": "Gain +1 [img:cha].",
+        "en_upgraded_description": "Gain +1 [img:cha].\nBonus Passive: You have a chance to inflict Charm on units that contact or attack you. This chance increases with your [img:cha]."
+      },
+      "manifest": {
+        "ability_id": "DollUp",
+        "display_name": "Doll Up",
+        "tool_class": "colorless",
+        "icon_label": "DollUp",
+        "resolved_icon_label": "DollUp",
+        "main_svg_id": "1266",
+        "main_svg_filename": "1266.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Doll Up",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Gain +1 Charisma.Upgraded: Gain +1 Charisma. Bonus Passive: You have a chance to inflict Charm on units that contact or attack you. This chance increases with your Charisma.",
       "value_kind": "damage",
       "translation": {
@@ -902,9 +1448,87 @@
       }
     },
     {
+      "wiki_name": "Dump",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Spawn a poop on an adjacent tile.Upgraded: Spawn a poop on an adjacent tile. Inflict Poison 3 and a 15% chance to Stun if you poop on a unit.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DUMP_NAME",
+        "ru_name": "Навалить",
+        "ru_description": "Создайте какашку на соседней клетке.",
+        "ru_upgraded_description": "Создайте какашку на соседней клетке. Наложите Яд 3 и 15% шанс Оглушения, если нагадите на юнита.",
+        "en_name": "Dump",
+        "en_description": "Spawn a poop on an adjacent tile.",
+        "en_upgraded_description": "Spawn a poop on an adjacent tile. Inflict Poison 3 and a 15% chance to Stun if you poop on a unit."
+      },
+      "manifest": {
+        "ability_id": "Dump",
+        "display_name": "Dump",
+        "tool_class": "colorless",
+        "icon_label": "Dump",
+        "resolved_icon_label": "Dump",
+        "main_svg_id": "1257",
+        "main_svg_filename": "1257.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Feather Feet",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Gain +1 Speed.Upgraded: Gain +1 Speed. Bonus Passive: You're unaffected by tile effects.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FEATHERFEET_NAME",
+        "ru_name": "Легкие лапки",
+        "ru_description": "Получите +1 [img:spd].",
+        "ru_upgraded_description": "Получите +1 [img:spd].\nПассивный бонус: на вас не действуют эффекты клеток.",
+        "en_name": "Feather Feet",
+        "en_description": "Gain +1 [img:spd].",
+        "en_upgraded_description": "Gain +1 [img:spd].\nBonus Passive: You're unaffected by tile effects."
+      },
+      "manifest": {
+        "ability_id": "FeatherFeet",
+        "display_name": "Feather Feet",
+        "tool_class": "colorless",
+        "icon_label": "FeatherFeet",
+        "resolved_icon_label": "FeatherFeet",
+        "main_svg_id": "1261",
+        "main_svg_filename": "1261.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Feather Feet",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Gain +1 Speed.Upgraded: Gain +1 Speed. Bonus Passive: You're unaffected by tile effects.",
       "value_kind": "none",
       "translation": {
@@ -1136,9 +1760,87 @@
       }
     },
     {
+      "wiki_name": "Focus",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Gain +1 Dexterity.Upgraded: Gain +1 Dexterity. Bonus Passive: +25% critical hit chance.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FOCUS_NAME",
+        "ru_name": "Фокус",
+        "ru_description": "Получите +1 [img:dex].",
+        "ru_upgraded_description": "Получите +1 [img:dex].\nБонус пассивки: +25% шанс критического удара.",
+        "en_name": "Focus",
+        "en_description": "Gain +1 [img:dex].",
+        "en_upgraded_description": "Gain +1 [img:dex].\nBonus Passive: +25% critical hit chance."
+      },
+      "manifest": {
+        "ability_id": "Focus",
+        "display_name": "Focus",
+        "tool_class": "colorless",
+        "icon_label": "Focus",
+        "resolved_icon_label": "Focus",
+        "main_svg_id": "1236",
+        "main_svg_filename": "1236.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Gamble",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Gain +2% critical hit chance. If your next attack is critical, deal +100% more damage and spawn coins.Upgraded: Gain +2% critical hit chance. If your next attack is critical, deal +200% more damage and spawn more coins.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_GAMBLE_NAME",
+        "ru_name": "Азарт",
+        "ru_description": "Получите +2% к шансу крита. Если следующая атака будет критической, нанесите на +100% больше урона и создайте монетки.",
+        "ru_upgraded_description": "Получите +2% к шансу крита. Если следующая атака будет критической, нанесите на +200% больше урона и создайте больше монеток.",
+        "en_name": "Gamble",
+        "en_description": "Gain +2% critical hit chance. If your next attack is critical, deal +100% more damage and spawn coins.",
+        "en_upgraded_description": "Gain +2% critical hit chance. If your next attack is critical, deal +200% more damage and spawn more coins."
+      },
+      "manifest": {
+        "ability_id": "Gamble",
+        "display_name": "Gamble",
+        "tool_class": "colorless",
+        "icon_label": "Gamble",
+        "resolved_icon_label": "Gamble",
+        "main_svg_id": "1243",
+        "main_svg_filename": "1243.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Gamble",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Gain +2% critical hit chance. If your next attack is critical, deal +100% more damage and spawn coins.Upgraded: Gain +2% critical hit chance. If your next attack is critical, deal +200% more damage and spawn more coins.",
       "value_kind": "damage",
       "translation": {
@@ -1253,9 +1955,87 @@
       }
     },
     {
+      "wiki_name": "Gym Membership",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Spend 5 coins, gain All Stats Up. (Castable once per turn.) Upgraded: Spend 5 coins, gain All Stats Up and refresh your basic attack and movement actions. (Castable once per turn.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_GYMMEMBERSHIP_NAME",
+        "ru_name": "Абонемент в зал",
+        "ru_description": "Потратьте 5 монет, получите Повышение Всех Характеристик.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Потратьте 5 монет, получите Повышение Всех Характеристик и обновите действия атаки и движения.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Gym Membership",
+        "en_description": "Spend 5 coins, gain All Stats Up.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Spend 5 coins, gain All Stats Up and refresh your basic attack and movement actions.\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "GymMembership",
+        "display_name": "Gym Membership",
+        "tool_class": "colorless",
+        "icon_label": "GymMembership",
+        "resolved_icon_label": "GymMembership",
+        "main_svg_id": "1309",
+        "main_svg_filename": "1309.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Hire Hitman",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Spend 7 coins, summon a bounty hunter. (Castable once per turn.) Upgraded: Spend 7 coins, summon a bounty hunter with All Stats Up 2. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HIREHITMAN_NAME",
+        "ru_name": "Нанять киллера",
+        "ru_description": "Потратьте 7 монет, призовите охотника за головами.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Потратьте 7 монет, призовите охотника за головами с Повышением Всех Характеристик 2.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Hire Hitman",
+        "en_description": "Spend 7 coins, summon a bounty hunter.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Spend 7 coins, summon a bounty hunter with All Stats Up 2.\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "HireHitman",
+        "display_name": "Hire Hitman",
+        "tool_class": "colorless",
+        "icon_label": "HireHitman",
+        "resolved_icon_label": "HireHitman",
+        "main_svg_id": "1311",
+        "main_svg_filename": "1311.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Hire Hitman",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Spend 7 coins, summon a bounty hunter. (Castable once per turn.) Upgraded: Spend 7 coins, summon a bounty hunter with All Stats Up 2. (Castable once per turn.)",
       "value_kind": "none",
       "translation": {
@@ -1331,9 +2111,87 @@
       }
     },
     {
+      "wiki_name": "Hiss",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Adjacent units move away from you. You have a 25% chance to inflict Fear on them.Upgraded: Adjacent units move away from you. Inflict fear on them.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_HISS_NAME",
+        "ru_name": "Шипение",
+        "ru_description": "Соседние юниты убегают от вас. У вас есть 25% шанс наложить на них Страх.",
+        "ru_upgraded_description": "Соседние юниты убегают от вас. Наложите на них Страх.",
+        "en_name": "Hiss",
+        "en_description": "Adjacent units move away from you. You have a 25% chance to inflict Fear on them.",
+        "en_upgraded_description": "Adjacent units move away from you. Inflict fear on them."
+      },
+      "manifest": {
+        "ability_id": "Hiss",
+        "display_name": "Hiss",
+        "tool_class": "colorless",
+        "icon_label": "Hiss",
+        "resolved_icon_label": "Hiss",
+        "main_svg_id": "1315",
+        "main_svg_filename": "1315.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Hop",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Hop up to 2 tiles away.Upgraded: Hop up to 4 tiles away.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PREPARETOJUMP_NAME",
+        "ru_name": "Хоп",
+        "ru_description": "Прыгните на расстояние до 2 клеток.",
+        "ru_upgraded_description": "Прыгните на расстояние до 4 клеток.",
+        "en_name": "Hop",
+        "en_description": "Hop up to 2 tiles away.",
+        "en_upgraded_description": "Hop up to 4 tiles away."
+      },
+      "manifest": {
+        "ability_id": "PrepareToJump",
+        "display_name": "Hop",
+        "tool_class": "colorless",
+        "icon_label": "PrepareToJump",
+        "resolved_icon_label": "PrepareToJump",
+        "main_svg_id": "1240",
+        "main_svg_filename": "1240.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Hop",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Hop up to 2 tiles away.Upgraded: Hop up to 4 tiles away.",
       "value_kind": "none",
       "translation": {
@@ -1487,9 +2345,87 @@
       }
     },
     {
+      "wiki_name": "Interchange",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Exchange your movement action for an additional basic attack, and vice versa.Upgraded: Exchange your movement action for an additional basic attack, and vice versa. (This spell costs 0 mana the first time you cast it each turn.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_INTERCHANGE_NAME",
+        "ru_name": "Взаимообмен",
+        "ru_description": "Обменяйте свое действие движения на дополнительную базовую атаку, и наоборот.",
+        "ru_upgraded_description": "Обменяйте свое действие движения на дополнительную базовую атаку, и наоборот.\n[s:.7](Это заклинание стоит 0 маны при первом использовании за ход.)[/s]",
+        "en_name": "Interchange",
+        "en_description": "Exchange your movement action for an additional basic attack, and vice versa.",
+        "en_upgraded_description": "Exchange your movement action for an additional basic attack, and vice versa.\n[s:.7](This spell costs 0 mana the first time you cast it each turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Interchange",
+        "display_name": "Interchange",
+        "tool_class": "colorless",
+        "icon_label": "Interchange",
+        "resolved_icon_label": "Interchange",
+        "main_svg_id": "1297",
+        "main_svg_filename": "1297.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Invert",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Swap your highest and lowest stats. (Ties are chosen at random) Upgraded: Swap a unit's highest and lowest stats. (Ties are chosen at random)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_INVERT_NAME",
+        "ru_name": "Инверсия",
+        "ru_description": "Поменяйте местами свои самые высокие и самые низкие характеристики.\n[s:.7](При равенстве выбираются случайно)[/s]",
+        "ru_upgraded_description": "Поменяйте местами самые высокие и самые низкие характеристики юнита.\n[s:.7](При равенстве выбираются случайно)[/s]",
+        "en_name": "Invert",
+        "en_description": "Swap your highest and lowest stats.\n[s:.7](Ties are chosen at random)[/s]",
+        "en_upgraded_description": "Swap a unit's highest and lowest stats.\n[s:.7](Ties are chosen at random)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Contort",
+        "display_name": "Invert",
+        "tool_class": "colorless",
+        "icon_label": "Contort",
+        "resolved_icon_label": "Contort",
+        "main_svg_id": "1278",
+        "main_svg_filename": "1278.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Invert",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Swap your highest and lowest stats. (Ties are chosen at random) Upgraded: Swap a unit's highest and lowest stats. (Ties are chosen at random)",
       "value_kind": "none",
       "translation": {
@@ -1565,9 +2501,87 @@
       }
     },
     {
+      "wiki_name": "Knead",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Knead another unit. Allies gain +1 Damage, enemies gain Weakness 1.Upgraded: Knead another unit. Allies gain +2 Damage, enemies gain Weakness 2.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_KNEAD_NAME",
+        "ru_name": "Массаж лапками",
+        "ru_description": "Помните другого юнита. Союзники получают +1 Урон, враги получают Слабость 1.",
+        "ru_upgraded_description": "Помните другого юнита. Союзники получают +2 Урон, враги получают Слабость 2.",
+        "en_name": "Knead",
+        "en_description": "Knead another unit. Allies gain +1 Damage, enemies gain Weakness 1.",
+        "en_upgraded_description": "Knead another unit. Allies gain +2 Damage, enemies gain Weakness 2."
+      },
+      "manifest": {
+        "ability_id": "Knead",
+        "display_name": "Knead",
+        "tool_class": "colorless",
+        "icon_label": "Knead",
+        "resolved_icon_label": "Knead",
+        "main_svg_id": "1314",
+        "main_svg_filename": "1314.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Landscape",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Turn an adjacent tile into a small grass tile.Upgraded: Turn any tile into a small grass tile.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LANDSCAPE_NAME",
+        "ru_name": "Ландшафт",
+        "ru_description": "Превратите соседнюю клетку в клетку с травой.",
+        "ru_upgraded_description": "Превратите любую клетку в клетку с травой.",
+        "en_name": "Landscape",
+        "en_description": "Turn an adjacent tile into a small grass tile.",
+        "en_upgraded_description": "Turn any tile into a small grass tile."
+      },
+      "manifest": {
+        "ability_id": "Landscape",
+        "display_name": "Landscape",
+        "tool_class": "colorless",
+        "icon_label": "Landscape",
+        "resolved_icon_label": "Landscape",
+        "main_svg_id": "1303",
+        "main_svg_filename": "1303.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Landscape",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Turn an adjacent tile into a small grass tile.Upgraded: Turn any tile into a small grass tile.",
       "value_kind": "none",
       "translation": {
@@ -1643,9 +2657,87 @@
       }
     },
     {
+      "wiki_name": "Look at me!",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Each unit turns to face you.Upgraded: Each unit turns to face you. 20% chance to Confuse enemies.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_LOOKATME_NAME",
+        "ru_name": "Посмотри на меня!",
+        "ru_description": "Все юниты поворачиваются к вам лицом.",
+        "ru_upgraded_description": "Все юниты поворачиваются к вам лицом. 20% шанс наложить Замешательство на врагов.",
+        "en_name": "Look at me!",
+        "en_description": "Each unit turns to face you.",
+        "en_upgraded_description": "Each unit turns to face you. 20% chance to Confuse enemies."
+      },
+      "manifest": {
+        "ability_id": "LookAtMe",
+        "display_name": "Look at me!",
+        "tool_class": "colorless",
+        "icon_label": "LookAtMe",
+        "resolved_icon_label": "LookAtMe",
+        "main_svg_id": "1296",
+        "main_svg_filename": "1296.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Magnet",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Pull a pickup one tile toward you. (Castable once per turn.) Upgraded: Pull a pickup all the way toward you. (Castable once per turn)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MAGNET_NAME",
+        "ru_name": "Магнит",
+        "ru_description": "Притяните предмет на одну клетку к себе.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Притяните предмет к себе до упора.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Magnet",
+        "en_description": "Pull a pickup one tile toward you.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Pull a pickup all the way toward you.\n[s:.7](Castable once per turn)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Magnet",
+        "display_name": "Magnet",
+        "tool_class": "colorless",
+        "icon_label": "Magnet",
+        "resolved_icon_label": "Magnet",
+        "main_svg_id": "1292",
+        "main_svg_filename": "1292.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Magnet",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Pull a pickup one tile toward you. (Castable once per turn.) Upgraded: Pull a pickup all the way toward you. (Castable once per turn)",
       "value_kind": "none",
       "translation": {
@@ -1721,9 +2813,87 @@
       }
     },
     {
+      "wiki_name": "Make a Wish",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Spend a coin to spawn a random pickup on a random tile. (Castable once per turn.) Upgraded: Spend a coin to spawn a random pickup on an empty tile of your choice. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MAKEAWISH_NAME",
+        "ru_name": "Загадай желание",
+        "ru_description": "Потратьте монетку, чтобы создать случайный предмет (лут) на случайной клетке.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Потратьте монетку, чтобы создать случайный предмет на пустой клетке по вашему выбору.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Make a Wish",
+        "en_description": "Spend a coin to spawn a random pickup on a random tile.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Spend a coin to spawn a random pickup on an empty tile of your choice.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Donate",
+        "display_name": "Make a Wish",
+        "tool_class": "colorless",
+        "icon_label": "Donate",
+        "resolved_icon_label": "Donate",
+        "main_svg_id": "1293",
+        "main_svg_filename": "1293.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Meow",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Your closest ally moves toward you.Upgraded: A target ally moves toward you.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MEOW_NAME",
+        "ru_name": "Мяу",
+        "ru_description": "Ваш ближайший союзник движется к вам.",
+        "ru_upgraded_description": "Целевой союзник движется к вам.",
+        "en_name": "Meow",
+        "en_description": "Your closest ally moves toward you.",
+        "en_upgraded_description": "A target ally moves toward you."
+      },
+      "manifest": {
+        "ability_id": "Meow",
+        "display_name": "Meow",
+        "tool_class": "colorless",
+        "icon_label": "Meow",
+        "resolved_icon_label": "Meow",
+        "main_svg_id": "1319",
+        "main_svg_filename": "1319.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Meow",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Your closest ally moves toward you.Upgraded: A target ally moves toward you.",
       "value_kind": "none",
       "translation": {
@@ -1799,9 +2969,87 @@
       }
     },
     {
+      "wiki_name": "Metabolize",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Gain +1 Constitution.Upgraded: Gain +1 Constitution. Bonus Passive: +3 Health Regeneration.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_METABOLIZE_NAME",
+        "ru_name": "Метаболизм",
+        "ru_description": "Получите +1 [img:con].",
+        "ru_upgraded_description": "Получите +1 [img:con].\nБонус пассивки: +3 Регенерации Здоровья.",
+        "en_name": "Metabolize",
+        "en_description": "Gain +1 [img:con].",
+        "en_upgraded_description": "Gain +1 [img:con].\nBonus Passive: +3 Health Regeneration."
+      },
+      "manifest": {
+        "ability_id": "Metabolize",
+        "display_name": "Metabolize",
+        "tool_class": "colorless",
+        "icon_label": "Metabolize",
+        "resolved_icon_label": "Metabolize",
+        "main_svg_id": "1237",
+        "main_svg_filename": "1237.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Metronome",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Cast a random spell.Upgraded: Cast a random upgraded spell.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_METRONOME_NAME",
+        "ru_name": "Метроном",
+        "ru_description": "Используйте случайное заклинание.",
+        "ru_upgraded_description": "Используйте случайное улучшенное заклинание.",
+        "en_name": "Metronome",
+        "en_description": "Cast a random spell.",
+        "en_upgraded_description": "Cast a random upgraded spell."
+      },
+      "manifest": {
+        "ability_id": "Metronome",
+        "display_name": "Metronome",
+        "tool_class": "colorless",
+        "icon_label": "Metronome",
+        "resolved_icon_label": "Metronome",
+        "main_svg_id": "1260",
+        "main_svg_filename": "1260.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "unknown",
+        "top_icon_svg_id": "2797",
+        "top_icon_svg": "2797.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Metronome",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Cast a random spell.Upgraded: Cast a random upgraded spell.",
       "value_kind": "none",
       "translation": {
@@ -1877,6 +3125,45 @@
       }
     },
     {
+      "wiki_name": "Nerf",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Inflict -1 Damage on a unit.Upgraded: Inflict -1 Damage and -1 Constitution on a unit.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_NERF_NAME",
+        "ru_name": "Нерф",
+        "ru_description": "Наложите -1 к Урону на юнита.",
+        "ru_upgraded_description": "Наложите -1 к Урону и -1 [img:con] на юнита.",
+        "en_name": "Nerf",
+        "en_description": "Inflict -1 Damage on a unit.",
+        "en_upgraded_description": "Inflict -1 Damage and -1 [img:con] on a unit."
+      },
+      "manifest": {
+        "ability_id": "Nerf",
+        "display_name": "Nerf",
+        "tool_class": "colorless",
+        "icon_label": "Nerf",
+        "resolved_icon_label": "Nerf",
+        "main_svg_id": "1263",
+        "main_svg_filename": "1263.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Number One",
       "class": "Collarless",
       "variant": "normal",
@@ -1916,9 +3203,87 @@
       }
     },
     {
+      "wiki_name": "Number One",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Spawn \"water\" tiles in an area around yourself.Upgraded: Spawn \"water\" tiles in a larger area around yourself.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PISSYOURSELF_NAME",
+        "ru_name": "По-маленькому",
+        "ru_description": "Создать Клетки-Воды в области вокруг себя.",
+        "ru_upgraded_description": "Создать Клетки-Воды в большой области вокруг себя.",
+        "en_name": "Number One",
+        "en_description": "Spawn \"water\" tiles in an area around yourself.",
+        "en_upgraded_description": "Spawn \"water\" tiles in a larger area around yourself."
+      },
+      "manifest": {
+        "ability_id": "PissYourself",
+        "display_name": "Number One",
+        "tool_class": "colorless",
+        "icon_label": "PissYourself",
+        "resolved_icon_label": "PissYourself",
+        "main_svg_id": "1274",
+        "main_svg_filename": "1274.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Over There!",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Adjacent units turn away from you.Upgraded: Units within three tiles of you turn away from you.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_OVERTHERE_NAME",
+        "ru_name": "Вон там!",
+        "ru_description": "Соседние юниты отворачиваются от вас.",
+        "ru_upgraded_description": "Юниты в радиусе трех клеток отворачиваются от вас.",
+        "en_name": "Over There!",
+        "en_description": "Adjacent units turn away from you.",
+        "en_upgraded_description": "Units within three tiles of you turn away from you."
+      },
+      "manifest": {
+        "ability_id": "MiniDistract",
+        "display_name": "Over There!",
+        "tool_class": "colorless",
+        "icon_label": "MiniDistract",
+        "resolved_icon_label": "MiniDistract",
+        "main_svg_id": "1251",
+        "main_svg_filename": "1251.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Over There!",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Adjacent units turn away from you.Upgraded: Units within three tiles of you turn away from you.",
       "value_kind": "none",
       "translation": {
@@ -2072,6 +3437,45 @@
       }
     },
     {
+      "wiki_name": "Path of the Cleric",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Give an enemy All Stats Up and fully heal it, then this spell becomes a random Cleric spell permanently.Upgraded: Transform this spell into a random upgraded Cleric spell permanently.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHECLERIC_NAME",
+        "ru_name": "Путь Клирика",
+        "ru_description": "Дайте врагу Повышение Всех Характеристик и полностью исцелите его, затем это заклинание становится случайным заклинанием Клирика навсегда.",
+        "ru_upgraded_description": "Превратите это заклинание в случайное улучшенное заклинание Клирика навсегда.",
+        "en_name": "Path of the Cleric",
+        "en_description": "Give an enemy All Stats Up and fully heal it, then this spell becomes a random Cleric spell permanently.",
+        "en_upgraded_description": "Transform this spell into a random upgraded Cleric spell permanently."
+      },
+      "manifest": {
+        "ability_id": "PathOfTheCleric",
+        "display_name": "Path of the Cleric",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheCleric",
+        "resolved_icon_label": "PathOfTheCleric",
+        "main_svg_id": "1328",
+        "main_svg_filename": "1328.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Path of the Druid",
       "class": "Collarless",
       "variant": "normal",
@@ -2189,9 +3593,87 @@
       }
     },
     {
+      "wiki_name": "Path of the Fighter",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Your Intelligence becomes 0 until the end of the battle, then this spell becomes a random Fighter spell permanently.Upgraded: Transform this spell into a random upgraded Fighter spell permanently.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHEFIGHTER_NAME",
+        "ru_name": "Путь Бойца",
+        "ru_description": "Ваш [img:int] становится 0 до конца битвы, затем это заклинание становится случайным заклинанием Бойца навсегда.",
+        "ru_upgraded_description": "Превратите это заклинание в случайное улучшенное заклинание Бойца навсегда.",
+        "en_name": "Path of the Fighter",
+        "en_description": "Your [img:int] becomes 0 until the end of the battle, then this spell becomes a random Fighter spell permanently.",
+        "en_upgraded_description": "Transform this spell into a random upgraded Fighter spell permanently."
+      },
+      "manifest": {
+        "ability_id": "PathOfTheFighter",
+        "display_name": "Path of the Fighter",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheFighter",
+        "resolved_icon_label": "PathOfTheFighter",
+        "main_svg_id": "1330",
+        "main_svg_filename": "1330.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Path of the Jester",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Gain 10 random stat ups and 5 random stat downs, then transform this spell into a random class spell permanently.Upgraded: Gain 10 random stat ups, then transform this spell into a random upgraded class spell permanently.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHEJESTER_NAME",
+        "ru_name": "Путь Шута",
+        "ru_description": "Получите 10 случайных баффов и 5 случайных дебаффов характеристик, затем превратите это заклинание в случайное классовое навсегда.",
+        "ru_upgraded_description": "Получите 10 случайных баффов характеристик, затем превратите это заклинание в случайное улучшенное классовое навсегда.",
+        "en_name": "Path of the Jester",
+        "en_description": "Gain 10 random stat ups and 5 random stat downs, then transform this spell into a random class spell permanently.",
+        "en_upgraded_description": "Gain 10 random stat ups, then transform this spell into a random upgraded class spell permanently."
+      },
+      "manifest": {
+        "ability_id": "PathOfTheJester",
+        "display_name": "Path of the Jester",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheJester",
+        "resolved_icon_label": "PathOfTheJester",
+        "main_svg_id": "379",
+        "main_svg_filename": "379.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Path of the Jester",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Gain 10 random stat ups and 5 random stat downs, then transform this spell into a random class spell permanently.Upgraded: Gain 10 random stat ups, then transform this spell into a random upgraded class spell permanently.",
       "value_kind": "none",
       "translation": {
@@ -2345,9 +3827,87 @@
       }
     },
     {
+      "wiki_name": "Path of the Monk",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Gain All Stats Down, then this spell becomes a random Monk spell permanently.Upgraded: This spell becomes a random upgraded Monk spell permanently.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHEMONK_NAME",
+        "ru_name": "Путь Монаха",
+        "ru_description": "Получите Снижение Всех Характеристик, затем это заклинание становится случайным заклинанием Монаха навсегда.",
+        "ru_upgraded_description": "Это заклинание становится случайным улучшенным заклинанием Монаха навсегда.",
+        "en_name": "Path of the Monk",
+        "en_description": "Gain All Stats Down, then this spell becomes a random Monk spell permanently.",
+        "en_upgraded_description": "This spell becomes a random upgraded Monk spell permanently."
+      },
+      "manifest": {
+        "ability_id": "PathOfTheMonk",
+        "display_name": "Path of the Monk",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheMonk",
+        "resolved_icon_label": "PathOfTheMonk",
+        "main_svg_id": "1324",
+        "main_svg_filename": "1324.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Path of the Necromancer",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Destroy a corpse, then this spell becomes a random Necromancer spell permanently.Upgraded: Transform this spell into a random Necromancer spell permanently.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHENECROMANCER_NAME",
+        "ru_name": "Путь Некроманта",
+        "ru_description": "Уничтожьте труп, затем это заклинание становится случайным заклинанием Некроманта навсегда.",
+        "ru_upgraded_description": "Превратите это заклинание в случайное заклинание Некроманта навсегда.",
+        "en_name": "Path of the Necromancer",
+        "en_description": "Destroy a corpse, then this spell becomes a random Necromancer spell permanently.",
+        "en_upgraded_description": "Transform this spell into a random Necromancer spell permanently."
+      },
+      "manifest": {
+        "ability_id": "PathOfTheNecromancer",
+        "display_name": "Path of the Necromancer",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheNecromancer",
+        "resolved_icon_label": "PathOfTheNecromancer",
+        "main_svg_id": "1322",
+        "main_svg_filename": "1322.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Path of the Necromancer",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Destroy a corpse, then this spell becomes a random Necromancer spell permanently.Upgraded: Transform this spell into a random Necromancer spell permanently.",
       "value_kind": "none",
       "translation": {
@@ -2423,9 +3983,87 @@
       }
     },
     {
+      "wiki_name": "Path of the Psychic",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "This spell becomes a random Psychic spell permanently. Castable only if you have full mana.Upgraded: Transform this spell into a random upgraded Psychic spell permanently.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHEPSYCHIC_NAME",
+        "ru_name": "Путь Псионика",
+        "ru_description": "Это заклинание становится случайным заклинанием Псионика навсегда. Можно использовать, только если у вас полная мана.",
+        "ru_upgraded_description": "Превратите это заклинание в случайное улучшенное заклинание Псионика навсегда.",
+        "en_name": "Path of the Psychic",
+        "en_description": "This spell becomes a random Psychic spell permanently. Castable only if you have full mana.",
+        "en_upgraded_description": "Transform this spell into a random upgraded Psychic spell permanently."
+      },
+      "manifest": {
+        "ability_id": "PathOfThePsychic",
+        "display_name": "Path of the Psychic",
+        "tool_class": "colorless",
+        "icon_label": "PathOfThePsychic",
+        "resolved_icon_label": "PathOfThePsychic",
+        "main_svg_id": "1326",
+        "main_svg_filename": "1326.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Path of the Tank",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Transform this spell into a random Tank spell permanently. Castable only if you have 5 or less health.Upgraded: Transform this spell into a random upgraded Tank spell permanently.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHETANK_NAME",
+        "ru_name": "Путь Танка",
+        "ru_description": "Превратите это заклинание в случайное заклинание Танка навсегда. Можно использовать, только если у вас 5 или меньше здоровья.",
+        "ru_upgraded_description": "Превратите это заклинание в случайное улучшенное заклинание Танка навсегда.",
+        "en_name": "Path of the Tank",
+        "en_description": "Transform this spell into a random Tank spell permanently. Castable only if you have 5 or less health.",
+        "en_upgraded_description": "Transform this spell into a random upgraded Tank spell permanently."
+      },
+      "manifest": {
+        "ability_id": "PathOfTheTank",
+        "display_name": "Path of the Tank",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheTank",
+        "resolved_icon_label": "PathOfTheTank",
+        "main_svg_id": "1329",
+        "main_svg_filename": "1329.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Path of the Tank",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Transform this spell into a random Tank spell permanently. Castable only if you have 5 or less health.Upgraded: Transform this spell into a random upgraded Tank spell permanently.",
       "value_kind": "heal",
       "translation": {
@@ -2501,9 +4139,87 @@
       }
     },
     {
+      "wiki_name": "Path of the Tinkerer",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Destroy your weapon, then this spell becomes a random Tinkerer spell permanently.Upgraded: Transform this spell into a random upgraded Tinkerer spell permanently.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHETINKERER_NAME",
+        "ru_name": "Путь Изобретателя",
+        "ru_description": "Уничтожьте свое оружие, затем это заклинание становится случайным заклинанием Изобретателя навсегда.",
+        "ru_upgraded_description": "Превратите это заклинание в случайное улучшенное заклинание Изобретателя навсегда.",
+        "en_name": "Path of the Tinkerer",
+        "en_description": "Destroy your weapon, then this spell becomes a random Tinkerer spell permanently.",
+        "en_upgraded_description": "Transform this spell into a random upgraded Tinkerer spell permanently."
+      },
+      "manifest": {
+        "ability_id": "PathOfTheTinkerer",
+        "display_name": "Path of the Tinkerer",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheTinkerer",
+        "resolved_icon_label": "PathOfTheTinkerer",
+        "main_svg_id": "1325",
+        "main_svg_filename": "1325.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Path Of The Void",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Conjure a random Collarless spell into your bonus spell slot.Upgraded: Conjure a random upgraded Collarless spell into your bonus spell slot.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PATHOFTHEVOID_NAME",
+        "ru_name": "Путь Пустоты",
+        "ru_description": "Призовите случайное заклинание \"Без Ошейника\" в ваш бонусный слот.",
+        "ru_upgraded_description": "Призовите случайное улучшенное заклинание \"Без Ошейника\" в ваш бонусный слот.",
+        "en_name": "Path Of The Void",
+        "en_description": "Conjure a random Collarless spell into your bonus spell slot.",
+        "en_upgraded_description": "Conjure a random upgraded Collarless spell into your bonus spell slot."
+      },
+      "manifest": {
+        "ability_id": "PathOfTheVoid",
+        "display_name": "Path Of The Void",
+        "tool_class": "colorless",
+        "icon_label": "PathOfTheVoid",
+        "resolved_icon_label": "PathOfTheVoid",
+        "main_svg_id": "1336",
+        "main_svg_filename": "1336.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Path Of The Void",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Conjure a random Collarless spell into your bonus spell slot.Upgraded: Conjure a random upgraded Collarless spell into your bonus spell slot.",
       "value_kind": "none",
       "translation": {
@@ -2579,9 +4295,87 @@
       }
     },
     {
+      "wiki_name": "Play Dead",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Down yourself. You don't get injured.Upgraded: Down yourself. You don't get injured. Revive at the end of the next round at full HP.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PLAYDEAD_NAME",
+        "ru_name": "Притвориться мертвым",
+        "ru_description": "Вырубитесь (упадите без сил). Вы не получите травму.",
+        "ru_upgraded_description": "Вырубитесь. Вы не получите травму. Воскресните в конце следующего раунда с полным ОЗ.",
+        "en_name": "Play Dead",
+        "en_description": "Down yourself. You don't get injured.",
+        "en_upgraded_description": "Down yourself. You don't get injured. Revive at the end of the next round at full HP. "
+      },
+      "manifest": {
+        "ability_id": "PlayDead",
+        "display_name": "Play Dead",
+        "tool_class": "colorless",
+        "icon_label": "PlayDead",
+        "resolved_icon_label": "PlayDead",
+        "main_svg_id": "1254",
+        "main_svg_filename": "1254.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "defense",
+        "top_icon_svg_id": "2781",
+        "top_icon_svg": "2781.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Ponder",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Gain +1 Intelligence.Upgraded: Gain +1 Intelligence and conjure a random bonus ability.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PONDER_NAME",
+        "ru_name": "Раздумье",
+        "ru_description": "Получите +1 [img:int].",
+        "ru_upgraded_description": "Получите +1 [img:int] и создайте случайную бонусную способность.",
+        "en_name": "Ponder",
+        "en_description": "Gain +1 [img:int].",
+        "en_upgraded_description": "Gain +1 [img:int] and conjure a random bonus ability."
+      },
+      "manifest": {
+        "ability_id": "Ponder",
+        "display_name": "Ponder",
+        "tool_class": "colorless",
+        "icon_label": "Ponder",
+        "resolved_icon_label": "Ponder",
+        "main_svg_id": "1235",
+        "main_svg_filename": "1235.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Ponder",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Gain +1 Intelligence.Upgraded: Gain +1 Intelligence and conjure a random bonus ability.",
       "value_kind": "none",
       "translation": {
@@ -2774,9 +4568,87 @@
       }
     },
     {
+      "wiki_name": "Randomize",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Spawn a random tile anywhere.Upgraded: Tiles in an area become random tiles.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_RANDOMIZE_NAME",
+        "ru_name": "Рандомизация",
+        "ru_description": "Создайте случайную клетку в любом месте.",
+        "ru_upgraded_description": "Клетки в области становятся случайными.",
+        "en_name": "Randomize",
+        "en_description": "Spawn a random tile anywhere.",
+        "en_upgraded_description": "Tiles in an area become random tiles."
+      },
+      "manifest": {
+        "ability_id": "Till",
+        "display_name": "Randomize",
+        "tool_class": "colorless",
+        "icon_label": "Till",
+        "resolved_icon_label": "Till",
+        "main_svg_id": "1288",
+        "main_svg_filename": "1288.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Reach",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Your next basic attack has +1 range.Upgraded: Your next basic attack has +3 range.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REACH_NAME",
+        "ru_name": "Длинные лапы",
+        "ru_description": "Ваша следующая базовая атака получает +1 к дальности.",
+        "ru_upgraded_description": "Ваша следующая базовая атака получает +3 к дальности.",
+        "en_name": "Reach",
+        "en_description": "Your next basic attack has +1 range.",
+        "en_upgraded_description": "Your next basic attack has +3 range."
+      },
+      "manifest": {
+        "ability_id": "Reach",
+        "display_name": "Reach",
+        "tool_class": "colorless",
+        "icon_label": "Reach",
+        "resolved_icon_label": "Reach",
+        "main_svg_id": "1232",
+        "main_svg_filename": "1232.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Reach",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Your next basic attack has +1 range.Upgraded: Your next basic attack has +3 range.",
       "value_kind": "damage",
       "translation": {
@@ -3008,6 +4880,45 @@
       }
     },
     {
+      "wiki_name": "Roll",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Roll up to three tiles in a straight line.Upgraded: Roll up to ten tiles in a straight line.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ROLL_NAME",
+        "ru_name": "Кувырок",
+        "ru_description": "Прокатитесь до трех клеток по прямой.",
+        "ru_upgraded_description": "Прокатитесь до десяти клеток по прямой.",
+        "en_name": "Roll",
+        "en_description": "Roll up to three tiles in a straight line.",
+        "en_upgraded_description": "Roll up to ten tiles in a straight line."
+      },
+      "manifest": {
+        "ability_id": "Roll",
+        "display_name": "Roll",
+        "tool_class": "colorless",
+        "icon_label": "Roll",
+        "resolved_icon_label": "Roll",
+        "main_svg_id": "1230",
+        "main_svg_filename": "1230.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Rouse",
       "class": "Collarless",
       "variant": "normal",
@@ -3047,9 +4958,87 @@
       }
     },
     {
+      "wiki_name": "Rouse",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Give an adjacent unit +2 Charge. (Castable once per turn.) Upgraded: Give any unit +2 Charge. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_ROUSE_NAME",
+        "ru_name": "Побудка",
+        "ru_description": "Дайте соседнему юниту +2 Заряда.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Дайте любому юниту +2 Заряда.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Rouse",
+        "en_description": "Give an adjacent unit +2 Charge.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Give any unit +2 Charge.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Rouse",
+        "display_name": "Rouse",
+        "tool_class": "colorless",
+        "icon_label": "Rouse",
+        "resolved_icon_label": "Rouse",
+        "main_svg_id": "1295",
+        "main_svg_filename": "1295.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Russian Shorthair Roulette",
       "class": "Collarless",
       "variant": "normal",
+      "description": "There is a 1 in 6 chance this will kill you. If it doesn't, gain +1 to a random stat and 1-2 coins.Upgraded: There is a 1 in 6 chance this will kill you. If it doesn't, gain +2 to a random stat and 2-4 coins.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_RUSSIANSHORTHAIRROULETTE_NAME",
+        "ru_name": "Русская короткошерстная рулетка",
+        "ru_description": "Есть 1 шанс из 6, что это убьет вас. Если нет, получите +1 к случайной характеристике и 1-2 монетки.",
+        "ru_upgraded_description": "Есть 1 шанс из 6, что это убьет вас. Если нет, получите +2 к случайной характеристике и 2-4 монетки.",
+        "en_name": "Russian Shorthair Roulette",
+        "en_description": "There is a 1 in 6 chance this will kill you. If it doesn't, gain +1 to a random stat and 1-2 coins.",
+        "en_upgraded_description": "There is a 1 in 6 chance this will kill you. If it doesn't, gain +2 to a random stat and 2-4 coins."
+      },
+      "manifest": {
+        "ability_id": "RussianRoulette",
+        "display_name": "Russian Shorthair Roulette",
+        "tool_class": "colorless",
+        "icon_label": "RussianRoulette",
+        "resolved_icon_label": "RussianRoulette",
+        "main_svg_id": "1277",
+        "main_svg_filename": "1277.svg"
+      },
+      "numbers": {
+        "raw": "2",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "2",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Russian Shorthair Roulette",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "There is a 1 in 6 chance this will kill you. If it doesn't, gain +1 to a random stat and 1-2 coins.Upgraded: There is a 1 in 6 chance this will kill you. If it doesn't, gain +2 to a random stat and 2-4 coins.",
       "value_kind": "none",
       "translation": {
@@ -3203,9 +5192,87 @@
       }
     },
     {
+      "wiki_name": "Sharpen Claws",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Gain +1 Strength.Upgraded: Gain +1 Strength. Bonus Passive: Your basic attack inflicts Bleed.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SHARPENCLAWS_NAME",
+        "ru_name": "Точить когти",
+        "ru_description": "Получите +1 [img:str].",
+        "ru_upgraded_description": "Получите +1 [img:str].\nБонус пассивки: Ваша базовая атака вызывает Кровотечение.",
+        "en_name": "Sharpen Claws",
+        "en_description": "Gain +1 [img:str].",
+        "en_upgraded_description": "Gain +1 [img:str].\nBonus Passive: Your basic attack inflicts Bleed."
+      },
+      "manifest": {
+        "ability_id": "SharpenClaws",
+        "display_name": "Sharpen Claws",
+        "tool_class": "colorless",
+        "icon_label": "SharpenClaws",
+        "resolved_icon_label": "SharpenClaws",
+        "main_svg_id": "1231",
+        "main_svg_filename": "1231.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Shift",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Swap positions with an adjacent unit. (Castable once per turn.) Upgraded: Swap positions with any unit. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SHIFT_NAME",
+        "ru_name": "Сдвиг",
+        "ru_description": "Поменяйтесь местами с соседним юнитом.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Поменяйтесь местами с любым юнитом.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Shift",
+        "en_description": "Swap positions with an adjacent unit.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Swap positions with any unit.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Shift",
+        "display_name": "Shift",
+        "tool_class": "colorless",
+        "icon_label": "Shift",
+        "resolved_icon_label": "Shift",
+        "main_svg_id": "1294",
+        "main_svg_filename": "1294.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Shift",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Swap positions with an adjacent unit. (Castable once per turn.) Upgraded: Swap positions with any unit. (Castable once per turn.)",
       "value_kind": "none",
       "translation": {
@@ -3281,9 +5348,87 @@
       }
     },
     {
+      "wiki_name": "Slip Through",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Roll up to two tiles in a diagonal line.Upgraded: Roll any number of tiles in a diagonal line.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SLIPTHROUGH_NAME",
+        "ru_name": "Проскальзывание",
+        "ru_description": "Прокатитесь до двух клеток по диагонали.",
+        "ru_upgraded_description": "Прокатитесь на любое количество клеток по диагонали.",
+        "en_name": "Slip Through",
+        "en_description": "Roll up to two tiles in a diagonal line.",
+        "en_upgraded_description": "Roll any number of tiles in a diagonal line."
+      },
+      "manifest": {
+        "ability_id": "SlipThrough",
+        "display_name": "Slip Through",
+        "tool_class": "colorless",
+        "icon_label": "SlipThrough",
+        "resolved_icon_label": "SlipThrough",
+        "main_svg_id": "582",
+        "main_svg_filename": "582.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Stack the Deck",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Gain +1 Luck.Upgraded: Gain +1 Luck. You have +99 Luck during your next action.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STACKTHEDECK_NAME",
+        "ru_name": "Подтасовка",
+        "ru_description": "Получите +1 [img:lck].",
+        "ru_upgraded_description": "Получите +1 [img:lck]. Вы имеете +99 [img:lck] во время вашего следующего действия.",
+        "en_name": "Stack the Deck",
+        "en_description": "Gain +1 [img:lck].",
+        "en_upgraded_description": "Gain +1 [img:lck]. You have +99 [img:lck] during your next action."
+      },
+      "manifest": {
+        "ability_id": "StackTheDeck",
+        "display_name": "Stack the Deck",
+        "tool_class": "colorless",
+        "icon_label": "StackTheDeck",
+        "resolved_icon_label": "StackTheDeck",
+        "main_svg_id": "1267",
+        "main_svg_filename": "1267.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Stack the Deck",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Gain +1 Luck.Upgraded: Gain +1 Luck. You have +99 Luck during your next action.",
       "value_kind": "none",
       "translation": {
@@ -3359,6 +5504,45 @@
       }
     },
     {
+      "wiki_name": "Step",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Move one tile. (Castable once per turn.) Upgraded: Move two tiles. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_STEP_NAME",
+        "ru_name": "Шаг",
+        "ru_description": "Переместитесь на одну клетку.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Переместитесь на две клетки.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Step",
+        "en_description": "Move one tile.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Move two tiles.\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Step",
+        "display_name": "Step",
+        "tool_class": "colorless",
+        "icon_label": "Step",
+        "resolved_icon_label": "Step",
+        "main_svg_id": "1287",
+        "main_svg_filename": "1287.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Stop Hitting Yourself",
       "class": "Collarless",
       "variant": "normal",
@@ -3368,10 +5552,49 @@
         "text_key": "ABILITY_MOONHEADCOMMANDSTOPHITTINGYOURSELF_NAME",
         "ru_name": "Хватит бить себя",
         "ru_description": "Прикажите лунным рукам атаковать лицо.",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Прикажите лунным рукам атаковать лицо.",
         "en_name": "Stop Hitting Yourself",
         "en_description": "Command all the moon hands to attack the face.",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Command all the moon hands to attack the face."
+      },
+      "manifest": {
+        "ability_id": "MoonHeadCommandStopHittingYourself",
+        "display_name": "Stop Hitting Yourself",
+        "tool_class": "colorless",
+        "icon_label": "MoonHeadCommandStopHittingYourself",
+        "resolved_icon_label": "MoonHeadCommandStopHittingYourself",
+        "main_svg_id": "1343",
+        "main_svg_filename": "1343.svg"
+      },
+      "numbers": {
+        "raw": "10",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\contextual_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Stop Hitting Yourself",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Command all the moon hands to attack the face.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MOONHEADCOMMANDSTOPHITTINGYOURSELF_NAME",
+        "ru_name": "Хватит бить себя",
+        "ru_description": "Прикажите лунным рукам атаковать лицо.",
+        "ru_upgraded_description": "Прикажите лунным рукам атаковать лицо.",
+        "en_name": "Stop Hitting Yourself",
+        "en_description": "Command all the moon hands to attack the face.",
+        "en_upgraded_description": "Command all the moon hands to attack the face."
       },
       "manifest": {
         "ability_id": "MoonHeadCommandStopHittingYourself",
@@ -3401,6 +5624,45 @@
       "wiki_name": "Subway Ride",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Spend 5 coins, teleport to any tile. (Castable once per turn.) Upgraded: Spend 2 coins, teleport to any tile. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUBWAYRIDE_NAME",
+        "ru_name": "Поездка на метро",
+        "ru_description": "Потратьте 5 монет, телепортируйтесь на любую клетку.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Потратьте 2 монеты, телепортируйтесь на любую клетку.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "en_name": "Subway Ride",
+        "en_description": "Spend 5 coins, teleport to any tile.\r\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Spend 2 coins, teleport to any tile.\r\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "SubwayRide",
+        "display_name": "Subway Ride",
+        "tool_class": "colorless",
+        "icon_label": "SubwayRide",
+        "resolved_icon_label": "SubwayRide",
+        "main_svg_id": "1310",
+        "main_svg_filename": "1310.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Subway Ride",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Spend 5 coins, teleport to any tile. (Castable once per turn.) Upgraded: Spend 2 coins, teleport to any tile. (Castable once per turn.)",
       "value_kind": "none",
       "translation": {
@@ -3476,6 +5738,45 @@
       }
     },
     {
+      "wiki_name": "Sudden Affliction",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Trigger the Poison, Bleed, and Burn effects on a unit.Upgraded: Trigger the Poison, Bleed, and Burn effects on a unit. If that unit isn't Poisoned, Bleeding, or Burning, they gain 1 of each.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUDDENAFFLICTION_NAME",
+        "ru_name": "Внезапный приступ",
+        "ru_description": "Активируйте эффекты Отравления, Кровотечения и Горения на юните.",
+        "ru_upgraded_description": "Активируйте эффекты Отравления, Кровотечения и Горения на юните. Если юнит не Отравлен, не Кровоточит и не Горит, он получает по 1 стаку каждого эффекта.",
+        "en_name": "Sudden Affliction",
+        "en_description": "Trigger the Poison, Bleed, and Burn effects on a unit.",
+        "en_upgraded_description": "Trigger the Poison, Bleed, and Burn effects on a unit. If that unit isn't Poisoned, Bleeding, or Burning, they gain 1 of each."
+      },
+      "manifest": {
+        "ability_id": "PokeWound",
+        "display_name": "Sudden Affliction",
+        "tool_class": "colorless",
+        "icon_label": "PokeWound",
+        "resolved_icon_label": "PokeWound",
+        "main_svg_id": "1281",
+        "main_svg_filename": "1281.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Sunburn",
       "class": "Collarless",
       "variant": "normal",
@@ -3515,9 +5816,87 @@
       }
     },
     {
+      "wiki_name": "Sunburn",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Inflicts Burn 1 and Blind 1 at infinite range.Upgraded: Inflict Burn 1 and Blind 1 in an area at infinite range.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUNBURN_NAME",
+        "ru_name": "Солнечный ожог",
+        "ru_description": "Наложите Горение 1 и Слепоту 1 на бесконечном расстоянии.",
+        "ru_upgraded_description": "Наложите Горение 1 и Слепоту 1 в области на бесконечном расстоянии.",
+        "en_name": "Sunburn",
+        "en_description": "Inflicts Burn 1 and Blind 1 at infinite range.",
+        "en_upgraded_description": "Inflict Burn 1 and Blind 1 in an area at infinite range."
+      },
+      "manifest": {
+        "ability_id": "Sunburn",
+        "display_name": "Sunburn",
+        "tool_class": "colorless",
+        "icon_label": "Sunburn",
+        "resolved_icon_label": "Sunburn",
+        "main_svg_id": "1301",
+        "main_svg_filename": "1301.svg"
+      },
+      "numbers": {
+        "raw": "6",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Super Crate Box",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Spawn a crate on an adjacent tile.Upgraded: Spawn a crate within range 5.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_SUPERCRATEBOX_NAME",
+        "ru_name": "Супер-ящик",
+        "ru_description": "Создайте ящик на соседней клетке.",
+        "ru_upgraded_description": "Создайте ящик в радиусе 5.",
+        "en_name": "Super Crate Box",
+        "en_description": "Spawn a crate on an adjacent tile.",
+        "en_upgraded_description": "Spawn a crate within range 5."
+      },
+      "manifest": {
+        "ability_id": "SuperCrateBox",
+        "display_name": "Super Crate Box",
+        "tool_class": "colorless",
+        "icon_label": "SuperCrateBox",
+        "resolved_icon_label": "SuperCrateBox",
+        "main_svg_id": "1308",
+        "main_svg_filename": "1308.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "spawn",
+        "top_icon_svg_id": "2793",
+        "top_icon_svg": "2793.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Super Crate Box",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Spawn a crate on an adjacent tile.Upgraded: Spawn a crate within range 5.",
       "value_kind": "none",
       "translation": {
@@ -3671,9 +6050,87 @@
       }
     },
     {
+      "wiki_name": "Toast",
+      "class": "Collarless",
+      "variant": "upgraded",
+      "description": "Inflict Burn 1 on an adjacent unit.Upgraded: Inflict Burn 1 on a unit in range 5.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TOAST_NAME",
+        "ru_name": "Тост",
+        "ru_description": "Наложите Горение 1 на соседнего юнита.",
+        "ru_upgraded_description": "Наложите Горение 1 на юнита в радиусе 5.",
+        "en_name": "Toast",
+        "en_description": "Inflict Burn 1 on an adjacent unit.",
+        "en_upgraded_description": "Inflict Burn 1 on a unit in range 5."
+      },
+      "manifest": {
+        "ability_id": "Toast",
+        "display_name": "Toast",
+        "tool_class": "colorless",
+        "icon_label": "Toast",
+        "resolved_icon_label": "Toast",
+        "main_svg_id": "1304",
+        "main_svg_filename": "1304.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Trip",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Immobilize an adjacent unit. This only has a 25% chance to work on boss units and large enemies. Upgraded: Immobilize a unit in range 4. This only has a 25% chance to work on boss units and large enemies.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TRIP_NAME",
+        "ru_name": "Подсечка",
+        "ru_description": "Обездвижьте соседнего юнита.\n[s:.7]Имеет лишь 25% шанс сработать на боссах и крупных врагах.[/s]",
+        "ru_upgraded_description": "Обездвижьте юнита в радиусе 4.\n[s:.7]Имеет лишь 25% шанс сработать на боссах и крупных врагах.[/s]",
+        "en_name": "Trip",
+        "en_description": "Immobilize an adjacent unit.\n[s:.7]This only has a 25% chance to work on boss units and large enemies.[/s]",
+        "en_upgraded_description": "Immobilize a unit in range 4.\n[s:.7]This only has a 25% chance to work on boss units and large enemies.[/s]"
+      },
+      "manifest": {
+        "ability_id": "Trip",
+        "display_name": "Trip",
+        "tool_class": "colorless",
+        "icon_label": "Trip",
+        "resolved_icon_label": "Trip",
+        "main_svg_id": "1264",
+        "main_svg_filename": "1264.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Trip",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Immobilize an adjacent unit. This only has a 25% chance to work on boss units and large enemies. Upgraded: Immobilize a unit in range 4. This only has a 25% chance to work on boss units and large enemies.",
       "value_kind": "none",
       "translation": {
@@ -3791,6 +6248,45 @@
       "wiki_name": "Waste Time",
       "class": "Collarless",
       "variant": "normal",
+      "description": "Do nothing.Upgraded: Gain 1 Charge.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WASTETIME_NAME",
+        "ru_name": "Трата времени",
+        "ru_description": "Ничего не делайте.",
+        "ru_upgraded_description": "Получите 1 Заряд.",
+        "en_name": "Waste Time",
+        "en_description": "Do nothing.",
+        "en_upgraded_description": "Gain 1 Charge."
+      },
+      "manifest": {
+        "ability_id": "WasteTime",
+        "display_name": "Waste Time",
+        "tool_class": "colorless",
+        "icon_label": "WasteTime",
+        "resolved_icon_label": "WasteTime",
+        "main_svg_id": "1280",
+        "main_svg_filename": "1280.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\colorless_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Waste Time",
+      "class": "Collarless",
+      "variant": "upgraded",
       "description": "Do nothing.Upgraded: Gain 1 Charge.",
       "value_kind": "none",
       "translation": {

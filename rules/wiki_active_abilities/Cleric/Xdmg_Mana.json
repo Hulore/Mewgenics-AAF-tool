@@ -2,12 +2,51 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Cleric",
   "frame_type": "Xdmg_Mana",
-  "count": 1,
+  "count": 2,
   "abilities": [
     {
       "wiki_name": "Fury Heal",
       "class": "Cleric",
       "variant": "normal",
+      "description": "Heal an adjacent unit 2 to 6 times.Upgraded: Heal an adjacent unit 2 to 6 times. Each heal gives +1 to a random stat.",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_BAPTISM_NAME",
+        "ru_name": "Яростное лечение",
+        "ru_description": "Исцелите соседнего юнита от 2 до 6 раз.",
+        "ru_upgraded_description": "Исцелите соседнего юнита от 2 до 6 раз. Каждый хил дает +1 к случ. характеристике.",
+        "en_name": "Fury Heal",
+        "en_description": "Heal an adjacent unit 2 to 6 times.",
+        "en_upgraded_description": "Heal an adjacent unit 2 to 6 times. Each heal gives +1 to a random stat."
+      },
+      "manifest": {
+        "ability_id": "Baptism",
+        "display_name": "Fury Heal",
+        "tool_class": "cleric",
+        "icon_label": "Baptism",
+        "resolved_icon_label": "Baptism",
+        "main_svg_id": "815",
+        "main_svg_filename": "815.svg"
+      },
+      "numbers": {
+        "raw": "2x? 5",
+        "frame_type": "Xdmg_Mana",
+        "value": "2x?",
+        "mana": "5",
+        "hit_count": 2,
+        "hit_value": "?"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\medic_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Fury Heal",
+      "class": "Cleric",
+      "variant": "upgraded",
       "description": "Heal an adjacent unit 2 to 6 times.Upgraded: Heal an adjacent unit 2 to 6 times. Each heal gives +1 to a random stat.",
       "value_kind": "heal",
       "translation": {

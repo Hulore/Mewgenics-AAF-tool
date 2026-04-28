@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Monk",
   "frame_type": "Dmg_Mana",
-  "count": 32,
+  "count": 37,
   "abilities": [
     {
       "wiki_name": "Air Burst",
@@ -590,6 +590,45 @@
       }
     },
     {
+      "wiki_name": "Hip Toss",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Throw a random adjacent unit two tiles away, dealing damage to it.Upgraded: Throw a random adjacent unit two tiles away, dealing damage to it. This deals double damage if it's thrown onto another unit.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HIPTOSS_NAME",
+        "ru_name": "Бросок через бедро",
+        "ru_description": "Бросьте случайного соседа на 2 клетки, нанося урон.",
+        "ru_upgraded_description": "Бросьте случайного соседа на 2 клетки, нанося урон. Двойной урон, если бросили на другого юнита.",
+        "en_name": "Hip Toss",
+        "en_description": "Throw a random adjacent unit two tiles away, dealing damage to it.",
+        "en_upgraded_description": "Throw a random adjacent unit two tiles away, dealing damage to it. This deals double damage if it's thrown onto another unit."
+      },
+      "manifest": {
+        "ability_id": "HipToss",
+        "display_name": "Hip Toss",
+        "tool_class": "monk",
+        "icon_label": "HipToss",
+        "resolved_icon_label": "HipToss",
+        "main_svg_id": "1066",
+        "main_svg_filename": "1066.svg"
+      },
+      "numbers": {
+        "raw": "3 3",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\monk_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Kamehameha",
       "class": "Monk",
       "variant": "normal",
@@ -863,6 +902,45 @@
       }
     },
     {
+      "wiki_name": "One Punch",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "A one-hit kill punch. Gain All Stats Down on use. This deals 25 damage to bosses instead of killing them. (Castable once per battle.) Upgraded: A one-hit kill punch. It causes a cone of wind that deals 5 damage. Gain All Stats Down on use. This deals 25 damage to bosses instead of killing them. (Castable once per battle.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_ONEPUNCH_NAME",
+        "ru_name": "Один Удар",
+        "ru_description": "Удар, убивающий сразу. При использовании получите Снижение Всех Характеристик.\nБоссам наносит 25 урона вместо убийства.\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Удар, убивающий сразу. Вызывает конус ветра на 5 урона. Получите Снижение Всех Характеристик.\nБоссам наносит 25 урона вместо убийства.\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "One Punch",
+        "en_description": "A one-hit kill punch. Gain All Stats Down on use.\nThis deals 25 damage to bosses instead of killing them.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "A one-hit kill punch. It causes a cone of wind that deals 5 damage. Gain All Stats Down on use.\nThis deals 25 damage to bosses instead of killing them.\n[s:.7](Castable once per battle.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "OnePunch",
+        "display_name": "One Punch",
+        "tool_class": "monk",
+        "icon_label": "OnePunch",
+        "resolved_icon_label": "OnePunch",
+        "main_svg_id": "1103",
+        "main_svg_filename": "1103.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\monk_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Perfect Form",
       "class": "Monk",
       "variant": "normal",
@@ -944,6 +1022,45 @@
       "wiki_name": "Pogo",
       "class": "Monk",
       "variant": "normal",
+      "description": "Jump to a tile. Bounce off any unit you land on, damaging that unit.Upgraded: Jump to a tile. Bounce off any unit you land on, damaging and Bruising that unit.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_POGO_NAME",
+        "ru_name": "Пого",
+        "ru_description": "Прыгните на клетку. Отскочите от любого юнита под вами, нанеся ему урон.",
+        "ru_upgraded_description": "Прыгните на клетку. Отскочите от любого юнита под вами, нанеся урон и Ушиб.",
+        "en_name": "Pogo",
+        "en_description": "Jump to a tile. Bounce off any unit you land on, damaging that unit.",
+        "en_upgraded_description": "Jump to a tile. Bounce off any unit you land on, damaging and Bruising that unit."
+      },
+      "manifest": {
+        "ability_id": "Pogo",
+        "display_name": "Pogo",
+        "tool_class": "monk",
+        "icon_label": "Pogo",
+        "resolved_icon_label": "Pogo",
+        "main_svg_id": "1074",
+        "main_svg_filename": "1074.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\monk_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Pogo",
+      "class": "Monk",
+      "variant": "upgraded",
       "description": "Jump to a tile. Bounce off any unit you land on, damaging that unit.Upgraded: Jump to a tile. Bounce off any unit you land on, damaging and Bruising that unit.",
       "value_kind": "none",
       "translation": {
@@ -1136,6 +1253,45 @@
       }
     },
     {
+      "wiki_name": "Slapback",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "A melee attack with a high critical hit chance. RELOAD: Take damage.Upgraded: A melee attack with a 100% critical hit chance. RELOAD: Take damage.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SLAPBACK_NAME",
+        "ru_name": "Ответная пощечина",
+        "ru_description": "Атака ближнего боя с высоким шансом крита.\nПЕРЕЗАРЯДКА: Получите урон.",
+        "ru_upgraded_description": "Атака ближнего боя с 100% шансом крита.\nПЕРЕЗАРЯДКА: Получите урон.",
+        "en_name": "Slapback",
+        "en_description": "A melee attack with a high critical hit chance.\r\nRELOAD: Take damage.",
+        "en_upgraded_description": "A melee attack with a 100% critical hit chance.\r\nRELOAD: Take damage."
+      },
+      "manifest": {
+        "ability_id": "Slapback",
+        "display_name": "Slapback",
+        "tool_class": "monk",
+        "icon_label": "Slapback",
+        "resolved_icon_label": "Slapback",
+        "main_svg_id": "1068",
+        "main_svg_filename": "1068.svg"
+      },
+      "numbers": {
+        "raw": "2 0",
+        "frame_type": "Dmg_Mana",
+        "value": "2",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\monk_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Throw Spirit Bomb",
       "class": "Monk",
       "variant": "normal",
@@ -1145,10 +1301,49 @@
         "text_key": "ABILITY_THROWSPIRITBOMB_NAME",
         "ru_name": "Бросок Бомбы Духа",
         "ru_description": "Бросьте Бомбу, затем способность меняется на \"Заряд Бомбы Духа\".\n[s:.7](Нельзя бросить с 0 зарядов.)[/s]",
-        "ru_upgraded_description": "",
+        "ru_upgraded_description": "Бросьте Бомбу, затем способность меняется на \"Заряд Бомбы Духа\".\n[s:.7](Нельзя бросить с 0 зарядов.)[/s]",
         "en_name": "Throw Spirit Bomb",
         "en_description": "Throw the Spirit Bomb, then this ability becomes Charge Spirit Bomb.\r\n[s:.7](Cannot be thrown with 0 charges.)[/s]",
-        "en_upgraded_description": ""
+        "en_upgraded_description": "Throw the Spirit Bomb, then this ability becomes Charge Spirit Bomb.\r\n[s:.7](Cannot be thrown with 0 charges.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "ThrowSpiritBomb",
+        "display_name": "Throw Spirit Bomb",
+        "tool_class": "monk",
+        "icon_label": "ThrowSpiritBomb",
+        "resolved_icon_label": "ThrowSpiritBomb",
+        "main_svg_id": "1105",
+        "main_svg_filename": "1105.svg"
+      },
+      "numbers": {
+        "raw": "0 0",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\monk_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Throw Spirit Bomb",
+      "class": "Monk",
+      "variant": "upgraded",
+      "description": "Throw the Spirit Bomb, then this ability becomes Charge Spirit Bomb. (Cannot be thrown with 0 charges.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_THROWSPIRITBOMB_NAME",
+        "ru_name": "Бросок Бомбы Духа",
+        "ru_description": "Бросьте Бомбу, затем способность меняется на \"Заряд Бомбы Духа\".\n[s:.7](Нельзя бросить с 0 зарядов.)[/s]",
+        "ru_upgraded_description": "Бросьте Бомбу, затем способность меняется на \"Заряд Бомбы Духа\".\n[s:.7](Нельзя бросить с 0 зарядов.)[/s]",
+        "en_name": "Throw Spirit Bomb",
+        "en_description": "Throw the Spirit Bomb, then this ability becomes Charge Spirit Bomb.\r\n[s:.7](Cannot be thrown with 0 charges.)[/s]",
+        "en_upgraded_description": "Throw the Spirit Bomb, then this ability becomes Charge Spirit Bomb.\r\n[s:.7](Cannot be thrown with 0 charges.)[/s]"
       },
       "manifest": {
         "ability_id": "ThrowSpiritBomb",

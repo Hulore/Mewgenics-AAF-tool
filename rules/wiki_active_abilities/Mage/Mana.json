@@ -2,12 +2,51 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Mage",
   "frame_type": "Mana",
-  "count": 22,
+  "count": 34,
   "abilities": [
     {
       "wiki_name": "Chaos Teleport",
       "class": "Mage",
       "variant": "normal",
+      "description": "Teleport to a random tile.Upgraded: Teleport to a random tile. Deal damage to units adjacent to the tile you teleport to.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHAOSTELEPORT_NAME",
+        "ru_name": "Хаос-телепорт",
+        "ru_description": "Телепортируйтесь на случайную клетку.",
+        "ru_upgraded_description": "Телепортируйтесь на случайную клетку. Нанесите урон всем вокруг точки появления.",
+        "en_name": "Chaos Teleport",
+        "en_description": "Teleport to a random tile.",
+        "en_upgraded_description": "Teleport to a random tile. Deal damage to units adjacent to the tile you teleport to."
+      },
+      "manifest": {
+        "ability_id": "ChaosTeleport",
+        "display_name": "Chaos Teleport",
+        "tool_class": "mage",
+        "icon_label": "ChaosTeleport",
+        "resolved_icon_label": "ChaosTeleport",
+        "main_svg_id": "744",
+        "main_svg_filename": "744.svg"
+      },
+      "numbers": {
+        "raw": "1",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "1",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "movement",
+        "top_icon_svg_id": "2779",
+        "top_icon_svg": "2779.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Chaos Teleport",
+      "class": "Mage",
+      "variant": "upgraded",
       "description": "Teleport to a random tile.Upgraded: Teleport to a random tile. Deal damage to units adjacent to the tile you teleport to.",
       "value_kind": "damage",
       "translation": {
@@ -83,9 +122,87 @@
       }
     },
     {
+      "wiki_name": "Chill",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Inflict Slow on a unit.Upgraded: Inflict Slow on units in an area.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHILL_NAME",
+        "ru_name": "Озноб",
+        "ru_description": "Наложите Замедление на юнита.",
+        "ru_upgraded_description": "Наложите Замедление на юнитов в области.",
+        "en_name": "Chill",
+        "en_description": "Inflict Slow on a unit.",
+        "en_upgraded_description": "Inflict Slow on units in an area."
+      },
+      "manifest": {
+        "ability_id": "Slow",
+        "display_name": "Chill",
+        "tool_class": "mage",
+        "icon_label": "Slow",
+        "resolved_icon_label": "Slow",
+        "main_svg_id": "736",
+        "main_svg_filename": "736.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Corrupt",
       "class": "Mage",
       "variant": "normal",
+      "description": "Injure yourself, then gain +3 Magic Damage.Upgraded: Injure yourself, then gain +3 Magic Damage and emit a Sparkle.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CORRUPT_NAME",
+        "ru_name": "Жертвенная мощь",
+        "ru_description": "Нанеси себе травму (навсегда), затем получите +3 Маг Урона  (до конца боя).",
+        "ru_upgraded_description": "Нанеси себе травму (навсегда), затем получите +3 Маг Урона и испустите Искру.  (до конца боя)",
+        "en_name": "Corrupt",
+        "en_description": "Injure yourself, then gain +3 Magic Damage.",
+        "en_upgraded_description": "Injure yourself, then gain +3 Magic Damage and emit a Sparkle."
+      },
+      "manifest": {
+        "ability_id": "Corrupt",
+        "display_name": "Corrupt",
+        "tool_class": "mage",
+        "icon_label": "Corrupt",
+        "resolved_icon_label": "Corrupt",
+        "main_svg_id": "753",
+        "main_svg_filename": "753.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Corrupt",
+      "class": "Mage",
+      "variant": "upgraded",
       "description": "Injure yourself, then gain +3 Magic Damage.Upgraded: Injure yourself, then gain +3 Magic Damage and emit a Sparkle.",
       "value_kind": "damage",
       "translation": {
@@ -161,9 +278,87 @@
       }
     },
     {
+      "wiki_name": "Deal with the Devil",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Injure yourself, then restore 15 mana. (Castable once per battle.) Upgraded: Injure yourself, then restore all your mana. (Castable once per battle.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_DEALWITHTHEDEVIL_NAME",
+        "ru_name": "Сделка с Дьяволом",
+        "ru_description": "Нанеси себе травму (навсегда), затем восстановите 15 маны.\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Нанеси себе травму (навсегда), затем восстановите всю ману.\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Deal with the Devil",
+        "en_description": "Injure yourself, then restore 15 mana.\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Injure yourself, then restore all your mana.\n[s:.7](Castable once per battle.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "DealWithTheDevil",
+        "display_name": "Deal with the Devil",
+        "tool_class": "mage",
+        "icon_label": "DealWithTheDevil",
+        "resolved_icon_label": "DealWithTheDevil",
+        "main_svg_id": "747",
+        "main_svg_filename": "747.svg"
+      },
+      "numbers": {
+        "raw": "0",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Divide",
       "class": "Mage",
       "variant": "normal",
+      "description": "Lose Damage equal to half of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn. (This can't be cast if your basic attack's damage is 1 or less.) Upgraded: Lose Damage equal to 1/3rd of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn. (This can't be cast if your basic attack's damage is 1 or less.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_DIVIDE_NAME",
+        "ru_name": "Разделение",
+        "ru_description": "Потеряйте Урон, равный половине урона вашей базовой атаки. До конца битвы атакуйте лишний раз за ход.\n[s:.7](Нельзя, если урон атаки 1 или меньше.)[/s]",
+        "ru_upgraded_description": "Потеряйте Урон, равный 1/3 урона вашей базовой атаки. До конца битвы атакуйте лишний раз за ход.\n[s:.7](Нельзя, если урон атаки 1 или меньше.)[/s]",
+        "en_name": "Divide",
+        "en_description": "Lose Damage equal to half of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn.\n[s:.7](This can't be cast if your basic attack's damage is 1 or less.)[/s]",
+        "en_upgraded_description": "Lose Damage equal to 1/3rd of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn.\n[s:.7](This can't be cast if your basic attack's damage is 1 or less.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Divide",
+        "display_name": "Divide",
+        "tool_class": "mage",
+        "icon_label": "Divide",
+        "resolved_icon_label": "Divide",
+        "main_svg_id": "760",
+        "main_svg_filename": "760.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Divide",
+      "class": "Mage",
+      "variant": "upgraded",
       "description": "Lose Damage equal to half of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn. (This can't be cast if your basic attack's damage is 1 or less.) Upgraded: Lose Damage equal to 1/3rd of your basic attack's damage, rounded up. For the rest of the battle, you can attack an extra time each turn. (This can't be cast if your basic attack's damage is 1 or less.)",
       "value_kind": "damage",
       "translation": {
@@ -239,6 +434,45 @@
       }
     },
     {
+      "wiki_name": "Frost Blast",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Shoot a blast of ice in a line that freezes the first unit it hits.Upgraded: Shoot a blast of ice in a line that freezes every unit it hits.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FROSTBLAST_NAME",
+        "ru_name": "Ледяной взрыв",
+        "ru_description": "Выстрел льдом по линии, замораживающий первого попавшегося.",
+        "ru_upgraded_description": "Выстрел льдом по линии, замораживающий всех на пути.",
+        "en_name": "Frost Blast",
+        "en_description": "Shoot a blast of ice in a line that freezes the first unit it hits.",
+        "en_upgraded_description": "Shoot a blast of ice in a line that freezes every unit it hits."
+      },
+      "manifest": {
+        "ability_id": "FreezeRay",
+        "display_name": "Frost Blast",
+        "tool_class": "mage",
+        "icon_label": "FreezeRay",
+        "resolved_icon_label": "FreezeRay",
+        "main_svg_id": "722",
+        "main_svg_filename": "722.svg"
+      },
+      "numbers": {
+        "raw": "4",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Gust",
       "class": "Mage",
       "variant": "normal",
@@ -278,9 +512,87 @@
       }
     },
     {
+      "wiki_name": "Gust",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Knock back each unit adjacent to a chosen tile 1 space.Upgraded: Knock back each unit adjacent to a chosen tile 3 spaces, at infinite range.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_GUST_NAME",
+        "ru_name": "Порыв",
+        "ru_description": "Отбросьте всех вокруг выбранной клетки на 1.",
+        "ru_upgraded_description": "Отбросьте всех вокруг выбранной клетки на 3, бесконечная дальность.",
+        "en_name": "Gust",
+        "en_description": "Knock back each unit adjacent to a chosen tile 1 space.",
+        "en_upgraded_description": "Knock back each unit adjacent to a chosen tile 3 spaces, at infinite range."
+      },
+      "manifest": {
+        "ability_id": "Gust",
+        "display_name": "Gust",
+        "tool_class": "mage",
+        "icon_label": "Gust",
+        "resolved_icon_label": "Gust",
+        "main_svg_id": "746",
+        "main_svg_filename": "746.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Inspire",
       "class": "Mage",
       "variant": "normal",
+      "description": "Give 2 mana to a unit.Upgraded: Give 4 mana to a unit.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_INSPIRE_NAME",
+        "ru_name": "Вдохновение",
+        "ru_description": "Дайте 2 маны юниту.",
+        "ru_upgraded_description": "Дайте 4 маны юниту.",
+        "en_name": "Inspire",
+        "en_description": "Give 2 mana to a unit.",
+        "en_upgraded_description": "Give 4 mana to a unit."
+      },
+      "manifest": {
+        "ability_id": "Inspire",
+        "display_name": "Inspire",
+        "tool_class": "mage",
+        "icon_label": "Inspire",
+        "resolved_icon_label": "Inspire",
+        "main_svg_id": "743",
+        "main_svg_filename": "743.svg"
+      },
+      "numbers": {
+        "raw": "3",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Inspire",
+      "class": "Mage",
+      "variant": "upgraded",
       "description": "Give 2 mana to a unit.Upgraded: Give 4 mana to a unit.",
       "value_kind": "none",
       "translation": {
@@ -434,9 +746,87 @@
       }
     },
     {
+      "wiki_name": "Mana Meld",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Give all of your mana to a unit in range 3.Upgraded: Give all of your mana plus 2 to a unit.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MANAMELD_NAME",
+        "ru_name": "Слияние маны",
+        "ru_description": "Отдайте всю свою ману юниту в радиусе 3.",
+        "ru_upgraded_description": "Отдайте всю свою ману плюс 2 юниту.",
+        "en_name": "Mana Meld",
+        "en_description": "Give all of your mana to a unit in range 3.",
+        "en_upgraded_description": "Give all of your mana plus 2 to a unit."
+      },
+      "manifest": {
+        "ability_id": "ManaMeld",
+        "display_name": "Mana Meld",
+        "tool_class": "mage",
+        "icon_label": "ManaMeld",
+        "resolved_icon_label": "ManaMeld",
+        "main_svg_id": "742",
+        "main_svg_filename": "742.svg"
+      },
+      "numbers": {
+        "raw": "All",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "misc",
+        "top_icon_svg_id": "2783",
+        "top_icon_svg": "2783.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Replicate",
       "class": "Mage",
       "variant": "normal",
+      "description": "The next spell you cast is cast twice.Upgraded: The next spell you or another unit casts is cast twice.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_REPLICATE_NAME",
+        "ru_name": "Репликация",
+        "ru_description": "Ваше следующее заклинание сработает дважды.",
+        "ru_upgraded_description": "Следующее заклинание (ваше или чужое) сработает дважды.",
+        "en_name": "Replicate",
+        "en_description": "The next spell you cast is cast twice.",
+        "en_upgraded_description": "The next spell you or another unit casts is cast twice."
+      },
+      "manifest": {
+        "ability_id": "Replicate",
+        "display_name": "Replicate",
+        "tool_class": "mage",
+        "icon_label": "Replicate",
+        "resolved_icon_label": "Replicate",
+        "main_svg_id": "768",
+        "main_svg_filename": "768.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Replicate",
+      "class": "Mage",
+      "variant": "upgraded",
       "description": "The next spell you cast is cast twice.Upgraded: The next spell you or another unit casts is cast twice.",
       "value_kind": "none",
       "translation": {
@@ -668,6 +1058,45 @@
       }
     },
     {
+      "wiki_name": "Teach",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Reduce the cost of another unit's spells by 1 until the end of their turn.Upgraded: Reduce the cost of a unit's spells by 1 until the end of their turn. This can target yourself.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TEACH_NAME",
+        "ru_name": "Обучение",
+        "ru_description": "Снизьте цену заклинаний другого юнита на 1 до конца его хода.",
+        "ru_upgraded_description": "Снизьте цену заклинаний юнита на 1 до конца его хода. Можно на себя.",
+        "en_name": "Teach",
+        "en_description": "Reduce the cost of another unit's spells by 1 until the end of their turn.",
+        "en_upgraded_description": "Reduce the cost of a unit's spells by 1 until the end of their turn. This can target yourself."
+      },
+      "manifest": {
+        "ability_id": "Teach",
+        "display_name": "Teach",
+        "tool_class": "mage",
+        "icon_label": "Teach",
+        "resolved_icon_label": "Teach",
+        "main_svg_id": "770",
+        "main_svg_filename": "770.svg"
+      },
+      "numbers": {
+        "raw": "5",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "debuff",
+        "top_icon_svg_id": "2789",
+        "top_icon_svg": "2789.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Teleport",
       "class": "Mage",
       "variant": "normal",
@@ -827,6 +1256,45 @@
       "wiki_name": "Whirlpool",
       "class": "Mage",
       "variant": "normal",
+      "description": "Create a whirlpool that spins units and inflicts Confusion on them.Upgraded: Create a larger whirlpool that spins units and inflicts Confusion on them.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_WATERSPHERE_NAME",
+        "ru_name": "Водоворот",
+        "ru_description": "Создайте водоворот, который крутит юнитов и накладывает Замешательство.",
+        "ru_upgraded_description": "Создайте большой водоворот, который крутит юнитов и накладывает Замешательство.",
+        "en_name": "Whirlpool",
+        "en_description": "Create a whirlpool that spins units and inflicts Confusion on them.",
+        "en_upgraded_description": "Create a larger whirlpool that spins units and inflicts Confusion on them."
+      },
+      "manifest": {
+        "ability_id": "WaterSphere",
+        "display_name": "Whirlpool",
+        "tool_class": "mage",
+        "icon_label": "WaterSphere",
+        "resolved_icon_label": "WaterSphere",
+        "main_svg_id": "772",
+        "main_svg_filename": "772.svg"
+      },
+      "numbers": {
+        "raw": "7",
+        "frame_type": "Mana",
+        "value": "",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Whirlpool",
+      "class": "Mage",
+      "variant": "upgraded",
       "description": "Create a whirlpool that spins units and inflicts Confusion on them.Upgraded: Create a larger whirlpool that spins units and inflicts Confusion on them.",
       "value_kind": "none",
       "translation": {

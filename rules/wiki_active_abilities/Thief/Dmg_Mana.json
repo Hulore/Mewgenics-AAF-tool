@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Thief",
   "frame_type": "Dmg_Mana",
-  "count": 18,
+  "count": 27,
   "abilities": [
     {
       "wiki_name": "Assassinate",
@@ -122,9 +122,87 @@
       }
     },
     {
+      "wiki_name": "Chakram",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Throw a projectile that passes through units and then returns to you. This can collect pickups.Upgraded: Throw a projectile that passes through units and then returns to you. At its apex, it deals increased damage and always crits. This can collect pickups.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CHAKRAM_NAME",
+        "ru_name": "Шакрам",
+        "ru_description": "Бросьте снаряд, который летит насквозь и возвращается. Собирает лут.",
+        "ru_upgraded_description": "Бросьте снаряд-бумеранг. В наивысшей точке наносит доп. урон и всегда критует. Собирает лут.",
+        "en_name": "Chakram",
+        "en_description": "Throw a projectile that passes through units and then returns to you. This can collect pickups.",
+        "en_upgraded_description": "Throw a projectile that passes through units and then returns to you. At its apex, it deals increased damage and always crits. This can collect pickups."
+      },
+      "manifest": {
+        "ability_id": "Chakram",
+        "display_name": "Chakram",
+        "tool_class": "thief",
+        "icon_label": "Chakram",
+        "resolved_icon_label": "Chakram",
+        "main_svg_id": "721",
+        "main_svg_filename": "721.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Coin Toss",
       "class": "Thief",
       "variant": "normal",
+      "description": "Throw a coin that deals damage. RELOAD: Collect a coin. This spell costs more mana each additional time you use it on the same turn. Upgraded: Throw a coin at infinite range with +50% crit chance that ignores shield. RELOAD: Collect a coin. This spell costs more mana each additional time you use it on the same turn.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_COINTOSS_NAME",
+        "ru_name": "Бросок монеты",
+        "ru_description": "Бросьте монету (урон).\nПЕРЕЗАРЯДКА: Подберите монету.\n[s:.7]Стоит дороже с каждым броском за ход.[/s]",
+        "ru_upgraded_description": "Бросьте монету (беск. дальность, +50% крит, игнор щита).\nПЕРЕЗАРЯДКА: Подберите монету.\n[s:.7]Стоит дороже с каждым броском за ход.[/s]",
+        "en_name": "Coin Toss",
+        "en_description": "Throw a coin that deals damage.\nRELOAD: Collect a coin.\n[s:.7]This spell costs more mana each additional time you use it on the same turn.[/s]",
+        "en_upgraded_description": "Throw a coin at infinite range with +50% crit chance that ignores shield.\nRELOAD: Collect a coin.\n[s:.7]This spell costs more mana each additional time you use it on the same turn.[/s]"
+      },
+      "manifest": {
+        "ability_id": "CoinToss",
+        "display_name": "Coin Toss",
+        "tool_class": "thief",
+        "icon_label": "CoinToss",
+        "resolved_icon_label": "CoinToss",
+        "main_svg_id": "675",
+        "main_svg_filename": "675.svg"
+      },
+      "numbers": {
+        "raw": "10 0",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Coin Toss",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "Throw a coin that deals damage. RELOAD: Collect a coin. This spell costs more mana each additional time you use it on the same turn. Upgraded: Throw a coin at infinite range with +50% crit chance that ignores shield. RELOAD: Collect a coin. This spell costs more mana each additional time you use it on the same turn.",
       "value_kind": "damage",
       "translation": {
@@ -278,6 +356,45 @@
       }
     },
     {
+      "wiki_name": "Pierce Shot",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "Throw a nail that passes through units and ignores shield.Upgraded: Throw an infinite range nail that passes through units and ignores shield.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_PIERCESHOT_NAME",
+        "ru_name": "Пронзающий выстрел",
+        "ru_description": "Гвоздь, прошивающий насквозь (игнор щита).",
+        "ru_upgraded_description": "Гвоздь на всю карту, прошивающий насквозь (игнор щита).",
+        "en_name": "Pierce Shot",
+        "en_description": "Throw a nail that passes through units and ignores shield.",
+        "en_upgraded_description": "Throw an infinite range nail that passes through units and ignores shield."
+      },
+      "manifest": {
+        "ability_id": "PierceShot",
+        "display_name": "Pierce Shot",
+        "tool_class": "thief",
+        "icon_label": "PierceShot",
+        "resolved_icon_label": "PierceShot",
+        "main_svg_id": "701",
+        "main_svg_filename": "701.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "ranged",
+        "top_icon_svg_id": "2787",
+        "top_icon_svg": "2787.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Poison Nail",
       "class": "Thief",
       "variant": "normal",
@@ -356,9 +473,87 @@
       }
     },
     {
+      "wiki_name": "Rebound",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "A melee attack that rebounds you backwards 10 tiles.Upgraded: A melee attack that rebounds you backwards 10 tiles. Deal damage to any unit you collide with.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_REBOUND_NAME",
+        "ru_name": "Отскок",
+        "ru_description": "Ближняя атака, которая откидывает ВАС на 10 клеток назад.",
+        "ru_upgraded_description": "Ближняя атака, которая откидывает ВАС на 10 клеток назад. Урон при столкновении.",
+        "en_name": "Rebound",
+        "en_description": "A melee attack that rebounds you backwards 10 tiles.",
+        "en_upgraded_description": "A melee attack that rebounds you backwards 10 tiles. Deal damage to any unit you collide with."
+      },
+      "manifest": {
+        "ability_id": "Rebound",
+        "display_name": "Rebound",
+        "tool_class": "thief",
+        "icon_label": "Rebound",
+        "resolved_icon_label": "Rebound",
+        "main_svg_id": "676",
+        "main_svg_filename": "676.svg"
+      },
+      "numbers": {
+        "raw": "5 3",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Sever Artery",
       "class": "Thief",
       "variant": "normal",
+      "description": "A weak melee attack. If this crits, inflict Bleed 5.Upgraded: A weak melee attack. If this crits inflict Bleed 5 and you gain All Stats Up.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SEVERARTERY_NAME",
+        "ru_name": "Вскрытие артерии",
+        "ru_description": "Слабая атака ближнего боя. При крите: Кровотечение 5",
+        "ru_upgraded_description": "Слабая атака ближнего боя. При крите: Кровотечение 5 и вы получаете Всех Хар-к.",
+        "en_name": "Sever Artery",
+        "en_description": "A weak melee attack. If this crits, inflict Bleed 5.",
+        "en_upgraded_description": "A weak melee attack. If this crits inflict Bleed 5 and you gain All Stats Up."
+      },
+      "manifest": {
+        "ability_id": "SeverArtery",
+        "display_name": "Sever Artery",
+        "tool_class": "thief",
+        "icon_label": "SeverArtery",
+        "resolved_icon_label": "SeverArtery",
+        "main_svg_id": "705",
+        "main_svg_filename": "705.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Sever Artery",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "A weak melee attack. If this crits, inflict Bleed 5.Upgraded: A weak melee attack. If this crits inflict Bleed 5 and you gain All Stats Up.",
       "value_kind": "damage",
       "translation": {
@@ -473,9 +668,87 @@
       }
     },
     {
+      "wiki_name": "Slice",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "A melee attack that has all effects of your basic attack and ignores shield.Upgraded: A melee attack that has all effects of your basic attack and ignores shield. (This spell is free the 1st time you use it each turn.)",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_SLICE_NAME",
+        "ru_name": "Разрез",
+        "ru_description": "Ближняя атака с эффектами базовой атаки, игнорирует щит.",
+        "ru_upgraded_description": "Ближняя атака с эффектами базовой атаки, игнорирует щит.\n[s:.7](Бесплатно первый раз за ход.)[/s]",
+        "en_name": "Slice",
+        "en_description": "A melee attack that has all effects of your basic attack and ignores shield.",
+        "en_upgraded_description": "A melee attack that has all effects of your basic attack and ignores shield.\n[s:.7](This spell is free the 1st time you use it each turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "Slice",
+        "display_name": "Slice",
+        "tool_class": "thief",
+        "icon_label": "Slice",
+        "resolved_icon_label": "Slice",
+        "main_svg_id": "694",
+        "main_svg_filename": "694.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Steal Kidney",
       "class": "Thief",
       "variant": "normal",
+      "description": "A melee attack with increased critical hit chance. If this crits and your trinket slot is empty, gain a kidney, then inflict Bleed 1.Upgraded: A melee attack with increased critical hit chance that inflicts Bleed and Bruise 1. If this crits and your trinket slot is empty, gain a kidney, then inflict Bleed 1.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_STEALKIDNEY_NAME",
+        "ru_name": "Кража почки",
+        "ru_description": "Ближняя атака с высоким шансом крита. При крите (если слот брелока пуст): получите почку и наложите Кровотечение 1.",
+        "ru_upgraded_description": "Ближняя атака (крит, Кровотечение, Ушиб). При крите (если слот пуст): получите почку, затем Кровотечение 1.",
+        "en_name": "Steal Kidney",
+        "en_description": "A melee attack with increased critical hit chance. If this crits and your trinket slot is empty, gain a kidney, then inflict Bleed 1.",
+        "en_upgraded_description": "A melee attack with increased critical hit chance that inflicts Bleed and Bruise 1. If this crits and your trinket slot is empty, gain a kidney, then inflict Bleed 1."
+      },
+      "manifest": {
+        "ability_id": "StealKidney",
+        "display_name": "Steal Kidney",
+        "tool_class": "thief",
+        "icon_label": "StealKidney",
+        "resolved_icon_label": "StealKidney",
+        "main_svg_id": "715",
+        "main_svg_filename": "715.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Steal Kidney",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "A melee attack with increased critical hit chance. If this crits and your trinket slot is empty, gain a kidney, then inflict Bleed 1.Upgraded: A melee attack with increased critical hit chance that inflicts Bleed and Bruise 1. If this crits and your trinket slot is empty, gain a kidney, then inflict Bleed 1.",
       "value_kind": "damage",
       "translation": {
@@ -551,9 +824,87 @@
       }
     },
     {
+      "wiki_name": "Steal Luck",
+      "class": "Thief",
+      "variant": "upgraded",
+      "description": "A weak melee attack. If this crits, inflict -1 Luck and you gain +1 Luck.Upgraded: A weak melee attack that inflicts -1 Luck and you gain +1 Luck.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_STEALLUCK_NAME",
+        "ru_name": "Кража удачи",
+        "ru_description": "Слабая атака. При крите: -1 [img:lck] врагу, +1 [img:lck] вам.",
+        "ru_upgraded_description": "Слабая атака: -1 [img:lck] врагу, +1 [img:lck] вам.",
+        "en_name": "Steal Luck",
+        "en_description": "A weak melee attack. If this crits, inflict -1 [img:lck] and you gain +1 [img:lck].",
+        "en_upgraded_description": "A weak melee attack that inflicts -1 [img:lck] and you gain +1 [img:lck]."
+      },
+      "manifest": {
+        "ability_id": "StealLuck",
+        "display_name": "Steal Luck",
+        "tool_class": "thief",
+        "icon_label": "StealLuck",
+        "resolved_icon_label": "StealLuck",
+        "main_svg_id": "714",
+        "main_svg_filename": "714.svg"
+      },
+      "numbers": {
+        "raw": "1 3",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Steal Time",
       "class": "Thief",
       "variant": "normal",
+      "description": "A melee attack. If this crits, refresh your basic attack and movement actions.Upgraded: A melee attack with +30% crit chance. If this crits, refresh your basic attack and movement actions.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_STEALTIME_NAME",
+        "ru_name": "Кража времени",
+        "ru_description": "Ближняя атака. При крите: обновите атаку и движение.",
+        "ru_upgraded_description": "Ближняя атака (+30% крит). При крите: обновите атаку и движение.",
+        "en_name": "Steal Time",
+        "en_description": "A melee attack. If this crits, refresh your basic attack and movement actions.",
+        "en_upgraded_description": "A melee attack with +30% crit chance. If this crits, refresh your basic attack and movement actions."
+      },
+      "manifest": {
+        "ability_id": "StealTime",
+        "display_name": "Steal Time",
+        "tool_class": "thief",
+        "icon_label": "StealTime",
+        "resolved_icon_label": "StealTime",
+        "main_svg_id": "719",
+        "main_svg_filename": "719.svg"
+      },
+      "numbers": {
+        "raw": "1 4",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "4",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\thief_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Steal Time",
+      "class": "Thief",
+      "variant": "upgraded",
       "description": "A melee attack. If this crits, refresh your basic attack and movement actions.Upgraded: A melee attack with +30% crit chance. If this crits, refresh your basic attack and movement actions.",
       "value_kind": "damage",
       "translation": {

@@ -2,12 +2,51 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Monk",
   "frame_type": "Xdmg_Mana",
-  "count": 4,
+  "count": 5,
   "abilities": [
     {
       "wiki_name": "Hundred Hand Slap",
       "class": "Monk",
       "variant": "normal",
+      "description": "A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo.Upgraded: A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo. Each hit has a 10% chance to inflict Bruise. The final hit deals extra damage.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_100HANDSLAP_NAME",
+        "ru_name": "Пощечина Ста Рук",
+        "ru_description": "Ближняя атака из десяти ударов с Отбрасыванием 10 в конце.",
+        "ru_upgraded_description": "Ближняя атака из десяти ударов. Каждый удар имеет 10% шанс Ушиба. Последний удар наносит доп. урон.",
+        "en_name": "Hundred Hand Slap",
+        "en_description": "A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo.",
+        "en_upgraded_description": "A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo. Each hit has a 10% chance to inflict Bruise. The final hit deals extra damage."
+      },
+      "manifest": {
+        "ability_id": "HundredHandSlap",
+        "display_name": "Hundred Hand Slap",
+        "tool_class": "monk",
+        "icon_label": "HundredHandSlap",
+        "resolved_icon_label": "HundredHandSlap",
+        "main_svg_id": "1088",
+        "main_svg_filename": "1088.svg"
+      },
+      "numbers": {
+        "raw": "1x10 15",
+        "frame_type": "Xdmg_Mana",
+        "value": "1x10",
+        "mana": "15",
+        "hit_count": 1,
+        "hit_value": "10"
+      },
+      "top_icon": {
+        "type_icon": "melee",
+        "top_icon_svg_id": "2777",
+        "top_icon_svg": "2777.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\monk_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Hundred Hand Slap",
+      "class": "Monk",
+      "variant": "upgraded",
       "description": "A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo.Upgraded: A ten-hit multi-strike melee attack with Knockback 10 at the end of the combo. Each hit has a 10% chance to inflict Bruise. The final hit deals extra damage.",
       "value_kind": "damage",
       "translation": {

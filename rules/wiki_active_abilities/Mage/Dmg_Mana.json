@@ -2,7 +2,7 @@
   "source": "https://mewgenics.wiki.gg/wiki/Abilities",
   "class": "Mage",
   "frame_type": "Dmg_Mana",
-  "count": 51,
+  "count": 63,
   "abilities": [
     {
       "wiki_name": "Absorb",
@@ -44,9 +44,87 @@
       }
     },
     {
+      "wiki_name": "Absorb",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Spend all of your mana and heal that much HP.Upgraded: Spend all of your mana and heal that much HP. Excess healing is converted into .",
+      "value_kind": "heal",
+      "translation": {
+        "text_key": "ABILITY_ABSORB_NAME",
+        "ru_name": "Поглощение",
+        "ru_description": "Потратьте всю ману и исцелите столько же ОЗ.",
+        "ru_upgraded_description": "Потратьте всю ману и исцелите столько же ОЗ. Лишнее лечение станет [img:shield].",
+        "en_name": "Absorb",
+        "en_description": "Spend all of your mana and heal that much HP.",
+        "en_upgraded_description": "Spend all of your mana and heal that much HP. Excess healing is converted into [img:shield]."
+      },
+      "manifest": {
+        "ability_id": "Absorb",
+        "display_name": "Absorb",
+        "tool_class": "mage",
+        "icon_label": "Absorb",
+        "resolved_icon_label": "Absorb",
+        "main_svg_id": "735",
+        "main_svg_filename": "735.svg"
+      },
+      "numbers": {
+        "raw": "0 All",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "All",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "heal",
+        "top_icon_svg_id": "2785",
+        "top_icon_svg": "2785.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Black Magic",
       "class": "Mage",
       "variant": "normal",
+      "description": "Drop to 1 HP. Gain mana equal to the HP lost. (Castable once per turn.) Upgraded: Drop to 1 HP. Gain mana equal to the HP lost and gain All Stats Up 2. (Castable once per turn.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_BLACKMAGIC_NAME",
+        "ru_name": "Черная магия",
+        "ru_description": "Опустите ОЗ до 1. Получите ману, равную потерянному здоровью.\n[s:.7](Раз за ход.)[/s]",
+        "ru_upgraded_description": "Опустите ОЗ до 1. Получите ману, равную потерянному здоровью. Повышение Всех Характеристик 2.\n[s:.7](Раз за ход.)[/s]",
+        "en_name": "Black Magic",
+        "en_description": "Drop to 1 HP. Gain mana equal to the HP lost.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Drop to 1 HP. Gain mana equal to the HP lost and gain All Stats Up 2.\n[s:.7](Castable once per turn.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "BlackMagic",
+        "display_name": "Black Magic",
+        "tool_class": "mage",
+        "icon_label": "BlackMagic",
+        "resolved_icon_label": "BlackMagic",
+        "main_svg_id": "771",
+        "main_svg_filename": "771.svg"
+      },
+      "numbers": {
+        "raw": "1 0",
+        "frame_type": "Dmg_Mana",
+        "value": "1",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "buff",
+        "top_icon_svg_id": "2791",
+        "top_icon_svg": "2791.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Black Magic",
+      "class": "Mage",
+      "variant": "upgraded",
       "description": "Drop to 1 HP. Gain mana equal to the HP lost. (Castable once per turn.) Upgraded: Drop to 1 HP. Gain mana equal to the HP lost and gain All Stats Up 2. (Castable once per turn.)",
       "value_kind": "none",
       "translation": {
@@ -278,9 +356,87 @@
       }
     },
     {
+      "wiki_name": "Chain Lightning",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Shoot lightning that chains randomly to other nearby units up to 2 tiles away.Upgraded: Shoot lightning that chains randomly to other nearby enemies up to 3 tiles away.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_CHAINLIGHTNING_NAME",
+        "ru_name": "Цепная молния",
+        "ru_description": "Молния, которая хаотично скачет на других юнитов (до 2 клеток).",
+        "ru_upgraded_description": "Молния, которая хаотично скачет на других врагов (до 3 клеток).",
+        "en_name": "Chain Lightning",
+        "en_description": "Shoot lightning that chains randomly to other nearby units up to 2 tiles away.",
+        "en_upgraded_description": "Shoot lightning that chains randomly to other nearby enemies up to 3 tiles away."
+      },
+      "manifest": {
+        "ability_id": "ChainLightning",
+        "display_name": "Chain Lightning",
+        "tool_class": "mage",
+        "icon_label": "ChainLightning",
+        "resolved_icon_label": "ChainLightning",
+        "main_svg_id": "751",
+        "main_svg_filename": "751.svg"
+      },
+      "numbers": {
+        "raw": "4 7",
+        "frame_type": "Dmg_Mana",
+        "value": "4",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Crescendo",
       "class": "Mage",
       "variant": "normal",
+      "description": "This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell. This spell resets after you cast it.Upgraded: This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell. This spell loses half its boosts after you cast it.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_CRESHENDO_NAME",
+        "ru_name": "Крещендо",
+        "ru_description": "Урон, дальность, область заклинания +1 а стоимости применения -1 каждый раз, когда используешь другие заклинания.\r\n(Сбрасывает усиления после применения)",
+        "ru_upgraded_description": "Урон, дальность, область заклинания +1 а стоимости применения -1 каждый раз, когда используешь другие заклинания.\n(Сбрасывает только половину усилений после применения.)",
+        "en_name": "Crescendo",
+        "en_description": "This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell.\nThis spell resets after you cast it.",
+        "en_upgraded_description": "This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell.\nThis spell loses half its boosts after you cast it."
+      },
+      "manifest": {
+        "ability_id": "Creshendo",
+        "display_name": "Crescendo",
+        "tool_class": "mage",
+        "icon_label": "Creshendo",
+        "resolved_icon_label": "Creshendo",
+        "main_svg_id": "761",
+        "main_svg_filename": "761.svg"
+      },
+      "numbers": {
+        "raw": "0 6",
+        "frame_type": "Dmg_Mana",
+        "value": "0",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Crescendo",
+      "class": "Mage",
+      "variant": "upgraded",
       "description": "This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell. This spell resets after you cast it.Upgraded: This spell gains +1 damage, range and area, and -1 mana cost each time you cast a spell. This spell loses half its boosts after you cast it.",
       "value_kind": "damage",
       "translation": {
@@ -824,6 +980,45 @@
       }
     },
     {
+      "wiki_name": "Forbidden Flood",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Knock back and damage all enemies, then flood the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Knock back and damage all enemies, heal all allies, then flood the entire map. There will be permanent consequences for casting this spell… (Castable once per battle.)",
+      "value_kind": "damage_or_heal",
+      "translation": {
+        "text_key": "ABILITY_FORBIDDENFLOOD_NAME",
+        "ru_name": "Запретный Потоп",
+        "ru_description": "Отбросьте и пораньте всех врагов, затопите всю карту. \nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Отбросьте и пораньте всех врагов, исцелите союзников, затопите карту.\nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Forbidden Flood",
+        "en_description": "Knock back and damage all enemies, then flood the entire map. There will be permanent consequences for casting this spell…\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Knock back and damage all enemies, heal all allies, then flood the entire map. There will be permanent consequences for casting this spell…\n[s:.7](Castable once per battle.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "ForbiddenFlood",
+        "display_name": "Forbidden Flood",
+        "tool_class": "mage",
+        "icon_label": "ForbiddenFlood",
+        "resolved_icon_label": "ForbiddenFlood",
+        "main_svg_id": "749",
+        "main_svg_filename": "749.svg"
+      },
+      "numbers": {
+        "raw": "10 0",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Forbidden Frost",
       "class": "Mage",
       "variant": "normal",
@@ -941,6 +1136,45 @@
       }
     },
     {
+      "wiki_name": "Forbidden Fulmination",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Strike all enemies with lightning, inflicting Stun. There will be permanent consequences for casting this spell… (Castable once per battle.) Upgraded: Strike all enemies with lightning, inflicting Stun 2. There will be permanent consequences for casting this spell… (Castable once per battle.)",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_FORBIDDENFULMINATION_NAME",
+        "ru_name": "Запретный Гром",
+        "ru_description": "Ударьте всех врагов молнией, накладывая Оглушение. \nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "ru_upgraded_description": "Ударьте всех врагов молнией, накладывая Оглушение 2. \nПрименение будет иметь необратимые последствия (Расстройство)...\n[s:.7](Раз за битву.)[/s]",
+        "en_name": "Forbidden Fulmination",
+        "en_description": "Strike all enemies with lightning, inflicting Stun. There will be permanent consequences for casting this spell…\r\n[s:.7](Castable once per battle.)[/s]",
+        "en_upgraded_description": "Strike all enemies with lightning, inflicting Stun 2. There will be permanent consequences for casting this spell…\r\n[s:.7](Castable once per battle.)[/s]"
+      },
+      "manifest": {
+        "ability_id": "ForbiddenFulmination",
+        "display_name": "Forbidden Fulmination",
+        "tool_class": "mage",
+        "icon_label": "ForbiddenFulmination",
+        "resolved_icon_label": "ForbiddenFulmination",
+        "main_svg_id": "757",
+        "main_svg_filename": "757.svg"
+      },
+      "numbers": {
+        "raw": "6 0",
+        "frame_type": "Dmg_Mana",
+        "value": "6",
+        "mana": "0",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Freezer Burn",
       "class": "Mage",
       "variant": "normal",
@@ -1022,6 +1256,45 @@
       "wiki_name": "Hyper Beam",
       "class": "Mage",
       "variant": "normal",
+      "description": "Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile. (Castable once per turn.) Upgraded: Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_HYPERBEAM_NAME",
+        "ru_name": "Гипер-луч",
+        "ru_description": "Выберите клетку. В начале следующего хода и ударьте туда мега-лучом с диким уроном.\n[s:.7](Можно использовать раз за ход.)[/s]",
+        "ru_upgraded_description": "Выберите клетку. В начале следующего хода ударьте туда мега-лучом с диким уроном.",
+        "en_name": "Hyper Beam",
+        "en_description": "Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile.\n[s:.7](Castable once per turn.)[/s]",
+        "en_upgraded_description": "Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile."
+      },
+      "manifest": {
+        "ability_id": "HyperBeam",
+        "display_name": "Hyper Beam",
+        "tool_class": "mage",
+        "icon_label": "HyperBeam",
+        "resolved_icon_label": "HyperBeam",
+        "main_svg_id": "730",
+        "main_svg_filename": "730.svg"
+      },
+      "numbers": {
+        "raw": "25 3",
+        "frame_type": "Dmg_Mana",
+        "value": "25",
+        "mana": "3",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Hyper Beam",
+      "class": "Mage",
+      "variant": "upgraded",
       "description": "Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile. (Castable once per turn.) Upgraded: Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile.",
       "value_kind": "damage",
       "translation": {
@@ -1448,6 +1721,45 @@
       }
     },
     {
+      "wiki_name": "Magic Missile",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Shoot an infinite-range projectile that can't miss.Upgraded: Shoot an infinite-range projectile that can't miss. Emit 3 Sparkles.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_MAGICMISSILE_NAME",
+        "ru_name": "Магическая стрела",
+        "ru_description": "Выстрелить снарядом с бесконечной дальностью.",
+        "ru_upgraded_description": "Выстрелить снарядом с бесконечной дальностью. Выпустите 3 искры.",
+        "en_name": "Magic Missile",
+        "en_description": "Shoot an infinite-range projectile that can't miss.",
+        "en_upgraded_description": "Shoot an infinite-range projectile that can't miss. Emit 3 Sparkles."
+      },
+      "manifest": {
+        "ability_id": "MagicMissile",
+        "display_name": "Magic Missile",
+        "tool_class": "mage",
+        "icon_label": "MagicMissile",
+        "resolved_icon_label": "MagicMissile",
+        "main_svg_id": "728",
+        "main_svg_filename": "728.svg"
+      },
+      "numbers": {
+        "raw": "3 5",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "5",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Mega Blast",
       "class": "Mage",
       "variant": "normal",
@@ -1487,9 +1799,87 @@
       }
     },
     {
+      "wiki_name": "Mega Blast",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Deal high damage in a cone.Upgraded: Deal high damage in a larger cone.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_MEGABLAST_NAME",
+        "ru_name": "Мега-взрыв",
+        "ru_description": "Нанесите высокий урон в конусе.",
+        "ru_upgraded_description": "Нанесите высокий урон в большем конусе.",
+        "en_name": "Mega Blast",
+        "en_description": "Deal high damage in a cone.",
+        "en_upgraded_description": "Deal high damage in a larger cone."
+      },
+      "manifest": {
+        "ability_id": "MegaBlast",
+        "display_name": "Mega Blast",
+        "tool_class": "mage",
+        "icon_label": "MegaBlast",
+        "resolved_icon_label": "MegaBlast",
+        "main_svg_id": "729",
+        "main_svg_filename": "729.svg"
+      },
+      "numbers": {
+        "raw": "15 13",
+        "frame_type": "Dmg_Mana",
+        "value": "15",
+        "mana": "13",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Meteor Storm",
       "class": "Mage",
       "variant": "normal",
+      "description": "Summon meteors that hit random tiles in a large area. These meteors have a chance to stun, spawn fires, or leave rocks behind.Upgraded: Summon meteors that hit random tiles in a larger area. These meteors have a chance to stun, spawn fires, or leave rocks behind.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_METEORSTORM_NAME",
+        "ru_name": "Метеоритный шторм",
+        "ru_description": "Призовите метеориты, они падают на случайные клетки в большой области (7). Эти метеориты могут оглушать, поджечь или оставлять камни.",
+        "ru_upgraded_description": "Призовите метеориты, они падают на случайные клетки в более большой области. Эти метеориты могут оглушать, поджечь или оставлять камни.",
+        "en_name": "Meteor Storm",
+        "en_description": "Summon meteors that hit random tiles in a large area. These meteors have a chance to stun, spawn fires, or leave rocks behind.",
+        "en_upgraded_description": "Summon meteors that hit random tiles in a larger area. These meteors have a chance to stun, spawn fires, or leave rocks behind."
+      },
+      "manifest": {
+        "ability_id": "MeteorStorm",
+        "display_name": "Meteor Storm",
+        "tool_class": "mage",
+        "icon_label": "MeteorStorm",
+        "resolved_icon_label": "MeteorStorm",
+        "main_svg_id": "726",
+        "main_svg_filename": "726.svg"
+      },
+      "numbers": {
+        "raw": "10 10",
+        "frame_type": "Dmg_Mana",
+        "value": "10",
+        "mana": "10",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Meteor Storm",
+      "class": "Mage",
+      "variant": "upgraded",
       "description": "Summon meteors that hit random tiles in a large area. These meteors have a chance to stun, spawn fires, or leave rocks behind.Upgraded: Summon meteors that hit random tiles in a larger area. These meteors have a chance to stun, spawn fires, or leave rocks behind.",
       "value_kind": "none",
       "translation": {
@@ -1721,6 +2111,45 @@
       }
     },
     {
+      "wiki_name": "Telefrag",
+      "class": "Mage",
+      "variant": "upgraded",
+      "description": "Teleport onto a unit, dealing damage to yourself and that unit.Upgraded: Teleport onto a unit, dealing damage to that unit.",
+      "value_kind": "damage",
+      "translation": {
+        "text_key": "ABILITY_TELEFRAG_NAME",
+        "ru_name": "Телефраг",
+        "ru_description": "Телепортируйтесь ПРЯМО в юнита, нанося урон и себе, и ему.",
+        "ru_upgraded_description": "Телепортируйтесь ПРЯМО в юнита, нанося урон ему.",
+        "en_name": "Telefrag",
+        "en_description": "Teleport onto a unit, dealing damage to yourself and that unit.",
+        "en_upgraded_description": "Teleport onto a unit, dealing damage to that unit."
+      },
+      "manifest": {
+        "ability_id": "Telefrag",
+        "display_name": "Telefrag",
+        "tool_class": "mage",
+        "icon_label": "Telefrag",
+        "resolved_icon_label": "Telefrag",
+        "main_svg_id": "739",
+        "main_svg_filename": "739.svg"
+      },
+      "numbers": {
+        "raw": "5 6",
+        "frame_type": "Dmg_Mana",
+        "value": "5",
+        "mana": "6",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
       "wiki_name": "Thunderburst",
       "class": "Mage",
       "variant": "normal",
@@ -1802,6 +2231,45 @@
       "wiki_name": "Tri-Attack",
       "class": "Mage",
       "variant": "normal",
+      "description": "A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun.Upgraded: A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun in an area.",
+      "value_kind": "none",
+      "translation": {
+        "text_key": "ABILITY_TRIATTACK_NAME",
+        "ru_name": "Три-Атака",
+        "ru_description": "Огонь/Лед/Электричество: Горение 1, Замедление 1 и 5% шанс Оглушения.",
+        "ru_upgraded_description": "Огонь/Лед/Электричество: Горение 1, Замедление 1 и 5% шанс Оглушения в области.",
+        "en_name": "Tri-Attack",
+        "en_description": "A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun.",
+        "en_upgraded_description": "A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun in an area."
+      },
+      "manifest": {
+        "ability_id": "TriAttack",
+        "display_name": "Tri-Attack",
+        "tool_class": "mage",
+        "icon_label": "TriAttack",
+        "resolved_icon_label": "TriAttack",
+        "main_svg_id": "766",
+        "main_svg_filename": "766.svg"
+      },
+      "numbers": {
+        "raw": "3 7",
+        "frame_type": "Dmg_Mana",
+        "value": "3",
+        "mana": "7",
+        "hit_count": null,
+        "hit_value": ""
+      },
+      "top_icon": {
+        "type_icon": "magic",
+        "top_icon_svg_id": "2795",
+        "top_icon_svg": "2795.svg",
+        "source_file": "H:\\Mewgenics Projects\\Passive Abilities Frame\\gpak-all\\data\\abilities\\mage_abilities.gon"
+      }
+    },
+    {
+      "wiki_name": "Tri-Attack",
+      "class": "Mage",
+      "variant": "upgraded",
       "description": "A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun.Upgraded: A Fire / Ice / Electric spell that inflicts Burn 1, Slow 1, and has a 5% chance to inflict Stun in an area.",
       "value_kind": "none",
       "translation": {
