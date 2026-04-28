@@ -25,8 +25,8 @@
         "tool_class": "mage",
         "icon_label": "HomingBlasts",
         "resolved_icon_label": "HomingBlasts",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "769",
+        "main_svg_filename": "769.svg"
       },
       "numbers": {
         "raw": "3x3 7",
@@ -64,8 +64,8 @@
         "tool_class": "mage",
         "icon_label": "HomingBlasts",
         "resolved_icon_label": "HomingBlasts",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "769",
+        "main_svg_filename": "769.svg"
       },
       "numbers": {
         "raw": "3x4 6",

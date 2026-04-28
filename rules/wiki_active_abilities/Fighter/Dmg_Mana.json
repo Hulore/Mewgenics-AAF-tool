@@ -1117,8 +1117,8 @@
         "tool_class": "fighter",
         "icon_label": "Ram",
         "resolved_icon_label": "Ram",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "872",
+        "main_svg_filename": "872.svg"
       },
       "numbers": {
         "raw": "3 6",

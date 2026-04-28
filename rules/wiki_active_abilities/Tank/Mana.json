@@ -59,13 +59,13 @@
         "en_upgraded_description": "Knock back all adjacent units 3 tiles and inflict Poison 1."
       },
       "manifest": {
-        "ability_id": "Gassy_AssBlast",
+        "ability_id": "AssBlast",
         "display_name": "Ass Blast",
-        "tool_class": "colorless",
-        "icon_label": "Gassy_AssBlast",
-        "resolved_icon_label": "Gassy_AssBlast",
-        "main_svg_id": "1276",
-        "main_svg_filename": "1276.svg"
+        "tool_class": "tank",
+        "icon_label": "AssBlast",
+        "resolved_icon_label": "AssBlast",
+        "main_svg_id": "621",
+        "main_svg_filename": "621.svg"
       },
       "numbers": {
         "raw": "4",
@@ -878,13 +878,13 @@
         "en_upgraded_description": ""
       },
       "manifest": {
-        "ability_id": "RockSong",
-        "display_name": "",
-        "tool_class": "colorless",
-        "icon_label": "RockSong",
-        "resolved_icon_label": "",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "ability_id": "TankRockSong",
+        "display_name": "Rock Song",
+        "tool_class": "tank",
+        "icon_label": "TankRockSong",
+        "resolved_icon_label": "TankRockSong",
+        "main_svg_id": "644",
+        "main_svg_filename": "644.svg"
       },
       "numbers": {
         "raw": "6",
@@ -917,13 +917,13 @@
         "en_upgraded_description": ""
       },
       "manifest": {
-        "ability_id": "RockSong",
-        "display_name": "",
-        "tool_class": "colorless",
-        "icon_label": "RockSong",
-        "resolved_icon_label": "",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "ability_id": "TankRockSong",
+        "display_name": "Rock Song",
+        "tool_class": "tank",
+        "icon_label": "TankRockSong",
+        "resolved_icon_label": "TankRockSong",
+        "main_svg_id": "644",
+        "main_svg_filename": "644.svg"
       },
       "numbers": {
         "raw": "3",
@@ -961,8 +961,8 @@
         "tool_class": "tank",
         "icon_label": "Sandstorm",
         "resolved_icon_label": "Sandstorm",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "667",
+        "main_svg_filename": "667.svg"
       },
       "numbers": {
         "raw": "4",

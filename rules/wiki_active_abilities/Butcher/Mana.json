@@ -181,8 +181,8 @@
         "tool_class": "butcher",
         "icon_label": "Butcher",
         "resolved_icon_label": "Butcher",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "986",
+        "main_svg_filename": "986.svg"
       },
       "numbers": {
         "raw": "5",
@@ -727,8 +727,8 @@
         "tool_class": "butcher",
         "icon_label": "Regurge",
         "resolved_icon_label": "Regurge",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "1258",
+        "main_svg_filename": "1258.svg"
       },
       "numbers": {
         "raw": "3",

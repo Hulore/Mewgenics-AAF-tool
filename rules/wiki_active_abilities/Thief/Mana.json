@@ -415,8 +415,8 @@
         "tool_class": "thief",
         "icon_label": "Jitter",
         "resolved_icon_label": "Jitter",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "720",
+        "main_svg_filename": "720.svg"
       },
       "numbers": {
         "raw": "3",
@@ -961,8 +961,8 @@
         "tool_class": "thief",
         "icon_label": "PoisonDip",
         "resolved_icon_label": "PoisonDip",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "717",
+        "main_svg_filename": "717.svg"
       },
       "numbers": {
         "raw": "All",

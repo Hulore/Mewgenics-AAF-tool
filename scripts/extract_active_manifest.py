@@ -19,6 +19,7 @@ SKIP_ABILITY_FILES = {
 CLASS_ALIASES = {
     "medic": "cleric",
     "colorless": "colorless",
+    "collarless": "colorless",
 }
 
 
@@ -121,6 +122,7 @@ def extract_ability_icon_map(frames_xml: Path) -> dict[str, dict[str, int]]:
     frame = 1
     display: dict[int, int] = {}
     pending_labels: list[str] = []
+    pending_character_id = 0
 
     for item in sprite.find("subTags").findall("item"):
         item_type = item.get("type")
@@ -128,14 +130,18 @@ def extract_ability_icon_map(frames_xml: Path) -> dict[str, dict[str, int]]:
             label = item.get("name") or ""
             if label:
                 pending_labels.append(label)
+                pending_character_id = 0
         elif item_type == "PlaceObject2Tag":
             depth = int(item.get("depth") or 0)
             if item.get("placeFlagHasCharacter") == "true":
-                display[depth] = int(item.get("characterId") or 0)
+                character_id = int(item.get("characterId") or 0)
+                display[depth] = character_id
+                if pending_labels:
+                    pending_character_id = character_id
         elif item_type == "RemoveObject2Tag":
             display.pop(int(item.get("depth") or 0), None)
         elif item_type == "ShowFrameTag":
-            main_svg_id = display.get(3)
+            main_svg_id = pending_character_id or display.get(3)
             for label in pending_labels:
                 if label != "unknown":
                     icon_map[label] = {
@@ -143,6 +149,7 @@ def extract_ability_icon_map(frames_xml: Path) -> dict[str, dict[str, int]]:
                         "main_svg_id": main_svg_id or 0,
                     }
             pending_labels = []
+            pending_character_id = 0
             frame += 1
 
     return icon_map
@@ -184,7 +191,12 @@ def iter_active_defs(abilities_dir: Path):
 
 def build_manifest(project_root: Path, unpacked_root: Path, output: Path) -> tuple[int, int, int, Counter]:
     icon_map = extract_ability_icon_map(unpacked_root / "DefineSprite(AbilityIcon)" / "frames.xml")
-    names = read_names(project_root / "gpak-all" / "data" / "text" / "abilities.csv")
+    names = {}
+    text_dir = project_root / "gpak-all" / "data" / "text"
+    for text_file in ("abilities.csv", "enemy_abilities.csv", "items.csv"):
+        path = text_dir / text_file
+        if path.exists():
+            names.update(read_names(path))
 
     rows = []
     missing = 0

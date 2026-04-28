@@ -566,10 +566,10 @@
         "en_upgraded_description": ""
       },
       "manifest": {
-        "ability_id": "wp_TinaScream",
-        "display_name": "",
-        "tool_class": "colorless",
-        "icon_label": "wp_TinaScream",
+        "ability_id": "EvilIncarnate",
+        "display_name": "Evil Incarnate",
+        "tool_class": "necromancer",
+        "icon_label": "EvilIncarnate",
         "resolved_icon_label": "EvilIncarnate",
         "main_svg_id": "884",
         "main_svg_filename": "884.svg"
@@ -605,10 +605,10 @@
         "en_upgraded_description": ""
       },
       "manifest": {
-        "ability_id": "wp_TinaScream",
-        "display_name": "",
-        "tool_class": "colorless",
-        "icon_label": "wp_TinaScream",
+        "ability_id": "EvilIncarnate",
+        "display_name": "Evil Incarnate",
+        "tool_class": "necromancer",
+        "icon_label": "EvilIncarnate",
         "resolved_icon_label": "EvilIncarnate",
         "main_svg_id": "884",
         "main_svg_filename": "884.svg"
@@ -766,8 +766,8 @@
         "tool_class": "necromancer",
         "icon_label": "FleshGolem",
         "resolved_icon_label": "FleshGolem",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "927",
+        "main_svg_filename": "927.svg"
       },
       "numbers": {
         "raw": "0",
@@ -1858,8 +1858,8 @@
         "tool_class": "necromancer",
         "icon_label": "Weakness",
         "resolved_icon_label": "Weakness",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "882",
+        "main_svg_filename": "882.svg"
       },
       "numbers": {
         "raw": "5",

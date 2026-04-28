@@ -1078,8 +1078,8 @@
         "tool_class": "cleric",
         "icon_label": "WrathOfGod",
         "resolved_icon_label": "WrathOfGod",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "802",
+        "main_svg_filename": "802.svg"
       },
       "numbers": {
         "raw": "6 10",

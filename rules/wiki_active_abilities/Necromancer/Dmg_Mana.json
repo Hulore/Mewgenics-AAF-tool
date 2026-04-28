@@ -410,9 +410,9 @@
         "en_upgraded_description": ""
       },
       "manifest": {
-        "ability_id": "head_Pestilence",
-        "display_name": "",
-        "tool_class": "colorless",
+        "ability_id": "Pestilence",
+        "display_name": "Pestilence",
+        "tool_class": "necromancer",
         "icon_label": "Pestilence",
         "resolved_icon_label": "Pestilence",
         "main_svg_id": "881",
@@ -449,9 +449,9 @@
         "en_upgraded_description": ""
       },
       "manifest": {
-        "ability_id": "head_Pestilence",
-        "display_name": "",
-        "tool_class": "colorless",
+        "ability_id": "Pestilence",
+        "display_name": "Pestilence",
+        "tool_class": "necromancer",
         "icon_label": "Pestilence",
         "resolved_icon_label": "Pestilence",
         "main_svg_id": "881",

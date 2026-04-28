@@ -64,8 +64,8 @@
         "tool_class": "mage",
         "icon_label": "BlackMagic",
         "resolved_icon_label": "BlackMagic",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "771",
+        "main_svg_filename": "771.svg"
       },
       "numbers": {
         "raw": "1 0",
@@ -259,8 +259,8 @@
         "tool_class": "mage",
         "icon_label": "ChainLightning",
         "resolved_icon_label": "ChainLightning",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "751",
+        "main_svg_filename": "751.svg"
       },
       "numbers": {
         "raw": "4 7",
@@ -649,8 +649,8 @@
         "tool_class": "mage",
         "icon_label": "FireBolt",
         "resolved_icon_label": "FireBolt",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "756",
+        "main_svg_filename": "756.svg"
       },
       "numbers": {
         "raw": "3 8",
@@ -688,8 +688,8 @@
         "tool_class": "mage",
         "icon_label": "FireBolt",
         "resolved_icon_label": "FireBolt",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "756",
+        "main_svg_filename": "756.svg"
       },
       "numbers": {
         "raw": "5 8",
@@ -1351,8 +1351,8 @@
         "tool_class": "mage",
         "icon_label": "LightningSurge",
         "resolved_icon_label": "LightningSurge",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "762",
+        "main_svg_filename": "762.svg"
       },
       "numbers": {
         "raw": "2 5",
@@ -1390,8 +1390,8 @@
         "tool_class": "mage",
         "icon_label": "LightningSurge",
         "resolved_icon_label": "LightningSurge",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "762",
+        "main_svg_filename": "762.svg"
       },
       "numbers": {
         "raw": "3 5",
@@ -1819,8 +1819,8 @@
         "tool_class": "mage",
         "icon_label": "TriAttack",
         "resolved_icon_label": "TriAttack",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "766",
+        "main_svg_filename": "766.svg"
       },
       "numbers": {
         "raw": "3 7",

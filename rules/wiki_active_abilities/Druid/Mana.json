@@ -1039,8 +1039,8 @@
         "tool_class": "druid",
         "icon_label": "HardenSkin",
         "resolved_icon_label": "HardenSkin",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "1019",
+        "main_svg_filename": "1019.svg"
       },
       "numbers": {
         "raw": "6",
@@ -1078,8 +1078,8 @@
         "tool_class": "druid",
         "icon_label": "HardenSkin",
         "resolved_icon_label": "HardenSkin",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "1019",
+        "main_svg_filename": "1019.svg"
       },
       "numbers": {
         "raw": "3",
@@ -1117,8 +1117,8 @@
         "tool_class": "druid",
         "icon_label": "HydroPump",
         "resolved_icon_label": "HydroPump",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "1033",
+        "main_svg_filename": "1033.svg"
       },
       "numbers": {
         "raw": "4",

@@ -215,13 +215,13 @@
         "en_upgraded_description": "A 2-hit melee attack that inflicts -1 Damage and Bleed."
       },
       "manifest": {
-        "ability_id": "Dclaude_Declaw",
+        "ability_id": "Declaw",
         "display_name": "Declaw",
-        "tool_class": "colorless",
-        "icon_label": "Dclaude_Declaw",
-        "resolved_icon_label": "",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "tool_class": "thief",
+        "icon_label": "Declaw",
+        "resolved_icon_label": "Declaw",
+        "main_svg_id": "691",
+        "main_svg_filename": "691.svg"
       },
       "numbers": {
         "raw": "1 3",

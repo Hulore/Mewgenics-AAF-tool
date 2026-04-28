@@ -298,8 +298,8 @@
         "tool_class": "psychic",
         "icon_label": "FlashForward",
         "resolved_icon_label": "FlashForward",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "1131",
+        "main_svg_filename": "1131.svg"
       },
       "numbers": {
         "raw": "7",
@@ -337,8 +337,8 @@
         "tool_class": "psychic",
         "icon_label": "FlashForward",
         "resolved_icon_label": "FlashForward",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "1131",
+        "main_svg_filename": "1131.svg"
       },
       "numbers": {
         "raw": "4",
@@ -1424,13 +1424,13 @@
         "en_upgraded_description": ""
       },
       "manifest": {
-        "ability_id": "tk_Reset",
-        "display_name": "",
-        "tool_class": "colorless",
-        "icon_label": "tk_Reset",
+        "ability_id": "Reset",
+        "display_name": "Reset",
+        "tool_class": "psychic",
+        "icon_label": "Reset",
         "resolved_icon_label": "Reset",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "1150",
+        "main_svg_filename": "1150.svg"
       },
       "numbers": {
         "raw": "16",

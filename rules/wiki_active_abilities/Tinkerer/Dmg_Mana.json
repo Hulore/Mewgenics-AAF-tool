@@ -142,8 +142,8 @@
         "tool_class": "tinkerer",
         "icon_label": "RocketRide",
         "resolved_icon_label": "RocketRide",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "1212",
+        "main_svg_filename": "1212.svg"
       },
       "numbers": {
         "raw": "8 8",
@@ -181,8 +181,8 @@
         "tool_class": "tinkerer",
         "icon_label": "RocketRide",
         "resolved_icon_label": "RocketRide",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "1212",
+        "main_svg_filename": "1212.svg"
       },
       "numbers": {
         "raw": "8 5",
@@ -259,8 +259,8 @@
         "tool_class": "tinkerer",
         "icon_label": "ShockTherapy",
         "resolved_icon_label": "ShockTherapy",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "1201",
+        "main_svg_filename": "1201.svg"
       },
       "numbers": {
         "raw": "1 5",
@@ -493,8 +493,8 @@
         "tool_class": "tinkerer",
         "icon_label": "BatteryNuke",
         "resolved_icon_label": "BatteryNuke",
-        "main_svg_id": "",
-        "main_svg_filename": ""
+        "main_svg_id": "1203",
+        "main_svg_filename": "1203.svg"
       },
       "numbers": {
         "raw": "50 50",
