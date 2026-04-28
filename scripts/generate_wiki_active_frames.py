@@ -4,6 +4,7 @@ import argparse
 import csv
 import json
 import re
+import shutil
 import sys
 from copy import deepcopy
 from pathlib import Path
@@ -149,6 +150,14 @@ def generate(
     class_colors_path: Path | None,
     empty_main_svg: Path,
 ) -> tuple[int, list[str], list[str], dict[str, int]]:
+    if output_dir.exists():
+        for child in output_dir.iterdir():
+            if child.is_dir():
+                shutil.rmtree(child)
+            else:
+                child.unlink()
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     loaded_rules = load_frame_rules(frame_rules, class_colors_path)
     top_icon_rules = load_top_icon_rules(top_icon_rules_path)
     generated = 0
@@ -221,7 +230,6 @@ def generate(
                 }
             )
 
-    output_dir.mkdir(parents=True, exist_ok=True)
     manifest_path = output_dir / "generation_manifest.csv"
     with manifest_path.open("w", encoding="utf-8-sig", newline="") as file:
         fieldnames = [
