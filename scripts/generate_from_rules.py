@@ -13,6 +13,8 @@ try:
 except ImportError:  # pragma: no cover - local tool fallback
     ImageFont = None
 
+from scripts.vector_text import VectorFont
+
 
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
@@ -25,8 +27,22 @@ DEFAULT_FONT_PATHS = {
     ),
 }
 
+VECTOR_FONTS: dict[str, VectorFont] = {}
+
+
+def get_vector_font(font_family: str) -> VectorFont | None:
+    font_path = DEFAULT_FONT_PATHS.get(font_family)
+    if not font_path or not font_path.exists():
+        return None
+    if font_family not in VECTOR_FONTS:
+        VECTOR_FONTS[font_family] = VectorFont(font_path)
+    return VECTOR_FONTS[font_family]
+
 
 def text_width(text: str, font_size: float, font_family: str) -> float:
+    vector_font = get_vector_font(font_family)
+    if vector_font:
+        return vector_font.text_width(text, font_size)
     font_path = DEFAULT_FONT_PATHS.get(font_family)
     if ImageFont and font_path and font_path.exists():
         font = ImageFont.truetype(str(font_path), int(round(font_size)))
@@ -241,16 +257,6 @@ def build_from_rules(
             "version": "1.1",
         },
     )
-    text_font_families = {
-        layer.get("fontFamily")
-        for layer in rules.get("layers", [])
-        if layer.get("type") == "text" and layer.get("fontFamily")
-    }
-    style_text = font_face_style(text_font_families)
-    if style_text:
-        defs = ET.SubElement(root, f"{{{SVG_NS}}}defs")
-        style = ET.SubElement(defs, f"{{{SVG_NS}}}style", {"type": "text/css"})
-        style.text = style_text
     class_shader = class_data.get("shader")
     if class_shader == "jester_rainbow":
         add_jester_gradient(root, canvas)
@@ -301,34 +307,54 @@ def build_from_rules(
         )
 
         if layer.get("type") == "text":
+            font_family = layer.get("fontFamily", "sans-serif")
+            font_size = fitted_font_size(layer)
+            fill = layer.get("fill", "#000000")
+            vector_font = get_vector_font(font_family)
             box_width = layer.get("boxWidth")
             box_height = layer.get("boxHeight")
             if box_width and box_height:
-                text_attrs = {
-                    "x": str(float(box_width) / 2),
-                    "y": str(float(box_height) / 2),
-                    "fill": layer.get("fill", "#000000"),
-                    "font-family": layer.get("fontFamily", "sans-serif"),
-                    "font-size": str(fitted_font_size(layer)),
-                    "text-anchor": "middle",
-                    "dominant-baseline": "central",
-                }
+                x = float(box_width) / 2
+                y = float(box_height) / 2
+                anchor = "middle"
+                baseline = "central"
             else:
-                text_attrs = {
-                    "x": "0",
-                    "y": "0",
-                    "fill": layer.get("fill", "#000000"),
-                    "font-family": layer.get("fontFamily", "sans-serif"),
-                    "font-size": str(layer.get("fontSize", 12)),
-                    "text-anchor": layer.get("textAnchor", "start"),
-                    "dominant-baseline": "hanging",
-                }
-            text_node = ET.SubElement(
-                group,
-                f"{{{SVG_NS}}}text",
-                text_attrs,
-            )
-            text_node.text = str(layer.get("text", ""))
+                x = 0
+                y = 0
+                anchor = layer.get("textAnchor", "start")
+                baseline = "hanging"
+            if vector_font:
+                group.set("data-vector-text", str(layer.get("text", "")))
+                group.set("data-font-family", font_family)
+                group.set("data-font-size", str(font_size))
+                if box_width and box_height:
+                    group.set("data-box-width", str(box_width))
+                    group.set("data-box-height", str(box_height))
+                for text_path in vector_font.render_paths(
+                    str(layer.get("text", "")),
+                    x=x,
+                    y=y,
+                    font_size=font_size,
+                    fill=fill,
+                    anchor=anchor,
+                    dominant_baseline=baseline,
+                ):
+                    group.append(text_path)
+            else:
+                text_node = ET.SubElement(
+                    group,
+                    f"{{{SVG_NS}}}text",
+                    {
+                        "x": str(x),
+                        "y": str(y),
+                        "fill": fill,
+                        "font-family": font_family,
+                        "font-size": str(font_size),
+                        "text-anchor": anchor,
+                        "dominant-baseline": baseline,
+                    },
+                )
+                text_node.text = str(layer.get("text", ""))
             continue
 
         source = resolve_source(layer["source"], rules_dir, main_svg)

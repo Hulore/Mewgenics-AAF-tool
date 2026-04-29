@@ -14,6 +14,12 @@ This project is separate from `Mewgenics PAF tool` and only reads shared game ex
 
 ## Prototype workflow
 
+Install the Python dependencies once:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
 Generate the active manifest:
 
 ```powershell
@@ -71,4 +77,6 @@ python scripts\generate_all_actives.py
 
 The current `rules/active_manual.json` is a first-pass icon-frame layout. It uses the `AbilityIcon` background, main art, frame, and a temporary class color strip. The next pass should replace the placeholder class strip with the real `ABILITYICONSHELL_161` layers once the visual reference is matched.
 
-The real shell currently exposes six frame variants from sprite `2832`. They differ by the presence and layout of damage, mana, upgrade overlays, type icons, elements, and compact frame parts. The manual frame rules intentionally do not render text values yet; number slots and values live in JSON for the future GUI.
+The real shell currently exposes six frame variants from sprite `2832`. They differ by the presence and layout of damage, mana, upgrade overlays, type icons, elements, and compact frame parts.
+
+Active damage and mana numbers are emitted as SVG vector paths from the game number font. The generated SVGs keep the `damage_number_text` and `mana_number_text` group ids so downstream editors can still replace the value without depending on browser font loading.
