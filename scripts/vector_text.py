@@ -10,6 +10,7 @@ from fontTools.pens.svgPathPen import SVGPathPen
 
 
 SVG_NS = "http://www.w3.org/2000/svg"
+CENTRAL_BASELINE_Y_OFFSET = -0.7
 
 
 @dataclass(frozen=True)
@@ -92,7 +93,7 @@ class VectorFont:
 
         if dominant_baseline == "central" and bounds:
             bounds_center_y = ((bounds[1] + bounds[3]) / 2) * scale
-            baseline_y = y + bounds_center_y
+            baseline_y = y + bounds_center_y + CENTRAL_BASELINE_Y_OFFSET
         elif dominant_baseline == "central":
             baseline_y = y + ((self.ascent + self.descent) / 2) * scale
         else:
